@@ -1,0 +1,13 @@
+<%
+# Formulaire pour que je puisse choisir l'étape suivante de l'icarienne
+%>
+<%=
+
+  menu_etapes = [
+    ['', 'Choisir l’étape…']
+  ]
+  form do
+    menu_etapes.in_select(name: 'next_etape', id: "next_etape-#{icmodule.id}") +
+    'Changer l\'étape'.in_submit.in_div(class: 'buttons')
+  end
+%>

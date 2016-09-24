@@ -1,0 +1,38 @@
+<%
+# Vue pour écrire à l'administration du site
+page.description= "Contactez Phil de l'Atelier Icare."
+enable_comments
+%>
+<h1>Contact</h1>
+
+
+<%
+if param(:operation) && site.respond_to?(param(:operation).to_sym)
+  site.send(param(:operation).to_sym)
+end
+%>
+
+<% if site.current_mail.sent? %>
+  <%= big_message(["Votre message a été transmis avec succès.", "Merci à vous."], {ok: true}) %>
+<% else %>
+<%
+  site.require 'form_tools'
+  form.prefix = 'contact'
+%>
+<form id="form_contact" class="dim2080" action="site/contact" method="POST">
+  <%= "envoyer".in_hidden(name:'operation') %>
+  <%= form.field_text("Sujet", 'sujet', site.current_mail.subject) %>
+  <%= form.field_textarea("Message", 'message', site.current_mail.message) %>
+  <% if user.identified? %>
+    <%= user.mail.in_hidden(name:'contact[mail]') %>
+    <%= user.mail.in_hidden(name:'contact[mail_confirmation]') %>
+  <% else %>
+    <%= form.field_text("Votre mail", 'mail', site.current_mail.sender) %>
+    <%= form.field_text("Confirmation", 'mail_confirmation', site.current_mail.mail_confirmation) %>
+  <% end %>
+  <%= form.field_text("Anti-robot", 'captcha', "", {
+    class:'short', text_before: "Nombre de jours dans une année bisextile : ".in_span(class:'small')
+    }) %>
+  <%= form.submit_button("Envoyer") %>
+</form>
+<% end %>

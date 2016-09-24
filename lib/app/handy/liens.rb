@@ -1,0 +1,32 @@
+# encoding: UTF-8
+=begin
+
+# Si un lien est ajouté, il faut l'ajouter aussi à la section
+# liens de l'aide : ./lib/app/console/help_app.yml
+
+Extension de la classe Lien, pour l'application courante
+
+Rappel : c'est un singleton, on appelle les méthodes par :
+
+    lien.<nom méthode>[ <args>]
+
+=end
+class Lien
+
+  # Lien vers le bureau
+  def bureau titre = 'bureau', options = nil
+    build "bureau/home", titre, options
+  end
+
+  def modules titre = 'liste des modules d’apprentissage', options = nil
+    build 'abs_module/list', titre, options
+  end
+
+  def quai_des_docs titre = 'Quai des docs', options = nil
+    build "quai_des_docs/home", titre, options
+  end
+
+  def narration titre = "la collection Narration"
+    titre.in_a(href: "http://www.laboiteaoutilsdelauteur.fr/cnarration/home", target: :new)
+  end
+end

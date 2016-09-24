@@ -1,0 +1,46 @@
+<%
+# Notification permettant à l'administrateur d'attribuer un module
+# à un candidat, ce qui valide son inscription.
+#
+# Le formulaire permet aussi de refuser cette candidature.
+
+site.require_objet 'abs_module'
+liste_modules =
+  data.split(' ').collect do |mid|
+    AbsModule.new(mid.to_i)
+  end
+
+menu_modules =
+  (
+    'Choisir le module…'.in_option(value: '') +
+    liste_modules.collect do |mod|
+      mod.name.in_option(value: mod.id)
+    end.join +
+    'Aucun (refus)'.in_option(value: '')
+  ).in_select(id: "module_choisi-#{self.id}", name: 'module_choisi', onchange: "check_module_choisi(#{self.id}, this.value)")
+%>
+
+<%=
+id_div_refus = "div_motif_refus_watcher-#{self.id}"
+form do
+  "Attribuer à <strong>#{owner.pseudo}</strong> (##{owner.id}) le module :".in_legend +
+  menu_modules.in_div(class:'right') +
+  "<div id=\"#{id_div_refus}\" style='display:none'>" +
+    "Ou refuser l'inscription au motif de :".in_div +
+    ("".in_textarea(id: 'motif_refus', name: 'refus[motif]')).in_div(id: 'div_motif_refus') +
+    "Format ERB, donc HTML évalué".in_checkbox(name:'refus[format]').in_div(class: 'tiny') +
+  '</div>' +
+  'OK'.in_submit.in_div(class:'buttons')
+end
+%>
+<%
+# Un bout de code Javascript permettant d'ouvrir la section de refus
+# quand on choisit le menu "Aucun (refus)" dans le choix du module.
+%>
+<script type="text/javascript">
+check_module_choisi = function(watcher_id, val){
+  var div_jid = "div#div_motif_refus_watcher-"+watcher_id;
+  var o = $(div_jid);
+  if(val == ''){o.show()}else{o.hide()}
+}
+</script>

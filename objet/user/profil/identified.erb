@@ -1,0 +1,58 @@
+<%
+# Vue pour un user identifié et/ou administrateur
+%>
+<h1><%= user.id == id ? "Votre profil" : "Profil de #{pseudo}" %></h1>
+<%
+def div_row libelle, value, options = nil
+  options ||= Hash.new
+  options.merge!(class:'row')
+  (
+    libelle.in_span(class:'libelle') +
+    value.in_span(class:'value')
+  ).in_div(options)
+end
+def lien_modifier_mdp
+  @lien_modifier_mdp ||= 'Modifier le mot de passe'.in_a(href:'user/change_mdp')
+end
+%>
+
+<h3>Identité</h3>
+
+<div class="dim3070">
+  <%= div_row('Pseudo'        , pseudo ) %>
+  <%= div_row('Inscription'   , created_at.as_human_date(true, true) ) %>
+  <% if user.admin? %>
+    <%= div_row('Grade site', "Administra#{f_trice} de niveau #{get_option(:admin)}") %>
+  <% end %>
+  <%= div_row('Mot de passe', lien_modifier_mdp) %>
+  <%= div_row('Session ID'    , session_id, {class:'small'} ) %>
+</div>
+
+<%
+# ---------------------------------------------------------------------
+#   PRÉFÉRENCES
+# ---------------------------------------------------------------------
+%>
+<fieldset id="preferences">
+  <legend>Préférences</legend>
+  <form action="user/<%= user.id %>/profil" method="POST">
+    <%= 'save_preferences'.in_hidden(name:'operation') %>
+    <ul>
+      <%= ("Recevoir le mail des dernières actualités #{menu_mail_updates}" + lien.aide(4)).in_li %>
+      <%= ("Après l'identification, rejoindre #{menu_goto_after_signin}" + lien.aide(1)).in_li %>
+    </ul>
+    <%= "Enregistrer".in_submit(class: 'btn small discret').in_div(class: 'buttons') %>
+  </form>
+</fieldset>
+
+<% if user.admin? %><%= sous_vue('admin') %><% end %>
+
+
+<%
+# ------------- DESTRUCTION DU COMPTE ---------------
+%>
+<h3>Destruction du compte</h3>
+
+<div class="right air air">
+  <%= "Détruire le compte".in_a(href:"user/#{id}/destroy", class:'btn warning discret') %>
+</div>

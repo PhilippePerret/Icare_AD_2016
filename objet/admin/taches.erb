@@ -1,0 +1,10 @@
+<% raise_unless_admin %>
+
+<%= Admin::titre_h1("Votre TODO list, #{user.pseudo}") %>
+
+<%
+def todolist
+  @todolist ||= ::Admin::Taches.new(admin_id: user.id)
+end
+%>
+<%= todolist.list_taches(true) %>

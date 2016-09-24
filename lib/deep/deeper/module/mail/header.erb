@@ -1,0 +1,25 @@
+<%
+# Entête des messages mail
+%>
+<div id="logo"><%= site.name %></div>
+<%
+# ---------------------------------------------------------------------
+#   CITATION
+%>
+<div id="citation">
+  <%# Affichage d'une citation prise sur BOA %>
+  <%
+    Mail.instance_variable_get('@citation_courante') || begin
+      hquote = get_a_citation
+      q = hquote['citation'].strip_tags(' ')
+      current_quote =
+        (
+          "#{q}".in_span(id: 'quote_citation') +
+          hquote['auteur'].in_span(id: 'quote_auteur')
+        ).in_a(href: "#{site.url_boa}/citation/#{hquote['id']}/show")
+      Mail.instance_variable_set('@citation_courante', current_quote)
+    end
+  %>
+  <%= Mail.instance_variable_get('@citation_courante') %>
+</div>
+<div style="clear:both"></div>

@@ -1,0 +1,58 @@
+=== BENCHMARK DU 24 septembre 2016 à 11:24 ===
+=== Index start : 1474709083.394192 (2016-09-24 11:24:43 +0200)
+
+-> site/config.rb                                       0.000000  0.000000
+<- site/config.rb                                       0.000117  0.000117
+-> execute_preambule                                    0.018442  0.018559
+  -> User#proceed_login                                 0.009609  0.028168
+  <- User#proceed_login                                 0.001002  0.029170
+  -> User#do_after_load                                 0.000016  0.029186
+  <- User#do_after_load                                 0.000003  0.029189
+<- execute_preambule                                    0.000004  0.029193
+-> required.rb                                         -0.215885 -0.186692
+<- required.rb                                          0.215889  0.029197
+-> SiteHtml#output                                      0.000048  0.029245
+  -> SiteHtml#execute_route                             0.000005  0.029250
+      | Objet    = "user"                                               - 
+      | Objet ID = 83                                                   - 
+      | Method   = "deconnexion"                                        - 
+      | Context  = nil                                  0.000109  0.029359
+    --> user.set_last_connexion                         0.002126  0.031485
+    <-- user.set_last_connexion                         0.000091  0.031576
+    --> iroute.load_required                            0.000011  0.031587
+    <-- iroute.load_required                            0.000902  0.032489
+    --> iroute.load_per_vue                             0.000006  0.032495
+    <-- iroute.load_per_vue                             0.000089  0.032584
+    --> iroute.method_call                              0.000004  0.032588
+    -> User#deconnexion                                 0.000199  0.032787
+      -> User#proceed_login                             0.001735  0.034522
+      <- User#proceed_login                             0.000838  0.035360
+      -> SiteHtml#redirect_to                           0.000545  0.035905
+
+      | Redirection -> site/home                        0.000038  0.035943
+        -> SiteHtml#execute_route                       0.000097  0.036040
+      | Objet    = "site"                                               - 
+      | Objet ID = nil                                                  - 
+      | Method   = "home"                                               - 
+      | Context  = nil                                  0.000049  0.036089
+          --> user.set_last_connexion                   0.000197  0.036286
+          <-- user.set_last_connexion                   0.003246  0.039532
+          --> iroute.load_required                      0.000020  0.039552
+          <-- iroute.load_required                      0.000088  0.039640
+          --> iroute.load_per_vue                       0.000004  0.039644
+          <-- iroute.load_per_vue                       0.000929  0.040573
+          --> iroute.method_call                        0.000015  0.040588
+          <-- iroute.method_call                        0.000234  0.040822
+        <- SiteHtml#execute_route                       0.000007  0.040829
+      <- SiteHtml#redirect_to                           0.000004  0.040833
+    <- User#deconnexion                                 0.000007  0.040840
+    <-- iroute.method_call                              0.000005  0.040845
+  <- SiteHtml#execute_route                             0.000003  0.040848
+  -> Page#preload                                       0.000017  0.040865
+  <- Page#preload                                       0.247591  0.288456
+  -> Page#prebuild_body                                 0.000038  0.288494
+    -> Page#body                                        0.000006  0.288500
+    <- Page#body                                        0.000568  0.289068
+  <- Page#prebuild_body                                 0.000023  0.289091
+  CODE HTML FINAL BUILT                                 0.000115  0.289206
+<- SiteHtml#output                                      0.000006  0.289212

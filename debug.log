@@ -1,0 +1,143 @@
+
+
+=== DEBUG DU 24 09 2016 - 11:16:23 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+-- user.icetape.abs_etape.numero : 20
+-- undefined method `bind' for #<IcModule::IcEtape:0x007fd5e40ba5d8>
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/bureau/lib/module/section_current_work/helper_ica.rb:10:in `travail_propre_formated'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/bureau/lib/module/section_current_work/master.rb:69:in `section_etape_travail_propre'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/bureau/lib/module/section_current_work/master.rb:29:in `_section_current_work'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/bureau/home.rb:78:in `section_travail_auteur'
+(erb):54:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:114:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:114:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 24 09 2016 - 11:17:23 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+-- user.icetape.abs_etape.numero : 20
+
+
+=== DEBUG DU 24 09 2016 - 11:22:53 ===
+
+-- 
+Objet    = "user"
+Objet ID = 5
+Method   = "profil"
+Context  = nil
+
+
+=== DEBUG DU 24 09 2016 - 11:22:59 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "contact"
+Context  = nil
+
+
+=== DEBUG DU 24 09 2016 - 11:23:10 ===
+
+-- 
+Objet    = "user"
+Objet ID = 5
+Method   = "deconnexion"
+Context  = nil
+-- Redirection -> site/home
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 24 09 2016 - 11:23:15 ===
+
+-- 
+Objet    = "user"
+Objet ID = 1
+Method   = "profil"
+Context  = nil
+
+
+=== DEBUG DU 24 09 2016 - 11:23:38 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 24 09 2016 - 11:23:41 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "visit_as"
+Context  = nil
+
+
+=== DEBUG DU 24 09 2016 - 11:23:50 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "visit_as"
+Context  = nil
+
+
+=== DEBUG DU 24 09 2016 - 11:23:59 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+-- user.icetape.abs_etape.numero : 12
+
+
+=== DEBUG DU 24 09 2016 - 11:24:28 ===
+
+-- 
+Objet    = "user"
+Objet ID = 83
+Method   = "profil"
+Context  = nil
+
+
+=== DEBUG DU 24 09 2016 - 11:24:43 ===
+
+-- 
+Objet    = "user"
+Objet ID = 83
+Method   = "deconnexion"
+Context  = nil
+-- Redirection -> site/home
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "home"
+Context  = nil

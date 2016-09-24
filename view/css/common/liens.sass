@@ -1,0 +1,93 @@
+@import 'charte'
+
+*[onclick]
+  cursor        : pointer
+
+a, a:hover, a:link, a:visited
+  text-decoration       : none
+  font-family           : inherit
+  color                 : #4f606f // sera modifié ci-dessous pour les flash
+  font-weight           : normal
+  font-size             : inherit
+
+  &.warning
+    color               : red !important
+  &.strong
+    font-weight : bold !important
+
+  &.btn
+    &.tiny
+      font-size           : 11.3pt !important
+      padding             : 0.9px 11px 2.9px !important
+      letter-spacing      : 1px !important
+
+// Pour les liens sous forme de gros titre avec une première lettre
+// différente comme les liens principaux sur Boite Outils Auteur
+span.first_letter_main_link
+  font-size       : 24pt
+  color           : $darkcharte // #CAFF5B
+  font-weight     : bold
+  letter-spacing  : 3.1px
+span.other_letters_main_link
+  font-size       : 20pt
+  color           : #87D54D
+  font-weight     : bold
+  letter-spacing  : 3.1px
+
+a.small
+  span.first_letter_main_link
+    font-size       : 16pt
+    letter-spacing  : 7px
+  span.other_letters_main_link
+    font-size       : 12pt
+    letter-spacing  : 7px
+
+a.mainlink
+  &.current
+    opacity        : 0.2
+  &:hover
+    text-decoration   : underline
+
+flash
+  div.messages
+    a
+      color     : #8fa07f
+  div.errors
+    a
+      color     : white
+strong
+  a
+    font-weight : bold
+
+// Deux liens qui se suivent doivent toujours être séparés
+// NON : ÇA DÉCALE TROP LA MISE EN PAGE À PLEIN D'ENDROIT
+// a + a
+//   margin-left   : 0.3em
+
+// Pour hériter de tous les styles supérieurs
+// Mis ici pour les <a> mais peut fonctionner pour n'importe quel
+// élément DOM
+.inherit, .inherit:link, .inherit:visited, .inherit:hover
+  font-size         : inherit !important
+  font-family       : inherit !important
+  font-style        : inherit !important
+  font-weight       : inherit !important
+  color             : inherit !important
+  background-color  : inherit !important
+
+// Le lien du point d'interrogation pour l'aide ou information
+a.lkaide
+  margin          : 0 0.5em 0 0
+  vertical-align  : middle
+
+// Dans la section contenu, on met les liens en orange, sauf pour
+// les onglets
+section#content
+  a
+    &:link, &:visited, &:hover
+      color     : #ee9405 // à peine plus foncé que orange
+  // Les sections qui ne doivent pas avoir de liens en orange
+  ul.onglets, ul.tdm_in_page
+    a
+      &:link, &:visited, &:hover
+        color     : black

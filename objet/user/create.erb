@@ -1,0 +1,77 @@
+<%
+# Vue chargée lorsque l'user a pu s'inscrire
+#
+# On arrive une première fois dans ce fichier lorsque l'on a rempli
+# le formulaire d'identification, pour choisir ses modules et transmettre
+# ses documents de présentation.
+#
+# On repasse par cette vue pour finaliser son inscription avec le choix
+# des modules et la transmission des documents de présentation.
+%>
+<%
+# Est-ce la première partie de la finalisation (celle où on choisit le
+# module et on envoie ses documents de présentation) ou est-ce la
+# seconde ?
+# Cela est déterminé par la présence de l'argement :signup qui est mis
+# à 'fin' ou non. S'il est à 'fin', il faut finaliser l'inscription,
+# donc passer à la confirmation.
+#
+is_finalisation = param(:signup) == 'fin'
+modules_et_documents_presentation = !is_finalisation
+
+if is_finalisation
+  finalisation_reussie = User.finalisation_inscription_reussie
+  modules_et_documents_presentation = !finalisation_reussie
+end
+%>
+<% if modules_et_documents_presentation %>
+
+  <h1>Suite de l’inscription</h1>
+
+  <p class="tiny">N'oubliez pas de confirmer votre mail pour que votre inscription soit tout à fait prise en compte, grâce au message que vous allez recevoir incessamment sous peu.</p>
+
+  <%=
+    site.require 'form_tools'
+    form.prefix = 'documents_presentation'
+    (
+      titre_choix_modules +
+      liste_modules_checkboxable +
+      titre_documents_presentation +
+      'fin'.in_hidden(name:'signup') +
+      form.field_file("Votre présentation", 'presentation') +
+      form.field_file("Lettre de motivation", 'motivation') +
+      form.field_file("Extrait optionnel", 'extrait') +
+      form.submit_button('Finaliser l’inscription')
+    ).in_form(
+        class: 'dim3070',
+        id:     'form_documents_et_modules',
+        file:   true,
+        action: 'user/create'
+        )
+  %>
+
+<%
+else
+  # Si on en est à la finalisation de l'inscription et qu'elle a
+  # réussi
+%>
+<h1>Bienvenue à l'atelier Icare, <%= user.pseudo %> !</h1>
+<%
+# ---------------------------------------------------------------------
+#   PAGE DE FIN DE L'INSCRIPTION
+# ---------------------------------------------------------------------
+%>
+<p>
+  Votre candidature a bien été enregistrée. Une réponse va vous être envoyée sous quelques jours.
+</p>
+<p>
+  En attendant, si ça n'est déjà fait, vous pouvez prendre connaissance du fonctionnement de l'atelier grâce aux <%= 'éléments de présentation'.in_a(href: 'overview/home') %> ou grâce à l' <%= 'aide du site'.in_a(href: 'aide/home') %>.
+</p>
+<p>
+  En espérant vous compter bientôt parmi nous,
+</p>
+<p>
+  Le Bot de l'atelier Icare
+</p>
+
+<% end %>

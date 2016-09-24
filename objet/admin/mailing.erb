@@ -1,0 +1,24 @@
+<%
+# Mailing list administration
+#
+raise_unless_admin
+%>
+<%= Admin::Mailing.titre_h1(Admin::Mailing.sous_titre) %>
+
+<%
+  debug "param(:operation) : #{param(:operation).inspect}"
+  #
+  # Exécution de l'opération, si définie
+  #
+  param(:operation).nil? || Admin::Mailing.exec_operation
+%>
+<%
+#
+# Contenu dynamique de la vue en fonction du stade où on se
+# trouve.
+#
+%>
+<%= Admin::Mailing.content %>
+
+<h3>Variables utilisables dans les messages</h3>
+<%= Admin::Mailing.div_variables_template %>

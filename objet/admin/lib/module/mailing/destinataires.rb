@@ -1,0 +1,52 @@
+# encoding: UTF-8
+class Admin
+class Mailing
+class << self
+
+  # RETURN la liste des instances des icariens à qui il faut envoyer
+  # le message.
+  def destinataires
+    @destinataires ||= begin
+      dbtable_users.select(where: clause_where, colonnes: []).collect do |huser|
+        User.new(huser[:id])
+      end
+    end
+  end
+
+  def clause_where
+    # Clause WHERE en fonction des clés
+    # Défini par le 17e bit (bit 16) des options
+    # et le 25e bit (bit 24) pour la réalité
+    clause16 = Array.new
+    clause24 = Array.new
+    KEYS_DESTINATAIRES.each do |ictype, dtype|
+      if dtype[:checked]
+        bit16, bit24 =
+          case ictype
+          when :all       then  [nil, nil]
+          when :actif     then  [2, 1]
+          when :ancien    then  [4, 1]
+          when :enpause   then  [3, 1]
+          when :alessai   then  [nil, 0]
+          when :real      then  [nil, 1]
+          end
+      end
+      if bit16
+        clause16 << "SUBSTRING(options,17,1) = #{bit16}"
+      end
+      if bit24
+        clause24 << "SUBSTRING(options,25,1) = #{bit24}"
+      end
+    end
+    debug "clause16 : #{clause16.inspect}"
+    debug "clause24 : #{clause24.inspect}"
+    clauses = Array.new
+    return nil if clause16.empty? && clause24.empty?
+    clause16.empty? || clauses << "( #{clause16.join(' OR ')} )"
+    clause24.empty? || clauses << "( #{clause24.join(' OR ')} )"
+    clauses.join(' AND ')
+  end
+
+end #<< self
+end #/ Mailing
+end #/ Admin
