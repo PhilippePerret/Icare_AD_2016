@@ -26,6 +26,12 @@ class User
       when :grade         then [1, '@grade']
       when :confirm_mail  then [2, nil]
       when :destroyed     then [3, nil]
+      when :contact       then [4, nil]
+        # :contact peut avoir différentes valeur en fonction de
+        # l'application, mais il permet de définir comment l'user
+        # veut être contacté par mail (quotidiennement, hebdomadairement,
+        # etc.)
+        # Pour icare, cf. OPTION 5 ci-dessous
       else
         # Peut-être défini en propre pour l'application courante dans
         # le fichier `./objet/site/config.rb`
@@ -65,6 +71,14 @@ class User
   # OPTION 4 (indice 3)
   def bit_destroyed
     get_option(:destroyed)
+  end
+
+  # OPTION 5 (index 4)
+  #   0   Veut recevoir le mail quotidien (défaut)
+  #   1   Veut recevoir le mail seulement 1 fois par semaine
+  #   9   Ne veut recevoir aucun mail
+  def bit_mail_actu
+    get_option(:contact)
   end
 
   # Définir la valeur d'une option

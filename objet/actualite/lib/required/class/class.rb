@@ -25,6 +25,7 @@ class Actualite
     def create dactu
       dactu.instance_of?(Hash) || dactu = data_actualite_from_symbol(dactu)
       dactu[:user_id] ||= user.id
+      dactu[:status]  ||= 1
       dactu[:data].nil? || begin
         case dactu[:data]
         when String then nil # déjà jsonné

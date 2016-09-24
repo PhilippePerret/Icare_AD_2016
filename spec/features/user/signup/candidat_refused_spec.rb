@@ -51,15 +51,16 @@ feature "Refus d'un candidat" do
     expect(dbtable_watchers.count(where: {id: wid})).to eq 0
     success 'Le watcher a été détruit.'
 
-    # L'user a reçu un mail
-    @sim = sim
-    def Newu chaine; Someone.new(@sim.user.pseudo, chaine) end
+    # L'user a reçu un mail de confirmation
     data_mail = {
       sent_after: start_time,
       subject:    'Refus de candidature',
       message:    ['Nous avons le regret de vous annoncer que votre candidature à l\'atelier Icare vient d\'être malheureusement refusée']
     }
-    Newu recoit le mail data_mail
+
+    Phil ne recoit pas le mail data_mail
+
+    sim.user recoit le mail data_mail
 
   end
 

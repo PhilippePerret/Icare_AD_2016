@@ -87,7 +87,7 @@ class Watcher
     user_mail? || (return true)
     @subject_mail = nil # dans le cas où il aurait été défini pour le mail admin
     # Cf. explication ci-dessus
-    mail_message = mail_message_for :user
+    mail_message = mail_message_for(:user)
     owner.send_mail(
       subject:  subject_mail,
       message:  mail_message,

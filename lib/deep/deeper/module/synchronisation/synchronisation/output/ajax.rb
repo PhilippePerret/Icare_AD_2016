@@ -31,10 +31,10 @@ class Ope
     attr_accessor :path
     def upload
       @message = Array.new
-      @message << "-> upload"
+      # @message << "-> upload"
       # @message << "serveur_ssh : #{serveur_ssh}"
       # @message << "real_path : #{real_path}"
-      `ssh #{serveur_ssh} "mkdir -p #{File.dirname(path_no_dot)}"`
+      `ssh #{serveur_ssh} "mkdir -p #{File.dirname(remote_path)}"`
       `scp -p #{real_path} #{serveur_ssh}:#{remote_path}`
       @success = distant_file_exists?
       @message << "Upload du fichier #{path} "
