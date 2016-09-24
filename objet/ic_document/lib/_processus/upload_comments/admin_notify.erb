@@ -10,7 +10,7 @@
       "Icarien  : #{icdocument.owner.pseudo} (##{icdocument.owner.id})\n" +
       "Document : #{icdocument.original_name} (##{icdocument.id})\n" +
       "Étape    : #{icdocument.icetape.abs_etape.numero} - Module #{icdocument.icmodule.abs_module.name}"
-    ).in_pre(class: 'small') +
+    ).in_pre(class: 'small').in_div +
     'Commentaires : '.in_input_file(name: 'comments[file]', id: "comments_file-#{icdocument.id}").in_div(id: div_file_id) +
     'Pas de commentaire pour ce document'.in_checkbox(onclick: "$('div##{div_file_id}').toggle()", name: 'comments[none]', id: "comments_none-#{icdocument.id}").in_div +
     'OK'.in_submit.in_div(class: 'buttons')
