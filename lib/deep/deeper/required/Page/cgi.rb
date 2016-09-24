@@ -5,6 +5,6 @@ Partie CGI de la page
 require 'cgi'
 class Page
   def cgi
-    @cgi ||= CGI::new('html4')
+    @cgi ||= CGI.new('html4')
   end
 end

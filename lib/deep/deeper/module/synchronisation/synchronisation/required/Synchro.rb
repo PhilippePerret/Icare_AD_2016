@@ -32,26 +32,21 @@ class Synchro
   #
   def check_synchro
 
-
-    #
     # Relève les fichiers et dates sur le site local
     #
     debug "--> check_folders_offline"
     check_folders_offline
 
-    #
     # Relève les fichiers et les dates sur le site distant
     #
     debug "--> check_folders_online"
     check_folders_online
 
-    #
     # Construire le résultat
     #
     debug "--> build_result"
     build_result
 
-    #
     # L'ouvrir dans le navigateur
     #
     debug "--> open_result"
@@ -98,13 +93,13 @@ class Synchro
 
 
   def open_result
-    # `open -a Firefox "#{path_html_file}"`
-    # Pour bénéficier d'ajax
+    app.benchmark('-> Synchro#open_result')
     app_path = File.expand_path(".")
     sync_path = File.expand_path(folder.to_s)
     rel_path = sync_path.sub(/^#{app_path}\//,'')
-    fin_path = "http://localhost/#{app_name}/#{rel_path}/output/#{name_html_file}"
-    `open #{fin_path}`
+    fin_path = "#{base}/#{rel_path}/output/#{name_html_file}"
+    `open -a Firefox "#{fin_path}"`
+    app.benchmark('<- Synchro#open_result')
   end
 
   ##
@@ -163,7 +158,7 @@ class Synchro
       app_ignored_files.each do |p|
         p = p.strip
         if File.directory? p
-          raise "Synchro::app_ignored_files est mal défini dans data_synchro.rb : Elle ne devrait contenir que des fichiers, pas de dossier."
+          raise "Synchro.app_ignored_files est mal défini dans data_synchro.rb : Elle ne devrait contenir que des fichiers, pas de dossier."
         else
           h.merge!( p => true )
         end

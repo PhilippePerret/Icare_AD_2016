@@ -1,89 +1,30 @@
 
 
-=== DEBUG DU 24 09 2016 - 11:16:23 ===
+=== DEBUG DU 24 09 2016 - 15:55:41 ===
 
 -- 
-Objet    = "bureau"
+Objet    = "admin"
 Objet ID = nil
-Method   = "home"
+Method   = "dashboard"
 Context  = nil
--- user.icetape.abs_etape.numero : 20
--- undefined method `bind' for #<IcModule::IcEtape:0x007fd5e40ba5d8>
+-- Dossier . : /Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/module/synchronisation
+-- cannot load such file -- synchronisation
 
-/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/bureau/lib/module/section_current_work/helper_ica.rb:10:in `travail_propre_formated'
-/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/bureau/lib/module/section_current_work/master.rb:69:in `section_etape_travail_propre'
-/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/bureau/lib/module/section_current_work/master.rb:29:in `_section_current_work'
-/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/bureau/home.rb:78:in `section_travail_auteur'
-(erb):54:in `result'
-/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
-/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
-/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:114:in `deserb'
-/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
-/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
-(erb):5:in `result'
-/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
-/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
-/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:114:in `deserb'
-/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
-/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
-/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/dashboard.rb:16:in `block in <top (required)>'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/dashboard.rb:14:in `chdir'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/dashboard.rb:14:in `<top (required)>'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:22:in `require_ruby'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:15:in `require_all'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:330:in `load_per_vue'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:103:in `execute_route'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'
 /Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
-
-
-=== DEBUG DU 24 09 2016 - 11:17:23 ===
-
--- 
-Objet    = "bureau"
-Objet ID = nil
-Method   = "home"
-Context  = nil
--- user.icetape.abs_etape.numero : 20
-
-
-=== DEBUG DU 24 09 2016 - 11:22:53 ===
-
--- 
-Objet    = "user"
-Objet ID = 5
-Method   = "profil"
-Context  = nil
-
-
-=== DEBUG DU 24 09 2016 - 11:22:59 ===
-
--- 
-Objet    = "site"
-Objet ID = nil
-Method   = "contact"
-Context  = nil
-
-
-=== DEBUG DU 24 09 2016 - 11:23:10 ===
-
--- 
-Objet    = "user"
-Objet ID = 5
-Method   = "deconnexion"
-Context  = nil
--- Redirection -> site/home
--- 
-Objet    = "site"
-Objet ID = nil
-Method   = "home"
-Context  = nil
-
-
-=== DEBUG DU 24 09 2016 - 11:23:15 ===
-
--- 
-Objet    = "user"
-Objet ID = 1
-Method   = "profil"
-Context  = nil
-
-
-=== DEBUG DU 24 09 2016 - 11:23:38 ===
-
+-- Redirection -> bureau/home
 -- 
 Objet    = "bureau"
 Objet ID = nil
@@ -91,53 +32,242 @@ Method   = "home"
 Context  = nil
 
 
-=== DEBUG DU 24 09 2016 - 11:23:41 ===
+=== DEBUG DU 24 09 2016 - 15:56:30 ===
 
 -- 
 Objet    = "admin"
 Objet ID = nil
-Method   = "visit_as"
+Method   = "dashboard"
 Context  = nil
+-- Dossier . : /Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/module/synchronisation
+-- cannot load such file -- ./objet/site/data_synchro
 
-
-=== DEBUG DU 24 09 2016 - 11:23:50 ===
-
--- 
-Objet    = "admin"
-Objet ID = nil
-Method   = "visit_as"
-Context  = nil
-
-
-=== DEBUG DU 24 09 2016 - 11:23:59 ===
-
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/module/synchronisation/synchronisation/required/Synchro.rb:9:in `<top (required)>'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/module/synchronisation/synchronisation/required.rb:4:in `block in <top (required)>'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/module/synchronisation/synchronisation/required.rb:4:in `each'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/module/synchronisation/synchronisation/required.rb:4:in `<top (required)>'
+synchronisation.rb:17:in `require_relative'
+synchronisation.rb:17:in `<top (required)>'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/dashboard.rb:16:in `load'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/dashboard.rb:16:in `block in <top (required)>'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/dashboard.rb:14:in `chdir'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/dashboard.rb:14:in `<top (required)>'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:22:in `require_ruby'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:15:in `require_all'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:330:in `load_per_vue'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:103:in `execute_route'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+-- Redirection -> bureau/home
 -- 
 Objet    = "bureau"
 Objet ID = nil
 Method   = "home"
 Context  = nil
--- user.icetape.abs_etape.numero : 12
 
 
-=== DEBUG DU 24 09 2016 - 11:24:28 ===
+=== DEBUG DU 24 09 2016 - 15:57:13 ===
 
 -- 
-Objet    = "user"
-Objet ID = 83
-Method   = "profil"
+Objet    = "admin"
+Objet ID = nil
+Method   = "dashboard"
+Context  = nil
+-- --> check_folders_offline
+-- --> check_folders_online
+-- --> build_result
+-- --> open_result
+-- Redirection -> bureau/home
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
 Context  = nil
 
 
-=== DEBUG DU 24 09 2016 - 11:24:43 ===
+=== DEBUG DU 24 09 2016 - 15:58:38 ===
 
 -- 
-Objet    = "user"
-Objet ID = 83
-Method   = "deconnexion"
+Objet    = "admin"
+Objet ID = nil
+Method   = "dashboard"
 Context  = nil
--- Redirection -> site/home
+-- --> check_folders_offline
+-- --> check_folders_online
+-- --> build_result
+-- undefined local variable or method `base' for #<Synchro::Output:0x007fb7d20fdc78>
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/module/synchronisation/synchronisation/required/output.rb:256:in `block in tags_scripts_js'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/module/synchronisation/synchronisation/required/output.rb:249:in `collect'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/module/synchronisation/synchronisation/required/output.rb:249:in `tags_scripts_js'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/module/synchronisation/synchronisation/required/output.rb:241:in `javascript'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/module/synchronisation/synchronisation/required/output.rb:178:in `head_html'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/module/synchronisation/synchronisation/required/output.rb:100:in `open_document'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/module/synchronisation/synchronisation/required/output.rb:30:in `build_html_file'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/module/synchronisation/synchronisation/required/Synchro.rb:91:in `build_result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/module/synchronisation/synchronisation/required/Synchro.rb:48:in `check_synchro'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/module/synchronisation/synchronisation.rb:37:in `<top (required)>'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/dashboard.rb:14:in `<top (required)>'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:22:in `require_ruby'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:15:in `require_all'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:330:in `load_per_vue'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:103:in `execute_route'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+-- Redirection -> bureau/home
 -- 
-Objet    = "site"
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 24 09 2016 - 15:59:04 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "dashboard"
+Context  = nil
+-- --> check_folders_offline
+-- --> check_folders_online
+-- --> build_result
+-- undefined method `base' for Synchro:Class
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/module/synchronisation/synchronisation/required/output.rb:256:in `block in tags_scripts_js'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/module/synchronisation/synchronisation/required/output.rb:249:in `collect'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/module/synchronisation/synchronisation/required/output.rb:249:in `tags_scripts_js'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/module/synchronisation/synchronisation/required/output.rb:241:in `javascript'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/module/synchronisation/synchronisation/required/output.rb:178:in `head_html'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/module/synchronisation/synchronisation/required/output.rb:100:in `open_document'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/module/synchronisation/synchronisation/required/output.rb:30:in `build_html_file'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/module/synchronisation/synchronisation/required/Synchro.rb:91:in `build_result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/module/synchronisation/synchronisation/required/Synchro.rb:48:in `check_synchro'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/module/synchronisation/synchronisation.rb:37:in `<top (required)>'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/dashboard.rb:14:in `<top (required)>'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:22:in `require_ruby'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:15:in `require_all'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:330:in `load_per_vue'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:103:in `execute_route'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+-- Redirection -> bureau/home
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 24 09 2016 - 15:59:30 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "dashboard"
+Context  = nil
+-- --> check_folders_offline
+-- --> check_folders_online
+-- --> build_result
+-- --> open_result
+-- Redirection -> bureau/home
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 24 09 2016 - 16:12:25 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "dashboard"
+Context  = nil
+-- --> check_folders_offline
+-- --> check_folders_online
+-- --> build_result
+-- --> open_result
+-- Redirection -> bureau/home
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 24 09 2016 - 16:15:08 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "dashboard"
+Context  = nil
+-- --> check_folders_offline
+-- --> check_folders_online
+-- --> build_result
+-- --> open_result
+-- Redirection -> bureau/home
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 24 09 2016 - 16:26:47 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "dashboard"
+Context  = nil
+-- --> check_folders_offline
+-- --> check_folders_online
+-- --> build_result
+-- --> open_result
+-- Redirection -> bureau/home
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 24 09 2016 - 16:38:00 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "dashboard"
+Context  = nil
+-- --> check_folders_offline
+-- --> check_folders_online
+-- --> build_result
+-- --> open_result
+-- Redirection -> bureau/home
+-- 
+Objet    = "bureau"
 Objet ID = nil
 Method   = "home"
 Context  = nil

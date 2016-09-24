@@ -3,12 +3,10 @@ class AbsModule
 class AbsEtape
   include MethodesMySQL
 
-  def initialize id
-    @id = id
-  end
+  def initialize id; @id = id end
 
   def table; @table ||= dbtable_absetapes end
-  
+
   def bind; binding() end
 
 

@@ -12,7 +12,8 @@ class << self
       'Édition des Modules d’apprentissage'.in_a(href: 'abs_module/edit').in_div +
       'Édition des WATCHERS'.in_a(href: 'watcher/edit').in_div +
       'Mailing list'.in_a(href: 'admin/mailing').in_div +
-      'Visite le site comme…'.in_a(href: 'admin/visit_as').in_div
+      'Visite le site comme…'.in_a(href: 'admin/visit_as').in_div +
+      'Check SYNCHRO'.in_a(href: 'admin/dashboard?opadmin=check_synchro').in_div
     ).in_div
   end
 end #/<< self

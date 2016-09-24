@@ -11,6 +11,8 @@ class AbsTravailType
 
   def table ; @table ||= self.class.table end
 
+  def bind ; binding() end
+
 end #/AbsTravailType
 end #/AbsEtape
 end #/AbsModule

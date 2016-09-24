@@ -15,7 +15,7 @@ class Page
       # RIEN NE PEUT PASSER ICI
     else
       # Retour d'une requête ajax
-      Ajax::output
+      Ajax.output
     end
   end
 

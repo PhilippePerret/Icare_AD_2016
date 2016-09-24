@@ -5,13 +5,9 @@ class AbsEtape
 
 class << self
 
-  def table
-    @table ||= site.dbm_table(:modules, 'absetapes')
-  end
+  def table ; @table ||= site.dbm_table(:modules, 'absetapes') end
 
-  def titre
-    @titre ||= "Étape d'apprentissage"
-  end
+  def titre ; @titre ||= "Étape d'apprentissage" end
 
   def data_onglets
     {}

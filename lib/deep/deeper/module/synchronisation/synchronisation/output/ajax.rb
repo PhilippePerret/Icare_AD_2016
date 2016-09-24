@@ -3,7 +3,9 @@
 
 =begin
 
-Script qui reçoit la requête ajax
+  Script qui reçoit la requête ajax
+
+  IL FAUT QU'IL SOIT EXÉCUTABLE
 
 =end
 require 'json'
@@ -12,14 +14,14 @@ require 'cgi'
 def synchro
   @synchro ||= begin
     require '../../../../../../../objet/site/data_synchro'
-    Synchro::new
+    Synchro.new
   end
 end
 def serveur_ssh
   @serveur_ssh ||= synchro.serveur_ssh
 end
 
-cgi = CGI::new('html4')
+cgi = CGI.new('html4')
 request = cgi["request"]
 path    = cgi["path"]
 
@@ -28,11 +30,16 @@ class Ope
     attr_reader :message, :success
     attr_accessor :path
     def upload
-      `ssh #{serveur_ssh} "ruby scripts_ssh/folders_up_to.rb '#{File.dirname(path_no_dot)}'"`
+      @message = Array.new
+      @message << "-> upload"
+      # @message << "serveur_ssh : #{serveur_ssh}"
+      # @message << "real_path : #{real_path}"
+      `ssh #{serveur_ssh} "mkdir -p #{File.dirname(path_no_dot)}"`
       `scp -p #{real_path} #{serveur_ssh}:#{remote_path}`
       @success = distant_file_exists?
-      @message = "Upload du fichier #{path} "
+      @message << "Upload du fichier #{path} "
       @message << (@success ? "opéré avec succès" : "manqué…")
+      @message = @message.join('<br>')
     end
     def download
       folders_up_to path_no_dot
@@ -96,10 +103,10 @@ class Ope
     end
   end
 end
-Ope::path = path
-Ope::send(request.to_sym)
+Ope.path = path
+Ope.send(request.to_sym)
 
-data = {message: "#{Ope::message}", success: Ope::success}.to_json
+data = {request: request, message: "#{Ope.message}", success: Ope.success}.to_json
 # puts
 STDOUT.write "Content-type: application/json; charset:utf-8;\n\n"
 STDOUT.write data

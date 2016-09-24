@@ -2,11 +2,13 @@
 * Nicolas Dufourg   : crapette
 * Emmanuelle Badina : crapette
 
+* IMPÉRATIF : Implémenter le check de la synchro
 * IMPÉRATIF : Implémenter le watcher de changement d'étape
 * IMPÉRATIF : Cron job pour actualités
-* IMPÉRATIF : Pouvoir "visiter comme…" (en utilisant la méthode )
 
 
+* Pour le moment, je ne prends que le travail du travail-type (les titres et les objectifs sont déjà rassemblés). Il faut faire un traitement pour obtenir la méthode. En fait, elle peut être "ramassée" en construisant le travail puisqu'elle sera affichée après.
+* Faire un watcher admin pour le paiement, qui n'est affiché que lorsque l'icarien doit payer.
 * Dans le bureau admin, regrouper les watchers par user (il suffit de les relever dans la base en les ordonnant par user_id).
 * Ajouter le QDD aux outils de l'icarien
 * QDD Poursuivre le set_cote.rb

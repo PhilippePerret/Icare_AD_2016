@@ -24,7 +24,7 @@ class AbsEtape
         end
       end
     introduction +
-    (listing_docs || "Pour le moment, aucun document n’a été produit, car vous êtes #{user.femme? ? 'la' : 'le'} prem#{user.f_iere} icarien#{user.f_ne} à avoir besoin de passer par cette étape en particulier (rassurez-vous, ça n'est pas une honte ! :-) Ce sont simplement les aléas du développement d'un projet).".in_p)
+    (listing_docs || "Pour le moment, aucun document n’a été produit ou partagé pour cette étape en particulier.".in_p)
   end
 
 end #/IcEtape
