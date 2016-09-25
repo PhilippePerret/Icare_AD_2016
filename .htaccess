@@ -10,9 +10,9 @@ RewriteEngine on
 # === REDIRECTION : EN CHANTIER ===
 # Tout rediriger vers index.html le temps d'installer la nouvelle
 # version de l'atelier. Mais ça doit être valable sauf pour mon IP
-RewriteCond %{REMOTE_ADDR} !^::1
-RewriteCond %{REMOTE_ADDR} !^5\.50\.38\.1
-RewriteRule ^(.*)$ index.html [L]
+#RewriteCond %{REMOTE_ADDR} !^::1
+#RewriteCond %{REMOTE_ADDR} !^5\.50\.38\.1
+#RewriteRule ^(.*)$ index.html [L]
 
 # === REDIRECTION ANCIENNES ADRESSES ===
 RewriteRule ^LAF=(.*)$ http://www.laboiteaoutilsdelauteur.fr/filmodico/list [R=301,L]

@@ -3,8 +3,10 @@
 * Emmanuelle Badina : crapette
 
 * IMPÉRATIF : Le mail de refus doit être envoyé à l'user, pas à moi
+* IMPÉRATIF : Mise en page pour horribles PC (citation ne comprend même pas la propriété inherit de couleur + les div font n'importe quoi, comme toujours sur windows — cf. avec l'ordinateur merdique de la petite Marion)
 * IMPÉRATIF : Cron job pour actualités (POURSUIVRE)
 * IMPÉRATIF : Implémenter le watcher de changement d'étape
+
 
 * Ne mettre l'outil "check synchro" qu'en OFFLINE
 

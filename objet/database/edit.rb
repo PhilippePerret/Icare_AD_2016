@@ -57,7 +57,7 @@ when 'exec_db_request'
   # = AJAX =
   # Exécution de la requête demandée sur la table choisie
   pure_mysql_code = param(:pure_mysql) == 'on' # pour savoir si c'est du pure code MySQL
-  code =  "site.dbm_table(:#{param(:dbname)}, '#{param(:tblname)}', #{(param(:online) == 'on').inspect})"
+  code =  "site.dbm_table(:#{param(:dbname)}, '#{param(:tblname)}', #{((param(:online) == '1' || ONLINE)).inspect})"
   code += ".#{param :request}"
   # debug "code : #{code.inspect}"
   begin

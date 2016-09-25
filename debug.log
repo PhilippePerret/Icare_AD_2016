@@ -1,104 +1,14 @@
 
 
-=== DEBUG DU 24 09 2016 - 18:49:45 ===
-
--- Re-lecture du fichier HTML
-
-
-=== DEBUG DU 24 09 2016 - 18:49:46 ===
+=== DEBUG DU 25 09 2016 - 09:14:22 ===
 
 -- 
-Objet    = "user"
+Objet    = "database"
 Objet ID = nil
-Method   = "signin"
+Method   = "edit"
 Context  = nil
-
-
-=== DEBUG DU 24 09 2016 - 18:49:47 ===
-
--- 
-Objet    = "user"
-Objet ID = nil
-Method   = "login"
-Context  = nil
--- Redirection -> bureau/home
--- 
-Objet    = "bureau"
-Objet ID = nil
-Method   = "home"
-Context  = nil
-
-
-=== DEBUG DU 24 09 2016 - 18:49:51 ===
-
--- 
-Objet    = "watcher"
-Objet ID = 3
-Method   = "run"
-Context  = nil
--- Choix ambigu : il faut choisir le module à attribuer ou écrire le motif de refus !
-
-/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/watcher/lib/module/running/main.rb:36:in `instance_eval'
-/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/watcher/lib/module/running/main.rb:36:in `instance_eval'
-/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/watcher/lib/module/running/main.rb:36:in `execute_main_file'
-/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/watcher/lib/module/running/main.rb:17:in `_run'
-/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/watcher/lib/required/instance/actions.rb:16:in `run'
-/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/watcher/run.rb:13:in `<top (required)>'
-/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
-/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
-/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'
-/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:22:in `require_ruby'
-/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:15:in `require_all'
-/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:330:in `load_per_vue'
-/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:103:in `execute_route'
-/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'
-/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
--- Redirection -> bureau/home
--- 
-Objet    = "bureau"
-Objet ID = nil
-Method   = "home"
-Context  = nil
-
-
-=== DEBUG DU 24 09 2016 - 18:49:59 ===
-
--- 
-Objet    = "watcher"
-Objet ID = 3
-Method   = "run"
-Context  = nil
--- Redirection -> bureau/home
--- 
-Objet    = "bureau"
-Objet ID = nil
-Method   = "home"
-Context  = nil
-
-
-=== DEBUG DU 24 09 2016 - 18:50:58 ===
-
--- 
-Objet    = "bureau"
-Objet ID = nil
-Method   = "home"
-Context  = nil
-
-
-=== DEBUG DU 24 09 2016 - 18:51:02 ===
-
--- 
-Objet    = "admin"
-Objet ID = nil
-Method   = "dashboard"
-Context  = nil
--- --> check_folders_offline
--- --> check_folders_online
--- --> build_result
--- --> open_result
--- Redirection -> bureau/home
--- 
-Objet    = "bureau"
-Objet ID = nil
-Method   = "home"
-Context  = nil
+-- -> select
+-- <- select
+-- -> select
+-- <- select
+-- options: {}

@@ -18,7 +18,7 @@ $.extend(window.Database,{
         pure_mysql:   $('input#cb_pure_mysql_code')[0].checked ? 'on' : '',
         filter:       $('input#request_filter').val(),
         columns:      $('input#request_columns').val(),
-        online:       $('input#cb_online')[0].checked ? 'on' : '',
+        online:       $('input#cb_online')[0].checked ? '1' : '0',
         sens_synchro: $('select#sens_synchro').val(),
         onreturn:     $.proxy(Database,'set_op_and_submit', operation, options)
       }

@@ -123,7 +123,9 @@ class DBM_TABLE # DBM_TABLE pour DataBase Mysql
     @name           = table_name
     @db_suffix      = db_suffix
     @force_online   = force_online
+    # debug "Dans l'instanciation de la table"
     # debug "@name: #{@name.inspect} / @db_suffix: #{@db_suffix.inspect} / @force_online: #{@force_online.inspect}"
+    # debug "client_data : #{client_data.inspect}"
   end
 
   # On met cette méthode qui auparavant renvoyait le suffix de la

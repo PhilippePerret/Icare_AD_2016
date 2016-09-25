@@ -3,14 +3,19 @@ class Database
 class Table
   class << self
 
+    # TRUE si le contenu doit être consulté sur la table
+    # online quand on est en offline (en online, la case est cachée,
+    # cette valeur est donc toujours nil)
+    def online?
+      @for_online = (ONLINE || param(:online) == '1') if @for_online === nil
+      @for_online
+    end
+
     # Retourne le code HTML dans un pre de toutes les données de la
     # table définie dans param(:tblname) de la base param(:dbname)
     #
     def _table_content
-      # debug "table.suffix_name = #{table.suffix_name}"
-      # debug "Méthodes de table :\n" + table.methods.join("\n")
-
-      table = site.dbm_table(param(:dbname), param(:tblname), param(:online) == 'on')
+      table = site.dbm_table( param(:dbname), param(:tblname), online? )
       filter  = param(:filter).nil_if_empty
       columns = param(:columns).nil_if_empty
       options = Hash.new
@@ -69,9 +74,8 @@ class Table
             request << "WHERE #{where}"
           end
           request = request.join(' ')
-          debug "dbname : #{dbname}"
-          debug "MYSQL REQUEST : #{request}"
-          site.db_execute(dbname, request)
+          # debug "MYSQL REQUEST : #{request} (online? #{online?.inspect})"
+          site.db_execute(dbname, request, {online: online?})
         end
 
       return "Cette table ne contient aucune valeur." if data.empty?

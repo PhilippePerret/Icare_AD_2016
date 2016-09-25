@@ -17,7 +17,14 @@ raise_unless_admin
   # Cadre pour les boutons
   %>
   <div id="div_table_tools">
-    <%= 'ONLINE<span class="tiny"> (toutes les opérations se feront sur base distante)</span>'.in_checkbox(id: 'cb_online')%>
+    <% if OFFLINE %>
+      <%
+      # Note : c'est par Javascript qu'on récupère la valeur de ce checkbox
+      # et qu'on l'envoie par ajax dans la propriété 'online' qui est mise à
+      # 1 si c'est online et 0 dans le cas contraire.
+      %>
+      <%= 'ONLINE<span class="tiny"> (toutes les opérations se feront sur base distante)</span>'.in_checkbox(name: 'cb_online', id: 'cb_online')%>
+    <% end %>
     <fieldset>
       <%= 'Afficher le contenu'.in_a(id: 'btn_afficher_content', class: 'action', onclick: "$.proxy(Database,'set_op_and_submit', 'show_table_content')()") %>
       <%= '?'.in_a(onclick: "$.proxy(Database,'aide','explication_affiche_contenu')()")%>
