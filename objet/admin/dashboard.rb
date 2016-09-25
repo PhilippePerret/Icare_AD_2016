@@ -20,4 +20,29 @@ when 'check_synchro'
   ensure
     redirect_to :last_page
   end
+when 'erase_user_test'
+  # Procédure permettant de détruire un user partout (pour essai
+  # avec Marion)
+  USER_KILLED_ID = 90
+  req = {where: {user_id: USER_KILLED_ID}}
+  dbtable_actualites.delete(req)
+  dbtable_watchers.delete(req)
+  dbtable_icdocuments.delete(req)
+  dbtable_icetapes.delete(req)
+  dbtable_icmodules.delete(req)
+  dbtable_paiements.delete(req)
+
+  reqid = {where: {id: USER_KILLED_ID}}
+  [
+    [:hot, 'connexions'],
+    [:users, 'users'],
+    [:modules, 'mini_faq']
+  ].each do |base, table|
+    site.dbm_table(base, table).delete(reqid)
+  end
+
+  # On met le prochain id à la valeur juste supérieure au dernier
+  dbtable_users.reset_next_id
+
+  flash "J'ai détruit l'user ##{USER_KILLED_ID} partout"
 end

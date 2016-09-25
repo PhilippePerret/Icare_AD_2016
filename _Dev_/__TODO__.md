@@ -8,6 +8,7 @@
 * IMPÉRATIF : Cron job pour actualités (POURSUIVRE)
 * IMPÉRATIF : Implémenter le watcher de changement d'étape
 
+* Un user se crée "dans le vide" lorsqu'il y a une inscription, voir pourquoi.
 * La SYNCHRONISATION ne fonctionne pas (offline -> online)
 
 * Pour le moment, je ne prends que le travail du travail-type (les titres et les objectifs sont déjà rassemblés). Il faut faire un traitement pour obtenir la méthode. En fait, elle peut être "ramassée" en construisant le travail puisqu'elle sera affichée après.

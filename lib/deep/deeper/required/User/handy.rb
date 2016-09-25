@@ -10,7 +10,7 @@ Méthodes pratiques pour la classe User
 # pose des problèmes lors de l'identification, ou on perd
 # la bonne instance, malgré l'utilisation de reset_user_current
 def user
-  User::current
+  User.current
 end
 # def reset_user_current
 #   @user = nil

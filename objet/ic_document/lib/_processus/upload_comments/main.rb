@@ -44,6 +44,7 @@ if commented?
   params = {change_name: true, nil_if_empty: true}
   res = sfile.upload(param_comments[:file], params)
   res != nil || (raise 'Il faut fournir le document commentaire (ou cocher la case `Pas de commentaires`).')
+  sfile.exist? || (raise "Le fichier #{sfile} est introuvable, malheureusement, il n'a pas été uploadé.")
 
   # Créer le watcher suivant
   owner.add_watcher(

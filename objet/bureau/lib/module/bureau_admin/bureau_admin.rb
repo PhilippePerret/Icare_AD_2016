@@ -13,7 +13,8 @@ class << self
       'WATCHERS'.in_a(href: 'watcher/edit').in_div +
       'Mailing list'.in_a(href: 'admin/mailing').in_div +
       'Visite le site comme…'.in_a(href: 'admin/visit_as').in_div +
-      bouton_check_synchro
+      bouton_check_synchro +
+      bouton_erase_user_everywhere
     ).in_div
   end
   def boutons_modules_apprentissage
@@ -29,6 +30,9 @@ class << self
     else
       ''
     end
+  end
+  def bouton_erase_user_everywhere
+    'ERASE USER (ID dans admin/dashboard)'.in_a(class: 'warning', href: 'admin/dashboard?opadmin=erase_user_test').in_div
   end
 end #/<< self
 end #/Bureau

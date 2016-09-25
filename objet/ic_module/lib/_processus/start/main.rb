@@ -124,3 +124,6 @@ owner   .set(new_data_user)
 flash "Bravo #{owner.pseudo}, votre module d’apprentissage est démarré !"
 
 app.benchmark('<- processus `start` de `ic_module`')
+
+User.current= User.new(owner.id)
+redirect_to 'bureau/home'
