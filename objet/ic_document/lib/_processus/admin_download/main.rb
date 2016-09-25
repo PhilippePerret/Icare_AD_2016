@@ -4,33 +4,12 @@
   Module principal qui permet de télécharger le document.
 
 =end
-def for_inscription?
-  @is_for_inscription = owner.icmodule_id.nil? if @is_for_inscription === nil
-  @is_for_inscription
-end
 
 
 # Marquer le document original téléchargé
 # Noter que puisque c'est l'administrateur qui télécharge, il s'agit
 # forcément du document original
 icdocument.set(options: icdocument.options.set_bit(2,1))
-
-# Le dossier contenant le document (attention ! il peut en contenir plusieurs)
-#
-# Deux cas peuvent se produire : soit l'user est en cours de travail et
-# c'est un envoi de travail sur une étape, soit ce sont les documents
-# d'inscription.
-#
-def folder_document
-  @folder_document ||= begin
-    if for_inscription?
-      site.folder_tmp + "download/user-#{owner.id}-signup"
-    else
-      # Envoi de travail
-      site.folder_tmp+"download/owner-#{owner.id}-send_work-etape-#{icetape.abs_etape.numero}"
-    end
-  end
-end
 
 for_inscription? || begin
   # Passer l'étape au status 3 mais seulement si tous les

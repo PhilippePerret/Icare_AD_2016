@@ -109,7 +109,6 @@ class SuperFile
       end
       bindee = bindee.bind unless bindee.class == Binding
     end
-    # debug "read : #{read.inspect.gsub(/</,'&lt;')}"
     begin
       ERB.new( read ).result( bindee )
     rescue Exception => e

@@ -4,7 +4,7 @@ self.subject_mail = "Les commentaires sur votre document “#{icdocument.origina
 <p>Bonjour <%= owner.pseudo %>,</p>
 
 <p>
-Les commentaires sur votre document <%= instance_objet.original_name %> viennent d'être déposés.
+Les commentaires sur votre document <%= icdocument.original_name %> viennent d'être déposés.
 </p>
 <p>
   Vous pouvez les télécharger depuis <%= lien.bureau('votre bureau', online: true) %>.

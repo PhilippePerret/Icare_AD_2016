@@ -16,7 +16,16 @@ class Watcher
     !user.admin? && !user_notify? && return
     # On doit faire la notification
     notify = (user.admin? ? admin_notify : user_notify).deserb(self)
+    notify = (user.admin? ? admin_notify : user_notify).deserb(self)
     notify.in_li(class: 'notify', id: li_id)
+  rescue Exception => e
+    debug e
+    send_error_to_admin(
+      exception: e,
+      from:       "`as_li` du watcher ayant pour donnée : id: #{id.inspect}, user_id: #{user_id.inspect}, processus: #{processus.inspect}, objet: #{objet.inspect}, objet_id: #{objet_id.inspect}, data: #{data.inspect}"
+    ) rescue nil
+    'Cette notification n’a pas pu être affichée, mais l’administration a été avertie et va s’empresser de régler le problème.'.
+      in_li(class: 'notify', id: li_id)
   end
 
   # Permet de construire facilement un formulaire conforme

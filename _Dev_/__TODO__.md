@@ -2,6 +2,9 @@
 * Nicolas Dufourg   : crapette
 * Emmanuelle Badina : crapette
 
+* Faire un javascript qui permette de supprimer la notification pour les
+  download (mais seulement pour l'administrateur).
+
 * IMPÉRATIF : Cron job pour actualités (POURSUIVRE)
 * IMPÉRATIF : Implémenter le watcher de changement d'étape
 
@@ -43,20 +46,13 @@
 * Définition automatique du partage des documents
   Penser à faire une annonce actualité même pour ce partage automatique, mais en modifiant le nom (au lieu de "Untel met en partage ses documents…", dire "Les documents de Untel sont mis en partage")
 
-## À FAIRE AVANT L'OUVERTURE
-
-* Récupérer les données de la MINI-FAQ des étapes
-* Récupérer tous les documents du Quai des docs
-* Reprendre tous les users
-* Reprendre tous les paiements pour injecter la table paeiements (User.table_paiements)
-* Reprendre tous les icmodules, icetapes et icdocuments
-
 ## FONCTIONNALITÉS
 
 * Ajout de jours gratuits
 
 ## À FAIRE APRÈS L'OUVERTURE
 
+* Procédure pour déposer une question minifaq
 * Mettre au point un petit déctecteur de — pas de fumée — d'incompatibilité au niveau des données de modules (notamment les abs_module_id) en fonction des étapes et des documents, et proposer des corrections à adopter ou non.
 
 * TODO Installer le QUAI DES DOCS
@@ -67,5 +63,3 @@
   - suppression des dossiers tmp/download assez vieux (1 mois)
 
 * TODO Installer la partie historique du bureau
-
-* TODO ADMIN Outil assisté pour instancier des watchers (en prenant les objets possibles et les processus possibles)
