@@ -50,7 +50,8 @@ if commented?
   owner.add_watcher(
     objet:      'ic_document',
     objet_id:    objet_id,
-    processus:  'user_download_comments'
+    processus:  'user_download_comments',
+    data:       sfile.name
   )
 
   # On met que le commentaire existe

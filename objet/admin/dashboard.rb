@@ -42,7 +42,11 @@ when 'erase_user_test'
   end
 
   # On met le prochain id à la valeur juste supérieure au dernier
-  dbtable_users.reset_next_id
+  [
+    dbtable_users,
+    dbtable_icdocuments,
+    dbtable_watchers
+  ].each { |tbl| tbl.reset_next_id }
 
   flash "J'ai détruit l'user ##{USER_KILLED_ID} partout"
 end

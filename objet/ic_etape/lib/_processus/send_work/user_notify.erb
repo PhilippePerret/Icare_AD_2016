@@ -62,7 +62,7 @@ end
       end
     end.join +
     (
-      '+'.in_a(onclick: "Bureau.add_work_field()", class: 'fleft plus_moins_button') +
+      '+'.in_a(onclick: "Bureau.add_work_field()", class: 'fleft plus_moins_button', style: 'color: white!important') +
       'Envoyer le travail'.in_submit(id: 'btn_send_work', class: "btn#{@send_work_error.empty? ? ' invisible' : ''}")
     ).in_div(class: 'buttons')
   end

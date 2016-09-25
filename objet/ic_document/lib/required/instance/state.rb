@@ -10,6 +10,12 @@ class IcDocument
   def downloaded? ty ; options[ty == :original ? 2 : 10].to_i == 1  end
   def complete?   ty ; options[ty == :original ? 5 : 13].to_i == 1  end
 
+  # TRUE si c'est un document pour l'inscription
+  def inscription?
+    @for_signup = (abs_module_id == 0 && abs_etape_id == 0) if @for_signup === nil
+    @for_signup
+  end
+  
 end #/IcDocument
 end #/IcEtape
 end #/IcModule

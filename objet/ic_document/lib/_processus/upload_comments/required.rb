@@ -9,7 +9,7 @@ def icetape
 end
 
 def inscription?
-  @for_inscription = icdocument.icetape_id.nil? if @for_inscription === nil
+  @for_inscription = icdocument.inscription? if @for_inscription === nil
   @for_inscription
 end
 
@@ -18,10 +18,11 @@ end
 # télécharger par l'icarien
 def folder_download
   @folder_download ||= begin
-    if inscription?
-      site.folder_tmp + "download/user-#{owner.id}-signup"
-    else
-      site.folder_tmp + "download/owner-#{owner.id}-upload_comments-#{owner.icmodule.id}-#{icetape.id}"
-    end
+    site.folder_tmp +
+      if inscription?
+        "download/user-#{owner.id}-signup"
+      else
+        "download/owner-#{owner.id}-upload_comments-#{owner.icmodule.id}-#{icetape.id}"
+      end
   end
 end
