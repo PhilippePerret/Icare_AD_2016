@@ -7,7 +7,13 @@ class << self
   # Méthode principale qui créer l'étape de numéro +numero+ pour
   # l'icmodule +icmodule+ (instance IcModule)
   #
+  # Ne pas appeler cette méthode directement, mais passer par :
+  #   IcModule::IcEtape.create_for icmodule, numero
+  #
   # RETURN l'icetape créée (instance IcModule::IcEtape)
+  #
+  # Noter que l'icetape_id n'est pas modifié dans l'ic-module, il faut
+  # le faire dans la méthode appelante, grâce à l'instance retournée.
   #
   def _create_for icmodule, numero
     icetape_id = dbtable_icetapes.insert(data_icetape_for icmodule, numero)

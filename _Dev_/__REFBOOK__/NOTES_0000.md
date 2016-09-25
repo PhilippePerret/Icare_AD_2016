@@ -15,3 +15,13 @@ N0001
     On envoie dans l'adresse les informations sur  l'icare afin
     de pouvoir créer son profil s'il n'existe pas. Mais seulement
     s'il est actif.
+
+
+N0002
+
+    On écarte tous les documents d'inscription, qu'on reconnait au
+    fait que leur abs_module_id est à 0.
+
+    Noter qu'on pourrait mettre cette condition dans la clause where,
+    mais on ne sait pas si le filtre va fonctionner en Hash ou en
+    String.

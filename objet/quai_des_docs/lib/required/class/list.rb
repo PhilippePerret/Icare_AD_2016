@@ -25,6 +25,9 @@ class << self
     as = options.delete(:as) || :instances
 
     # Construire les données de requête
+    if filtre && false == filtre.key?(:where)
+      filtre = {where: filtre}
+    end
     drequest = filtre || Hash.new
 
     cols =
@@ -32,10 +35,16 @@ class << self
       when :instance, :id then [] # :id toujours ajouté
       else nil # :hash
       end
-    cols.nil? || drequest.merge!(colonnes: cols)
+    cols ||= Array.new
+    cols << :abs_module_id # pour éviter les documents d'inscription
+    drequest.merge!(colonnes: cols)
 
-
-    res = dbtable_icdocuments.select(drequest)
+    # N0002
+    res =
+      dbtable_icdocuments.select(drequest).collect do |hdoc|
+        hdoc[:abs_module_id] > 0 || next
+        hdoc
+      end.compact
 
     # On retourne le résultat
     case as

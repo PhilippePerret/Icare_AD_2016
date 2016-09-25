@@ -18,7 +18,7 @@ end
   form(file: true) do
     (
       "Icarien  : #{icdocument.owner.pseudo} (##{icdocument.owner.id})\n" +
-      "Document : #{icdocument.original_name} (##{icdocument.id})\n" +
+      "Document : <strong>#{icdocument.original_name} (##{icdocument.id})</strong>\n" +
       "Étape    : #{designation_etape}"
     ).in_pre(class: 'small').in_div +
     'Commentaires : '.in_input_file(name: 'comments[file]', id: "comments_file-#{icdocument.id}").in_div(id: div_file_id) +

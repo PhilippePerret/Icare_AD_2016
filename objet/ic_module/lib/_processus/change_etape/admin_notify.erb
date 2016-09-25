@@ -1,13 +1,40 @@
 <%
 # Formulaire pour que je puisse choisir l'étape suivante de l'icarienne
 %>
+<%
+def infos_module
+  icarienn = "icarien#{owner.f_ne}".ljust(11)
+  (
+    "#{icarienn}: <strong>#{owner.pseudo} (##{owner.id})</strong>\n" +
+    "Module     : #{absmodule.name}\n"    +
+    "Étape      : #{absetape.numero} - #{icetape.abs_etape.titre}"
+  ).in_pre
+end
+
+def menu_select_etapes
+  drequest = {
+    where:      "module_id = #{absmodule.id} AND numero > #{absetape.numero}",
+    colonnes:   [:titre, :numero]
+  }
+  liste_etapes = dbtable_absetapes.select(drequest).collect do |h|
+    [ h[:id], "#{h[:numero]} - #{h[:titre]}"]
+  end
+  debug "liste_etapes: #{liste_etapes.inspect}"
+  (
+    # [ ['', 'Choisir l’étape…'] ]+
+    liste_etapes
+  ).in_select(name: 'next_etape', id: "next_etape-#{icmodule.id}", style: 'width:95%')
+end
+%>
 <%=
 
-  menu_etapes = [
-    ['', 'Choisir l’étape…']
-  ]
+  "Changement d'étape".in_legend +
   form do
-    menu_etapes.in_select(name: 'next_etape', id: "next_etape-#{icmodule.id}") +
+    (
+    infos_module +
+    menu_select_etapes
+    ).in_div + # pour le moment, in_div pour bon aspect
+    'L’étape précédente compte pour une vraie étape'.in_checkbox(name: 'prev_etape_is_real') +
     'Changer l\'étape'.in_submit.in_div(class: 'buttons')
   end
 %>

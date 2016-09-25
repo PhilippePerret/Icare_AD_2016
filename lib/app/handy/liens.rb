@@ -26,7 +26,11 @@ class Lien
     build "quai_des_docs/home", titre, options
   end
 
-  def narration titre = "la collection Narration"
+  def narration titre = "la collection Narration", options = nil
     titre.in_a(href: "http://www.laboiteaoutilsdelauteur.fr/cnarration/home", target: :new)
   end
+end
+
+def link_narration titre = "la collection Narration", options = nil
+  lien.narration titre, options
 end

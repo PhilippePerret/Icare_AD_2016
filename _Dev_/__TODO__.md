@@ -2,12 +2,17 @@
 * Nicolas Dufourg   : crapette
 * Emmanuelle Badina : crapette
 
+* Objectif en double dans l'étape 5 du suivi lent (normal #7)
+  => Quand l'objectif est le même que l'objectif du travail type, ne pas l'indiquer.
+
 * Faire un javascript qui permette de supprimer la notification pour les
   download (mais seulement pour l'administrateur).
 
 * IMPÉRATIF : Cron job pour actualités (POURSUIVRE)
-* IMPÉRATIF : Implémenter le watcher de changement d'étape
 
+* Pour le bouton "Documents" de l'icarien, il faudra que ça mène vraiment à une liste bureau/documents, pas au quai des docs
+  - possibilité de recharger les derniers commentaires (ils sont détruits un mois après leur émission, ou quand le document QDD est déposé)
+  -  indication que les documents ne présentation ne sont pas déposés sur le quai des docs
 * Un user se crée "dans le vide" lorsqu'il y a une inscription, voir pourquoi.
 * La SYNCHRONISATION ne fonctionne pas (offline -> online)
 
@@ -64,3 +69,5 @@
   - suppression des dossiers tmp/download assez vieux (1 mois)
 
 * TODO Installer la partie historique du bureau
+
+* Une section du bureau administrateur qui présente l'état des icariens (un aperçu général).
