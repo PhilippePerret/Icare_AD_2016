@@ -182,9 +182,9 @@ class DBM_TABLE # DBM_TABLE pour DataBase Mysql
   def reset_next_id
     max_id = site.db_execute(db_suffix, "SELECT MAX(id) as max_id FROM #{name};")
     max_id = (max_id.first[:max_id] || 0) + 1
-    site.db_execute(dtable[:base], "ALTER TABLE #{name} AUTO_INCREMENT=#{max_id};")
+    site.db_execute(db_suffix, "ALTER TABLE #{name} AUTO_INCREMENT=#{max_id};")
   end
-  
+
   # Le client ruby qui permet d'intergagir avec la base de
   # données.
   def client

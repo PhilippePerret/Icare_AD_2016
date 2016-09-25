@@ -5,6 +5,11 @@
 
 =end
 raise_unless_admin
+class Dashboard
+class << self
+  attr_accessor :content
+end# << self
+end#/Dashboard
 
 case param(:opadmin)
 when 'check_synchro'
@@ -20,10 +25,59 @@ when 'check_synchro'
   ensure
     redirect_to :last_page
   end
+when 'check_all_deserbage_travaux'
+  # Méthode permettant de tester toutes les étapes de
+  # travaux ainsi que tous les travaux types
+  dreq = {colonnes: [:travail]}
+  erreurs = Array.new
+  success = Array.new
+  codes   = Array.new
+  REG_ERB = /<%(.*?)%>/o
+  dbtable_absetapes.select(dreq).each do |hetape|
+    begin
+      codes << hetape[:travail].scan(REG_ERB).to_a.collect{|h| h[0]}.join('<br>')
+      ERB.new(hetape[:travail]).result()
+      success << "ABS ETAPE ID #{hetape[:id]}".in_div
+    rescue Exception => e
+      erreurs << "ABS ETAPE ID #{hetape[:id]} : #{e.message}".in_div
+    end
+  end
+  dbtable_travaux_types.select(dreq).each do |hwt|
+    begin
+      codes << hwt[:travail].scan(REG_ERB).to_a.collect{|h| h[0]}.join('<br>')
+      ERB.new(hwt[:travail]).result
+      success << "TRAVAIL TYPE ID #{hwt[:id]}".in_div
+    rescue Exception => e
+      erreurs << "TRAVAIL TYPE ID #{hwt[:id]} : #{e.message}".in_div
+    end
+  end
+
+  Dashboard.content= '=== CODES ==='.in_h3 +
+    codes.join +
+    '=== ERREURS ==='.in_h3(class: 'red') +
+    erreurs.join +
+    '=== SUCCÈS ==='.in_h3 +
+    success.join
+
 when 'erase_user_test'
   # Procédure permettant de détruire un user partout (pour essai
   # avec Marion)
-  USER_KILLED_ID = 90
+  USER_KILLED_ID = 84
+
+  # Il faudrait aussi détruire les documents du quai
+  # des docs
+  site.require_objet 'ic_document'
+  site.require_objet 'quai_des_docs'
+  dbtable_icdocuments.select(where:{user_id: USER_KILLED_ID}, colonnes: []).each do |hdoc|
+    icdoc = IcModule::IcEtape::IcDocument.new(hdoc[:id])
+    [:original, :comments].each do |typ|
+      if icdoc.exist?(typ)
+        icdoc.qdd_path(typ).remove
+        debug "- Document #{icdoc.qdd_path(typ)} détruit"
+      end
+    end
+  end
+
   req = {where: {user_id: USER_KILLED_ID}}
   dbtable_actualites.delete(req)
   dbtable_watchers.delete(req)

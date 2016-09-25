@@ -23,7 +23,10 @@ class IcDocument
     Digest::MD5::hexdigest(somme.to_s)
   end
 
-  def exist?(ty = :original)  ; qdd_path(ty).exist? end
+  def exist?(ty = :original)
+    inscription? && (return false)
+    qdd_path(ty).exist?
+  end
   def qdd_path ty = :original ; qdd_folder_pdfs + qdd_name(ty)      end
   def qdd_name ty = :original ; "#{qdd_prefixe_filename}_#{ty}.pdf" end
 

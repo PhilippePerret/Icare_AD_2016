@@ -1,0 +1,32 @@
+<%
+# Vue pour travailler sur les utilisateurs
+#
+# Voir le détail dans users.rb
+#
+raise_unless_admin
+%>
+<%
+# Les données opérations pour javascript
+%>
+<script type="text/javascript">
+  DATA_OPERATIONS = <%= Admin::Users::DATA_OPERATIONS.to_json %>
+</script>
+<%
+site.require 'form_tools'
+form.prefix = 'opuser'
+
+%>
+<form class="dim2080" action="admin/users" method="POST">
+
+  <%= form.field_raw('Icarien', '', nil, {field: Admin::Users.menu}) %>
+  <%= form.field_select('Opération', 'ope', nil, {values: Admin::Users::DATA_OPERATIONS, onchange: "$.proxy(Dashboard,'on_choose_operation')()"}) %>
+  <%# CHAMP COURT %>
+  <div id="div_short_value">
+    <%= form.field_text('Valeur courte', 'short_value', nil, {class: 'short', text_before: ''.in_div(id: 'short_value_explication', class: 'libelle')}) %>
+  </div>
+  <%# CHAMP LONG %>
+  <div id="div_long_value">
+    <%= form.field_textarea('Valeur longue', 'long_value', nil, {text_before: ''.in_div(id: 'long_value_explication', class: 'libelle')}) %>
+  </div>
+  <%= 'Exécuter'.in_submit(class:'btn').in_div(class: 'buttons') %>
+</form>

@@ -8,13 +8,15 @@ class << self
   end
   def liens_editions
     (
+      'Opérations ICARIEN…'.in_a(href: 'admin/users').in_div +
       'BASES DE DONNÉES'.in_a(href: 'database/edit').in_div +
       boutons_modules_apprentissage +
       'WATCHERS'.in_a(href: 'watcher/edit').in_div +
       'Mailing list'.in_a(href: 'admin/mailing').in_div +
       'Visite le site comme…'.in_a(href: 'admin/visit_as').in_div +
       bouton_check_synchro +
-      bouton_erase_user_everywhere
+      bouton_erase_user_everywhere +
+      bouton_test_travaux
     ).in_div
   end
   def boutons_modules_apprentissage
@@ -33,6 +35,9 @@ class << self
   end
   def bouton_erase_user_everywhere
     'ERASE USER (ID dans admin/dashboard)'.in_a(class: 'warning', href: 'admin/dashboard?opadmin=erase_user_test').in_div
+  end
+  def bouton_test_travaux
+    'Test travaux des étapes et des travaux-types'.in_a(href: 'admin/dashboard?opadmin=check_all_deserbage_travaux').in_div
   end
 end #/<< self
 end #/Bureau

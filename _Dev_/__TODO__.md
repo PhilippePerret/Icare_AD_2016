@@ -52,7 +52,12 @@
 * Définition automatique du partage des documents
   Penser à faire une annonce actualité même pour ce partage automatique, mais en modifiant le nom (au lieu de "Untel met en partage ses documents…", dire "Les documents de Untel sont mis en partage")
 
-## FONCTIONNALITÉS
+## BUGS
+
+* Ne pas pouvoir envoyer deux documents de même nom
+* À l'inscription, ça crée un user vide en plus
+
+## FONCTIONNALITÉS URGENTES
 
 * Ajout de jours gratuits
 

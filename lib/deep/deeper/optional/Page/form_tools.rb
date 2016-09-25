@@ -210,11 +210,17 @@ class Page
 
         # Valeur qui peut se trouver dans les paramètres, tel
         # quel ou dans un prefix défini
-        param_value = if Page::FormTools.prefix.nil?
-          param(prop.to_sym)
-        else
-          (param(Page::FormTools.prefix)||Hash.new)[prop.to_sym]
-        end.nil_if_empty
+        param_value = begin
+          if Page::FormTools.prefix.nil?
+            param(prop.to_sym)
+          else
+            (param(Page::FormTools.prefix)||Hash.new)[prop.to_sym]
+          end.nil_if_empty
+        rescue Exception => e
+          # Ça peut survenir par exemple lorsque c'est un champ
+          # de type file
+          nil
+        end
 
         # debug "param_value = #{param_value.inspect}"
 
