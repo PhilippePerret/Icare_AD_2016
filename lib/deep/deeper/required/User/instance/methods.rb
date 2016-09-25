@@ -16,7 +16,6 @@ class User
   # marque simplement l'user détruit (4e bit des options)
   def remove
     self.app_remove if self.respond_to?( :app_remove )
-    folder.remove if folder.exist? # Dossier des données et databases persos
     set_option(:destroyed, 1)
   end
 

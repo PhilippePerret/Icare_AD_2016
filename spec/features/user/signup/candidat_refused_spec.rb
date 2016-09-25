@@ -7,13 +7,16 @@ feature "Refus d'un candidat" do
     start_time = Time.now.to_i
 
     sim = Simulate.new
-    args = { sexe: 'F', test:true }
+    args = { sexe: 'F', test: true }
     sim.inscription args
 
     # On récupère les informations de la simulation
     watcher_validation = sim.watchers.first
     wid = watcher_validation[:id]
     newu_id = sim.user_id.freeze
+
+    # On récupère ici le mail pour savoir
+    umail = sim.user.mail
 
     # L'administrateur rejoint son bureau
     identify_phil
@@ -49,17 +52,18 @@ feature "Refus d'un candidat" do
 
     # => Destruction du watcher d'attribution de module
     expect(dbtable_watchers.count(where: {id: wid})).to eq 0
-    success 'Le watcher a été détruit.'
+    success 'Le watcher de validation de l’inscription a été détruit.'
 
-    # L'user a reçu un mail de confirmation
     data_mail = {
       sent_after: start_time,
       subject:    'Refus de candidature',
       message:    ['Nous avons le regret de vous annoncer que votre candidature à l\'atelier Icare vient d\'être malheureusement refusée']
     }
 
+    # Phil ne reçoit pas le mail de refus (mis ici car ça se produisait, avant)
     Phil ne recoit pas le mail data_mail
 
+    # L'user a reçu un mail de confirmation
     sim.user recoit le mail data_mail
 
   end

@@ -4,6 +4,10 @@
   Module principal qui permet de télécharger le document.
 
 =end
+def for_inscription?
+  @is_for_inscription = owner.icmodule_id.nil? if @is_for_inscription === nil
+  @is_for_inscription
+end
 
 
 # Marquer le document original téléchargé
@@ -19,8 +23,7 @@ icdocument.set(options: icdocument.options.set_bit(2,1))
 #
 def folder_document
   @folder_document ||= begin
-    if owner.icmodule_id.nil?
-      # Inscription
+    if for_inscription?
       site.folder_tmp + "download/user-#{owner.id}-signup"
     else
       # Envoi de travail
@@ -29,17 +32,19 @@ def folder_document
   end
 end
 
-# Passer l'étape au status 3 mais seulement si tous les
-# documents ont été téléchargés.
-all_document_received = true
-icetape.documents.split(' ').each do |docid|
-  idoc = IcModule::IcEtape::IcDocument.new(docid.to_i)
-  if idoc.options[2].to_i == 0
-    all_document_received = false
-    break
+for_inscription? || begin
+  # Passer l'étape au status 3 mais seulement si tous les
+  # documents ont été téléchargés.
+  all_document_received = true
+  icetape.documents.split(' ').each do |docid|
+    idoc = IcModule::IcEtape::IcDocument.new(docid.to_i)
+    if idoc.options[2].to_i == 0
+      all_document_received = false
+      break
+    end
   end
+  all_document_received && icetape.set(status: 3)
 end
-all_document_received && icetape.set(status: 3)
 
 # Création du watcher suivant. Il s'agit du dépot de commentaire
 owner.add_watcher(

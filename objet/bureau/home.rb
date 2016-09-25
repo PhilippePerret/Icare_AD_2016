@@ -1,5 +1,6 @@
 # encoding: UTF-8
-raise_unless( (user.admin? || user.icarien?), nil, identification = true )
+# raise_unless( (user.admin? || user.icarien?), nil, identification = true )
+raise_unless_identified
 class User
   # RETURN true si l'user possède un module à démarrer
   def has_module_to_start?

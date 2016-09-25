@@ -33,11 +33,15 @@ if is_refus
   # REFUS DE L'INSCRIPTION
   # ----------------------
   @user_mail = folder + 'user_mail_refus.erb'
-  owner.pseudo  # juste pour être sûr d'avoir chargé le pseudo avant la
-                # destruction de l'user
+  # Il faut envoyer le mail à l'user avant de le détruire, sinon c'est
+  # à l'administrateur que le mail est envoyé.
+  send_mail_watcher_to_user
+  # Et il faut indiquer ensuite de ne pas envoyer le mail
+  no_mail_user
+  # On procède à la destruction de l'user
   dbtable_users.delete(owner.id)
   flash "Inscription détruite."
-  
+
 else
 
   # VALIDATION DE L'INSCRIPTION

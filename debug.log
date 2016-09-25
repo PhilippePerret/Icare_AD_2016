@@ -1,14 +1,208 @@
 
 
-=== DEBUG DU 25 09 2016 - 09:14:22 ===
+=== DEBUG DU 25 09 2016 - 10:18:03 ===
+
+-- Re-lecture du fichier HTML
+
+
+=== DEBUG DU 25 09 2016 - 10:18:05 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signin"
+Context  = nil
+
+
+=== DEBUG DU 25 09 2016 - 10:18:06 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "login"
+Context  = nil
+-- Redirection -> bureau/home
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 25 09 2016 - 10:18:10 ===
+
+-- 
+Objet    = "watcher"
+Objet ID = 3
+Method   = "run"
+Context  = nil
+-- Choix ambigu : il faut choisir le module à attribuer ou écrire le motif de refus !
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/watcher/lib/module/running/main.rb:36:in `instance_eval'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/watcher/lib/module/running/main.rb:36:in `instance_eval'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/watcher/lib/module/running/main.rb:36:in `execute_main_file'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/watcher/lib/module/running/main.rb:17:in `_run'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/watcher/lib/required/instance/actions.rb:16:in `run'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/watcher/run.rb:13:in `<top (required)>'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:22:in `require_ruby'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:15:in `require_all'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:330:in `load_per_vue'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:103:in `execute_route'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+-- Redirection -> bureau/home
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 25 09 2016 - 10:18:18 ===
+
+-- 
+Objet    = "watcher"
+Objet ID = 3
+Method   = "run"
+Context  = nil
+-- Redirection -> bureau/home
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 25 09 2016 - 10:55:35 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+-- Redirection -> user/signin
+-- param(:backto) mis à "bureau/home"
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signin"
+Context  = nil
+
+
+=== DEBUG DU 25 09 2016 - 10:55:41 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "login"
+Context  = nil
+-- Redirection -> bureau/home
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 25 09 2016 - 10:55:45 ===
 
 -- 
 Objet    = "database"
 Objet ID = nil
 Method   = "edit"
 Context  = nil
--- -> select
--- <- select
--- -> select
--- <- select
+
+
+=== DEBUG DU 25 09 2016 - 10:55:49 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 25 09 2016 - 10:55:55 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {}
+
+
+=== DEBUG DU 25 09 2016 - 10:56:47 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {}
+
+
+=== DEBUG DU 25 09 2016 - 10:56:56 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 25 09 2016 - 10:56:59 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 25 09 2016 - 10:57:09 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {}
+
+
+=== DEBUG DU 25 09 2016 - 10:57:19 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {}
+
+
+=== DEBUG DU 25 09 2016 - 10:58:56 ===
+
+-- Re-lecture du fichier HTML
+
+
+=== DEBUG DU 25 09 2016 - 10:59:01 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {}
+
+
+=== DEBUG DU 25 09 2016 - 11:02:16 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
 -- options: {}

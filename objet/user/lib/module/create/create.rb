@@ -137,7 +137,7 @@ class User
       temp_docs_folder = site.folder_tmp + "download/user-#{user.id}-signup"
       {
         presentation: {required: true,  hname: "Présentation"},
-        motivation:   {required: true,  hname: "Motiviation"},
+        motivation:   {required: true,  hname: "Motivation"},
         extrait:      {required: false, hname: "Extrait"}
       }.each do |doc_id, ddata|
         case traite_document_presentation(doc_id, temp_docs_folder)

@@ -2,6 +2,12 @@
 # encoding: UTF-8
 
 class Cron
+
+  # Pour appeler le processus par le cron
+  def self._mail_activites
+    Cron::Activites.mail_activites
+  end
+
   class Activites
 
     # Les mails à retirer des envois, pour différentes raisons à commencer
@@ -22,7 +28,7 @@ class Cron
       # version du cron. Le cron implémente une version minimale des méthodes et
       # des classes.
       #
-      def _mail_activites
+      def mail_activites
         reset
         log "<hr />"
         log "---> Envoi des mails d'actualite de la veille", {time: true}
@@ -82,8 +88,8 @@ class Cron
 
       # On marque les activités envoyées
       def mark_activites_envoyees
-        actu_ids = actualites_veille.collect{|h| h[:id]}
-        dbtable_activites.update(where: "id IN (#{actu_ids.join(', ')})", {status: 2})
+        actu_ids = actualites_veille.collect{|h| h[:id]}.join(', ')
+        dbtable_activites.update({where: "id IN (#{actu_ids})"}, {status: 2})
         log "-- Activités marquées envoyées par mail quotidien"
       end
 

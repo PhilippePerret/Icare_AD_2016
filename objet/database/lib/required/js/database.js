@@ -9,6 +9,12 @@ $.extend(window.Database,{
   set_op_and_submit:function(operation, options, rajax){
     if( undefined == rajax ){
       $('pre#mysql_result').html('');
+      var online;
+      if($('input#cb_online').length){
+        online = $('input#cb_online')[0].checked ? '1' : '0';
+      }else{
+        online = '0';
+      }
       var request = {
         route:      'database/edit',
         operation:  operation,
@@ -18,7 +24,7 @@ $.extend(window.Database,{
         pure_mysql:   $('input#cb_pure_mysql_code')[0].checked ? 'on' : '',
         filter:       $('input#request_filter').val(),
         columns:      $('input#request_columns').val(),
-        online:       $('input#cb_online')[0].checked ? '1' : '0',
+        online:       online,
         sens_synchro: $('select#sens_synchro').val(),
         onreturn:     $.proxy(Database,'set_op_and_submit', operation, options)
       }

@@ -14,7 +14,7 @@ class User
   # Note : Elle ne s'appelle pas `destroy` car elle serait directement
   # appelée par la route.
   def exec_destroy
-    raise "Pirate !" if (self.id != site.current_route.objet_id) && !user.manitou?
+    raise "Pirate !" if (self.id != site.current_route.objet_id) && !user.admin?
     dkill[:confirmation_destroy] == '1' || raise( "Opération impossible." )
     self.id != 1 || raise( "Impossible de détruire Phil" )
     self.id != 3 || raise( "Impossible de détruire Marion" )
@@ -42,71 +42,16 @@ class User
   # Méthode qui procède vraiment à toutes les opérations
   # de destruction de l'auteur.
   def proceed_destruction
-    destroy_messages_forum
-    destroy_programmes_unan
-    deconnecte_user unless user.admin?
-    remove # méthode générale qui détruit le dossier et la donnée dans la base
+    unless user.id.nil? || user.id == 1
+      dbtable_users.delete(user.id)
+    end
+    (deconnexion unless user.admin?) rescue nil
+    # remove # méthode générale qui détruit et la donnée dans la base
   end
 
   def dkill
     @dkill ||= param(:destroy) || Hash.new
   end
-
-  def deconnecte_user
-    debug "  * Déconnexion de l'user courant"
-    deconnexion
-    debug "  = User déconnecté"
-  end
-
-  # Destruction de l'user
-  # (en fait, on le marque simplement détruit)
-  # Ça détruit également son dossier de data s'il en a
-  # un dans l'application
-  def destroy_in_database_users
-    debug "  * Destruction de l'user dans la base de données"
-    self.remove
-    debug "  = User détruit dans la base de données"
-  end
-
-  # Destruction des messages forum
-  # (en fait, on marque que l'user a supprimé son compte mais on
-  #  garde le message)
-  def destroy_messages_forum
-    error "La procédure de suppression des messages d'un user détruit est complètement à réimplémenter (#{__FILE__}:#{__LINE__})" if OFFLINE
-    return
-    debug "  = Messages forum détruits"
-  end
-
-  # Destruction des programmes UN AN
-  def destroy_programmes_unan
-    debug "  * Destruction des programmes & projets UAUS"
-    # On charge tout ce qui concerne Unan, on en aura
-    # besoin plus bas (pour les bases de données)
-    site.require_objet 'unan'
-    # Destruction des paiements "1UN1SCRIPT" de l'self
-    where = "user_id = #{self.id} AND objet_id = '1AN1SCRIPT'"
-    nombre_paiements = User.table_paiements.count(where:where)
-    User.table_paiements.delete(where:where)
-
-    # Destruction de son dossier dans database/data/unan/user
-    with_dossier_db = self.folder_data.exist? ? "détruit" : "inexistant"
-    self.folder_data.remove if self.folder_data.exist?
-
-    # Destruction de ses programmes dans la table
-    where = "auteur_id = #{self.id} AND options LIKE '1%'"
-    data_program = Unan::table_programs.get(where: where)
-
-    # Modification des options
-    opts = data_program[:options]
-    opts[0] = '0' # bit inactif
-    opts[2] = '1' # bit abandon
-    Unan.table_programs.update( data_program[:id], { options: opts } )
-
-    # Note : on ne touche pas au projet.
-
-    debug "  = Arrêt du dernier programme UAUS OK"
-  end
-
 
   # ---------------------------------------------------------------------
   #   Helper méthodes
