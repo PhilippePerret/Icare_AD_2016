@@ -43,10 +43,15 @@ class Mail
     # Style pour la citation d'auteur
     def style_citation
       @style_citation ||= <<-CSS
-div#citation{float:right;font-size:13pt!important;width:45%;margin:4px 4px 1em 1em}
-div#citation a{text-decoration:none;color:inherit;}
-div#citation span#quote_citation{font-style:italic}
-div#citation span#quote_auteur{display:block;text-align:right;font-size:0.85em;text-variant:small-caps}
+div#citation a, div#citation a:hover, div#citation a:link, div#citation a:visited{
+  text-decoration: none; color: black;
+}
+div#citation span#quote_citation{
+  font-style: italic;
+}
+div#citation span#quote_auteur{
+  display: block; text-align: right; font-size: 0.85em; text-variant: small-caps
+}
       CSS
     end
 
