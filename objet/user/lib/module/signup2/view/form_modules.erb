@@ -1,6 +1,32 @@
 <%
 # View pour choisir les modules d'apprentissage optionnés
 %>
+<%
+
+# +selecteds+ Liste des IDs des modules sélectionnés au cours
+# d'un choix précédente
+def liste_modules_checkboxable selecteds = nil
+  site.require_objet('abs_module')
+  cbs_modules = ''
+  AbsModule.each_instance(order: 'tarif ASC') do |amod|
+    is_checked = param(:modules_checked).include?(amod.id)
+    debug "#{amod.name} is #{is_checked ? 'checked' : 'NOT checked'}"
+    href    = "abs_module/#{amod.id}/show"
+    cb_name = "signup_modules[#{amod.id}]"
+    cb_id   = "signup_modules-#{amod.id}"
+    mod_detail  = 'Détail'.in_a(href: href, class: 'small', target: :new).in_span(class: 'link')
+    mod_name    = amod.name.in_span(class: 'name')
+    mod_tarif   = "#{amod.tarif} €#{amod.type_suivi? ? ' / mois' : ''}".in_span(class: 'tarif')
+    mod_libelle = "#{mod_detail}#{mod_name} #{mod_tarif}"
+    mod_libelle = mod_libelle.in_checkbox(name: cb_name, id: cb_id, checked: is_checked)
+    cbs_modules << mod_libelle.in_li(class: 'absmodule', id: "absmodule-#{amod.id}")
+  end
+  # /fin boucle sur toutes les instances modules
+  cbs_modules = cbs_modules.in_ul(id:'abs_modules')
+  return cbs_modules
+end
+
+%>
 <%=
 
 site.require 'form_tools'
@@ -8,8 +34,8 @@ form.prefix = 'signup'
 (
   'save_modules'.in_hidden(name: 'signup[operation]', id: 'signup_operation') +
   "Merci de choisir ci-dessous les modules pour lesquels vous postulez. Dans le doute, n'hésitez pas à #{lien.contact("contacter Phil")} pour en discuter avec lui.".in_p(class: 'small') +
-  Signup.liste_modules_checkboxable +
-  form.submit_button('Poursuivre l’inscription')
+  liste_modules_checkboxable +
+  form.submit_button('Enregistrer et poursuivre l’inscription')
 ).in_form(
     class: 'dim3070',
     id:     'form_modules',

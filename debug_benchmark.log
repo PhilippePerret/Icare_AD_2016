@@ -1,34 +1,32 @@
-=== BENCHMARK DU 26 septembre 2016 à 12:15 ===
-=== Index start : 1474884927.148909 (2016-09-26 12:15:27 +0200)
+=== BENCHMARK DU 26 septembre 2016 à 13:58 ===
+=== Index start : 1474891111.981996 (2016-09-26 13:58:31 +0200)
 
 -> site/config.rb                                       0.000000  0.000000
-<- site/config.rb                                       0.000167  0.000167
--> execute_preambule                                    0.022656  0.022823
-  -> User#do_after_load                                 0.006054  0.028877
-  <- User#do_after_load                                 0.000028  0.028905
-<- execute_preambule                                    0.000005  0.028910
--> required.rb                                         -0.328876 -0.299966
-<- required.rb                                          0.328882  0.028916
--> SiteHtml#output                                      0.000066  0.028982
-  -> SiteHtml#execute_route                             0.000009  0.028991
+<- site/config.rb                                       0.000129  0.000129
+-> execute_preambule                                    0.019443  0.019572
+  -> User#do_after_load                                 0.007076  0.026648
+  <- User#do_after_load                                 0.000019  0.026667
+<- execute_preambule                                    0.000005  0.026672
+-> required.rb                                         -0.218974 -0.192302
+<- required.rb                                          0.218980  0.026678
+-> SiteHtml#output                                      0.000050  0.026728
+  -> SiteHtml#execute_route                             0.000007  0.026735
       | Objet    = "user"                                               - 
       | Objet ID = nil                                                  - 
       | Method   = "signup2"                                            - 
-      | Context  = nil                                  0.000136  0.029127
-    --> iroute.load_required                            0.000210  0.029337
-    <-- iroute.load_required                            0.001729  0.031066
-    --> iroute.load_per_vue                             0.000029  0.031095
-    <-- iroute.load_per_vue                             0.005446  0.036541
-    --> iroute.method_call                              0.000013  0.036554
-    <-- iroute.method_call                              0.000176  0.036730
-  <- SiteHtml#execute_route                             0.000004  0.036734
-  -> Page#preload                                       0.000010  0.036744
-
-      | current data identité : {:pseudo=>"Pilou", :patronyme=>"Pilou", :sexe=>"H", :naissance=>1964, :mail=>"monmail@chez.lui", :cpassword=>"0520e104a706abda8b03bf6e8f8f5375", :salt=>"rmyavctvfd", :telephone=>nil, :adresse=>nil, :session_id=>"806df0d4c50761759dea59aab98b798c", :options=>"0000000000", :created_at=>1474884679, :updated_at=>1474884679}  0.011565  0.048309
-  <- Page#preload                                       0.008902  0.057211
-  -> Page#prebuild_body                                 0.000026  0.057237
-    -> Page#body                                        0.000004  0.057241
-    <- Page#body                                        0.000690  0.057931
-  <- Page#prebuild_body                                 0.000017  0.057948
-  CODE HTML FINAL BUILT                                 0.000066  0.058014
-<- SiteHtml#output                                      0.000003  0.058017
+      | Context  = nil                                  0.000098  0.026833
+    --> iroute.load_required                            0.000138  0.026971
+    <-- iroute.load_required                            0.003079  0.030050
+    --> iroute.load_per_vue                             0.000014  0.030064
+    <-- iroute.load_per_vue                             0.008368  0.038432
+    --> iroute.method_call                              0.000012  0.038444
+    <-- iroute.method_call                              0.000176  0.038620
+  <- SiteHtml#execute_route                             0.000019  0.038639
+  -> Page#preload                                       0.000029  0.038668
+  <- Page#preload                                       0.016304  0.054972
+  -> Page#prebuild_body                                 0.000018  0.054990
+    -> Page#body                                        0.000005  0.054995
+    <- Page#body                                        0.000584  0.055579
+  <- Page#prebuild_body                                 0.000018  0.055597
+  CODE HTML FINAL BUILT                                 0.000069  0.055666
+<- SiteHtml#output                                      0.000004  0.055670
