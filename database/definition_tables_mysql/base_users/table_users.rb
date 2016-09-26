@@ -72,8 +72,8 @@ CREATE TABLE users
     # Année de naissance sur 4 chiffres
     naissance INTEGER(4),
 
-    # ADDRESS
-    # -------
+    #  ADRESSE
+    # ---------
     # Adresse physique de l'user
     adresse TEXT,
 

@@ -1,0 +1,61 @@
+// Bandeau des étape
+div#bandeau_states
+  font-size       : 14.2pt
+  border-bottom   : 1px solid #777
+  text-align      : center
+  font-family     : Arial, Helvetica, Geneva
+  letter-spacing  : 2px
+  height          : 35px
+  margin-bottom   : 4em
+  div.state
+    display           : inline-block
+    line-height       : 1.2em
+    width             : 18%
+    margin            : auto 16px
+    border            : 1px solid #CCC
+    padding           : 4px 8px
+    color             : #CCC
+    background-color  : white
+    &.selected
+      background-color    : green
+      color               : white
+    a
+      font-family : inherit !important
+      font-style  : inherit !important
+      font-size   : inherit !important
+      color       : inherit !important
+
+select, select option
+  font-size     : 17pt !important
+form#form_user_signup
+  width         : 80%
+  margin-left   : 6em
+  fieldset
+    padding   : 1em 2em 2em
+    legend
+      font-style    : italic
+      color         : #555
+      font-size     : 0.9em
+
+form
+  div.buttons
+    margin-top    : 4em
+
+// Pour les modules d'apprentissage
+ul#abs_modules
+  list-style  : none
+  li.absmodule
+    padding  : 0 0.5em
+    &:hover
+      background-color  : #CCF
+    span.name
+      display       : inline-block
+      width         : 460px
+      font-weight   : bold
+    span.tarif
+      display       : inline-block
+      width         : 160px
+      font-weight   : bold
+      color         : #207e1e
+    span.link
+      float : right

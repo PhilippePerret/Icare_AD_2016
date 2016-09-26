@@ -53,4 +53,4 @@ RewriteRule ^analyses?$ http://www.laboiteaoutilsdelauteur.fr/analyse/home [QSA]
 
 # === FONCTIONNEMENT NORMAL RESTFULL ===
 # Transformation en 'objet/id/method'
-RewriteRule ^([a-z_]+)(?:\/([0-9]+))?\/([a-z_]+)$ index.rb?__o=$1&__i=$2&__m=$3 [QSA,L]
+RewriteRule ^([a-z_]+)(?:\/([0-9]+))?\/([a-z0-9_]+)$ index.rb?__o=$1&__i=$2&__m=$3 [QSA,L]

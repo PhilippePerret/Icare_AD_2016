@@ -24,7 +24,7 @@ class << self
     'S\'identifier'.in_a(href:'user/signin', class: 'btn', back_to: route_courante)
   end
   def signup_button
-    site.route?('user/signup') && (return '')
+    (site.route?('user/signup') || site.route?('user/signup2')) && (return '')
     'Poser&nbsp;sa&nbsp;candidature'.in_a(href: 'user/signup', id: 'btn_signin', class: 'btn main')
   end
 

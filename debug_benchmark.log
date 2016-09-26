@@ -1,62 +1,34 @@
-=== BENCHMARK DU 26 septembre 2016 à 09:43 ===
-=== Index start : 1474875802.447107 (2016-09-26 09:43:22 +0200)
+=== BENCHMARK DU 26 septembre 2016 à 12:15 ===
+=== Index start : 1474884927.148909 (2016-09-26 12:15:27 +0200)
 
 -> site/config.rb                                       0.000000  0.000000
-<- site/config.rb                                       0.000137  0.000137
--> execute_preambule                                    0.022559  0.022696
-  -> User#do_after_load                                 0.006547  0.029243
-  <- User#do_after_load                                 0.000014  0.029257
-<- execute_preambule                                    0.000004  0.029261
--> required.rb                                         -0.218943 -0.189682
-<- required.rb                                          0.218947  0.029265
--> SiteHtml#output                                      0.000044  0.029309
-  -> SiteHtml#execute_route                             0.000005  0.029314
-      | Objet    = "admin"                                              - 
+<- site/config.rb                                       0.000167  0.000167
+-> execute_preambule                                    0.022656  0.022823
+  -> User#do_after_load                                 0.006054  0.028877
+  <- User#do_after_load                                 0.000028  0.028905
+<- execute_preambule                                    0.000005  0.028910
+-> required.rb                                         -0.328876 -0.299966
+<- required.rb                                          0.328882  0.028916
+-> SiteHtml#output                                      0.000066  0.028982
+  -> SiteHtml#execute_route                             0.000009  0.028991
+      | Objet    = "user"                                               - 
       | Objet ID = nil                                                  - 
-      | Method   = "dashboard"                                          - 
-      | Context  = nil                                  0.000106  0.029420
-    --> user.set_last_connexion                         0.000108  0.029528
-    <-- user.set_last_connexion                         0.002179  0.031707
-    --> iroute.load_required                            0.000031  0.031738
-    <-- iroute.load_required                            0.002125  0.033863
-    --> iroute.load_per_vue                             0.000011  0.033874
+      | Method   = "signup2"                                            - 
+      | Context  = nil                                  0.000136  0.029127
+    --> iroute.load_required                            0.000210  0.029337
+    <-- iroute.load_required                            0.001729  0.031066
+    --> iroute.load_per_vue                             0.000029  0.031095
+    <-- iroute.load_per_vue                             0.005446  0.036541
+    --> iroute.method_call                              0.000013  0.036554
+    <-- iroute.method_call                              0.000176  0.036730
+  <- SiteHtml#execute_route                             0.000004  0.036734
+  -> Page#preload                                       0.000010  0.036744
 
-      | --> check_folders_offline                       0.029229  0.063103
-
-      | --> check_folders_online                        0.270623  0.333726
-
-      | --> build_result                               24.743662 25.077388
-
-      | --> open_result                                 0.036777 25.114165
-    -> Synchro#open_result                              0.000018 25.114183
-    <- Synchro#open_result                              0.267395 25.381578
-    -> SiteHtml#redirect_to                             0.000234 25.381812
-
-      | Redirection -> bureau/home                      0.000051 25.381863
-      -> SiteHtml#execute_route                         0.000187 25.382050
-      | Objet    = "bureau"                                             - 
-      | Objet ID = nil                                                  - 
-      | Method   = "home"                                               - 
-      | Context  = nil                                  0.000059 25.382109
-        --> user.set_last_connexion                     0.000028 25.382137
-        <-- user.set_last_connexion                     0.001532 25.383669
-        --> iroute.load_required                        0.000024 25.383693
-        <-- iroute.load_required                        0.016314 25.400007
-        --> iroute.load_per_vue                         0.000014 25.400021
-        <-- iroute.load_per_vue                         0.007637 25.407658
-        --> iroute.method_call                          0.000014 25.407672
-        <-- iroute.method_call                          0.000288 25.407960
-      <- SiteHtml#execute_route                         0.000005 25.407965
-    <- SiteHtml#redirect_to                             0.000005 25.407970
-    <-- iroute.load_per_vue                             0.000071 25.408041
-    --> iroute.method_call                              0.000003 25.408044
-    <-- iroute.method_call                              0.000155 25.408199
-  <- SiteHtml#execute_route                             0.000003 25.408202
-  -> Page#preload                                       0.000017 25.408219
-  <- Page#preload                                       0.078222 25.486441
-  -> Page#prebuild_body                                 0.000022 25.486463
-    -> Page#body                                        0.000004 25.486467
-    <- Page#body                                        0.004129 25.490596
-  <- Page#prebuild_body                                 0.000028 25.490624
-  CODE HTML FINAL BUILT                                 0.000205 25.490829
-<- SiteHtml#output                                      0.000009 25.490838
+      | current data identité : {:pseudo=>"Pilou", :patronyme=>"Pilou", :sexe=>"H", :naissance=>1964, :mail=>"monmail@chez.lui", :cpassword=>"0520e104a706abda8b03bf6e8f8f5375", :salt=>"rmyavctvfd", :telephone=>nil, :adresse=>nil, :session_id=>"806df0d4c50761759dea59aab98b798c", :options=>"0000000000", :created_at=>1474884679, :updated_at=>1474884679}  0.011565  0.048309
+  <- Page#preload                                       0.008902  0.057211
+  -> Page#prebuild_body                                 0.000026  0.057237
+    -> Page#body                                        0.000004  0.057241
+    <- Page#body                                        0.000690  0.057931
+  <- Page#prebuild_body                                 0.000017  0.057948
+  CODE HTML FINAL BUILT                                 0.000066  0.058014
+<- SiteHtml#output                                      0.000003  0.058017

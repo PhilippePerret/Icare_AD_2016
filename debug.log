@@ -1085,3 +1085,1115 @@ Objet    = "bureau"
 Objet ID = nil
 Method   = "home"
 Context  = nil
+
+
+=== DEBUG DU 26 09 2016 - 10:03:33 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup2"
+Context  = nil
+-- Unable de require file ./objet/signup/lib/module/signup2.rb: it doesn't exist.
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:76:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/divers/modules/main_objets.rb:67:in `require_module'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/user/signup2.rb:10:in `<top (required)>'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:22:in `require_ruby'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:15:in `require_all'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:330:in `load_per_vue'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:103:in `execute_route'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+-- (ERREUR : Unable de require file ./objet/signup/lib/module/signup2.rb: it doesn't exist.)
+<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:76:in `require'</div>
+<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/divers/modules/main_objets.rb:67:in `require_module'</div>
+<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/user/signup2.rb:10:in `<top (required)>'</div>
+<div>/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'</div>
+<div>/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'</div>
+<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'</div>
+<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:22:in `require_ruby'</div>
+<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:15:in `require_all'</div>
+<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:330:in `load_per_vue'</div>
+<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:103:in `execute_route'</div>
+<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'</div>
+<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'</div>
+
+
+=== DEBUG DU 26 09 2016 - 10:05:43 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup2"
+Context  = nil
+-- undefined method `view' for Signup:Class
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/user/lib/module/signup2/states/page_form_identite.rb:6:in `page_form_identite'
+(erb):12:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 26 09 2016 - 10:05:57 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup2"
+Context  = nil
+-- undefined method `view' for User:Class
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/user/lib/module/signup2/states/page_form_identite.rb:6:in `page_form_identite'
+(erb):12:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 26 09 2016 - 10:08:42 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup2"
+Context  = nil
+-- undefined method `folder_objet' for User:Class
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/user/lib/module/signup2/helper/helper.rb:17:in `folder_views'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/user/lib/module/signup2/helper/helper.rb:13:in `view'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/user/lib/module/signup2/states/page_form_identite.rb:6:in `page_form_identite'
+(erb):12:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 26 09 2016 - 10:08:58 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup2"
+Context  = nil
+
+
+=== DEBUG DU 26 09 2016 - 10:10:25 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup2"
+Context  = nil
+
+
+=== DEBUG DU 26 09 2016 - 10:15:26 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup2"
+Context  = nil
+-- Le fichier/dossier “./objet/user/lib/module/signup2/view/form.erb” est inexistant
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:38:in `read'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/user/lib/module/signup2/helper/helper.rb:13:in `view'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/user/lib/module/signup2/states/page_form_identite.rb:6:in `page_form_identite'
+(erb):12:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 26 09 2016 - 10:16:00 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup2"
+Context  = nil
+
+
+=== DEBUG DU 26 09 2016 - 10:16:29 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup2"
+Context  = nil
+
+
+=== DEBUG DU 26 09 2016 - 10:23:59 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup2"
+Context  = nil
+-- undefined method `in_div' for {:hname=>"Identit\u00E9"}:Hash
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/user/lib/module/signup2/helper/helper.rb:15:in `block in bandeau_states'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/user/lib/module/signup2/helper/helper.rb:14:in `each'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/user/lib/module/signup2/helper/helper.rb:14:in `collect'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/user/lib/module/signup2/helper/helper.rb:14:in `bandeau_states'
+(erb):7:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 26 09 2016 - 10:24:13 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup2"
+Context  = nil
+
+
+=== DEBUG DU 26 09 2016 - 10:25:30 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup2"
+Context  = nil
+
+
+=== DEBUG DU 26 09 2016 - 10:25:57 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup2"
+Context  = nil
+
+
+=== DEBUG DU 26 09 2016 - 10:26:07 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup2"
+Context  = nil
+
+
+=== DEBUG DU 26 09 2016 - 10:26:33 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup2"
+Context  = nil
+
+
+=== DEBUG DU 26 09 2016 - 10:26:50 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup2"
+Context  = nil
+
+
+=== DEBUG DU 26 09 2016 - 10:27:41 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup2"
+Context  = nil
+
+
+=== DEBUG DU 26 09 2016 - 10:28:24 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup2"
+Context  = nil
+
+
+=== DEBUG DU 26 09 2016 - 10:28:38 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup2"
+Context  = nil
+
+
+=== DEBUG DU 26 09 2016 - 10:28:43 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup2"
+Context  = nil
+
+
+=== DEBUG DU 26 09 2016 - 10:29:20 ===
+
+-- 
+Objet    = "user"
+Objet ID = 1
+Method   = "deconnexion"
+Context  = nil
+
+
+=== DEBUG DU 26 09 2016 - 10:29:22 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup2"
+Context  = nil
+
+
+=== DEBUG DU 26 09 2016 - 10:30:58 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup2"
+Context  = nil
+
+
+=== DEBUG DU 26 09 2016 - 10:31:33 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup2"
+Context  = nil
+
+
+=== DEBUG DU 26 09 2016 - 10:32:25 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup2"
+Context  = nil
+
+
+=== DEBUG DU 26 09 2016 - 10:38:26 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup2"
+Context  = nil
+
+
+=== DEBUG DU 26 09 2016 - 10:39:43 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup2"
+Context  = nil
+
+
+=== DEBUG DU 26 09 2016 - 10:45:03 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup2"
+Context  = nil
+-- undefined method `traite_operation' for Signup:Class
+
+(erb):13:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 26 09 2016 - 10:46:29 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup2"
+Context  = nil
+
+
+=== DEBUG DU 26 09 2016 - 10:48:22 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "create"
+Context  = nil
+-- La méthode User::create est appelée sans les bons arguments.
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/user/lib/module/create/create.rb:35:in `create'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:352:in `method_call'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:111:in `execute_route'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+-- (ERREUR : La méthode User::create est appelée sans les bons arguments.)
+<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/user/lib/module/create/create.rb:35:in `create'</div>
+<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:352:in `method_call'</div>
+<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:111:in `execute_route'</div>
+<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'</div>
+<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'</div>
+
+
+=== DEBUG DU 26 09 2016 - 10:49:03 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 26 09 2016 - 10:49:13 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup2"
+Context  = nil
+-- undefined method `page_form_documents' for Signup:Class
+
+(erb):34:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 26 09 2016 - 10:51:56 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup2"
+Context  = nil
+
+
+=== DEBUG DU 26 09 2016 - 10:52:05 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup2"
+Context  = nil
+
+
+=== DEBUG DU 26 09 2016 - 10:52:52 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup2"
+Context  = nil
+
+
+=== DEBUG DU 26 09 2016 - 10:52:55 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup2"
+Context  = nil
+
+
+=== DEBUG DU 26 09 2016 - 10:52:59 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup2"
+Context  = nil
+-- undefined method `page_form_modules' for Signup:Class
+
+(erb):32:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 26 09 2016 - 11:00:29 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup2"
+Context  = nil
+-- undefined local variable or method `titre_choix_modules' for Signup:Class
+
+(erb):10:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/user/lib/module/signup2/helper/helper.rb:25:in `view'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/user/lib/module/signup2/states/page_form_identite.rb:10:in `page_form_modules'
+(erb):32:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 26 09 2016 - 11:04:39 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup2"
+Context  = nil
+
+
+=== DEBUG DU 26 09 2016 - 11:04:47 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup2"
+Context  = nil
+
+
+=== DEBUG DU 26 09 2016 - 11:05:44 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup2"
+Context  = nil
+
+
+=== DEBUG DU 26 09 2016 - 11:05:55 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup2"
+Context  = nil
+
+
+=== DEBUG DU 26 09 2016 - 11:06:43 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup2"
+Context  = nil
+
+
+=== DEBUG DU 26 09 2016 - 11:08:05 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup2"
+Context  = nil
+
+
+=== DEBUG DU 26 09 2016 - 11:08:51 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup2"
+Context  = nil
+
+
+=== DEBUG DU 26 09 2016 - 11:09:11 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup2"
+Context  = nil
+-- undefined local variable or method `required_mark' for Signup:Class
+
+(erb):11:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/user/lib/module/signup2/helper/helper.rb:25:in `view'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/user/lib/module/signup2/states/page_form_identite.rb:13:in `page_form_documents'
+(erb):34:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 26 09 2016 - 11:16:30 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup2"
+Context  = nil
+-- undefined local variable or method `required_mark' for Signup:Class
+
+(erb):11:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/user/lib/module/signup2/helper/helper.rb:28:in `view'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/user/lib/module/signup2/states/page_form_identite.rb:13:in `page_form_documents'
+(erb):34:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 26 09 2016 - 11:17:11 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup2"
+Context  = nil
+
+
+=== DEBUG DU 26 09 2016 - 11:17:59 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup2"
+Context  = nil
+
+
+=== DEBUG DU 26 09 2016 - 11:19:00 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup2"
+Context  = nil
+-- undefined method `in_submit_button' for "Finaliser l\u2019inscription":String
+
+(erb):16:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/user/lib/module/signup2/helper/helper.rb:28:in `view'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/user/lib/module/signup2/states/page_form_identite.rb:13:in `page_form_documents'
+(erb):34:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 26 09 2016 - 11:19:09 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup2"
+Context  = nil
+
+
+=== DEBUG DU 26 09 2016 - 11:19:40 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup2"
+Context  = nil
+
+
+=== DEBUG DU 26 09 2016 - 11:19:55 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup2"
+Context  = nil
+
+
+=== DEBUG DU 26 09 2016 - 11:20:51 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup2"
+Context  = nil
+
+
+=== DEBUG DU 26 09 2016 - 11:21:31 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup2"
+Context  = nil
+
+
+=== DEBUG DU 26 09 2016 - 11:21:44 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup2"
+Context  = nil
+
+
+=== DEBUG DU 26 09 2016 - 11:21:57 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup2"
+Context  = nil
+-- undefined method `page_confirmation' for Signup:Class
+
+(erb):36:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 26 09 2016 - 11:23:25 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup2"
+Context  = nil
+
+
+=== DEBUG DU 26 09 2016 - 11:24:19 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup2"
+Context  = nil
+-- idstate : identite
+-- selected : ""
+-- courante_is_found : true
+-- idstate : modules
+-- selected : ""
+-- courante_is_found : true
+-- idstate : documents
+-- selected : ""
+-- courante_is_found : true
+-- idstate : confirmation
+-- selected : "selected"
+-- courante_is_found : true
+
+
+=== DEBUG DU 26 09 2016 - 11:25:07 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup2"
+Context  = nil
+-- idstate : identite
+-- selected : nil
+-- courante_is_found : false
+-- idstate : modules
+-- selected : nil
+-- courante_is_found : false
+-- idstate : documents
+-- selected : nil
+-- courante_is_found : false
+-- idstate : confirmation
+-- selected : "selected"
+-- courante_is_found : true
+
+
+=== DEBUG DU 26 09 2016 - 11:27:36 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup2"
+Context  = nil
+
+
+=== DEBUG DU 26 09 2016 - 11:28:48 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup2"
+Context  = nil
+
+
+=== DEBUG DU 26 09 2016 - 11:29:32 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup2"
+Context  = nil
+
+
+=== DEBUG DU 26 09 2016 - 11:29:36 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup2"
+Context  = nil
+
+
+=== DEBUG DU 26 09 2016 - 11:30:09 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup2"
+Context  = nil
+
+
+=== DEBUG DU 26 09 2016 - 11:30:14 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup2"
+Context  = nil
+
+
+=== DEBUG DU 26 09 2016 - 11:30:22 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup2"
+Context  = nil
+
+
+=== DEBUG DU 26 09 2016 - 11:30:26 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup2"
+Context  = nil
+
+
+=== DEBUG DU 26 09 2016 - 11:47:17 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup2"
+Context  = nil
+
+
+=== DEBUG DU 26 09 2016 - 11:47:37 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup2"
+Context  = nil
+-- form_data : 
+{:pseudo=>"", :patronyme=>"", :sexe=>"F", :naissance=>"1998", :mail=>"", :mail_confirmation=>"", :password=>"", :password_confirmation=>"", :telephone=>"", :adresse=>"", :captcha=>""}
+-- Il faut fournir le pseudo.
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/user/lib/module/signup2/operation/save_identite.rb:22:in `data_valides?'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/user/lib/module/signup2/operation/save_identite.rb:8:in `save_identite'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/user/lib/module/signup2/traite_operation.rb:8:in `traite_operation'
+(erb):13:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 26 09 2016 - 11:58:07 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup2"
+Context  = nil
+-- form_data : 
+{:pseudo=>"", :patronyme=>"", :sexe=>"F", :naissance=>"1998", :mail=>"", :mail_confirmation=>"", :password=>"", :password_confirmation=>"", :telephone=>"", :adresse=>"", :captcha=>""}
+-- Il faut fournir le pseudo.
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/user/lib/module/signup2/operation/save_identite.rb:43:in `data_valides?'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/user/lib/module/signup2/operation/save_identite.rb:8:in `save_identite'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/user/lib/module/signup2/traite_operation.rb:8:in `traite_operation'
+(erb):13:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 26 09 2016 - 12:09:55 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup2"
+Context  = nil
+-- form_data : 
+{:pseudo=>"Pilou", :patronyme=>"Pilou", :sexe=>"H", :naissance=>"1964", :mail=>"monmail@chez.moi", :mail_confirmation=>"monmail@chez.moi", :password=>"monmailchez.moi", :password_confirmation=>"monmailchez.moi", :telephone=>"", :adresse=>"", :captcha=>"14"}
+-- Ce mail existe déjà… Vous devez déjà être inscrit…
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/user/lib/module/signup2/operation/save_identite.rb:76:in `data_valides?'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/user/lib/module/signup2/operation/save_identite.rb:8:in `save_identite'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/user/lib/module/signup2/traite_operation.rb:8:in `traite_operation'
+(erb):13:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 26 09 2016 - 12:10:13 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup2"
+Context  = nil
+-- form_data : 
+{:pseudo=>"Pilou", :patronyme=>"Pilou", :sexe=>"H", :naissance=>"1964", :mail=>"monmail@chez.lui", :mail_confirmation=>"monmail@chez.lui", :password=>"monmailchez.moi", :password_confirmation=>"monmailchez.moi", :telephone=>"", :adresse=>"", :captcha=>"14"}
+-- Le captcha est mauvais, seriez-vous un robot ?
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/user/lib/module/signup2/operation/save_identite.rb:94:in `data_valides?'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/user/lib/module/signup2/operation/save_identite.rb:8:in `save_identite'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/user/lib/module/signup2/traite_operation.rb:8:in `traite_operation'
+(erb):13:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 26 09 2016 - 12:10:24 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup2"
+Context  = nil
+-- form_data : 
+{:pseudo=>"Pilou", :patronyme=>"Pilou", :sexe=>"H", :naissance=>"1964", :mail=>"monmail@chez.lui", :mail_confirmation=>"monmail@chez.lui", :password=>"monmailchez.moi", :password_confirmation=>"monmailchez.moi", :telephone=>"", :adresse=>"", :captcha=>"30"}
+-- undefined local variable or method `mail' for Signup:Class
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/user/lib/module/signup2/operation/save_identite.rb:115:in `cpassword'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/user/lib/module/signup2/operation/save_identite.rb:31:in `data2save'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/user/lib/module/signup2/operation/save_identite.rb:10:in `save_identite'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/user/lib/module/signup2/traite_operation.rb:8:in `traite_operation'
+(erb):13:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 26 09 2016 - 12:11:19 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup2"
+Context  = nil
+-- form_data : 
+{:pseudo=>"Pilou", :patronyme=>"Pilou", :sexe=>"H", :naissance=>"1964", :mail=>"monmail@chez.lui", :mail_confirmation=>"monmail@chez.lui", :password=>"monmailchez.moi", :password_confirmation=>"monmailchez.moi", :telephone=>"", :adresse=>"", :captcha=>"30"}
+
+
+=== DEBUG DU 26 09 2016 - 12:13:35 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup2"
+Context  = nil
+-- current data identité : {:pseudo=>"Pilou", :patronyme=>"Pilou", :sexe=>"H", :naissance=>1964, :mail=>"monmail@chez.lui", :cpassword=>"0520e104a706abda8b03bf6e8f8f5375", :salt=>"rmyavctvfd", :telephone=>nil, :adresse=>nil, :session_id=>"806df0d4c50761759dea59aab98b798c", :options=>"0000000000", :created_at=>1474884679, :updated_at=>1474884679}
+
+
+=== DEBUG DU 26 09 2016 - 12:15:27 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup2"
+Context  = nil
+-- current data identité : {:pseudo=>"Pilou", :patronyme=>"Pilou", :sexe=>"H", :naissance=>1964, :mail=>"monmail@chez.lui", :cpassword=>"0520e104a706abda8b03bf6e8f8f5375", :salt=>"rmyavctvfd", :telephone=>nil, :adresse=>nil, :session_id=>"806df0d4c50761759dea59aab98b798c", :options=>"0000000000", :created_at=>1474884679, :updated_at=>1474884679}

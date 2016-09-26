@@ -1,0 +1,20 @@
+<%
+# View pour choisir les modules d'apprentissage optionnés
+%>
+<%=
+
+site.require 'form_tools'
+form.prefix = 'signup'
+(
+  'save_modules'.in_hidden(name: 'signup[operation]', id: 'signup_operation') +
+  "Merci de choisir ci-dessous les modules pour lesquels vous postulez. Dans le doute, n'hésitez pas à #{lien.contact("contacter Phil")} pour en discuter avec lui.".in_p(class: 'small') +
+  Signup.liste_modules_checkboxable +
+  form.submit_button('Poursuivre l’inscription')
+).in_form(
+    class: 'dim3070',
+    id:     'form_modules',
+    action: site.current_route.route,
+    onsubmit: "return $.proxy(Signup,'check_modules')()"
+    )
+
+%>
