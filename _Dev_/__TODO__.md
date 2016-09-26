@@ -18,6 +18,8 @@
 
 * Pour les citations, plutôt que de les charger chaque fois, pour accélérer, charger 20 citations pour la journée et les faire "tourner" à chaque chargement de l'accueil.
 
+* L'option 17 (18e bit) doit servir à ne recevoir aucun mail de l'atelier, jamais (même les mails par la mailing list)
+  - C'est déjà réglé pour la mailing-list, mais il faut le faire pour le reste (cron actualités, autres ?)
 
 * Faire un javascript qui permette de supprimer la notification pour les
   download (mais seulement pour l'administrateur).

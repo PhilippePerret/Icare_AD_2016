@@ -18,8 +18,8 @@ class User
   # Bit 17 et suivant, cf. le fichier
   #  ./ruby/_objets/User/model/Preferences/preferences.rb dans
   # l'atelier Icare_AD
-  def pref_bureau_after_login?  ; pref? 0 end # bit 17 (= 18e)
-  def pref_mail_actualites?     ; pref? 1 end # bit 18 envoi annonces
+  def pref_no_mail_at_all?      ; pref? 0 end # bit 17 (= 18e)
+  def pref_no_mail_actualites?  ; pref? 1 end # bit 18 envoi annonces
   def pref_contact_icarien?     ; pref? 2 end # bit 19 contacté par autre user
   def pref_cache_header?        ; pref? 3 end # bit 20
   def pref_share_historique?    ; pref? 4 end # bit 21

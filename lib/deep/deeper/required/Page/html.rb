@@ -87,6 +87,7 @@ class Page
 <script type="text/javascript">
 ONLINE = #{ONLINE.inspect};
 OFFLINE = !ONLINE;
+#{OFFLINE ? "const SESSION_ID = '#{app.session.session_id}';" : ''}
 </script>
     HTML
   end

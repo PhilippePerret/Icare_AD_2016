@@ -186,7 +186,7 @@ RSpec.configure do |config|
     # online.
     app.set_mode_test true
 
-    ['download', 'mails', '_adm'].each do |fname|
+    ['download', 'mails', '_adm', 'signup'].each do |fname|
       fp = site.folder_tmp + fname
       fp.remove if fp.exist?
     end

@@ -26,7 +26,7 @@ class << self
     end.join.in_div(id: 'bandeau_states')
   end
 
-  # Chargement de la vue (dans le dossier signup2/view/)
+  # Chargement de la vue (dans le dossier signup/view/)
   def view relpath
     (folder_views + relpath).deserb(self)
   end

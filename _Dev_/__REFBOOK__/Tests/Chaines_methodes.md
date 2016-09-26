@@ -1,15 +1,41 @@
 # Chaines méthodes
 
+* [Méthodes pour les formulaires](#methodestestformulaire)
 * [Méthodes de test pour les mails](#methodesdetestsmails)
 * [Les messages](#lesmessages)
   * [Message flash (notice)](#messageflash)
   * [Message d'erreur flash](#messagederreurnoramle)
   * [Message d'erreur fatal](#messagederreurfatail)
 
-* [Méthodes de mail](#methodesdemail)
-<a name='methodesdemail'></a>
 
-## Méthodes de mail
+<a name='methodestestformulaire'></a>
+
+## Méthodes pour les formulaires
+
+    La feuille contient le formulaire '<form id>'
+    La feuille contient le bouton '<nom bouton>', dans: '<form ou autre>'
+
+    La feuille ne contient pas derreur
+    
+    Lui clique le bouton '<nom bouton>'
+    Lui clique le link '<nom bouton>'
+    Lui coche la checkbox '<label du checkbox ou name ou id>'
+
+    Lui remplit le champ '<référence>', <Hash args>
+
+        args peut contenir
+          :dans/:in       JID du contenant, le formulaire par exemple
+          :avec/:with     La valeur à mettre dans le champ
+          :qui            Le pseudo éventuel de l'utilisateur
+          :success        Le message de succès if any
+          :failure        Le message d'échec, if any
+
+
+# ---------------------------------------------------------------------
+
+<a name='methodesdetestsmails'></a>
+
+## Méthodes de test pour les mails
 
 ~~~
 
@@ -39,14 +65,9 @@ Puis on l'utilise normalement :
 ~~~
 
   Lui recoit un mail <data>
-  
+
 ~~~
 
-
-
-<a name='methodesdetestsmails'></a>
-
-## Méthodes de test pour les mails
 
 Pour les mails, il faut initialiser un `Someone` avec l'identifiant de l'utilisateur :
 

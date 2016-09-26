@@ -74,6 +74,7 @@ class User
       click_button(ref_bouton, match: :first)
     end
   end
+  alias :click_le_bouton :clique_le_bouton
 
   # +args+
   #   Valeurs obligatoires
@@ -98,7 +99,6 @@ class User
     within(leform){ fill_in( ref_field, args) }
     @args = args_init
   end
-  alias :click_le_bouton :clique_le_bouton
 
   def attache_le_fichier path_fichier, args
     path_fichier = File.expand_path(path_fichier)

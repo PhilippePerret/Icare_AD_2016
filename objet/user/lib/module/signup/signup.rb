@@ -22,7 +22,7 @@ class << self
 
   # Dossier contenant les différentes vues de l'inscription
   def folder_views
-    @folder_views ||= User.folder + 'lib/module/signup2/view'
+    @folder_views ||= User.folder + 'lib/module/signup/view'
   end
 
 end #/<< self

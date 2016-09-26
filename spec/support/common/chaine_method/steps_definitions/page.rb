@@ -477,6 +477,32 @@ end
 alias :la_page_affiche_le_message_erreur :la_page_a_l_erreur
 alias :la_page_contient_le_message_erreur :la_page_a_l_erreur
 
+
+def la_page_ne_contient_pas_le_message_erreur err, options = nil
+  options ||= Hash.new
+  ajax = options[:ajax] == true
+  options.merge!(text: /#{Regexp.escape err}/)
+  hasflash, haserror = nil, nil
+  # On attend 10 secondes qu'un message s'affiche
+  tr = 0; while (tr += 1) < 10
+    hasflash = cpage.has_css?('div#flash', options)
+    haserror = cpage.has_css?('div.warning', options)
+    ( hasflash || haserror )? break : (sleep 0.5)
+  end
+  if hasflash
+    options.merge!(class: 'error', in: 'div#flash')
+    options[:success] ||= "La page n'affiche pas le message d'erreur flash “#{err}”."
+    la_page_napas_la_balise 'div', options
+  elsif haserror
+    options.merge!(class: 'warning')
+    options[:success] ||= "La page n'affiche pas le message warning “#{err}”."
+    la_page_napas_la_balise 'div', options
+  else
+    raise "La page ne devrait pas contenir le message d’erreur attendu “#{err}”…"
+  end
+end
+
+
 def la_page_napas_derreur
   if cpage.has_css?('div#flash div.error')
     idiv = 0; erreurs = Array.new
@@ -490,7 +516,7 @@ def la_page_napas_derreur
     success "La page n’affiche pas de message d'erreur."
   end
 end
-alias :la_page_n_affiche_pas_le_message_erreur :la_page_napas_derreur
+alias :la_page_ne_contient_pas_derreur :la_page_napas_derreur
 
 def la_page_a_l_erreur_fatale err, options = nil
   options ||= Hash.new

@@ -1,34 +1,64 @@
-=== BENCHMARK DU 26 septembre 2016 à 18:00 ===
-=== Index start : 1474905651.241527 (2016-09-26 18:00:51 +0200)
+=== BENCHMARK DU 26 septembre 2016 à 22:39 ===
+=== Index start : 1474922370.826902 (2016-09-26 22:39:30 +0200)
 
 -> site/config.rb                                       0.000000  0.000000
-<- site/config.rb                                       0.000277  0.000277
--> execute_preambule                                    0.022231  0.022508
-  -> User#do_after_load                                 0.018520  0.041028
-  <- User#do_after_load                                 0.000018  0.041046
-<- execute_preambule                                    0.000004  0.041050
--> required.rb                                         -0.373492 -0.332442
-<- required.rb                                          0.373496  0.041054
--> SiteHtml#output                                      0.000087  0.041141
-  -> SiteHtml#execute_route                             0.000012  0.041153
-      | Objet    = "bureau"                                             - 
+<- site/config.rb                                       0.000188  0.000188
+-> execute_preambule                                    0.020793  0.020981
+  -> User#do_after_load                                 0.002837  0.023818
+  <- User#do_after_load                                 0.000017  0.023835
+<- execute_preambule                                    0.000006  0.023841
+-> required.rb                                         -0.174205 -0.150364
+<- required.rb                                          0.174208  0.023844
+-> SiteHtml#output                                      0.000031  0.023875
+  -> SiteHtml#execute_route                             0.000003  0.023878
+      | Objet    = "user"                                               - 
       | Objet ID = nil                                                  - 
-      | Method   = "home"                                               - 
-      | Context  = nil                                  0.000180  0.041333
-    --> user.set_last_connexion                         0.000246  0.041579
-    <-- user.set_last_connexion                         0.003632  0.045211
-    --> iroute.load_required                            0.000019  0.045230
-    <-- iroute.load_required                            0.002759  0.047989
-    --> iroute.load_per_vue                             0.000020  0.048009
-    <-- iroute.load_per_vue                             0.006377  0.054386
-    --> iroute.method_call                              0.000017  0.054403
-    <-- iroute.method_call                              0.000474  0.054877
-  <- SiteHtml#execute_route                             0.000015  0.054892
-  -> Page#preload                                       0.000026  0.054918
-  <- Page#preload                                       0.107684  0.162602
-  -> Page#prebuild_body                                 0.000028  0.162630
-    -> Page#body                                        0.000006  0.162636
-    <- Page#body                                        0.000820  0.163456
-  <- Page#prebuild_body                                 0.000026  0.163482
-  CODE HTML FINAL BUILT                                 0.000129  0.163611
-<- SiteHtml#output                                      0.000005  0.163616
+      | Method   = "signup"                                             - 
+      | Context  = nil                                  0.000075  0.023953
+    --> iroute.load_required                            0.000101  0.024054
+    <-- iroute.load_required                            0.000944  0.024998
+    --> iroute.load_per_vue                             0.000009  0.025007
+    <-- iroute.load_per_vue                             0.004903  0.029910
+    --> iroute.method_call                              0.000011  0.029921
+    <-- iroute.method_call                              0.000160  0.030081
+  <- SiteHtml#execute_route                             0.000003  0.030084
+  -> Page#preload                                       0.000009  0.030093
+    -> User#data_valides?                               0.005272  0.035365
+      | form_data :                                                     - 
+      | {:pseudo=>"Aoluj", :patronyme=>"", :sexe=>"F", :naissance=>"1998", :mail=>"aoluj@chez.com", :mail_confirmation=>"aoluj@chez.com", :password=>"monmotdepasse", :password_confirmation=>"monmotdepasse", :telephone=>"", :adresse=>"", :captcha=>"13"}  0.000046  0.035411
+    <- User#data_valides?                               0.000999  0.036410
+
+      | Suivi de projet (normal) is NOT checked         0.036174  0.072584
+
+      | Découverte is NOT checked                       0.001455  0.074039
+
+      | Initiation à la dramaturgie is NOT checked      0.001064  0.075103
+
+      | Analyse de film is NOT checked                  0.000981  0.076084
+
+      | Documents is NOT checked                        0.001268  0.077352
+
+      | Dynamique narrative is NOT checked              0.001678  0.079030
+
+      | Personnages is NOT checked                      0.001358  0.080388
+
+      | Scénario is NOT checked                         0.001548  0.081936
+
+      | Structure is NOT checked                        0.001435  0.083371
+
+      | Suivi de projet (intensif) is NOT checked       0.001612  0.084983
+
+      | Thèmes is NOT checked                           0.001738  0.086721
+
+      | Procédés is NOT checked                         0.002108  0.088829
+
+      | Bible de série is NOT checked                   0.001111  0.089940
+
+      | Coaching intensif is NOT checked                0.001198  0.091138
+  <- Page#preload                                       0.002760  0.093898
+  -> Page#prebuild_body                                 0.000010  0.093908
+    -> Page#body                                        0.000005  0.093913
+    <- Page#body                                        0.000207  0.094120
+  <- Page#prebuild_body                                 0.000016  0.094136
+  CODE HTML FINAL BUILT                                 0.000089  0.094225
+<- SiteHtml#output                                      0.000003  0.094228

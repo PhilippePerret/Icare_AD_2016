@@ -35,13 +35,14 @@ class << self
           end
       end
       if bit16
-        clause16 << "SUBSTRING(options,17,1) = #{bit16}"
+        clause16 << "SUBSTRING(options,17,1) = '#{bit16}'"
       end
       if bit24
-        clause24 << "SUBSTRING(options,25,1) = #{bit24}"
+        clause24 << "SUBSTRING(options,25,1) = '#{bit24}'"
       end
     end
     clauses = Array.new
+    clauses << "SUBSTRING(options,18,1) = '0'" # aucun mail, ever
     return nil if clause16.empty? && clause24.empty?
     clause16.empty? || clauses << "( #{clause16.join(' OR ')} )"
     clause24.empty? || clauses << "( #{clause24.join(' OR ')} )"
