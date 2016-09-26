@@ -25,10 +25,15 @@ $.extend(window.Signup,{
     * soumettre le formulaire, ou FALSE en cas d'échec
     */
   check_documents:function(){
-    var valpre = $('input#documents_presentation_presentation').val().trim();
-    var valmot = $('input#documents_presentation_motivation').val().trim();
+    Flash.clean();
+    var valpre = $('input#signup_documents_presentation').val().trim();
+    var valmot = $('input#signup_documents_motivation').val().trim();
     if(valpre == '' && valmot == ''){
       F.error('Il faut impérativement transmettre les 2 documents obligatoires (marqués d’une astérisque rouge).')
+      return false;
+    }else if(valpre == '' || valmot == ''){
+      if(valpre == ''){F.error('Il faut impérativement transmettre votre document de présentation.')}
+      else if(valmot == ''){F.error('Il faut impérativement transmettre votre lettre de motivation.')}
       return false;
     }else{
       return true;

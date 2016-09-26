@@ -9,7 +9,10 @@ class << self
     when 'save_modules'
       save_modules    && self.state = 'documents'
     when 'save_documents'
-      save_documents  && self.state = 'confirmation'
+      save_documents && begin
+        self.state = 'confirmation'
+        create_candidature
+      end
     end
   end
 

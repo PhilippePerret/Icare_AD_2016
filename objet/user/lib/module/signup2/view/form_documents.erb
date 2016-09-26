@@ -4,7 +4,7 @@
 <%=
 
 site.require 'form_tools'
-form.prefix = 'signup'
+form.prefix = 'signup_documents'
 required_mark = ' <span class="red"><sup>*</sup></span>'
 
 (
@@ -13,12 +13,12 @@ required_mark = ' <span class="red"><sup>*</sup></span>'
   form.field_file("Votre présentation#{required_mark}", 'presentation') +
   form.field_file("Lettre de motivation#{required_mark}", 'motivation') +
   form.field_file("Extrait optionnel", 'extrait') +
-  'Finaliser l’inscription'.in_submit(class: 'btn').in_div(class: 'buttons')
+  'Enregistrer la candidature'.in_submit(class: 'btn', onclick: "return $.proxy(Signup,'check_documents')()").in_div(class: 'buttons')
 ).in_form(
-    class: 'dim3070',
-    id:     'form_documents',
-    file:   true,
-    action: site.current_route.route,
+    class:    'dim3070',
+    id:       'form_documents',
+    file:     true,
+    action:   site.current_route.route,
     onsubmit: "return $.proxy(Signup,'check_documents')()"
     )
 

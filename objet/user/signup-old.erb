@@ -1,0 +1,24 @@
+<%
+# Page d'inscription de l'user
+%>
+<h1>Candidature Icare</h1>
+
+<% if user.identified? %>
+  <p>Voyons, vous êtes déjà inscrit<%= user.f_e %>, <%= user.pseudo %> ! ;-)</p>
+<% else %>
+  <%
+  # ---------------------------------------------------------------------
+  #   Le formulaire d'inscription
+  #   ---------------------------
+  #   Il n'y a que les styles à changer pour lui donner une forme
+  #   convenable et adaptée au site.
+  # ---------------------------------------------------------------------
+  %>
+  <div class='small' style="margin:4em 110px 2em;">
+    <p>
+      Notez que pour poser votre candidature au sein de l'atelier, vous devez avoir rédigé vos deux documents de présentation. <strong>Ces deux documents vous seront demandés en fin de procédure</strong>. Pour savoir comment rédiger ces documents de présentation, consultez <%=  lien.aide 100, titre: 'l’aide pour les documents d’inscription.', discret: false %>
+    </p>
+  </div>
+
+  <%= page.user_signup_form %>
+<% end %>

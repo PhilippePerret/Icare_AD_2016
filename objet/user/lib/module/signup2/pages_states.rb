@@ -3,19 +3,12 @@ class Signup
 class << self
 
   def page_form_identite
-    if (current_data = get_identite)
-      param(user: current_data)
-    end
+    (current_data = get_identite) && param(user: current_data)
     Signup.view('form_identite.erb')
   end
 
   def page_form_modules
-    if (current_data = get_modules)
-      debug "current modules : #{get_modules.inspect}"
-    else
-      current_data = Array.new
-    end
-    param(modules_checked: current_data)
+    param( modules_checked: (get_modules || Array.new) )
     Signup.view('form_modules.erb')
   end
   def page_form_documents

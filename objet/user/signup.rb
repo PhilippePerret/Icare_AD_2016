@@ -1,2 +1,3 @@
 # encoding: UTF-8
-User.require_module 'signup'
+
+User.require_module 'signup2'
