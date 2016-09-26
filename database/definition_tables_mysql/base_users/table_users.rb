@@ -95,7 +95,7 @@ CREATE TABLE users
 
     # UPDATED_AT
     # ----------
-    updated_at INTEGER(10),
+    updated_at INTEGER(10) NOT NULL,
 
     # CREATED_AT
     # ----------

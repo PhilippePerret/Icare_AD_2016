@@ -41,6 +41,7 @@ CREATE TABLE updates
     # Pas encore utilisé
     options VARCHAR(32) DEFAULT '000000',
 
+    updated_at INTEGER(10) NOT NULL,
     created_at INTEGER(10) NOT NULL,
 
     PRIMARY KEY (id)

@@ -31,6 +31,7 @@ CREATE TABLE checkform
     #   1: Le formulaire a été soumis
     status INTEGER(1) NOT NULL,
 
+    updated_at  INTEGER(10) NOT NULL,
     created_at  INTEGER(10) NOT NULL,
 
     PRIMARY KEY (id)

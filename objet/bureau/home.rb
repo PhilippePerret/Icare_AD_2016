@@ -52,19 +52,24 @@ class << self
       _fs_etape_courante
     else
       "Bienvenue dans votre bureau".in_div(class: 'big left', style:'margin: 2em 0 1.5em') +
-      if user.has_module_to_start?
-        'Vous pouvez démarrer votre module pour le commencer.'.in_div
+      if user.recu?
+        if user.has_module_to_start?
+          'Vous pouvez démarrer votre module pour le commencer.'.in_div
+        else
+          dhisto    = {href: "bureau/historique"}
+          dcommand  = {href: "abs_module/list"}
+          doutils   = {href: "bureau/outils"}
+          "Depuis votre bureau, vous pouvez (*) :".in_div +
+          (
+            'Consulter l’historique de votre travail'.in_a(dhisto).in_li +
+            'Commander un nouveau module'.in_a(dcommand).in_li +
+            'Utiliser encore les outils de l’atelier'.in_a(doutils).in_li
+          ).in_ul +
+          '(*) Notez que vous pouvez à tout moment atteindre ces liens depuis les menus sous le titre de votre présent bureau.'.in_div(class: 'small italic')
+        end
       else
-        dhisto    = {href: "bureau/historique"}
-        dcommand  = {href: "abs_module/list"}
-        doutils   = {href: "bureau/outils"}
-        "Depuis votre bureau, vous pouvez (*) :".in_div +
-        (
-          'Consulter l’historique de votre travail'.in_a(dhisto).in_li +
-          'Commander un nouveau module'.in_a(dcommand).in_li +
-          'Utiliser encore les outils de l’atelier'.in_a(doutils).in_li
-        ).in_ul +
-        '(*) Notez que vous pouvez à tout moment atteindre ces liens depuis les menus sous le titre de votre présent bureau.'.in_div(class: 'small italic')
+        # Pour un icarien qui n'est pas encore reçu
+        'Lorsque votre candidature sera validée, vous pourrez trouver ici toutes les informations sur votre travail au sein de l’atelier Icare.'.in_p
       end
     end
   end

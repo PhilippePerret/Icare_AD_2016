@@ -135,6 +135,10 @@ module MethodesMySQL
       if @id.nil?
         @id = table.insert( hdata )
       else # Update ou Insert
+        # On ajoute toujours, maintenant, la date d'actualisation
+        # Attention, ça peut produire une erreur si la table ne contient
+        # Pas cette colonne…
+        hdata.key?(:updated_at) || hdata.merge!(updated_at: Time.now.to_i)
         table.set( id, hdata )
       end
     # On actualise les variables d'instance et les données

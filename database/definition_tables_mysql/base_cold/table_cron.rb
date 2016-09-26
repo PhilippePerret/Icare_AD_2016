@@ -39,7 +39,8 @@ CREATE TABLE cron
     # ------
     # Pour enregistrer une donnée quelconque
     data BLOB,
-    
+
+    updated_at  INTEGER(10)       NOT NULL,
     created_at  INTEGER(10)       NOT NULL,
 
 

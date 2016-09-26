@@ -38,6 +38,12 @@ CREATE TABLE variables_#{user_id}
     # cf. VARIABLES_TYPES
     type INTEGER(1),
 
+    #  UPDATED_AT
+    # ------------
+    # Pour l'utilisation de `set` qui actualise toujours
+    # cette colonne
+    updated_at INTEGER(10),
+
     PRIMARY KEY (id)
   );
   MYSQL

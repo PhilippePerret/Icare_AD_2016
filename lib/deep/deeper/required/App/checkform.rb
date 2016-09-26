@@ -31,6 +31,7 @@ class App
         session_id:   session.session_id,
         checksum:     checksum,
         status:       0,
+        updated_at:   Time.now.to_i,
         created_at:   Time.now.to_i
       )
     end
