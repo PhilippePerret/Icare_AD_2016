@@ -8,7 +8,11 @@ class << self
 
     base  = param(:dbname)
     table = param(:tblname)
-    lieu  = param(:lieu)
+    lieu  = param(:lieu) || 'on'
+        # Le `|| 'on'` vient du fait qu'en ONLINE, on n'affiche pas
+        # le menu pour indiquer si la transformation doit se faire
+        # online ou offline, puisqu'elle ne peut se faire qu'en
+        # online.
 
     # debug "@final_values : #{@final_values.inspect}"
 

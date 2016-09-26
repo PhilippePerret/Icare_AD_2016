@@ -9,9 +9,10 @@ class << self
     @template_formated != nil || (raise "Le message template n'est pas défini.")
     @subject = param(:mail_subject).nil_if_empty
     subject != nil || (raise "Le sujet du mail n'est pas défini.")
-    @keys_destinataires = param(:keys_destinataires)
-    @keys_destinataires.to_s != "" || (raise "Les clés des destinataires ne sont pas fournis…")
-    @keys_destinataires = @keys_destinataires.split(':').collect{|e| e.to_sym}
+    param(:keys_destinataires) != nil || (raise "Les clés des destinataires ne sont pas fournis…")
+    param(:keys_destinataires).split(' ').each do |kdestinataire|
+      KEYS_DESTINATAIRES[kdestinataire.to_sym][:checked] = true
+    end
 
     rapport = Array.new
     destinataires.each do |u|

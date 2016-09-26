@@ -19,7 +19,7 @@ class AbsModule
       table_online.insert(dparam.merge(id: @id))
     else
       table.update(id, dparam)
-      table_online.update(id, dparam)
+      self.class.table_online.update(id, dparam)
     end
     flash "Module ##{id} (#{name}) sauvé avec succès (online/offline)."
   end

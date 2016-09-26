@@ -45,7 +45,8 @@ class << self
   end
 
   def bloc_citation
-    hcitation = get_random_citation
+    hcitation = site.get_a_citation(only_online: true)
+    hcitation ||= {citation: "Ici en online la citation", auteur: "Auteur", id: 1}
     (
       (
         image('pictos/apo-open.png', class: 'openapo')  +
@@ -62,39 +63,23 @@ class << self
     ''
   end
 
-  # RETURN Le Hash des données d'une citation prise au hasard
-  # sur le site de la boite à outils de l'auteur
-  #
-  # Note : on actualise la donnée last_sent de la citation choisie, mais
-  # on ne le fait que si on est online.
-  def get_random_citation
-    require './data/secret/mysql_boa'
-    client_data = DATA_MYSQL_BOA[:online]
-    client = Mysql2::Client.new(client_data.merge(database: 'boite-a-outils_cold'))
-    resultat = client.query('SELECT * FROM citations ORDER BY last_sent ASC LIMIT 1')
-    unless resultat.nil?
-      resultat = resultat.collect { |row| row.to_sym }
-    end
-    hcitation = resultat.first
-    if ONLINE
-      client.query("UPDATE citations SET last_sent = #{NOW} WHERE id = #{hcitation[:id]}")
-    end
-    hcitation
-  end
-
   # Bloc contenant les dernières activités
   # Soit on lit le listing fabriqué courant, soit on l'actualise
   def bloc_dernieres_activites
     htmlfile = site.file_last_actualites
-    last_actu = dbtable_actualites.select(order: 'created_at DESC', limit: 1).first
+    # last_actu = dbtable_actualites.select(order: 'created_at DESC', limit: 1).first
+    last_actu =
+      if dbtable_actualites.exist?
+        dbtable_actualites.last_update.to_i
+      else
+        nil
+      end
     dernieres_activites =
       if last_actu.nil?
         'Aucune activité pour le moment.'.in_span(class: 'message').in_li(class: 'actu italic').in_ul(id: 'last_actualites')
-      elsif htmlfile.exist? && last_actu[:created_at] < htmlfile.mtime.to_i
-        debug "Re-lecture du fichier HTML"
+      elsif htmlfile.exist? && last_actu < htmlfile.mtime.to_i
         htmlfile.read
       else
-        debug "Re-construction du fichier HTML"
         # Il faut actualiser le listing des actualités
         site.require_objet 'actualite'
         SiteHtml::Actualite.listing_accueil

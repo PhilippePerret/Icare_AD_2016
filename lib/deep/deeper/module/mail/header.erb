@@ -6,17 +6,17 @@
 # ---------------------------------------------------------------------
 #   CITATION
 %>
-<div id="citation" style="margin-left: 40%;font-size: 13pt !important; width: 45%; margin: 4px 4px 1em 1em;">
+<div id="citation" style="font-size: 14.2pt !important; width: 45%; margin: 4px 4px 1em 40%;">
   <%# Affichage d'une citation prise sur BOA %>
   <%
     Mail.instance_variable_get('@citation_courante') || begin
-      hquote = get_a_citation
-      q = hquote['citation'].strip_tags(' ')
+      hquote = site.get_a_citation
+      q = hquote[:citation].strip_tags(' ')
       current_quote =
         (
           "#{q}".in_span(id: 'quote_citation') +
-          hquote['auteur'].in_span(id: 'quote_auteur', style:'margin-left: 2em;')
-        ).in_a(href: "#{site.url_boa}/citation/#{hquote['id']}/show")
+          hquote[:auteur].in_span(id: 'quote_auteur', style:'margin-left: 2em;')
+        ).in_a(href: "#{site.url_boa}/citation/#{hquote[:id]}/show")
       Mail.instance_variable_set('@citation_courante', current_quote)
     end
   %>

@@ -216,12 +216,15 @@ class Table
             ).in_span(class: 'value')
           ).in_div(class: 'row')
         end.join("\n")
-      # Un menu qui permet de définir si les modifications doivent toucher
-      # la table online/offline ou les deux
-      form += (
-        'Modifier…'.in_span(class: 'libelle') +
-        [['both', 'ONLINE + OFFLINE'], ['on', 'ONLINE'], ['off', 'OFFLINE']].in_select(name: 'lieu', id: 'lieu').in_span(class: 'value')
-      ).in_div(class: 'row')
+
+      if OFFLINE
+        # Un menu qui permet de définir si les modifications doivent toucher
+        # la table online/offline ou les deux
+        form += (
+          'Modifier…'.in_span(class: 'libelle') +
+          [['both', 'ONLINE + OFFLINE'], ['on', 'ONLINE'], ['off', 'OFFLINE']].in_select(name: 'lieu', id: 'lieu').in_span(class: 'value')
+        ).in_div(class: 'row')
+      end
 
       # Il faut ajouter toutes les données de la table, route, etc.
       form += param(:dbname)      .in_hidden(name: 'dbname')

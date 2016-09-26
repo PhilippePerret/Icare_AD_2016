@@ -31,6 +31,8 @@ end
   <p class="tiny">N'oubliez pas de confirmer votre mail pour que votre inscription soit tout à fait prise en compte, grâce au message que vous allez recevoir incessamment sous peu.</p>
 
   <%=
+    required_mark = ' <span class="red"><sup>*</sup></span>'
+
     site.require 'form_tools'
     form.prefix = 'documents_presentation'
     (
@@ -38,15 +40,16 @@ end
       liste_modules_checkboxable +
       titre_documents_presentation +
       'fin'.in_hidden(name:'signup') +
-      form.field_file("Votre présentation", 'presentation') +
-      form.field_file("Lettre de motivation", 'motivation') +
+      form.field_file("Votre présentation#{required_mark}", 'presentation') +
+      form.field_file("Lettre de motivation#{required_mark}", 'motivation') +
       form.field_file("Extrait optionnel", 'extrait') +
       form.submit_button('Finaliser l’inscription')
     ).in_form(
         class: 'dim3070',
         id:     'form_documents_et_modules',
         file:   true,
-        action: 'user/create'
+        action: 'user/create',
+        onsubmit: "return $.proxy(Signup,'check_documents_et_modules')()"
         )
   %>
 

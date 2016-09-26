@@ -2,9 +2,7 @@
 class SiteHtml
 
   # Dernières actualités générales qui apparaissent sur la page
-  # d'accueil, en attendant, si nécessaire, d'avoir une table
-  # qui les consigne et les archive.
-  #
+  # d'accueil.
   # Cette méthode est utilisée par :
   #   ./objet/site/lib/module/home_page/actualites.rb
   #

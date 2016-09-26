@@ -39,7 +39,7 @@ class << self
       if self.respond_to? method
         self.send method
       else
-        error "La méthode Admin::Mailing::#{method} est inconnue."
+        error "La méthode Admin::Mailing.#{method} est inconnue."
       end
     end
   end
@@ -107,7 +107,7 @@ class << self
     f << 'mailing_send'   .in_hidden(name: 'operation')
     f << subject.in_hidden(name: 'mail_subject')
     f << template_formated.in_textarea(name: 'template_formated', class: 'hidden')
-    f << keys_destinataires.join(":").in_hidden(name: 'keys_destinataires')
+    f << keys_destinataires.join(" ").in_hidden(name: 'keys_destinataires')
     f << "Envoyer".in_submit(class: 'btn main').in_div(class: 'buttons')
     c << f.in_form(id: 'form_send_message', action: 'admin/mailing', class: 'dim1090')
 

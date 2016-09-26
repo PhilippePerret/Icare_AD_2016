@@ -2,8 +2,22 @@
 * Nicolas Dufourg   : crapette
 * Emmanuelle Badina : crapette
 
+## BUGS
+
+* Inscription : corriger la fabrication d'un user vide
+  - Mais surtout : s'arranger pour que l'user soit "fabriqué" seulement à la fin de l'opération.
+  => On enregistre toutes ses données dans un fichier temporaire, avant de les injecter dans la base finale.
+* Les documents QDD de l'étape ne semblent pas s'afficher
+* À l'inscription, ça crée un user vide en plus
+* Le mailing list ne vise pas les icariens qu'il devrait viser (tous sont contactés chaque fois)
+* Ne pas pouvoir envoyer deux documents de même nom (dans le travail de l'étape)
 * Objectif en double dans l'étape 5 du suivi lent (normal #7)
   => Quand l'objectif est le même que l'objectif du travail type, ne pas l'indiquer.
+
+## DIVERS
+
+* Pour les citations, plutôt que de les charger chaque fois, pour accélérer, charger 20 citations pour la journée et les faire "tourner" à chaque chargement de l'accueil.
+
 
 * Faire un javascript qui permette de supprimer la notification pour les
   download (mais seulement pour l'administrateur).
@@ -52,14 +66,9 @@
 * Définition automatique du partage des documents
   Penser à faire une annonce actualité même pour ce partage automatique, mais en modifiant le nom (au lieu de "Untel met en partage ses documents…", dire "Les documents de Untel sont mis en partage")
 
-## BUGS
-
-* Ne pas pouvoir envoyer deux documents de même nom
-* À l'inscription, ça crée un user vide en plus
 
 ## FONCTIONNALITÉS URGENTES
 
-* Ajout de jours gratuits
 
 ## À FAIRE APRÈS L'OUVERTURE
 

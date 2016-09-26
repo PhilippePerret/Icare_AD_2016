@@ -1,6 +1,9 @@
 # encoding: UTF-8
 class Admin
 class Mailing
+
+  MAILS_OUT = ['domideso@hotmail.fr', 'rocha_dilma@hotmail.com']
+
 class << self
 
   # RETURN la liste des instances des icariens à qui il faut envoyer
@@ -38,13 +41,13 @@ class << self
         clause24 << "SUBSTRING(options,25,1) = #{bit24}"
       end
     end
-    debug "clause16 : #{clause16.inspect}"
-    debug "clause24 : #{clause24.inspect}"
     clauses = Array.new
     return nil if clause16.empty? && clause24.empty?
     clause16.empty? || clauses << "( #{clause16.join(' OR ')} )"
     clause24.empty? || clauses << "( #{clause24.join(' OR ')} )"
-    clauses.join(' AND ')
+    clauses = clauses.join(' AND ')
+    # debug "Clause where pour icariens : #{clauses}"
+    return clauses
   end
 
 end #<< self

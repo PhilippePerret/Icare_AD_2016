@@ -4,7 +4,7 @@
 class Cron
 
   # Pour appeler le processus par le cron
-  def self._mail_activites
+  def _mail_activites
     Cron::Activites.mail_activites
   end
 
@@ -62,6 +62,7 @@ class Cron
         # BOUCLE D'ENVOI DES MESSAGES
         # ----------------------------
         log "- POUR LE MOMENT, LES MAILS NE SONT ENVOYÉS QU'À PHIL"
+        # cf. def destinataires ci-dessous
         destinataires.each do |u|
           next if MAILS_OUT.include?(u.mail)
           send_mail_to u
@@ -110,6 +111,7 @@ class Cron
       # veulent ou qui doivent recevoir les mails d'activité
       def destinataires
         @destinataires ||= begin
+          # TODO Quand ce sera OK on pourra renvoyer les mails
           # drequest = {
           #   where: "SUBSTRING(options,4,1) = '0'" # pas détruit
           #   colonnes: []
@@ -165,45 +167,18 @@ class Cron
       def message_template
         @message_template ||= <<-EOC
 #{stylesheet}
-#{div_citation}
 <p>Bonjour %{pseudo},</p>
-<p>Trouvez ci-dessous la liste des activités de l'atelier du <strong style='color:#4798a7;'>#{hier[:start].as_human_date}</strong>.</p>
+<p>Trouvez ci-dessous la liste des dernières activités de l'atelier Icare.</p>
 #{listing_actualites_veille}
+<hr />
 <p style="font-size:9pt;">Pour ne plus recevoir ces messages lorsque vous n'êtes pas actif, rejoignez <a href='http://www.atelier-icare.net/bureau'>votre bureau</a> et réglez vos préférences.</p>
 <p>Bien &agrave; vous,</p>
           EOC
       end
 
-      def div_citation
-        @div_citation ||= begin
-          hcitation = site.get_a_citation(no_last_sent: false)
-          <<-HTML
-  <div id='citation'>
-    <div id='citation_texte'>
-      <img class='lettrineO' src="#{url_images_folder}/pictos/apo-open.png" />
-      #{hcitation[:citation]}
-      <img class='lettrineC' src="#{url_images_folder}/pictos/apo-close.png"/>
-    </div>
-    <div id='citation_auteur'>#{hcitation[:auteur]}</div>
-  </div>
-          HTML
-        end
-      end
-      def url_images_folder
-        @url_images_folder || 'http://www.atelier-icare.net/view/img'
-      end
       def stylesheet
         @stylesheet ||= <<-EOC
   <style type="text/css">
-  div#citation {
-  margin-top:-2em;
-  margin-left: 12em;
-  }
-  div#citation_texte{font-size:15pt;font-style:italic;font-family: "Times New Roman", Times, serif;
-  }
-  img.lettrineO, img.lettrineC{width: 32px;}
-  div#citation_auteur{text-align:right;}
-  p{margin:1.6em 0;}
   .actu_heure {
     color: #008080;
     font-family: Georgia,Courier;

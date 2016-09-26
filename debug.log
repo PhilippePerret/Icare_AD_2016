@@ -656,3 +656,432 @@ Objet    = "bureau"
 Objet ID = nil
 Method   = "home"
 Context  = nil
+
+
+=== DEBUG DU 26 09 2016 - 07:38:21 ===
+
+-- Re-lecture du fichier HTML
+-- no implicit conversion of nil into String
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/site/home.rb:53:in `+'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/site/home.rb:53:in `bloc_citation'
+(erb):11:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:144:in `view'
+(erb):9:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:101:in `home'
+(erb):5:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 26 09 2016 - 07:41:55 ===
+
+-- undefined method `[]' for 1970-01-01 01:00:00 +0100:Time
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/site/home.rb:75:in `bloc_dernieres_activites'
+(erb):10:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:144:in `view'
+(erb):9:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:101:in `home'
+(erb):5:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 26 09 2016 - 07:42:56 ===
+
+-- Re-lecture du fichier HTML
+-- no implicit conversion of nil into String
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/site/home.rb:53:in `+'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/site/home.rb:53:in `bloc_citation'
+(erb):11:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:144:in `view'
+(erb):9:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:101:in `home'
+(erb):5:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 26 09 2016 - 08:16:15 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signin"
+Context  = nil
+
+
+=== DEBUG DU 26 09 2016 - 08:16:19 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "login"
+Context  = nil
+-- Redirection -> bureau/home
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 26 09 2016 - 08:16:22 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "mailing"
+Context  = nil
+-- param(:operation) : nil
+
+
+=== DEBUG DU 26 09 2016 - 08:16:29 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "mailing"
+Context  = nil
+-- param(:operation) : "prepare_mailing"
+-- Données pour le mailing : {:subject=>"fdqf", :message=>"fdqff", :keys_destinataires=>[:actif], :options=>[]}
+-- clause16 : ["SUBSTRING(options,17,1) = 2"]
+-- clause24 : ["SUBSTRING(options,25,1) = 1"]
+-- Clause where pour icariens : ( SUBSTRING(options,17,1) = 2 ) AND ( SUBSTRING(options,25,1) = 1 )
+
+
+=== DEBUG DU 26 09 2016 - 08:28:49 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "mailing"
+Context  = nil
+-- param(:operation) : "mailing_send"
+
+
+=== DEBUG DU 26 09 2016 - 08:52:53 ===
+
+-- 
+Objet    = "user"
+Objet ID = 1
+Method   = "deconnexion"
+Context  = nil
+
+
+=== DEBUG DU 26 09 2016 - 08:53:03 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 26 09 2016 - 08:53:35 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "create"
+Context  = nil
+-- param(:user) : {:pseudo=>"fdsqf", :patronyme=>"fdqf", :sexe=>"F", :naissance=>"1998", :mail=>"mail@chez.lui", :mail_confirmation=>"mail@chez.lui", :password=>"mail@chez.lui", :password_confirmation=>"mail@chez.lui", :telephone=>"", :adresse=>"", :captcha=>"15"}
+-- form_data : 
+{:pseudo=>"fdsqf", :patronyme=>"fdqf", :sexe=>"F", :naissance=>"1998", :mail=>"mail@chez.lui", :mail_confirmation=>"mail@chez.lui", :password=>"mail@chez.lui", :password_confirmation=>"mail@chez.lui", :telephone=>"", :adresse=>"", :captcha=>"15"}
+
+
+=== DEBUG DU 26 09 2016 - 09:03:11 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "create"
+Context  = nil
+-- param(:user) : {:pseudo=>"fdsqf", :patronyme=>"fdqf", :sexe=>"F", :naissance=>"1998", :mail=>"mail@chez.lui", :mail_confirmation=>"mail@chez.lui", :password=>"mail@chez.lui", :password_confirmation=>"mail@chez.lui", :telephone=>"", :adresse=>"", :captcha=>"15"}
+-- form_data : 
+{:pseudo=>"fdsqf", :patronyme=>"fdqf", :sexe=>"F", :naissance=>"1998", :mail=>"mail@chez.lui", :mail_confirmation=>"mail@chez.lui", :password=>"mail@chez.lui", :password_confirmation=>"mail@chez.lui", :telephone=>"", :adresse=>"", :captcha=>"15"}
+-- Ce pseudo est déjà utilisé, merci d'en choisir un autre
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/user/lib/module/create/create.rb:307:in `data_valides?'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/user/lib/module/create/create.rb:203:in `create'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/user/lib/module/create/create.rb:103:in `create_new_user'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/user/lib/module/create/create.rb:30:in `create'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:352:in `method_call'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:111:in `execute_route'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+-- Redirection -> user/signup
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 26 09 2016 - 09:03:53 ===
+
+-- 
+Objet    = "user"
+Objet ID = 84
+Method   = "deconnexion"
+Context  = nil
+
+
+=== DEBUG DU 26 09 2016 - 09:03:55 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signin"
+Context  = nil
+
+
+=== DEBUG DU 26 09 2016 - 09:03:59 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "login"
+Context  = nil
+-- Redirection -> bureau/home
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 26 09 2016 - 09:04:01 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 26 09 2016 - 09:04:04 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 26 09 2016 - 09:04:06 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {}
+
+
+=== DEBUG DU 26 09 2016 - 09:04:49 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 26 09 2016 - 09:04:52 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "dashboard"
+Context  = nil
+
+
+=== DEBUG DU 26 09 2016 - 09:05:15 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 26 09 2016 - 09:05:45 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "create"
+Context  = nil
+-- param(:user) : {:pseudo=>"fdfdqfdsq", :patronyme=>"fdqfqdffq", :sexe=>"F", :naissance=>"1998", :mail=>"monmail@chez.moi", :mail_confirmation=>"monmail@chez.moi", :password=>"monmail@chez.moi", :password_confirmation=>"monmail@chez.moi", :telephone=>"", :adresse=>"", :captcha=>"23"}
+-- form_data : 
+{:pseudo=>"fdfdqfdsq", :patronyme=>"fdqfqdffq", :sexe=>"F", :naissance=>"1998", :mail=>"monmail@chez.moi", :mail_confirmation=>"monmail@chez.moi", :password=>"monmail@chez.moi", :password_confirmation=>"monmail@chez.moi", :telephone=>"", :adresse=>"", :captcha=>"23"}
+
+
+=== DEBUG DU 26 09 2016 - 09:33:19 ===
+
+-- 
+Objet    = "abs_module"
+Objet ID = 5
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 26 09 2016 - 09:33:53 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 26 09 2016 - 09:33:57 ===
+
+-- 
+Objet    = "abs_module"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 26 09 2016 - 09:34:04 ===
+
+-- 
+Objet    = "abs_module"
+Objet ID = 5
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 26 09 2016 - 09:34:37 ===
+
+-- 
+Objet    = "abs_module"
+Objet ID = 5
+Method   = "edit"
+Context  = nil
+-- undefined local variable or method `table_online' for #<AbsModule:0x007f8cf48bf0c8>
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/abs_module/edit.rb:22:in `save'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/abs_module/edit.rb:59:in `<top (required)>'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:22:in `require_ruby'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:15:in `require_all'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:330:in `load_per_vue'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:103:in `execute_route'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 26 09 2016 - 09:35:56 ===
+
+-- 
+Objet    = "abs_module"
+Objet ID = 5
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 26 09 2016 - 09:38:36 ===
+
+-- 
+Objet    = "abs_module"
+Objet ID = 5
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 26 09 2016 - 09:38:45 ===
+
+-- 
+Objet    = "abs_module"
+Objet ID = 5
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 26 09 2016 - 09:40:17 ===
+
+-- 
+Objet    = "abs_module"
+Objet ID = 5
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 26 09 2016 - 09:42:44 ===
+
+-- 
+Objet    = "abs_module"
+Objet ID = 5
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 26 09 2016 - 09:43:14 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 26 09 2016 - 09:43:22 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "dashboard"
+Context  = nil
+-- --> check_folders_offline
+-- --> check_folders_online
+-- --> build_result
+-- --> open_result
+-- Redirection -> bureau/home
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
