@@ -8,7 +8,7 @@ $.extend(window.Signup,{
         if(un_module_is_checked){return} /* pour accélérer */
         if($(this)[0].checked){un_module_is_checked = true}
       });
-      if(false == un_module_is_checked){F.error("Vous devez choisir au moins 1 module d'apprentissage.")}
+      if(false == un_module_is_checked){F.error("Vous devez choisir au moins 1 module d’apprentissage.")}
       return un_module_is_checked;
     }else{
       // Pour se prémunir d'un éventuel changement d'identifiant,

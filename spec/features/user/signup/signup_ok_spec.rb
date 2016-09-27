@@ -95,6 +95,10 @@ feature "Inscription d'un user" do
     Benoit coche le checkbox 'signup_modules-2', dans: 'li#absmodule-2'
     Benoit coche le checkbox 'signup_modules-4', dans: 'li#absmodule-4'
     Benoit coche le checkbox 'signup_modules-6', dans: 'li#absmodule-6'
+
+    La feuille contient la balise 'input', id: 'signup_modules-2', checked: true, dans: 'li#absmodule-2'
+    La feuille ne contient pas la balise 'input', id: 'signup_modules-1', checked: true, dans: 'li#absmodule-1'
+
     Benoit clique le bouton 'Enregistrer et poursuivre l’inscription'
 
     La feuille a pour titre 'Candidature Icare'

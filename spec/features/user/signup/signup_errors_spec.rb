@@ -67,6 +67,10 @@ feature "Inscription d'un user" do
     benoit_soumet_le_form
     La feuille contient le message erreur 'La confirmation du mail ne correspond pas'
 
+    Benoit remplit le champ 'user_mail_confirmation', avec: 'mauvaismail', dans: form_jid
+    benoit_soumet_le_form
+    La feuille contient le message erreur 'La confirmation du mail ne correspond pas'
+
     Benoit remplit le champ 'user_mail_confirmation', avec: data_signup[:mail], dans: form_jid
     benoit_soumet_le_form
     La feuille contient le message erreur 'Il faut fournir un mot de passe'
@@ -93,6 +97,7 @@ feature "Inscription d'un user" do
     captcha_value = get_captcha_value.freeze
     Benoit remplit le champ 'user_captcha', avec: captcha_value, dans: form_jid
     benoit_soumet_le_form
+    La feuille a pour titre 'Candidature Icare'
     La feuille ne contient pas derreur
 
     success 'Le formulaire d’identité a bien été enregistré.'
@@ -123,15 +128,16 @@ feature "Inscription d'un user" do
     #   FORMULAIRE DE MODULES
     # ---------------------------------------------------------------------
 
-    pending "ON ARRÊTE ICI"
-
-    La feuille contient le formulaire 'form_documents'
-
-
     # ---------------------------------------------------------------------
     #   Deuxième partie de l'inscription - module d'apprentissage
     # ---------------------------------------------------------------------
     La feuille contient la liste 'abs_modules'
+
+    _action 'Benoit ne choisit pas de modules'
+    Benoit clique le bouton 'Enregistrer et poursuivre l’inscription'
+    La feuille a pour titre 'Candidature Icare'
+    La feuille contient le formulaire 'form_modules'
+    La feuille contient le message erreur 'Vous devez choisir au moins 1 module d’apprentissage'
 
     # Benoit choisi trois modules
     Benoit coche le checkbox 'signup_modules-2', dans: 'li#absmodule-2'
@@ -154,17 +160,82 @@ feature "Inscription d'un user" do
     expect(modules_ids).to include 4
     expect(modules_ids).to include 6
 
-    # ---------------------------------------------------------------------
-    #   Troisième partie de l'inscription : DOCUMENTS
-    # ---------------------------------------------------------------------
+    _action 'Benoit revient sur le formulaire d’identité'
+    Benoit clique le link 'identité', dans: 'div#bandeau_states'
+    La feuille contient le div 'div_state-identite', class: 'selected'
+    form_jid = 'form#form_user_signup'
+    La feuille contient la balise 'input', name: 'user[pseudo]', dans: form_jid, value: data_signup[:pseudo]
+    La feuille contient la balise 'input', name: 'user[mail]', dans: form_jid, value: data_signup[:mail]
+    La feuille contient la balise 'input', name: 'user[mail_confirmation]', dans: form_jid, value: data_signup[:mail_confirmation]
+    La feuille contient la balise 'input', name: 'user[password]', dans: form_jid, value: data_signup[:password]
+    La feuille contient la balise 'input', name: 'user[password_confirmation]', dans: form_jid, value: data_signup[:password_confirmation]
 
+    _action 'Benoit revient sur le formulaire des modules'
+    Benoit clique le link 'modules', dans: 'div#bandeau_states'
+    La feuille a pour titre 'Candidature Icare'
+    La feuille contient le formulaire 'form_modules'
+    La feuille contient le div 'div_state-modules', class: 'selected'
+    form_jid = 'form#form_modules'
+    La feuille ne contient pas la balise 'input', checked: true, id: 'signup_modules-1', dans: form_jid, type: 'checkbox'
+    La feuille contient la balise 'input', checked: true, id: 'signup_modules-2', dans: form_jid, type: 'checkbox'
+    La feuille ne contient pas la balise 'input', checked: true, id: 'signup_modules-3', dans: form_jid, type: 'checkbox'
+    La feuille contient la balise 'input', checked: true, id: 'signup_modules-4', dans: form_jid, type: 'checkbox'
+    La feuille ne contient pas la balise 'input', checked: true, id: 'signup_modules-5', dans: form_jid, type: 'checkbox'
+    La feuille contient la balise 'input', checked: true, id: 'signup_modules-6', dans: form_jid, type: 'checkbox'
+
+    _action 'Benoit passe à la suite de l’inscription'
+    Benoit clique le bouton 'Enregistrer et poursuivre l’inscription'
+    La feuille a pour titre 'Candidature Icare'
+    La feuille contient le formulaire 'form_documents'
+
+    # ---------------------------------------------------------------------
+    #   TROISIÈME PARTIE : LES DOCUMENTS DE PRÉSENTATION
+    # ---------------------------------------------------------------------
+    form_jid = 'form#form_documents'
+
+    test 'L’user ne fournit aucun document'
+    Benoit clique le bouton 'Enregistrer la candidature'
+    La feuille a pour titre 'Candidature Icare'
+    La feuille contient le formulaire 'form_documents'
+    La feuille affiche le message erreur 'Il faut impérativement transmettre les 2 documents obligatoires'
+
+    test 'L’user ne fournit que son document présentation'
     # Les fichiers de présentation
     fname_presentation  = 'Présentation de MDI.odt'
     fpresentation = File.expand_path(File.join('spec','asset','document',fname_presentation))
+    Benoit attache le fichier fpresentation,  a: 'signup_documents[presentation]', dans: form_jid
+    Benoit clique le bouton 'Enregistrer la candidature'
+    La feuille a pour titre 'Candidature Icare'
+    La feuille contient le formulaire 'form_documents'
+    La feuille affiche le message erreur 'Il faut impérativement transmettre votre lettre de motivation'
+
+    # Benoit revient sur la section des modules (pour pouvoir changer et
+    # revenir avec un formulaire vide)
+    Benoit clique le link 'modules', dans: 'div#bandeau_states'
+    La feuille a pour titre 'Candidature Icare'
+    La feuille contient le formulaire 'form_modules'
+    Benoit clique le bouton 'Enregistrer et poursuivre l’inscription'
+    La feuille a pour titre 'Candidature Icare'
+    La feuille contient le formulaire 'form_documents'
+
+
+    test 'L’user ne fournit que sa lettre de motivation'
     fname_motivation    = 'Motivation de MDI.odt'
     fmotivation   = File.expand_path(File.join('spec','asset','document', fname_motivation))
+    Benoit attache le fichier fmotivation,    a: 'signup_documents[motivation]', dans: form_jid
+    Benoit clique le bouton 'Enregistrer la candidature'
+    La feuille a pour titre 'Candidature Icare'
+    La feuille contient le formulaire 'form_documents'
+    La feuille affiche le message erreur 'Il faut impérativement transmettre votre document de présentation'
 
-    form_jid = 'form#form_documents'
+    Benoit clique le link 'modules', dans: 'div#bandeau_states'
+    La feuille a pour titre 'Candidature Icare'
+    La feuille contient le formulaire 'form_modules'
+    Benoit clique le bouton 'Enregistrer et poursuivre l’inscription'
+    La feuille a pour titre 'Candidature Icare'
+    La feuille contient le formulaire 'form_documents'
+
+    test 'L’user finit par mettre les deux documents'
     Benoit attache le fichier fpresentation,  a: 'signup_documents[presentation]', dans: form_jid
     Benoit attache le fichier fmotivation,    a: 'signup_documents[motivation]', dans: form_jid
     Benoit clique le bouton 'Enregistrer la candidature'

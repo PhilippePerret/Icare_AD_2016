@@ -23,12 +23,34 @@ feature "Affichage du travail dans le bureau" do
       current_list << icetape.id
       puts "Benoit passe à l'étape #{num_etape} (par icmodule : #{icmodule.icetape.abs_etape.numero})"
       identify_benoit
+
+
       La feuille a pour titre TITRE_BUREAU
+
+      # === AFFICHAGE DU TEXTE EXPLICATIF SUR LA PLACE DU TRAVAIL ===
       if num_etape < 100
         La feuille contient la balise 'p', id: 'bureau_cadre_explication_travail'
       else
         La feuille ne contient pas le div 'bureau_cadre_explication_travail'
       end
+
+      # === AFFICHAGE DU TRAVAIL ===
+      # TODO
+
+      # === AFFICHAGE DES DOCUMENTS QDD ===
+      # TODO (il y en a ou pas ?)
+      # On récupère les documents QDD correspondant au module et à l'étape
+      drequest = {
+        where:    {abs_module_id: , abs_etape_id: },
+        colonnes: [:original_name]
+      }
+      hdocs = dbtable_icdocuments.select(drequest)
+      puts "Nombre de documents QDD = #{hdocs.count}"
+
+      # === AFFICHAGE DE LA MINI-FAQ DE L'ÉTAPE
+      # TODO (il y en a ou pas ?)
+
+
       Benoit clique le link 'Déconnexion'
     end
   end

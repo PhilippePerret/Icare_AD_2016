@@ -72,43 +72,81 @@ class LaPage
   end
   def cpage ; @cpage ||= Capybara.current_session end
 
+  # Retourne TRUE si la checkbox ou la radio définie par
+  # +tagspec+ (qui peut contenir le container) est cochée ou non
+  def is_checked? tagspec, options
+    # puts "tagspec dans is_checked? : #{tagspec.inspect}"
+    # puts "options dans is_checked? : #{options.inspect}"
+    options.key?(:id)     && tagspec += "##{options[:id]}"
+    options.key?(:type)   && tagspec += "[type=\"#{options[:type]}\"]"
+    options.key?(:name)   && tagspec += "[name=\"#{options[:name]}\"]"
+    options.key?(:value)  && tagspec += "[value=\"#{options[:value]}\"]"
+    codejs = "return $('#{tagspec}')[0].checked;"
+    return cpage.execute_script(codejs)
+  end
+
   def contient_la_balise tagname, args = nil
+    checked = (args||{}).delete(:checked)
     options_from_args(args)
-    if in_tag
-      # within(in_tag){expect(cpage).to have_tag tagname, options}
-      expect(cpage).to have_tag "#{in_tag} #{tagname}", options
+    options_init = options.dup
+    tag_id = options[:with][:id].freeze
+    tagchecked = in_tag ? "#{in_tag} #{tagname}" : tagname.dup
+
+    if checked === nil
+      # Cas normal simple
+      expect(cpage).to have_tag(tagchecked, options)
+      success( @message_success || begin
+          intag_message = in_tag ? "dans #{in_tag} " : ''
+          "La page possède la balise #{tagname} #{intag_message}(arguments : #{options.inspect})"
+        end
+        )
     else
-      expect(cpage).to have_tag(tagname, options)
-    end
-    success( @message_success || begin
-        intag_message = in_tag ? "dans #{in_tag} " : ''
-        "La page possède la balise #{tagname} #{intag_message}(arguments : #{options.inspect})"
+      # Si c'est un champs checkbox ou radio qui doit être
+      # sélectionné
+      is_checked = is_checked?(tagchecked, options[:with])
+      if checked == is_checked
+        success @message_success || "La page contient la balise #{tagchecked} #{checked ? 'cochée' : 'non cochée'}."
+      else
+        "La page devrait contenir la balise #{tagchecked} #{checked ? 'cochée' : 'non cochée'}."
       end
-      )
+
+    end
+
   end
   def ne_contient_pas_la_balise tagname, args = nil
+    checked = (args || {}).delete(:checked)
     options_from_args(args)
-    # expect(cpage).to have_no_css("#{in_tag} #{tagname}".strip, options.merge(visible: true))
-    final_tagname = tagname
+    options_init = options.dup
+    final_tagname = tagname.dup
     options[:with].key?(:class)  && final_tagname << ".#{options[:with][:class]}"
     options[:with].key?(:id)     && final_tagname << "##{options[:with][:id]}"
     in_tag.nil? || final_tagname = "#{in_tag} #{tagname}".strip
     arguments = {visible: true}
-    options.key?(:text)   && arguments.merge!(text: options[:text])
+    options.key?(:text) && arguments.merge!(text: options[:text])
+
+
     if cpage.has_no_css?(final_tagname, arguments)
-      # if in_tag
-      #   # within(in_tag){expect(cpage).not_to have_tag tagname, options}
-      #   # expect(cpage).not_to have_tag "#{in_tag} #{tagname}", options
-      # else
-      #   expect(cpage).not_to have_tag tagname, options
-      # end
+      # Si la balise n'est pas trouvée, tout simplement
       success(@message_success || begin
           intag_message = in_tag ? "dans #{in_tag} " : ''
-          "La page ne possède pas la balise #{tagname} #{intag_message}(arguments : #{options.inspect})"
+          "La page ne possède pas la balise '#{tagname}' #{intag_message} (arguments : #{options.inspect})"
         end
         )
     else
-      raise "On devrait pas trouver la balise #{tagname}"
+      # Si la balise est trouvée, et que checked est défini, il faut
+      # faire un test pour voir si ça correspond vraiment
+      if !(checked === nil)
+
+        if checked == !is_checked?( final_tagname, options_init[:with] )
+          success(@message_success || begin
+              intag_message = in_tag ? "dans #{in_tag} " : ''
+              "La page ne possède pas la balise '#{tagname}' #{intag_message} #{checked ? 'coché' : 'non coché'} (arguments : #{options.inspect})"
+            end
+            )
+          return true
+        end
+      end
+      raise "On ne devrait pas trouver la balise `#{final_tagname}' avec #{options.inspect}."
     end
   end
 
@@ -503,17 +541,20 @@ def la_page_ne_contient_pas_le_message_erreur err, options = nil
 end
 
 
-def la_page_napas_derreur
+def la_page_napas_derreur options = nil
+  options ||= Hash.new
+  mess_success = options[:success] || 'La page n’affiche pas de message d’erreur.'
+  mess_failure = options[:failure] || 'La page ne devrait pas contenir d’erreur, elle contient les messages : %{erreurs}'
   if cpage.has_css?('div#flash div.error')
+    # On récupère les messages d'erreur
     idiv = 0; erreurs = Array.new
     while cpage.has_css?("div#flash div.error:nth-child(#{idiv += 1})")
       o = cpage.find("div#flash div.error:nth-child(#{idiv})")
       erreurs << "“#{o.text}”"
     end
-    erreurs = erreurs.pretty_join
-    raise "La page ne devrait pas contenir d'erreur, elle contient les messages : #{erreurs}"
+    raise ( mess_failure % {erreurs: erreurs.pretty_join} )
   else
-    success "La page n’affiche pas de message d'erreur."
+    success mess_success
   end
 end
 alias :la_page_ne_contient_pas_derreur :la_page_napas_derreur

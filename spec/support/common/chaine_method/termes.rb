@@ -36,8 +36,9 @@ def erreur chaine, options = nil
 end
 
 # p.e. "La feuille ne contient pas derreur"
-def derreur chaine, options = nil
-  chaine.instance_of?(ChaineMethod) || chaine = ChaineMethod.new(chaine, options)
+def derreur options = nil
+  # chaine.instance_of?(ChaineMethod) ||
+  chaine = ChaineMethod.new(nil, options)
   chaine << 'derreur'
 end
 

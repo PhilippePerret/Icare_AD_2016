@@ -7,7 +7,7 @@ class << self
   def bandeau_states
     {
       'identite'      => {hname: 'Votre<br>identité'},
-      'modules'       => {hname: 'Choix du<br>module'},
+      'modules'       => {hname: 'Choix des<br>modules'},
       'documents'     => {hname: 'Documents de présentation'},
       'confirmation'  => {hname: 'Confirmation inscription'}
     }.collect do |idstate, dstate|
@@ -22,7 +22,7 @@ class << self
         else
           dstate[:hname]
         end
-      div.in_div( class: div_class.join(' ') )
+      div.in_div( id: "div_state-#{idstate}", class: div_class.join(' ') )
     end.join.in_div(id: 'bandeau_states')
   end
 

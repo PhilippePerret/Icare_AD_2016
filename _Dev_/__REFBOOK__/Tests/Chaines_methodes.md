@@ -16,7 +16,7 @@
     La feuille contient le bouton '<nom bouton>', dans: '<form ou autre>'
 
     La feuille ne contient pas derreur
-    
+
     Lui clique le bouton '<nom bouton>'
     Lui clique le link '<nom bouton>'
     Lui coche la checkbox '<label du checkbox ou name ou id>'
@@ -102,6 +102,12 @@ Puis on peut appeler la méthode :
     La feuille affiche le message erreur "<le message>"
 
     La feuille n affiche pas le message erreur "<le message>"
+
+    La feuille ne contient pas derreur
+
+        On peut spécifier en argument le message de succès ou d'échec.
+        Pour le message d'échec, on peut utiliser `%{erreurs}` pour écrire
+        les messages d'erreur trouvés dans la page.
 
 <a name='messagederreurfatail'></a>
 

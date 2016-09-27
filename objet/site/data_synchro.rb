@@ -51,7 +51,7 @@ class Synchro
   def app_ignored_files
     [
       # Ici la liste des paths de fichiers à ignorer
-      './objet/site/home.html'
+      './objet/actualite/listing_home.html'
     ]
   end
   def app_ignored_folders
