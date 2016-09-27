@@ -38,18 +38,42 @@ feature "Affichage du travail dans le bureau" do
       # TODO
 
       # === AFFICHAGE DES DOCUMENTS QDD ===
-      # TODO (il y en a ou pas ?)
       # On récupère les documents QDD correspondant au module et à l'étape
       drequest = {
-        where:    {abs_module_id: , abs_etape_id: },
+        where:    {abs_module_id: icmodule.abs_module.id, abs_etape_id: icetape.abs_etape.id},
         colonnes: [:original_name]
       }
       hdocs = dbtable_icdocuments.select(drequest)
-      puts "Nombre de documents QDD = #{hdocs.count}"
+      if hdocs.count > 0
+        # puts "Nombre de documents QDD = #{hdocs.count}"
+        # puts "hdocs : #{hdocs.inspect}"
+        # sleep 20
+        list_jid = 'ul.qdd_documents'
+        La feuille contient la section 'section_etape_qdd'
+        La feuille contient la balise 'ul', class: 'qdd_documents'
+        hdocs.each do |hdoc|
+          li_id = "li_doc_qdd-#{hdoc[:id]}"
+          La feuille contient la balise 'li', id: li_id, dans: list_jid
+        end
+      end
+      # break
 
       # === AFFICHAGE DE LA MINI-FAQ DE L'ÉTAPE
       # TODO (il y en a ou pas ?)
-
+      drequest = {
+        where: {abs_module_id: icmodule.abs_module.id, abs_etape_id: icetape.abs_etape.id},
+        colonnes: []
+      }
+      hqrs = dbtable_minifaq.select(drequest)
+      if hqrs.count > 0
+        puts "Questions mini-faq : #{hqrs.count}"
+        'div#mf_qr_2'
+        hqrs.each do |hqr|
+          La feuille contient le div "mf_qr_#{hqr[:id]}"
+        end
+        sleep 60*10
+        break
+      end
 
       Benoit clique le link 'Déconnexion'
     end

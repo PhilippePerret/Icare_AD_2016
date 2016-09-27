@@ -38,7 +38,7 @@ class AbsEtape
         # Ça n'est pas uniquement pour faire joli, c'est aussi pour que
         # l'icarien puisse trouver plus facilement sa réponse.
         classes = ['mf_qr']
-        classes << 'yours' if hminiqr[:user_id] == user.id
+        hminiqr[:user_id] == user.id && classes << 'yours'
         hminiqr[:content].in_div(class: classes.join(' '), id: "mf_qr_#{hminiqr[:id]}")
       end.join
     end

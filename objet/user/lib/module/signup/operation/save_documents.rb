@@ -50,6 +50,8 @@ class << self
       when NilClass
         # Pas de document de ce type envoyé. Si ça n'est pas un document
         # obligatoire, on poursuit
+        # Normalement, ça ne doit pas pouvoir arriver car javascript empêche
+        # de soumettre le formulaire sans les deux documents obligatoires.
         !ddata[:required] || raise("Le document “#{ddata[:hname]}” est absolument requis.")
       when FalseClass
         raise "Le document “#{ddata[:hname]}” n'a pas pu être uploadé."

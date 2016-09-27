@@ -20,7 +20,7 @@ alias :dbtable_travaux_types :dbtable_abswtypes
 def dbtable_icmodules     ; @dbticmods  ||= sdbt_mods('icmodules')    end
 def dbtable_icetapes      ; @dbticetps  ||= sdbt_mods('icetapes')     end
 def dbtable_icdocuments   ; @dbticdocs  ||= sdbt_mods('icdocuments')  end
-
+def dbtable_minifaq       ; @dbtblmfaq  ||= sdbt_mods('mini_faq')     end
 # ---------------------------------------------------------------------
 #   Fonctionnelles
 # ---------------------------------------------------------------------
