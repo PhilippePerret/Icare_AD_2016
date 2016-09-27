@@ -1,6 +1,6 @@
 
 
-=== DEBUG DU 27 09 2016 - 13:16:21 ===
+=== DEBUG DU 27 09 2016 - 22:44:46 ===
 
 -- 
 Objet    = "user"
@@ -9,7 +9,7 @@ Method   = "signin"
 Context  = nil
 
 
-=== DEBUG DU 27 09 2016 - 13:16:22 ===
+=== DEBUG DU 27 09 2016 - 22:44:47 ===
 
 -- 
 Objet    = "user"
@@ -25,16 +25,23 @@ Context  = nil
 -- user.icetape.abs_etape.numero : 1
 
 
-=== DEBUG DU 27 09 2016 - 13:16:23 ===
+=== DEBUG DU 27 09 2016 - 22:44:49 ===
 
 -- 
-Objet    = "user"
-Objet ID = 2
-Method   = "deconnexion"
+Objet    = "abs_minifaq"
+Objet ID = nil
+Method   = "new_question"
 Context  = nil
+-- Redirection -> bureau/home
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+-- user.icetape.abs_etape.numero : 1
 
 
-=== DEBUG DU 27 09 2016 - 13:16:25 ===
+=== DEBUG DU 27 09 2016 - 22:44:52 ===
 
 -- 
 Objet    = "user"
@@ -43,7 +50,7 @@ Method   = "signin"
 Context  = nil
 
 
-=== DEBUG DU 27 09 2016 - 13:16:26 ===
+=== DEBUG DU 27 09 2016 - 22:44:52 ===
 
 -- 
 Objet    = "user"
@@ -56,10 +63,33 @@ Objet    = "bureau"
 Objet ID = nil
 Method   = "home"
 Context  = nil
--- user.icetape.abs_etape.numero : 10
 
 
-=== DEBUG DU 27 09 2016 - 13:17:04 ===
+=== DEBUG DU 27 09 2016 - 22:44:58 ===
+
+-- 
+Objet    = "watcher"
+Objet ID = 7
+Method   = "run"
+Context  = nil
+-- Redirection -> bureau/home
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 27 09 2016 - 22:45:00 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signin"
+Context  = nil
+
+
+=== DEBUG DU 27 09 2016 - 22:45:01 ===
 
 -- 
 Objet    = "user"
@@ -72,4 +102,57 @@ Objet    = "bureau"
 Objet ID = nil
 Method   = "home"
 Context  = nil
--- user.icetape.abs_etape.numero : 10
+
+
+=== DEBUG DU 27 09 2016 - 22:45:07 ===
+
+-- 
+Objet    = "watcher"
+Objet ID = 8
+Method   = "run"
+Context  = nil
+-- Redirection -> bureau/home
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 27 09 2016 - 22:45:09 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signin"
+Context  = nil
+
+
+=== DEBUG DU 27 09 2016 - 22:45:10 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "login"
+Context  = nil
+-- Redirection -> bureau/home
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 27 09 2016 - 22:45:16 ===
+
+-- 
+Objet    = "watcher"
+Objet ID = 9
+Method   = "run"
+Context  = nil
+-- Redirection -> bureau/home
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil

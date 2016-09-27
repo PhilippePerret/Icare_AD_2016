@@ -3,7 +3,7 @@
 %>
 <section id="header">
     <%= SiteHtml::Header.sign_buttons %>
-    <span id="site_title"><a href=""><%= site.logo_title %></a></span>
+    <span id="site_title"><a href=""><%= site.logo_title %></a><%= OFFLINE ? ' OFF'.in_span(class:'tiny') : '' %></span>
 </section>
 <%
 # Insertion de la pastille indiquant les tâches à exécuter

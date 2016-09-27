@@ -45,8 +45,7 @@ CREATE TABLE mini_faq
 
     # CONTENT
     # -------
-    # Fin attendue, en fonction du nombre de jours définis pour l'étape
-    # et des modifications d'échéance demandées par l'icarien
+    # Le contenu mis en forme, pour ne pas avoir à le faire
     content TEXT,
 
     # QUESTION

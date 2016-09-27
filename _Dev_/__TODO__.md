@@ -4,6 +4,16 @@
 
 ## BUGS
 
+* Impossible de trouver le travail-type défini par :
+    Rubrique   : histoire
+    Short_name : hors_champ_narratif
+    Défini pour l'étape absolue d'ID : 119
+
+* Impossible de trouver le travail-type défini par :
+    Rubrique   : structure
+    Short_name : listing_brins
+    Défini pour l'étape absolue d'ID : 117
+
 * Inscription : corriger la fabrication d'un user vide
   - Mais surtout : s'arranger pour que l'user soit "fabriqué" seulement à la fin de l'opération.
   => On enregistre toutes ses données dans un fichier temporaire, avant de les injecter dans la base finale.

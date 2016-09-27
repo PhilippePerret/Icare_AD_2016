@@ -23,12 +23,11 @@ class AbsEtape
 
   def minifaq_formated
     (site.folder_objet+'abs_minifaq/lib/module/formulaire').require
-    table_minifaq = site.dbm_table(:modules, 'mini_faq')
     drequest = {
-      where: {numero: numero, abs_module_id: self.module_id},
+      where:    {numero: numero, abs_module_id: self.module_id},
       colonnes: [:content, :user_id]
     }
-    hdata = table_minifaq.select(drequest)
+    hdata = dbtable_minifaq.select(drequest)
     if hdata.empty?
       # Aucune Q/R pour cette étape
       "#{user.pseudo}, soyez #{user.f_la} prem#{user.f_iere} à poser une question sur cette étape de travail.".in_p(class: 'italic')
@@ -38,7 +37,7 @@ class AbsEtape
         # Ça n'est pas uniquement pour faire joli, c'est aussi pour que
         # l'icarien puisse trouver plus facilement sa réponse.
         classes = ['mf_qr']
-        hminiqr[:user_id] == user.id && classes << 'yours'
+        hminiqr[:user_id] && hminiqr[:user_id] == user.id && classes << 'yours'
         hminiqr[:content].in_div(class: classes.join(' '), id: "mf_qr_#{hminiqr[:id]}")
       end.join
     end

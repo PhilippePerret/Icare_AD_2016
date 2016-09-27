@@ -21,8 +21,20 @@ class AbsTravauxTypes
       site.require_objet 'abs_travail_type'
       abs_etape.travail.scan(REG_TRAVAIL_TYPE).to_a.collect do |rubrique, shortn|
         hwt = dbtable_travaux_types.get(where: {rubrique: rubrique, short_name: shortn})
-        AbsModule::AbsEtape::AbsTravailType.new hwt[:id]
-      end
+        if hwt
+          AbsModule::AbsEtape::AbsTravailType.new hwt[:id]
+        else
+          send_error_to_admin(
+            exception: (
+              "Impossible de trouver le travail-type défini par :\n" +
+              "Rubrique   : #{rubrique}\n" +
+              "Short_name : #{shortn}" +
+              "Défini pour l'étape absolue d'ID : #{abs_etape.id}"
+              ).in_pre
+          )
+          nil
+        end
+      end.compact
     end
   end
 
