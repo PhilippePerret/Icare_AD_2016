@@ -36,15 +36,6 @@ end
 
 class IcModule::IcEtape
 
-  # Raccourcis
-  def numero
-    @numero ||= abs_etape.numero
-  end
-  # Pour l'annonce d'actualité, pour le moment
-  def designation
-    @designation ||= "étape #{numero} du module “#{self.icmodule.abs_module.name}”"
-  end
-
   # Méthode pour créer une instance de document pour le fichier
   # transmis.
   #
@@ -56,47 +47,18 @@ class IcModule::IcEtape
   def init_instance_icdocument sfile, args = nil
     args ||= Hash.new
     estimation = args[:estimate]
-    expected_comments = Time.now.to_i +
-      if self.icmodule.abs_module.intensif?
-        4
-      elsif self.icmodule.abs_module.suivi_lent?
-        8
-      else
-        6
-      end.days
-
-    data_icdocument = {
-      user_id:            owner.id,
-      abs_module_id:      self.icmodule.abs_module_id,
-      abs_etape_id:       self.abs_etape_id,
-      icmodule_id:        self.icmodule_id,
-      icetape_id:         self.id,
-      doc_affixe:         File.basename(sfile.name, File.extname(sfile.name)),
-      original_name:      sfile.name,
-      time_original:      Time.now.to_i,
-      expected_comments:  expected_comments,
-      options:            '1',
-      cote_original:      (estimation > 0 ? (estimation.to_f/10) : nil),
-      created_at:         Time.now.to_i,
-      updated_at:         Time.now.to_i
-    }
-    # debug "\n\ndata_icdocument : #{data_icdocument.pretty_inspect}"
-    new_doc_id = dbtable_icdocuments.insert(data_icdocument)
 
     # On ne crée le watcher que si une note d'estimation a été
-    # produite.
-    estimation > 0 && add_watcher_for_document(new_doc_id)
+    # produite (pourquoi ?…)
+    estimation > 0 && args.merge!(watcher_admin_download: true)
+
+    site.require_objet 'ic_document'
+    IcModule::IcEtape::IcDocument.require_module 'create'
+    new_doc_id = IcModule::IcEtape::IcDocument.create(self, sfile.name, args)
 
     return new_doc_id
   end
 
-  def add_watcher_for_document new_doc_id
-    self.owner.add_watcher(
-      objet:      'ic_document',
-      objet_id:   new_doc_id,
-      processus:  'admin_download'
-    )
-  end
 
 end#/IcModule::IcEtape
 
@@ -268,7 +230,7 @@ begin
     # On fait l'annonce
     annonce = "<strong>#{owner.pseudo}</strong> envoie son travail pour l’#{icetape.designation}."
     site.require_objet 'actualite'
-    Actualite.create(user_id: owner.id, message: annonce)
+    SiteHtml::Actualite.create(user_id: owner.id, message: annonce)
 
     # Si tout s'est bien passé, on peut demander à effacer le watcher
     do_remove_watcher

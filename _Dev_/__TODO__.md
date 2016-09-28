@@ -4,21 +4,6 @@
 
 ## BUGS
 
-* Impossible de trouver le travail-type défini par :
-    Rubrique   : histoire
-    Short_name : hors_champ_narratif
-    Défini pour l'étape absolue d'ID : 119
-
-* Impossible de trouver le travail-type défini par :
-    Rubrique   : structure
-    Short_name : listing_brins
-    Défini pour l'étape absolue d'ID : 117
-
-* Inscription : corriger la fabrication d'un user vide
-  - Mais surtout : s'arranger pour que l'user soit "fabriqué" seulement à la fin de l'opération.
-  => On enregistre toutes ses données dans un fichier temporaire, avant de les injecter dans la base finale.
-* Les documents QDD de l'étape ne semblent pas s'afficher
-* À l'inscription, ça crée un user vide en plus
 * Le mailing list ne vise pas les icariens qu'il devrait viser (tous sont contactés chaque fois)
 * Ne pas pouvoir envoyer deux documents de même nom (dans le travail de l'étape)
 * Objectif en double dans l'étape 5 du suivi lent (normal #7)
@@ -28,6 +13,8 @@
 
 
 ## DIVERS
+
+* Possibilité de fournir un document par mail et de l'injecter dans l'étape, comme avant (penser à faire une activité)
 
 * Messages de bureau (frigo)
 

@@ -460,3 +460,836 @@ Objet    = "site"
 Objet ID = nil
 Method   = "home"
 Context  = nil
+
+
+=== DEBUG DU 28 09 2016 - 11:41:00 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 28 09 2016 - 11:41:04 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 28 09 2016 - 11:41:08 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 28 09 2016 - 11:41:12 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {}
+
+
+=== DEBUG DU 28 09 2016 - 11:41:20 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {}
+
+
+=== DEBUG DU 28 09 2016 - 11:41:35 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 28 09 2016 - 11:41:40 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {}
+
+
+=== DEBUG DU 28 09 2016 - 11:42:44 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 28 09 2016 - 11:42:47 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {}
+
+
+=== DEBUG DU 28 09 2016 - 11:43:15 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {:where=>{:rubrique=>"histoire"}}
+
+
+=== DEBUG DU 28 09 2016 - 11:43:42 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {:where=>119}
+
+
+=== DEBUG DU 28 09 2016 - 11:44:13 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 28 09 2016 - 11:44:16 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 28 09 2016 - 11:44:19 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 28 09 2016 - 11:44:31 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {:where=>{:rubrique=>"histoire"}}
+
+
+=== DEBUG DU 28 09 2016 - 11:45:06 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {:where=>119}
+
+
+=== DEBUG DU 28 09 2016 - 11:45:20 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- k = :id
+-- typ = "Fixnum"
+-- v
+-- val = "119"
+-- k = :module_id
+-- typ = "Fixnum"
+-- v
+-- val = "7"
+-- k = :numero
+-- typ = "Fixnum"
+-- v
+-- val = "370"
+-- k = :titre
+-- typ = "String"
+-- v
+-- val = "Hors-champ narratif"
+-- k = :travail
+-- typ = "String"
+-- v
+-- val = "<%# MODULE SUIVI_LENT - ETAPE 370 %><%= travail_type 'histoire', 'connaitre_par_le_hors_champ_narratif' %>"
+-- k = :travaux
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :objectif
+-- typ = "String"
+-- v
+-- val = "D\u00E9velopper le hors-champ narratif pour approfondir l'histoire."
+-- k = :methode
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :duree
+-- typ = "Fixnum"
+-- v
+-- val = "15"
+-- k = :duree_max
+-- typ = "Fixnum"
+-- v
+-- val = "36"
+-- k = :liens
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :created_at
+-- typ = "Fixnum"
+-- v
+-- val = "1441872106"
+-- k = :updated_at
+-- typ = "Fixnum"
+-- v
+-- val = "1473408106"
+
+
+=== DEBUG DU 28 09 2016 - 11:45:29 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {:where=>119}
+
+
+=== DEBUG DU 28 09 2016 - 11:46:00 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {:where=>{:rubrique=>"structure"}}
+
+
+=== DEBUG DU 28 09 2016 - 11:46:33 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {:where=>117}
+
+
+=== DEBUG DU 28 09 2016 - 11:47:28 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- k = :id
+-- typ = "Fixnum"
+-- v
+-- val = "117"
+-- k = :module_id
+-- typ = "Fixnum"
+-- v
+-- val = "7"
+-- k = :numero
+-- typ = "Fixnum"
+-- v
+-- val = "360"
+-- k = :titre
+-- typ = "String"
+-- v
+-- val = "Approche par les brins"
+-- k = :travail
+-- typ = "String"
+-- v
+-- val = "<%# MODULE SUIVI_LENT - ETAPE 360 %><%= travail_type 'structure', 'liste_exhaustive_brins' %>"
+-- k = :travaux
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :objectif
+-- typ = "String"
+-- v
+-- val = "Renforcer l'histoire par l'approche par les brins."
+-- k = :methode
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :duree
+-- typ = "Fixnum"
+-- v
+-- val = "20"
+-- k = :duree_max
+-- typ = "Fixnum"
+-- v
+-- val = "41"
+-- k = :liens
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :created_at
+-- typ = "Fixnum"
+-- v
+-- val = "1441872106"
+-- k = :updated_at
+-- typ = "Fixnum"
+-- v
+-- val = "1473408106"
+
+
+=== DEBUG DU 28 09 2016 - 12:00:38 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 28 09 2016 - 12:00:41 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 28 09 2016 - 12:08:10 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- Il faut donner le nom du fichier.
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/operations_user/inject_document.rb:8:in `exec_inject_document'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/users.rb:55:in `execute_operation'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/users.rb:63:in `<top (required)>'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:22:in `require_ruby'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:15:in `require_all'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:330:in `load_per_vue'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:103:in `execute_route'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 28 09 2016 - 12:08:34 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- Il faut donner le nom du fichier.
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/operations_user/inject_document.rb:8:in `exec_inject_document'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/users.rb:55:in `execute_operation'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/users.rb:63:in `<top (required)>'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:22:in `require_ruby'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:15:in `require_all'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:330:in `load_per_vue'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:103:in `execute_route'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 28 09 2016 - 12:08:52 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 28 09 2016 - 12:11:39 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- undefined method `abs_module' for nil:NilClass
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/operations_user/inject_document.rb:10:in `exec_inject_document'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/users.rb:55:in `execute_operation'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/users.rb:63:in `<top (required)>'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:22:in `require_ruby'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:15:in `require_all'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:330:in `load_per_vue'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:103:in `execute_route'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 28 09 2016 - 12:11:52 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- undefined method `abs_module' for nil:NilClass
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/operations_user/inject_document.rb:10:in `exec_inject_document'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/users.rb:55:in `execute_operation'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/users.rb:63:in `<top (required)>'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:22:in `require_ruby'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:15:in `require_all'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:330:in `load_per_vue'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:103:in `execute_route'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 28 09 2016 - 12:12:23 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 28 09 2016 - 13:48:08 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- Redirection -> user/signin
+-- param(:backto) mis à "admin/users"
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signin"
+Context  = nil
+-- L’icarien choisi ne possède pas de module courant. Impossible de lui injecter un document d’étape.
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/operations_user/inject_document.rb:9:in `exec_inject_document'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/users.rb:55:in `execute_operation'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/users.rb:63:in `<top (required)>'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:22:in `require_ruby'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:15:in `require_all'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:330:in `load_per_vue'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:103:in `execute_route'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 28 09 2016 - 13:48:17 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "login"
+Context  = nil
+-- Redirection -> admin/users
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 28 09 2016 - 13:48:29 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- undefined method `as_normalized_filename' for nil:NilClass
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/operations_user/inject_document.rb:7:in `exec_inject_document'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/users.rb:55:in `execute_operation'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/users.rb:63:in `<top (required)>'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:22:in `require_ruby'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:15:in `require_all'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:330:in `load_per_vue'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:103:in `execute_route'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 28 09 2016 - 13:48:55 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- Il faut donner le nom du fichier.
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/operations_user/inject_document.rb:8:in `exec_inject_document'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/users.rb:55:in `execute_operation'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/users.rb:63:in `<top (required)>'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:22:in `require_ruby'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:15:in `require_all'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:330:in `load_per_vue'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:103:in `execute_route'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 28 09 2016 - 13:49:11 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- L’icarien choisi ne possède pas de module courant. Impossible de lui injecter un document d’étape.
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/operations_user/inject_document.rb:10:in `exec_inject_document'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/users.rb:55:in `execute_operation'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/users.rb:63:in `<top (required)>'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:22:in `require_ruby'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:15:in `require_all'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:330:in `load_per_vue'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:103:in `execute_route'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 28 09 2016 - 13:49:19 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- /Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/ic_document/lib/module/create/create_icdocument.rb:83: syntax error, unexpected tIDENTIFIER, expecting ')'
+      status:   statut_etape
+            ^
+
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/require.rb:18:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/require.rb:71:in `block in require_all_in'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/require.rb:71:in `each'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/require.rb:71:in `require_all_in'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/divers/modules/main_objets.rb:63:in `require_module'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/operations_user/inject_document.rb:17:in `exec_inject_document'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/users.rb:55:in `execute_operation'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/users.rb:63:in `<top (required)>'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:22:in `require_ruby'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:15:in `require_all'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:330:in `load_per_vue'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:103:in `execute_route'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 28 09 2016 - 13:49:50 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- undefined local variable or method `nom_od' for Admin::Users:Class
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/operations_user/inject_document.rb:18:in `exec_inject_document'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/users.rb:55:in `execute_operation'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/users.rb:63:in `<top (required)>'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:22:in `require_ruby'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:15:in `require_all'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:330:in `load_per_vue'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:103:in `execute_route'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 28 09 2016 - 13:50:20 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- undefined method `create' for Admin::Users:Class
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/operations_user/inject_document.rb:18:in `exec_inject_document'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/users.rb:55:in `execute_operation'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/users.rb:63:in `<top (required)>'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:22:in `require_ruby'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:15:in `require_all'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:330:in `load_per_vue'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:103:in `execute_route'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 28 09 2016 - 13:50:39 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- uninitialized constant Class::Actualite
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/ic_document/lib/module/create/create_icdocument.rb:89:in `create'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/operations_user/inject_document.rb:18:in `exec_inject_document'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/users.rb:55:in `execute_operation'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/users.rb:63:in `<top (required)>'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:22:in `require_ruby'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:15:in `require_all'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:330:in `load_per_vue'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:103:in `execute_route'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 28 09 2016 - 13:54:07 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 28 09 2016 - 13:54:16 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 28 09 2016 - 13:54:22 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 28 09 2016 - 13:54:29 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {}
+
+
+=== DEBUG DU 28 09 2016 - 13:54:39 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 28 09 2016 - 13:54:55 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {:where=>{:user_id=>4}}
+
+
+=== DEBUG DU 28 09 2016 - 13:55:54 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 28 09 2016 - 13:55:57 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {}
+
+
+=== DEBUG DU 28 09 2016 - 14:05:48 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- undefined method `designation' for #<IcModule::IcEtape:0x007fd96495d108>
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/ic_document/lib/module/create/create_icdocument.rb:91:in `create'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/operations_user/inject_document.rb:18:in `exec_inject_document'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/users.rb:55:in `execute_operation'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/users.rb:63:in `<top (required)>'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:22:in `require_ruby'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:15:in `require_all'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:330:in `load_per_vue'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:103:in `execute_route'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 28 09 2016 - 14:13:43 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 28 09 2016 - 14:15:17 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- undefined method `next_paiement' for nil:NilClass
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/operations_user/free_days.rb:12:in `exec_free_days'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/users.rb:55:in `execute_operation'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/users.rb:63:in `<top (required)>'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:22:in `require_ruby'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:15:in `require_all'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:330:in `load_per_vue'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:103:in `execute_route'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 28 09 2016 - 14:15:24 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 28 09 2016 - 14:15:28 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 28 09 2016 - 14:15:41 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 28 09 2016 - 14:15:52 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 28 09 2016 - 14:17:31 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 28 09 2016 - 14:18:17 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil

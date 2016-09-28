@@ -8,6 +8,7 @@ class Users
     ''          => {hname: 'Choisir l’opération…', short_value: nil, long_value: nil},
     'free_days' => {hname: 'Jours gratuits', short_value: "Nombre de jours gratuits", long_value: "Raison éventuelle du don de jours gratuits (format ERB)."},
     'travail_propre'  => {hname: 'Travail propre', short_value: nil, long_value: "Description du travail propre (format ERB)."},
+    'inject_document' => {hname: 'Document envoyé par mail', medium_value: 'Nom du fichier'},
     'etape_change'    => {hname: 'Changement d’étape', short_value: 'Numéro de l’étape', long_value: nil}
   }
 class << self
@@ -22,6 +23,9 @@ class << self
   # Les deux valeurs : soit la courte, soit la longue
   def short_value
     @short_value ||= param_opuser[:short_value].nil_if_empty
+  end
+  def medium_value
+    @medium_value ||= param_opuser[:medium_value].nil_if_empty
   end
   def long_value
     @long_value ||= param_opuser[:long_value].nil_if_empty

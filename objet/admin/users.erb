@@ -16,6 +16,9 @@ site.require 'form_tools'
 form.prefix = 'opuser'
 
 %>
+<% if OFFLINE %>
+<p class="warning small">Attention, les opérations ne seront exécutées qu'en OFFLINE.</p>
+<% end %>
 <form class="dim2080" action="admin/users" method="POST">
 
   <%= form.field_raw('Icarien', '', nil, {field: Admin::Users.menu}) %>
@@ -23,6 +26,10 @@ form.prefix = 'opuser'
   <%# CHAMP COURT %>
   <div id="div_short_value">
     <%= form.field_text('Valeur courte', 'short_value', nil, {class: 'short', text_before: ''.in_div(id: 'short_value_explication', class: 'libelle')}) %>
+  </div>
+  <%# CHAMP MOYEN %>
+  <div id="div_medium_value">
+    <%= form.field_text('Valeur moyenne', 'medium_value', nil, {class: 'milong', text_before: ''.in_div(id: 'medium_value_explication', class: 'libelle')}) %>
   </div>
   <%# CHAMP LONG %>
   <div id="div_long_value">
