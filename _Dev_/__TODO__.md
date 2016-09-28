@@ -24,7 +24,14 @@
 * Objectif en double dans l'étape 5 du suivi lent (normal #7)
   => Quand l'objectif est le même que l'objectif du travail type, ne pas l'indiquer.
 
+## Fonctionnalités impératives
+
+* Définition des mails qu'on veut recevoir (Ne recevoir aucun mail)
+* Définition de la route à prendre après l'identification
+
 ## DIVERS
+
+* Pouvoir laisser un message sur le bureau de l'icarien (il faut que ses options le permettent)
 
 * Pour les citations, plutôt que de les charger chaque fois, pour accélérer, charger 20 citations pour la journée et les faire "tourner" à chaque chargement de l'accueil.
 

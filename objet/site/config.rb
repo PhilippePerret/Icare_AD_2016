@@ -73,6 +73,20 @@ site.keywords = [
 # ---------------------------------------------------------------------
 #   DONNÉES DE L'UTILISATEUR
 
+# Redirection possible
+# cf. le fichier ./objet/user/lib/required/user/instance/redirections.rb
+# pour la définition des routes.
+site.redirections_after_login = {
+  0 => {hname: 'Accueil du site',         route: :home},
+  1 => {hname: 'Bureau de travail',       route: :bureau},
+  2 => {hname: 'Profil',                  route: :profil},
+  3 => {hname: 'Dernière page consultée', route: :last_page},
+
+  # - ADMINISTRATEUR -
+  8 => {hname: 'Console', route: 'admin/console', admin: true},
+  9 => {hname: 'Tableau de bord', route: 'admin/dashboard', admin: true}
+}
+
 # Mettre à true si le formulaire d'inscription doit demander
 # l'année de naissance de l'user
 site.signup_with_year           = true

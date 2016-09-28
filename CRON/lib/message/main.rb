@@ -24,12 +24,12 @@ class << self
       if @logs.nil? || @logs.empty?
         'Aucun message log'.in_div
       else
-        @logs.collect{|h| h[content].in_div(class: options[:class])}.join
+        @logs.collect{|h| h[:content].in_div(class: h[:options][:class])}.join
       end
     <<-TXT
+#{messages_log}
 <p>Une dernière citation sera : #{site.get_a_citation(no_last_sent: true).inspect}</p>
 <h2>Messages logs</h2>
-#{messages_log}
     TXT
   end
 

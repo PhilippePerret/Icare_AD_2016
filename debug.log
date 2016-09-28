@@ -1,6 +1,6 @@
 
 
-=== DEBUG DU 27 09 2016 - 22:44:46 ===
+=== DEBUG DU 28 09 2016 - 11:25:30 ===
 
 -- 
 Objet    = "user"
@@ -9,39 +9,50 @@ Method   = "signin"
 Context  = nil
 
 
-=== DEBUG DU 27 09 2016 - 22:44:47 ===
+=== DEBUG DU 28 09 2016 - 11:25:31 ===
 
 -- 
 Objet    = "user"
 Objet ID = nil
 Method   = "login"
 Context  = nil
--- Redirection -> bureau/home
+-- kroute = :home
+-- Redirection -> site/home
 -- 
-Objet    = "bureau"
+Objet    = "site"
 Objet ID = nil
 Method   = "home"
 Context  = nil
--- user.icetape.abs_etape.numero : 1
 
 
-=== DEBUG DU 27 09 2016 - 22:44:49 ===
+=== DEBUG DU 28 09 2016 - 11:25:32 ===
 
 -- 
-Objet    = "abs_minifaq"
-Objet ID = nil
-Method   = "new_question"
+Objet    = "user"
+Objet ID = 2
+Method   = "profil"
 Context  = nil
--- Redirection -> bureau/home
+
+
+=== DEBUG DU 28 09 2016 - 11:25:37 ===
+
 -- 
-Objet    = "bureau"
-Objet ID = nil
-Method   = "home"
+Objet    = "user"
+Objet ID = 2
+Method   = "profil"
 Context  = nil
--- user.icetape.abs_etape.numero : 1
 
 
-=== DEBUG DU 27 09 2016 - 22:44:52 ===
+=== DEBUG DU 28 09 2016 - 11:25:37 ===
+
+-- 
+Objet    = "user"
+Objet ID = 2
+Method   = "deconnexion"
+Context  = nil
+
+
+=== DEBUG DU 28 09 2016 - 11:25:39 ===
 
 -- 
 Objet    = "user"
@@ -50,37 +61,50 @@ Method   = "signin"
 Context  = nil
 
 
-=== DEBUG DU 27 09 2016 - 22:44:52 ===
+=== DEBUG DU 28 09 2016 - 11:25:40 ===
 
 -- 
 Objet    = "user"
 Objet ID = nil
 Method   = "login"
 Context  = nil
--- Redirection -> bureau/home
+-- kroute = :last_page
+-- Redirection -> user/2/profil
 -- 
-Objet    = "bureau"
+Objet    = "user"
+Objet ID = 2
+Method   = "profil"
+Context  = nil
+
+
+=== DEBUG DU 28 09 2016 - 11:25:40 ===
+
+-- 
+Objet    = "aide"
 Objet ID = nil
 Method   = "home"
 Context  = nil
 
 
-=== DEBUG DU 27 09 2016 - 22:44:58 ===
+=== DEBUG DU 28 09 2016 - 11:25:41 ===
 
 -- 
-Objet    = "watcher"
-Objet ID = 7
-Method   = "run"
-Context  = nil
--- Redirection -> bureau/home
--- 
-Objet    = "bureau"
-Objet ID = nil
-Method   = "home"
+Objet    = "aide"
+Objet ID = 20
+Method   = "show"
 Context  = nil
 
 
-=== DEBUG DU 27 09 2016 - 22:45:00 ===
+=== DEBUG DU 28 09 2016 - 11:25:42 ===
+
+-- 
+Objet    = "user"
+Objet ID = 2
+Method   = "deconnexion"
+Context  = nil
+
+
+=== DEBUG DU 28 09 2016 - 11:25:43 ===
 
 -- 
 Objet    = "user"
@@ -89,70 +113,17 @@ Method   = "signin"
 Context  = nil
 
 
-=== DEBUG DU 27 09 2016 - 22:45:01 ===
+=== DEBUG DU 28 09 2016 - 11:25:44 ===
 
 -- 
 Objet    = "user"
 Objet ID = nil
 Method   = "login"
 Context  = nil
--- Redirection -> bureau/home
+-- kroute = :last_page
+-- Redirection -> aide/20/show
 -- 
-Objet    = "bureau"
-Objet ID = nil
-Method   = "home"
-Context  = nil
-
-
-=== DEBUG DU 27 09 2016 - 22:45:07 ===
-
--- 
-Objet    = "watcher"
-Objet ID = 8
-Method   = "run"
-Context  = nil
--- Redirection -> bureau/home
--- 
-Objet    = "bureau"
-Objet ID = nil
-Method   = "home"
-Context  = nil
-
-
-=== DEBUG DU 27 09 2016 - 22:45:09 ===
-
--- 
-Objet    = "user"
-Objet ID = nil
-Method   = "signin"
-Context  = nil
-
-
-=== DEBUG DU 27 09 2016 - 22:45:10 ===
-
--- 
-Objet    = "user"
-Objet ID = nil
-Method   = "login"
-Context  = nil
--- Redirection -> bureau/home
--- 
-Objet    = "bureau"
-Objet ID = nil
-Method   = "home"
-Context  = nil
-
-
-=== DEBUG DU 27 09 2016 - 22:45:16 ===
-
--- 
-Objet    = "watcher"
-Objet ID = 9
-Method   = "run"
-Context  = nil
--- Redirection -> bureau/home
--- 
-Objet    = "bureau"
-Objet ID = nil
-Method   = "home"
+Objet    = "aide"
+Objet ID = 20
+Method   = "show"
 Context  = nil

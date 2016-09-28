@@ -18,6 +18,10 @@ class Lien
     build "bureau/home", titre, options
   end
 
+  def profil titre = 'profil', options = nil
+    build "user/#{user.id}/profil", titre, options
+  end
+
   def modules titre = 'liste des modules d’apprentissage', options = nil
     build 'abs_module/list', titre, options
   end

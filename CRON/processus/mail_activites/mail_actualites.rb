@@ -44,14 +44,6 @@ class Cron
         end
 
         log "*** ENVOI DES MESSAGES D'ACTUALITE ***", {time: true}
-        if mode_test?
-          log "--- In real mode, message sent to #{destinataires.collect{|h|h[:pseudo]}.join(', ')}"
-          @destinataires = [
-            {pseudo: "Benoit Test", mail: "benoit.ackerman@yahoo.fr"},
-            {pseudo: "Phil Yahoo", mail: "philippe.perret@yahoo.fr"},
-            {pseudo: "Phil Icare", mail: "phil@atelier-icare.net"}
-          ]
-        end
         if destinataires.nil?
           log "`destinataires` est nil (ce qui ne devrait jamais arriver)...\n"+
           "J'essaie de corriger l'erreur ou je renonce si je n'y parviens pas."
@@ -101,7 +93,8 @@ class Cron
       # En mode test, s'il n'y a aucune actualité, on en crée
       def actualites_veille
         @actualites_veille ||= begin
-          cond_where = "status = 1"
+          # cond_where = "status = 1"
+          cond_where = '1 = 1' # pour essai
           arr = dbtable_actualites.select(where:cond_where)
           arr.sort_by { |ac| ac[:created_at] }
         end

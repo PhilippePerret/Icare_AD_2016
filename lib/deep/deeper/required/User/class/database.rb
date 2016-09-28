@@ -10,10 +10,6 @@ class User
     end
     alias :table_users :table
 
-    def table_connexions
-      @table_connexions ||= site.dbm_table(:hot, 'connexions')
-    end
-
     def table_paiements
       @table_paiements ||= site.dbm_table(:users, 'paiements')
     end

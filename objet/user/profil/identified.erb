@@ -21,9 +21,16 @@ end
 <div class="dim3070">
   <%= div_row('Pseudo'        , pseudo ) %>
   <%= div_row('Inscription'   , created_at.as_human_date(true, true) ) %>
-  <% if user.admin? %>
-    <%= div_row('Grade site', "Administra#{f_trice} de niveau #{get_option(:admin)}") %>
-  <% end %>
+  <%
+    grade_user =
+      case true
+      when user.admin?    then "Administra#{f_trice} de niveau #{get_option(:admin)}"
+      when !user.recu?    then "Candidat#{f_e} icarien"
+      when user.alessai?  then "Icarien#{f_ne} à l'essai"
+      else "Vrai#{f_e} icarien#{f_ne}"
+      end
+  %>
+  <%= div_row('Grade site', grade_user) %>
   <%= div_row('Mot de passe', lien_modifier_mdp) %>
   <%= div_row('Session ID'    , session_id, {class:'small'} ) %>
 </div>
@@ -32,18 +39,56 @@ end
 # ---------------------------------------------------------------------
 #   PRÉFÉRENCES
 # ---------------------------------------------------------------------
+
+# Choix de la fréquence d'envoi des mails
+def menu_mail_updates
+  [
+    ['0', 'tous les jours'],
+    ['2', 'une fois par semaine'],
+    ['1', 'jamais']
+  ].in_select(name:'prefs[mail_updates]', id: 'prefs_mail_updates', class: 'inline', selected: user.pref_mails_activites )
+end
+
+# Choix de la redirection après l'identification
+def menu_goto_after_signin
+  liste_goto_after_signin.
+    in_select(
+      name:   'prefs[goto_after_login]',
+      id:     'prefs_goto_after_login',
+      class:  'inline',
+      selected: user.pref_goto_after_login # cf. user/options.rb
+      )
+end
+
+def menu_contact
+  [
+    ['0', 'par message et par mail'],
+    ['1', 'par message seulement'],
+    ['2', 'par mail seulement'],
+    ['8', 'aucun contact']
+  ].in_select(id: 'prefs_contact_mail', name: 'prefs[type_contact]', class: 'inline')
+end
+
+# Les lignes des préférences user
+def lipref libelle, menu, aide_id
+  (
+    libelle.in_span(class: 'lib') +
+    menu.in_span(class: 'menu') +
+    lien.aide(aide_id).in_span(class: 'aide')
+  ).in_li(class: 'lipref')
+end
+form_prefs =
+  (
+    'save_preferences'.in_hidden(name:'operation') +
+    (
+      lipref('Recevoir le mail des dernières actualités', menu_mail_updates, 4) +
+      lipref('Après l’identification, rejoindre la page', menu_goto_after_signin, 1) +
+      lipref('Les icarien(ne)s peuvent me contacter…', menu_contact, 5)
+    ).in_ul(id: 'ul_preferences') +
+    "Enregistrer".in_submit(class: 'btn small discret').in_div(class: 'buttons')
+  ).in_form(id: 'form_preferences', action: "user/#{user.id}/profil")
 %>
-<fieldset id="preferences">
-  <legend>Préférences</legend>
-  <form action="user/<%= user.id %>/profil" method="POST">
-    <%= 'save_preferences'.in_hidden(name:'operation') %>
-    <ul>
-      <%= ("Recevoir le mail des dernières actualités #{menu_mail_updates}" + lien.aide(4)).in_li %>
-      <%= ("Après l'identification, rejoindre #{menu_goto_after_signin}" + lien.aide(1)).in_li %>
-    </ul>
-    <%= "Enregistrer".in_submit(class: 'btn small discret').in_div(class: 'buttons') %>
-  </form>
-</fieldset>
+<%= ("Préférences".in_legend + form_prefs).in_fieldset(id: 'preferences') %>
 
 <% if user.admin? %><%= sous_vue('admin') %><% end %>
 

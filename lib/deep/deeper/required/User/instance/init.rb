@@ -33,14 +33,14 @@ class User
     # a choisi de rejoindre sa dernière page consultée après
     # son login)
     return if rt.to_s =~ /(deconnexion|logout)$/
-    User::table_connexions.set(self.id, {id: self.id, route: rt, time: Time.now.to_i})
+    dbtable_connexions.set(self.id, {id: self.id, route: rt, time: Time.now.to_i})
   end
 
   # Retourne la date de dernière connexion de l'user, ou NIL
   # Note : pour le moment, la route ne sert à rien.
   def last_connexion
     @last_connexion ||= begin
-      rs = User::table_connexions.get(self.id)
+      rs = dbtable_connexions.get(self.id)
       rs.nil? ? nil : rs[:time]
     end
   end

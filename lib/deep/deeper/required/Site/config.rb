@@ -72,6 +72,10 @@ class SiteHtml
   # l'user
   attr_accessor :user_options
 
+  # Définition des redirections possibles après le login
+  # Cf. fichier ./lib/app/user/redirection.rb
+  attr_accessor :redirections_after_login
+
   # Éditeur par défaut, pour l'édition des fichiers
   attr_accessor :default_editor
 

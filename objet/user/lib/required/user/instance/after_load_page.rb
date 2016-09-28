@@ -1,8 +1,7 @@
 # encoding: UTF-8
 class User
-  def do_after_login
 
-  end
+
 
   # À faire après un chargement de page
   #

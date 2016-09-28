@@ -13,6 +13,10 @@ class User
     dbtable_icdocuments.delete(req)
     # Détruire tous les paiements
     dbtable_paiements.delete(req)
+
+    # Le rendre inactif en lui retirant son module éventuel
+    self.set_inactif
+
   end
 
   # Méthode pour mettre user en user inactif

@@ -70,7 +70,7 @@ class User
 
     proceed_login
 
-    'Bienvenue, %s !' % pseudo
+    flash 'Bienvenue, %s !' % pseudo
 
     # Si une méthode doit être appelée après le login, on
     # l'appelle.
@@ -82,8 +82,8 @@ class User
       # Une redirection est demandée
       redirect_to param(:login)[:back_to]
     elsif self.respond_to?(:redirect_after_login)
-      # Sinon, une redirection est peut-être définie
-      # par défaut par les préférences ou l'application
+      # Sinon, une méthode peut être définie pour traiter les
+      # préférences de redirection de l'user
       self.send(:redirect_after_login)
     end
     app.benchmark('<- User#login')
