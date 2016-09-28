@@ -26,10 +26,18 @@
 
 ## Fonctionnalités impératives
 
-* Définition des mails qu'on veut recevoir (Ne recevoir aucun mail)
-* Définition de la route à prendre après l'identification
 
 ## DIVERS
+
+* Messages de bureau (frigo)
+
+* Liste des icariens
+  -> Ajouter un mail si 1/ icarien peut être contacté par mail et 2/ c'est
+    un icarien qui visite la liste
+    Ou il laisse cette possibilité à tout le monde
+  -> ajouter la possibilité de lui laisser un message si 1/ il laisse cette
+    possibilité et c'est un icarien qui visite
+    Ou il laisse cette possibilité à tout le monde
 
 * Pouvoir laisser un message sur le bureau de l'icarien (il faut que ses options le permettent)
 

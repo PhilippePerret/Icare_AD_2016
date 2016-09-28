@@ -10,7 +10,7 @@ class << self
   def send_mail_confirmation_mail
     umail = param(:user_mail).nil_if_empty
     umail != nil        || raise('Vous devez indiquer votre mail dans le champ “Votre mail”.')
-    umail.match(/@/)    || raise('Vous devez indiquer une adresse-mail valide !')
+    umail.match(/@/)    || raise('Vous devez indiquer une adresse mail valide !')
     user_id = mail_exists?(umail)
     user_id != nil || raise('Désolé, mais ce mail est inconnu sur ce site. Comment pourriez-vous le confirmer ?')
 
@@ -29,7 +29,7 @@ class << self
       force_offline: true
     )
 
-    flash 'Un mail vient de vous être envoyé pour confirmer votre adresse-mail.'
+    flash 'Un mail vient de vous être envoyé pour confirmer votre adresse mail.'
     param(user_mail: '')
 
   rescue Exception => e

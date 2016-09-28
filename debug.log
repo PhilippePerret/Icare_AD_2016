@@ -1,20 +1,457 @@
 
 
-=== DEBUG DU 28 09 2016 - 11:25:30 ===
+=== DEBUG DU 28 09 2016 - 11:26:51 ===
 
 -- 
 Objet    = "user"
 Objet ID = nil
-Method   = "signin"
+Method   = "signup"
 Context  = nil
 
 
-=== DEBUG DU 28 09 2016 - 11:25:31 ===
+=== DEBUG DU 28 09 2016 - 11:26:55 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 28 09 2016 - 11:26:55 ===
 
 -- 
 Objet    = "user"
 Objet ID = nil
-Method   = "login"
+Method   = "signup"
+Context  = nil
+-- form_data : 
+{:pseudo=>"", :patronyme=>"", :sexe=>"F", :naissance=>"1998", :mail=>"", :mail_confirmation=>"", :password=>"", :password_confirmation=>"", :telephone=>"", :adresse=>"", :captcha=>""}
+-- Il faut fournir le pseudo.
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/user/lib/module/signup/operation/save_identite.rb:54:in `data_valides?'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/user/lib/module/signup/operation/save_identite.rb:8:in `save_identite'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/user/lib/module/signup/traite_operation.rb:8:in `traite_operation'
+(erb):16:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 28 09 2016 - 11:27:02 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+-- form_data : 
+{:pseudo=>"Dogivee", :patronyme=>"", :sexe=>"F", :naissance=>"1998", :mail=>"", :mail_confirmation=>"", :password=>"", :password_confirmation=>"", :telephone=>"", :adresse=>"", :captcha=>""}
+-- Il faut fournir votre mail.
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/user/lib/module/signup/operation/save_identite.rb:74:in `data_valides?'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/user/lib/module/signup/operation/save_identite.rb:8:in `save_identite'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/user/lib/module/signup/traite_operation.rb:8:in `traite_operation'
+(erb):16:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 28 09 2016 - 11:27:09 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+-- form_data : 
+{:pseudo=>"Dogivee", :patronyme=>"", :sexe=>"F", :naissance=>"1998", :mail=>"dogivee@chez.com", :mail_confirmation=>"", :password=>"", :password_confirmation=>"", :telephone=>"", :adresse=>"", :captcha=>""}
+-- La confirmation du mail ne correspond pas.
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/user/lib/module/signup/operation/save_identite.rb:78:in `data_valides?'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/user/lib/module/signup/operation/save_identite.rb:8:in `save_identite'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/user/lib/module/signup/traite_operation.rb:8:in `traite_operation'
+(erb):16:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 28 09 2016 - 11:27:00 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "dashboard"
+Context  = nil
+-- --> check_folders_offline
+-- --> check_folders_online
+-- --> build_result
+-- --> open_result
+-- Redirection -> bureau/home
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 28 09 2016 - 11:27:15 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+-- form_data : 
+{:pseudo=>"Dogivee", :patronyme=>"", :sexe=>"F", :naissance=>"1998", :mail=>"dogivee@chez.com", :mail_confirmation=>"mauvaismail", :password=>"", :password_confirmation=>"", :telephone=>"", :adresse=>"", :captcha=>""}
+-- La confirmation du mail ne correspond pas.
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/user/lib/module/signup/operation/save_identite.rb:78:in `data_valides?'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/user/lib/module/signup/operation/save_identite.rb:8:in `save_identite'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/user/lib/module/signup/traite_operation.rb:8:in `traite_operation'
+(erb):16:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 28 09 2016 - 11:27:22 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+-- form_data : 
+{:pseudo=>"Dogivee", :patronyme=>"", :sexe=>"F", :naissance=>"1998", :mail=>"dogivee@chez.com", :mail_confirmation=>"dogivee@chez.com", :password=>"", :password_confirmation=>"", :telephone=>"", :adresse=>"", :captcha=>""}
+-- Il faut fournir un mot de passe.
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/user/lib/module/signup/operation/save_identite.rb:82:in `data_valides?'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/user/lib/module/signup/operation/save_identite.rb:8:in `save_identite'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/user/lib/module/signup/traite_operation.rb:8:in `traite_operation'
+(erb):16:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 28 09 2016 - 11:27:29 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+-- form_data : 
+{:pseudo=>"Dogivee", :patronyme=>"", :sexe=>"F", :naissance=>"1998", :mail=>"dogivee@chez.com", :mail_confirmation=>"dogivee@chez.com", :password=>"monmotdepasse", :password_confirmation=>"", :telephone=>"", :adresse=>"", :captcha=>""}
+-- La confirmation du mot de passe ne correspond pas.
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/user/lib/module/signup/operation/save_identite.rb:85:in `data_valides?'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/user/lib/module/signup/operation/save_identite.rb:8:in `save_identite'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/user/lib/module/signup/traite_operation.rb:8:in `traite_operation'
+(erb):16:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 28 09 2016 - 11:27:35 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+-- form_data : 
+{:pseudo=>"Dogivee", :patronyme=>"", :sexe=>"F", :naissance=>"1998", :mail=>"dogivee@chez.com", :mail_confirmation=>"dogivee@chez.com", :password=>"monmotdepasse", :password_confirmation=>"nimmporte quoi", :telephone=>"", :adresse=>"", :captcha=>""}
+-- La confirmation du mot de passe ne correspond pas.
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/user/lib/module/signup/operation/save_identite.rb:85:in `data_valides?'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/user/lib/module/signup/operation/save_identite.rb:8:in `save_identite'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/user/lib/module/signup/traite_operation.rb:8:in `traite_operation'
+(erb):16:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 28 09 2016 - 11:27:42 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+-- form_data : 
+{:pseudo=>"Dogivee", :patronyme=>"", :sexe=>"F", :naissance=>"1998", :mail=>"dogivee@chez.com", :mail_confirmation=>"dogivee@chez.com", :password=>"monmotdepasse", :password_confirmation=>"monmotdepasse", :telephone=>"", :adresse=>"", :captcha=>""}
+-- Il faut fournir le captcha pour nous assurer que vous n’êtes pas un robot.
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/user/lib/module/signup/operation/save_identite.rb:94:in `data_valides?'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/user/lib/module/signup/operation/save_identite.rb:8:in `save_identite'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/user/lib/module/signup/traite_operation.rb:8:in `traite_operation'
+(erb):16:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 28 09 2016 - 11:27:48 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+-- form_data : 
+{:pseudo=>"Dogivee", :patronyme=>"", :sexe=>"F", :naissance=>"1998", :mail=>"dogivee@chez.com", :mail_confirmation=>"dogivee@chez.com", :password=>"monmotdepasse", :password_confirmation=>"monmotdepasse", :telephone=>"", :adresse=>"", :captcha=>"10"}
+-- Le captcha est mauvais, seriez-vous un robot ?
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/user/lib/module/signup/operation/save_identite.rb:95:in `data_valides?'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/user/lib/module/signup/operation/save_identite.rb:8:in `save_identite'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/user/lib/module/signup/traite_operation.rb:8:in `traite_operation'
+(erb):16:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 28 09 2016 - 11:27:55 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+-- form_data : 
+{:pseudo=>"Dogivee", :patronyme=>"", :sexe=>"F", :naissance=>"1998", :mail=>"dogivee@chez.com", :mail_confirmation=>"dogivee@chez.com", :password=>"monmotdepasse", :password_confirmation=>"monmotdepasse", :telephone=>"", :adresse=>"", :captcha=>"30"}
+-- Suivi de projet (normal) is NOT checked
+-- Découverte is NOT checked
+-- Initiation à la dramaturgie is NOT checked
+-- Analyse de film is NOT checked
+-- Documents is NOT checked
+-- Dynamique narrative is NOT checked
+-- Personnages is NOT checked
+-- Scénario is NOT checked
+-- Structure is NOT checked
+-- Suivi de projet (intensif) is NOT checked
+-- Thèmes is NOT checked
+-- Procédés is NOT checked
+-- Bible de série is NOT checked
+-- Coaching intensif is NOT checked
+
+
+=== DEBUG DU 28 09 2016 - 11:28:04 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 28 09 2016 - 11:28:06 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 28 09 2016 - 11:28:08 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+-- Suivi de projet (normal) is NOT checked
+-- Découverte is NOT checked
+-- Initiation à la dramaturgie is NOT checked
+-- Analyse de film is NOT checked
+-- Documents is checked
+-- Dynamique narrative is NOT checked
+-- Personnages is checked
+-- Scénario is NOT checked
+-- Structure is checked
+-- Suivi de projet (intensif) is NOT checked
+-- Thèmes is NOT checked
+-- Procédés is NOT checked
+-- Bible de série is NOT checked
+-- Coaching intensif is NOT checked
+
+
+=== DEBUG DU 28 09 2016 - 11:28:17 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 28 09 2016 - 11:28:24 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+-- Suivi de projet (normal) is NOT checked
+-- Découverte is NOT checked
+-- Initiation à la dramaturgie is NOT checked
+-- Analyse de film is NOT checked
+-- Documents is checked
+-- Dynamique narrative is NOT checked
+-- Personnages is checked
+-- Scénario is NOT checked
+-- Structure is checked
+-- Suivi de projet (intensif) is NOT checked
+-- Thèmes is NOT checked
+-- Procédés is NOT checked
+-- Bible de série is NOT checked
+-- Coaching intensif is NOT checked
+
+
+=== DEBUG DU 28 09 2016 - 11:28:24 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 28 09 2016 - 11:28:29 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+-- Suivi de projet (normal) is NOT checked
+-- Découverte is NOT checked
+-- Initiation à la dramaturgie is NOT checked
+-- Analyse de film is NOT checked
+-- Documents is checked
+-- Dynamique narrative is NOT checked
+-- Personnages is checked
+-- Scénario is NOT checked
+-- Structure is checked
+-- Suivi de projet (intensif) is NOT checked
+-- Thèmes is NOT checked
+-- Procédés is NOT checked
+-- Bible de série is NOT checked
+-- Coaching intensif is NOT checked
+
+
+=== DEBUG DU 28 09 2016 - 11:28:29 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 28 09 2016 - 11:28:30 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
 Context  = nil
 -- kroute = :home
 -- Redirection -> site/home
@@ -22,108 +459,4 @@ Context  = nil
 Objet    = "site"
 Objet ID = nil
 Method   = "home"
-Context  = nil
-
-
-=== DEBUG DU 28 09 2016 - 11:25:32 ===
-
--- 
-Objet    = "user"
-Objet ID = 2
-Method   = "profil"
-Context  = nil
-
-
-=== DEBUG DU 28 09 2016 - 11:25:37 ===
-
--- 
-Objet    = "user"
-Objet ID = 2
-Method   = "profil"
-Context  = nil
-
-
-=== DEBUG DU 28 09 2016 - 11:25:37 ===
-
--- 
-Objet    = "user"
-Objet ID = 2
-Method   = "deconnexion"
-Context  = nil
-
-
-=== DEBUG DU 28 09 2016 - 11:25:39 ===
-
--- 
-Objet    = "user"
-Objet ID = nil
-Method   = "signin"
-Context  = nil
-
-
-=== DEBUG DU 28 09 2016 - 11:25:40 ===
-
--- 
-Objet    = "user"
-Objet ID = nil
-Method   = "login"
-Context  = nil
--- kroute = :last_page
--- Redirection -> user/2/profil
--- 
-Objet    = "user"
-Objet ID = 2
-Method   = "profil"
-Context  = nil
-
-
-=== DEBUG DU 28 09 2016 - 11:25:40 ===
-
--- 
-Objet    = "aide"
-Objet ID = nil
-Method   = "home"
-Context  = nil
-
-
-=== DEBUG DU 28 09 2016 - 11:25:41 ===
-
--- 
-Objet    = "aide"
-Objet ID = 20
-Method   = "show"
-Context  = nil
-
-
-=== DEBUG DU 28 09 2016 - 11:25:42 ===
-
--- 
-Objet    = "user"
-Objet ID = 2
-Method   = "deconnexion"
-Context  = nil
-
-
-=== DEBUG DU 28 09 2016 - 11:25:43 ===
-
--- 
-Objet    = "user"
-Objet ID = nil
-Method   = "signin"
-Context  = nil
-
-
-=== DEBUG DU 28 09 2016 - 11:25:44 ===
-
--- 
-Objet    = "user"
-Objet ID = nil
-Method   = "login"
-Context  = nil
--- kroute = :last_page
--- Redirection -> aide/20/show
--- 
-Objet    = "aide"
-Objet ID = 20
-Method   = "show"
 Context  = nil
