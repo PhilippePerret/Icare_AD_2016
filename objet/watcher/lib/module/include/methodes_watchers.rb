@@ -30,7 +30,7 @@ module MethodesWatchers
 
   # La table des watchers
   #
-  # Note : NE SURTOUT PAGE mettre `table` car ce module est chargé dans
+  # Note : NE SURTOUT PAS mettre `table` car ce module est chargé dans
   # des objets qui définissent déjà cette méthode.
   def table_watchers ; @table ||= dbtable_watchers end
 
@@ -157,7 +157,6 @@ module MethodesWatchers
       @list_request ||= begin
         if for_users?
           if owner.admin?
-            # rien à ajouter
             {}
           else
             { where: {user_id: owner.id} }

@@ -44,9 +44,13 @@ class IcModule::IcEtape
   # pour le document
   #
   # RETURN L'IDentifiant de l'icdocument créé
+  #
+  # Pour les arguments, cf. aussi la méthode
+  #   IcModule::IcEtape::IcDocument#create
+  #
   def init_instance_icdocument sfile, args = nil
     args ||= Hash.new
-    estimation = args[:estimate]
+    estimation = args[:estimate] || args[:estimation]
 
     # On ne crée le watcher que si une note d'estimation a été
     # produite (pourquoi ?…)
@@ -192,7 +196,7 @@ begin
     end
 
     # = Il faut créer une instance IcDocument pour ce document =
-    new_doc_id = icetape.init_instance_icdocument(sfile, {estimate: estimation})
+    new_doc_id = icetape.init_instance_icdocument(sfile, {estimate: estimation, no_annonce: true})
     @send_work_error[idocument][:id] = new_doc_id
     new_icdocuments_ids << new_doc_id
 
