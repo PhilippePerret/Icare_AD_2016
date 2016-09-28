@@ -1293,3 +1293,303 @@ Objet    = "admin"
 Objet ID = nil
 Method   = "users"
 Context  = nil
+
+
+=== DEBUG DU 28 09 2016 - 14:18:41 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 28 09 2016 - 14:18:45 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 28 09 2016 - 14:18:47 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 28 09 2016 - 14:18:48 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 28 09 2016 - 14:19:00 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {:where=>{:user_id=>4}}
+
+
+=== DEBUG DU 28 09 2016 - 14:20:28 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {:where=>124}
+
+
+=== DEBUG DU 28 09 2016 - 14:20:40 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- k = :id
+-- typ = "Fixnum"
+-- v
+-- val = "124"
+-- k = :abs_etape_id
+-- typ = "Fixnum"
+-- v
+-- val = "47"
+-- k = :user_id
+-- typ = "Fixnum"
+-- v
+-- val = "4"
+-- k = :icmodule_id
+-- typ = "Fixnum"
+-- v
+-- val = "20"
+-- k = :numero
+-- typ = "Fixnum"
+-- v
+-- val = "50"
+-- k = :started_at
+-- typ = "Fixnum"
+-- v
+-- val = "1425840635"
+-- k = :expected_end
+-- typ = "Fixnum"
+-- v
+-- val = "1427583600"
+-- k = :expected_comments
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :ended_at
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :documents
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :status
+-- typ = "Fixnum"
+-- v
+-- val = "3"
+-- k = :options
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :travail_propre
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :updated_at
+-- typ = "Fixnum"
+-- v
+-- val = "1475064823"
+
+
+=== DEBUG DU 28 09 2016 - 14:20:45 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {:where=>124}
+
+
+=== DEBUG DU 28 09 2016 - 14:21:01 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- k = :id
+-- typ = "Fixnum"
+-- v
+-- val = "124"
+-- k = :abs_etape_id
+-- typ = "Fixnum"
+-- v
+-- val = "47"
+-- k = :user_id
+-- typ = "Fixnum"
+-- v
+-- val = "4"
+-- k = :icmodule_id
+-- typ = "Fixnum"
+-- v
+-- val = "20"
+-- k = :numero
+-- typ = "Fixnum"
+-- v
+-- val = "50"
+-- k = :started_at
+-- typ = "Fixnum"
+-- v
+-- val = "1425840635"
+-- k = :expected_end
+-- typ = "Fixnum"
+-- v
+-- val = "1427583600"
+-- k = :expected_comments
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :ended_at
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :documents
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :status
+-- typ = "Fixnum"
+-- v
+-- val = "3"
+-- k = :options
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :travail_propre
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :updated_at
+-- typ = "Fixnum"
+-- v
+-- val = "1475064823"
+
+
+=== DEBUG DU 28 09 2016 - 14:21:11 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {:where=>{:user_id=>4}}
+
+
+=== DEBUG DU 28 09 2016 - 14:21:21 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 28 09 2016 - 14:21:24 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 28 09 2016 - 14:21:39 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 28 09 2016 - 14:21:44 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {:where=>{:user_id=>4}}
+
+
+=== DEBUG DU 28 09 2016 - 14:22:17 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 28 09 2016 - 14:22:24 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {:where=>{:user_id=>4}}
+
+
+=== DEBUG DU 28 09 2016 - 14:22:38 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {:where=>{:user_id=>4}}
+
+
+=== DEBUG DU 28 09 2016 - 14:35:50 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 28 09 2016 - 14:35:54 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "dashboard"
+Context  = nil
+-- --> check_folders_offline
+-- --> check_folders_online
+-- --> build_result
+-- --> open_result
+-- Redirection -> bureau/home
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil

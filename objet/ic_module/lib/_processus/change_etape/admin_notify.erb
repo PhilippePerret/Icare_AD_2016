@@ -19,7 +19,7 @@ def menu_select_etapes
   liste_etapes = dbtable_absetapes.select(drequest).collect do |h|
     [ h[:id], "#{h[:numero]} - #{h[:titre]}"]
   end
-  debug "liste_etapes: #{liste_etapes.inspect}"
+  # debug "liste_etapes: #{liste_etapes.inspect}"
   (
     # [ ['', 'Choisir l’étape…'] ]+
     liste_etapes

@@ -60,6 +60,7 @@ class << self
 
     documents_etape = (icetape.documents||'').split(' ')
     documents_etape << new_doc_id
+    documents_etape = documents_etape.join(' ')
 
     if options[:watcher_upload_comments]
       owner.add_watcher(
