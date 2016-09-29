@@ -8,12 +8,11 @@ raise_unless_admin
 <h2>Édition/création</h2>
 
 <%# Données générales de l'étape si c'est une édition %>
+<form id="form_module_etape" action="abs_etape/edit" method="POST">
+  <div><span class="libelle">Module</span><%= menu_modules %></div>
+  <div><span class="libelle">Étape</span><%= menu_etapes_module %></div>
+</form>
 <% if absetape.id %>
-  <form id="form_module_etape" action="abs_etape/edit" method="POST">
-    <%= 'edit_etape'.in_hidden(name: 'operation') %>
-    <div><span class="libelle">Module</span><%= menu_modules %></div>
-    <div><span class="libelle">Étape</span><%= menu_etapes_module %></div>
-  </form>
   <div class="right small">
     <%= 'La voir'.in_a(href: "abs_etape/#{absetape.id}/show", target: :new) %>
     &nbsp;|&nbsp;
@@ -30,10 +29,10 @@ form.objet = absetape
 %>
 <form class="dim2080" action="abs_etape/<%= absetape.id %>/edit" method="POST">
   <%= 'save_etape'.in_hidden(name: 'operation') %>
+  <%= form.field_text('Titre', 'titre', nil, {class: 'bold'}) %>
+  <%= form.field_text('Numéro', 'numero', nil, {class: 'short bold'}) %>
   <%= form.field_text('ID', 'id', nil, {class:'short', text_after: explication_identifiant}) %>
-  <%= form.field_text('Titre', 'titre', nil) %>
   <%= form.field_select('Module', 'module_id', nil, {values: menu_modules_values })%>
-  <%= form.field_text('Numéro', 'numero', nil, {class: 'short'}) %>
   <%= form.field_text('Objectif', 'objectif', nil) %>
   <%= form.field_textarea('Travail', 'travail') %>
   <%= form.field_textarea('Méthode', 'methode', nil, {placeholder: "Éléments de méthodes proposés"})%>

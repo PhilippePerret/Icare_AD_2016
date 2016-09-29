@@ -1,13 +1,34 @@
 # encoding: UTF-8
-page.add_javascript(PATH_MODULE_JS_SNIPPETS)
+raise_unless_admin
 
+site.require_objet 'abs_module'
+
+# Étape courante
+# --------------
+# Si l'étape a un identifiant nil, c'est qu'un module a été
+# choisi : on doit prendre la première de ses étapes
 def absetape
   @absetape ||= begin
-    AbsModule::AbsEtape.new(site.current_route.objet_id)
+    etape_id =
+      if site.current_route.objet_id
+        site.current_route.objet_id
+      else
+        mod_id = param(:abs_module_id).to_i
+        dbtable_absetapes.get(where:{module_id: mod_id, numero: 1})[:id]
+      end
+    AbsModule::AbsEtape.new(etape_id)
   end
 end
 
-def absmodule ; @absmodule ||= absetape.abs_module end
+def absmodule
+  @absmodule ||= begin
+    if absetape.id
+      absetape.abs_module
+    else
+      AbsModule.new(param(:abs_module_id).to_i)
+    end
+  end
+end
 
 # ---------------------------------------------------------------------
 #   Méthodes d'helper
@@ -17,7 +38,11 @@ def champ_liens
   '<div id="liens_formated" class="small"></div>'
 end
 def menu_modules
-  menu_modules_values.in_select(id: 'menu_modules', name: 'abs_module_id', class: 'inline red', onchange: "this.form.submit()")
+  menu_modules_values.in_select(
+    id: 'menu_modules', name: 'abs_module_id',
+    class:    'inline blue bold',
+    onchange: "$.proxy(AbsEtape,'onchoose_module')()",
+    selected: absmodule.id)
 end
 def menu_modules_values
   dbtable_absmodules.select(colonnes:[:name]).collect do |hmod|
@@ -39,7 +64,12 @@ def menu_etapes_module
     opt_value = hetape[:id]
     opt_titre = "#{hetape[:numero]}. #{hetape[:titre]} (##{hetape[:id]})"
     [ opt_value, opt_titre, hetape[:id] == absetape.id ]
-  end.in_select(id: 'menu_etapes', name: 'abs_etape_id', class: 'inline red', onchange: 'this.form.submit()')
+  end.in_select(
+    id: 'menu_etapes', name: 'abs_etape_id',
+    class: 'inline blue bold',
+    onchange: "$.proxy(AbsEtape,'onchoose_etape')()",
+    selected: absetape.id
+    )
 end
 
 def explication_identifiant
@@ -83,7 +113,7 @@ class << self
   end
 
   def table_online
-    @table_online ||= site.dbm_table(:modules, 'absetapes')
+    @table_online ||= site.dbm_table(:modules, 'absetapes', online = true)
   end
   def creation?
     data_initiales[:id].nil?

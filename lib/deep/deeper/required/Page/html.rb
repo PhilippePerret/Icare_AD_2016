@@ -78,6 +78,11 @@ class Page
     alljs += Dir["./js/first_required/**/*.js"]
     alljs += Dir["./js/required/**/*.js"]
     alljs += added_javascript unless added_javascript.nil?
+
+    # En OFFLINE, on ajoute toujours le module snippet utile pour
+    # toutes les éditions dans les textarea
+    ONLINE || alljs << PATH_MODULE_JS_SNIPPETS
+
     # debug "page.added_javascript: #{added_javascript.inspect}"
     # Fabrication de toutes les balises qui chargent les scripts
     alljs.collect do |js_path|

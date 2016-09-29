@@ -3023,3 +3023,963 @@ Objet    = "abs_etape"
 Objet ID = nil
 Method   = "edit"
 Context  = nil
+
+
+=== DEBUG DU 29 09 2016 - 16:23:48 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- Redirection -> user/signin
+-- param(:backto) mis à "abs_etape/edit"
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signin"
+Context  = nil
+
+
+=== DEBUG DU 29 09 2016 - 16:23:55 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- Redirection -> user/signin
+-- param(:backto) mis à "abs_etape/edit"
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signin"
+Context  = nil
+
+
+=== DEBUG DU 29 09 2016 - 16:24:01 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- Redirection -> user/signin
+-- param(:backto) mis à "abs_etape/edit"
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signin"
+Context  = nil
+
+
+=== DEBUG DU 29 09 2016 - 16:24:10 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 12
+Method   = "edit"
+Context  = nil
+-- Redirection -> user/signin
+-- param(:backto) mis à "abs_etape/12/edit"
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signin"
+Context  = nil
+
+
+=== DEBUG DU 29 09 2016 - 16:24:17 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 12
+Method   = "edit"
+Context  = nil
+-- Redirection -> user/signin
+-- param(:backto) mis à "abs_etape/12/edit"
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signin"
+Context  = nil
+
+
+=== DEBUG DU 29 09 2016 - 16:24:25 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- Redirection -> user/signin
+-- param(:backto) mis à "abs_etape/edit"
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signin"
+Context  = nil
+
+
+=== DEBUG DU 29 09 2016 - 16:25:23 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- Redirection -> user/signin
+-- param(:backto) mis à "abs_etape/edit"
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signin"
+Context  = nil
+
+
+=== DEBUG DU 29 09 2016 - 16:25:42 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- Redirection -> user/signin
+-- param(:backto) mis à "abs_etape/edit"
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signin"
+Context  = nil
+
+
+=== DEBUG DU 29 09 2016 - 16:26:05 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- Redirection -> user/signin
+-- param(:backto) mis à "abs_etape/edit"
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signin"
+Context  = nil
+
+
+=== DEBUG DU 29 09 2016 - 16:28:59 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- /Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/abs_etape/edit.rb:70: class definition in method body
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/abs_etape/edit.rb:71: class definition in method body
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/abs_etape/edit.rb:142: syntax error, unexpected end-of-input, expecting keyword_end
+
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:22:in `require_ruby'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:15:in `require_all'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:330:in `load_per_vue'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:103:in `execute_route'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+-- (ERREUR : /Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/abs_etape/edit.rb:70: class definition in method body
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/abs_etape/edit.rb:71: class definition in method body
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/abs_etape/edit.rb:142: syntax error, unexpected end-of-input, expecting keyword_end)
+<div>/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'</div>
+<div>/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'</div>
+<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'</div>
+<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:22:in `require_ruby'</div>
+<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:15:in `require_all'</div>
+<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:330:in `load_per_vue'</div>
+<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:103:in `execute_route'</div>
+<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'</div>
+<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'</div>
+
+
+=== DEBUG DU 29 09 2016 - 16:29:27 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- Redirection -> user/signin
+-- param(:backto) mis à "abs_etape/edit"
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signin"
+Context  = nil
+-- wrong number of arguments (1 for 0)
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/abs_etape/edit.rb:16:in `initialize'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/abs_etape/edit.rb:16:in `new'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/abs_etape/edit.rb:16:in `absmodule'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/abs_etape/edit.rb:33:in `menu_modules'
+(erb):12:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 29 09 2016 - 16:30:06 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- Redirection -> user/signin
+-- param(:backto) mis à "abs_etape/edit"
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signin"
+Context  = nil
+
+
+=== DEBUG DU 29 09 2016 - 16:30:14 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- Redirection -> user/signin
+-- param(:backto) mis à "abs_etape/edit"
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signin"
+Context  = nil
+
+
+=== DEBUG DU 29 09 2016 - 16:30:23 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 181
+Method   = "edit"
+Context  = nil
+-- Redirection -> user/signin
+-- param(:backto) mis à "abs_etape/181/edit"
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signin"
+Context  = nil
+
+
+=== DEBUG DU 29 09 2016 - 16:35:20 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- Redirection -> user/signin
+-- param(:backto) mis à "abs_etape/edit"
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signin"
+Context  = nil
+-- Module ID quand l'étape id n'est pas défini : 3
+
+
+=== DEBUG DU 29 09 2016 - 16:35:34 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- Redirection -> user/signin
+-- param(:backto) mis à "abs_etape/edit"
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signin"
+Context  = nil
+-- Module ID quand l'étape id n'est pas défini : 2
+
+
+=== DEBUG DU 29 09 2016 - 16:35:48 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- Redirection -> user/signin
+-- param(:backto) mis à "abs_etape/edit"
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signin"
+Context  = nil
+-- Module ID quand l'étape id n'est pas défini : 8
+
+
+=== DEBUG DU 29 09 2016 - 16:36:27 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 153
+Method   = "edit"
+Context  = nil
+-- Redirection -> user/signin
+-- param(:backto) mis à "abs_etape/153/edit"
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signin"
+Context  = nil
+-- Module ID quand l'étape id n'est pas défini : 8
+
+
+=== DEBUG DU 29 09 2016 - 16:38:51 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 153
+Method   = "edit"
+Context  = nil
+-- Redirection -> user/signin
+-- param(:backto) mis à "abs_etape/153/edit"
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signin"
+Context  = nil
+-- Module ID quand l'étape id n'est pas défini : 8
+
+
+=== DEBUG DU 29 09 2016 - 16:38:59 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 146
+Method   = "edit"
+Context  = nil
+-- Redirection -> user/signin
+-- param(:backto) mis à "abs_etape/146/edit"
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signin"
+Context  = nil
+-- Module ID quand l'étape id n'est pas défini : 8
+
+
+=== DEBUG DU 29 09 2016 - 16:39:05 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 146
+Method   = "edit"
+Context  = nil
+-- Redirection -> user/signin
+-- param(:backto) mis à "abs_etape/146/edit"
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signin"
+Context  = nil
+-- Module ID quand l'étape id n'est pas défini : 8
+
+
+=== DEBUG DU 29 09 2016 - 16:42:21 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 145
+Method   = "edit"
+Context  = nil
+-- Redirection -> user/signin
+-- param(:backto) mis à "abs_etape/145/edit"
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signin"
+Context  = nil
+-- Module ID quand l'étape id n'est pas défini : 8
+
+
+=== DEBUG DU 29 09 2016 - 16:43:04 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 146
+Method   = "edit"
+Context  = nil
+-- Redirection -> user/signin
+-- param(:backto) mis à "abs_etape/146/edit"
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signin"
+Context  = nil
+
+
+=== DEBUG DU 29 09 2016 - 16:43:12 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "login"
+Context  = nil
+-- Redirection -> abs_etape/146/edit
+-- 
+Objet    = "abs_etape"
+Objet ID = 146
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 29 09 2016 - 16:43:21 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 153
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 29 09 2016 - 16:43:37 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 153
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 29 09 2016 - 16:53:36 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 153
+Method   = "edit"
+Context  = nil
+-- données initiales : {
+:titre => "Extrait de sc\u00E9nario"
+:numero => 205
+:id => nil
+:module_id => 8
+:objectif => "Toucher au ton, au rythme, au son et \u00E0 la couleur du film"
+:travail => "<%# MODULE SUIVI_NORMAL - ETAPE 205 %>\n<p>Cette \u00E9tape est une sorte d'\u00E9tape \u201Cde respiration\u201D entre la premi\u00E8re version du s\u00E9quencier ou du chemin de fer et la seconde version. Elle offre un travail en parall\u00E8le du travail cons\u00E9quent certainement demand\u00E9 pour cette seconde version.</p>\n<p>Ce travail, <%= user.pseudo %>, va consister \u00E0 <strong>r\u00E9diger de 3 \u00E0 5 sc\u00E8nes du film, sous forme de continuit\u00E9 dialogu\u00E9e</strong>.</p>\n<p>La dur\u00E9e totale doit tourner autour des 10 minutes, c'est-\u00E0-dire que l'ensemble de ces sc\u00E8nes doit faire une dizaine de pages.</p>\n<p>Dix pages, \u00E7a peut paraitre peu, mais elles doivent \u00EAtre le mieux travaill\u00E9es possible. Comme dans un film, chaque seconde, donc chaque ligne, doit \u00EAtre pes\u00E9e, pens\u00E9e, sentie, utile et doit viser un but pr\u00E9cis et non redondant qui fait avancer le r\u00E9cit.</p>\n<p>Les sc\u00E8nes sont laiss\u00E9es au libre choix de l'auteur, mais elles gagneront \u00E0\u00A0:</p>\n<ul>\n  <li>mettre en sc\u00E8ne les personnages principaux, et particuli\u00E8rement le protagoniste et l'antagoniste (pas forc\u00E9ment ensemble)\u00A0;</li>\n  <li>s'appuyer sur ou pr\u00E9senter une caract\u00E9ristique forte du protagoniste et/ou de l'antagoniste\u00A0;</li>\n  <li>traiter des sujets et des enjeux principaux du film.</li>\n</ul>\n<p>Bon courage, <%= user.pseudo %>\u00A0!</p>"
+:methode => nil
+:duree => 10
+:duree_max => 31
+:liens => nil
+:updated_at => "29 septembre 2016 - 16:53 (real: 1475160816)"
+:created_at => "29 septembre 2016 - 16:53 (real: 1475160816)"
+}
+-- # ERREUR MYSQL : Duplicate entry '204' for key 'PRIMARY'
+-- # REQUEST : INSERT INTO absetapes (titre, numero, id, module_id, objectif, travail, methode, duree, duree_max, liens, updated_at, created_at) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? );
+-- # VALEURS PRÉPARÉES : ["Extrait de sc\u00E9nario", 205, 204, 8, "Toucher au ton, au rythme, au son et \u00E0 la couleur du film", "<%# MODULE SUIVI_NORMAL - ETAPE 205 %>\n<p>Cette \u00E9tape est une sorte d'\u00E9tape \u201Cde respiration\u201D entre la premi\u00E8re version du s\u00E9quencier ou du chemin de fer et la seconde version. Elle offre un travail en parall\u00E8le du travail cons\u00E9quent certainement demand\u00E9 pour cette seconde version.</p>\n<p>Ce travail, <%= user.pseudo %>, va consister \u00E0 <strong>r\u00E9diger de 3 \u00E0 5 sc\u00E8nes du film, sous forme de continuit\u00E9 dialogu\u00E9e</strong>.</p>\n<p>La dur\u00E9e totale doit tourner autour des 10 minutes, c'est-\u00E0-dire que l'ensemble de ces sc\u00E8nes doit faire une dizaine de pages.</p>\n<p>Dix pages, \u00E7a peut paraitre peu, mais elles doivent \u00EAtre le mieux travaill\u00E9es possible. Comme dans un film, chaque seconde, donc chaque ligne, doit \u00EAtre pes\u00E9e, pens\u00E9e, sentie, utile et doit viser un but pr\u00E9cis et non redondant qui fait avancer le r\u00E9cit.</p>\n<p>Les sc\u00E8nes sont laiss\u00E9es au libre choix de l'auteur, mais elles gagneront \u00E0\u00A0:</p>\n<ul>\n  <li>mettre en sc\u00E8ne les personnages principaux, et particuli\u00E8rement le protagoniste et l'antagoniste (pas forc\u00E9ment ensemble)\u00A0;</li>\n  <li>s'appuyer sur ou pr\u00E9senter une caract\u00E9ristique forte du protagoniste et/ou de l'antagoniste\u00A0;</li>\n  <li>traiter des sujets et des enjeux principaux du film.</li>\n</ul>\n<p>Bon courage, <%= user.pseudo %>\u00A0!</p>", nil, 10, 31, nil, 1475160816, 1475160816]
+-- /Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/statement.rb:8:in `_execute'
+/Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/statement.rb:8:in `block in execute'
+/Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/statement.rb:7:in `handle_interrupt'
+/Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/statement.rb:7:in `execute'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/request.rb:390:in `exec'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/request.rb:64:in `insert'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/mysql.rb:147:in `insert'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/abs_etape/edit.rb:96:in `save'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/abs_etape/edit.rb:158:in `<top (required)>'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:22:in `require_ruby'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:15:in `require_all'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:330:in `load_per_vue'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:103:in `execute_route'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+-- Duplicate entry '204' for key 'PRIMARY'
+
+/Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/statement.rb:8:in `_execute'
+/Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/statement.rb:8:in `block in execute'
+/Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/statement.rb:7:in `handle_interrupt'
+/Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/statement.rb:7:in `execute'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/request.rb:390:in `exec'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/request.rb:64:in `insert'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/mysql.rb:147:in `insert'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/abs_etape/edit.rb:96:in `save'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/abs_etape/edit.rb:158:in `<top (required)>'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:22:in `require_ruby'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:15:in `require_all'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:330:in `load_per_vue'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:103:in `execute_route'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 29 09 2016 - 16:53:59 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 29 09 2016 - 16:54:02 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 29 09 2016 - 16:54:05 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 29 09 2016 - 16:54:11 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {}
+
+
+=== DEBUG DU 29 09 2016 - 16:54:41 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {}
+
+
+=== DEBUG DU 29 09 2016 - 16:55:52 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {:where=>204}
+
+
+=== DEBUG DU 29 09 2016 - 16:56:20 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- k = :id
+-- typ = "Fixnum"
+-- v
+-- val = "204"
+-- k = :module_id
+-- typ = "Fixnum"
+-- v
+-- val = "8"
+-- k = :numero
+-- typ = "Fixnum"
+-- v
+-- val = "205"
+-- k = :titre
+-- typ = "String"
+-- v
+-- val = "Extrait de sc\u00E9nario"
+-- k = :travail
+-- typ = "String"
+-- v
+-- val = "<%# MODULE SUIVI_NORMAL - ETAPE 205 %><p>Cette \u00E9tape est une sorte d'\u00E9tape \u201Cde respiration\u201D entre la premi\u00E8re version du s\u00E9quencier ou du chemin de fer et la seconde version. Elle offre un travail en parall\u00E8le du travail cons\u00E9quent certainement demand\u00E9 pour cette seconde version.</p><p>Ce travail, <%= user.pseudo %>, va consister \u00E0 <strong>r\u00E9diger de 3 \u00E0 5 sc\u00E8nes du film, sous forme de continuit\u00E9 dialogu\u00E9e</strong>.</p><p>La dur\u00E9e totale doit tourner autour des 10 minutes, c'est-\u00E0-dire que l'ensemble de ces sc\u00E8nes doit faire une dizaine de pages.</p><p>Dix pages, \u00E7a peut paraitre peu, mais elles doivent \u00EAtre le mieux travaill\u00E9es possible. Comme dans un film, chaque seconde, donc chaque ligne, doit \u00EAtre pes\u00E9e, pens\u00E9e, sentie, utile et doit viser un but pr\u00E9cis et non redondant qui fait avancer le r\u00E9cit.</p><p>Les sc\u00E8nes sont laiss\u00E9es au libre choix de l'auteur, mais elles gagneront \u00E0\u00A0:</p><ul>  <li>mettre en sc\u00E8ne les personnages principaux, et particuli\u00E8rement le protagoniste et l'antagoniste (pas forc\u00E9ment ensemble)\u00A0;</li>  <li>s'appuyer sur ou pr\u00E9senter une caract\u00E9ristique forte du protagoniste et/ou de l'antagoniste\u00A0;</li>  <li>traiter des sujets et des enjeux principaux du film.</li></ul><p>Bon courage, <%= user.pseudo %>\u00A0!</p>"
+-- k = :travaux
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :objectif
+-- typ = "String"
+-- v
+-- val = "Toucher au ton, au rythme, au son et \u00E0 la couleur du film"
+-- k = :methode
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :duree
+-- typ = "Fixnum"
+-- v
+-- val = "10"
+-- k = :duree_max
+-- typ = "Fixnum"
+-- v
+-- val = "31"
+-- k = :liens
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :created_at
+-- typ = "Fixnum"
+-- v
+-- val = "1475160816"
+-- k = :updated_at
+-- typ = "Fixnum"
+-- v
+-- val = "1475160816"
+
+
+=== DEBUG DU 29 09 2016 - 16:56:35 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {}
+
+
+=== DEBUG DU 29 09 2016 - 16:56:56 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 29 09 2016 - 16:57:00 ===
+
+-- 
+Objet    = "abs_module"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 29 09 2016 - 16:59:37 ===
+
+-- 
+Objet    = "abs_module"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 29 09 2016 - 17:00:32 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+-- undefined local variable or method `boutons_edition_etapes_modules' for Bureau:Class
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/bureau/lib/module/bureau_admin/bureau_admin.rb:14:in `liens_editions'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/bureau/lib/module/bureau_admin/bureau_admin.rb:6:in `_section_administrateur'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/bureau/home.rb:17:in `section_administrateur'
+(erb):40:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 29 09 2016 - 17:01:17 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 29 09 2016 - 17:01:23 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 1
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 29 09 2016 - 17:01:27 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 29 09 2016 - 17:01:33 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 204
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 29 09 2016 - 17:08:44 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 204
+Method   = "edit"
+Context  = nil
+-- données initiales : {
+:titre => "Extraits de sc\u00E9nario"
+:numero => 205
+:id => 204
+:module_id => 8
+:objectif => "Toucher au ton, au rythme, au son et \u00E0 la couleur du film"
+:travail => "<%# MODULE SUIVI_NORMAL - ETAPE 205 %>\n<p>Cette \u00E9tape est une sorte d'\u00E9tape \u201Cde respiration\u201D entre la premi\u00E8re version du s\u00E9quencier ou du chemin de fer et la seconde version. Elle offre un travail en parall\u00E8le du travail cons\u00E9quent certainement demand\u00E9 pour cette seconde version.</p>\n<p>Ce travail, <%= user.pseudo %>, va consister \u00E0 <strong>r\u00E9diger de 3 \u00E0 5 sc\u00E8nes du film, sous forme de continuit\u00E9 dialogu\u00E9e</strong>.</p>\n<p>La dur\u00E9e totale doit tourner autour des 10 minutes, c'est-\u00E0-dire que l'ensemble de ces sc\u00E8nes doit faire une dizaine de pages.</p>\n<p>Dix pages, \u00E7a peut paraitre peu, mais elles doivent \u00EAtre le mieux travaill\u00E9es possible. Comme dans un film, chaque seconde, donc chaque ligne, doit \u00EAtre pes\u00E9e, pens\u00E9e, sentie, utile et doit viser un but pr\u00E9cis et non redondant qui fait avancer le r\u00E9cit.</p>\n<p>Les sc\u00E8nes sont laiss\u00E9es au libre choix de l'auteur, mais elles gagneront \u00E0\u00A0:</p>\n<ul>\n  <li>mettre en sc\u00E8ne les personnages principaux, et particuli\u00E8rement le protagoniste et l'antagoniste (pas forc\u00E9ment ensemble)\u00A0;</li>\n  <li>s'appuyer sur ou pr\u00E9senter une caract\u00E9ristique forte du protagoniste et/ou de l'antagoniste\u00A0;</li>\n  <li>traiter des sujets et des enjeux principaux du film.</li>\n</ul>\n<p>Bon courage, <%= user.pseudo %>\u00A0!</p>"
+:methode => "<p>Dans l'id\u00E9al, on peut choisir 3 sc\u00E8nes de 2 minutes \u2014\u00A0donc 3 sc\u00E8nes de deux pages\u00A0\u2014 et 1 sc\u00E8ne de 4 minutes. Cela fait 4 sc\u00E8nes en tout, et 10 pages de sc\u00E9nario.</p>\n<p>Si possible, choisir des sc\u00E8nes <b>enti\u00E8res</b>, pas des extraits. Cependant, sur les 4 sc\u00E8nes par exemple, l'une peut ne pas \u00EAtre enti\u00E8re.</p>\n<p>On n'oubliera pas de pr\u00E9ciser, avant le d\u00E9but de la sc\u00E8ne (avant m\u00EAme l'intitul\u00E9 de sc\u00E8nes), les informations utiles pour pouvoir suivre et appr\u00E9cier la sc\u00E8ne. On situera par exemple la sc\u00E8ne dans le film, de fa\u00E7on g\u00E9n\u00E9rale (en pr\u00E9cisant que c'est une sc\u00E8ne de l'exposition, du pr\u00E9ambule, du d\u00E9nouement, etc.) et de fa\u00E7on plus pr\u00E9cise (par exemple, s'il vient de se passer quelque chose de notable juste avant, on l'indique, si l'on sait quelque chose \u00E0 propos de la sc\u00E8ne \u2014\u00A0par exemple que le personnage vient chercher quelque chose <u>parce qu'il est dit explicitement avant</u> qu'il doit venir chercher quelque chose alors on l'indiquera \u00E9galement).</p>\n<p>Toutes les consignes r\u00E9dactionnelles habituelles du sc\u00E9nario doivent \u00EAtre respect\u00E9es.</p>\n<p>Bien s'assurer que l'ensemble fasse une dizaine de pages, c'est-\u00E0-dire dix minutes de film.</p>\n<p>On peut r\u00E9diger cet extrait sur un logiciel comme CeltX.</p>"
+:duree => 10
+:duree_max => 31
+:liens => nil
+:updated_at => "29 septembre 2016 - 17:08 (real: 1475161724)"
+}
+-- Données modifiées : {
+:titre => "Extraits de sc\u00E9nario"
+:methode => "<p>Dans l'id\u00E9al, on peut choisir 3 sc\u00E8nes de 2 minutes \u2014\u00A0donc 3 sc\u00E8nes de deux pages\u00A0\u2014 et 1 sc\u00E8ne de 4 minutes. Cela fait 4 sc\u00E8nes en tout, et 10 pages de sc\u00E9nario.</p>\n<p>Si possible, choisir des sc\u00E8nes <b>enti\u00E8res</b>, pas des extraits. Cependant, sur les 4 sc\u00E8nes par exemple, l'une peut ne pas \u00EAtre enti\u00E8re.</p>\n<p>On n'oubliera pas de pr\u00E9ciser, avant le d\u00E9but de la sc\u00E8ne (avant m\u00EAme l'intitul\u00E9 de sc\u00E8nes), les informations utiles pour pouvoir suivre et appr\u00E9cier la sc\u00E8ne. On situera par exemple la sc\u00E8ne dans le film, de fa\u00E7on g\u00E9n\u00E9rale (en pr\u00E9cisant que c'est une sc\u00E8ne de l'exposition, du pr\u00E9ambule, du d\u00E9nouement, etc.) et de fa\u00E7on plus pr\u00E9cise (par exemple, s'il vient de se passer quelque chose de notable juste avant, on l'indique, si l'on sait quelque chose \u00E0 propos de la sc\u00E8ne \u2014\u00A0par exemple que le personnage vient chercher quelque chose <u>parce qu'il est dit explicitement avant</u> qu'il doit venir chercher quelque chose alors on l'indiquera \u00E9galement).</p>\n<p>Toutes les consignes r\u00E9dactionnelles habituelles du sc\u00E9nario doivent \u00EAtre respect\u00E9es.</p>\n<p>Bien s'assurer que l'ensemble fasse une dizaine de pages, c'est-\u00E0-dire dix minutes de film.</p>\n<p>On peut r\u00E9diger cet extrait sur un logiciel comme CeltX.</p>"
+:updated_at => "29 septembre 2016 - 17:08 (real: 1475161724)"
+}
+
+
+=== DEBUG DU 29 09 2016 - 17:08:52 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 204
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 29 09 2016 - 17:12:19 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 204
+Method   = "edit"
+Context  = nil
+-- données initiales : {
+:titre => "Extraits de sc\u00E9nario"
+:numero => 205
+:id => 204
+:module_id => 8
+:objectif => "Toucher au ton, au rythme, au son et \u00E0 la couleur du film"
+:travail => "<%# MODULE SUIVI_NORMAL - ETAPE 205 %>\n<p>Cette \u00E9tape est une sorte d'\u00E9tape \u201Cde respiration\u201D entre la premi\u00E8re version du s\u00E9quencier ou du chemin de fer et la seconde version. Elle offre un travail en parall\u00E8le du travail cons\u00E9quent certainement demand\u00E9 pour cette seconde version.</p>\n<p>Ce travail, <%= user.pseudo %>, va consister \u00E0 <strong>r\u00E9diger de 3 \u00E0 5 sc\u00E8nes du film, sous forme de continuit\u00E9 dialogu\u00E9e</strong>.</p>\n<p>La dur\u00E9e totale doit tourner autour des 10 minutes, c'est-\u00E0-dire que l'ensemble de ces sc\u00E8nes doit faire une dizaine de pages.</p>\n<p>Dix pages, \u00E7a peut paraitre peu, mais elles doivent \u00EAtre le mieux travaill\u00E9es possible. Comme dans un film, chaque seconde, donc chaque ligne, doit \u00EAtre pes\u00E9e, pens\u00E9e, sentie, utile et doit viser un but pr\u00E9cis et non redondant qui fait avancer le r\u00E9cit.</p>\n<p>Les sc\u00E8nes sont laiss\u00E9es au libre choix de l'auteur, mais elles gagneront \u00E0\u00A0:</p>\n<ul>\n  <li>mettre en sc\u00E8ne les personnages principaux, et particuli\u00E8rement le protagoniste et l'antagoniste (pas forc\u00E9ment ensemble)\u00A0;</li>\n  <li>\u00EAtre caract\u00E9ristiques du film, au niveau du ton, du traitement, du rythme, des partis-pris adopt\u00E9s\u00A0;</li>\n  <li>s'appuyer sur ou pr\u00E9senter une caract\u00E9ristique forte du protagoniste et/ou de l'antagoniste\u00A0;</li>\n  <li>traiter des sujets et des enjeux principaux du film\u00A0;</li>\n  <li>mettre en action les th\u00E9matiques principales du film\u00A0;</li>\n  <li>pr\u00E9senter du dialogue pour certaines, de l'action pour d'autres, de l'action et du dialogue m\u00EAl\u00E9s pour d'autres encore\u00A0;</li>\n</ul>\n<p>Bon courage, <%= user.pseudo %>\u00A0!</p>"
+:methode => "<p>Dans l'id\u00E9al, on peut choisir 3 sc\u00E8nes de 2 minutes \u2014\u00A0donc 3 sc\u00E8nes de deux pages\u00A0\u2014 et 1 sc\u00E8ne de 4 minutes. Cela fait 4 sc\u00E8nes en tout, et 10 pages de sc\u00E9nario.</p>\n<p>Si possible, choisir des sc\u00E8nes <b>enti\u00E8res</b>, pas des extraits. Cependant, sur les 4 sc\u00E8nes par exemple, l'une peut ne pas \u00EAtre enti\u00E8re.</p>\n<p>On n'oubliera pas de pr\u00E9ciser, avant le d\u00E9but de la sc\u00E8ne (avant m\u00EAme l'intitul\u00E9 de sc\u00E8nes), les informations utiles pour pouvoir suivre et appr\u00E9cier la sc\u00E8ne. On situera par exemple la sc\u00E8ne dans le film, de fa\u00E7on g\u00E9n\u00E9rale (en pr\u00E9cisant que c'est une sc\u00E8ne de l'exposition, du pr\u00E9ambule, du d\u00E9nouement, etc.) et de fa\u00E7on plus pr\u00E9cise (par exemple, s'il vient de se passer quelque chose de notable juste avant, on l'indique, si l'on sait quelque chose \u00E0 propos de la sc\u00E8ne \u2014\u00A0par exemple que le personnage vient chercher quelque chose <u>parce qu'il est dit explicitement avant</u> qu'il doit venir chercher quelque chose alors on l'indiquera \u00E9galement).</p>\n<p>Toutes les consignes r\u00E9dactionnelles habituelles du sc\u00E9nario doivent \u00EAtre respect\u00E9es.</p>\n<p>Bien s'assurer que l'ensemble fasse une dizaine de pages, c'est-\u00E0-dire dix minutes de film.</p>\n<p>On peut r\u00E9diger cet extrait sur un logiciel comme CeltX.</p>"
+:duree => 10
+:duree_max => 31
+:liens => nil
+:updated_at => "29 septembre 2016 - 17:12 (real: 1475161939)"
+}
+-- Données modifiées : {
+:travail => "<%# MODULE SUIVI_NORMAL - ETAPE 205 %>\n<p>Cette \u00E9tape est une sorte d'\u00E9tape \u201Cde respiration\u201D entre la premi\u00E8re version du s\u00E9quencier ou du chemin de fer et la seconde version. Elle offre un travail en parall\u00E8le du travail cons\u00E9quent certainement demand\u00E9 pour cette seconde version.</p>\n<p>Ce travail, <%= user.pseudo %>, va consister \u00E0 <strong>r\u00E9diger de 3 \u00E0 5 sc\u00E8nes du film, sous forme de continuit\u00E9 dialogu\u00E9e</strong>.</p>\n<p>La dur\u00E9e totale doit tourner autour des 10 minutes, c'est-\u00E0-dire que l'ensemble de ces sc\u00E8nes doit faire une dizaine de pages.</p>\n<p>Dix pages, \u00E7a peut paraitre peu, mais elles doivent \u00EAtre le mieux travaill\u00E9es possible. Comme dans un film, chaque seconde, donc chaque ligne, doit \u00EAtre pes\u00E9e, pens\u00E9e, sentie, utile et doit viser un but pr\u00E9cis et non redondant qui fait avancer le r\u00E9cit.</p>\n<p>Les sc\u00E8nes sont laiss\u00E9es au libre choix de l'auteur, mais elles gagneront \u00E0\u00A0:</p>\n<ul>\n  <li>mettre en sc\u00E8ne les personnages principaux, et particuli\u00E8rement le protagoniste et l'antagoniste (pas forc\u00E9ment ensemble)\u00A0;</li>\n  <li>\u00EAtre caract\u00E9ristiques du film, au niveau du ton, du traitement, du rythme, des partis-pris adopt\u00E9s\u00A0;</li>\n  <li>s'appuyer sur ou pr\u00E9senter une caract\u00E9ristique forte du protagoniste et/ou de l'antagoniste\u00A0;</li>\n  <li>traiter des sujets et des enjeux principaux du film\u00A0;</li>\n  <li>mettre en action les th\u00E9matiques principales du film\u00A0;</li>\n  <li>pr\u00E9senter du dialogue pour certaines, de l'action pour d'autres, de l'action et du dialogue m\u00EAl\u00E9s pour d'autres encore\u00A0;</li>\n</ul>\n<p>Bon courage, <%= user.pseudo %>\u00A0!</p>"
+:updated_at => "29 septembre 2016 - 17:12 (real: 1475161939)"
+}
+
+
+=== DEBUG DU 29 09 2016 - 17:12:22 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 204
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 29 09 2016 - 17:14:10 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 204
+Method   = "edit"
+Context  = nil
+-- données initiales : {
+:titre => "Extraits de sc\u00E9nario"
+:numero => 205
+:id => 204
+:module_id => 8
+:objectif => "Toucher au ton, au rythme, au son et \u00E0 la couleur du film"
+:travail => "<%# MODULE SUIVI_NORMAL - ETAPE 205 %>\n<p>Cette \u00E9tape est une sorte d'\u00E9tape \u201Cde respiration\u201D entre la premi\u00E8re version du s\u00E9quencier ou du chemin de fer et la seconde version. Elle offre un travail en parall\u00E8le du travail cons\u00E9quent certainement demand\u00E9 pour cette seconde version.</p>\n<p>Ce travail, <%= user.pseudo %>, va consister \u00E0 <strong>r\u00E9diger de 3 \u00E0 5 sc\u00E8nes du film, sous forme de continuit\u00E9 dialogu\u00E9e</strong>.</p>\n<p>La dur\u00E9e totale doit tourner autour des 10 minutes, c'est-\u00E0-dire que l'ensemble de ces sc\u00E8nes doit faire une dizaine de pages.</p>\n<p>Dix pages, \u00E7a peut paraitre peu, mais elles doivent \u00EAtre le mieux travaill\u00E9es possible. Comme dans un film, chaque seconde, donc chaque ligne, doit \u00EAtre pes\u00E9e, pens\u00E9e, sentie, utile et doit viser un but pr\u00E9cis et non redondant qui fait avancer le r\u00E9cit.</p>\n<p>Les sc\u00E8nes sont laiss\u00E9es au libre choix de l'auteur, mais elles gagneront \u00E0\u00A0:</p>\n<ul>\n  <li>mettre en sc\u00E8ne les personnages principaux, et particuli\u00E8rement le protagoniste et l'antagoniste (pas forc\u00E9ment ensemble)\u00A0;</li>\n  <li>\u00EAtre caract\u00E9ristiques du film, au niveau du ton, du traitement, du rythme, des partis-pris adopt\u00E9s\u00A0;</li>\n  <li>s'appuyer sur ou pr\u00E9senter une caract\u00E9ristique forte du protagoniste et/ou de l'antagoniste\u00A0;</li>\n  <li>traiter des sujets et des enjeux principaux du film\u00A0;</li>\n  <li>mettre en action les th\u00E9matiques principales du film\u00A0;</li>\n  <li>pr\u00E9senter du dialogue pour certaines, de l'action pour d'autres, de l'action et du dialogue m\u00EAl\u00E9s pour d'autres encore\u00A0;</li>\n</ul>\n<p>Ces sc\u00E8nes sont \u00E0 \u00E9crire sous la forme conventionnelle des continuit\u00E9s dialogu\u00E9es, dont on peut trouver un exemple pr\u00E9cis dans les liens ci-dessous.</p>\n<p>Bon courage, <%= user.pseudo %>\u00A0!</p>"
+:methode => "<p>Dans l'id\u00E9al, on peut choisir 3 sc\u00E8nes de 2 minutes \u2014\u00A0donc 3 sc\u00E8nes de deux pages\u00A0\u2014 et 1 sc\u00E8ne de 4 minutes. Cela fait 4 sc\u00E8nes en tout, et 10 pages de sc\u00E9nario.</p>\n<p>Si possible, choisir des sc\u00E8nes <b>enti\u00E8res</b>, pas des extraits. Cependant, sur les 4 sc\u00E8nes par exemple, l'une peut ne pas \u00EAtre enti\u00E8re.</p>\n<p>On n'oubliera pas de pr\u00E9ciser, avant le d\u00E9but de la sc\u00E8ne (avant m\u00EAme l'intitul\u00E9 de sc\u00E8nes), les informations utiles pour pouvoir suivre et appr\u00E9cier la sc\u00E8ne. On situera par exemple la sc\u00E8ne dans le film, de fa\u00E7on g\u00E9n\u00E9rale (en pr\u00E9cisant que c'est une sc\u00E8ne de l'exposition, du pr\u00E9ambule, du d\u00E9nouement, etc.) et de fa\u00E7on plus pr\u00E9cise (par exemple, s'il vient de se passer quelque chose de notable juste avant, on l'indique, si l'on sait quelque chose \u00E0 propos de la sc\u00E8ne \u2014\u00A0par exemple que le personnage vient chercher quelque chose <u>parce qu'il est dit explicitement avant</u> qu'il doit venir chercher quelque chose alors on l'indiquera \u00E9galement).</p>\n<p>Toutes les consignes r\u00E9dactionnelles habituelles du sc\u00E9nario doivent \u00EAtre respect\u00E9es.</p>\n<p>Bien s'assurer que l'ensemble fasse une dizaine de pages, c'est-\u00E0-dire dix minutes de film.</p>\n<p>On peut r\u00E9diger cet extrait sur un logiciel comme CeltX.</p>"
+:duree => 10
+:duree_max => 31
+:liens => nil
+:updated_at => "29 septembre 2016 - 17:14 (real: 1475162050)"
+}
+-- Données modifiées : {
+:travail => "<%# MODULE SUIVI_NORMAL - ETAPE 205 %>\n<p>Cette \u00E9tape est une sorte d'\u00E9tape \u201Cde respiration\u201D entre la premi\u00E8re version du s\u00E9quencier ou du chemin de fer et la seconde version. Elle offre un travail en parall\u00E8le du travail cons\u00E9quent certainement demand\u00E9 pour cette seconde version.</p>\n<p>Ce travail, <%= user.pseudo %>, va consister \u00E0 <strong>r\u00E9diger de 3 \u00E0 5 sc\u00E8nes du film, sous forme de continuit\u00E9 dialogu\u00E9e</strong>.</p>\n<p>La dur\u00E9e totale doit tourner autour des 10 minutes, c'est-\u00E0-dire que l'ensemble de ces sc\u00E8nes doit faire une dizaine de pages.</p>\n<p>Dix pages, \u00E7a peut paraitre peu, mais elles doivent \u00EAtre le mieux travaill\u00E9es possible. Comme dans un film, chaque seconde, donc chaque ligne, doit \u00EAtre pes\u00E9e, pens\u00E9e, sentie, utile et doit viser un but pr\u00E9cis et non redondant qui fait avancer le r\u00E9cit.</p>\n<p>Les sc\u00E8nes sont laiss\u00E9es au libre choix de l'auteur, mais elles gagneront \u00E0\u00A0:</p>\n<ul>\n  <li>mettre en sc\u00E8ne les personnages principaux, et particuli\u00E8rement le protagoniste et l'antagoniste (pas forc\u00E9ment ensemble)\u00A0;</li>\n  <li>\u00EAtre caract\u00E9ristiques du film, au niveau du ton, du traitement, du rythme, des partis-pris adopt\u00E9s\u00A0;</li>\n  <li>s'appuyer sur ou pr\u00E9senter une caract\u00E9ristique forte du protagoniste et/ou de l'antagoniste\u00A0;</li>\n  <li>traiter des sujets et des enjeux principaux du film\u00A0;</li>\n  <li>mettre en action les th\u00E9matiques principales du film\u00A0;</li>\n  <li>pr\u00E9senter du dialogue pour certaines, de l'action pour d'autres, de l'action et du dialogue m\u00EAl\u00E9s pour d'autres encore\u00A0;</li>\n</ul>\n<p>Ces sc\u00E8nes sont \u00E0 \u00E9crire sous la forme conventionnelle des continuit\u00E9s dialogu\u00E9es, dont on peut trouver un exemple pr\u00E9cis dans les liens ci-dessous.</p>\n<p>Bon courage, <%= user.pseudo %>\u00A0!</p>"
+:updated_at => "29 septembre 2016 - 17:14 (real: 1475162050)"
+}
+
+
+=== DEBUG DU 29 09 2016 - 17:14:15 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 204
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 29 09 2016 - 17:16:02 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 204
+Method   = "edit"
+Context  = nil
+-- données initiales : {
+:titre => "Extraits de sc\u00E9nario"
+:numero => 205
+:id => 204
+:module_id => 8
+:objectif => "Toucher au ton, au rythme, au son et \u00E0 la couleur du film"
+:travail => "<%# MODULE SUIVI_NORMAL - ETAPE 205 %>\n<p>Cette \u00E9tape est une sorte d'\u00E9tape \u201Cde respiration\u201D entre la premi\u00E8re version du s\u00E9quencier ou du chemin de fer et la seconde version. Elle offre un travail en parall\u00E8le du travail cons\u00E9quent certainement demand\u00E9 pour cette seconde version.</p>\n<p>Ce travail, <%= user.pseudo %>, va consister \u00E0 <strong>r\u00E9diger de 3 \u00E0 5 sc\u00E8nes du film, sous forme de continuit\u00E9 dialogu\u00E9e</strong>.</p>\n<p>La dur\u00E9e totale doit tourner autour des 10 minutes, c'est-\u00E0-dire que l'ensemble de ces sc\u00E8nes doit faire une dizaine de pages.</p>\n<p>Dix pages, \u00E7a peut paraitre peu, mais elles doivent \u00EAtre le mieux travaill\u00E9es possible. Comme dans un film, chaque seconde, donc chaque ligne, doit \u00EAtre pes\u00E9e, pens\u00E9e, sentie, utile et doit viser un but pr\u00E9cis et non redondant qui fait avancer le r\u00E9cit.</p>\n<p>Les sc\u00E8nes sont laiss\u00E9es au libre choix de l'auteur, mais elles gagneront \u00E0\u00A0:</p>\n<ul>\n  <li>mettre en sc\u00E8ne les personnages principaux, et particuli\u00E8rement le protagoniste et l'antagoniste (pas forc\u00E9ment ensemble)\u00A0;</li>\n  <li>\u00EAtre caract\u00E9ristiques du film, au niveau du ton, du traitement, du rythme, des partis-pris adopt\u00E9s\u00A0;</li>\n  <li>s'appuyer sur ou pr\u00E9senter une caract\u00E9ristique forte du protagoniste et/ou de l'antagoniste\u00A0;</li>\n  <li>traiter des sujets et des enjeux principaux du film\u00A0;</li>\n  <li>mettre en action les th\u00E9matiques principales du film\u00A0;</li>\n  <li>pr\u00E9senter du dialogue pour certaines, de l'action pour d'autres, de l'action et du dialogue m\u00EAl\u00E9s pour d'autres encore\u00A0;</li>\n</ul>\n<p>Ces sc\u00E8nes sont \u00E0 \u00E9crire sous la forme conventionnelle des continuit\u00E9s dialogu\u00E9es, dont on peut trouver un exemple pr\u00E9cis dans les liens ci-dessous.</p>\n<p>Bon courage, <%= user.pseudo %>\u00A0!</p>"
+:methode => "<p>Dans l'id\u00E9al, on peut choisir 3 sc\u00E8nes de 2 minutes \u2014\u00A0donc 3 sc\u00E8nes de deux pages\u00A0\u2014 et 1 sc\u00E8ne de 4 minutes. Cela fait 4 sc\u00E8nes en tout, et 10 pages de sc\u00E9nario.</p>\n<p>Si possible, choisir des sc\u00E8nes <b>enti\u00E8res</b>, pas des extraits. Cependant, sur les 4 sc\u00E8nes par exemple, l'une peut ne pas \u00EAtre enti\u00E8re.</p>\n<p>On n'oubliera pas de pr\u00E9ciser, avant le d\u00E9but de la sc\u00E8ne (avant m\u00EAme l'intitul\u00E9 de sc\u00E8nes), les informations utiles pour pouvoir suivre et appr\u00E9cier la sc\u00E8ne. On situera par exemple la sc\u00E8ne dans le film, de fa\u00E7on g\u00E9n\u00E9rale (en pr\u00E9cisant que c'est une sc\u00E8ne de l'exposition, du pr\u00E9ambule, du d\u00E9nouement, etc.) et de fa\u00E7on plus pr\u00E9cise (par exemple, s'il vient de se passer quelque chose de notable juste avant, on l'indique, si l'on sait quelque chose \u00E0 propos de la sc\u00E8ne \u2014\u00A0par exemple que le personnage vient chercher quelque chose <u>parce qu'il est dit explicitement avant</u> qu'il doit venir chercher quelque chose alors on l'indiquera \u00E9galement).</p>\n<p>Toutes les consignes r\u00E9dactionnelles habituelles du sc\u00E9nario doivent \u00EAtre respect\u00E9es.</p>\n<p>Bien s'assurer que l'ensemble fasse une dizaine de pages, c'est-\u00E0-dire dix minutes de film.</p>\n<p>On peut r\u00E9diger cet extrait sur un logiciel comme CeltX.</p>"
+:duree => 10
+:duree_max => 31
+:liens => "592::collection::Exemple de mise en page de sc\u00E9nario"
+:updated_at => "29 septembre 2016 - 17:16 (real: 1475162162)"
+}
+-- Données modifiées : {
+:liens => "592::collection::Exemple de mise en page de sc\u00E9nario"
+:updated_at => "29 septembre 2016 - 17:16 (real: 1475162162)"
+}
+
+
+=== DEBUG DU 29 09 2016 - 17:16:05 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 204
+Method   = "show"
+Context  = nil
+-- incompatible character encodings: UTF-8 and ASCII-8BIT
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/bureau/lib/module/section_current_work/master.rb:30:in `_section_current_work'
+(erb):49:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 29 09 2016 - 17:17:59 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 204
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 29 09 2016 - 17:18:25 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 204
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 29 09 2016 - 17:20:58 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 204
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 29 09 2016 - 17:21:35 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 204
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 29 09 2016 - 17:24:16 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 204
+Method   = "edit"
+Context  = nil
+-- données initiales : {
+:titre => "Extraits de sc\u00E9nario"
+:numero => 205
+:id => 204
+:module_id => 8
+:objectif => "Toucher au ton, au rythme, au son et \u00E0 la couleur du film"
+:travail => "<%# MODULE SUIVI_NORMAL - ETAPE 205 %>\n<p>Cette \u00E9tape est une sorte d'\u00E9tape \u201Cde respiration\u201D entre la premi\u00E8re version du s\u00E9quencier ou du chemin de fer et la seconde version. Elle offre un travail en parall\u00E8le du travail cons\u00E9quent certainement demand\u00E9 pour cette seconde version.</p>\n<p>Ce travail, <%= user.pseudo %>, va consister \u00E0 <strong>r\u00E9diger de 3 \u00E0 5 sc\u00E8nes du film, sous forme de continuit\u00E9 dialogu\u00E9e</strong>.</p>\n<p>La dur\u00E9e totale doit tourner autour des 10 minutes, c'est-\u00E0-dire que l'ensemble de ces sc\u00E8nes doit faire une dizaine de pages.</p>\n<p>Dix pages, \u00E7a peut paraitre peu, mais elles doivent \u00EAtre le mieux travaill\u00E9es possible. Comme dans un film, chaque seconde, donc chaque ligne, doit \u00EAtre pes\u00E9e, pens\u00E9e, sentie, utile et doit viser un but pr\u00E9cis et non redondant qui fait avancer le r\u00E9cit.</p>\n<p>Les sc\u00E8nes sont laiss\u00E9es au libre choix de l'auteur, mais elles gagneront \u00E0\u00A0:</p>\n<ul>\n  <li>mettre en sc\u00E8ne les personnages principaux, et particuli\u00E8rement le protagoniste et l'antagoniste (pas forc\u00E9ment ensemble)\u00A0;</li>\n  <li>\u00EAtre caract\u00E9ristiques du film, au niveau du ton, du traitement, du rythme, des partis-pris adopt\u00E9s\u00A0;</li>\n  <li>s'appuyer sur ou pr\u00E9senter une caract\u00E9ristique forte du protagoniste et/ou de l'antagoniste\u00A0;</li>\n  <li>traiter des sujets et des enjeux principaux du film\u00A0;</li>\n  <li>mettre en action les th\u00E9matiques principales du film\u00A0;</li>\n  <li>pr\u00E9senter du dialogue pour certaines, de l'action pour d'autres, de l'action et du dialogue m\u00EAl\u00E9s pour d'autres encore\u00A0;</li>\n</ul>\n<p class='italic'>Nota Bene\u00A0: noter qu'il est tout \u00E0 fait possible d'\u00E9crire une sc\u00E8ne qui n'appartiendra pas forc\u00E9ment au film, mais m\u00EAlant plusieurs aspects int\u00E9ressant du film futur en une seule situation con\u00E7ue pour cette \u00E9tape. Dans ce cas, il faudra bien pr\u00E9ciser, avant l'intitul\u00E9, que c'est une sc\u00E8ne \u201Chors-film\u201D.</p>\n<p>Ces sc\u00E8nes sont \u00E0 \u00E9crire sous la forme conventionnelle des continuit\u00E9s dialogu\u00E9es, dont on peut trouver un exemple pr\u00E9cis dans les liens ci-dessous.</p>\n<p>Bon courage, <%= user.pseudo %>\u00A0!</p>"
+:methode => "<p>Dans l'id\u00E9al, on peut choisir 3 sc\u00E8nes de 2 minutes \u2014\u00A0donc 3 sc\u00E8nes de deux pages\u00A0\u2014 et 1 sc\u00E8ne de 4 minutes. Cela fait 4 sc\u00E8nes en tout, et 10 pages de sc\u00E9nario.</p>\n<p>Si possible, choisir des sc\u00E8nes <b>enti\u00E8res</b>, pas des extraits. Cependant, sur les 4 sc\u00E8nes par exemple, l'une peut ne pas \u00EAtre enti\u00E8re.</p>\n<p>On n'oubliera pas de pr\u00E9ciser, avant le d\u00E9but de la sc\u00E8ne (avant m\u00EAme l'intitul\u00E9 de sc\u00E8nes), les informations utiles pour pouvoir suivre et appr\u00E9cier la sc\u00E8ne. On situera par exemple la sc\u00E8ne dans le film, de fa\u00E7on g\u00E9n\u00E9rale (en pr\u00E9cisant que c'est une sc\u00E8ne de l'exposition, du pr\u00E9ambule, du d\u00E9nouement, etc.) et de fa\u00E7on plus pr\u00E9cise (par exemple, s'il vient de se passer quelque chose de notable juste avant, on l'indique, si l'on sait quelque chose \u00E0 propos de la sc\u00E8ne \u2014\u00A0par exemple que le personnage vient chercher quelque chose <u>parce qu'il est dit explicitement avant</u> qu'il doit venir chercher quelque chose alors on l'indiquera \u00E9galement).</p>\n<p>Toutes les consignes r\u00E9dactionnelles habituelles du sc\u00E9nario doivent \u00EAtre respect\u00E9es.</p>\n<p>Bien s'assurer que l'ensemble fasse une dizaine de pages, c'est-\u00E0-dire dix minutes de film.</p>\n<p>On peut r\u00E9diger cet extrait sur un logiciel comme CeltX.</p>"
+:duree => 10
+:duree_max => 31
+:liens => "592::collection::Exemple de mise en page de sc\u00E9nario"
+:updated_at => "29 septembre 2016 - 17:24 (real: 1475162656)"
+}
+-- Données modifiées : {
+:travail => "<%# MODULE SUIVI_NORMAL - ETAPE 205 %>\n<p>Cette \u00E9tape est une sorte d'\u00E9tape \u201Cde respiration\u201D entre la premi\u00E8re version du s\u00E9quencier ou du chemin de fer et la seconde version. Elle offre un travail en parall\u00E8le du travail cons\u00E9quent certainement demand\u00E9 pour cette seconde version.</p>\n<p>Ce travail, <%= user.pseudo %>, va consister \u00E0 <strong>r\u00E9diger de 3 \u00E0 5 sc\u00E8nes du film, sous forme de continuit\u00E9 dialogu\u00E9e</strong>.</p>\n<p>La dur\u00E9e totale doit tourner autour des 10 minutes, c'est-\u00E0-dire que l'ensemble de ces sc\u00E8nes doit faire une dizaine de pages.</p>\n<p>Dix pages, \u00E7a peut paraitre peu, mais elles doivent \u00EAtre le mieux travaill\u00E9es possible. Comme dans un film, chaque seconde, donc chaque ligne, doit \u00EAtre pes\u00E9e, pens\u00E9e, sentie, utile et doit viser un but pr\u00E9cis et non redondant qui fait avancer le r\u00E9cit.</p>\n<p>Les sc\u00E8nes sont laiss\u00E9es au libre choix de l'auteur, mais elles gagneront \u00E0\u00A0:</p>\n<ul>\n  <li>mettre en sc\u00E8ne les personnages principaux, et particuli\u00E8rement le protagoniste et l'antagoniste (pas forc\u00E9ment ensemble)\u00A0;</li>\n  <li>\u00EAtre caract\u00E9ristiques du film, au niveau du ton, du traitement, du rythme, des partis-pris adopt\u00E9s\u00A0;</li>\n  <li>s'appuyer sur ou pr\u00E9senter une caract\u00E9ristique forte du protagoniste et/ou de l'antagoniste\u00A0;</li>\n  <li>traiter des sujets et des enjeux principaux du film\u00A0;</li>\n  <li>mettre en action les th\u00E9matiques principales du film\u00A0;</li>\n  <li>pr\u00E9senter du dialogue pour certaines, de l'action pour d'autres, de l'action et du dialogue m\u00EAl\u00E9s pour d'autres encore\u00A0;</li>\n</ul>\n<p class='italic'>Nota Bene\u00A0: noter qu'il est tout \u00E0 fait possible d'\u00E9crire une sc\u00E8ne qui n'appartiendra pas forc\u00E9ment au film, mais m\u00EAlant plusieurs aspects int\u00E9ressant du film futur en une seule situation con\u00E7ue pour cette \u00E9tape. Dans ce cas, il faudra bien pr\u00E9ciser, avant l'intitul\u00E9, que c'est une sc\u00E8ne \u201Chors-film\u201D.</p>\n<p>Ces sc\u00E8nes sont \u00E0 \u00E9crire sous la forme conventionnelle des continuit\u00E9s dialogu\u00E9es, dont on peut trouver un exemple pr\u00E9cis dans les liens ci-dessous.</p>\n<p>Bon courage, <%= user.pseudo %>\u00A0!</p>"
+:liens => "592::collection::Exemple de mise en page de sc\u00E9nario"
+:updated_at => "29 septembre 2016 - 17:24 (real: 1475162656)"
+}
+
+
+=== DEBUG DU 29 09 2016 - 17:24:22 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 204
+Method   = "show"
+Context  = nil
