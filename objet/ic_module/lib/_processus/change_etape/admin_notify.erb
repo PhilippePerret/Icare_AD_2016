@@ -14,7 +14,8 @@ end
 def menu_select_etapes
   drequest = {
     where:      "module_id = #{absmodule.id} AND numero > #{absetape.numero}",
-    colonnes:   [:titre, :numero]
+    colonnes:   [:titre, :numero],
+    order:      'numero ASC'
   }
   liste_etapes = dbtable_absetapes.select(drequest).collect do |h|
     [ h[:id], "#{h[:numero]} - #{h[:titre]}"]

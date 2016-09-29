@@ -8,16 +8,22 @@ class << self
   end
   def liens_editions
     (
-      'Opérations ICARIEN…'.in_a(href: 'admin/users').in_div +
+      'Bases de données'.in_h3 +
       'BASES DE DONNÉES'.in_a(href: 'database/edit').in_div +
-      boutons_modules_apprentissage +
-      boutons_edition_etapes_modules +
       'WATCHERS'.in_a(href: 'watcher/edit').in_div +
+      'Gestion Icariens'.in_h3 +
+      'Opérations ICARIEN…'.in_a(href: 'admin/users').in_div +
       'Mailing list'.in_a(href: 'admin/mailing').in_div +
       'Visite le site comme…'.in_a(href: 'admin/visit_as').in_div +
+      'Actualisations'.in_h3 +
       bouton_check_synchro +
-      bouton_erase_user_everywhere +
-      bouton_test_travaux
+      'Modules d’apprentissage'.in_h3 +
+      boutons_modules_apprentissage +
+      boutons_edition_etapes_modules +
+      'Tests divers'.in_h3 +
+      bouton_test_travaux +
+      'Opérations sensibles'.in_h3 +
+      bouton_erase_user_everywhere
     ).in_div
   end
   def boutons_modules_apprentissage

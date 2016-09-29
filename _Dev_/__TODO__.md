@@ -10,7 +10,6 @@
 ## Fonctionnalités impératives
 
 * Envoi du mail d'activité
-* Édition d'une étape de travail (le fichier abs_etape/edit.erb existe déjà, il suffit de mettre le formulaire) — c'est impératif pour pouvoir créer une nouvelle étape pour Khajag.
 
 ## DIVERS
 
