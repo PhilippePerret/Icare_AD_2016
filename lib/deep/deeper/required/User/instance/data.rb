@@ -31,6 +31,7 @@ class User
     end
   end
   def mail        ; @mail       ||= get(:mail)          end
+  def cpassword   ; @cpassword  ||= get(:cpassword)     end
   def sexe        ; @sexe       ||= get(:sexe)          end
   def patronyme   ; @patronyme  ||= get(:patronyme)     end
   def options     ; @options    ||= get(:options) || '' end

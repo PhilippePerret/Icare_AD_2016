@@ -27,14 +27,15 @@ class << self
     ).in_div
   end
   def boutons_modules_apprentissage
-    if OFFLINE
+    # if OFFLINE
       'Modules d’apprentissage'.in_a(href: 'abs_module/edit').in_div
-    else
-      ''
-    end
+    # else
+    #   ''
+    # end
   end
   def boutons_edition_etapes_modules
-    OFFLINE ? 'Édition des étapes'.in_a(href: 'abs_etape/1/edit').in_div : ''
+    'Édition des étapes'.in_a(href: 'abs_etape/1/edit').in_div
+    # OFFLINE ? 'Édition des étapes'.in_a(href: 'abs_etape/1/edit').in_div : ''
   end
 
   def bouton_check_synchro

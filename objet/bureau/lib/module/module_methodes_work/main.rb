@@ -40,7 +40,7 @@ module MethodesTravail
            href = "http://www.laboiteaoutilsdelauteur.fr/narration/#{page}/show"
            if user.actif?
              #  TODO CORRIGER
-             href += "&fromicare=1&cpicare=#{user.cpassword}&micare=#{user.mail}&idicare=#{user.id}&picare=#{user.pseudo}"
+             href += "?fromicare=1&cpicare=#{user.cpassword}&micare=#{user.mail}&idicare=#{user.id}&picare=#{user.pseudo}"
              href += "&xicare=#{user.sexe}"
            end
           [((titre || "[titre de page non défini]") + " (collection NARRATION)"), href]

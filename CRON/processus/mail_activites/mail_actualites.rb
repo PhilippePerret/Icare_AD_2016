@@ -134,20 +134,35 @@ class << self
 
   # {String} Code HTML de la liste des actualités de la veille
   def listing_actualites_veille
-    "<ul id='actualites'>#{actualites_as_li}</ul>"
+    "<div id='actualites'>#{actualites_as_li}</div>"
   end
   def actualites_as_li
+    current_day = nil
     actualites_veille.collect do |dactu|
+
       li = <<-HTML
-      <li class='li_actu_mail'>
-        <span class='actu_heure'>#{Time.at(dactu[:created_at]).strftime("%H:%M")}</span>
-        <span class='actu_actu'>#{dactu[:message]}</span>
-      </li>
+      <div class='li_actu_mail'>
+        <div class='actu_heure'>#{Time.at(dactu[:created_at]).strftime("%H:%M")}</div>
+        <div class='actu_actu'>#{dactu[:message]}</div>
+      </div>
       HTML
+      # Ajouter le jour de l'actualité si c'est nécessaire
+      # C'est déjà utile pour la veille du mail, mais ça peut être
+      # aussi utile si plusieurs activités n'ont pas été annoncées avant
+      if current_day != le_jour_de(dactu[:created_at])
+        current_day = le_jour_de(dactu[:created_at])
+        '<h4>' + current_day.as_human_date(true, false, ' ') + '</h4>'
+      else
+        ''
+      end +
       li.gsub(/\n/,"")
     end.join("\n")
   end
 
+  def le_jour_de time
+    t = Time.at(time)
+    Time.new(t.year, t.month, t.day, 0, 0, 0).to_i
+  end
   # ---------------------------------------------------------------------
   #
   #         MÉTHODES POUR LE MESSAGE
@@ -163,7 +178,7 @@ class << self
 <p>Trouvez ci-dessous la liste des dernières activités de l'atelier Icare.</p>
 #{listing_actualites_veille}
 <hr />
-<p style="font-size:9pt;">Pour ne plus recevoir ces messages lorsque vous n'êtes pas actif, rejoignez <a href='http://www.atelier-icare.net/bureau'>votre bureau</a> et réglez vos préférences.</p>
+<p style="font-size:9pt;">Pour ne plus recevoir ces messages lorsque vous n'êtes pas icarien actif ou icarienne active, rejoignez <a href='http://www.atelier-icare.net/profil'>votre profil</a> et réglez vos préférences.</p>
 <p>Bien &agrave; vous,</p>
       EOC
   end
@@ -171,22 +186,22 @@ class << self
   def stylesheet
     @stylesheet ||= <<-EOC
 <style type="text/css">
+h4{color:#008080;font-weight:normal;margin-bottom:12px}
 .actu_heure {
 color: #008080;
 font-family:Georgia,Courier;
 margin-right:1em;
+font-size:0.95em;
+}
+div#actualites {
+margin-left:2em;
 font-size:0.85em;
 }
-ul#actualites {
-list-style: none;
-margin-left:2em;
+div#actualites div.actu_heure {
+display:inline-block;
+width:80px;
 }
-ul#actualites span.actu_heure {
-float:left;
-}
-ul#actualites span.actu_actu {
-display:block;
-margin-left:3em;
+div#actualites div.actu_actu {
 }
 </style>
 
