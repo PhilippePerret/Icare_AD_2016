@@ -8,6 +8,9 @@ class Page
   def html_separator height = 20
     "<div style='clear:both;height:#{height}px'></div>"
   end
+  alias :separator :html_separator
+  alias :delimitor :html_separator
+  alias :delimiter :html_separator
 
   # RETURN Le code HTML à copier dans la page en bas qui donne au lecteur
   # un nom de fichier pour nommer son fichier de correction

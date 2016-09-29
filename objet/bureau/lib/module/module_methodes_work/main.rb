@@ -37,10 +37,10 @@ module MethodesTravail
       when 'collection'
         # cf. N0001
          href = "http://www.laboiteaoutilsdelauteur.fr/narration/#{page}/show"
-         if cu.actif?
+         if user.actif?
            #  TODO CORRIGER
-           href += "&fromicare=1&cpicare=#{cu.cpassword}&micare=#{cu.mail}&idicare=#{cu.id}&picare=#{cu.pseudo}"
-           href += "&xicare=#{cu.sexe}"
+           href += "&fromicare=1&cpicare=#{user.cpassword}&micare=#{user.mail}&idicare=#{user.id}&picare=#{user.pseudo}"
+           href += "&xicare=#{user.sexe}"
          end
         (titre || "[titre de page non défini]").in_a(href: href)
       end

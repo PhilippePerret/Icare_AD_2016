@@ -4,17 +4,18 @@
 
 ## BUGS
 
-* Le mailing list ne vise pas les icariens qu'il devrait viser (tous sont contactés chaque fois)
-* Ne pas pouvoir envoyer deux documents de même nom (dans le travail de l'étape)
-* Objectif en double dans l'étape 5 du suivi lent (normal #7)
-  => Quand l'objectif est le même que l'objectif du travail type, ne pas l'indiquer.
+* Dans le mail d'activité, ajouter le jour
+* Dans le mail activités, mettre le lien vers le profil plutôt que vers le bureau
 
 ## Fonctionnalités impératives
 
+* Envoi du mail d'activité
+* Édition d'une étape de travail (le fichier abs_etape/edit.erb existe déjà, il suffit de mettre le formulaire) — c'est impératif pour pouvoir créer une nouvelle étape pour Khajag.
 
 ## DIVERS
 
-* Possibilité de fournir un document par mail et de l'injecter dans l'étape, comme avant (penser à faire une activité)
+* Faire un "jeu de couleurs" pour les notifications, pour être capable de les reconnaitre à leur couleur.
+
 
 * Messages de bureau (frigo)
 
@@ -33,8 +34,6 @@
 * L'option 17 (18e bit) doit servir à ne recevoir aucun mail de l'atelier, jamais (même les mails par la mailing list)
   - C'est déjà réglé pour la mailing-list, mais il faut le faire pour le reste (cron actualités, autres ?)
 
-* Faire un javascript qui permette de supprimer la notification pour les
-  download (mais seulement pour l'administrateur).
 
 * IMPÉRATIF : Cron job pour actualités (POURSUIVRE)
 
@@ -52,36 +51,27 @@
 * QDD Construire le processus 'quai_des_docs/cote_et_commentaire'. La notification de l'user doit conduire à une page où il peut donner une note et laisser un commentaire sur le document.
 
   - Attribution des cotes pour les documents (changement)
+
 * Finir le notify pour annuler une commande de module (côté user) (pour le moment, il n'y a que le bouton)
 
 * Le lien "Historique" doit simplement présenter la partie si l'icarien est tout jeune à l'atelier
+
 * TODO Voir la procédure à adopter pour le fichier ./objet/bureau/lib/module/section_current_work/helper_abs.rb qui doit permettre à un icarien actif.
+
 * Dans le cronjob, vérifier les watchers de paiements. Si certains sont trop en retard => envoyer des mails (user et admin) et renseigner les data du watcher pour indiquer que les mails sont envoyés. Indiquer à l'administrateur qu'il faut détruire n icarien trop en dépassement (faire un watcher icarien/destroy)
+
 * Faire la page Facebook de l'atelier
+
 * Cron de nettoyage pour supprimer les documents téléchargés (dossier ./tmp/download/user-xxx/). On peut vérifier que les documents ont bien été téléchargés avec la propriété options des documents (3e et 11e bit)
-* Édition des watchers : relever tous les processus existants pour avoir les 'objet' possibles et les 'processus' possibles. De la même manière, au cours de l'édition, relever en Ajax les identifiants (quand on est dans le champ user_id => relever les id/pseudo des users, quand on est dans objet_id => relever les id/propriétaires de l'objet choisi)
 
-## Visite comme user
-
-### En se servant des variables sessions :
-
-    Je mets 'admin_visit_as' dans la session, avec l'ID de l'user
-    Quand l'application détecte au login cette variable :
-      Elle cherche un fichier _adm qui contient :
-        l'IP courante
-        Le numéro de session
-      Si tout matche
-
-    À la déconnexion, on détruit le fichier _adm
 
 ## CRON-JOB
 
 * Vérifier les icmodules non démarrés (options[0]==0) depuis trop longtemps (created_at < Time.now.to_i - 1.month). Envoyer d'abord une alerte, puis une mois après le détruire.
+
 * Définition automatique du partage des documents
   Penser à faire une annonce actualité même pour ce partage automatique, mais en modifiant le nom (au lieu de "Untel met en partage ses documents…", dire "Les documents de Untel sont mis en partage")
 
-
-## FONCTIONNALITÉS URGENTES
 
 
 ## À FAIRE APRÈS L'OUVERTURE
@@ -99,3 +89,8 @@
 * TODO Installer la partie historique du bureau
 
 * Une section du bureau administrateur qui présente l'état des icariens (un aperçu général).
+
+## FONCTIONNALITÉS OPTIONNELLES
+
+* Faire un javascript qui permette de supprimer la notification pour les
+  download (mais seulement pour l'administrateur).

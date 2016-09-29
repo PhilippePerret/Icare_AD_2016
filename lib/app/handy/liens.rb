@@ -38,3 +38,4 @@ end
 def link_narration titre = "la collection Narration", options = nil
   lien.narration titre, options
 end
+alias :lien_narration :link_narration

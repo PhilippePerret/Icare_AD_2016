@@ -17,7 +17,7 @@ class Bureau
         'Outils'     => 'bureau/outils'
         )
         unless user.admin?
-          dgs.merge!('Documents' => 'quai_des_docs/list')
+          dgs.merge!('Documents' => 'bureau/documents')
         end
         if user.actif? || user.en_pause?
           dgs.merge!('Votre travail' => 'bureau/home#section_travail_auteur')

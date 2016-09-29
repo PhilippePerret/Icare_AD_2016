@@ -1,6 +1,7 @@
 # Snippets
 
 * [Présentation](#presentation_de_snippets)
+* [Exemple type d'utilisation](#exempletype)
 * [Utilisation](#utilisation_des_snippets)
 * [Définir des snippets propres](#definir_des_snippets_propres)
 * [Scope des snippets](#fonction_par_scope)
@@ -18,7 +19,7 @@
 
 > Rappel : Un “snippet” consiste à taper le début d'un mot (ou tout autre signe) puis à faire TABULATION pour obtenir le reste. Par exemple, pour écrire un paragraphe en HTML (<p>...</p>) on tape “p” puis tabulation.
 
-* [Exemple type d'utilisation](#exempletype)
+
 <a name='exempletype'></a>
 
 ## Exemple type d'utilisation
@@ -44,8 +45,8 @@ $(document).ready(function(){
   Snippets.set_scopes_to([
     'text.erb', 'text.html'
   ]);
-  $('textarea').bind('focus',function(){Snippets.watch(($(this)))})
-  $('textarea').bind('blur',function(){Snippets.unwatch(($(this)))})
+  $('textarea').bind('focus',function(){Snippets.watch($(this))})
+  $('textarea').bind('blur',function(){Snippets.unwatch($(this))})
 
 
 })

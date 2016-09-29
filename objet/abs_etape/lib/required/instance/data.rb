@@ -29,7 +29,10 @@ class AbsEtape
   # {AbsModule} Module d'apprentissage absolu contenant cette
   # étape
   def abs_module
-    @abs_module ||= AbsModule.new(module_id)
+    @abs_module ||= begin
+      site.require_objet 'abs_module'
+      AbsModule.new(module_id)
+    end
   end
 
   # ---------------------------------------------------------------------

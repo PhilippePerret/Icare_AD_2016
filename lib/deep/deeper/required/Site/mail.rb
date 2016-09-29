@@ -2,10 +2,16 @@
 class SiteHtml
 
   # @usage:   site.send_mail(data_mail)
-  # Cf. optional/Site/mail.rb pour le détail
+  # Cf. module/Site/mail.rb pour le détail
   def send_mail data_mail
     site.require_module 'mail'
-    return exec_send_mail( data_mail )
+    resultat = exec_send_mail( data_mail )
+    if resultat === true
+      # Tout s'est bien passé
+    else
+      debug resultat
+    end
+    return resultat
   end
 
   # Envoi d'un mail à l'administration par

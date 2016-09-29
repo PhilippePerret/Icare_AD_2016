@@ -16,7 +16,7 @@ class AbsEtape
   # ceux de ses travaux-types, formatés comme une suite de div.objectif
   # à insérer directement dans l'étape
   def objectifs_formated
-    ([objectif.nil_if_empty]+ travaux_types.objectifs).compact.collect do |t|
+    ([objectif.nil_if_empty]+ travaux_types.objectifs).uniq.compact.collect do |t|
       t.in_div(class: 'objectif')
     end.join
   end

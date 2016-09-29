@@ -1593,3 +1593,1433 @@ Objet    = "bureau"
 Objet ID = nil
 Method   = "home"
 Context  = nil
+
+
+=== DEBUG DU 28 09 2016 - 17:52:26 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = nil
+Method   = "show"
+Context  = nil
+-- Redirection -> user/signin
+-- param(:backto) mis à "abs_etape/show"
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signin"
+Context  = nil
+
+
+=== DEBUG DU 28 09 2016 - 17:52:30 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signin"
+Context  = nil
+
+
+=== DEBUG DU 28 09 2016 - 17:52:34 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "login"
+Context  = nil
+-- kroute = :home
+-- Redirection -> site/home
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 28 09 2016 - 17:52:41 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = nil
+Method   = "show"
+Context  = nil
+-- undefined method `abs_etape' for nil:NilClass
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/bureau/lib/module/section_current_work/master.rb:7:in `abs_current'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/bureau/lib/module/section_current_work/master.rb:42:in `liens_editions_if_admin'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/bureau/lib/module/section_current_work/master.rb:25:in `_section_current_work'
+(erb):48:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 28 09 2016 - 17:55:21 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = nil
+Method   = "show"
+Context  = nil
+-- undefined local variable or method `abs_module' for #<SiteHtml:0x007fbbb2a94e88>
+
+(erb):48:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 28 09 2016 - 17:56:00 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = nil
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 28 09 2016 - 17:57:08 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = nil
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 28 09 2016 - 17:58:28 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = nil
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 28 09 2016 - 17:58:40 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 58
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 28 09 2016 - 17:59:50 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 58
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 28 09 2016 - 18:00:27 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 58
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 28 09 2016 - 18:10:19 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signin"
+Context  = nil
+
+
+=== DEBUG DU 28 09 2016 - 18:10:21 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "login"
+Context  = nil
+-- kroute = :last_page
+-- Redirection -> aide/20/show
+-- 
+Objet    = "aide"
+Objet ID = 20
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 28 09 2016 - 18:10:25 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 28 09 2016 - 18:10:28 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "documents"
+Context  = nil
+-- /Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/bureau/documents.rb:30: syntax error, unexpected end-of-input, expecting keyword_end
+
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:22:in `require_ruby'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:15:in `require_all'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:330:in `load_per_vue'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:103:in `execute_route'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+-- (ERREUR : /Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/bureau/documents.rb:30: syntax error, unexpected end-of-input, expecting keyword_end)
+<div>/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'</div>
+<div>/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'</div>
+<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'</div>
+<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:22:in `require_ruby'</div>
+<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:15:in `require_all'</div>
+<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:330:in `load_per_vue'</div>
+<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:103:in `execute_route'</div>
+<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'</div>
+<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'</div>
+
+
+=== DEBUG DU 28 09 2016 - 18:10:49 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "documents"
+Context  = nil
+
+
+=== DEBUG DU 28 09 2016 - 18:14:11 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "documents"
+Context  = nil
+-- undefined local variable or method `dbtable' for #<ERB:0x007fed43898d10>
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/bureau/documents.rb:20:in `has_documents_qdd?'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/bureau/documents.rb:12:in `liste_documents_quai_des_docs'
+(erb):13:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 28 09 2016 - 18:14:20 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "documents"
+Context  = nil
+
+
+=== DEBUG DU 28 09 2016 - 18:14:35 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "documents"
+Context  = nil
+
+
+=== DEBUG DU 28 09 2016 - 18:15:02 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "documents"
+Context  = nil
+
+
+=== DEBUG DU 28 09 2016 - 18:17:19 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 28 09 2016 - 18:17:22 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "visit_as"
+Context  = nil
+
+
+=== DEBUG DU 28 09 2016 - 18:17:33 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "visit_as"
+Context  = nil
+
+
+=== DEBUG DU 28 09 2016 - 18:17:35 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 28 09 2016 - 18:17:38 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "documents"
+Context  = nil
+-- undefined method `as_ul' for QuaiDesDocs:Class
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/bureau/documents.rb:15:in `liste_documents_quai_des_docs'
+(erb):13:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 28 09 2016 - 18:18:08 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "documents"
+Context  = nil
+
+
+=== DEBUG DU 29 09 2016 - 08:13:14 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signin"
+Context  = nil
+
+
+=== DEBUG DU 29 09 2016 - 08:13:18 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "login"
+Context  = nil
+-- kroute = :home
+-- Redirection -> site/home
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 29 09 2016 - 08:13:22 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 29 09 2016 - 08:13:24 ===
+
+-- 
+Objet    = "user"
+Objet ID = 1
+Method   = "profil"
+Context  = nil
+
+
+=== DEBUG DU 29 09 2016 - 08:13:30 ===
+
+-- 
+Objet    = "user"
+Objet ID = 1
+Method   = "profil"
+Context  = nil
+
+
+=== DEBUG DU 29 09 2016 - 08:13:32 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 29 09 2016 - 08:13:36 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 29 09 2016 - 08:13:41 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 29 09 2016 - 08:13:43 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {}
+
+
+=== DEBUG DU 29 09 2016 - 08:24:10 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 29 09 2016 - 08:24:18 ===
+
+-- 
+Objet    = "abs_module"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 29 09 2016 - 08:24:30 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 29 09 2016 - 08:24:51 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 1
+Method   = "edit"
+Context  = nil
+-- undefined method `instance_objet' for #<SiteHtml::Route:0x007fd722861540>
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/abs_etape/edit.rb:4:in `absetape'
+(erb):16:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 29 09 2016 - 08:25:16 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 1
+Method   = "edit"
+Context  = nil
+-- undefined method `id' for nil:NilClass
+
+(erb):16:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 29 09 2016 - 08:25:38 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 1
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 29 09 2016 - 08:27:13 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 1
+Method   = "edit"
+Context  = nil
+-- wrong number of arguments (1 for 0)
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/abs_etape/lib/required/instance/data.rb:32:in `initialize'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/abs_etape/lib/required/instance/data.rb:32:in `new'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/abs_etape/lib/required/instance/data.rb:32:in `abs_module'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/abs_etape/edit.rb:9:in `absmodule'
+(erb):10:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 29 09 2016 - 08:28:13 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 1
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 29 09 2016 - 08:29:32 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 1
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 29 09 2016 - 08:38:33 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 1
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 29 09 2016 - 08:38:50 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 20
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 29 09 2016 - 10:16:43 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+-- Redirection -> user/signin
+-- param(:backto) mis à "bureau/home"
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signin"
+Context  = nil
+
+
+=== DEBUG DU 29 09 2016 - 10:16:47 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "login"
+Context  = nil
+-- Redirection -> bureau/home
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 29 09 2016 - 10:16:50 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 29 09 2016 - 10:16:53 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 29 09 2016 - 10:16:55 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {}
+
+
+=== DEBUG DU 29 09 2016 - 10:18:15 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {}
+
+
+=== DEBUG DU 29 09 2016 - 10:18:56 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- (eval):1: syntax error, unexpected ')', expecting =>
+...re:{pseudo: 'BenoA'}, {id: 84})
+...                               ^
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/database/edit.rb:64:in `eval'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/database/edit.rb:64:in `<top (required)>'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:22:in `require_ruby'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:15:in `require_all'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:330:in `load_per_vue'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:103:in `execute_route'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 29 09 2016 - 10:19:21 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 29 09 2016 - 10:19:25 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {}
+
+
+=== DEBUG DU 29 09 2016 - 10:24:34 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 29 09 2016 - 10:24:37 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {}
+
+
+=== DEBUG DU 29 09 2016 - 10:25:16 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 29 09 2016 - 10:25:19 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {}
+
+
+=== DEBUG DU 29 09 2016 - 10:29:12 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 1
+Method   = "edit"
+Context  = nil
+-- undefined method `form_field_textarea' for #<SiteHtml:0x007f84e2954ed0>
+
+(erb):28:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 29 09 2016 - 10:29:22 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 1
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 29 09 2016 - 10:30:49 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 1
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 29 09 2016 - 10:31:49 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 1
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 29 09 2016 - 10:35:44 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 1
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 29 09 2016 - 10:35:55 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 1
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 29 09 2016 - 10:36:46 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 1
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 29 09 2016 - 10:41:41 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 1
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 29 09 2016 - 10:48:53 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 1
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 29 09 2016 - 10:49:19 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 1
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 29 09 2016 - 10:51:07 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 1
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 29 09 2016 - 10:57:39 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 1
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 29 09 2016 - 11:02:36 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 1
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 29 09 2016 - 11:04:28 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 1
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 29 09 2016 - 11:16:38 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 1
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 29 09 2016 - 11:16:55 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 1
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 29 09 2016 - 11:17:22 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 1
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 29 09 2016 - 11:18:38 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 1
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 29 09 2016 - 11:25:10 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 1
+Method   = "edit"
+Context  = nil
+-- données initiales : {
+:id => "1"
+:titre => "Introduction \u00E0 l'analyse de film"
+:module_id => "1"
+:numero => "1"
+:objectif => "D\u00E9finir votre approche actuelle des films et des histoires."
+:travail => "<%# MODULE ANALYSE - ETAPE 1 %>\r\n<p>\r\nBienvenue <%= user.pseudo %> dans le module \u201CAnalyse de film\u201D\u00A0!\r\n</p>\r\n<p>\r\nDans un premier temps, vous allez tenter de d\u00E9finir dans un document votre approche des films et des histoires en g\u00E9n\u00E9ral.\r\n</p>\r\n<p>\r\nPour ce faire, voici quelques pistes de r\u00E9flexion, \u00E0 prendre au hasard ou dans l\u2019ordre, de fa\u00E7on compl\u00E8te ou incompl\u00E8te, au gr\u00E9 de l\u2019inspiration ou de l\u2019envie.\r\n</p>\r\n<p>\r\nImaginez-vous sortir d\u2019une salle de cin\u00E9ma, apr\u00E8s un film \u00E9mouvant, passionnant, captivant. Apr\u00E8s la petite respiration permettant de se remettre de ses \u00E9motions, vous repensez au spectacle auquel vous venez d\u2019assister. Comment se fait cette r\u00E9miniscence\u00A0?\r\n</p>\r\n<p>\r\nDe fa\u00E7on plus g\u00E9n\u00E9rale, qu\u2019aim\u00EAtes-vous trouver dans un film\u00A0? Qu\u2019est-ce que, pour vous, ce qu\u2019on appelle un \u201Cbon\u201D film\u00A0? Quelles sont les caract\u00E9ristiques qui vous semblent importantes\u00A0? \r\n</p>\r\n<p>\r\nEssayer de placer, par ordre d\u2019importance, ce que vous aim\u00EAtes trouver dans un spectacle cin\u00E9matographique, principalement au niveau du r\u00E9cit (c\u2019est-\u00E0-dire en faisant abstraction, dans une certaine mesure, de l\u2019image \u2014 les beaux paysages\u2026 \u2014, des acteurs ou de la r\u00E9alisation).\r\n</p>\r\n<p>\r\nQu\u2019est-ce qui vous semble, a priori, difficile dans l\u2019analyse filmique\u00A0? Comment d\u00E9finiriez-vous la diff\u00E9rence entre votre analyse et une \u201Cvraie\u201D analyse\u00A0?\r\n</p>\r\n<p>\r\nQu\u2019attendez-vous d\u2019un module comme celui-ci, consacr\u00E9 \u00E0 l\u2019analyse filmique\u00A0?\r\n</p>\r\n<p>\r\nEn guise de conclusion, vous pouvez bien entendu ajouter \u00E0 ce document tout \u00E9l\u00E9ment qui vous semblerait important de mentionner.\r\n</p>"
+:methode => nil
+:duree => "7"
+:duree_max => "28"
+:liens => nil
+:updated_at => "29 septembre 2016 - 11:25 (real: 1475141110)"
+}
+
+
+=== DEBUG DU 29 09 2016 - 11:26:16 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 1
+Method   = "edit"
+Context  = nil
+-- undefined method `numeric?' for nil:NilClass
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/abs_etape/edit.rb:47:in `block in data'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/abs_etape/edit.rb:45:in `each'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/abs_etape/edit.rb:45:in `data'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/abs_etape/edit.rb:40:in `save'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/abs_etape/edit.rb:66:in `<top (required)>'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:22:in `require_ruby'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:15:in `require_all'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:330:in `load_per_vue'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:103:in `execute_route'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 29 09 2016 - 11:26:39 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 1
+Method   = "edit"
+Context  = nil
+-- données initiales : {
+:id => 1
+:titre => "Introduction \u00E0 l'analyse de film"
+:module_id => 1
+:numero => 1
+:objectif => "D\u00E9finir votre approche actuelle des films et des histoires."
+:travail => "<%# MODULE ANALYSE - ETAPE 1 %>\r\n<p>\r\nBienvenue <%= user.pseudo %> dans le module \u201CAnalyse de film\u201D\u00A0!\r\n</p>\r\n<p>\r\nDans un premier temps, vous allez tenter de d\u00E9finir dans un document votre approche des films et des histoires en g\u00E9n\u00E9ral.\r\n</p>\r\n<p>\r\nPour ce faire, voici quelques pistes de r\u00E9flexion, \u00E0 prendre au hasard ou dans l\u2019ordre, de fa\u00E7on compl\u00E8te ou incompl\u00E8te, au gr\u00E9 de l\u2019inspiration ou de l\u2019envie.\r\n</p>\r\n<p>\r\nImaginez-vous sortir d\u2019une salle de cin\u00E9ma, apr\u00E8s un film \u00E9mouvant, passionnant, captivant. Apr\u00E8s la petite respiration permettant de se remettre de ses \u00E9motions, vous repensez au spectacle auquel vous venez d\u2019assister. Comment se fait cette r\u00E9miniscence\u00A0?\r\n</p>\r\n<p>\r\nDe fa\u00E7on plus g\u00E9n\u00E9rale, qu\u2019aim\u00EAtes-vous trouver dans un film\u00A0? Qu\u2019est-ce que, pour vous, ce qu\u2019on appelle un \u201Cbon\u201D film\u00A0? Quelles sont les caract\u00E9ristiques qui vous semblent importantes\u00A0? \r\n</p>\r\n<p>\r\nEssayer de placer, par ordre d\u2019importance, ce que vous aim\u00EAtes trouver dans un spectacle cin\u00E9matographique, principalement au niveau du r\u00E9cit (c\u2019est-\u00E0-dire en faisant abstraction, dans une certaine mesure, de l\u2019image \u2014 les beaux paysages\u2026 \u2014, des acteurs ou de la r\u00E9alisation).\r\n</p>\r\n<p>\r\nQu\u2019est-ce qui vous semble, a priori, difficile dans l\u2019analyse filmique\u00A0? Comment d\u00E9finiriez-vous la diff\u00E9rence entre votre analyse et une \u201Cvraie\u201D analyse\u00A0?\r\n</p>\r\n<p>\r\nQu\u2019attendez-vous d\u2019un module comme celui-ci, consacr\u00E9 \u00E0 l\u2019analyse filmique\u00A0?\r\n</p>\r\n<p>\r\nEn guise de conclusion, vous pouvez bien entendu ajouter \u00E0 ce document tout \u00E9l\u00E9ment qui vous semblerait important de mentionner.\r\n</p>"
+:methode => nil
+:duree => 7
+:duree_max => 28
+:liens => nil
+:updated_at => "29 septembre 2016 - 11:26 (real: 1475141199)"
+}
+
+
+=== DEBUG DU 29 09 2016 - 11:27:51 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 1
+Method   = "edit"
+Context  = nil
+-- données initiales : {
+:id => 1
+:titre => "Introduction \u00E0 l'analyse de film"
+:module_id => 1
+:numero => 1
+:objectif => "D\u00E9finir votre approche actuelle des films et des histoires."
+:travail => "<%# MODULE ANALYSE - ETAPE 1 %>\n<p>\nBienvenue <%= user.pseudo %> dans le module \u201CAnalyse de film\u201D\u00A0!\n</p>\n<p>\nDans un premier temps, vous allez tenter de d\u00E9finir dans un document votre approche des films et des histoires en g\u00E9n\u00E9ral.\n</p>\n<p>\nPour ce faire, voici quelques pistes de r\u00E9flexion, \u00E0 prendre au hasard ou dans l\u2019ordre, de fa\u00E7on compl\u00E8te ou incompl\u00E8te, au gr\u00E9 de l\u2019inspiration ou de l\u2019envie.\n</p>\n<p>\nImaginez-vous sortir d\u2019une salle de cin\u00E9ma, apr\u00E8s un film \u00E9mouvant, passionnant, captivant. Apr\u00E8s la petite respiration permettant de se remettre de ses \u00E9motions, vous repensez au spectacle auquel vous venez d\u2019assister. Comment se fait cette r\u00E9miniscence\u00A0?\n</p>\n<p>\nDe fa\u00E7on plus g\u00E9n\u00E9rale, qu\u2019aim\u00EAtes-vous trouver dans un film\u00A0? Qu\u2019est-ce que, pour vous, ce qu\u2019on appelle un \u201Cbon\u201D film\u00A0? Quelles sont les caract\u00E9ristiques qui vous semblent importantes\u00A0? \n</p>\n<p>\nEssayer de placer, par ordre d\u2019importance, ce que vous aim\u00EAtes trouver dans un spectacle cin\u00E9matographique, principalement au niveau du r\u00E9cit (c\u2019est-\u00E0-dire en faisant abstraction, dans une certaine mesure, de l\u2019image \u2014 les beaux paysages\u2026 \u2014, des acteurs ou de la r\u00E9alisation).\n</p>\n<p>\nQu\u2019est-ce qui vous semble, a priori, difficile dans l\u2019analyse filmique\u00A0? Comment d\u00E9finiriez-vous la diff\u00E9rence entre votre analyse et une \u201Cvraie\u201D analyse\u00A0?\n</p>\n<p>\nQu\u2019attendez-vous d\u2019un module comme celui-ci, consacr\u00E9 \u00E0 l\u2019analyse filmique\u00A0?\n</p>\n<p>\nEn guise de conclusion, vous pouvez bien entendu ajouter \u00E0 ce document tout \u00E9l\u00E9ment qui vous semblerait important de mentionner.\n</p>"
+:methode => nil
+:duree => 7
+:duree_max => 28
+:liens => nil
+:updated_at => "29 septembre 2016 - 11:27 (real: 1475141271)"
+}
+
+
+=== DEBUG DU 29 09 2016 - 11:28:24 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 1
+Method   = "edit"
+Context  = nil
+-- données initiales : {
+:id => 1
+:titre => "Introduction \u00E0 l'analyse de film"
+:module_id => 1
+:numero => 1
+:objectif => "D\u00E9finir votre approche actuelle des films et des histoires."
+:travail => "<%# MODULE ANALYSE - ETAPE 1 %>\n<p>\nBienvenue <%= user.pseudo %> dans le module \u201CAnalyse de film\u201D\u00A0!\n</p>\n<p>\nDans un premier temps, vous allez tenter de d\u00E9finir dans un document votre approche des films et des histoires en g\u00E9n\u00E9ral.\n</p>\n<p>\nPour ce faire, voici quelques pistes de r\u00E9flexion, \u00E0 prendre au hasard ou dans l\u2019ordre, de fa\u00E7on compl\u00E8te ou incompl\u00E8te, au gr\u00E9 de l\u2019inspiration ou de l\u2019envie.\n</p>\n<p>\nImaginez-vous sortir d\u2019une salle de cin\u00E9ma, apr\u00E8s un film \u00E9mouvant, passionnant, captivant. Apr\u00E8s la petite respiration permettant de se remettre de ses \u00E9motions, vous repensez au spectacle auquel vous venez d\u2019assister. Comment se fait cette r\u00E9miniscence\u00A0?\n</p>\n<p>\nDe fa\u00E7on plus g\u00E9n\u00E9rale, qu\u2019aim\u00EAtes-vous trouver dans un film\u00A0? Qu\u2019est-ce que, pour vous, ce qu\u2019on appelle un \u201Cbon\u201D film\u00A0? Quelles sont les caract\u00E9ristiques qui vous semblent importantes\u00A0? \n</p>\n<p>\nEssayer de placer, par ordre d\u2019importance, ce que vous aim\u00EAtes trouver dans un spectacle cin\u00E9matographique, principalement au niveau du r\u00E9cit (c\u2019est-\u00E0-dire en faisant abstraction, dans une certaine mesure, de l\u2019image \u2014 les beaux paysages\u2026 \u2014, des acteurs ou de la r\u00E9alisation).\n</p>\n<p>\nQu\u2019est-ce qui vous semble, a priori, difficile dans l\u2019analyse filmique\u00A0? Comment d\u00E9finiriez-vous la diff\u00E9rence entre votre analyse et une \u201Cvraie\u201D analyse\u00A0?\n</p>\n<p>\nQu\u2019attendez-vous d\u2019un module comme celui-ci, consacr\u00E9 \u00E0 l\u2019analyse filmique\u00A0?\n</p>\n<p>\nEn guise de conclusion, vous pouvez bien entendu ajouter \u00E0 ce document tout \u00E9l\u00E9ment qui vous semblerait important de mentionner.\n</p>"
+:methode => nil
+:duree => 7
+:duree_max => 28
+:liens => nil
+:updated_at => "29 septembre 2016 - 11:28 (real: 1475141304)"
+}
+
+
+=== DEBUG DU 29 09 2016 - 11:28:44 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 1
+Method   = "edit"
+Context  = nil
+-- données initiales : {
+:id => 1
+:titre => "Introduction \u00E0 l'analyse de film"
+:module_id => 1
+:numero => 1
+:objectif => "D\u00E9finir votre approche actuelle des films et des histoires."
+:travail => "<%# MODULE ANALYSE - ETAPE 1 %>\n<p>\nBienvenue <%= user.pseudo %> dans le module \u201CAnalyse de film\u201D\u00A0!\n</p>\n<p>\nDans un premier temps, vous allez tenter de d\u00E9finir dans un document votre approche des films et des histoires en g\u00E9n\u00E9ral.\n</p>\n<p>\nPour ce faire, voici quelques pistes de r\u00E9flexion, \u00E0 prendre au hasard ou dans l\u2019ordre, de fa\u00E7on compl\u00E8te ou incompl\u00E8te, au gr\u00E9 de l\u2019inspiration ou de l\u2019envie.\n</p>\n<p>\nImaginez-vous sortir d\u2019une salle de cin\u00E9ma, apr\u00E8s un film \u00E9mouvant, passionnant, captivant. Apr\u00E8s la petite respiration permettant de se remettre de ses \u00E9motions, vous repensez au spectacle auquel vous venez d\u2019assister. Comment se fait cette r\u00E9miniscence\u00A0?\n</p>\n<p>\nDe fa\u00E7on plus g\u00E9n\u00E9rale, qu\u2019aim\u00EAtes-vous trouver dans un film\u00A0? Qu\u2019est-ce que, pour vous, ce qu\u2019on appelle un \u201Cbon\u201D film\u00A0? Quelles sont les caract\u00E9ristiques qui vous semblent importantes\u00A0? \n</p>\n<p>\nEssayer de placer, par ordre d\u2019importance, ce que vous aim\u00EAtes trouver dans un spectacle cin\u00E9matographique, principalement au niveau du r\u00E9cit (c\u2019est-\u00E0-dire en faisant abstraction, dans une certaine mesure, de l\u2019image \u2014 les beaux paysages\u2026 \u2014, des acteurs ou de la r\u00E9alisation).\n</p>\n<p>\nQu\u2019est-ce qui vous semble, a priori, difficile dans l\u2019analyse filmique\u00A0? Comment d\u00E9finiriez-vous la diff\u00E9rence entre votre analyse et une \u201Cvraie\u201D analyse\u00A0?\n</p>\n<p>\nQu\u2019attendez-vous d\u2019un module comme celui-ci, consacr\u00E9 \u00E0 l\u2019analyse filmique\u00A0?\n</p>\n<p>\nEn guise de conclusion, vous pouvez bien entendu ajouter \u00E0 ce document tout \u00E9l\u00E9ment qui vous semblerait important de mentionner.\n</p>"
+:methode => nil
+:duree => 7
+:duree_max => 28
+:liens => nil
+:updated_at => "29 septembre 2016 - 11:28 (real: 1475141324)"
+}
+
+
+=== DEBUG DU 29 09 2016 - 11:29:35 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 1
+Method   = "edit"
+Context  = nil
+-- données initiales : {
+:id => 1
+:titre => "Introduction \u00E0 l'analyse de film"
+:module_id => 1
+:numero => 1
+:objectif => "D\u00E9finir votre approche actuelle des films et des histoires."
+:travail => "<%# MODULE ANALYSE - ETAPE 1 %>\n<p>\nBienvenue <%= user.pseudo %> dans le module \u201CAnalyse de film\u201D\u00A0!\n</p>\n<p>\nDans un premier temps, vous allez tenter de d\u00E9finir dans un document votre approche des films et des histoires en g\u00E9n\u00E9ral.\n</p>\n<p>\nPour ce faire, voici quelques pistes de r\u00E9flexion, \u00E0 prendre au hasard ou dans l\u2019ordre, de fa\u00E7on compl\u00E8te ou incompl\u00E8te, au gr\u00E9 de l\u2019inspiration ou de l\u2019envie.\n</p>\n<p>\nImaginez-vous sortir d\u2019une salle de cin\u00E9ma, apr\u00E8s un film \u00E9mouvant, passionnant, captivant. Apr\u00E8s la petite respiration permettant de se remettre de ses \u00E9motions, vous repensez au spectacle auquel vous venez d\u2019assister. Comment se fait cette r\u00E9miniscence\u00A0?\n</p>\n<p>\nDe fa\u00E7on plus g\u00E9n\u00E9rale, qu\u2019aim\u00EAtes-vous trouver dans un film\u00A0? Qu\u2019est-ce que, pour vous, ce qu\u2019on appelle un \u201Cbon\u201D film\u00A0? Quelles sont les caract\u00E9ristiques qui vous semblent importantes\u00A0? \n</p>\n<p>\nEssayer de placer, par ordre d\u2019importance, ce que vous aim\u00EAtes trouver dans un spectacle cin\u00E9matographique, principalement au niveau du r\u00E9cit (c\u2019est-\u00E0-dire en faisant abstraction, dans une certaine mesure, de l\u2019image \u2014 les beaux paysages\u2026 \u2014, des acteurs ou de la r\u00E9alisation).\n</p>\n<p>\nQu\u2019est-ce qui vous semble, a priori, difficile dans l\u2019analyse filmique\u00A0? Comment d\u00E9finiriez-vous la diff\u00E9rence entre votre analyse et une \u201Cvraie\u201D analyse\u00A0?\n</p>\n<p>\nQu\u2019attendez-vous d\u2019un module comme celui-ci, consacr\u00E9 \u00E0 l\u2019analyse filmique\u00A0?\n</p>\n<p>\nEn guise de conclusion, vous pouvez bien entendu ajouter \u00E0 ce document tout \u00E9l\u00E9ment qui vous semblerait important de mentionner.\n</p>"
+:methode => nil
+:duree => 7
+:duree_max => 28
+:liens => nil
+:updated_at => "29 septembre 2016 - 11:29 (real: 1475141375)"
+}
+
+
+=== DEBUG DU 29 09 2016 - 11:29:47 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 1
+Method   = "edit"
+Context  = nil
+-- données initiales : {
+:id => 1
+:titre => "Introduction \u00E0 l'analyse de film"
+:module_id => 1
+:numero => 1
+:objectif => "D\u00E9finir votre approche actuelle des films et des histoires."
+:travail => "<%# MODULE ANALYSE - ETAPE 1 %>\n<p>\nBienvenue <%= user.pseudo %> dans le module \u201CAnalyse de film\u201D\u00A0!\n</p>\n<p>\nDans un premier temps, vous allez tenter de d\u00E9finir dans un document votre approche des films et des histoires en g\u00E9n\u00E9ral.\n</p>\n<p>\nPour ce faire, voici quelques pistes de r\u00E9flexion, \u00E0 prendre au hasard ou dans l\u2019ordre, de fa\u00E7on compl\u00E8te ou incompl\u00E8te, au gr\u00E9 de l\u2019inspiration ou de l\u2019envie.\n</p>\n<p>\nImaginez-vous sortir d\u2019une salle de cin\u00E9ma, apr\u00E8s un film \u00E9mouvant, passionnant, captivant. Apr\u00E8s la petite respiration permettant de se remettre de ses \u00E9motions, vous repensez au spectacle auquel vous venez d\u2019assister. Comment se fait cette r\u00E9miniscence\u00A0?\n</p>\n<p>\nDe fa\u00E7on plus g\u00E9n\u00E9rale, qu\u2019aim\u00EAtes-vous trouver dans un film\u00A0? Qu\u2019est-ce que, pour vous, ce qu\u2019on appelle un \u201Cbon\u201D film\u00A0? Quelles sont les caract\u00E9ristiques qui vous semblent importantes\u00A0? \n</p>\n<p>\nEssayer de placer, par ordre d\u2019importance, ce que vous aim\u00EAtes trouver dans un spectacle cin\u00E9matographique, principalement au niveau du r\u00E9cit (c\u2019est-\u00E0-dire en faisant abstraction, dans une certaine mesure, de l\u2019image \u2014 les beaux paysages\u2026 \u2014, des acteurs ou de la r\u00E9alisation).\n</p>\n<p>\nQu\u2019est-ce qui vous semble, a priori, difficile dans l\u2019analyse filmique\u00A0? Comment d\u00E9finiriez-vous la diff\u00E9rence entre votre analyse et une \u201Cvraie\u201D analyse\u00A0?\n</p>\n<p>\nQu\u2019attendez-vous d\u2019un module comme celui-ci, consacr\u00E9 \u00E0 l\u2019analyse filmique\u00A0?\n</p>\n<p>\nEn guise de conclusion, vous pouvez bien entendu ajouter \u00E0 ce document tout \u00E9l\u00E9ment qui vous semblerait important de mentionner.\n</p>"
+:methode => nil
+:duree => 7
+:duree_max => 28
+:liens => nil
+:updated_at => "29 septembre 2016 - 11:29 (real: 1475141387)"
+}
+
+
+=== DEBUG DU 29 09 2016 - 11:29:54 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 1
+Method   = "edit"
+Context  = nil
+-- données initiales : {
+:id => nil
+:titre => "Introduction \u00E0 l'analyse de film"
+:module_id => 1
+:numero => 1
+:objectif => "D\u00E9finir votre approche actuelle des films et des histoires."
+:travail => "<%# MODULE ANALYSE - ETAPE 1 %>\n<p>\nBienvenue <%= user.pseudo %> dans le module \u201CAnalyse de film\u201D\u00A0!\n</p>\n<p>\nDans un premier temps, vous allez tenter de d\u00E9finir dans un document votre approche des films et des histoires en g\u00E9n\u00E9ral.\n</p>\n<p>\nPour ce faire, voici quelques pistes de r\u00E9flexion, \u00E0 prendre au hasard ou dans l\u2019ordre, de fa\u00E7on compl\u00E8te ou incompl\u00E8te, au gr\u00E9 de l\u2019inspiration ou de l\u2019envie.\n</p>\n<p>\nImaginez-vous sortir d\u2019une salle de cin\u00E9ma, apr\u00E8s un film \u00E9mouvant, passionnant, captivant. Apr\u00E8s la petite respiration permettant de se remettre de ses \u00E9motions, vous repensez au spectacle auquel vous venez d\u2019assister. Comment se fait cette r\u00E9miniscence\u00A0?\n</p>\n<p>\nDe fa\u00E7on plus g\u00E9n\u00E9rale, qu\u2019aim\u00EAtes-vous trouver dans un film\u00A0? Qu\u2019est-ce que, pour vous, ce qu\u2019on appelle un \u201Cbon\u201D film\u00A0? Quelles sont les caract\u00E9ristiques qui vous semblent importantes\u00A0? \n</p>\n<p>\nEssayer de placer, par ordre d\u2019importance, ce que vous aim\u00EAtes trouver dans un spectacle cin\u00E9matographique, principalement au niveau du r\u00E9cit (c\u2019est-\u00E0-dire en faisant abstraction, dans une certaine mesure, de l\u2019image \u2014 les beaux paysages\u2026 \u2014, des acteurs ou de la r\u00E9alisation).\n</p>\n<p>\nQu\u2019est-ce qui vous semble, a priori, difficile dans l\u2019analyse filmique\u00A0? Comment d\u00E9finiriez-vous la diff\u00E9rence entre votre analyse et une \u201Cvraie\u201D analyse\u00A0?\n</p>\n<p>\nQu\u2019attendez-vous d\u2019un module comme celui-ci, consacr\u00E9 \u00E0 l\u2019analyse filmique\u00A0?\n</p>\n<p>\nEn guise de conclusion, vous pouvez bien entendu ajouter \u00E0 ce document tout \u00E9l\u00E9ment qui vous semblerait important de mentionner.\n</p>"
+:methode => nil
+:duree => 7
+:duree_max => 28
+:liens => nil
+:updated_at => "29 septembre 2016 - 11:29 (real: 1475141394)"
+:created_at => "29 septembre 2016 - 11:29 (real: 1475141394)"
+}
+
+
+=== DEBUG DU 29 09 2016 - 11:36:16 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 1
+Method   = "edit"
+Context  = nil
+-- données initiales : {
+:id => 1
+:titre => "Introduction \u00E0 l'analyse de film"
+:module_id => 1
+:numero => 1
+:objectif => "D\u00E9finir votre approche actuelle des films et des histoires."
+:travail => "<%# MODULE ANALYSE - ETAPE 1 %>\n<p>\nBienvenue <%= user.pseudo %> dans le module \u201CAnalyse de film\u201D\u00A0!\n</p>\n<p>\nDans un premier temps, vous allez tenter de d\u00E9finir dans un document votre approche des films et des histoires en g\u00E9n\u00E9ral.\n</p>\n<p>\nPour ce faire, voici quelques pistes de r\u00E9flexion, \u00E0 prendre au hasard ou dans l\u2019ordre, de fa\u00E7on compl\u00E8te ou incompl\u00E8te, au gr\u00E9 de l\u2019inspiration ou de l\u2019envie.\n</p>\n<p>\nImaginez-vous sortir d\u2019une salle de cin\u00E9ma, apr\u00E8s un film \u00E9mouvant, passionnant, captivant. Apr\u00E8s la petite respiration permettant de se remettre de ses \u00E9motions, vous repensez au spectacle auquel vous venez d\u2019assister. Comment se fait cette r\u00E9miniscence\u00A0?\n</p>\n<p>\nDe fa\u00E7on plus g\u00E9n\u00E9rale, qu\u2019aim\u00EAtes-vous trouver dans un film\u00A0? Qu\u2019est-ce que, pour vous, ce qu\u2019on appelle un \u201Cbon\u201D film\u00A0? Quelles sont les caract\u00E9ristiques qui vous semblent importantes\u00A0? \n</p>\n<p>\nEssayer de placer, par ordre d\u2019importance, ce que vous aim\u00EAtes trouver dans un spectacle cin\u00E9matographique, principalement au niveau du r\u00E9cit (c\u2019est-\u00E0-dire en faisant abstraction, dans une certaine mesure, de l\u2019image \u2014 les beaux paysages\u2026 \u2014, des acteurs ou de la r\u00E9alisation).\n</p>\n<p>\nQu\u2019est-ce qui vous semble, a priori, difficile dans l\u2019analyse filmique\u00A0? Comment d\u00E9finiriez-vous la diff\u00E9rence entre votre analyse et une \u201Cvraie\u201D analyse\u00A0?\n</p>\n<p>\nQu\u2019attendez-vous d\u2019un module comme celui-ci, consacr\u00E9 \u00E0 l\u2019analyse filmique\u00A0?\n</p>\n<p>\nEn guise de conclusion, vous pouvez bien entendu ajouter \u00E0 ce document tout \u00E9l\u00E9ment qui vous semblerait important de mentionner.\n</p>"
+:methode => nil
+:duree => 7
+:duree_max => 28
+:liens => nil
+:updated_at => "29 septembre 2016 - 11:36 (real: 1475141776)"
+}
+-- Données modifiées : {
+:travail => "<%# MODULE ANALYSE - ETAPE 1 %>\n<p>\nBienvenue <%= user.pseudo %> dans le module \u201CAnalyse de film\u201D\u00A0!\n</p>\n<p>\nDans un premier temps, vous allez tenter de d\u00E9finir dans un document votre approche des films et des histoires en g\u00E9n\u00E9ral.\n</p>\n<p>\nPour ce faire, voici quelques pistes de r\u00E9flexion, \u00E0 prendre au hasard ou dans l\u2019ordre, de fa\u00E7on compl\u00E8te ou incompl\u00E8te, au gr\u00E9 de l\u2019inspiration ou de l\u2019envie.\n</p>\n<p>\nImaginez-vous sortir d\u2019une salle de cin\u00E9ma, apr\u00E8s un film \u00E9mouvant, passionnant, captivant. Apr\u00E8s la petite respiration permettant de se remettre de ses \u00E9motions, vous repensez au spectacle auquel vous venez d\u2019assister. Comment se fait cette r\u00E9miniscence\u00A0?\n</p>\n<p>\nDe fa\u00E7on plus g\u00E9n\u00E9rale, qu\u2019aim\u00EAtes-vous trouver dans un film\u00A0? Qu\u2019est-ce que, pour vous, ce qu\u2019on appelle un \u201Cbon\u201D film\u00A0? Quelles sont les caract\u00E9ristiques qui vous semblent importantes\u00A0? \n</p>\n<p>\nEssayer de placer, par ordre d\u2019importance, ce que vous aim\u00EAtes trouver dans un spectacle cin\u00E9matographique, principalement au niveau du r\u00E9cit (c\u2019est-\u00E0-dire en faisant abstraction, dans une certaine mesure, de l\u2019image \u2014 les beaux paysages\u2026 \u2014, des acteurs ou de la r\u00E9alisation).\n</p>\n<p>\nQu\u2019est-ce qui vous semble, a priori, difficile dans l\u2019analyse filmique\u00A0? Comment d\u00E9finiriez-vous la diff\u00E9rence entre votre analyse et une \u201Cvraie\u201D analyse\u00A0?\n</p>\n<p>\nQu\u2019attendez-vous d\u2019un module comme celui-ci, consacr\u00E9 \u00E0 l\u2019analyse filmique\u00A0?\n</p>\n<p>\nEn guise de conclusion, vous pouvez bien entendu ajouter \u00E0 ce document tout \u00E9l\u00E9ment qui vous semblerait important de mentionner.\n</p>"
+:updated_at => "29 septembre 2016 - 11:36 (real: 1475141776)"
+}
+
+
+=== DEBUG DU 29 09 2016 - 11:40:00 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 1
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 29 09 2016 - 11:40:05 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 1
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 29 09 2016 - 11:40:25 ===
+
+-- 
+Objet    = "abs_module"
+Objet ID = 1
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 29 09 2016 - 11:42:56 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 1
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 29 09 2016 - 11:43:34 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 1
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 29 09 2016 - 11:43:46 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 1
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 29 09 2016 - 11:43:53 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 1
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 29 09 2016 - 11:45:22 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 1
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 29 09 2016 - 11:45:36 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 1
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 29 09 2016 - 11:52:01 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 1
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 29 09 2016 - 11:52:23 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 1
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 29 09 2016 - 11:56:06 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 1
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 29 09 2016 - 11:56:59 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 1
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 29 09 2016 - 11:58:22 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 1
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 29 09 2016 - 12:00:42 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 1
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 29 09 2016 - 12:00:57 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 1
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 29 09 2016 - 12:01:16 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 1
+Method   = "edit"
+Context  = nil
+-- undefined method `separator' for #<Page:0x007fdb6d396318>
+
+(erb):24:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 29 09 2016 - 12:01:25 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 1
+Method   = "edit"
+Context  = nil
+-- undefined method `delimitor' for #<Page:0x007fc7da2822e8>
+
+(erb):24:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 29 09 2016 - 12:01:33 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 1
+Method   = "edit"
+Context  = nil
+-- undefined method `separateur' for #<Page:0x007fbf631fe260>
+
+(erb):24:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 29 09 2016 - 12:01:43 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 1
+Method   = "edit"
+Context  = nil
+-- undefined method `delimiter' for #<Page:0x007fdac326a2a0>
+
+(erb):24:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 29 09 2016 - 12:01:49 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 1
+Method   = "edit"
+Context  = nil
+-- undefined method `delimiteur' for #<Page:0x007fda049f6290>
+
+(erb):24:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 29 09 2016 - 12:04:46 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 1
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 29 09 2016 - 12:04:53 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
