@@ -1,0 +1,15 @@
+<%= Bureau.titre_h1('Frigo') %>
+
+<% if user.identified? && user.owner? %>
+<p>
+  Bientôt, ici, votre “frigo”, où les icariens pourront vous laisser des messages personnels.
+</p>
+<p class='small'>
+  Vous pouvez définir depuis votre <%= lien.profil %> qui peut laisser des messages sur votre frigo.
+</p>
+
+<% else %>
+<p class="big air">
+  Vous pourrez bientôt laisser un message sur le “frigo” de <%= frigo.owner.pseudo %> à partir de cette page.
+</p>
+<% end %>

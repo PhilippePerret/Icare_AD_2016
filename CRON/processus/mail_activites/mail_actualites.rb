@@ -17,7 +17,7 @@ end
 
 class Activites
 
-  MAIL_ACTIVITES_HOUR = 8
+  MAIL_ACTIVITES_HOUR = 1
 
   # Les mails à retirer des envois, pour différentes raisons à commencer
   # par le fait que l'adresse n'existe plus.
@@ -80,13 +80,12 @@ class << self
     # cf. def destinataires ci-dessous
     destinataires.each do |u|
       next if MAILS_OUT.include?(u.mail)
-      log "- Mail pour #{u.pseudo}…"
       resultat = send_mail_to u
       if resultat === true
-        log "--- Message envoyé avec succès à #{u.pseudo} (#{u.mail})"
+        log "--- Message envoyé à #{u.pseudo} (#{u.mail})"
       else
         debug resultat
-        log "--- Une erreur s'est produite : #{resultat.message}"
+        log "--# Erreur avec #{u.pseudo} (#{u.mail}) : #{resultat.message}"
       end
     end
 
@@ -149,10 +148,7 @@ class << self
         whereclause << "( SUBSTRING(options,18,1) = '0' OR SUBSTRING(options,18,1) = '3' )"  # actif ou mail quotidien
       end
       whereclause = whereclause.join(' AND ')
-      dreq = {
-        where: whereclause
-        colonnes: []
-      }
+      dreq = {where: whereclause, colonnes: []}
       dbtable_users.select(dreq).collect { |hu| User.new(hu[:id]) }
       # Pour envoyer seulement à Phil et Marion
       # [ User.new(1), User.new(2) ]

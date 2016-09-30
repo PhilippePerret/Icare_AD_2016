@@ -23,17 +23,21 @@ form.prefix = 'opuser'
 
   <%= form.field_raw('Icarien', '', nil, {field: Admin::Users.menu}) %>
   <%= form.field_select('Opération', 'ope', nil, {values: Admin::Users::DATA_OPERATIONS, onchange: "$.proxy(Dashboard,'on_choose_operation')()"}) %>
+
   <%# CHAMP COURT %>
-  <div id="div_short_value">
-    <%= form.field_text('Valeur courte', 'short_value', nil, {class: 'short', text_before: ''.in_div(id: 'short_value_explication', class: 'libelle')}) %>
+  <div id="div_short_value" style="display:<%= Admin::Users.short_value.nil? ? 'none' : ''%>;">
+    <%= form.field_text('Valeur courte', 'short_value', param(:short_value), {class: 'short', text_before: ''.in_div(id: 'short_value_explication', class: 'libelle')}) %>
   </div>
+
   <%# CHAMP MOYEN %>
-  <div id="div_medium_value">
-    <%= form.field_text('Valeur moyenne', 'medium_value', nil, {class: 'milong', text_before: ''.in_div(id: 'medium_value_explication', class: 'libelle')}) %>
+  <div id="div_medium_value" style="display:<%= Admin::Users.medium_value.nil? ? 'none' : ''%>;">
+    <%= form.field_text('Valeur moyenne', 'medium_value', param(:medium_value), {class: 'milong', text_before: ''.in_div(id: 'medium_value_explication', class: 'libelle')}) %>
   </div>
+
   <%# CHAMP LONG %>
-  <div id="div_long_value">
-    <%= form.field_textarea('Valeur longue', 'long_value', nil, {text_before: ''.in_div(id: 'long_value_explication', class: 'libelle')}) %>
+  <div id="div_long_value" style="display:<%= Admin::Users.long_value.nil? ? 'none' : ''%>;">
+    <%= form.field_textarea('Valeur longue', 'long_value', param(:long_value), {text_before: ''.in_div(id: 'long_value_explication', class: 'libelle')}) %>
   </div>
+
   <%= 'Exécuter'.in_submit(class:'btn').in_div(class: 'buttons') %>
 </form>

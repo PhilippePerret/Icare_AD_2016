@@ -156,7 +156,7 @@ module MethodesWatchers
     def list_request
       @list_request ||= begin
         if for_users?
-          if owner.admin?
+          if owner.manitou?
             {}
           else
             { where: {user_id: owner.id} }

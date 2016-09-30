@@ -4,20 +4,30 @@
 
 ## BUGS
 
-* Dans le mail d'activité, ajouter le jour
-* Dans le mail activités, mettre le lien vers le profil plutôt que vers le bureau
+* Impossible de changer d'échéance pour JF Lapipe + mauvais jours de retard (apparemment, l'échéance de l'étape est nil)
+
+## TESTS À FAIRE
+
+* Tester le réglage profil du contact avec le monde (préférence)
+  - son réglage/définition
+  - son effet sur l'affichage de la liste des icariens
+
+## À FAIRE RAPIDEMENT
+
+* Passer les pictos homme/femme dans la même couleur que le bandeau
+* Voir les icariens qu'il faut arrêter
+* Test du updated_at pour les étapes de travail pour récupérer corrections de Marion sur les étapes de travail.
+
 
 ## Fonctionnalités impératives
 
-* Quand le premier mail activité aura été envoyé avec succès :
-  - actualiser 'mail_actualites.rb' en online
-  - passer Phil et Marion en '3' pour le 18e bit des options
-  - vérifier que la méthode Time.now.saturday? existe en 1.8
+* Faire une annonce générale pour demander de définir les préférences (surtout pour le contact par le monde)
 
 ## DIVERS
 
 * Faire un "jeu de couleurs" pour les notifications, pour être capable de les reconnaitre à leur couleur.
 
+* Permettre à un icarien de charger son avatar (ou plutôt sa photo)
 
 * Messages de bureau (frigo)
 

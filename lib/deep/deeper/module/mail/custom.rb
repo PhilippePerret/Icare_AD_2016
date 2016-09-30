@@ -31,7 +31,7 @@ class Mail
     end
 
     def style_bande_logo
-      @style_bande_logo ||= "div#logo{font-size:1.7em;font-variant:small-caps;padding:0.45em 2em;background-color:#578088;color:white;}"
+      @style_bande_logo ||= "div#logo{font-size:1.7em;font-variant:small-caps;padding:8px 32px;background-color:#578088;color:white;}"
     end
 
     # Style du message, hors de l'entête (header) donc hors bande

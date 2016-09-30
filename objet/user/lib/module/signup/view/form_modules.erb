@@ -10,10 +10,9 @@ def liste_modules_checkboxable selecteds = nil
   cbs_modules = ''
   AbsModule.each_instance(order: 'tarif ASC') do |amod|
     is_checked = param(:modules_checked).include?(amod.id)
-    debug "#{amod.name} is #{is_checked ? 'checked' : 'NOT checked'}"
-    href    = "abs_module/#{amod.id}/show"
-    cb_name = "signup_modules[#{amod.id}]"
-    cb_id   = "signup_modules-#{amod.id}"
+    href        = "abs_module/#{amod.id}/show"
+    cb_name     = "signup_modules[#{amod.id}]"
+    cb_id       = "signup_modules-#{amod.id}"
     mod_detail  = 'Détail'.in_a(href: href, class: 'small', target: :new).in_span(class: 'link')
     mod_name    = amod.name.in_span(class: 'name')
     mod_tarif   = "#{amod.tarif} €#{amod.type_suivi? ? ' / mois' : ''}".in_span(class: 'tarif')

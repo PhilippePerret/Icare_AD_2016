@@ -43,11 +43,8 @@ class << self
   # Retourne true si les données sont valides
   def data_valides?
     app.benchmark('-> User#data_valides?')
-    # debug "param(:user) : #{param(:user).inspect}"
-    # debug "form_data : \n#{form_data.inspect}"
 
     form_data = param(:user)
-    debug "form_data : \n#{form_data.inspect}"
 
     # Validité du PSEUDO
     @pseudo = form_data[:pseudo].nil_if_empty
@@ -101,7 +98,7 @@ class << self
     @adresse    = form_data[:adresse].nil_if_empty
 
   rescue Exception => e
-    debug e
+    # debug e
     error e.message
   else
     true

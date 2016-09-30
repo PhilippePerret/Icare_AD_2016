@@ -27,9 +27,8 @@ class << self
         @logs.collect{|h| h[:content].in_div(class: h[:options][:class])}.join
       end
     <<-TXT
-#{messages_log}
-<p>Une dernière citation sera : #{site.get_a_citation(no_last_sent: true).inspect}</p>
 <h2>Messages logs</h2>
+#{messages_log}
     TXT
   end
 

@@ -1,4 +1,10 @@
 # encoding: UTF-8
+=begin
+
+  Opérations sur les icariens ou un icarien en particulier
+  --------------------------------------------------------
+
+=end
 raise_unless_admin
 
 class Admin
@@ -9,7 +15,8 @@ class Users
     'free_days' => {hname: 'Jours gratuits', short_value: "Nombre de jours gratuits", long_value: "Raison éventuelle du don de jours gratuits (format ERB)."},
     'travail_propre'  => {hname: 'Travail propre', short_value: nil, long_value: "Description du travail propre (format ERB)."},
     'inject_document' => {hname: 'Document envoyé par mail', medium_value: 'Nom du fichier'},
-    'etape_change'    => {hname: 'Changement d’étape', short_value: 'Numéro de l’étape', long_value: nil}
+    'etape_change'    => {hname: 'Changement d’étape', short_value: 'Numéro de l’étape', long_value: nil},
+    'code_sur_table'  => {hname: 'Exécution code sur données', short_value: nil, medium_value: nil, long_value: "Code à exécuter <strong>sur chaque icarien de la table</strong>, sur la table #{ONLINE ? 'ONLINE' : 'OFFLINE'} puis vous êtes #{ONLINE ? 'ONLINE' : 'OFFLINE'}.<br><br><code>dbtable_users.select.each do |huser|<br>&nbsp;&nbsp;uid = huser[:id]<br>&nbsp;&nbsp;u = User.new(uid)</code>"}
   }
 class << self
 

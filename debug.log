@@ -4241,3 +4241,2367 @@ Objet    = "aide"
 Objet ID = 5
 Method   = "show"
 Context  = nil
+
+
+=== DEBUG DU 30 09 2016 - 08:00:44 ===
+
+-- 
+Objet    = "user"
+Objet ID = 1
+Method   = "profil"
+Context  = nil
+
+
+=== DEBUG DU 30 09 2016 - 08:01:12 ===
+
+-- 
+Objet    = "user"
+Objet ID = 1
+Method   = "profil"
+Context  = nil
+
+
+=== DEBUG DU 30 09 2016 - 08:05:05 ===
+
+-- 
+Objet    = "user"
+Objet ID = 1
+Method   = "profil"
+Context  = nil
+
+
+=== DEBUG DU 30 09 2016 - 08:05:21 ===
+
+-- 
+Objet    = "user"
+Objet ID = 1
+Method   = "profil"
+Context  = nil
+
+
+=== DEBUG DU 30 09 2016 - 08:05:47 ===
+
+-- 
+Objet    = "user"
+Objet ID = 1
+Method   = "profil"
+Context  = nil
+
+
+=== DEBUG DU 30 09 2016 - 08:06:24 ===
+
+-- 
+Objet    = "user"
+Objet ID = 1
+Method   = "profil"
+Context  = nil
+
+
+=== DEBUG DU 30 09 2016 - 08:07:12 ===
+
+-- 
+Objet    = "user"
+Objet ID = 1
+Method   = "profil"
+Context  = nil
+
+
+=== DEBUG DU 30 09 2016 - 08:07:32 ===
+
+-- 
+Objet    = "user"
+Objet ID = 1
+Method   = "profil"
+Context  = nil
+
+
+=== DEBUG DU 30 09 2016 - 08:08:02 ===
+
+-- 
+Objet    = "user"
+Objet ID = 1
+Method   = "profil"
+Context  = nil
+
+
+=== DEBUG DU 30 09 2016 - 08:08:09 ===
+
+-- 
+Objet    = "aide"
+Objet ID = 6
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 30 09 2016 - 08:08:13 ===
+
+-- 
+Objet    = "user"
+Objet ID = 1
+Method   = "profil"
+Context  = nil
+
+
+=== DEBUG DU 30 09 2016 - 08:09:00 ===
+
+-- 
+Objet    = "aide"
+Objet ID = 6
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 30 09 2016 - 08:09:02 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "contact"
+Context  = nil
+
+
+=== DEBUG DU 30 09 2016 - 08:28:56 ===
+
+-- 
+Objet    = "icarien"
+Objet ID = nil
+Method   = "list"
+Context  = nil
+-- no implicit conversion of Symbol into Integer
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/icarien/list.rb:32:in `[]'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/icarien/list.rb:32:in `get_icariens_of_type'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/icarien/list.rb:41:in `liste_icariens'
+(erb):4:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 30 09 2016 - 08:29:17 ===
+
+-- 
+Objet    = "icarien"
+Objet ID = nil
+Method   = "list"
+Context  = nil
+-- undefined method `collect' for nil:NilClass
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/icarien/list.rb:42:in `liste_icariens'
+(erb):7:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 30 09 2016 - 08:29:42 ===
+
+-- 
+Objet    = "icarien"
+Objet ID = nil
+Method   = "list"
+Context  = nil
+
+
+=== DEBUG DU 30 09 2016 - 08:34:53 ===
+
+-- 
+Objet    = "icarien"
+Objet ID = nil
+Method   = "list"
+Context  = nil
+
+
+=== DEBUG DU 30 09 2016 - 08:35:01 ===
+
+-- 
+Objet    = "icarien"
+Objet ID = nil
+Method   = "list"
+Context  = nil
+
+
+=== DEBUG DU 30 09 2016 - 08:36:39 ===
+
+-- 
+Objet    = "icarien"
+Objet ID = nil
+Method   = "list"
+Context  = nil
+
+
+=== DEBUG DU 30 09 2016 - 08:36:43 ===
+
+-- 
+Objet    = "icarien"
+Objet ID = nil
+Method   = "list"
+Context  = nil
+
+
+=== DEBUG DU 30 09 2016 - 08:37:28 ===
+
+-- 
+Objet    = "icarien"
+Objet ID = nil
+Method   = "list"
+Context  = nil
+
+
+=== DEBUG DU 30 09 2016 - 08:38:11 ===
+
+-- 
+Objet    = "icarien"
+Objet ID = nil
+Method   = "list"
+Context  = nil
+
+
+=== DEBUG DU 30 09 2016 - 08:38:35 ===
+
+-- 
+Objet    = "icarien"
+Objet ID = nil
+Method   = "list"
+Context  = nil
+
+
+=== DEBUG DU 30 09 2016 - 08:39:20 ===
+
+-- 
+Objet    = "icarien"
+Objet ID = nil
+Method   = "list"
+Context  = nil
+
+
+=== DEBUG DU 30 09 2016 - 08:39:47 ===
+
+-- 
+Objet    = "icarien"
+Objet ID = nil
+Method   = "list"
+Context  = nil
+
+
+=== DEBUG DU 30 09 2016 - 08:40:13 ===
+
+-- 
+Objet    = "icarien"
+Objet ID = nil
+Method   = "list"
+Context  = nil
+
+
+=== DEBUG DU 30 09 2016 - 08:40:17 ===
+
+-- 
+Objet    = "icarien"
+Objet ID = nil
+Method   = "list"
+Context  = nil
+
+
+=== DEBUG DU 30 09 2016 - 08:40:31 ===
+
+-- 
+Objet    = "icarien"
+Objet ID = nil
+Method   = "list"
+Context  = nil
+
+
+=== DEBUG DU 30 09 2016 - 08:40:42 ===
+
+-- 
+Objet    = "icarien"
+Objet ID = nil
+Method   = "list"
+Context  = nil
+
+
+=== DEBUG DU 30 09 2016 - 08:41:14 ===
+
+-- 
+Objet    = "icarien"
+Objet ID = nil
+Method   = "list"
+Context  = nil
+
+
+=== DEBUG DU 30 09 2016 - 08:42:10 ===
+
+-- 
+Objet    = "icarien"
+Objet ID = nil
+Method   = "list"
+Context  = nil
+
+
+=== DEBUG DU 30 09 2016 - 08:48:27 ===
+
+-- 
+Objet    = "icarien"
+Objet ID = nil
+Method   = "list"
+Context  = nil
+-- undefined method `name' for [:user_id, 5]:Array
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/icarien/list.rb:89:in `block in liste_modules'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/icarien/list.rb:89:in `each'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/icarien/list.rb:89:in `collect'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/icarien/list.rb:89:in `liste_modules'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/icarien/list.rb:68:in `as_card'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/icarien/list.rb:55:in `block in liste_icariens'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/icarien/list.rb:54:in `collect'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/icarien/list.rb:54:in `liste_icariens'
+(erb):4:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 30 09 2016 - 08:49:28 ===
+
+-- 
+Objet    = "icarien"
+Objet ID = nil
+Method   = "list"
+Context  = nil
+-- undefined method `name' for #<IcModule:0x007fdd929a8068 @id=3>
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/icarien/list.rb:91:in `block in liste_modules'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/icarien/list.rb:91:in `collect'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/icarien/list.rb:91:in `liste_modules'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/icarien/list.rb:70:in `as_card'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/icarien/list.rb:57:in `block in liste_icariens'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/icarien/list.rb:56:in `collect'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/icarien/list.rb:56:in `liste_icariens'
+(erb):4:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 30 09 2016 - 08:49:44 ===
+
+-- 
+Objet    = "icarien"
+Objet ID = nil
+Method   = "list"
+Context  = nil
+-- undefined method `count' for nil:NilClass
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/icarien/list.rb:90:in `liste_modules'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/icarien/list.rb:70:in `as_card'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/icarien/list.rb:57:in `block in liste_icariens'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/icarien/list.rb:56:in `collect'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/icarien/list.rb:56:in `liste_icariens'
+(erb):7:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 30 09 2016 - 08:50:16 ===
+
+-- 
+Objet    = "icarien"
+Objet ID = nil
+Method   = "list"
+Context  = nil
+-- /Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/icarien/list.rb:90: syntax error, unexpected '.'
+    modules != nil && module.count > 0 || (return '')
+                             ^
+
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:22:in `require_ruby'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:15:in `require_all'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:330:in `load_per_vue'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:103:in `execute_route'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 30 09 2016 - 08:50:30 ===
+
+-- 
+Objet    = "icarien"
+Objet ID = nil
+Method   = "list"
+Context  = nil
+
+
+=== DEBUG DU 30 09 2016 - 08:57:15 ===
+
+-- 
+Objet    = "icarien"
+Objet ID = nil
+Method   = "list"
+Context  = nil
+-- /Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/icarien/list.rb:103: syntax error, unexpected tSTRING_DEND, expecting keyword_end
+        m.abs_module.name}.pretty_join
+                          ^
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/icarien/list.rb:105: syntax error, unexpected tSTRING_DEND, expecting '}'
+    autres_modules.collect{|m|m.abs_module.name}.pretty_join
+                                                ^
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/icarien/list.rb:107: syntax error, unexpected keyword_end, expecting '}'
+
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:22:in `require_ruby'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:15:in `require_all'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:330:in `load_per_vue'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:103:in `execute_route'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 30 09 2016 - 08:57:31 ===
+
+-- 
+Objet    = "icarien"
+Objet ID = nil
+Method   = "list"
+Context  = nil
+
+
+=== DEBUG DU 30 09 2016 - 08:57:57 ===
+
+-- 
+Objet    = "icarien"
+Objet ID = nil
+Method   = "list"
+Context  = nil
+
+
+=== DEBUG DU 30 09 2016 - 08:58:48 ===
+
+-- 
+Objet    = "icarien"
+Objet ID = nil
+Method   = "list"
+Context  = nil
+
+
+=== DEBUG DU 30 09 2016 - 09:22:53 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 30 09 2016 - 09:22:57 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 30 09 2016 - 09:23:00 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 30 09 2016 - 09:23:08 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {}
+
+
+=== DEBUG DU 30 09 2016 - 09:23:25 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {}
+
+
+=== DEBUG DU 30 09 2016 - 09:23:42 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {}
+
+
+=== DEBUG DU 30 09 2016 - 09:29:59 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 30 09 2016 - 09:30:04 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {}
+
+
+=== DEBUG DU 30 09 2016 - 09:32:20 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- (eval):1: syntax error, unexpected ')', expecting =>
+...0000000000004310000011000000'})
+...                               ^
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/database/edit.rb:64:in `eval'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/database/edit.rb:64:in `<top (required)>'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:22:in `require_ruby'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:15:in `require_all'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:330:in `load_per_vue'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:103:in `execute_route'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 30 09 2016 - 09:32:52 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 30 09 2016 - 09:32:56 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {}
+
+
+=== DEBUG DU 30 09 2016 - 09:34:34 ===
+
+-- Est-on samedi ? false
+-- Est-on vendredi ? true
+
+
+=== DEBUG DU 30 09 2016 - 09:41:47 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 30 09 2016 - 09:41:49 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 30 09 2016 - 09:41:52 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 30 09 2016 - 09:41:56 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {}
+
+
+=== DEBUG DU 30 09 2016 - 09:42:27 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {:where=>1}
+
+
+=== DEBUG DU 30 09 2016 - 09:43:05 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- k = :id
+-- typ = "Fixnum"
+-- v
+-- val = "1"
+-- k = :pseudo
+-- typ = "String"
+-- v
+-- val = "Phil"
+-- k = :patronyme
+-- typ = "String"
+-- v
+-- val = "Philippe Perret"
+-- k = :mail
+-- typ = "String"
+-- v
+-- val = "phil@atelier-icare.net"
+-- k = :cpassword
+-- typ = "String"
+-- v
+-- val = "2e8e01271c76790c59839faea3312b67"
+-- k = :salt
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :session_id
+-- typ = "String"
+-- v
+-- val = "643601209d2943f17bb809682baee7e5"
+-- k = :ip
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :options
+-- typ = "String"
+-- v
+-- val = "70100000000000004310000011000000"
+-- k = :sexe
+-- typ = "String"
+-- v
+-- val = "H"
+-- k = :naissance
+-- typ = "Fixnum"
+-- v
+-- val = "1964"
+-- k = :adresse
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :telephone
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :icmodule_id
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :date_sortie
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :updated_at
+-- typ = "Fixnum"
+-- v
+-- val = "1475220912"
+-- k = :created_at
+-- typ = "Fixnum"
+-- v
+-- val = "1475220912"
+-- # ERREUR MYSQL : Column 'salt' cannot be null
+-- # REQUEST : UPDATE users SET id = ?, pseudo = ?, patronyme = ?, mail = ?, cpassword = ?, salt = ?, session_id = ?, ip = ?, options = ?, sexe = ?, naissance = ?, adresse = ?, telephone = ?, icmodule_id = ?, date_sortie = ?, updated_at = ?, created_at = ? WHERE id = ?;
+-- # VALEURS PRÉPARÉES : [1, "Phil", "Philippe Perret", "phil@atelier-icare.net", "2e8e01271c76790c59839faea3312b67", nil, "643601209d2943f17bb809682baee7e5", nil, "70100000000000004310000011000000", "H", 1964, nil, nil, nil, nil, 1475220912, 1475220912, 1]
+-- /Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/statement.rb:8:in `_execute'
+/Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/statement.rb:8:in `block in execute'
+/Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/statement.rb:7:in `handle_interrupt'
+/Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/statement.rb:7:in `execute'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/request.rb:390:in `exec'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/request.rb:108:in `update'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/mysql.rb:156:in `update'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/database/lib/module/save_row/save_row.rb:41:in `insert_or_update_in'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/database/lib/module/save_row/save_row.rb:26:in `_save_row'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/database/edit.rb:28:in `<top (required)>'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:22:in `require_ruby'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:15:in `require_all'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:330:in `load_per_vue'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:103:in `execute_route'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+-- Column 'salt' cannot be null
+
+/Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/statement.rb:8:in `_execute'
+/Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/statement.rb:8:in `block in execute'
+/Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/statement.rb:7:in `handle_interrupt'
+/Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/statement.rb:7:in `execute'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/request.rb:390:in `exec'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/request.rb:108:in `update'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/mysql.rb:156:in `update'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/database/lib/module/save_row/save_row.rb:41:in `insert_or_update_in'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/database/lib/module/save_row/save_row.rb:26:in `_save_row'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/database/edit.rb:28:in `<top (required)>'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:22:in `require_ruby'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:15:in `require_all'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:330:in `load_per_vue'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:103:in `execute_route'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 30 09 2016 - 09:43:20 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- k = :id
+-- typ = "Fixnum"
+-- v
+-- val = "1"
+-- k = :pseudo
+-- typ = "String"
+-- v
+-- val = "Phil"
+-- k = :patronyme
+-- typ = "String"
+-- v
+-- val = "Philippe Perret"
+-- k = :mail
+-- typ = "String"
+-- v
+-- val = "phil@atelier-icare.net"
+-- k = :cpassword
+-- typ = "String"
+-- v
+-- val = "2e8e01271c76790c59839faea3312b67"
+-- k = :salt
+-- typ = "NotNil"
+-- v
+-- val = ""
+-- k = :session_id
+-- typ = "String"
+-- v
+-- val = "643601209d2943f17bb809682baee7e5"
+-- k = :ip
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :options
+-- typ = "String"
+-- v
+-- val = "70100000000000004310000011000000"
+-- k = :sexe
+-- typ = "String"
+-- v
+-- val = "H"
+-- k = :naissance
+-- typ = "Fixnum"
+-- v
+-- val = "1964"
+-- k = :adresse
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :telephone
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :icmodule_id
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :date_sortie
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :updated_at
+-- typ = "Fixnum"
+-- v
+-- val = "1475220912"
+-- k = :created_at
+-- typ = "Fixnum"
+-- v
+-- val = "1475220912"
+
+
+=== DEBUG DU 30 09 2016 - 09:43:30 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {:where=>2}
+
+
+=== DEBUG DU 30 09 2016 - 09:43:52 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- k = :id
+-- typ = "Fixnum"
+-- v
+-- val = "2"
+-- k = :pseudo
+-- typ = "String"
+-- v
+-- val = "Marion"
+-- k = :patronyme
+-- typ = "String"
+-- v
+-- val = "Marion Michel"
+-- k = :mail
+-- typ = "String"
+-- v
+-- val = "marion.michel31@free.fr"
+-- k = :cpassword
+-- typ = "String"
+-- v
+-- val = "a43beabb348b3c2b7ac3f79f3776052a"
+-- k = :salt
+-- typ = "String"
+-- v
+-- val = "pilou"
+-- k = :session_id
+-- typ = "String"
+-- v
+-- val = "0bbbb94ed5db5468788a6d1f56784da5"
+-- k = :ip
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :options
+-- typ = "String"
+-- v
+-- val = "30100000000000004310000011000000"
+-- k = :sexe
+-- typ = "String"
+-- v
+-- val = "F"
+-- k = :naissance
+-- typ = "Fixnum"
+-- v
+-- val = "1992"
+-- k = :adresse
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :telephone
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :icmodule_id
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :date_sortie
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :updated_at
+-- typ = "Fixnum"
+-- v
+-- val = "1475220157"
+-- k = :created_at
+-- typ = "Fixnum"
+-- v
+-- val = "1475137474"
+
+
+=== DEBUG DU 30 09 2016 - 09:44:19 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {:where=>2}
+
+
+=== DEBUG DU 30 09 2016 - 09:46:53 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- k = :id
+-- typ = "Fixnum"
+-- v
+-- val = "2"
+-- k = :pseudo
+-- typ = "String"
+-- v
+-- val = "Marion"
+-- k = :patronyme
+-- typ = "String"
+-- v
+-- val = "Marion Michel"
+-- k = :mail
+-- typ = "String"
+-- v
+-- val = "marion.michel31@free.fr"
+-- k = :cpassword
+-- typ = "String"
+-- v
+-- val = "a43beabb348b3c2b7ac3f79f3776052a"
+-- k = :salt
+-- typ = "String"
+-- v
+-- val = "pilou"
+-- k = :session_id
+-- typ = "String"
+-- v
+-- val = "0bbbb94ed5db5468788a6d1f56784da5"
+-- k = :ip
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :options
+-- typ = "String"
+-- v
+-- val = "30100000000000004310000011000000"
+-- k = :sexe
+-- typ = "String"
+-- v
+-- val = "F"
+-- k = :naissance
+-- typ = "Fixnum"
+-- v
+-- val = "1992"
+-- k = :adresse
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :telephone
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :icmodule_id
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :date_sortie
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :updated_at
+-- typ = "Fixnum"
+-- v
+-- val = "1475220157"
+-- k = :created_at
+-- typ = "Fixnum"
+-- v
+-- val = "1475137474"
+
+
+=== DEBUG DU 30 09 2016 - 09:47:00 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {:where=>2}
+
+
+=== DEBUG DU 30 09 2016 - 09:50:37 ===
+
+-- 
+Objet    = "icarien"
+Objet ID = nil
+Method   = "list"
+Context  = nil
+
+
+=== DEBUG DU 30 09 2016 - 09:51:31 ===
+
+-- 
+Objet    = "icarien"
+Objet ID = nil
+Method   = "list"
+Context  = nil
+
+
+=== DEBUG DU 30 09 2016 - 09:53:19 ===
+
+-- 
+Objet    = "icarien"
+Objet ID = nil
+Method   = "list"
+Context  = nil
+
+
+=== DEBUG DU 30 09 2016 - 09:54:04 ===
+
+-- 
+Objet    = "icarien"
+Objet ID = nil
+Method   = "list"
+Context  = nil
+
+
+=== DEBUG DU 30 09 2016 - 09:55:18 ===
+
+-- 
+Objet    = "icarien"
+Objet ID = nil
+Method   = "list"
+Context  = nil
+
+
+=== DEBUG DU 30 09 2016 - 09:55:55 ===
+
+-- 
+Objet    = "icarien"
+Objet ID = nil
+Method   = "list"
+Context  = nil
+
+
+=== DEBUG DU 30 09 2016 - 11:06:40 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+-- Redirection -> user/signin
+-- param(:backto) mis à "bureau/home"
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signin"
+Context  = nil
+
+
+=== DEBUG DU 30 09 2016 - 11:06:44 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "login"
+Context  = nil
+-- Redirection -> bureau/home
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 30 09 2016 - 11:06:48 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 30 09 2016 - 11:07:22 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- Code : Un code pour voir.
+
+
+=== DEBUG DU 30 09 2016 - 11:11:57 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- Code : Un code pour voir.
+
+
+=== DEBUG DU 30 09 2016 - 11:27:10 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- Code : 
+
+
+=== DEBUG DU 30 09 2016 - 11:27:46 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- Code : code
+-- undefined method `upcase=' for "ONLINE":String
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/operations_user/code_sur_table.rb:13:in `exec_code_sur_table'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/users.rb:62:in `execute_operation'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/users.rb:70:in `<top (required)>'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:22:in `require_ruby'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:15:in `require_all'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:330:in `load_per_vue'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:103:in `execute_route'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 30 09 2016 - 11:29:48 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- Code : code
+
+
+=== DEBUG DU 30 09 2016 - 11:30:15 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- Code : code à exécuter
+
+
+=== DEBUG DU 30 09 2016 - 11:32:10 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- Code : le code à exécuter
+
+
+=== DEBUG DU 30 09 2016 - 11:43:12 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- Code : debug huser
+break
+-- undefined method `each' for #<SiteHtml::DBM_TABLE:0x007fc24b0fc2c8>
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/operations_user/code_sur_table.rb:12:in `exec_code_sur_table'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/users.rb:62:in `execute_operation'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/users.rb:70:in `<top (required)>'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:22:in `require_ruby'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:15:in `require_all'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:330:in `load_per_vue'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:103:in `execute_route'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 30 09 2016 - 11:43:49 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- Code : debug huser
+break
+-- undefined local variable or method `code' for Admin::Users:Class
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/operations_user/code_sur_table.rb:13:in `block in exec_code_sur_table'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/operations_user/code_sur_table.rb:12:in `each'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/operations_user/code_sur_table.rb:12:in `exec_code_sur_table'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/users.rb:62:in `execute_operation'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/users.rb:70:in `<top (required)>'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:22:in `require_ruby'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:15:in `require_all'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:330:in `load_per_vue'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:103:in `execute_route'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 30 09 2016 - 11:44:10 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- Code : debug huser
+break
+-- (eval):2: Can't escape from eval with break
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/operations_user/code_sur_table.rb:13:in `eval'
+
+
+=== DEBUG DU 30 09 2016 - 11:56:53 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- Code : debug huser
+break
+-- (eval):2: Can't escape from eval with break
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/operations_user/code_sur_table.rb:13:in `eval'
+
+
+=== DEBUG DU 30 09 2016 - 11:58:07 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- /Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/operations_user/code_sur_table.rb:45: syntax error, unexpected keyword_end, expecting end-of-input
+end #/Admin
+   ^
+
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/require.rb:18:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/require.rb:71:in `block in require_all_in'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/require.rb:71:in `each'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/require.rb:71:in `require_all_in'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/divers/modules/main_objets.rb:63:in `require_module'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/users.rb:61:in `execute_operation'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/users.rb:70:in `<top (required)>'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:22:in `require_ruby'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:15:in `require_all'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:330:in `load_per_vue'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:103:in `execute_route'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 30 09 2016 - 11:58:24 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- Code : debug huser
+break
+-- {:id=>1, :pseudo=>"Phil", :patronyme=>"Philippe Perret", :mail=>"phil@atelier-icare.net", :cpassword=>"2e8e01271c76790c59839faea3312b67", :salt=>"", :session_id=>"49715f682cb9e0caec91ce28b8f5199e", :ip=>nil, :options=>"70100000000000004310000011000000", :sexe=>"H", :naissance=>1964, :adresse=>nil, :telephone=>nil, :icmodule_id=>nil, :date_sortie=>nil, :updated_at=>1475226404, :created_at=>1475220912}
+
+
+=== DEBUG DU 30 09 2016 - 12:01:08 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- Code : debug huser
+break
+-- {:id=>1, :pseudo=>"Phil", :patronyme=>"Philippe Perret", :mail=>"phil@atelier-icare.net", :cpassword=>"2e8e01271c76790c59839faea3312b67", :salt=>"", :session_id=>"49715f682cb9e0caec91ce28b8f5199e", :ip=>nil, :options=>"70100000000000004310000011000000", :sexe=>"H", :naissance=>1964, :adresse=>nil, :telephone=>nil, :icmodule_id=>nil, :date_sortie=>nil, :updated_at=>1475226404, :created_at=>1475220912}
+
+
+=== DEBUG DU 30 09 2016 - 12:03:43 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- Code : uid = huser[:id]
+u = User.new(uid)
+opts = huser[:options]
+opts.set_bit(23,8)
+u.set(options: opts)
+
+
+=== DEBUG DU 30 09 2016 - 12:03:50 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 30 09 2016 - 12:03:53 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 30 09 2016 - 12:03:56 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 30 09 2016 - 12:03:58 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {}
+
+
+=== DEBUG DU 30 09 2016 - 12:05:00 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- Code : uid = huser[:id]
+u = User.new(uid)
+opts = huser[:options]
+opts = opts.set_bit(23,8)
+u.set(options: opts)
+
+
+=== DEBUG DU 30 09 2016 - 12:05:07 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {}
+
+
+=== DEBUG DU 30 09 2016 - 12:07:41 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- Code : uid = huser[:id]
+u = User.new(uid)
+opts = huser[:options]
+opts = opts.set_bit(23,8)
+u.set(options: opts)
+
+
+=== DEBUG DU 30 09 2016 - 12:12:13 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- Code : uid = huser[:id]
+u = User.new(uid)
+opts = huser[:options]
+opts = opts.set_bit(23,8)
+u.set(options: opts)
+
+
+=== DEBUG DU 30 09 2016 - 12:12:35 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 30 09 2016 - 12:13:24 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 30 09 2016 - 12:13:27 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "dashboard"
+Context  = nil
+-- --> check_folders_offline
+-- --> check_folders_online
+-- --> build_result
+-- --> open_result
+-- Redirection -> bureau/home
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 30 09 2016 - 16:48:42 ===
+
+-- 
+Objet    = "icarien"
+Objet ID = nil
+Method   = "list"
+Context  = nil
+-- no implicit conversion of nil into String
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/icarien/list.rb:73:in `+'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/icarien/list.rb:73:in `as_card'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/icarien/list.rb:57:in `block in liste_icariens'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/icarien/list.rb:56:in `collect'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/icarien/list.rb:56:in `liste_icariens'
+(erb):4:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 30 09 2016 - 16:49:51 ===
+
+-- 
+Objet    = "icarien"
+Objet ID = nil
+Method   = "list"
+Context  = nil
+
+
+=== DEBUG DU 30 09 2016 - 16:51:01 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signin"
+Context  = nil
+
+
+=== DEBUG DU 30 09 2016 - 16:51:06 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "login"
+Context  = nil
+-- kroute = :bureau
+-- Redirection -> bureau/1/home
+-- 
+Objet    = "bureau"
+Objet ID = 1
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 30 09 2016 - 16:53:05 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "login"
+Context  = nil
+-- kroute = :bureau
+-- Redirection -> bureau/1/home
+-- 
+Objet    = "bureau"
+Objet ID = 1
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 30 09 2016 - 16:53:13 ===
+
+-- 
+Objet    = "icarien"
+Objet ID = nil
+Method   = "list"
+Context  = nil
+
+
+=== DEBUG DU 30 09 2016 - 16:55:13 ===
+
+-- 
+Objet    = "icarien"
+Objet ID = nil
+Method   = "list"
+Context  = nil
+
+
+=== DEBUG DU 30 09 2016 - 17:00:28 ===
+
+-- 
+Objet    = "icarien"
+Objet ID = nil
+Method   = "list"
+Context  = nil
+
+
+=== DEBUG DU 30 09 2016 - 17:00:39 ===
+
+-- 
+Objet    = "icarien"
+Objet ID = nil
+Method   = "list"
+Context  = nil
+
+
+=== DEBUG DU 30 09 2016 - 17:32:09 ===
+
+-- 
+Objet    = "icarien"
+Objet ID = nil
+Method   = "list"
+Context  = nil
+
+
+=== DEBUG DU 30 09 2016 - 17:38:25 ===
+
+-- 
+Objet    = "icarien"
+Objet ID = nil
+Method   = "list"
+Context  = nil
+
+
+=== DEBUG DU 30 09 2016 - 17:38:30 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 84
+Method   = "frigo"
+Context  = nil
+-- undefined method `identified' for #<User:0x007faa828602e8>
+
+(erb):3:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 30 09 2016 - 17:38:42 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 84
+Method   = "frigo"
+Context  = nil
+
+
+=== DEBUG DU 30 09 2016 - 17:43:55 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 84
+Method   = "frigo"
+Context  = nil
+
+
+=== DEBUG DU 30 09 2016 - 17:43:59 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 84
+Method   = "frigo"
+Context  = nil
+
+
+=== DEBUG DU 30 09 2016 - 17:44:18 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 84
+Method   = "frigo"
+Context  = nil
+
+
+=== DEBUG DU 30 09 2016 - 17:44:44 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 84
+Method   = "frigo"
+Context  = nil
+
+
+=== DEBUG DU 30 09 2016 - 17:45:33 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 30 09 2016 - 17:45:37 ===
+
+-- 
+Objet    = "icarien"
+Objet ID = nil
+Method   = "list"
+Context  = nil
+
+
+=== DEBUG DU 30 09 2016 - 17:47:26 ===
+
+-- 
+Objet    = "icarien"
+Objet ID = nil
+Method   = "list"
+Context  = nil
+
+
+=== DEBUG DU 30 09 2016 - 17:47:36 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 72
+Method   = "frigo"
+Context  = nil
+
+
+=== DEBUG DU 30 09 2016 - 17:52:28 ===
+
+-- 
+Objet    = "icarien"
+Objet ID = nil
+Method   = "list"
+Context  = nil
+
+
+=== DEBUG DU 30 09 2016 - 17:55:20 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "contact"
+Context  = nil
+-- undefined local variable or method `required_mark' for #<SiteHtml:0x007fc1da274c48>
+
+(erb):34:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 30 09 2016 - 17:55:31 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "contact"
+Context  = nil
+
+
+=== DEBUG DU 30 09 2016 - 18:16:01 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "contact"
+Context  = nil
+
+
+=== DEBUG DU 30 09 2016 - 18:20:39 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "contact"
+Context  = nil
+-- undefined local variable or method `destinataire' for #<SiteHtml:0x007f949b318be8>
+
+(erb):23:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 30 09 2016 - 18:20:59 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "contact"
+Context  = nil
+-- undefined method `destinataire' for #<SiteHtml:0x007fcdfc1a0b90>
+
+(erb):23:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 30 09 2016 - 18:21:03 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "contact"
+Context  = nil
+-- undefined method `destinataire' for #<SiteHtml:0x007f9de39f0bb8>
+
+(erb):23:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 30 09 2016 - 18:21:58 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "contact"
+Context  = nil
+
+
+=== DEBUG DU 30 09 2016 - 18:22:20 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "contact"
+Context  = nil
+
+
+=== DEBUG DU 30 09 2016 - 18:22:41 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "contact"
+Context  = nil
+
+
+=== DEBUG DU 30 09 2016 - 18:23:58 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "contact"
+Context  = nil
+-- undefined method `merge' for "to":String
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/extensions/String_html.rb:262:in `in_hidden'
+(erb):32:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 30 09 2016 - 18:24:13 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "contact"
+Context  = nil
+
+
+=== DEBUG DU 30 09 2016 - 18:24:33 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "contact"
+Context  = nil
+-- undefined method `mail' for false:FalseClass
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/site/contact.rb:43:in `data_mail'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/site/contact.rb:18:in `send'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/site/contact.rb:4:in `envoyer'
+(erb):18:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 30 09 2016 - 18:25:35 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "contact"
+Context  = nil
+-- Non, vous n'êtes pas autorisé à écrire à cet icarien.
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/site/contact.rb:62:in `destinataire'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/site/contact.rb:43:in `data_mail'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/site/contact.rb:18:in `send'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/site/contact.rb:4:in `envoyer'
+(erb):18:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+-- Non, vous n'êtes pas autorisé à écrire à cet icarien.
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/site/contact.rb:62:in `destinataire'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/site/contact.rb:43:in `data_mail'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/site/contact.rb:18:in `send'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/site/contact.rb:4:in `envoyer'
+(erb):18:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 30 09 2016 - 18:39:53 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "contact"
+Context  = nil
+-- dest_id : 83 (Jena)
+-- user.identified? true (user = Phil)
+-- undefined method `mail' for nil:NilClass
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/site/contact.rb:42:in `data_mail'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/site/contact.rb:18:in `send'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/site/contact.rb:4:in `envoyer'
+(erb):18:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 30 09 2016 - 18:40:35 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "contact"
+Context  = nil
+-- dest_id : 83 (Jena)
+-- user.identified? true (user = Phil)
+-- undefined method `[]' for nil:NilClass
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/module/mail/mail.rb:156:in `header'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/module/mail/mail.rb:127:in `body'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/module/mail/mail.rb:94:in `code_html'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/module/mail/mail.rb:81:in `message'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/module/mail/mail.rb:289:in `send'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/module/mail/mail.rb:30:in `exec_send_mail'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mail.rb:8:in `send_mail'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/site/contact.rb:18:in `send'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/site/contact.rb:4:in `envoyer'
+(erb):18:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+-- dest_id : 83 (Jena)
+-- user.identified? true (user = Phil)
+-- undefined method `pseudo' for nil:NilClass
+
+(erb):23:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 30 09 2016 - 18:42:01 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "contact"
+Context  = nil
+-- dest_id : 83 (Jena)
+-- user.identified? true (user = Phil)
+-- undefined method `[]' for nil:NilClass
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/module/mail/mail.rb:156:in `header'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/module/mail/mail.rb:127:in `body'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/module/mail/mail.rb:94:in `code_html'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/module/mail/mail.rb:81:in `message'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/module/mail/mail.rb:289:in `send'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/module/mail/mail.rb:30:in `exec_send_mail'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mail.rb:8:in `send_mail'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/site/contact.rb:18:in `send'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/site/contact.rb:4:in `envoyer'
+(erb):18:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+-- dest_id : 83 (Jena)
+-- user.identified? true (user = Phil)
+-- undefined method `pseudo' for nil:NilClass
+
+(erb):23:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 30 09 2016 - 18:43:29 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "contact"
+Context  = nil
+-- dest_id : 83 (Jena)
+-- user.identified? true (user = Phil)
+
+
+=== DEBUG DU 30 09 2016 - 18:43:40 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "contact"
+Context  = nil
+
+
+=== DEBUG DU 30 09 2016 - 18:43:46 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "contact"
+Context  = nil
+-- dest_id : 83 (Jena)
+-- user.identified? true (user = Phil)
+
+
+=== DEBUG DU 30 09 2016 - 18:44:49 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 30 09 2016 - 18:44:52 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 30 09 2016 - 18:44:54 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 30 09 2016 - 18:45:37 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {:columns=>"SUBSTRING(options,20,1) AS pref_contact"}
+
+
+=== DEBUG DU 30 09 2016 - 18:47:58 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "contact"
+Context  = nil
+
+
+=== DEBUG DU 30 09 2016 - 18:48:04 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "contact"
+Context  = nil
+-- undefined local variable or method `mail' for #<SiteHtml::Contact:0x007fe14a94e6d8>
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/site/contact.rb:44:in `data_mail'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/site/contact.rb:19:in `send'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/site/contact.rb:4:in `envoyer'
+(erb):18:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 30 09 2016 - 18:48:26 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "contact"
+Context  = nil
+
+
+=== DEBUG DU 30 09 2016 - 18:51:12 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "contact"
+Context  = nil
+
+
+=== DEBUG DU 30 09 2016 - 18:51:52 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "contact"
+Context  = nil
+
+
+=== DEBUG DU 30 09 2016 - 18:52:05 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "contact"
+Context  = nil
+
+
+=== DEBUG DU 30 09 2016 - 18:52:22 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "contact"
+Context  = nil
+
+
+=== DEBUG DU 30 09 2016 - 18:52:27 ===
+
+-- 
+Objet    = "user"
+Objet ID = 1
+Method   = "deconnexion"
+Context  = nil
+
+
+=== DEBUG DU 30 09 2016 - 18:52:34 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "contact"
+Context  = nil
+-- Vous n’êtes pas autorisé à contacter cet(te) icarien(ne) !
+
+(erb):21:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 30 09 2016 - 18:53:34 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "contact"
+Context  = nil
+
+
+=== DEBUG DU 30 09 2016 - 18:54:19 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "contact"
+Context  = nil
+
+
+=== DEBUG DU 30 09 2016 - 18:54:53 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "contact"
+Context  = nil
+
+
+=== DEBUG DU 30 09 2016 - 18:55:23 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "contact"
+Context  = nil

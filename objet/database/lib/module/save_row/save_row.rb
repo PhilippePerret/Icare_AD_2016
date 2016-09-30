@@ -36,6 +36,7 @@ class << self
 
   def insert_or_update_in table
     wherecount = row.key?(:id) ? {id: row_id} : {ip: row[:ip]}
+    @final_values.merge!(updated_at: Time.now.to_i)
     if table.count( where: wherecount ) > 0
       if row.key?(:id)
         table.update(row_id, @final_values)

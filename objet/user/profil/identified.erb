@@ -61,12 +61,19 @@ def menu_goto_after_signin
 end
 
 def menu_contact
+  menu_contact_for 'contact_mail', user.pref_type_contact
+end
+def menu_contact_world
+  menu_contact_for 'contact_mail_world', user.pref_type_contact_world
+end
+
+def menu_contact_for key, selected
   [
     ['0', 'par message et par mail'],
     ['1', 'par message seulement'],
     ['2', 'par mail seulement'],
     ['8', 'aucun contact']
-  ].in_select(id: 'prefs_contact_mail', name: 'prefs[type_contact]', class: 'inline')
+  ].in_select(id: "prefs_#{key}", name: "prefs[#{key}]", class: 'inline', selected: selected.to_s)
 end
 
 # Les lignes des préférences user
@@ -75,7 +82,7 @@ def lipref libelle, menu, aide_id
     libelle.in_span(class: 'lib') +
     menu.in_span(class: 'menu') +
     lien.aide(aide_id).in_span(class: 'aide')
-  ).in_li(class: 'lipref')
+  ).in_div(class: 'lipref')
 end
 form_prefs =
   (
@@ -83,8 +90,9 @@ form_prefs =
     (
       lipref('Recevoir le mail des dernières actualités', menu_mail_updates, 4) +
       lipref('Après l’identification, rejoindre la page', menu_goto_after_signin, 1) +
-      lipref('Les icarien(ne)s peuvent me contacter…', menu_contact, 5)
-    ).in_ul(id: 'ul_preferences') +
+      lipref('Contact avec les icariens et icariennes', menu_contact, 5) +
+      lipref('Contact avec le reste du monde', menu_contact_world, 6)
+    ).in_div(id: 'liste_preferences') +
     "Enregistrer".in_submit(class: 'btn small discret').in_div(class: 'buttons')
   ).in_form(id: 'form_preferences', action: "user/#{user.id}/profil")
 %>

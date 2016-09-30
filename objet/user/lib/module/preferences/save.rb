@@ -30,6 +30,8 @@ class User
 
     # --- Contact ---
     new_options = new_options.set_bit(19, prefs[:type_contact])
+    # --- Contact avec le monde ---
+    new_options = new_options.set_bit(23, prefs[:type_contact_world])
 
     # On enregistre les options choisies
     self.set(options: new_options)
