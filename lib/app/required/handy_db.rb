@@ -11,6 +11,7 @@ def dbtable_users         ; @dbtusers   ||= sdbtbl_users('users')     end
 def dbtable_paiements     ; @dbtpaimnts ||= sdbtbl_users('paiements') end
 def dbtable_watchers      ; @dbtwtchrs  ||= sdbtbl_hot('watchers')    end
 def dbtable_actualites    ; @dbtactus   ||= sdbtbl_hot('actualites')  end
+alias :dbtable_activites :dbtable_actualites
 def dbtable_checkform     ; @dbtblchkf  ||= sdbtbl_hot('checkform')   end
 def dbtable_connexions    ; @dbtbl_cons ||= sdbtbl_hot('connexions')  end
 

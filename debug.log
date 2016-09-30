@@ -4132,3 +4132,112 @@ Objet    = "abs_etape"
 Objet ID = 1
 Method   = "edit"
 Context  = nil
+
+
+=== DEBUG DU 30 09 2016 - 07:11:57 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signin"
+Context  = nil
+
+
+=== DEBUG DU 30 09 2016 - 07:12:01 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "login"
+Context  = nil
+-- kroute = :bureau
+-- Redirection -> bureau/1/home
+-- 
+Objet    = "bureau"
+Objet ID = 1
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 30 09 2016 - 07:12:05 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 30 09 2016 - 07:12:08 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 30 09 2016 - 07:12:12 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 30 09 2016 - 07:12:14 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {}
+
+
+=== DEBUG DU 30 09 2016 - 07:12:20 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {}
+
+
+=== DEBUG DU 30 09 2016 - 07:13:01 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 30 09 2016 - 07:13:05 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {}
+
+
+=== DEBUG DU 30 09 2016 - 07:46:41 ===
+
+-- 
+Objet    = "user"
+Objet ID = 1
+Method   = "profil"
+Context  = nil
+
+
+=== DEBUG DU 30 09 2016 - 07:47:05 ===
+
+-- 
+Objet    = "aide"
+Objet ID = 5
+Method   = "show"
+Context  = nil

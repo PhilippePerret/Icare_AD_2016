@@ -9,7 +9,10 @@
 
 ## Fonctionnalités impératives
 
-* Envoi du mail d'activité
+* Quand le premier mail activité aura été envoyé avec succès :
+  - actualiser 'mail_actualites.rb' en online
+  - passer Phil et Marion en '3' pour le 18e bit des options
+  - vérifier que la méthode Time.now.saturday? existe en 1.8
 
 ## DIVERS
 

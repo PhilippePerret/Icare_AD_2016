@@ -4,11 +4,20 @@
 class Cron
 
 # Pour appeler le processus par le cron
+# Noter qu'il est appelé toutes les heures, qu'il faut donc tester
+# pour voir si c'est bien l'heure de l'envoi.
+#
 def _mail_activites
   Cron::Activites.mail_activites
+  if Time.now.saturday? && Time.now.hour == Cron::Activites::MAIL_ACTIVITES_HOUR
+    is_mail_hebdomadaire = true
+    Cron::Activites.mail_activites
+  end
 end
 
 class Activites
+
+  MAIL_ACTIVITES_HOUR = 8
 
   # Les mails à retirer des envois, pour différentes raisons à commencer
   # par le fait que l'adresse n'existe plus.
@@ -19,40 +28,55 @@ class Activites
 
 class << self
 
+  # Retourne TRUE si c'est pour le mail hebdomadaire
+  attr_accessor :is_mail_hebdomadaire
+  def mail_hebdomadaire?
+    self.is_mail_hebdomadaire
+  end
+
   # = main =
   #
   # Méthode principale qui envoie les mails d'activité à tous les
   # icariens qui en ont fait la demande et tous les actifs.
   #
-  # Noter que les librairies du site ne sont pas chargées, dans la nouvelle
-  # version du cron. Le cron implémente une version minimale des méthodes et
-  # des classes.
+  # C'est un envoi du mail quotifien ou du mail hebdomadaire en fonction
+  # du jour.
+  #
+  # Noter que les librairies du site sont chargées, dans la nouvelle
+  # version du cron.
   #
   def mail_activites
     reset
     log "<hr />"
-    log "---> Envoi des mails d'actualite de la veille", {time: true}
-    if mode_test?
-      log "MODE TEST --- Les mails ne seront pas vraiment envoyes"
+    if mail_hebdomadaire?
+      log '---> Envoi du mail HEBDOMADAIRE', {time: true}
+    else
+      # Si ça n'est pas l'heure
+      Time.now.hour == MAIL_ACTIVITES_HOUR || return
+      log "---> Envoi des mails d'actualite de la veille", {time: true}
     end
 
     # S'il n'y a aucune actualité trouvée pour la veille, on peut
     # s'en retourner aussitôt
-    if actualites_veille.empty?
-      log "= Aucune actualite trouvée pour hier."
+    if dernieres_activites.empty?
+      log '= Aucune actualite trouvée.'
       return
     end
 
+    if mode_test?
+      log "MODE TEST --- Les mails ne seront pas vraiment envoyes"
+    end
+
     log "*** ENVOI DES MESSAGES D'ACTUALITE ***", {time: true}
-    if destinataires.nil?
-      log "`destinataires` est nil (ce qui ne devrait jamais arriver)..."
+    destinataires.count > 0 || begin
+      log "Aucun destinataire trouvé"
       return
     end
 
     # ----------------------------
     # BOUCLE D'ENVOI DES MESSAGES
     # ----------------------------
-    log "- POUR LE MOMENT, LES MAILS NE SONT ENVOYÉS QU'À PHIL"
+    # log "- POUR LE MOMENT, LES MAILS NE SONT ENVOYÉS QU'À PHIL"
     # cf. def destinataires ci-dessous
     destinataires.each do |u|
       next if MAILS_OUT.include?(u.mail)
@@ -62,36 +86,50 @@ class << self
         log "--- Message envoyé avec succès à #{u.pseudo} (#{u.mail})"
       else
         debug resultat
-        log "--- Une erreur s'est produire : #{resultat.message}"
+        log "--- Une erreur s'est produite : #{resultat.message}"
       end
     end
 
   rescue Exception => e
     debug e
     mess_err = e.message + "\n\n" + e.backtrace.join("\n")
-    log "### Une erreur s'est produit : #{mess_err}"
+    log "### Une erreur s'est produite : #{mess_err}"
     false
   else
     # Tout s'est bien passé, on marque que les actualités ont
     # été envoyées aux users
-    mark_activites_envoyees
+    mail_hebdomadaire? || mark_activites_envoyees
     true
   end
 
   def send_mail_to u
     data_mail = {
-      subject:   "Dernières actualités de l'atelier Icare",
+      subject:   subject_of_mail,
       message:   (message_template % {pseudo: u.pseudo}).force_encoding('utf-8'),
       formated:  true
     }
     return u.send_mail(data_mail)
   end
 
+  def subject_of_mail
+    @subject_of_mail ||= begin
+      if mail_hebdomadaire?
+        'Activités de la semaine'
+      else
+        'Dernières actualités de l’atelier Icare'
+      end
+    end
+  end
+
   # On marque les activités envoyées
   def mark_activites_envoyees
-    actu_ids = actualites_veille.collect{|h| h[:id]}.join(', ')
+    actu_ids = dernieres_activites.collect{|h| h[:id]}.join(', ')
     dbtable_activites.update({where: "id IN (#{actu_ids})"}, {status: 2})
-    log "-- Activités marquées envoyées par mail quotidien"
+  rescue Exception => e
+    debug e
+    log "### ERREUR en passant le statut des actualités à 2 : #{e.message} (backtrace dans le fichier débug)"
+  else
+    log "-- Activités #{actu_ids} marquées envoyées par mail quotidien"
   end
 
   # Raccourci pour savoir si on est en mode test
@@ -100,18 +138,24 @@ class << self
 
   # Retourne la liste {Array} des {Hash} de données des icariens qui
   # veulent ou qui doivent recevoir les mails d'activité
+  #
   def destinataires
     @destinataires ||= begin
-      # TODO Quand ce sera OK on pourra renvoyer les mails
-      # drequest = {
-      #   where: "SUBSTRING(options,4,1) = '0'" # pas détruit
-      #   colonnes: []
-      # }
-      # dbtable_users.select(colonnes:[]).collect do |udata|
-      #   u = User.new(udata[:id])
-      #   (u.actif? || u.bit_mail_actu == 0) ? u : nil
-      # end.compact
-      [ User.new(1), User.new(2) ]
+      whereclause = Array.new
+      whereclause << "SUBSTRING(options,4,1) = '0'"   # pas détruit
+      if mail_hebdomadaire?
+        whereclause << "( SUBSTRING(options,18,1) = '2' OR SUBSTRING(options,18,1) = '3' )"  # choix hebdo
+      else
+        whereclause << "( SUBSTRING(options,18,1) = '0' OR SUBSTRING(options,18,1) = '3' )"  # actif ou mail quotidien
+      end
+      whereclause = whereclause.join(' AND ')
+      dreq = {
+        where: whereclause
+        colonnes: []
+      }
+      dbtable_users.select(dreq).collect { |hu| User.new(hu[:id]) }
+      # Pour envoyer seulement à Phil et Marion
+      # [ User.new(1), User.new(2) ]
     end
   end
 
@@ -123,22 +167,28 @@ class << self
 
   # Retourne les actualités de la veille, sous forme de Array
   # En mode test, s'il n'y a aucune actualité, on en crée
-  def actualites_veille
-    @actualites_veille ||= begin
-      # cond_where = "status = 1 AND created_at < #{hier[:end]}"
-      cond_where = '1 = 1' # pour essai
+  def dernieres_activites
+    @dernieres_activites ||= begin
+      cond_where =
+        if mail_hebdomadaire?
+          wed = hier[:end]
+          "created_at > #{wed - 7.days} AND created_at < #{wed}"
+        else
+          "status = 1 AND created_at < #{hier[:end]}"
+        end
+      # cond_where = '1 = 1' # pour essai
       arr = dbtable_actualites.select(where:cond_where, order: 'created_at ASC')
       arr.sort_by { |ac| ac[:created_at] }
     end
   end
 
   # {String} Code HTML de la liste des actualités de la veille
-  def listing_actualites_veille
+  def listing_dernieres_activites
     "<div id='actualites'>#{actualites_as_li}</div>"
   end
   def actualites_as_li
     current_day = nil
-    actualites_veille.collect do |dactu|
+    dernieres_activites.collect do |dactu|
 
       li = <<-HTML
       <div class='li_actu_mail'>
@@ -176,7 +226,7 @@ class << self
 #{stylesheet}
 <p>Bonjour %{pseudo},</p>
 <p>Trouvez ci-dessous la liste des dernières activités de l'atelier Icare.</p>
-#{listing_actualites_veille}
+#{listing_dernieres_activites}
 <hr />
 <p style="font-size:9pt;">Pour ne plus recevoir ces messages lorsque vous n'êtes pas icarien actif ou icarienne active, rejoignez <a href='http://www.atelier-icare.net/profil'>votre profil</a> et réglez vos préférences.</p>
 <p>Bien &agrave; vous,</p>
@@ -186,7 +236,7 @@ class << self
   def stylesheet
     @stylesheet ||= <<-EOC
 <style type="text/css">
-h4{color:#008080;font-weight:normal;margin-bottom:12px}
+h4{color:#008080;font-weight:normal;margin-bottom:8px}
 .actu_heure {
 color: #008080;
 font-family:Georgia,Courier;
@@ -213,7 +263,13 @@ div#actualites div.actu_actu {
   # ---------------------------------------------------------------------
 
   def reset
-    [:div_citation, :message_template].each do |key|
+    [
+      :div_citation,
+      :message_template,
+      :destinataires,
+      :dernieres_activites,
+      :subject_of_mail
+    ].each do |key|
       instance_variable_set("@#{key}", nil)
     end
   end
