@@ -6,24 +6,28 @@
 
 * Impossible de changer d'échéance pour JF Lapipe + mauvais jours de retard (apparemment, l'échéance de l'étape est nil)
 
+## À FAIRE RAPIDEMENT
+
+* Installation du Quai des docs
+* Opération Icarien pour arrêter un module
+* Voir les icariens qu'il faut arrêter
+* Test du updated_at pour les étapes de travail pour récupérer corrections de Marion sur les étapes de travail.
+* Faire une annonce générale par mailing pour demander de définir les préférences (surtout pour le contact par le monde)
+
 ## TESTS À FAIRE
 
 * Tester le réglage profil du contact avec le monde (préférence)
   - son réglage/définition
   - son effet sur l'affichage de la liste des icariens
+* Envoi de mail — Contact (à l'administration ou à un icarien en voyant toutes les options possibles)
+* Dépôt de message sur le frigo de l'icarien (checker suivant les préférences contact_world et contact_icarien)
 
-## À FAIRE RAPIDEMENT
-
-* Passer les pictos homme/femme dans la même couleur que le bandeau
-* Voir les icariens qu'il faut arrêter
-* Test du updated_at pour les étapes de travail pour récupérer corrections de Marion sur les étapes de travail.
-
-
-## Fonctionnalités impératives
-
-* Faire une annonce générale pour demander de définir les préférences (surtout pour le contact par le monde)
 
 ## DIVERS
+
+* Nettoyage du site par le cron
+
+* Lorsqu'un icarien modifie un partage de ses documents, m'avertir par mail
 
 * Faire un "jeu de couleurs" pour les notifications, pour être capable de les reconnaitre à leur couleur.
 
