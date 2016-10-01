@@ -9,7 +9,10 @@ class QuaiDesDocs
     end
 
     def data_onglets
-      {}
+      {
+        'Recherche'     => 'quai_des_docs/search',
+        'Par trimestre' => 'quai_des_docs/home'
+      }
     end
 
     def table_lectures

@@ -73,7 +73,7 @@ class IcModule::IcEtape::IcDocument
       com_id.in_hidden(name: 'com_id') +
       'Cote pour… l’original'.in_span(class: 'libelle')    +
       ([[0, 'Cote…']] + (1..5).collect{|n|[n, n]}).in_select(name: 'cote_original', selected: coteo) +
-      '  le commentaire'.in_span(class: 'libelle') +
+      ' … le commentaire'.in_span(class: 'libelle') +
       ([[0, 'Cote…']] + (1..5).collect{|n|[n, n]}).in_select(name: 'cote_comments', selected: cotec) +
       commentaire.in_textarea(name: 'comments', placeholder: 'Commentaire textuel') +
       'Enregistrer cotes et commentaire'.in_submit.in_div(class: 'buttons')
@@ -122,7 +122,7 @@ class IcModule::IcEtape::IcDocument
         "#{name_avant}…#{name_apres}"
       else
         dname
-      end
+      end.gsub(/_/, ' ')
 
     arr_docs = Array.new
     arr_docs << "original"      if has?(:original)

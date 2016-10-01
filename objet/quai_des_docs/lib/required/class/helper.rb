@@ -2,6 +2,33 @@
 class QuaiDesDocs
 class << self
 
+  # ---------------------------------------------------------------------
+  #
+  #   Méthodes d'helper
+  #
+  # ---------------------------------------------------------------------
+  def load_section name
+    (folder_section + "#{name}.erb").deserb
+  end
+  def folder_section
+    @folder_section ||= QuaiDesDocs.folder + "lib/section"
+  end
+  def formulaire_recherche  ; load_section 'formulaire_recherche' end
+  def boite_navigation      ; load_section 'boite_navigation'     end
+  def liste_documents       ; load_section 'liste_documents'      end
+
+  # Contenu de l'accueil lorsqu'il est visité par un non icarien
+  def section_non_icarien
+    <<-HTML
+<p class="big air">
+  Nous sommes désolés, mais seuls les icariennes et icariens ont accès au <strong>Quai des docs</strong>.
+</p>
+<p class="right">
+  #{'→ Postuler pour devenir icarienne ou icarien'.in_a(href: 'signup')}
+</p>
+    HTML
+  end
+
   # Le message d'avertissement à placer au-dessus de toute liste de
   # documents et également dans un fichier "AVERTISSEMENT.txt" dans
   # les dossiers de téléchargement

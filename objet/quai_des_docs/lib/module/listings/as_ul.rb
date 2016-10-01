@@ -18,11 +18,13 @@ class << self
   #               Ce filtre peut s'appliquer sur :
   #               :etape      ID absolu unique de l'étape absolu des
   #                           documents à voir
+  #               :created_between
+  #                           Array composé de
+  #                             [timesecond départ, timesecond fin]
   #   :avertissement  Si True, on ajoute un message en tête de liste
   #                   pour indiquer qu'il faut respecter la confidentialité
   #                   des documents.
-  #                   EN FAIT, on affiche toujours cet avertissement au-dessus
-  #                   des listes de documents.
+  #                   Défault: true
   #   :all            Si true (false par défaut), on considère tous les
   #                   documents, même ceux qui ne sont pas partagés.
   #   :full           Si true, on ajoute au formulaire pour télécharger le
@@ -46,7 +48,8 @@ class << self
 
     # Paramètres de premier niveau
     filtre = options.delete(:filtre) || Hash.new
-    with_avertissement  = true # options.delete(:avertissement) || true
+    options.key?(:avertissement) || options.merge!(avertissement: true)
+    with_avertissement  = options.delete(:avertissement)
     even_not_shared     = !!options.delete( :all )
     full_card           = !!options.delete(:full)
 
@@ -63,6 +66,11 @@ class << self
     abs_etape_id = filtre.delete(:etape)
     if abs_etape_id
       list_request[:where] << "abs_etape_id = #{abs_etape_id}"
+    end
+
+    created_between = filtre.delete(:created_between)
+    if created_between
+      list_request[:where] << "created_at BETWEEN #{created_between.first} AND #{created_between.last}"
     end
 
     user_id = filtre.delete(:user_id)
@@ -87,8 +95,10 @@ class << self
     avertissement_respect_auteur =
       if user_id == user.id
         'Vous pouvez redéfinir vos partages dans ce listing qui présente tous vos documents.'.in_div(class: 'small italic')
-      else
+      elsif with_avertissement
         avertissement.to_html.in_div(class: 'cadre warning')
+      else
+        ''
       end
 
     if list_documents_filtred.count > 0

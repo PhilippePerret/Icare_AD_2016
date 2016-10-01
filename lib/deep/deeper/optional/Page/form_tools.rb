@@ -229,15 +229,18 @@ class Page
         # Valeur qui peut se trouver dans l'objet, si un objet
         # a été déterminé, qui peut être une instance ou un hash
         # Cf. la propriété `objet`
-        objet_value = if Page::FormTools.objet != nil
-          if Page::FormTools.objet_hash?
-            Page::FormTools.objet[prop.to_sym]
-          elsif Page::FormTools.objet.respond_to?(prop.to_sym)
-            Page::FormTools.objet.send(prop.to_sym)
-          else
-            nil
-          end
-        end.nil_if_empty
+        objet_value =
+          if Page::FormTools.objet != nil
+            if Page::FormTools.objet_hash?
+              Page::FormTools.objet[prop.to_sym]
+            elsif Page::FormTools.objet.respond_to?(prop.to_sym)
+              Page::FormTools.objet.send(prop.to_sym)
+            else
+              nil
+            end
+          end.nil_if_empty
+
+        objet_value.instance_of?(String) && objet_value = objet_value.force_encoding('utf-8')
 
         # debug "objet_value = #{objet_value.inspect}"
 
