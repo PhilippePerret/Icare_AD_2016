@@ -15,6 +15,8 @@ end
 %>
 <%= Bureau.titre_h1('Outils')%>
 <dl>
+  <dt> <%= lien.quai_des_docs 'Le Quai des docs', {target: :new} %></dt>
+  <dd>Le “Quai des docs” est un espace unique de l'atelier Icare où vous pouvez consulter tous les documents produits au sein de l'atelier, document d'exercices ou documents de développement des projets personnels des icariennes et icariens. Cette section contient actuellement <strong><%= dbtable_icdocuments.count %> doubles documents (document original et document commenté par Phil)</strong>.</dd>
   <dt><%= 'La Boite à outils de l’auteur'.in_a(href: url_boa, target: :new)%></dt>
   <dd>La Boite à outils de l'auteur rassemble à présent tous les outils d'écriture développés par Phil. Tous les outils ci-dessous appartiennent à cette “boite”.</dd>
   <dd>Si vous êtes icarien<%= user.f_ne %> en activité (en cours de module) vous bénéficiez d'un accès complet et gratuit au site.</dd>

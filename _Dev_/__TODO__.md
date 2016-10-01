@@ -4,15 +4,14 @@
 
 ## BUGS
 
-* Impossible de changer d'échéance pour JF Lapipe + mauvais jours de retard (apparemment, l'échéance de l'étape est nil)
-
 ## À FAIRE RAPIDEMENT
 
 * Installation du Quai des docs
-* Opération Icarien pour arrêter un module
-* Voir les icariens qu'il faut arrêter
-* Test du updated_at pour les étapes de travail pour récupérer corrections de Marion sur les étapes de travail.
+* Documents de l'icarien dont les commentaires sont encore téléchargeables
+  - ajouter un lien pour rejoindre le quai des docs
+* Dans le menu opération Icarien, trier les icariens par ordre alpha en capitalisant le pseudo (dans mysql ? avec DOWNCASE(pseudo) as pseu et order :pseu)
 * Faire une annonce générale par mailing pour demander de définir les préférences (surtout pour le contact par le monde)
+* Historique de l'icarien
 
 ## TESTS À FAIRE
 
@@ -27,6 +26,8 @@
 
 * Nettoyage du site par le cron
 
+* Test du updated_at pour les étapes de travail pour récupérer corrections de Marion sur les étapes de travail.
+
 * Lorsqu'un icarien modifie un partage de ses documents, m'avertir par mail
 
 * Faire un "jeu de couleurs" pour les notifications, pour être capable de les reconnaitre à leur couleur.
@@ -35,23 +36,11 @@
 
 * Messages de bureau (frigo)
 
-* Liste des icariens
-  -> Ajouter un mail si 1/ icarien peut être contacté par mail et 2/ c'est
-    un icarien qui visite la liste
-    Ou il laisse cette possibilité à tout le monde
-  -> ajouter la possibilité de lui laisser un message si 1/ il laisse cette
-    possibilité et c'est un icarien qui visite
-    Ou il laisse cette possibilité à tout le monde
-
-* Pouvoir laisser un message sur le bureau de l'icarien (il faut que ses options le permettent)
-
 * Pour les citations, plutôt que de les charger chaque fois, pour accélérer, charger 20 citations pour la journée et les faire "tourner" à chaque chargement de l'accueil.
 
 * L'option 17 (18e bit) doit servir à ne recevoir aucun mail de l'atelier, jamais (même les mails par la mailing list)
   - C'est déjà réglé pour la mailing-list, mais il faut le faire pour le reste (cron actualités, autres ?)
 
-
-* IMPÉRATIF : Cron job pour actualités (POURSUIVRE)
 
 * Pour le bouton "Documents" de l'icarien, il faudra que ça mène vraiment à une liste bureau/documents, pas au quai des docs
   - possibilité de recharger les derniers commentaires (ils sont détruits un mois après leur émission, ou quand le document QDD est déposé)

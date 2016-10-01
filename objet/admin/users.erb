@@ -11,13 +11,28 @@ raise_unless_admin
 <script type="text/javascript">
   DATA_OPERATIONS = <%= Admin::Users::DATA_OPERATIONS.to_json %>
 </script>
+
+<%=
+# ---------------------------------------------------------------------
+#
+#   Un code de retour après le résultat (if any)
+#
+# ---------------------------------------------------------------------
+  Admin::Users.resultat
+%>
+
 <%
+# ---------------------------------------------------------------------
+#
+#   FORMULAIRE POUR DÉFINIR L'OPÉRATION
+#
+# ---------------------------------------------------------------------
 site.require 'form_tools'
 form.prefix = 'opuser'
 
 %>
 <% if OFFLINE %>
-<p class="warning small">Attention, les opérations ne seront exécutées qu'en OFFLINE.</p>
+  <p class="warning small">Attention, les opérations ne seront exécutées qu'en OFFLINE.</p>
 <% end %>
 <form class="dim2080" action="admin/users" method="POST">
 

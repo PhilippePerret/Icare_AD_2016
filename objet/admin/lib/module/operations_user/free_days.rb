@@ -9,23 +9,23 @@ class << self
   # On peut également indiquer une raison dans :long_value
   def exec_free_days
 
-    old_paiement = user.icmodule.next_paiement
+    old_paiement = icarien.icmodule.next_paiement
     new_paiement = old_paiement + nombre_jours_gratuits.days
 
     @old_dateh_paiement  = old_paiement.as_human_date(true, false, ' ')
     @new_dateh_paiement  = new_paiement.as_human_date(true, false, ' ')
 
     # On enregistre la nouvelle date de paiement
-    user.icmodule.set(next_paiement: new_paiement)
+    icarien.icmodule.set(next_paiement: new_paiement)
 
-    user.send_mail(
+    icarien.send_mail(
       subject:        'Ajout de jours gratuits',
       message:        message_jours_gratuits,
       formated:       true,
       force_offline:  false
     )
 
-    flash "#{nombre_jours_gratuits} jours gratuis accordés à #{user.pseudo}. Un mail lui a été envoyé"+
+    flash "#{nombre_jours_gratuits} jours gratuis accordés à #{icarien.pseudo}. Un mail lui a été envoyé"+
       "<br>Ancienne date de paiement : #{@old_dateh_paiement}"+
       "<br>Nouvelle date de paiement : #{@new_dateh_paiement}"
   end
@@ -39,7 +39,7 @@ class << self
 
   def message_jours_gratuits
     <<-HTML
-<p>Bonjour #{user.pseudo},</p>
+<p>Bonjour #{icarien.pseudo},</p>
 <p>J'ai le plaisir de vous annoncer que Phil vient de vous accorder #{nombre_jours_gratuits} jours gratuits.</p>
 <p>
   Date précédente du paiement : #{@old_dateh_paiement}<br>

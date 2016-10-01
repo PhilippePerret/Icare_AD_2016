@@ -6667,3 +6667,687 @@ Objet    = "user"
 Objet ID = 1
 Method   = "profil"
 Context  = nil
+
+
+=== DEBUG DU 01 10 2016 - 09:14:53 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signin"
+Context  = nil
+
+
+=== DEBUG DU 01 10 2016 - 09:14:56 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "login"
+Context  = nil
+-- kroute = :bureau
+-- Redirection -> bureau/1/home
+-- 
+Objet    = "bureau"
+Objet ID = 1
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 01 10 2016 - 09:15:04 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 01 10 2016 - 09:15:08 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 01 10 2016 - 09:15:23 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {:where=>{:pseudo=>"Triskel"}}
+
+
+=== DEBUG DU 01 10 2016 - 09:15:33 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {:where=>{:pseudo=>"Triskell"}}
+
+
+=== DEBUG DU 01 10 2016 - 09:15:41 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 01 10 2016 - 09:15:53 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {:where=>{:user_id=>16}}
+
+
+=== DEBUG DU 01 10 2016 - 09:16:24 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {:where=>276}
+
+
+=== DEBUG DU 01 10 2016 - 10:16:09 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- Redirection -> user/signin
+-- param(:backto) mis à "database/edit"
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {:where=>276}
+
+
+=== DEBUG DU 01 10 2016 - 10:17:57 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- Redirection -> user/signin
+-- param(:backto) mis à "database/edit"
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- k = :id
+-- typ = "Fixnum"
+-- v
+-- val = "276"
+-- k = :abs_etape_id
+-- typ = "Fixnum"
+-- v
+-- val = "6"
+-- k = :user_id
+-- typ = "Fixnum"
+-- v
+-- val = "16"
+-- k = :icmodule_id
+-- typ = "Fixnum"
+-- v
+-- val = "35"
+-- k = :numero
+-- typ = "Fixnum"
+-- v
+-- val = "75"
+-- k = :started_at
+-- typ = "Fixnum"
+-- v
+-- val = "1434381949"
+-- k = :expected_end
+-- typ = "Fixnum"
+-- v
+-- val = "1475914642"
+-- k = :expected_comments
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :ended_at
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :documents
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :status
+-- typ = "Fixnum"
+-- v
+-- val = "1"
+-- k = :options
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :travail_propre
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :updated_at
+-- typ = "Fixnum"
+-- v
+-- val = "1475251726"
+
+
+=== DEBUG DU 01 10 2016 - 10:18:07 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- Redirection -> user/signin
+-- param(:backto) mis à "database/edit"
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {:where=>276}
+
+
+=== DEBUG DU 01 10 2016 - 10:20:02 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- Redirection -> user/signin
+-- param(:backto) mis à "database/edit"
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {:where=>{:numero=>75, :module_id=>1}}
+
+
+=== DEBUG DU 01 10 2016 - 10:27:16 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+-- Redirection -> user/signin
+-- param(:backto) mis à "bureau/home"
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signin"
+Context  = nil
+
+
+=== DEBUG DU 01 10 2016 - 10:27:21 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "login"
+Context  = nil
+-- Redirection -> bureau/home
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 01 10 2016 - 10:27:25 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 01 10 2016 - 10:42:09 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 01 10 2016 - 10:42:24 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 01 10 2016 - 10:44:21 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 01 10 2016 - 10:46:36 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 01 10 2016 - 11:00:20 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- /Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/operations_user/arret_module.rb:28: syntax error, unexpected tIVAR, expecting ')'
+    @suivi << 'Suppression de son accè...
+          ^
+
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/require.rb:18:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/require.rb:71:in `block in require_all_in'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/require.rb:71:in `each'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/require.rb:71:in `require_all_in'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/divers/modules/main_objets.rb:63:in `require_module'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/users.rb:81:in `execute_operation'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/users.rb:90:in `<top (required)>'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:22:in `require_ruby'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:15:in `require_all'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:330:in `load_per_vue'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:103:in `execute_route'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 01 10 2016 - 11:00:45 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 01 10 2016 - 11:01:02 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 01 10 2016 - 11:01:23 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 01 10 2016 - 11:01:29 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 01 10 2016 - 11:02:57 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 01 10 2016 - 11:03:03 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 01 10 2016 - 11:03:12 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 01 10 2016 - 11:03:51 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 01 10 2016 - 12:51:58 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+-- Redirection -> user/signin
+-- param(:backto) mis à "bureau/home"
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signin"
+Context  = nil
+
+
+=== DEBUG DU 01 10 2016 - 12:52:01 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "login"
+Context  = nil
+-- Redirection -> bureau/home
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 01 10 2016 - 12:52:05 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 01 10 2016 - 12:52:12 ===
+
+-- 
+Objet    = "icarien"
+Objet ID = nil
+Method   = "list"
+Context  = nil
+
+
+=== DEBUG DU 01 10 2016 - 12:52:52 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 01 10 2016 - 12:52:58 ===
+
+-- 
+Objet    = "icarien"
+Objet ID = nil
+Method   = "list"
+Context  = nil
+
+
+=== DEBUG DU 01 10 2016 - 12:53:58 ===
+
+-- 
+Objet    = "icarien"
+Objet ID = nil
+Method   = "list"
+Context  = nil
+
+
+=== DEBUG DU 01 10 2016 - 12:54:41 ===
+
+-- 
+Objet    = "icarien"
+Objet ID = nil
+Method   = "list"
+Context  = nil
+
+
+=== DEBUG DU 01 10 2016 - 12:54:47 ===
+
+-- 
+Objet    = "abs_module"
+Objet ID = 11
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 01 10 2016 - 12:55:03 ===
+
+-- 
+Objet    = "icarien"
+Objet ID = nil
+Method   = "list"
+Context  = nil
+
+
+=== DEBUG DU 01 10 2016 - 12:55:07 ===
+
+-- 
+Objet    = "abs_module"
+Objet ID = 4
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 01 10 2016 - 12:55:49 ===
+
+-- 
+Objet    = "icarien"
+Objet ID = nil
+Method   = "list"
+Context  = nil
+
+
+=== DEBUG DU 01 10 2016 - 12:58:11 ===
+
+-- 
+Objet    = "icarien"
+Objet ID = nil
+Method   = "list"
+Context  = nil
+
+
+=== DEBUG DU 01 10 2016 - 13:00:22 ===
+
+-- 
+Objet    = "icarien"
+Objet ID = nil
+Method   = "list"
+Context  = nil
+
+
+=== DEBUG DU 01 10 2016 - 13:00:39 ===
+
+-- 
+Objet    = "icarien"
+Objet ID = nil
+Method   = "list"
+Context  = nil
+
+
+=== DEBUG DU 01 10 2016 - 13:00:43 ===
+
+-- 
+Objet    = "abs_module"
+Objet ID = 12
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 01 10 2016 - 13:01:03 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "visit_as"
+Context  = nil
+
+
+=== DEBUG DU 01 10 2016 - 13:01:07 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "visit_as"
+Context  = nil
+
+
+=== DEBUG DU 01 10 2016 - 13:01:09 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 01 10 2016 - 13:01:17 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "historique"
+Context  = nil
+
+
+=== DEBUG DU 01 10 2016 - 13:01:21 ===
+
+-- 
+Objet    = "user"
+Objet ID = 72
+Method   = "deconnexion"
+Context  = nil
+-- Redirection -> bureau/home
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 01 10 2016 - 13:06:39 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "dashboard"
+Context  = nil
+-- --> check_folders_offline
+-- --> check_folders_online
+-- --> build_result
+-- --> open_result
+-- Redirection -> bureau/home
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 01 10 2016 - 13:19:54 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "outils"
+Context  = nil
+
+
+=== DEBUG DU 01 10 2016 - 13:20:56 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "outils"
+Context  = nil
+
+
+=== DEBUG DU 01 10 2016 - 13:21:13 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "outils"
+Context  = nil
+
+
+=== DEBUG DU 01 10 2016 - 13:21:16 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 01 10 2016 - 13:22:28 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "outils"
+Context  = nil
+
+
+=== DEBUG DU 01 10 2016 - 13:22:53 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "outils"
+Context  = nil
+
+
+=== DEBUG DU 01 10 2016 - 13:23:52 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "outils"
+Context  = nil

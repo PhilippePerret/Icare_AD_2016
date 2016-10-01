@@ -92,7 +92,7 @@ class User
   def le_module_courant
     icmodule_id != nil || (return '')
     date_start_module = icmodule.started_at.as_human_date
-    "#{f_elle.capitalize} suit <strong>le module #{icmodule.abs_module.name}</strong> depuis le #{date_start_module}. "
+    "#{f_elle.capitalize} suit le module <strong>#{lien_module_app(icmodule.abs_module)}</strong> depuis le #{date_start_module}. "
   end
   def liste_autres_modules
     modules = get_all_modules_of( self.id )
@@ -107,10 +107,10 @@ class User
     s = autres_modules.count > 1 ? 's' : ''
     autres_modules = autres_modules.collect do |m|
       add_project = m.project_name ? " pour son projet “#{m.project_name}”" : ''
-      m.abs_module.name.in_span(class: 'bold') + add_project
+      lien_module_app(m.abs_module).in_span(class: 'bold') + add_project
     end.pretty_join
     auparavant = icmodule_id.nil? ? '' : ' auparavant'
-    "#{pseudo.capitalize} a suivi#{auparavant} le#{s} module#{s} : #{autres_modules}."
+    "#{pseudo.capitalize} a suivi#{auparavant} le#{s} module#{s} #{autres_modules}."
   end
 
   # Partie de la carte qui permet de prendre contact avec l'icarien en
@@ -143,5 +143,10 @@ class User
   end
   def lien_message_mail
     'mail'.in_a(href: "site/contact?to=#{id}", target: :new)
+  end
+  # Retourne un lien pour afficher le nom du module, avec un lien
+  # conduisant à sa présentation.
+  def lien_module_app(mod_app)
+    mod_app.name.downcase.in_a(href:"abs_module/#{mod_app.id}/show", target: :new)
   end
 end

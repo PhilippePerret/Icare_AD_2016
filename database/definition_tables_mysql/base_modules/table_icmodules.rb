@@ -55,8 +55,7 @@ CREATE TABLE icmodules
     #  OPTIONS
     # ---------
     # Options
-    # Bit 1 : 0 si non démarré, 1 si le projet est en cours, 2 si le projet est en
-    # pause
+    # cf. ./objet/ic_module/lib/required/instance/options.rb
     options VARCHAR(16),
 
     #  PAUSES
