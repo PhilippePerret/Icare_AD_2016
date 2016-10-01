@@ -15,7 +15,7 @@ class << self
   def ul_documents_trimestre
     filtre = {created_between: [start_of_trimestre.to_i, end_of_trimestre.to_i]}
     args = {
-      full: true,
+      infos_document: true,
       filtre: filtre,
       avertissement: (annee_courante == annee_of_time && trimestre_courant == trimestre_of_time)
     }

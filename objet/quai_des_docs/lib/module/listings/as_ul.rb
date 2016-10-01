@@ -31,6 +31,8 @@ class << self
   #                   document un formulaire pour le coter (si l'user courant
   #                   n'est pas l'auteur du document) ou pour en re-définir le
   #                   partage (cf. IcDocument#form_cote_or_partage)
+  #   :infos_document Si True, on affiche les informations du document, sur
+  #                   son module, ses dates, etc.
   # RETURN
   #   Le code HTML de la liste UL des documents ou NIL dans le cas
   #   où aucun document ne correspondait au filtre. C'est la méthode
@@ -52,6 +54,7 @@ class << self
     with_avertissement  = options.delete(:avertissement)
     even_not_shared     = !!options.delete( :all )
     full_card           = !!options.delete(:full)
+    infos_docs          = !!options.delete(:infos_document)
 
     # ATTENTION : options sera ré-initialisé plus bas
 
@@ -106,7 +109,7 @@ class << self
       list_documents_filtred.collect do |idoc|
         (
           idoc.form_download                          +
-          (full_card ? idoc.bloc_infos : '')          +
+          ((full_card || infos_docs) ? idoc.bloc_infos : '')          +
           (full_card ? idoc.form_cote_or_partage : '')
         ).in_li(id: "li_doc_qdd-#{idoc.id}", class: 'li_doc_qdd')
       end.join.in_ul(class: 'qdd_documents')
