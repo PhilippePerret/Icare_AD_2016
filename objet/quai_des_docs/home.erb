@@ -3,15 +3,10 @@
 %>
 <%= QuaiDesDocs.titre_h1 %>
 <% if user.identified? %>
-  <p class="big air">
-    Bientôt ici : le Quai des docs.
-  </p>
+  <%= QuaiDesDocs.formulaire_recherche %>
+  <%= QuaiDesDocs.boite_navigation %>
+  <%= QuaiDesDocs.liste_documents %>
 <% else %>
+  <%= QuaiDesDocs.section_non_icarien %>
   <%# NON ICARIENS %>
-  <p class="big air">
-    Nous sommes désolés, mais seuls les icariennes et icariens ont accès au <strong>Quai des docs</strong>.
-  </p>
-  <p class="right">
-    <%= '→ Devenir icarienne ou icarien'.in_a(href: 'signup') %>
-  </p>
 <% end %>

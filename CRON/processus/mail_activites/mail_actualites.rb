@@ -47,13 +47,15 @@ class << self
   #
   def mail_activites
     reset
-    log "<hr />"
     if mail_hebdomadaire?
+      log "<hr />"
       log '---> Envoi du mail HEBDOMADAIRE', {time: true}
+    elsif Time.now.hour == MAIL_ACTIVITES_HOUR
+      log "<hr />"
+      log "---> Envoi des mails d'actualite de la veille", {time: true}
     else
       # Si ça n'est pas l'heure
-      Time.now.hour == MAIL_ACTIVITES_HOUR || return
-      log "---> Envoi des mails d'actualite de la veille", {time: true}
+      return
     end
 
     # S'il n'y a aucune actualité trouvée pour la veille, on peut

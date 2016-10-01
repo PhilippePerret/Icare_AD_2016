@@ -6,6 +6,8 @@
 
 ## À FAIRE RAPIDEMENT
 
+* Pouvoir définir le travail propre
+  - Le définir pour Karine
 * Installation du Quai des docs
 * Documents de l'icarien dont les commentaires sont encore téléchargeables
   - ajouter un lien pour rejoindre le quai des docs

@@ -1,0 +1,23 @@
+<%
+# Boite navigation
+# ----------------
+# Pour naviguer dans le quai des documents
+%>
+
+
+<%
+def affichage_trimestre_courant
+  '[trimestre courant]'
+end
+def lien_prev_trimestre
+  '[lien trimestre précédent]'
+end
+def lien_next_trimestre
+  '[lien trimestre suivant]'
+end
+%>
+<div id="qdd_boite_navigation">
+  <%= lien_prev_trimestre %>
+  <%= affichage_trimestre_courant %>
+  <%= lien_next_trimestre %>
+</div>

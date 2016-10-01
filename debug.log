@@ -7351,3 +7351,21 @@ Objet    = "bureau"
 Objet ID = nil
 Method   = "outils"
 Context  = nil
+
+
+=== DEBUG DU 01 10 2016 - 13:46:40 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 01 10 2016 - 13:46:49 ===
+
+-- 
+Objet    = "abs_module"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
