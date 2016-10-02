@@ -6,14 +6,8 @@
 
 ## À FAIRE RAPIDEMENT
 
-* Mettre l'utilisation du snippet et bloquer page pour l'outil mailing
-* Documenter site.mails_out (ce que c'est et comment l'utiliser)
-* QDD
-  - classement des documents par date en option (sinon, ils sont classés par auteur)
-  - informer les "à l'essai" qu'ils ne peuvent télécharger que quelques documents.
 * Pouvoir définir le travail propre de l'icarien (opération icariens)
   - Le définir pour Karine
-* Installation du Quai des docs
 * Documents de l'icarien dont les commentaires sont encore téléchargeables
   - ajouter un lien pour rejoindre le quai des docs
 * Dans le menu opération Icarien, trier les icariens par ordre alpha en capitalisant le pseudo (dans mysql ? avec DOWNCASE(pseudo) as pseu et order :pseu)

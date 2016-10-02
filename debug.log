@@ -1876,3 +1876,154 @@ Objet    = "abs_etape"
 Objet ID = 32
 Method   = "show"
 Context  = nil
+
+
+=== DEBUG DU 02 10 2016 - 14:14:55 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 02 10 2016 - 14:15:00 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "outils"
+Context  = nil
+
+
+=== DEBUG DU 02 10 2016 - 14:15:02 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 02 10 2016 - 14:15:05 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 02 10 2016 - 14:16:42 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 02 10 2016 - 14:18:25 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 02 10 2016 - 14:18:37 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 02 10 2016 - 14:19:03 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 02 10 2016 - 14:19:34 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "search"
+Context  = nil
+
+
+=== DEBUG DU 02 10 2016 - 14:19:41 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "search"
+Context  = nil
+-- kfiltre: :user_id
+-- args envoyés à as_ul: {:filtre=>{:user_id=>5}, :avertissement=>false, :infos_document=>true}
+
+
+=== DEBUG DU 02 10 2016 - 14:20:37 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "search"
+Context  = nil
+-- kfiltre: :user_id
+-- args envoyés à as_ul: {:filtre=>{:user_id=>5}, :avertissement=>false, :infos_document=>true, :key_sorted=>"time_original ASC"}
+
+
+=== DEBUG DU 02 10 2016 - 14:25:51 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "search"
+Context  = nil
+-- kfiltre: :user_id
+-- kfiltre: :module_id
+-- args envoyés à as_ul: {:filtre=>{:module=>11}, :avertissement=>false, :infos_document=>true, :key_sorted=>"time_original ASC"}
+
+
+=== DEBUG DU 02 10 2016 - 14:25:54 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "search"
+Context  = nil
+-- kfiltre: :user_id
+-- kfiltre: :module_id
+-- args envoyés à as_ul: {:filtre=>{:module=>11}, :avertissement=>false, :infos_document=>true, :key_sorted=>"time_original ASC"}
+
+
+=== DEBUG DU 02 10 2016 - 14:26:09 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "search"
+Context  = nil
+-- kfiltre: :user_id
+-- kfiltre: :module_id
+-- args envoyés à as_ul: {:filtre=>{:module=>9}, :avertissement=>false, :infos_document=>true, :key_sorted=>"time_original ASC"}
+
+
+=== DEBUG DU 02 10 2016 - 14:26:18 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "search"
+Context  = nil
+-- kfiltre: :user_id
+-- kfiltre: :module_id
+-- args envoyés à as_ul: {:filtre=>{:module=>9}, :avertissement=>false, :infos_document=>true, :key_sorted=>"time_original ASC"}

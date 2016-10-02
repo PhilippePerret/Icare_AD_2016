@@ -4,11 +4,11 @@ class QuaiDesDocs
 class << self
 
   FILTRE_DATA = {
-    user_id: {hname: "auteur"},
-    module_id: {hname: "module"},
-    etape_id:  {hname: "étape"},
-    annee:      {hname: "année"},
-    trimestre:  {hname: "trimestre"}
+    user_id:    {hname: 'auteur'},
+    module_id:  {hname: 'module'},
+    etape_id:   {hname: 'étape'},
+    annee:      {hname: 'année'},
+    trimestre:  {hname: 'trimestre'}
   }
 
   def filtre
@@ -26,7 +26,8 @@ class << self
     args = {
       filtre:           filtre_pour_as_ul,
       avertissement:    false,
-      infos_document:   true
+      infos_document:   true,
+      key_sorted:       'time_original ASC'
     }
     debug "args envoyés à as_ul: #{args.inspect}"
     @result = QuaiDesDocs.as_ul(args) || 'Aucun document n’a été trouvé avec ce filtre.'.in_p(class: 'big')

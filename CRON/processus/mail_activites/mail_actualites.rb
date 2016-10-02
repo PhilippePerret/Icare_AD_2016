@@ -81,7 +81,7 @@ class << self
     # log "- POUR LE MOMENT, LES MAILS NE SONT ENVOYÉS QU'À PHIL"
     # cf. def destinataires ci-dessous
     destinataires.each do |u|
-      next if MAILS_OUT.include?(u.mail)
+      site.mails_out.include?(u.mail) && next
       resultat = send_mail_to u
       if resultat === true
         log "--- Message envoyé à #{u.pseudo} (#{u.mail})"

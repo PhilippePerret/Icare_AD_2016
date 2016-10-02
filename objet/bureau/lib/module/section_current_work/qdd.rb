@@ -18,7 +18,6 @@ class AbsEtape
         if listing_documents_qdd
           # S'il y a des documents pour cette étape
           introduction +
-          QuaiDesDocs.avertissement_alessai_if_needed +
           listing_documents_qdd +
           ''.in_div(style:'clear:both')
         end

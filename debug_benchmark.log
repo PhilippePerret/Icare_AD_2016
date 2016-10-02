@@ -1,34 +1,40 @@
-=== BENCHMARK DU 2 octobre 2016 à 14:01 ===
-=== Index start : 1475409692.4766982 (2016-10-02 14:01:32 +0200)
+=== BENCHMARK DU 2 octobre 2016 à 14:26 ===
+=== Index start : 1475411178.458139 (2016-10-02 14:26:18 +0200)
 
 -> site/config.rb                                       0.000000  0.000000
-<- site/config.rb                                       0.000172  0.000172
--> execute_preambule                                    0.023660  0.023832
-  -> User#do_after_load                                 0.008389  0.032221
-  <- User#do_after_load                                 0.000013  0.032234
-<- execute_preambule                                    0.000004  0.032238
--> required.rb                                         -0.210451 -0.178213
-<- required.rb                                          0.210454  0.032241
--> SiteHtml#output                                      0.000037  0.032278
-  -> SiteHtml#execute_route                             0.000004  0.032282
-      | Objet    = "abs_etape"                                          - 
-      | Objet ID = 32                                                   - 
-      | Method   = "show"                                               - 
-      | Context  = nil                                  0.000100  0.032382
-    --> user.set_last_connexion                         0.000094  0.032476
-    <-- user.set_last_connexion                         0.003086  0.035562
-    --> iroute.load_required                            0.000050  0.035612
-    <-- iroute.load_required                            0.003420  0.039032
-    --> iroute.load_per_vue                             0.000013  0.039045
-    <-- iroute.load_per_vue                             0.000136  0.039181
-    --> iroute.method_call                              0.000008  0.039189
-    <-- iroute.method_call                              0.000245  0.039434
-  <- SiteHtml#execute_route                             0.000003  0.039437
-  -> Page#preload                                       0.000009  0.039446
-  <- Page#preload                                       0.224978  0.264424
-  -> Page#prebuild_body                                 0.000017  0.264441
-    -> Page#body                                        0.000004  0.264445
-    <- Page#body                                        0.000378  0.264823
-  <- Page#prebuild_body                                 0.000020  0.264843
-  CODE HTML FINAL BUILT                                 0.000134  0.264977
-<- SiteHtml#output                                      0.000005  0.264982
+<- site/config.rb                                       0.000162  0.000162
+-> execute_preambule                                    0.029954  0.030116
+  -> User#do_after_load                                 0.010815  0.040931
+  <- User#do_after_load                                 0.000013  0.040944
+<- execute_preambule                                    0.000004  0.040948
+-> required.rb                                         -0.273491 -0.232543
+<- required.rb                                          0.273495  0.040952
+-> SiteHtml#output                                      0.000038  0.040990
+  -> SiteHtml#execute_route                             0.000004  0.040994
+      | Objet    = "quai_des_docs"                                      - 
+      | Objet ID = nil                                                  - 
+      | Method   = "search"                                             - 
+      | Context  = nil                                  0.000078  0.041072
+    --> user.set_last_connexion                         0.000090  0.041162
+    <-- user.set_last_connexion                         0.001712  0.042874
+    --> iroute.load_required                            0.000019  0.042893
+    <-- iroute.load_required                            0.027773  0.070666
+    --> iroute.load_per_vue                             0.000017  0.070683
+
+      | kfiltre: :user_id                               0.000886  0.071569
+
+      | kfiltre: :module_id                             0.000027  0.071596
+
+      | args envoyés à as_ul: {:filtre=>{:module=>9}, :avertissement=>false, :infos_document=>true, :key_sorted=>"time_original ASC"}  0.002229  0.073825
+    <-- iroute.load_per_vue                             0.242734  0.316559
+    --> iroute.method_call                              0.000020  0.316579
+    <-- iroute.method_call                              0.000409  0.316988
+  <- SiteHtml#execute_route                             0.000015  0.317003
+  -> Page#preload                                       0.000022  0.317025
+  <- Page#preload                                       0.027163  0.344188
+  -> Page#prebuild_body                                 0.000018  0.344206
+    -> Page#body                                        0.000004  0.344210
+    <- Page#body                                        0.000653  0.344863
+  <- Page#prebuild_body                                 0.000021  0.344884
+  CODE HTML FINAL BUILT                                 0.000095  0.344979
+<- SiteHtml#output                                      0.000004  0.344983

@@ -38,6 +38,10 @@ class << self
   #                   partage (cf. IcDocument#form_cote_or_partage)
   #   :infos_document Si True, on affiche les informations du document, sur
   #                   son module, ses dates, etc.
+  #   :key_sorted     La clé pour le classement des documents. Par défaut,
+  #                   c'est l'utilisateur ('user_id ASC') mais on peut mettre tout
+  #                   autre propriété qui doit être une colonne, par exemple
+  #                   'time_original DESC' ou 'created_at ASC'
   # RETURN
   #   Le code HTML de la liste UL des documents ou NIL dans le cas
   #   où aucun document ne correspondait au filtre. C'est la méthode
@@ -62,6 +66,7 @@ class << self
     even_not_shared     = !!options.delete( :all )
     full_card           = !!options.delete(:full)
     infos_docs          = !!options.delete(:infos_document)
+    key_sorted          = options.delete(:key_sorted) || "user_id ASC"
 
     # ATTENTION : options sera ré-initialisé plus bas
 
@@ -101,6 +106,8 @@ class << self
 
 
     list_request[:where] = list_request[:where].join(' AND ')
+    list_request.merge!(order: key_sorted)
+
     # --- Fin de définition du filtre ---
 
     options = {
@@ -124,11 +131,12 @@ class << self
       end
 
     if list_documents_filtred.count > 0
+      avertissement_alessai_if_needed +
       avertissement_respect_auteur +
       list_documents_filtred.collect do |idoc|
         (
-          idoc.form_download                          +
-          ((full_card || infos_docs) ? idoc.bloc_infos : '')          +
+          idoc.form_download +
+          ((full_card || infos_docs) ? idoc.bloc_infos : '') +
           (full_card ? idoc.form_cote_or_partage : '')
         ).in_li(id: "li_doc_qdd-#{idoc.id}", class: 'li_doc_qdd')
       end.join.in_ul(class: 'qdd_documents')
