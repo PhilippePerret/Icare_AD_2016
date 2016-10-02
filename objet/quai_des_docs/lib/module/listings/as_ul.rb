@@ -16,6 +16,11 @@ class << self
   #   :filtre     Le filtre à appliquer sur la liste des documents
   #               à voir.
   #               Ce filtre peut s'appliquer sur :
+  #               :user_id    ID de l'icarien. Si spécifié, seuls les
+  #                           documents de cet icarien seront considérés
+  #               :module     ID absolu du module d'apprentissage
+  #                           Si spécifié, seuls les documents de ce module
+  #                           seront considérés
   #               :etape      ID absolu unique de l'étape absolu des
   #                           documents à voir
   #               :created_between
@@ -44,6 +49,8 @@ class << self
   #     doit donc être
   #   * Dans tous les cas, si l'user courant est à l'essai, on indique
   #     sa limite de documents.
+  #   * Le nombre de documents trouvés peut s'obtenir par :
+  #     QuaiDesDocs.nombre_documents_found
   #
   def as_ul options = nil
     options ||= Hash.new
@@ -66,9 +73,20 @@ class << self
     # en fin de cycle.
     list_request[:where] << "(SUBSTRING(options,6,1) = '1' OR SUBSTRING(options,14,1) = '1')"
 
+    user_id = filtre.delete(:user_id)
+    if user_id
+      list_request[:where] << "user_id = #{user_id}"
+    end
+
+    abs_module_id = filtre.delete(:module)
     abs_etape_id = filtre.delete(:etape)
+    # Noter que si l'étape est spécifiée, la recherche du module
+    # n'est pas nécessaire puisque l'étape est associée toujours à un
+    # module en particulier
     if abs_etape_id
       list_request[:where] << "abs_etape_id = #{abs_etape_id}"
+    elsif abs_module_id
+      list_request[:where] << "abs_module_id = #{abs_module_id}"
     end
 
     created_between = filtre.delete(:created_between)
@@ -89,6 +107,7 @@ class << self
       as: options[:as] || :instance
     }
 
+    # === RÉCUPÉRER TOUS LES DOCUMENTS MATCHANT LA REQUÊTE ===
     list_documents_filtred = QuaiDesDocs.list(list_request, options)
 
     # L'avertissement

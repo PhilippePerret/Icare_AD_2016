@@ -6,7 +6,13 @@
 
 ## À FAIRE RAPIDEMENT
 
-* Pouvoir définir le travail propre
+* QDD : filtre exprimé de façon humaine
+  - Marion n'aime pas les trimestres : donc les détruire
+  - Mettre à la place un menu les N derniers documents
+  - classement des documents par date en option (sinon, ils sont classés par auteur)
+
+* QDD : informer les "à l'essai" qu'ils ne peuvent télécharger que quelques documents.
+* Pouvoir définir le travail propre de l'icarien (opération icariens)
   - Le définir pour Karine
 * Installation du Quai des docs
 * Documents de l'icarien dont les commentaires sont encore téléchargeables

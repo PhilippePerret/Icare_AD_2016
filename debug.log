@@ -134,3 +134,1096 @@ Objet    = "quai_des_docs"
 Objet ID = nil
 Method   = "home"
 Context  = nil
+
+
+=== DEBUG DU 01 10 2016 - 17:29:02 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 01 10 2016 - 17:29:06 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "dashboard"
+Context  = nil
+-- --> check_folders_offline
+-- --> check_folders_online
+-- --> build_result
+-- --> open_result
+-- Redirection -> bureau/home
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 01 10 2016 - 17:29:37 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "search"
+Context  = nil
+
+
+=== DEBUG DU 01 10 2016 - 17:47:19 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "search"
+Context  = nil
+
+
+=== DEBUG DU 01 10 2016 - 17:50:53 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "search"
+Context  = nil
+
+
+=== DEBUG DU 01 10 2016 - 17:51:17 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "search"
+Context  = nil
+
+
+=== DEBUG DU 01 10 2016 - 17:53:50 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "search"
+Context  = nil
+
+
+=== DEBUG DU 01 10 2016 - 17:54:59 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "search"
+Context  = nil
+
+
+=== DEBUG DU 01 10 2016 - 17:56:07 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "search"
+Context  = nil
+
+
+=== DEBUG DU 01 10 2016 - 17:56:50 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "search"
+Context  = nil
+
+
+=== DEBUG DU 01 10 2016 - 17:57:40 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "search"
+Context  = nil
+
+
+=== DEBUG DU 01 10 2016 - 17:59:55 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "search"
+Context  = nil
+-- undefined method `reverse' for 2005..2016:Range
+
+(erb):43:in `values_annees'
+(erb):73:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/quai_des_docs/lib/required/class/helper.rb:11:in `load_section'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/quai_des_docs/lib/required/class/helper.rb:16:in `formulaire_recherche'
+(erb):6:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 01 10 2016 - 18:00:05 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "search"
+Context  = nil
+
+
+=== DEBUG DU 01 10 2016 - 18:00:40 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "search"
+Context  = nil
+
+
+=== DEBUG DU 01 10 2016 - 18:01:07 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "search"
+Context  = nil
+
+
+=== DEBUG DU 01 10 2016 - 18:02:27 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "search"
+Context  = nil
+
+
+=== DEBUG DU 01 10 2016 - 18:05:18 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "search"
+Context  = nil
+
+
+=== DEBUG DU 01 10 2016 - 18:05:51 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "search"
+Context  = nil
+-- # ERREUR MYSQL : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'as pseu ASC' at line 1
+-- # REQUEST : SELECT pseu, id FROM users WHERE SUBSTRING(options,4,1) != '1' ORDER BY LOWER(pseudo) as pseu ASC;
+-- # VALEURS PRÉPARÉES : []
+-- /Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:107:in `_query'
+/Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:107:in `block in query'
+/Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:106:in `handle_interrupt'
+/Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:106:in `query'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/request.rb:388:in `exec'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/request.rb:79:in `select'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/mysql.rb:150:in `select'
+(erb):13:in `icariens'
+(erb):79:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/quai_des_docs/lib/required/class/helper.rb:11:in `load_section'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/quai_des_docs/lib/required/class/helper.rb:16:in `formulaire_recherche'
+(erb):6:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+-- You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'as pseu ASC' at line 1
+
+/Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:107:in `_query'
+/Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:107:in `block in query'
+/Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:106:in `handle_interrupt'
+/Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:106:in `query'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/request.rb:388:in `exec'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/request.rb:79:in `select'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/mysql.rb:150:in `select'
+(erb):13:in `icariens'
+(erb):79:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/quai_des_docs/lib/required/class/helper.rb:11:in `load_section'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/quai_des_docs/lib/required/class/helper.rb:16:in `formulaire_recherche'
+(erb):6:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 01 10 2016 - 18:07:05 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "search"
+Context  = nil
+
+
+=== DEBUG DU 01 10 2016 - 18:08:05 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "search"
+Context  = nil
+
+
+=== DEBUG DU 01 10 2016 - 18:08:09 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "search"
+Context  = nil
+
+
+=== DEBUG DU 01 10 2016 - 18:08:19 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "search"
+Context  = nil
+
+
+=== DEBUG DU 01 10 2016 - 18:14:31 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "search"
+Context  = nil
+
+
+=== DEBUG DU 01 10 2016 - 18:14:44 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "search"
+Context  = nil
+
+
+=== DEBUG DU 01 10 2016 - 18:16:00 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "search"
+Context  = nil
+-- QuaiDesDocs.filtre : {:user_id=>"3", :cb_module_id=>"on", :module_id=>"11", :etape_id=>"188", :annee=>"2016", :trimestre=>"1"}
+-- user_id : checked : false
+-- module_id : checked : false
+-- etape_id : checked : false
+-- annee : checked : false
+-- trimestre : checked : false
+
+
+=== DEBUG DU 01 10 2016 - 18:17:26 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "search"
+Context  = nil
+-- QuaiDesDocs.filtre : {:user_id=>"3", :cb_module_id=>"on", :module_id=>"2", :etape_id=>"191", :annee=>"2016", :trimestre=>"1"}
+-- user_id : checked : false
+-- module_id : checked : true
+-- etape_id : checked : false
+-- annee : checked : false
+-- trimestre : checked : false
+
+
+=== DEBUG DU 01 10 2016 - 18:17:37 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "search"
+Context  = nil
+-- QuaiDesDocs.filtre : {:cb_user_id=>"on", :user_id=>"5", :cb_module_id=>"on", :module_id=>"9", :etape_id=>"11", :annee=>"2016", :trimestre=>"1"}
+-- user_id : checked : true
+-- module_id : checked : true
+-- etape_id : checked : false
+-- annee : checked : false
+-- trimestre : checked : false
+
+
+=== DEBUG DU 01 10 2016 - 18:17:49 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "search"
+Context  = nil
+-- QuaiDesDocs.filtre : {:cb_user_id=>"on", :user_id=>"5", :cb_module_id=>"on", :module_id=>"10", :etape_id=>"178", :annee=>"2008", :trimestre=>"1"}
+-- user_id : checked : true
+-- module_id : checked : true
+-- etape_id : checked : false
+-- annee : checked : false
+-- trimestre : checked : false
+
+
+=== DEBUG DU 01 10 2016 - 18:19:55 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "search"
+Context  = nil
+-- QuaiDesDocs.filtre : {:cb_user_id=>"on", :user_id=>"5", :cb_module_id=>"on", :module_id=>"10", :etape_id=>"178", :annee=>"2008", :trimestre=>"1"}
+
+
+=== DEBUG DU 01 10 2016 - 18:20:09 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "search"
+Context  = nil
+-- QuaiDesDocs.filtre : {:cb_user_id=>"on", :user_id=>"5", :cb_module_id=>"on", :module_id=>"5", :etape_id=>"188", :cb_annee=>"on", :annee=>"2007", :cb_trimestre=>"on", :trimestre=>"3"}
+
+
+=== DEBUG DU 01 10 2016 - 18:20:21 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "search"
+Context  = nil
+-- QuaiDesDocs.filtre : {:user_id=>"5", :module_id=>"5", :cb_etape_id=>"on", :etape_id=>"39", :annee=>"2007", :trimestre=>"3"}
+
+
+=== DEBUG DU 01 10 2016 - 18:33:55 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "search"
+Context  = nil
+-- Il faut sélectionner au moins un paramètre !
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/quai_des_docs/search.rb:29:in `filtre_ok?'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/quai_des_docs/search.rb:18:in `proceed_search'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/quai_des_docs/search.rb:46:in `<top (required)>'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:22:in `require_ruby'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:15:in `require_all'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:330:in `load_per_vue'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:103:in `execute_route'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 01 10 2016 - 18:34:01 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "search"
+Context  = nil
+-- Il faut sélectionner au moins un paramètre !
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/quai_des_docs/search.rb:29:in `filtre_ok?'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/quai_des_docs/search.rb:18:in `proceed_search'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/quai_des_docs/search.rb:46:in `<top (required)>'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:22:in `require_ruby'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:15:in `require_all'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:330:in `load_per_vue'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:103:in `execute_route'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 01 10 2016 - 18:34:13 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "search"
+Context  = nil
+
+
+=== DEBUG DU 01 10 2016 - 18:34:16 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "search"
+Context  = nil
+-- Il faut sélectionner au moins un paramètre !
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/quai_des_docs/search.rb:29:in `filtre_ok?'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/quai_des_docs/search.rb:18:in `proceed_search'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/quai_des_docs/search.rb:46:in `<top (required)>'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:22:in `require_ruby'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:15:in `require_all'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:330:in `load_per_vue'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:103:in `execute_route'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 01 10 2016 - 18:55:03 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "search"
+Context  = nil
+
+
+=== DEBUG DU 01 10 2016 - 18:57:46 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "search"
+Context  = nil
+
+
+=== DEBUG DU 01 10 2016 - 19:00:01 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "search"
+Context  = nil
+
+
+=== DEBUG DU 01 10 2016 - 19:01:00 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "search"
+Context  = nil
+
+
+=== DEBUG DU 01 10 2016 - 19:03:31 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "search"
+Context  = nil
+-- args envoyés à as_ul: {:filtre=>{:module_id=>5}, :avertissement=>false, :infos_document=>true}
+
+
+=== DEBUG DU 01 10 2016 - 19:04:17 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "search"
+Context  = nil
+-- args envoyés à as_ul: {:filtre=>{:module=>5}, :avertissement=>false, :infos_document=>true}
+
+
+=== DEBUG DU 01 10 2016 - 19:04:55 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "search"
+Context  = nil
+-- args envoyés à as_ul: {:filtre=>{:created_between=>[1325372400, 1356994799]}, :avertissement=>false, :infos_document=>true}
+
+
+=== DEBUG DU 01 10 2016 - 19:08:37 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "search"
+Context  = nil
+-- args envoyés à as_ul: {:filtre=>{:created_between=>[1325372400, 1356994799]}, :avertissement=>false, :infos_document=>true}
+
+
+=== DEBUG DU 01 10 2016 - 19:09:16 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "search"
+Context  = nil
+-- args envoyés à as_ul: {:filtre=>{:created_between=>[1325372400, 1356994799]}, :avertissement=>false, :infos_document=>true}
+
+
+=== DEBUG DU 01 10 2016 - 19:10:22 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "search"
+Context  = nil
+-- args envoyés à as_ul: {:filtre=>{:created_between=>[1325372400, 1356994799]}, :avertissement=>false, :infos_document=>true}
+
+
+=== DEBUG DU 01 10 2016 - 19:11:40 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "search"
+Context  = nil
+-- args envoyés à as_ul: {:filtre=>{:created_between=>[1325372400, 1356994799]}, :avertissement=>false, :infos_document=>true}
+
+
+=== DEBUG DU 01 10 2016 - 19:12:57 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "search"
+Context  = nil
+-- args envoyés à as_ul: {:filtre=>{:created_between=>[1325372400, 1356994799]}, :avertissement=>false, :infos_document=>true}
+
+
+=== DEBUG DU 01 10 2016 - 19:13:14 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "search"
+Context  = nil
+-- args envoyés à as_ul: {:filtre=>{:created_between=>[1325372400, 1356994799]}, :avertissement=>false, :infos_document=>true}
+
+
+=== DEBUG DU 01 10 2016 - 19:13:31 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "search"
+Context  = nil
+-- args envoyés à as_ul: {:filtre=>{:created_between=>[1325372400, 1356994799]}, :avertissement=>false, :infos_document=>true}
+
+
+=== DEBUG DU 01 10 2016 - 19:13:44 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "search"
+Context  = nil
+-- args envoyés à as_ul: {:filtre=>{:created_between=>[1325372400, 1356994799]}, :avertissement=>false, :infos_document=>true}
+
+
+=== DEBUG DU 01 10 2016 - 19:13:50 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "search"
+Context  = nil
+-- args envoyés à as_ul: {:filtre=>{:created_between=>[1341093600, 1349042400]}, :avertissement=>false, :infos_document=>true}
+
+
+=== DEBUG DU 01 10 2016 - 19:16:49 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "search"
+Context  = nil
+-- args envoyés à as_ul: {:filtre=>{:created_between=>[1341093600, 1349042400]}, :avertissement=>false, :infos_document=>true}
+
+
+=== DEBUG DU 01 10 2016 - 19:17:00 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "search"
+Context  = nil
+-- args envoyés à as_ul: {:filtre=>{:user_id=>75}, :avertissement=>false, :infos_document=>true}
+
+
+=== DEBUG DU 01 10 2016 - 19:17:05 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "search"
+Context  = nil
+-- args envoyés à as_ul: {:filtre=>{:user_id=>75, :created_between=>[1325372400, 1356994799]}, :avertissement=>false, :infos_document=>true}
+
+
+=== DEBUG DU 01 10 2016 - 19:22:15 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "search"
+Context  = nil
+-- args envoyés à as_ul: {:filtre=>{:user_id=>75, :created_between=>[1325372400, 1356994799]}, :avertissement=>false, :infos_document=>true}
+
+
+=== DEBUG DU 01 10 2016 - 19:22:21 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "search"
+Context  = nil
+-- args envoyés à as_ul: {:filtre=>{:user_id=>75}, :avertissement=>false, :infos_document=>true}
+
+
+=== DEBUG DU 01 10 2016 - 19:22:46 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "search"
+Context  = nil
+-- args envoyés à as_ul: {:filtre=>{:module=>6}, :avertissement=>false, :infos_document=>true}
+
+
+=== DEBUG DU 01 10 2016 - 19:22:55 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 01 10 2016 - 19:23:01 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 01 10 2016 - 19:23:13 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 01 10 2016 - 19:23:25 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 01 10 2016 - 19:23:31 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "search"
+Context  = nil
+
+
+=== DEBUG DU 01 10 2016 - 20:08:38 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 01 10 2016 - 20:08:52 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "dashboard"
+Context  = nil
+-- --> check_folders_offline
+-- --> check_folders_online
+-- --> build_result
+-- --> open_result
+-- Redirection -> bureau/home
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 02 10 2016 - 09:09:09 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "search"
+Context  = nil
+-- args envoyés à as_ul: {:filtre=>{:etape=>0}, :avertissement=>false, :infos_document=>true}
+-- Redirection -> user/signin
+-- param(:backto) mis à "quai_des_docs/search"
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signin"
+Context  = nil
+
+
+=== DEBUG DU 02 10 2016 - 09:09:19 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "search"
+Context  = nil
+-- args envoyés à as_ul: {:filtre=>{:user_id=>3, :etape=>0}, :avertissement=>false, :infos_document=>true}
+-- Redirection -> user/signin
+-- param(:backto) mis à "quai_des_docs/search"
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signin"
+Context  = nil
+
+
+=== DEBUG DU 02 10 2016 - 09:10:34 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "search"
+Context  = nil
+-- args envoyés à as_ul: {:filtre=>{:etape=>0}, :avertissement=>false, :infos_document=>true}
+-- Redirection -> user/signin
+-- param(:backto) mis à "quai_des_docs/search"
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signin"
+Context  = nil
+
+
+=== DEBUG DU 02 10 2016 - 09:11:10 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "search"
+Context  = nil
+-- filtre = {:user_id=>"3", :module_id=>"1", :cb_etape_id=>"on", :annee=>"2016", :trimestre=>"1"}
+-- kfiltre: :user_id
+-- kfiltre: :module_id
+-- kfiltre: :etape_id
+-- args envoyés à as_ul: {:filtre=>{:etape=>0}, :avertissement=>false, :infos_document=>true}
+-- Redirection -> user/signin
+-- param(:backto) mis à "quai_des_docs/search"
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signin"
+Context  = nil
+
+
+=== DEBUG DU 02 10 2016 - 09:11:42 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "search"
+Context  = nil
+-- kfiltre: :user_id
+-- kfiltre: :module_id
+-- kfiltre: :etape_id
+-- args envoyés à as_ul: {:filtre=>{:etape=>0}, :avertissement=>false, :infos_document=>true}
+-- Redirection -> user/signin
+-- param(:backto) mis à "quai_des_docs/search"
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signin"
+Context  = nil
+
+
+=== DEBUG DU 02 10 2016 - 09:11:45 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "search"
+Context  = nil
+-- kfiltre: :user_id
+-- kfiltre: :module_id
+-- kfiltre: :etape_id
+-- args envoyés à as_ul: {:filtre=>{:etape=>0}, :avertissement=>false, :infos_document=>true}
+-- Redirection -> user/signin
+-- param(:backto) mis à "quai_des_docs/search"
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signin"
+Context  = nil
+
+
+=== DEBUG DU 02 10 2016 - 09:12:26 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "search"
+Context  = nil
+-- kfiltre: :user_id
+-- kfiltre: :module_id
+-- kfiltre: :etape_id
+-- args envoyés à as_ul: {:filtre=>{:etape=>0}, :avertissement=>false, :infos_document=>true}
+-- Redirection -> user/signin
+-- param(:backto) mis à "quai_des_docs/search"
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signin"
+Context  = nil
+
+
+=== DEBUG DU 02 10 2016 - 09:14:20 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "outils"
+Context  = nil
+-- Redirection -> user/signin
+-- param(:backto) mis à "bureau/outils"
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signin"
+Context  = nil
+
+
+=== DEBUG DU 02 10 2016 - 09:14:23 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 02 10 2016 - 09:14:25 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "search"
+Context  = nil
+-- Redirection -> user/signin
+-- param(:backto) mis à "quai_des_docs/search"
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signin"
+Context  = nil
+
+
+=== DEBUG DU 02 10 2016 - 09:14:31 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "search"
+Context  = nil
+-- kfiltre: :user_id
+-- kfiltre: :module_id
+-- kfiltre: :etape_id
+-- kfiltre: :annee
+-- kfiltre: :trimestre
+-- Merci de sélectionner au moins un paramètre !
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/quai_des_docs/search.rb:92:in `filtre_ok?'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/quai_des_docs/search.rb:23:in `proceed_search'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/quai_des_docs/search.rb:111:in `<top (required)>'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:22:in `require_ruby'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:15:in `require_all'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:330:in `load_per_vue'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:103:in `execute_route'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+-- Redirection -> user/signin
+-- param(:backto) mis à "quai_des_docs/search"
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signin"
+Context  = nil
+
+
+=== DEBUG DU 02 10 2016 - 09:14:39 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "search"
+Context  = nil
+-- kfiltre: :user_id
+-- args envoyés à as_ul: {:filtre=>{:user_id=>3}, :avertissement=>false, :infos_document=>true}
+-- Redirection -> user/signin
+-- param(:backto) mis à "quai_des_docs/search"
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signin"
+Context  = nil
+
+
+=== DEBUG DU 02 10 2016 - 09:15:07 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "search"
+Context  = nil
+-- Redirection -> user/signin
+-- param(:backto) mis à "quai_des_docs/search"
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signin"
+Context  = nil
+-- kfiltre: :user_id
+-- args envoyés à as_ul: {:filtre=>{:user_id=>3}, :avertissement=>false, :infos_document=>true}
+
+
+=== DEBUG DU 02 10 2016 - 09:16:05 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "login"
+Context  = nil
+-- Redirection -> quai_des_docs/search
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "search"
+Context  = nil
+
+
+=== DEBUG DU 02 10 2016 - 09:16:11 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "search"
+Context  = nil
+-- kfiltre: :user_id
+-- kfiltre: :module_id
+-- kfiltre: :etape_id
+-- kfiltre: :annee
+-- kfiltre: :trimestre
+-- Merci de sélectionner au moins un paramètre !
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/quai_des_docs/search.rb:93:in `filtre_ok?'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/quai_des_docs/search.rb:24:in `proceed_search'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/quai_des_docs/search.rb:112:in `<top (required)>'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:22:in `require_ruby'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:15:in `require_all'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:330:in `load_per_vue'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:103:in `execute_route'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 02 10 2016 - 09:16:37 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "search"
+Context  = nil
+-- kfiltre: :user_id
+-- args envoyés à as_ul: {:filtre=>{:user_id=>16}, :avertissement=>false, :infos_document=>true}
+
+
+=== DEBUG DU 02 10 2016 - 09:17:54 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 02 10 2016 - 09:17:58 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "dashboard"
+Context  = nil
+-- --> check_folders_offline
+-- --> check_folders_online
+-- --> build_result
+-- --> open_result
+-- Redirection -> bureau/home
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil

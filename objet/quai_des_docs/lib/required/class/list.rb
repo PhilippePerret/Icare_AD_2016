@@ -2,6 +2,8 @@
 class QuaiDesDocs
 class << self
 
+  attr_reader :nombre_documents_found
+
   # Retourne la liste des documents répondant au filtre +filtre+
   #
   # +filtre+
@@ -19,6 +21,11 @@ class << self
   #           :hash           Des hash contenant toutes les données
   #           :id             Seulement les identifiants
   #
+  # Note :
+  #   * Le nombre de documents trouvés est mis dans la variable
+  #     @nombre_documents_found qu'on peut obtenir par :
+  #     QuaiDesDocs.nombre_documents_found
+  # 
   def list filtre = nil, options = nil
     options ||= Hash.new
 
@@ -45,6 +52,8 @@ class << self
         hdoc[:abs_module_id] > 0 || next
         hdoc
       end.compact
+
+    @nombre_documents_found = res.count
 
     # On retourne le résultat
     case as
