@@ -3534,3 +3534,37 @@ Objet    = "bureau"
 Objet ID = nil
 Method   = "documents"
 Context  = nil
+
+
+=== DEBUG DU 02 10 2016 - 18:27:59 ===
+
+-- 
+Objet    = "user"
+Objet ID = 75
+Method   = "deconnexion"
+Context  = nil
+-- Redirection -> bureau/home
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 02 10 2016 - 18:28:06 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "dashboard"
+Context  = nil
+-- --> check_folders_offline
+-- --> check_folders_online
+-- --> build_result
+-- --> open_result
+-- Redirection -> bureau/home
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
