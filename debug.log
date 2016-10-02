@@ -2622,3 +2622,344 @@ Objet    = "admin"
 Objet ID = nil
 Method   = "users"
 Context  = nil
+
+
+=== DEBUG DU 02 10 2016 - 15:20:54 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- undefined method `folder' for Admin::Users:Class
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/users.rb:95:in `folder_operation'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/users.rb:89:in `execute_operation'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/users.rb:102:in `<top (required)>'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:22:in `require_ruby'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:15:in `require_all'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:330:in `load_per_vue'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:103:in `execute_route'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 02 10 2016 - 15:21:18 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- Unable de require file ./objet/admin/lib/module/operations_user/travail_propre: it doesn't exist.
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:76:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/users.rb:89:in `execute_operation'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/users.rb:102:in `<top (required)>'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:22:in `require_ruby'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:15:in `require_all'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:330:in `load_per_vue'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:103:in `execute_route'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 02 10 2016 - 15:21:35 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 02 10 2016 - 15:22:11 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- Unable de require file ./objet/admin/lib/module/operations_user/.rb: it doesn't exist.
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:76:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/users.rb:89:in `execute_operation'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/users.rb:102:in `<top (required)>'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:22:in `require_ruby'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:15:in `require_all'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:330:in `load_per_vue'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:103:in `execute_route'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 02 10 2016 - 15:22:51 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 02 10 2016 - 15:23:00 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- On ne peut définir le travail propre que d’un icarien actif, voyons !
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/operations_user/travail_propre.rb:7:in `exec_travail_propre'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/users.rb:91:in `execute_operation'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/users.rb:102:in `<top (required)>'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:22:in `require_ruby'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:15:in `require_all'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:330:in `load_per_vue'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:103:in `execute_route'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 02 10 2016 - 15:23:31 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 02 10 2016 - 15:23:36 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- Il faut définir le travail propre !
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/operations_user/travail_propre.rb:8:in `exec_travail_propre'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/users.rb:91:in `execute_operation'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/users.rb:102:in `<top (required)>'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:22:in `require_ruby'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:15:in `require_all'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:330:in `load_per_vue'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:103:in `execute_route'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 02 10 2016 - 15:24:07 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 02 10 2016 - 15:24:11 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 02 10 2016 - 15:32:57 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 02 10 2016 - 15:33:11 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 02 10 2016 - 15:33:16 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "visit_as"
+Context  = nil
+
+
+=== DEBUG DU 02 10 2016 - 15:33:32 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "visit_as"
+Context  = nil
+
+
+=== DEBUG DU 02 10 2016 - 15:33:35 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+-- user.icetape.abs_etape.numero : 30
+
+
+=== DEBUG DU 02 10 2016 - 15:37:05 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+-- user.icetape.abs_etape.numero : 30
+
+
+=== DEBUG DU 02 10 2016 - 15:37:08 ===
+
+-- 
+Objet    = "user"
+Objet ID = 75
+Method   = "deconnexion"
+Context  = nil
+-- Redirection -> bureau/home
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 02 10 2016 - 15:37:15 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 02 10 2016 - 15:37:18 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 02 10 2016 - 15:37:25 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 02 10 2016 - 15:37:38 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 02 10 2016 - 15:38:56 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 02 10 2016 - 15:39:16 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 02 10 2016 - 15:39:33 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- @long_value : "<p>Travail propre d\u00E9fini pour Karine</p>\r\n\r\n<p><%= user.pseudo %>, c'est ton travail propre.</p>"
+
+
+=== DEBUG DU 02 10 2016 - 15:40:27 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 02 10 2016 - 15:40:35 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 02 10 2016 - 15:41:18 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 02 10 2016 - 15:41:23 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "dashboard"
+Context  = nil
+-- --> check_folders_offline
+-- --> check_folders_online
+-- --> build_result
+-- --> open_result
+-- Redirection -> bureau/home
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil

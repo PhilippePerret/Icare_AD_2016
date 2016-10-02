@@ -14,13 +14,15 @@
 =end
 raise_unless_admin
 
+OFFLINE || page.add_javascript(PATH_MODULE_JS_SNIPPETS)
+
 class Admin
 class Users
 
   DATA_OPERATIONS = {
     ''          => {hname: 'Choisir l’opération…', short_value: nil, long_value: nil},
     'free_days' => {hname: 'Jours gratuits', short_value: "Nombre de jours gratuits", long_value: "Raison éventuelle du don de jours gratuits (format ERB)."},
-    'travail_propre'  => {hname: 'Travail propre', short_value: nil, long_value: "Description du travail propre (format ERB)."},
+    'travail_propre'  => {hname: 'Travail propre', short_value: nil, long_value: "Description du travail propre (format ERB).<br>Laisser vide et cliquez sur “Exécuter” pour charger le travail qui peut déjà exister."},
     'inject_document' => {hname: 'Document envoyé par mail', medium_value: 'Nom du fichier'},
     'etape_change'    => {hname: 'Changement d’étape', short_value: 'Numéro de l’étape', long_value: nil},
     'code_sur_table'  => {hname: 'Exécution code sur données', short_value: nil, medium_value: nil, long_value: "Code à exécuter <strong>sur chaque icarien de la table</strong>, sur la table #{ONLINE ? 'ONLINE' : 'OFFLINE'} puis vous êtes #{ONLINE ? 'ONLINE' : 'OFFLINE'}.<br><br><code>dbtable_users.select.each do |huser|<br>&nbsp;&nbsp;uid = huser[:id]<br>&nbsp;&nbsp;u = User.new(uid)</code>"},
@@ -82,13 +84,18 @@ class << self
   end
 
   def execute_operation
-    param_opuser[:ope] || return
+    ope = param_opuser[:ope].nil_if_empty
+    ope || return
     @suivi = Array.new
     Admin.require_module 'operations_user'
-    method = "exec_#{param_opuser[:ope]}".to_sym
+    (folder_operation + "#{ope}.rb").require
+    method = "exec_#{ope}".to_sym
     self.respond_to?(method) && self.send(method)
   end
 
+  def folder_operation
+    @folder_operation ||= site.folder_objet + 'admin/lib/module/operations_user'
+  end
 
 end #/<< self
 end #/Users

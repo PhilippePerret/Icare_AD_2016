@@ -31,3 +31,7 @@ $.extend(window.Dashboard,{
     $('select#opuser_ope').val('');
   }
 })
+
+
+$(document).ready(function(){
+  if(ONLINE){UI.prepare_champs_easy_edit(tous = true)}});

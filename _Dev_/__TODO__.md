@@ -6,8 +6,6 @@
 
 ## À FAIRE RAPIDEMENT
 
-* Pouvoir définir le travail propre de l'icarien (opération icariens)
-  - Le définir pour Karine
 * Documents de l'icarien dont les commentaires sont encore téléchargeables
   - ajouter un lien pour rejoindre le quai des docs
 * Dans le menu opération Icarien, trier les icariens par ordre alpha en capitalisant le pseudo (dans mysql ? avec DOWNCASE(pseudo) as pseu et order :pseu)
