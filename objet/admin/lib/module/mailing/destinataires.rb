@@ -10,9 +10,11 @@ class << self
   # le message.
   def destinataires
     @destinataires ||= begin
-      dbtable_users.select(where: clause_where, colonnes: []).collect do |huser|
+      outs = site.mails_out || Array.new
+      dbtable_users.select(where: clause_where, colonnes: [:mail]).collect do |huser|
+        outs.include?(huser[:mail]) && next
         User.new(huser[:id])
-      end
+      end.compact
     end
   end
 

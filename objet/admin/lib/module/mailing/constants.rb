@@ -14,6 +14,7 @@ class Mailing
   OPTIONS = {
     :signature_bot  => {hname: "Signature du bot (sinon, la mienne)", value: nil},
     :code_brut      => {hname: "Le message est en pur code HTML",    value: nil},
+    :code_erb       => {hname: "Code ERB (donc HTML)", value: nil},
     :no_template    => {hname: "Ne pas interpréter les '%'", value: nil}
 
   }

@@ -63,11 +63,11 @@ class << self
   #
   def exec_prepare_mailing
     define_params_and_check_values_or_raise
-    debug "Données pour le mailing : " + {
-      subject: subject, message: message,
-      keys_destinataires: keys_destinataires,
-      options: options
-    }.inspect
+    # debug "Données pour le mailing : " + {
+    #   subject: subject, message: message,
+    #   keys_destinataires: keys_destinataires,
+    #   options: options
+    # }.inspect
 
     c = ""
 
@@ -95,12 +95,20 @@ class << self
     #
     c << "Options d'envoi".in_div(class: 'titre')
     options_choisies = OPTIONS.reject{|k, e| e[:value] == false}.collect{|k, e| "#{e[:hname]}<br />"}.join('')
-    if OFFLINE && OPTIONS[:force_offline][:value] == false
+    if OFFLINE && !force_offline?
       options_choisies.prepend("Puisque vous êtes OFFLINE et que l'option “Forcer offline” n'est pas choisie, le message ne sera pas vraiment envoyé (sauf pour Phil), il sera juste placé dans le dossier temporaire des mails.<br />".in_span(class: 'warning'))
     end
     c << options_choisies.in_div(id: 'mailing_options', class: 'cadre')
 
-    #
+    # Les options mémorisées
+    # ----------------------
+    # On met '1' pour celle qui sont vraies
+    # et '0' pour celles qui sont fausses
+    options_hidden =
+      OPTIONS.collect do |koption, doption|
+        "#{koption}:#{doption[:value] ? '1' : '0'}"
+      end.join('::')
+
     # Formulaire d'envoi final du message
     #
     f = ""
@@ -108,6 +116,7 @@ class << self
     f << subject.in_hidden(name: 'mail_subject')
     f << template_formated.in_textarea(name: 'template_formated', class: 'hidden')
     f << keys_destinataires.join(" ").in_hidden(name: 'keys_destinataires')
+    f << options_hidden.in_hidden(name: 'options_hidden')
     f << "Envoyer".in_submit(class: 'btn main').in_div(class: 'buttons')
     c << f.in_form(id: 'form_send_message', action: 'admin/mailing', class: 'dim1090')
 
@@ -122,11 +131,6 @@ class << self
   #
   # ---------------------------------------------------------------------
 
-  # Retourne le code du premier message formaté (pour confirmation)
-  #
-  def first_message
-    real_message_for (destinataires.first || User.new(1))
-  end
 
   #
   #
@@ -135,60 +139,27 @@ class << self
   #
   def define_init_options
     KEYS_DESTINATAIRES.each do |key, dkey|
-      KEYS_DESTINATAIRES[key][:checked] = param("cb_dest_#{key}".to_sym) == "on"
+      KEYS_DESTINATAIRES[key][:checked] = param("cb_dest_#{key}".to_sym) == 'on'
     end
+    options_hidden =
+      if param(:options_hidden)
+        h = Hash.new
+        param(:options_hidden).split('::').each do |paire|
+          paire = paire.split(':')
+          h.merge!(paire.first.to_sym => paire.last == '1')
+        end
+        h
+      else
+        nil
+      end
     OPTIONS.each do |key, dkey|
-      OPTIONS[key][:value] = param("cb_option_#{key}".to_sym) == "on"
+      OPTIONS[key][:value] =
+        if options_hidden
+          !!options_hidden[key]
+        else
+          param("cb_option_#{key}".to_sym) == 'on'
+        end
     end
-  end
-
-  #
-  #
-  # Définit les variables template
-  #
-  #
-  def variables_template
-    @variables_template ||= begin
-      {
-        :votre_bureau => {key: :votre_bureau, replace: lien.bureau('votre bureau'), description: "Lien vers le bureau"},
-        :mail         => {key: :mail, replace: nil, description: "Pour insérer le mail de l'icarien"},
-        :pseudo       => {key: :pseudo, replace: nil, description: "Pour insérer le pseudo de l'icarien"},
-        :date         => {key: :date, replace: Time.now.to_i.as_human_date, description: "La date courante (#{Time.now.to_i.as_human_date})"}
-      }
-    end
-  end
-
-  def template_formated
-    @template_formated ||= traite_message
-  end
-
-  # = Main =
-  #
-  # Méthode principale qui formate le message
-  #
-  # Prend le message initial (@message) et compose un
-  # template (variables %)
-  #
-  def traite_message
-    res = message
-    return nil if res.nil? || res.to_s == ""
-
-    unless OPTIONS[:code_brut][:value] == true
-      #
-      # Correction des doubles retours chariot
-      #
-      res = res.split("\n").collect { |e| e.strip }.join("\n")
-      res = res.split("\n\n").collect { |l| "<p>#{l.strip}</p>" }.join('')
-      #
-      # Retours de chariot simples
-      #
-      res = res.split("\n").collect { |line| line.strip }.join('<br />')
-    end
-
-    signature = OPTIONS[:signature_bot][:value] ? "Le Bot de l'atelier" : "Phil, pédagogue de l'atelier"
-    res = "<p>Bonjour %{pseudo},</p>#{res}<p>#{signature}</p>"
-
-    return res
   end
 
   #

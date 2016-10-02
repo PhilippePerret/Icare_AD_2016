@@ -14,6 +14,7 @@ class << self
       KEYS_DESTINATAIRES[kdestinataire.to_sym][:checked] = true
     end
 
+    debug "code_erb? = #{code_erb?.inspect}"
     rapport = Array.new
     destinataires.each do |u|
       begin
@@ -48,52 +49,12 @@ class << self
       subject:  subject,
       message:  real_message_for(u)
     }
-    if OFFLINE && (forcer_offline || OPTIONS[:force_offline][:value] === true)
-      data_mail.merge! force_offline: true
-    end
+    OFFLINE && (forcer_offline || force_offline?) && data_mail.merge!(force_offline: true)
 
-    # POUR LE MOMENT, JE METS UNE BARRIÈRE DE PROTECTION
-    #
-    data_mail.delete(:force_offline) if u.mail != admin.mail
-    # debug "data mail : #{data_mail.inspect}"
+    (code_html? || code_erb?) && data_mail.merge!(formated: true)
 
     u.send_mail data_mail
   end
-
-  # Retourne le message réel pour l'icarien de donnée +udata+
-  #
-  # +u+ Instance {User} de l'icarien à qui il faut envoyer le message
-  def real_message_for u
-    u.instance_of?(User) || (raise "Le premier paramètre de `real_meassage_for` devrait être un User… Le paramètre est de type #{u.class}")
-    data_replacement = {}
-
-    # Seulement si on ne demande pas de laisser les %
-    unless OPTIONS[:no_template][:value]
-      variables_template.each do |key, dkey|
-        value =
-          if dkey[:replace].nil?
-            u.send(key)
-          else
-            dkey[:replace]
-          end
-        data_replacement.merge! key => value
-      end
-      data_replacement[:pseudo] = data_replacement[:pseudo].capitalize
-      # template_formated % data_replacement
-      template_formated.gsub(/%\{(.*?)\}/){
-        tout = $&
-        balise = "#{$1}".to_sym
-        if data_replacement.key? balise
-          data_replacement[balise]
-        else
-          tout
-        end
-      }
-    else
-      template_formated.gsub(/%\{pseudo\}/, u.pseudo.capitalize)
-    end
-  end
-
 
 end #/<< self
 end #/Mailing

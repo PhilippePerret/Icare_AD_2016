@@ -2,6 +2,21 @@
 class Lien
   include Singleton
 
+  attr_reader :all_link_to_distant
+
+  # Pour définir que tous les liens doivent être produits
+  # comme des liens distants. Cela permet, par exemple, de ne pas
+  # se soucier d'avoir mis l'argument online: true dans les liens pour
+  # les mails.
+  # Usage :
+  #     lien.all_link_to_distant= true
+  #     ... opération utilisant les liens, par exemple send_mail ...
+  #     lien.all_link_to_distant= nil # réinitialisation
+  #
+  def all_link_to_distant= value
+    @all_link_to_distant = value
+  end
+
   # Pour définir le format de sortie général.
   # Utilisé par l'export en LaTex de la collection Narration
   # Utilisé par la construction du manuel (Markdown) d'utilisation
@@ -26,7 +41,7 @@ class Lien
     type_lien = options.delete(:type)
     is_arrow_cadred = type_lien == :arrow_cadre
 
-    distant_link = options.delete(:distant) || options.delete(:online)
+    distant_link = options.delete(:distant) || options.delete(:online) || all_link_to_distant
 
     distant_link && route = "#{site.distant_url}/#{route}"
     case output_format
@@ -121,7 +136,7 @@ class Lien
   #             OU le texte du lien lui-meême.
   #     :discret      Si false, le lien d'aide ne sera pas "discret"
   #                   (true par défaut)
-  # 
+  #
   def aide aide_id, options = nil
 
     if aide_id.instance_of?(String)

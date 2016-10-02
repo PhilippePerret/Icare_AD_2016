@@ -6,6 +6,7 @@ class << self
   # Le contenu de la page, quand un mail est défini
   attr_writer :content
 
+  
   # Sous-titre en fonction de l'étape de conception du mailing-list
   # On peut être à la composition du message, à sa validation ou à
   # son envoi.

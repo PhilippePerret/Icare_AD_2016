@@ -35,6 +35,12 @@ site.logo_title = "Atelier Icare"
 site.mail                 = "phil@atelier-icare.net"
 site.mail_before_subject  = "ICARE — "
 site.mail_signature       = "<p>#{site.name}</p>"
+# Liste des mails à éviter, qui correspondent à des users qui
+# ont changé d'adresse sans le signaler.
+site.mails_out = [
+  'domideso@hotmail.fr',
+  'rocha_dilma@hotmail.com'
+]
 
 # Host local
 site.local_host   = 'localhost/AlwaysData/Icare_AD_2016'

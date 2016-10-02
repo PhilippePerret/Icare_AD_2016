@@ -38,6 +38,10 @@ class SiteHtml
   # La signature de tous les mails (au format HTML)
   attr_accessor :mail_signature
 
+  # Array contenant la liste des mails à éviter pour tous les
+  # envois
+  attr_accessor :mails_out
+
   # HOST local et distant qui permettront de déterminer les propriétés
   # méthodes `local_url` et `distant_url`
   # {String} Host Local (par exemple 'localhost/AlwaysData/Icare_AD')

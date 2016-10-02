@@ -6,12 +6,10 @@
 
 ## À FAIRE RAPIDEMENT
 
+* Annonce de la mise en place du QDD
 * QDD : filtre exprimé de façon humaine
-  - Marion n'aime pas les trimestres : donc les détruire
-  - Mettre à la place un menu les N derniers documents
   - classement des documents par date en option (sinon, ils sont classés par auteur)
-
-* QDD : informer les "à l'essai" qu'ils ne peuvent télécharger que quelques documents.
+  - informer les "à l'essai" qu'ils ne peuvent télécharger que quelques documents.
 * Pouvoir définir le travail propre de l'icarien (opération icariens)
   - Le définir pour Karine
 * Installation du Quai des docs
@@ -31,6 +29,9 @@
 
 
 ## DIVERS
+
+* Mieux indiquer la différence entre module suivi de projet et coaching, en se servant du texte écrit à Guilhem : « Le premier se fait sur un temps déterminé (en fait, plus précisément, un certain nombre d'étapes de travail). Dans ce module, on peut très bien arriver par exemple avec un scénario déjà presque abouti. Pour le moment, il a été utilisé pour ça : préparer son entrée au CEEA, préparer son entrée en Master II de scénario, finaliser un roman, rédiger une note d'intention ou encore obtenir un script-doctoring sur plusieurs scénarios à leur version 2 ou 3. Le module "suivi de projet", a contrario, n'a pas de durée déterminée. Certains l'ont suivi pendant 4 ans ! J'y accompagne un projet des tout débuts — l'idée initiale — jusqu'au scénario ou au roman, en passant par toutes les étapes de développement. »
+
 
 * Nettoyage du site par le cron
 
