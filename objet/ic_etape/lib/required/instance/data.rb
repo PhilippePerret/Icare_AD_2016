@@ -7,6 +7,7 @@ class IcEtape
   def abs_etape_id      ; @abs_etape_id       ||= get(:abs_etape_id)      end
   def icmodule_id       ; @icmodule_id        ||= get(:icmodule_id)       end
   def numero            ; @numero             ||= get(:numero)            end
+  def status            ; @status             ||= get(:status) || 0       end
   def started_at        ; @started_at         ||= get(:started_at)        end
   def started_at        ; @started_at         ||= get(:started_at)        end
   def expected_end      ; @expected_end       ||= get(:expected_end)      end

@@ -58,7 +58,7 @@ class << self
     dd = dbtable_icdocuments.get(first_doc_id, colonnes:[:created_at, :time_original])
     dd[:created_at] || dd[:time_original]
   end
-  
+
   def ligne_nombre_jours_restants
     travail_etape_sent? && (return '')
     nbj = (icetp.expected_end - Time.now.to_i)/1.day + 1

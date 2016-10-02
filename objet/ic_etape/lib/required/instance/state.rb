@@ -13,8 +13,6 @@ class IcEtape
   # 6 Dépôt (upload) des documents sur le QDD
   # 7 Définition du partage par l'icarien
 
-  def status; @status ||= get(:status) end
-
   def stated? ; status > 0 end
   def ended?  ; status > 6 end
 
