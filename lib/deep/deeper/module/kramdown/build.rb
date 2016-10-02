@@ -47,18 +47,20 @@ class ::String
 
     # La méthode de transformation, suivant le format
     # de sortie voulu
-    mdown_method = case options[:output_format]
-    when :html, :erb then :to_html
-    when :latex      then :to_latex
-    when :pdf        then :to_latex
-    end
+    mdown_method =
+      case options[:output_format]
+      when :html, :erb then :to_html
+      when :latex      then :to_latex
+      when :pdf        then :to_latex
+      end
 
     # Pour extra_markdown par exemple
-    output_format = case options[:output_format]
-    when :html, :erb  then :html
-    when :latex       then :latex
-    when :pdf         then :latex
-    end
+    output_format =
+      case options[:output_format]
+      when :html, :erb  then :html
+      when :latex       then :latex
+      when :pdf         then :latex
+      end
 
     code = self
 

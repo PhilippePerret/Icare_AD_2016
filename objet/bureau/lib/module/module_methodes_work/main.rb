@@ -7,9 +7,17 @@
 =end
 module MethodesTravail
 
+  site.require_module 'kramdown'
+
   # {String} Le travail de l'étape, formaté
   def travail_formated
-    ERB.new(travail).result(self.bind)
+    w = ERB.new(travail).result(self.bind)
+    w = w.kramdown(owner: nil, output_format: :html) rescue nil
+    return w
+  rescue Exception => e
+    debug e
+    send_error_to_admin(exception: e)
+    '[IMPOSSIBLE D’AFFICHER LE TRAVAIL]'.in_p(class: 'red')
   end
 
   # {String} Code HTML pour afficher les liens de l'étape et
@@ -21,6 +29,10 @@ module MethodesTravail
       # des différentes versions de l'atelier.
       formate_link( dlink ).in_div
     end.compact.join.in_p
+  rescue Exception => e
+    debug e
+    send_error_to_admin(exception: e)
+    '[IMPOSSIBLE DE FORMATER LES LIENS]'.in_p(class: 'red')
   end
 
   def formate_link dlink
@@ -60,7 +72,13 @@ module MethodesTravail
   # {String} Code HTML pour afficher la méthode de travail si elle
   # est définie.
   def methode_formated
-    ERB.new(methode).result(self.bind)
+    met = ERB.new(methode).result(self.bind)
+    met = met.kramdown(owner: nil, output_format: :html) rescue nil
+    return met
+  rescue Exception => e
+    debug e
+    send_error_to_admin(exception: e)
+    '[IMPOSSIBLE DE FORMATER LA MÉTHODE]'.in_p(class: 'red')
   end
 
 end

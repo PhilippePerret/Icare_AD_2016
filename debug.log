@@ -1751,3 +1751,128 @@ Objet    = "user"
 Objet ID = nil
 Method   = "signin"
 Context  = nil
+
+
+=== DEBUG DU 02 10 2016 - 13:50:43 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "login"
+Context  = nil
+-- Redirection -> admin/mailing
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "mailing"
+Context  = nil
+-- param(:operation) : nil
+
+
+=== DEBUG DU 02 10 2016 - 13:50:47 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 02 10 2016 - 13:50:52 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 1
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 02 10 2016 - 13:50:56 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 02 10 2016 - 13:50:59 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 32
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 02 10 2016 - 13:51:11 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 32
+Method   = "show"
+Context  = nil
+-- undefined method `kramdown' for #<String:0x007f97639cdd60>
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/bureau/lib/module/module_methodes_work/main.rb:13:in `travail_formated'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/bureau/lib/module/section_current_work/master.rb:59:in `section_etape_travail'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/bureau/lib/module/section_current_work/master.rb:28:in `_section_current_work'
+(erb):50:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 02 10 2016 - 13:51:27 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 32
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 02 10 2016 - 13:51:45 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 32
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 02 10 2016 - 13:53:11 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 32
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 02 10 2016 - 14:01:19 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 32
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 02 10 2016 - 14:01:32 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 32
+Method   = "show"
+Context  = nil
