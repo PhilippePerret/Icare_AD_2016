@@ -17,7 +17,7 @@ enable_comments
 if param(:to)
   if site.current_mail.destinataire
     dest = site.current_mail.destinataire
-    "Contacter l'icarien#{dest.f_ne} #{dest.pseudo}".in_h3(class: 'bold')
+    "Contacter #{dest.pseudo}".in_h3(class: 'bold')
   else
     'Vous n’êtes pas autorisé à contacter cet icarien ! Vous pouvez toujours essayer, mais ça ne marchera pas. Bonne chance !'.in_div(class: 'air warning')
   end

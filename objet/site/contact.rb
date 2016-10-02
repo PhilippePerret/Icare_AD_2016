@@ -5,7 +5,7 @@ class SiteHtml
   end
 
   def current_mail
-    @current_mail ||= Contact::new
+    @current_mail ||= Contact.new
   end
 
   class Contact
@@ -84,12 +84,21 @@ class SiteHtml
     def message_final
       <<-HTML
 <p>Bonjour #{destinataire.pseudo},</p>
-<p>Un message vient de vous être envoyé depuis le site de l'atelier Icare par : #{destinataire.mail} :</p>
+<p>Un message vient de vous être envoyé depuis le site de l'atelier Icare par : #{sender_designation} :</p>
 <fieldset>
 <legend>Le message transmis</legend>
 #{message}
 </fieldset>
       HTML
+    end
+
+    # Pour la désignation de l'expéditeur dans le mail
+    def sender_designation
+      if user.identified?
+        "#{user.pseudo} (#{user.mail})"
+      else
+        "un visiteur ayant pour adresse #{sender}"
+      end
     end
 
     # Message protégé contre les injections quelconque

@@ -26,8 +26,9 @@ class << self
 
   def bouton_modules_dapprentissage
     (
-      'Modules d’apprentissage'.in_a(href: 'abs_module/list', class: 'btn main') +
-      (bouton_reussites + bouton_temoignages).in_div(class: 'liens_reussites_temoignages')
+      (bouton_reussites + bouton_temoignages).in_div(class: 'liens_reussites_temoignages') +
+      'Modules d’apprentissage'.in_a(href: 'abs_module/list', class: 'btn main').in_div(id: 'div_btn_modules') +
+      bouton_icariens.in_div(class: 'lien_icariens')
       ).in_div(id: 'boutons_icariens')
   end
   def bouton_reussites
@@ -35,6 +36,9 @@ class << self
   end
   def bouton_temoignages
     'TÉMOIGNAGES'.in_a(href: 'overview/temoignages')
+  end
+  def bouton_icariens
+    'ICARIENNES ET ICARIENS'.in_a(href: 'icarien/list')
   end
 
   def conteneur_medaillon_phil
