@@ -4,12 +4,19 @@
 
 ## BUGS
 
+## PROGRAMMÉ
+
+* [LUNDI 3] Faire une annonce pour la liste des icariens
+  - préciser qu'il faut régler ses préférences pour les contacts (indiquer les réglages par défaut)
+* [MARDI 4] Faire une annonce pour la section "Documents" du bureau
+  - Annonce : retrouver tous ses documents du QDD (et pouvoir redéfinir leur partage)
+  - Annonce : retrouver les derniers commentaires (et pouvoir les télécharger à nouveau)
+  - Annonce : on trouve aussi un lien pour rejoindre le quai des docs
+  - Faire une aide pour cette section ("Comment recharger ses commentaires ?")
+
 ## À FAIRE RAPIDEMENT
 
-* Documents de l'icarien dont les commentaires sont encore téléchargeables
-  - ajouter un lien pour rejoindre le quai des docs
-* Dans le menu opération Icarien, trier les icariens par ordre alpha en capitalisant le pseudo (dans mysql ? avec DOWNCASE(pseudo) as pseu et order :pseu)
-* Faire une annonce générale par mailing pour demander de définir les préférences (surtout pour le contact par le monde)
+* Frigo de l'icarien
 * Historique de l'icarien
 
 ## TESTS À FAIRE

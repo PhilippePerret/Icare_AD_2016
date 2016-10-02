@@ -4,9 +4,7 @@
 raise_unless_admin
 
 def menu_icariens
-  dbtable_users.select(colonnes: [:pseudo]).collect do |huser|
-    huser[:pseudo].in_option(value: huser[:id])
-  end.join.in_select(name: 'as_user')
+  User.values_select.in_select(name: 'as_user')
 end
 
 %>

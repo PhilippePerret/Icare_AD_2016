@@ -6,8 +6,9 @@ raise_unless_identified
 %>
 <%= Bureau.titre_h1('Documents')%>
 
-<h3>Derniers documents commentés</h3>
+<h3>Derniers commentaires</h3>
 <%= liste_derniers_documents_commented %>
 
 <h3>Documents déposés sur le Quai des docs</h3>
+<%= lien.quai_des_docs('→ Rejoindre le Quai des docs').in_div(class: 'right') %>
 <%= liste_documents_quai_des_docs %>

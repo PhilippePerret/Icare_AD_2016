@@ -16,7 +16,8 @@ CREATE TABLE absmodules
     # MODULE_ID
     # ---------
     # Ancien identifiant absolu pour le module. Il est gardé seulement
-    # pour le nommage des fichiers sur le Quai des docs.
+    # pour le nommage des fichiers sur le Quai des docs (et le download
+    # des commentaires une deuxième fois).
     # Le nouveau fonctionnement se fait avec les ID des modules.
     module_id VARCHAR(40) NOT NULL,
 

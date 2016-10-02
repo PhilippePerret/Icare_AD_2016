@@ -92,7 +92,7 @@ class SuperFile
   # Download le fichier/dossier
   # On en fait toujours un zip avant de le transmettre
   def download
-    raise "Impossible de zipper le file #{path}…" unless zip && zip_path.exist?
+    zip && zip_path.exist? || raise("Impossible de zipper le file #{path}…")
     STDOUT.puts "Content-type: application/zip"
     STDOUT.puts "Content-disposition: attachment;filename=\"#{zip_path.name}\""
     STDOUT.puts "Content-length: #{zip_path.size}"
