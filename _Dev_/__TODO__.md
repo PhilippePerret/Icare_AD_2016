@@ -6,8 +6,9 @@
 
 ## À FAIRE RAPIDEMENT
 
-* Annonce de la mise en place du QDD
-* QDD : filtre exprimé de façon humaine
+* Mettre l'utilisation du snippet et bloquer page pour l'outil mailing
+* Documenter site.mails_out (ce que c'est et comment l'utiliser)
+* QDD
   - classement des documents par date en option (sinon, ils sont classés par auteur)
   - informer les "à l'essai" qu'ils ne peuvent télécharger que quelques documents.
 * Pouvoir définir le travail propre de l'icarien (opération icariens)

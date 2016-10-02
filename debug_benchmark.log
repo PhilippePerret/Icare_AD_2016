@@ -1,36 +1,50 @@
-=== BENCHMARK DU 2 octobre 2016 à 12:20 ===
-=== Index start : 1475403610.2044349 (2016-10-02 12:20:10 +0200)
+=== BENCHMARK DU 2 octobre 2016 à 13:36 ===
+=== Index start : 1475408208.438457 (2016-10-02 13:36:48 +0200)
 
 -> site/config.rb                                       0.000000  0.000000
-<- site/config.rb                                       0.000209  0.000209
--> execute_preambule                                    0.025708  0.025917
-  -> User#do_after_load                                 0.017107  0.043024
-  <- User#do_after_load                                 0.000016  0.043040
-<- execute_preambule                                    0.000005  0.043045
--> required.rb                                         -0.370357 -0.327312
-<- required.rb                                          0.370363  0.043051
--> SiteHtml#output                                      0.000050  0.043101
-  -> SiteHtml#execute_route                             0.000006  0.043107
+<- site/config.rb                                       0.000205  0.000205
+-> execute_preambule                                    0.060631  0.060836
+  -> User#do_after_load                                 0.006736  0.067572
+  <- User#do_after_load                                 0.000015  0.067587
+<- execute_preambule                                    0.000003  0.067590
+-> required.rb                                         -0.415548 -0.347958
+<- required.rb                                          0.415551  0.067593
+-> SiteHtml#output                                      0.000032  0.067625
+  -> SiteHtml#execute_route                             0.000004  0.067629
       | Objet    = "admin"                                              - 
       | Objet ID = nil                                                  - 
       | Method   = "mailing"                                            - 
-      | Context  = nil                                  0.000104  0.043211
-    --> user.set_last_connexion                         0.000140  0.043351
-    <-- user.set_last_connexion                         0.002609  0.045960
-    --> iroute.load_required                            0.000027  0.045987
-    <-- iroute.load_required                            0.019332  0.065319
-    --> iroute.load_per_vue                             0.000022  0.065341
-    <-- iroute.load_per_vue                             0.015992  0.081333
-    --> iroute.method_call                              0.000032  0.081365
-    <-- iroute.method_call                              0.000332  0.081697
-  <- SiteHtml#execute_route                             0.000006  0.081703
-  -> Page#preload                                       0.000015  0.081718
+      | Context  = nil                                  0.000087  0.067716
+    --> iroute.load_required                            0.000118  0.067834
+    -> SiteHtml#redirect_to                             0.001661  0.069495
 
-      | param(:operation) : "prepare_mailing"           0.016907  0.098625
-  <- Page#preload                                       0.088664  0.187289
-  -> Page#prebuild_body                                 0.000022  0.187311
-    -> Page#body                                        0.000004  0.187315
-    <- Page#body                                        0.000727  0.188042
-  <- Page#prebuild_body                                 0.000016  0.188058
-  CODE HTML FINAL BUILT                                 0.000140  0.188198
-<- SiteHtml#output                                      0.000004  0.188202
+      | Redirection -> user/signin                      0.000073  0.069568
+
+      | param(:backto) mis à "admin/mailing"            0.000027  0.069595
+      -> SiteHtml#execute_route                         0.000068  0.069663
+      | Objet    = "user"                                               - 
+      | Objet ID = nil                                                  - 
+      | Method   = "signin"                                             - 
+      | Context  = nil                                  0.000029  0.069692
+        --> iroute.load_required                        0.000008  0.069700
+        <-- iroute.load_required                        0.000731  0.070431
+        --> iroute.load_per_vue                         0.000005  0.070436
+        <-- iroute.load_per_vue                         0.000081  0.070517
+        --> iroute.method_call                          0.000003  0.070520
+        <-- iroute.method_call                          0.000139  0.070659
+      <- SiteHtml#execute_route                         0.000003  0.070662
+    <- SiteHtml#redirect_to                             0.000002  0.070664
+    <-- iroute.load_required                            0.001259  0.071923
+    --> iroute.load_per_vue                             0.000012  0.071935
+    <-- iroute.load_per_vue                             0.008275  0.080210
+    --> iroute.method_call                              0.000015  0.080225
+    <-- iroute.method_call                              0.000200  0.080425
+  <- SiteHtml#execute_route                             0.000005  0.080430
+  -> Page#preload                                       0.000012  0.080442
+  <- Page#preload                                       0.024655  0.105097
+  -> Page#prebuild_body                                 0.000019  0.105116
+    -> Page#body                                        0.000004  0.105120
+    <- Page#body                                        0.000634  0.105754
+  <- Page#prebuild_body                                 0.000023  0.105777
+  CODE HTML FINAL BUILT                                 0.000072  0.105849
+<- SiteHtml#output                                      0.000004  0.105853

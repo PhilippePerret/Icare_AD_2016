@@ -37,6 +37,7 @@ end
 def current_user_is_autorized?
   user.admin? && (return true)
   user.actif? && user.icetape.abs_etape.id == abs_etape.id && (return true)
+  user.id.nil? && (return false)
   dbtable_icetapes.count(where:{user_id: user.id, abs_etape_id: abs_etape.id}) > 0
 end
 %>

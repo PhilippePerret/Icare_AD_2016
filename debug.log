@@ -1707,3 +1707,47 @@ Objet ID = nil
 Method   = "mailing"
 Context  = nil
 -- param(:operation) : "prepare_mailing"
+
+
+=== DEBUG DU 02 10 2016 - 12:22:27 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 02 10 2016 - 12:22:35 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "dashboard"
+Context  = nil
+-- --> check_folders_offline
+-- --> check_folders_online
+-- --> build_result
+-- --> open_result
+-- Redirection -> bureau/home
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 02 10 2016 - 13:36:48 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "mailing"
+Context  = nil
+-- Redirection -> user/signin
+-- param(:backto) mis à "admin/mailing"
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signin"
+Context  = nil

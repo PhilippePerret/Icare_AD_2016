@@ -2,8 +2,6 @@
 class Admin
 class Mailing
 
-  MAILS_OUT = ['domideso@hotmail.fr', 'rocha_dilma@hotmail.com']
-
 class << self
 
   # RETURN la liste des instances des icariens à qui il faut envoyer
