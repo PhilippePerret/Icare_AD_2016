@@ -56,6 +56,10 @@ class << self
   def long_value
     @long_value ||= param_opuser[:long_value].nil_if_empty
   end
+  # :all, :actif, ou :inactif, :en_pause, :en_attente, :detruit
+  def type_icarien
+    @type_icarien ||= (param_opuser[:type_icarien]||'all').to_sym
+  end
   # Icarien visé par l'opération
   def icarien ; @icarien ||= User.new(user_id) end
   def user_id ; @user_id ||= param_opuser[:user_id].to_i end
@@ -64,22 +68,25 @@ class << self
 
   # Un menu pour choisir un user
   def menu
-    drequest = {
-      where: 'id > 1',
-      colonnes: [:pseudo, :patronyme]
-    }
-    dbtable_users.select(drequest).collect do |huser|
-      nom = huser[:pseudo]
-      huser[:patronyme].nil? || nom += " (#{huser[:patronyme]})"
-      "#{huser[:id]} - #{nom}".in_option(value: huser[:id])
-    end.join.in_select(id: 'opuser_user_id', name: 'opuser[user_id]', selected: param_opuser[:user_id])
+    User.values_select(type_icarien => true).in_select(id: 'opuser_user_id', name: 'opuser[user_id]', selected: param_opuser[:user_id])
+  end
+  def menu_type_icarien
+    [
+      ['all',         'Tous'],
+      ['actif',       'actifs'],
+      ['inactif',     'Inactifs'],
+      ['en_pause',    'En pause'],
+      ['en_atttente', 'En attente'],
+      ['detruit',     'Détruits']
+    ].in_select(name:'opuser[type_icarien]', id: 'opuser_type_icarien', onchange: "$.proxy(Dashboard,'onchoose_type_icarien')()", selected: type_icarien.to_s)
   end
 
   def execute_operation
     param_opuser[:ope] || return
     @suivi = Array.new
     Admin.require_module 'operations_user'
-    self.send("exec_#{param_opuser[:ope]}".to_sym)
+    method = "exec_#{param_opuser[:ope]}".to_sym
+    self.respond_to?(method) && self.send(method)
   end
 
 

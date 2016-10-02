@@ -20,5 +20,14 @@ $.extend(window.Dashboard,{
     $('div#div_long_value')[data_op.long_value ? 'show' : 'hide']();
     $('div#long_value_explication').html(data_op.long_value || '');
     $('textarea#opuser_long_value').val('');
+  },
+
+  onchoose_type_icarien:function(){
+    this.reset_menu_operation();
+    $('form#form_operation_icarien').submit();
+  },
+
+  reset_menu_operation:function(){
+    $('select#opuser_ope').val('');
   }
 })

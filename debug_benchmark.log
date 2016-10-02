@@ -1,40 +1,34 @@
-=== BENCHMARK DU 2 octobre 2016 à 14:26 ===
-=== Index start : 1475411178.458139 (2016-10-02 14:26:18 +0200)
+=== BENCHMARK DU 2 octobre 2016 à 15:15 ===
+=== Index start : 1475414106.469107 (2016-10-02 15:15:06 +0200)
 
 -> site/config.rb                                       0.000000  0.000000
-<- site/config.rb                                       0.000162  0.000162
--> execute_preambule                                    0.029954  0.030116
-  -> User#do_after_load                                 0.010815  0.040931
-  <- User#do_after_load                                 0.000013  0.040944
-<- execute_preambule                                    0.000004  0.040948
--> required.rb                                         -0.273491 -0.232543
-<- required.rb                                          0.273495  0.040952
--> SiteHtml#output                                      0.000038  0.040990
-  -> SiteHtml#execute_route                             0.000004  0.040994
-      | Objet    = "quai_des_docs"                                      - 
+<- site/config.rb                                       0.000182  0.000182
+-> execute_preambule                                    0.020667  0.020849
+  -> User#do_after_load                                 0.009436  0.030285
+  <- User#do_after_load                                 0.000019  0.030304
+<- execute_preambule                                    0.000007  0.030311
+-> required.rb                                         -0.193771 -0.163460
+<- required.rb                                          0.193777  0.030317
+-> SiteHtml#output                                      0.000057  0.030374
+  -> SiteHtml#execute_route                             0.000007  0.030381
+      | Objet    = "admin"                                              - 
       | Objet ID = nil                                                  - 
-      | Method   = "search"                                             - 
-      | Context  = nil                                  0.000078  0.041072
-    --> user.set_last_connexion                         0.000090  0.041162
-    <-- user.set_last_connexion                         0.001712  0.042874
-    --> iroute.load_required                            0.000019  0.042893
-    <-- iroute.load_required                            0.027773  0.070666
-    --> iroute.load_per_vue                             0.000017  0.070683
-
-      | kfiltre: :user_id                               0.000886  0.071569
-
-      | kfiltre: :module_id                             0.000027  0.071596
-
-      | args envoyés à as_ul: {:filtre=>{:module=>9}, :avertissement=>false, :infos_document=>true, :key_sorted=>"time_original ASC"}  0.002229  0.073825
-    <-- iroute.load_per_vue                             0.242734  0.316559
-    --> iroute.method_call                              0.000020  0.316579
-    <-- iroute.method_call                              0.000409  0.316988
-  <- SiteHtml#execute_route                             0.000015  0.317003
-  -> Page#preload                                       0.000022  0.317025
-  <- Page#preload                                       0.027163  0.344188
-  -> Page#prebuild_body                                 0.000018  0.344206
-    -> Page#body                                        0.000004  0.344210
-    <- Page#body                                        0.000653  0.344863
-  <- Page#prebuild_body                                 0.000021  0.344884
-  CODE HTML FINAL BUILT                                 0.000095  0.344979
-<- SiteHtml#output                                      0.000004  0.344983
+      | Method   = "users"                                              - 
+      | Context  = nil                                  0.000131  0.030512
+    --> user.set_last_connexion                         0.000159  0.030671
+    <-- user.set_last_connexion                         0.003399  0.034070
+    --> iroute.load_required                            0.000040  0.034110
+    <-- iroute.load_required                            0.003004  0.037114
+    --> iroute.load_per_vue                             0.000014  0.037128
+    <-- iroute.load_per_vue                             0.002399  0.039527
+    --> iroute.method_call                              0.000007  0.039534
+    <-- iroute.method_call                              0.000150  0.039684
+  <- SiteHtml#execute_route                             0.000003  0.039687
+  -> Page#preload                                       0.000009  0.039696
+  <- Page#preload                                       0.016316  0.056012
+  -> Page#prebuild_body                                 0.000015  0.056027
+    -> Page#body                                        0.000004  0.056031
+    <- Page#body                                        0.000191  0.056222
+  <- Page#prebuild_body                                 0.000011  0.056233
+  CODE HTML FINAL BUILT                                 0.000050  0.056283
+<- SiteHtml#output                                      0.000002  0.056285

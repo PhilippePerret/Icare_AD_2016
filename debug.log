@@ -2027,3 +2027,598 @@ Context  = nil
 -- kfiltre: :user_id
 -- kfiltre: :module_id
 -- args envoyés à as_ul: {:filtre=>{:module=>9}, :avertissement=>false, :infos_document=>true, :key_sorted=>"time_original ASC"}
+
+
+=== DEBUG DU 02 10 2016 - 14:52:50 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 02 10 2016 - 14:52:54 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- undefined method `[]' for nil:NilClass
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/user/lib/required/user/class/helper.rb:24:in `values_select'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/users.rb:67:in `menu'
+(erb):39:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 02 10 2016 - 14:53:34 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- # ERREUR MYSQL : FUNCTION icare_users.DOWNCASE does not exist
+-- # REQUEST : SELECT pseudo, id FROM users WHERE SUBSTRING(options,4,1) = "0" ORDER BY DOWNCASE(pseudo) ASC;
+-- # VALEURS PRÉPARÉES : []
+-- /Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:107:in `_query'
+/Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:107:in `block in query'
+/Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:106:in `handle_interrupt'
+/Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:106:in `query'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/request.rb:388:in `exec'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/request.rb:79:in `select'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/mysql.rb:150:in `select'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/user/lib/required/user/class/helper.rb:40:in `values_select'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/users.rb:67:in `menu'
+(erb):39:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+-- FUNCTION icare_users.DOWNCASE does not exist
+
+/Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:107:in `_query'
+/Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:107:in `block in query'
+/Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:106:in `handle_interrupt'
+/Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:106:in `query'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/request.rb:388:in `exec'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/request.rb:79:in `select'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/mysql.rb:150:in `select'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/user/lib/required/user/class/helper.rb:40:in `values_select'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/users.rb:67:in `menu'
+(erb):39:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 02 10 2016 - 14:55:48 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- # ERREUR MYSQL : FUNCTION icare_users.LOWERCASE does not exist
+-- # REQUEST : SELECT pseudo, id FROM users WHERE SUBSTRING(options,4,1) = "0" ORDER BY LOWERCASE(pseudo) ASC;
+-- # VALEURS PRÉPARÉES : []
+-- /Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:107:in `_query'
+/Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:107:in `block in query'
+/Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:106:in `handle_interrupt'
+/Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:106:in `query'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/request.rb:388:in `exec'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/request.rb:79:in `select'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/mysql.rb:150:in `select'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/user/lib/required/user/class/helper.rb:40:in `values_select'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/users.rb:67:in `menu'
+(erb):39:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+-- FUNCTION icare_users.LOWERCASE does not exist
+
+/Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:107:in `_query'
+/Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:107:in `block in query'
+/Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:106:in `handle_interrupt'
+/Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:106:in `query'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/request.rb:388:in `exec'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/request.rb:79:in `select'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/mysql.rb:150:in `select'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/user/lib/required/user/class/helper.rb:40:in `values_select'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/users.rb:67:in `menu'
+(erb):39:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 02 10 2016 - 14:56:09 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 02 10 2016 - 15:01:29 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- undefined method `to_sym' for nil:NilClass
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/users.rb:61:in `type_icarien'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/users.rb:71:in `menu'
+(erb):39:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 02 10 2016 - 15:01:54 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- no implicit conversion of Symbol into Integer
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/user/lib/required/user/class/helper.rb:25:in `[]'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/user/lib/required/user/class/helper.rb:25:in `values_select'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/users.rb:71:in `menu'
+(erb):39:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 02 10 2016 - 15:04:51 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 02 10 2016 - 15:04:56 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- undefined method `exec_' for Admin::Users:Class
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/users.rb:88:in `execute_operation'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/users.rb:96:in `<top (required)>'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:22:in `require_ruby'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:15:in `require_all'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:330:in `load_per_vue'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:103:in `execute_route'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 02 10 2016 - 15:05:38 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 02 10 2016 - 15:05:44 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 02 10 2016 - 15:06:18 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- options : {:actif=>true}
+
+
+=== DEBUG DU 02 10 2016 - 15:06:42 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- options : {:actif=>true}
+-- drequest : {:order=>"LOWER(pseudo) ASC", :colonnes=>[:pseudo], :where=>"SUBSTRING(options,16,1) = \"2\" AND SUBSTRING(options,4,1) = \"0\""}
+
+
+=== DEBUG DU 02 10 2016 - 15:07:46 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- options : {:actif=>true}
+-- drequest : {:order=>"LOWER(pseudo) ASC", :colonnes=>[:pseudo], :where=>"SUBSTRING(options,16,1) = \"2\" AND SUBSTRING(options,4,1) != \"1\""}
+
+
+=== DEBUG DU 02 10 2016 - 15:07:56 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- options : {:inactif=>true}
+-- drequest : {:order=>"LOWER(pseudo) ASC", :colonnes=>[:pseudo], :where=>"SUBSTRING(options,16,1) = \"4\" AND SUBSTRING(options,4,1) != \"1\""}
+
+
+=== DEBUG DU 02 10 2016 - 15:08:32 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- options : {:inactif=>true}
+-- drequest : {:order=>"LOWER(pseudo) ASC", :colonnes=>[:pseudo], :where=>"SUBSTRING(options,16,1) = \"4\" AND SUBSTRING(options,4,1) != \"1\""}
+
+
+=== DEBUG DU 02 10 2016 - 15:08:55 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- options : {:inactif=>true}
+-- drequest : {:order=>"LOWER(pseudo) ASC", :colonnes=>[:pseudo], :where=>"SUBSTRING(options,16,1) = \"4\""}
+
+
+=== DEBUG DU 02 10 2016 - 15:09:07 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- options : {:inactif=>true}
+-- drequest : {:order=>"LOWER(pseudo) ASC", :colonnes=>[:pseudo], :where=>"SUBSTRING(options,4,1) != \"1\""}
+-- huser: {:pseudo=>"Alilouya", :id=>3}
+-- huser: {:pseudo=>"Astryd", :id=>57}
+-- huser: {:pseudo=>"Azilis", :id=>80}
+-- huser: {:pseudo=>"Benoit", :id=>58}
+-- huser: {:pseudo=>"bezbizbouz", :id=>5}
+-- huser: {:pseudo=>"Bonnie", :id=>59}
+-- huser: {:pseudo=>"certhlalorn", :id=>6}
+-- huser: {:pseudo=>"Clochette", :id=>7}
+-- huser: {:pseudo=>"Coccinelle", :id=>8}
+-- huser: {:pseudo=>"Cruche", :id=>72}
+-- huser: {:pseudo=>"Cyrille", :id=>9}
+-- huser: {:pseudo=>"dalhia", :id=>10}
+-- huser: {:pseudo=>"deso", :id=>11}
+-- huser: {:pseudo=>"DILMA77", :id=>12}
+-- huser: {:pseudo=>"Emmabad", :id=>13}
+-- huser: {:pseudo=>"Fabmontag", :id=>60}
+-- huser: {:pseudo=>"Fdfdqfdsq", :id=>84}
+-- huser: {:pseudo=>"FIFI-DALLA", :id=>74}
+-- huser: {:pseudo=>"foufou", :id=>14}
+-- huser: {:pseudo=>"funkyfab", :id=>61}
+-- huser: {:pseudo=>"Guillaume", :id=>15}
+-- huser: {:pseudo=>"Hesse59", :id=>18}
+-- huser: {:pseudo=>"Hieldjo", :id=>19}
+-- huser: {:pseudo=>"izenath", :id=>20}
+-- huser: {:pseudo=>"jeanmike", :id=>21}
+-- huser: {:pseudo=>"Jena", :id=>83}
+-- huser: {:pseudo=>"JoeAmani", :id=>62}
+-- huser: {:pseudo=>"Karine", :id=>75}
+-- huser: {:pseudo=>"kenzo133", :id=>22}
+-- huser: {:pseudo=>"Kwistina", :id=>24}
+-- huser: {:pseudo=>"laflamme", :id=>63}
+-- huser: {:pseudo=>"leila", :id=>25}
+-- huser: {:pseudo=>"Lorene", :id=>26}
+-- huser: {:pseudo=>"Loustik2050", :id=>27}
+-- huser: {:pseudo=>"madem", :id=>28}
+-- huser: {:pseudo=>"Marc", :id=>29}
+-- huser: {:pseudo=>"Marion", :id=>2}
+-- huser: {:pseudo=>"Matthieu_GAILLARD", :id=>73}
+-- huser: {:pseudo=>"MatthyMoth", :id=>30}
+-- huser: {:pseudo=>"michel", :id=>31}
+-- huser: {:pseudo=>"Minos", :id=>32}
+-- huser: {:pseudo=>"muse98", :id=>33}
+-- huser: {:pseudo=>"Naja", :id=>34}
+-- huser: {:pseudo=>"Neige109", :id=>64}
+-- huser: {:pseudo=>"nepita", :id=>35}
+-- huser: {:pseudo=>"nicolas7564", :id=>36}
+-- huser: {:pseudo=>"Papillon", :id=>65}
+-- huser: {:pseudo=>"Phil", :id=>1}
+-- huser: {:pseudo=>"Philou", :id=>86}
+-- huser: {:pseudo=>"pitrechevalier", :id=>38}
+-- huser: {:pseudo=>"plume", :id=>39}
+-- huser: {:pseudo=>"Polymnie", :id=>40}
+-- huser: {:pseudo=>"psyneaste", :id=>42}
+-- huser: {:pseudo=>"Ptachka", :id=>66}
+-- huser: {:pseudo=>"redstone", :id=>43}
+-- huser: {:pseudo=>"rogo", :id=>44}
+-- huser: {:pseudo=>"Samuel", :id=>41}
+-- huser: {:pseudo=>"Scheherazade", :id=>46}
+-- huser: {:pseudo=>"Simon_D", :id=>68}
+-- huser: {:pseudo=>"Simulombula", :id=>48}
+-- huser: {:pseudo=>"solaris", :id=>49}
+-- huser: {:pseudo=>"suzelit", :id=>51}
+-- huser: {:pseudo=>"tippex", :id=>52}
+-- huser: {:pseudo=>"Trauma_Cranien", :id=>4}
+-- huser: {:pseudo=>"Travis", :id=>81}
+-- huser: {:pseudo=>"Triskell", :id=>16}
+-- huser: {:pseudo=>"Un_Testeur", :id=>70}
+-- huser: {:pseudo=>"weremarc2", :id=>53}
+-- huser: {:pseudo=>"wilika", :id=>54}
+-- huser: {:pseudo=>"ysabelle", :id=>55}
+-- huser: {:pseudo=>"zorgla", :id=>56}
+
+
+=== DEBUG DU 02 10 2016 - 15:09:52 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- options : {:inactif=>true}
+-- drequest : {:order=>"LOWER(pseudo) ASC", :colonnes=>[:pseudo], :where=>"SUBSTRING(options,17,1) = \"4\" AND SUBSTRING(options,4,1) != \"1\""}
+-- huser: {:pseudo=>"Alilouya", :id=>3}
+-- huser: {:pseudo=>"Astryd", :id=>57}
+-- huser: {:pseudo=>"Azilis", :id=>80}
+-- huser: {:pseudo=>"Benoit", :id=>58}
+-- huser: {:pseudo=>"Bonnie", :id=>59}
+-- huser: {:pseudo=>"certhlalorn", :id=>6}
+-- huser: {:pseudo=>"Clochette", :id=>7}
+-- huser: {:pseudo=>"Coccinelle", :id=>8}
+-- huser: {:pseudo=>"Cruche", :id=>72}
+-- huser: {:pseudo=>"dalhia", :id=>10}
+-- huser: {:pseudo=>"deso", :id=>11}
+-- huser: {:pseudo=>"DILMA77", :id=>12}
+-- huser: {:pseudo=>"Fabmontag", :id=>60}
+-- huser: {:pseudo=>"foufou", :id=>14}
+-- huser: {:pseudo=>"funkyfab", :id=>61}
+-- huser: {:pseudo=>"Hesse59", :id=>18}
+-- huser: {:pseudo=>"Hieldjo", :id=>19}
+-- huser: {:pseudo=>"izenath", :id=>20}
+-- huser: {:pseudo=>"jeanmike", :id=>21}
+-- huser: {:pseudo=>"JoeAmani", :id=>62}
+-- huser: {:pseudo=>"kenzo133", :id=>22}
+-- huser: {:pseudo=>"Kwistina", :id=>24}
+-- huser: {:pseudo=>"laflamme", :id=>63}
+-- huser: {:pseudo=>"leila", :id=>25}
+-- huser: {:pseudo=>"Lorene", :id=>26}
+-- huser: {:pseudo=>"Marc", :id=>29}
+-- huser: {:pseudo=>"Marion", :id=>2}
+-- huser: {:pseudo=>"MatthyMoth", :id=>30}
+-- huser: {:pseudo=>"michel", :id=>31}
+-- huser: {:pseudo=>"Minos", :id=>32}
+-- huser: {:pseudo=>"muse98", :id=>33}
+-- huser: {:pseudo=>"Naja", :id=>34}
+-- huser: {:pseudo=>"Neige109", :id=>64}
+-- huser: {:pseudo=>"nepita", :id=>35}
+-- huser: {:pseudo=>"nicolas7564", :id=>36}
+-- huser: {:pseudo=>"Papillon", :id=>65}
+-- huser: {:pseudo=>"Phil", :id=>1}
+-- huser: {:pseudo=>"Philou", :id=>86}
+-- huser: {:pseudo=>"pitrechevalier", :id=>38}
+-- huser: {:pseudo=>"plume", :id=>39}
+-- huser: {:pseudo=>"Polymnie", :id=>40}
+-- huser: {:pseudo=>"psyneaste", :id=>42}
+-- huser: {:pseudo=>"Ptachka", :id=>66}
+-- huser: {:pseudo=>"redstone", :id=>43}
+-- huser: {:pseudo=>"rogo", :id=>44}
+-- huser: {:pseudo=>"Samuel", :id=>41}
+-- huser: {:pseudo=>"solaris", :id=>49}
+-- huser: {:pseudo=>"suzelit", :id=>51}
+-- huser: {:pseudo=>"tippex", :id=>52}
+-- huser: {:pseudo=>"Un_Testeur", :id=>70}
+-- huser: {:pseudo=>"weremarc2", :id=>53}
+-- huser: {:pseudo=>"wilika", :id=>54}
+-- huser: {:pseudo=>"ysabelle", :id=>55}
+-- huser: {:pseudo=>"zorgla", :id=>56}
+
+
+=== DEBUG DU 02 10 2016 - 15:09:57 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- options : {:actif=>true}
+-- drequest : {:order=>"LOWER(pseudo) ASC", :colonnes=>[:pseudo], :where=>"SUBSTRING(options,17,1) = \"2\" AND SUBSTRING(options,4,1) != \"1\""}
+-- huser: {:pseudo=>"bezbizbouz", :id=>5}
+-- huser: {:pseudo=>"Cyrille", :id=>9}
+-- huser: {:pseudo=>"Emmabad", :id=>13}
+-- huser: {:pseudo=>"FIFI-DALLA", :id=>74}
+-- huser: {:pseudo=>"Guillaume", :id=>15}
+-- huser: {:pseudo=>"Jena", :id=>83}
+-- huser: {:pseudo=>"Karine", :id=>75}
+-- huser: {:pseudo=>"Loustik2050", :id=>27}
+-- huser: {:pseudo=>"madem", :id=>28}
+-- huser: {:pseudo=>"Matthieu_GAILLARD", :id=>73}
+-- huser: {:pseudo=>"Scheherazade", :id=>46}
+-- huser: {:pseudo=>"Simon_D", :id=>68}
+-- huser: {:pseudo=>"Simulombula", :id=>48}
+-- huser: {:pseudo=>"Trauma_Cranien", :id=>4}
+-- huser: {:pseudo=>"Travis", :id=>81}
+-- huser: {:pseudo=>"Triskell", :id=>16}
+
+
+=== DEBUG DU 02 10 2016 - 15:10:39 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 02 10 2016 - 15:11:32 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- Il faut donner le nom du fichier.
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/operations_user/inject_document.rb:8:in `exec_inject_document'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/users.rb:89:in `execute_operation'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/users.rb:97:in `<top (required)>'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:22:in `require_ruby'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:15:in `require_all'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:330:in `load_per_vue'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:103:in `execute_route'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 02 10 2016 - 15:14:04 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- Il faut donner le nom du fichier.
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/operations_user/inject_document.rb:8:in `exec_inject_document'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/users.rb:89:in `execute_operation'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/users.rb:97:in `<top (required)>'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:22:in `require_ruby'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:15:in `require_all'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:330:in `load_per_vue'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:103:in `execute_route'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 02 10 2016 - 15:15:02 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- Il faut donner le nom du fichier.
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/operations_user/inject_document.rb:8:in `exec_inject_document'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/users.rb:89:in `execute_operation'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/users.rb:97:in `<top (required)>'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:22:in `require_ruby'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:15:in `require_all'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:330:in `load_per_vue'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:103:in `execute_route'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 02 10 2016 - 15:15:06 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
