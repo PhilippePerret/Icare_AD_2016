@@ -6,16 +6,15 @@
 
 ## PROGRAMMÉ
 
-* [LUNDI 3] Faire une annonce pour la liste des icariens
+
+* [MARDI 4] Faire une annonce pour la liste des icariens
   - préciser qu'il faut régler ses préférences pour les contacts (indiquer les réglages par défaut)
-* [MARDI 4] Faire une annonce pour la section "Documents" du bureau
-  - Annonce : retrouver tous ses documents du QDD (et pouvoir redéfinir leur partage)
-  - Annonce : retrouver les derniers commentaires (et pouvoir les télécharger à nouveau)
-  - Annonce : on trouve aussi un lien pour rejoindre le quai des docs
-  - Faire une aide pour cette section ("Comment recharger ses commentaires ?")
 
 ## À FAIRE RAPIDEMENT
 
+* Supprimer le "Atelier Icare" en signature du mail (sous la signature, en fait)
+* Un captcha pour empêcher de s'inscrire sur le bureau en robot
+* Lors d'une première inscription, passer le paiement à 7 jours après l'inscription (et documenter l'aide)
 * Frigo de l'icarien
 * Historique de l'icarien
 
@@ -35,7 +34,7 @@
   - nombre d'étapes effectués
   - nombre de documents partagés/non partagés / par auteur
   - longévité
-  
+
 * Mieux indiquer la différence entre module suivi de projet et coaching, en se servant du texte écrit à Guilhem : « Le premier se fait sur un temps déterminé (en fait, plus précisément, un certain nombre d'étapes de travail). Dans ce module, on peut très bien arriver par exemple avec un scénario déjà presque abouti. Pour le moment, il a été utilisé pour ça : préparer son entrée au CEEA, préparer son entrée en Master II de scénario, finaliser un roman, rédiger une note d'intention ou encore obtenir un script-doctoring sur plusieurs scénarios à leur version 2 ou 3. Le module "suivi de projet", a contrario, n'a pas de durée déterminée. Certains l'ont suivi pendant 4 ans ! J'y accompagne un projet des tout débuts — l'idée initiale — jusqu'au scénario ou au roman, en passant par toutes les étapes de développement. »
 
 

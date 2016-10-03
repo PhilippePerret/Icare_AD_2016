@@ -225,7 +225,7 @@ class << self
 <p>Bonjour %{pseudo},</p>
 <p>Trouvez ci-dessous la liste des dernières activités de l'atelier Icare.</p>
 #{listing_dernieres_activites}
-<hr />
+<hr style="margin-top:40px;" />
 <p style="font-size:9pt;">Pour ne plus recevoir ces messages lorsque vous n'êtes pas icarien actif ou icarienne active, rejoignez <a href='http://www.atelier-icare.net/profil'>votre profil</a> et réglez vos préférences.</p>
 <p>Bien &agrave; vous,</p>
       EOC

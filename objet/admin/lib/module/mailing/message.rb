@@ -5,8 +5,13 @@ class << self
 
   # Retourne le code du premier message formaté (pour confirmation)
   #
+  # En fait : deux messages, l'un pour une femme et l'autre pour un
+  # homme
   def first_message
-    real_message_for (destinataires.first || User.new(1))
+    'Version Femme'.in_h4 +
+    real_message_for(User.new(2)) + # féminin
+    'Version Home'.in_h4 +
+    real_message_for(User.new(1))   # masculin
   end
 
   # Retourne le message réel pour l'icarien de donnée +udata+
@@ -48,7 +53,7 @@ class << self
       # On indique que tous les liens doivent être définis pour
       # le site distant
       lien.all_link_to_distant = true
-      code_final = ERB.new(mess).result
+      code_final = ERB.new(mess).result(u.bind)
       lien.all_link_to_distant = nil
       code_final
     else

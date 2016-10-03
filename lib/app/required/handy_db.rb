@@ -7,8 +7,17 @@
 
 # Table des users
 
+# = users =
 def dbtable_users         ; @dbtusers   ||= sdbtbl_users('users')     end
 def dbtable_paiements     ; @dbtpaimnts ||= sdbtbl_users('paiements') end
+def dbtable_frigos        ; @dbtbl_frig ||= sdbtbl_users('frigos')    end
+def dbtable_frigo_discussions
+  @dbtbl_frigdisc ||= sdbtbl_users('frigo_discussions')
+end
+def dbtable_frigo_messages
+  @dbtbl_frigmess ||= sdbtbl_users('frigo_messages')
+end
+# = hot =
 def dbtable_watchers      ; @dbtwtchrs  ||= sdbtbl_hot('watchers')    end
 def dbtable_actualites    ; @dbtactus   ||= sdbtbl_hot('actualites')  end
 alias :dbtable_activites :dbtable_actualites

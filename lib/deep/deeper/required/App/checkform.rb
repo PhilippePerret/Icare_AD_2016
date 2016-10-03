@@ -11,6 +11,10 @@ class App
   #
   # +form_id+ Identifiant du formulaire associé. Il permet de
   # calculer le numéro en le combinant au mail de l'user
+  #
+  # On utilise ensuite la méthode `app.checkform_on_submit` pour
+  # vérifier et détruire la donnée.
+  #
   def checkform_hidden_field form_id
     require 'digest/md5'
     checksum = Digest::MD5.hexdigest("#{Time.now.to_i}#{form_id}#{session.session_id}")
@@ -49,6 +53,7 @@ class App
   #     - Pour les formulaires "automatiques", on vérifie avant
   #       l'existence de __CHECKSUM dans les paramètres. Si on ne le
   #       trouve pas, c'est qu'il ne faut pas tester ce formulaire
+  #
   def checkform_on_submit
     app.benchmark('-> checkform_on_submit')
     checksum = param(:__CHECKSUM)

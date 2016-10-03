@@ -1,15 +1,76 @@
 <%= Bureau.titre_h1('Frigo') %>
+<%
+# Cf. le fichier de description dans le RefBook
 
-<% if user.identified? && user.owner? %>
-<p>
-  Bientôt, ici, votre “frigo”, où les icariens pourront vous laisser des messages personnels.
+debug "frigo.owner? est #{frigo.owner?.inspect}"
+%>
+<% if frigo.owner? %>
+  <%
+    # ---------------------------------------------------------------------
+    #
+    # Section pour le propriétaire du frigo
+    #
+    # ---------------------------------------------------------------------
+  %>
+<p class='small'>
+  Sur ce “frigo”, les icariens ou les visiteurs quelconques <sup>(*)</sup> peuvent vous laisser des messages personnels.
 </p>
 <p class='small'>
-  Vous pouvez définir depuis votre <%= lien.profil %> qui peut laisser des messages sur votre frigo.
+  <sup>(*)</sup> Vous pouvez définir dans les préférences de <%= lien.profil('votre profil') %> qui peut vous laisser des messages.
 </p>
+  <%
+  # ---------------------------------------------------------------------
+  #
+  #   DISCUSSION DE L'ICARIEN PROPRIÉTAIRE DU FRIGO
+  #
+  # ---------------------------------------------------------------------
+  %>
+  <%= frigo.discussions.display %>
 
 <% else %>
-<p class="big air">
-  Vous pourrez bientôt laisser un message sur le “frigo” de <%= frigo.owner.pseudo %> à partir de cette page.
-</p>
+  <%
+    # ---------------------------------------------------------------------
+    #
+    # Section pour un visiteur
+    #
+    # ---------------------------------------------------------------------
+  %>
+  <% if frigo.has_discussion_with_current?
+      # Quand le visiteur courant a une discussion avec le propriétaire
+      # du frigo (ce qui signifie qu'il a déjà été vérifié que le frigo
+      # pouvait être utilisé).
+    %>
+    <%= frigo.current_discussion.display %>
+  <% else
+      # Quand le visiteur courant n'a pas de discussion avec le propriétaire
+      # du frigo
+      # Si le propriétaire laisse la possibilité à un quidam de lui
+      # laisser un message.
+      # Si le propriétaire laisse la possibilité à un icarien de lui
+      # laisser un message
+      if user.identified? && frigo.available_for_icarien?
+        %>
+        <p>
+          Vous pouvez laisser un message sur le frigo de <%= frigo.owner.pseudo %>.
+        </p>
+        <%= Frigo::Discussion::Message.form_message %>
+      <% elsif frigo.available_for_world? %>
+        <%= %>
+        <p>
+          Pour entamer ou retrouver une discussion avec <%= frigo.owner.pseudo %>, merci d'indiquer votre mail et le mot de passe choisi pour cette discussion.
+        </p>
+        <form id="form_login_quidam" class="mg dix" action="bureau/<%= frigo.owner_id %>/frigo" method="POST">
+          <%= 'create_of_retreive_discussion'.in_hidden(name:'operation') %>
+          <%= (param(:qpseudo)||'').in_input_text(name:'qpseudo', placeholder: 'Votre pseudo', style: 'width:400px') %>
+          <br />
+          <%= (param(:qmail)||'').in_input_text(name:'qmail', placeholder: 'Votre mail', style: 'width:400px') %>
+          <br />
+          <input name="qpassword" type="password" placeholder="Code secret" /> <span class='tiny'>(au moins 6 caractères)</span>
+          <%= 'OK'.in_submit(class:'btn tiny').in_div(class: 'buttons') %>
+        </form>
+      <% end %>
+
+
+  <% end %>
+
 <% end %>

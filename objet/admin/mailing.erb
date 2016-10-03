@@ -20,5 +20,13 @@ raise_unless_admin
 %>
 <%= Admin::Mailing.content %>
 
+<h3>Manuel d'utilisation</h3>
+<p>
+  Noter que l'icarien/ne à qui sera envoyé le message est <em>bindé</em> au message, ce qui signifie qu'on peut utiliser dans le message toutes ses méthodes. À commencer par les méthodes <em>féminines</em> qu'il suffit d'appeler par `&lt;%= f_&lt;e> %>`.
+</p>
+<p>
+  On peut également faire référence au module par `&lt;%= icmodule.... %>`.
+</p>
+
 <h3>Variables utilisables dans les messages</h3>
 <%= Admin::Mailing.div_variables_template %>

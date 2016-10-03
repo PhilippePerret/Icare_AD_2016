@@ -1,17 +1,15 @@
 # encoding: UTF-8
 class Frigo
 class Discussion
-class Message
 
   include MethodesMySQL
-
+  
   attr_reader :id
 
-  # +mid+ Identifiant du message
-  def initialize mid = nil
-    @id = mid
+  # +tid+ Identifiant du thread. Nil si c'est un nouveau thread
+  def initialize tid = nil
+    @id = tid
   end
 
-end #/Message
 end #/Discussion
 end #/Frigo
