@@ -8,7 +8,10 @@ class Message
   # +mid+ Identifiant du message
   def as_li
     (
-      auteur_humain.in_span(class: 'auteur') +
+      (
+        auteur_humain.in_span(class: 'auteur') +
+        date_humaine.in_span(class: 'date')
+      ).in_div(class: 'infos') +
       content.in_span(class: 'content')
     ).in_li(class: "mess cote#{auteur_ref}", id: "mess_#{id}")
   end
@@ -28,6 +31,10 @@ class Message
         'Vous'
       end
     end
+  end
+
+  def date_humaine
+    created_at.as_human_date(true, true, nil, 'à')
   end
 
 end #/Message

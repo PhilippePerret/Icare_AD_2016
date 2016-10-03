@@ -1,36 +1,38 @@
-=== BENCHMARK DU 3 octobre 2016 à 14:00 ===
-=== Index start : 1475496057.336888 (2016-10-03 14:00:57 +0200)
+=== BENCHMARK DU 3 octobre 2016 à 15:05 ===
+=== Index start : 1475499939.5542789 (2016-10-03 15:05:39 +0200)
 
 -> site/config.rb                                       0.000000  0.000000
-<- site/config.rb                                       0.000251  0.000251
--> execute_preambule                                    0.021227  0.021478
-  -> User#do_after_load                                 0.017566  0.039044
-  <- User#do_after_load                                 0.000014  0.039058
-<- execute_preambule                                    0.000004  0.039062
--> required.rb                                         -0.352570 -0.313508
-<- required.rb                                          0.352573  0.039065
--> SiteHtml#output                                      0.000097  0.039162
-  -> SiteHtml#execute_route                             0.000007  0.039169
-      | Objet    = "admin"                                              - 
-      | Objet ID = nil                                                  - 
-      | Method   = "mailing"                                            - 
-      | Context  = nil                                  0.000099  0.039268
-    --> user.set_last_connexion                         0.000146  0.039414
-    <-- user.set_last_connexion                         0.002315  0.041729
-    --> iroute.load_required                            0.000022  0.041751
-    <-- iroute.load_required                            0.019548  0.061299
-    --> iroute.load_per_vue                             0.000021  0.061320
-    <-- iroute.load_per_vue                             0.014497  0.075817
-    --> iroute.method_call                              0.000014  0.075831
-    <-- iroute.method_call                              0.000203  0.076034
-  <- SiteHtml#execute_route                             0.000004  0.076038
-  -> Page#preload                                       0.000011  0.076049
+<- site/config.rb                                       0.000263  0.000263
+-> execute_preambule                                    0.021047  0.021310
+  -> User#do_after_load                                 0.010872  0.032182
+  <- User#do_after_load                                 0.000016  0.032198
+<- execute_preambule                                    0.000005  0.032203
+-> required.rb                                         -0.217470 -0.185267
+<- required.rb                                          0.217473  0.032206
+-> SiteHtml#output                                      0.000044  0.032250
+  -> SiteHtml#execute_route                             0.000003  0.032253
+      | Objet    = "bureau"                                             - 
+      | Objet ID = 2                                                    - 
+      | Method   = "frigo"                                              - 
+      | Context  = nil                                  0.000113  0.032366
+    --> user.set_last_connexion                         0.000136  0.032502
+    <-- user.set_last_connexion                         0.003170  0.035672
+    --> iroute.load_required                            0.000019  0.035691
+    <-- iroute.load_required                            0.007118  0.042809
+    --> iroute.load_per_vue                             0.000020  0.042829
+    <-- iroute.load_per_vue                             0.030681  0.073510
+    --> iroute.method_call                              0.000013  0.073523
+    <-- iroute.method_call                              0.000179  0.073702
+  <- SiteHtml#execute_route                             0.000004  0.073706
+  -> Page#preload                                       0.000012  0.073718
 
-      | param(:operation) : "prepare_mailing"           0.016617  0.092666
-  <- Page#preload                                       0.024711  0.117377
-  -> Page#prebuild_body                                 0.000025  0.117402
-    -> Page#body                                        0.000005  0.117407
-    <- Page#body                                        0.000832  0.118239
-  <- Page#prebuild_body                                 0.000028  0.118267
-  CODE HTML FINAL BUILT                                 0.000187  0.118454
-<- SiteHtml#output                                      0.000005  0.118459
+      | frigo.owner? est false                          0.011828  0.085546
+
+      | Il devrait exister une discussion, ici…         0.006601  0.092147
+  <- Page#preload                                       0.065028  0.157175
+  -> Page#prebuild_body                                 0.000014  0.157189
+    -> Page#body                                        0.000002  0.157191
+    <- Page#body                                        0.000189  0.157380
+  <- Page#prebuild_body                                 0.000012  0.157392
+  CODE HTML FINAL BUILT                                 0.000080  0.157472
+<- SiteHtml#output                                      0.000003  0.157475

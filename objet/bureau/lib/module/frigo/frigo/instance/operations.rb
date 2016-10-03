@@ -12,6 +12,13 @@ class Frigo
       param(qpassword: nil)
       raise('Il faut fournir un mot de passe.')
     end
+    qpassword.length > 5 || begin
+      param(qpassword: nil)
+      raise('Le code doit faire au moins 6 caractères.')
+    end
+    app.captcha_valid? || begin
+      raise('Le captcha n’est pas bon. Seriez-vous un robot ?…')
+    end
     # Si la discussion n'existe pas, on la créé
     hdiscussion = has_discussion_with_current?
     if hdiscussion == nil

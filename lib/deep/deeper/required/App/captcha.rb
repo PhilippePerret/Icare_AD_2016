@@ -20,6 +20,15 @@
     … pour tester la bonne valeur.
 =end
 class App
+
+  # Retourne tous les champs utiles pour l'utilisation d'un captcha,
+  # avec la question définie par site.captcha_value et site.captcha_question
+  # (qui peut être définie automatiquement)
+  def fields_captcha
+    hidden_field_captcha_value +
+    (site.captcha_question + ''.in_input_text(name:'captcha', class: 'short')).in_div(class: 'div_captcha')
+  end
+
   # Utiliser app.captcha_valid? pour vérifier la valeur fourni par
   # l'utilisateur.
   def hidden_field_captcha_value
@@ -41,7 +50,10 @@ class App
   # champ hidden contenant la valeur cachcapvalue. On peut obtenir le
   # code HTML de ce champ par : app.hidden_field_captcha_value
   #
-  def captcha_valid? captcha
+  # Si aucune valeur n'est fournie, il faut que la valeur du captcha
+  # se trouve dans param(:captcha)
+  def captcha_valid? captcha = nil
+    captcha ||= param(:captcha)
     require 'digest/md5'
     # debug "= CAPTCHA VÉRIFICATION ="
     # debug "= app.session.session_id : #{app.session.session_id}"

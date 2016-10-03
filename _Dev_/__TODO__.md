@@ -6,14 +6,17 @@
 
 ## PROGRAMMÉ
 
-
 * [MARDI 4] Faire une annonce pour la liste des icariens
   - préciser qu'il faut régler ses préférences pour les contacts (indiquer les réglages par défaut)
 
+* [MERCREDI 5] Faire une annonce pour dire que les frigos ont été installés
+
 ## À FAIRE RAPIDEMENT
 
-* Supprimer le "Atelier Icare" en signature du mail (sous la signature, en fait)
-* Un captcha pour empêcher de s'inscrire sur le bureau en robot
+* FRIGO Ajouter la date au message
+* FRIGO Pouvoir n'afficher que la discussion avec un interlocuteur
+* FRIGO Pour l'inscription du quidam, faire un lien vers l'aide
+* Pouvoir régler les préférences d'une discussion
 * Lors d'une première inscription, passer le paiement à 7 jours après l'inscription (et documenter l'aide)
 * Frigo de l'icarien
 * Historique de l'icarien

@@ -5961,3 +5961,491 @@ Objet ID = nil
 Method   = "mailing"
 Context  = nil
 -- param(:operation) : "prepare_mailing"
+
+
+=== DEBUG DU 03 10 2016 - 14:31:47 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 1
+Method   = "frigo"
+Context  = nil
+-- /Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/bureau/lib/module/frigo/frigo/class/helper.rb:16: syntax error, unexpected keyword_class, expecting ')'
+...rm(id:'form_login_quidam' class: 'mg dix', action: "bureau/#...
+...                               ^
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/bureau/lib/module/frigo/frigo/class/helper.rb:16: syntax error, unexpected ',', expecting keyword_end
+..._login_quidam' class: 'mg dix', action: "bureau/#{frigo.owne...
+...                               ^
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/bureau/lib/module/frigo/frigo/class/helper.rb:16: syntax error, unexpected ')', expecting keyword_end
+
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/require.rb:18:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/require.rb:71:in `block in require_all_in'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/require.rb:71:in `each'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/require.rb:71:in `require_all_in'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/divers/modules/main_objets.rb:63:in `require_module'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/bureau/frigo.rb:2:in `<top (required)>'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:22:in `require_ruby'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:15:in `require_all'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:330:in `load_per_vue'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:103:in `execute_route'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 03 10 2016 - 14:32:08 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 1
+Method   = "frigo"
+Context  = nil
+-- frigo.owner? est true
+
+
+=== DEBUG DU 03 10 2016 - 14:32:16 ===
+
+-- 
+Objet    = "user"
+Objet ID = 1
+Method   = "deconnexion"
+Context  = nil
+
+
+=== DEBUG DU 03 10 2016 - 14:32:23 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 1
+Method   = "frigo"
+Context  = nil
+-- frigo.owner? est false
+-- undefined method `in_input_password' for "":String
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/bureau/lib/module/frigo/frigo/class/helper.rb:13:in `form_login_signup_quidam'
+(erb):58:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 03 10 2016 - 14:32:50 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 1
+Method   = "frigo"
+Context  = nil
+-- frigo.owner? est false
+
+
+=== DEBUG DU 03 10 2016 - 14:35:21 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 1
+Method   = "frigo"
+Context  = nil
+-- frigo.owner? est false
+
+
+=== DEBUG DU 03 10 2016 - 14:35:40 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 1
+Method   = "frigo"
+Context  = nil
+-- frigo.owner? est false
+
+
+=== DEBUG DU 03 10 2016 - 14:36:22 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 1
+Method   = "frigo"
+Context  = nil
+-- frigo.owner? est false
+
+
+=== DEBUG DU 03 10 2016 - 14:36:49 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 1
+Method   = "frigo"
+Context  = nil
+-- frigo.owner? est false
+
+
+=== DEBUG DU 03 10 2016 - 14:37:55 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 1
+Method   = "frigo"
+Context  = nil
+-- frigo.owner? est false
+
+
+=== DEBUG DU 03 10 2016 - 14:38:52 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 1
+Method   = "frigo"
+Context  = nil
+-- frigo.owner? est false
+
+
+=== DEBUG DU 03 10 2016 - 14:39:06 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 1
+Method   = "frigo"
+Context  = nil
+-- frigo.owner? est false
+
+
+=== DEBUG DU 03 10 2016 - 14:39:37 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 1
+Method   = "frigo"
+Context  = nil
+-- frigo.owner? est false
+
+
+=== DEBUG DU 03 10 2016 - 14:42:21 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 1
+Method   = "frigo"
+Context  = nil
+-- frigo.owner? est false
+
+
+=== DEBUG DU 03 10 2016 - 14:44:42 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 1
+Method   = "frigo"
+Context  = nil
+-- frigo.owner? est false
+
+
+=== DEBUG DU 03 10 2016 - 14:45:15 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 1
+Method   = "frigo"
+Context  = nil
+-- frigo.owner? est false
+
+
+=== DEBUG DU 03 10 2016 - 14:45:39 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 1
+Method   = "frigo"
+Context  = nil
+-- frigo.owner? est false
+
+
+=== DEBUG DU 03 10 2016 - 14:46:06 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 1
+Method   = "frigo"
+Context  = nil
+-- frigo.owner? est false
+
+
+=== DEBUG DU 03 10 2016 - 14:48:20 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 1
+Method   = "frigo"
+Context  = nil
+-- frigo.owner? est false
+
+
+=== DEBUG DU 03 10 2016 - 14:48:42 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 1
+Method   = "frigo"
+Context  = nil
+-- Il faut indiquer votre mail.
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/bureau/lib/module/frigo/frigo/instance/operations.rb:8:in `create_of_retreive_discussion'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/bureau/frigo.rb:20:in `<top (required)>'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:22:in `require_ruby'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:15:in `require_all'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:330:in `load_per_vue'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:103:in `execute_route'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+-- frigo.owner? est false
+
+
+=== DEBUG DU 03 10 2016 - 14:52:09 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 1
+Method   = "frigo"
+Context  = nil
+-- Le captcha n’est pas bon. Seriez-vous un robot ?…
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/bureau/lib/module/frigo/frigo/instance/operations.rb:16:in `create_of_retreive_discussion'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/bureau/frigo.rb:20:in `<top (required)>'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:22:in `require_ruby'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:15:in `require_all'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:330:in `load_per_vue'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:103:in `execute_route'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+-- frigo.owner? est false
+
+
+=== DEBUG DU 03 10 2016 - 14:52:24 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 1
+Method   = "frigo"
+Context  = nil
+-- Le captcha n’est pas bon. Seriez-vous un robot ?…
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/bureau/lib/module/frigo/frigo/instance/operations.rb:16:in `create_of_retreive_discussion'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/bureau/frigo.rb:20:in `<top (required)>'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:22:in `require_ruby'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:15:in `require_all'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:330:in `load_per_vue'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:103:in `execute_route'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+-- frigo.owner? est false
+
+
+=== DEBUG DU 03 10 2016 - 14:53:52 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 1
+Method   = "frigo"
+Context  = nil
+-- Le captcha n’est pas bon. Seriez-vous un robot ?…
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/bureau/lib/module/frigo/frigo/instance/operations.rb:20:in `create_of_retreive_discussion'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/bureau/frigo.rb:20:in `<top (required)>'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:22:in `require_ruby'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:15:in `require_all'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:330:in `load_per_vue'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:103:in `execute_route'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+-- frigo.owner? est false
+
+
+=== DEBUG DU 03 10 2016 - 14:54:01 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 1
+Method   = "frigo"
+Context  = nil
+-- frigo.owner? est false
+
+
+=== DEBUG DU 03 10 2016 - 14:54:25 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 1
+Method   = "frigo"
+Context  = nil
+-- frigo.owner? est false
+
+
+=== DEBUG DU 03 10 2016 - 14:55:25 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signin"
+Context  = nil
+
+
+=== DEBUG DU 03 10 2016 - 14:55:28 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "login"
+Context  = nil
+-- kroute = :bureau
+-- Redirection -> bureau/1/home
+-- 
+Objet    = "bureau"
+Objet ID = 1
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 03 10 2016 - 14:55:32 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 1
+Method   = "frigo"
+Context  = nil
+-- frigo.owner? est true
+
+
+=== DEBUG DU 03 10 2016 - 14:56:12 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 03 10 2016 - 14:56:15 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "dashboard"
+Context  = nil
+-- --> check_folders_offline
+-- --> check_folders_online
+-- --> build_result
+-- --> open_result
+-- Redirection -> bureau/home
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 03 10 2016 - 15:01:45 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signin"
+Context  = nil
+
+
+=== DEBUG DU 03 10 2016 - 15:01:49 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "login"
+Context  = nil
+-- kroute = :bureau
+-- Redirection -> bureau/1/home
+-- 
+Objet    = "bureau"
+Objet ID = 1
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 03 10 2016 - 15:01:52 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 1
+Method   = "frigo"
+Context  = nil
+-- frigo.owner? est true
+
+
+=== DEBUG DU 03 10 2016 - 15:02:34 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 1
+Method   = "frigo"
+Context  = nil
+-- frigo.owner? est true
+
+
+=== DEBUG DU 03 10 2016 - 15:05:31 ===
+
+-- 
+Objet    = "icarien"
+Objet ID = nil
+Method   = "list"
+Context  = nil
+
+
+=== DEBUG DU 03 10 2016 - 15:05:39 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 2
+Method   = "frigo"
+Context  = nil
+-- frigo.owner? est false
+-- Il devrait exister une discussion, ici…
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/bureau/lib/module/frigo/frigo/instance/discussions.rb:8:in `current_discussion'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/bureau/lib/module/frigo/message/class/helper.rb:26:in `inner_form'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/bureau/lib/module/frigo/message/class/helper.rb:11:in `form_message'
+(erb):56:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'

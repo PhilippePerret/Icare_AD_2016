@@ -2,6 +2,7 @@
 
 
 * [Protection des formulaires](#protectiondesformulaires)
+* [Utilisation d'un captcha dans le formulaire](#utilisationduncaptcha)
 * [Dimensions des colonnes de libellé et de value](#dimensionsdeuxcolonnes)
 * [Requérir les méthodes pratiques](#requerirmethodespratiques)
 * [Méthodes de construction des champs](#methodesdechamp)
@@ -37,6 +38,36 @@ La première permet d'insérer une champ caché dans le formulaire, qui contient
 ~~~
 
 Cette dernière méthode raise une erreur `AlreadySubmitForm` si le formulaire a déjà été traitée, donc il suffit de l'écrire telle quelle dans la méthode de traitement.    
+
+<a name='utilisationduncaptcha'></a>
+
+## Utilisation d'un captcha dans le formulaire
+
+Pour “protéger” un formulaire, on peut ajouter un captcha, qui pour le moment se résume à une addition simple dont il faut fournir le résultat.
+
+Pour utiliser ce captcha :
+
+Ajouter dans le formulaire :
+
+~~~ruby
+
+  app.fields_captcha
+  # champ hidden contenant la valeur cryptée
+  # + question
+  # + champ pour répondre à la question
+~~~
+
+Puis à la soumission du formulaire, traiter la validité du captcha grâce à la méthode :
+
+~~~ruby
+
+  app.captcha_valid?[ <captcha>]
+  # => True si le captcha est valide
+  
+~~~
+
+Si `&lt;captcha>` n'est pas fourni, il est pris dans `param :captcha`.
+
 
 <a name='dimensionsdeuxcolonnes'></a>
 
