@@ -31,14 +31,17 @@ class Frigo
   # reconnu par son ID si c'est un icarien ou par son mail s'il l'a
   # fourni.
   def has_discussion_with_current?
+    discussion_with_current != nil
+  end
+
+  def discussion_with_current
     if user.identified?
-      # Si le visiteur est un icarien
-      dbtable_frigo_discussions.get(where:{user_id: user.id})
+      dbtable_frigo_discussions.get(where:{user_id: user.id, owner_id: frigo.owner_id})
     elsif param(:qmail) # note : "q" pour "quidam"
-      dbtable_frigo_discussions.get(where:{user_mail: param(:qmail)})
       # C'est un visiteur qui vient d'entrer son adresse mail
+      dbtable_frigo_discussions.get(where:{user_mail: param(:qmail), owner_id: frigo.owner_id})
     else
-      nil # forcément
+      nil
     end
   end
 

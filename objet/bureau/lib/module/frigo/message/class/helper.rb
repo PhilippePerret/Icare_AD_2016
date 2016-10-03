@@ -7,9 +7,22 @@ class << self
   # Retourne le formulaire pour laisser un message sur le frigo
   # de l'icarien
   def form_message premier = true
+    init_discussion_if_needed
     (
       inner_form(premier)
     ).in_div(class: 'boite_new_message')
+  end
+
+  # Avant de construire le formulaire pour un nouveau message, on doit
+  # instancier la discussion si elle n'existe pas vraiment. Noter qu'elle
+  # restera vide si aucun message n'est enregistré, mais c'est préférable
+  # et plus facile de fonctionner comme ça.
+  def init_discussion_if_needed
+    frigo.has_discussion_with_current? || begin
+      dis = Frigo::Discussion.new
+      dis.create
+      frigo.current_discussion= dis
+    end
   end
 
   def inner_form premier

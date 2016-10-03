@@ -69,6 +69,7 @@ class Discussion
     message.instance_of?(Fixnum) && message = Frigo::Discussion::Message.new(message)
     tomail, pseudo, autre, sujet_mail, votre =
       if frigo.owner?
+
         [
           user_mail, user_pseudo, frigo.owner.pseudo,
           "Nouveau message de la part de #{frigo.owner.pseudo}",

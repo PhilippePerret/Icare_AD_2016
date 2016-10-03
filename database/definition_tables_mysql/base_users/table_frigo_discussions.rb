@@ -40,7 +40,7 @@ CREATE TABLE frigo_discussions
     #  CPASSWORD
     # -----------
     # Pour le quidam, le mot de passe crypté
-    cpassword VARCHAR(32) NOT NULL,
+    cpassword VARCHAR(32),
 
     # OPTIONS
     # -------

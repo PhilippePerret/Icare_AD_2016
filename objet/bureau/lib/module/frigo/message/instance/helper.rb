@@ -9,8 +9,8 @@ class Message
   def as_li
     (
       (
-        auteur_humain.in_span(class: 'auteur') +
-        date_humaine.in_span(class: 'date')
+        auteur_humain .in_span(class: 'auteur') +
+        date_humaine  .in_span(class: 'date')
       ).in_div(class: 'infos') +
       content.in_span(class: 'content')
     ).in_li(class: "mess cote#{auteur_ref}", id: "mess_#{id}")
@@ -19,17 +19,9 @@ class Message
 
   def auteur_humain
     if auteur_ref == 'o'
-      if frigo.owner?
-        'Vous'
-      else
-        frigo.owner.pseudo
-      end
+      frigo.owner? ? 'Vous' : frigo.owner.pseudo
     else
-      if frigo.owner?
-        discussion.interlocuteur_designation
-      else
-        'Vous'
-      end
+      frigo.owner? ? discussion.interlocuteur_designation : 'Vous'
     end
   end
 

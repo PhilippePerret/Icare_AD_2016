@@ -16,7 +16,7 @@ class Discussion
     now = Time.now.to_i
     umail, upseudo =
       if user.identified?
-        [nil, user.pseudo]
+        [user.mail, user.pseudo]
       else
         [qmail, qpseudo]
       end

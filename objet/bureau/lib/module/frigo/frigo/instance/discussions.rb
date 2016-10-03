@@ -4,7 +4,7 @@ class Frigo
   # Retourne la discussion à écrire dans la page
   def current_discussion
     @current_discussion ||= begin
-      hdis = has_discussion_with_current?
+      hdis = discussion_with_current
       hdis != nil || raise('Il devrait exister une discussion, ici…')
       Frigo::Discussion.new(hdis[:id])
     end

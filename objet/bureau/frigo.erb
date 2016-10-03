@@ -1,8 +1,6 @@
 <%= Bureau.titre_h1('Frigo') %>
 <%
 # Cf. le fichier de description dans le RefBook
-
-debug "frigo.owner? est #{frigo.owner?.inspect}"
 %>
 <% if frigo.owner? %>
   <%
@@ -12,9 +10,7 @@ debug "frigo.owner? est #{frigo.owner?.inspect}"
     #
     # ---------------------------------------------------------------------
   %>
-<p class='small'>
-  Sur ce “frigo”, les icariens ou les visiteurs quelconques <sup>(*)</sup> peuvent vous laisser des messages personnels.
-</p>
+<p class='small'>Sur ce “frigo”, les icariens ou les visiteurs quelconques <sup>(*)</sup> peuvent vous laisser des messages personnels.</p>
 <p class='small'>
   <sup>(*)</sup> Vous pouvez définir dans les préférences de <%= lien.profil('votre profil') %> qui peut vous laisser des messages.
 </p>
@@ -42,6 +38,7 @@ debug "frigo.owner? est #{frigo.owner?.inspect}"
     %>
     <%= frigo.current_discussion.display %>
   <% else
+    debug "-> pas de discussion courante"
       # Quand le visiteur courant n'a pas de discussion avec le propriétaire
       # du frigo
       # Si le propriétaire laisse la possibilité à un quidam de lui
@@ -50,12 +47,13 @@ debug "frigo.owner? est #{frigo.owner?.inspect}"
       # laisser un message
       if user.identified? && frigo.available_for_icarien?
         %>
-        <p>
-          Vous pouvez laisser un message sur le frigo de <%= frigo.owner.pseudo %>.
-        </p>
+        <p>Vous pouvez laisser un message sur le frigo de <%= frigo.owner.pseudo %>.</p>
         <%= Frigo::Discussion::Message.form_message %>
+
       <% elsif frigo.available_for_world? %>
+
         <%= Frigo::form_login_signup_quidam %>
+
       <% end %>
 
 

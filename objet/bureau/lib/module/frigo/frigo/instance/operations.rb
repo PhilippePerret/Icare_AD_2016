@@ -19,12 +19,7 @@ class Frigo
     app.captcha_valid? || begin
       raise('Le captcha n’est pas bon. Seriez-vous un robot ?…')
     end
-    # Si la discussion n'existe pas, on la créé
-    hdiscussion = has_discussion_with_current?
-    if hdiscussion == nil
-      # Création de la discussion
-      create_discussion
-    end
+    has_discussion_with_current? || create_discussion
     # En se rechargeant, la page fera appel à `frigo.current_discussion`
     # qui affichera la discussion courante avec un formulaire pour la
     # poursuivre

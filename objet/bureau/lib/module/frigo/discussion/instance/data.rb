@@ -5,6 +5,7 @@ class Discussion
 
   def user_pseudo   ; @user_pseudo  ||= get(:user_pseudo)   end
   def user_id       ; @user_id      ||= get(:user_id)       end
+  def user_mail     ; @user_mail    ||= get(:user_mail)     end
 
 
   # ---------------------------------------------------------------------
