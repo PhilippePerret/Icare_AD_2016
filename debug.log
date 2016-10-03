@@ -6951,3 +6951,58 @@ Objet    = "bureau"
 Objet ID = nil
 Method   = "home"
 Context  = nil
+
+
+=== DEBUG DU 03 10 2016 - 16:12:54 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 03 10 2016 - 16:12:57 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 1
+Method   = "frigo"
+Context  = nil
+
+
+=== DEBUG DU 03 10 2016 - 16:13:24 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 1
+Method   = "frigo"
+Context  = nil
+
+
+=== DEBUG DU 03 10 2016 - 16:16:55 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 03 10 2016 - 16:16:58 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "dashboard"
+Context  = nil
+-- --> check_folders_offline
+-- --> check_folders_online
+-- --> build_result
+-- --> open_result
+-- Redirection -> bureau/home
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil

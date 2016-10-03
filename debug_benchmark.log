@@ -1,62 +1,62 @@
-=== BENCHMARK DU 3 octobre 2016 à 15:53 ===
-=== Index start : 1475502795.932401 (2016-10-03 15:53:15 +0200)
+=== BENCHMARK DU 3 octobre 2016 à 16:17 ===
+=== Index start : 1475504218.868375 (2016-10-03 16:16:58 +0200)
 
 -> site/config.rb                                       0.000000  0.000000
-<- site/config.rb                                       0.000149  0.000149
--> execute_preambule                                    0.020446  0.020595
-  -> User#do_after_load                                 0.006722  0.027317
-  <- User#do_after_load                                 0.000012  0.027329
-<- execute_preambule                                    0.000005  0.027334
--> required.rb                                         -0.216092 -0.188758
-<- required.rb                                          0.216098  0.027340
--> SiteHtml#output                                      0.000044  0.027384
-  -> SiteHtml#execute_route                             0.000005  0.027389
+<- site/config.rb                                       0.000209  0.000209
+-> execute_preambule                                    0.026840  0.027049
+  -> User#do_after_load                                 0.007776  0.034825
+  <- User#do_after_load                                 0.000012  0.034837
+<- execute_preambule                                    0.000003  0.034840
+-> required.rb                                         -0.201335 -0.166495
+<- required.rb                                          0.201338  0.034843
+-> SiteHtml#output                                      0.000038  0.034881
+  -> SiteHtml#execute_route                             0.000003  0.034884
       | Objet    = "admin"                                              - 
       | Objet ID = nil                                                  - 
       | Method   = "dashboard"                                          - 
-      | Context  = nil                                  0.000096  0.027485
-    --> user.set_last_connexion                         0.000102  0.027587
-    <-- user.set_last_connexion                         0.001989  0.029576
-    --> iroute.load_required                            0.000029  0.029605
-    <-- iroute.load_required                            0.002814  0.032419
-    --> iroute.load_per_vue                             0.000013  0.032432
+      | Context  = nil                                  0.000096  0.034980
+    --> user.set_last_connexion                         0.000117  0.035097
+    <-- user.set_last_connexion                         0.002795  0.037892
+    --> iroute.load_required                            0.000020  0.037912
+    <-- iroute.load_required                            0.002393  0.040305
+    --> iroute.load_per_vue                             0.000012  0.040317
 
-      | --> check_folders_offline                       0.033154  0.065586
+      | --> check_folders_offline                       0.032149  0.072466
 
-      | --> check_folders_online                        0.362938  0.428524
+      | --> check_folders_online                        0.367991  0.440457
 
-      | --> build_result                                4.246919  4.675443
+      | --> build_result                                6.072013  6.512470
 
-      | --> open_result                                 0.043384  4.718827
-    -> Synchro#open_result                              0.000032  4.718859
-    <- Synchro#open_result                              0.211982  4.930841
-    -> SiteHtml#redirect_to                             0.001729  4.932570
+      | --> open_result                                 0.056961  6.569431
+    -> Synchro#open_result                              0.000015  6.569446
+    <- Synchro#open_result                              0.202910  6.772356
+    -> SiteHtml#redirect_to                             0.001486  6.773842
 
-      | Redirection -> bureau/home                      0.000043  4.932613
-      -> SiteHtml#execute_route                         0.000158  4.932771
+      | Redirection -> bureau/home                      0.000040  6.773882
+      -> SiteHtml#execute_route                         0.000140  6.774022
       | Objet    = "bureau"                                             - 
       | Objet ID = nil                                                  - 
       | Method   = "home"                                               - 
-      | Context  = nil                                  0.000058  4.932829
-        --> user.set_last_connexion                     0.000017  4.932846
-        <-- user.set_last_connexion                     0.001311  4.934157
-        --> iroute.load_required                        0.000022  4.934179
-        <-- iroute.load_required                        0.002652  4.936831
-        --> iroute.load_per_vue                         0.000013  4.936844
-        <-- iroute.load_per_vue                         0.005606  4.942450
-        --> iroute.method_call                          0.000012  4.942462
-        <-- iroute.method_call                          0.000211  4.942673
-      <- SiteHtml#execute_route                         0.000003  4.942676
-    <- SiteHtml#redirect_to                             0.000002  4.942678
-    <-- iroute.load_per_vue                             0.000065  4.942743
-    --> iroute.method_call                              0.000003  4.942746
-    <-- iroute.method_call                              0.000107  4.942853
-  <- SiteHtml#execute_route                             0.000002  4.942855
-  -> Page#preload                                       0.000076  4.942931
-  <- Page#preload                                       0.224251  5.167182
-  -> Page#prebuild_body                                 0.000081  5.167263
-    -> Page#body                                        0.000008  5.167271
-    <- Page#body                                        0.004209  5.171480
-  <- Page#prebuild_body                                 0.000031  5.171511
-  CODE HTML FINAL BUILT                                 0.000349  5.171860
-<- SiteHtml#output                                      0.000011  5.171871
+      | Context  = nil                                  0.000066  6.774088
+        --> user.set_last_connexion                     0.000020  6.774108
+        <-- user.set_last_connexion                     0.001458  6.775566
+        --> iroute.load_required                        0.000027  6.775593
+        <-- iroute.load_required                        0.002524  6.778117
+        --> iroute.load_per_vue                         0.000014  6.778131
+        <-- iroute.load_per_vue                         0.005775  6.783906
+        --> iroute.method_call                          0.000012  6.783918
+        <-- iroute.method_call                          0.000231  6.784149
+      <- SiteHtml#execute_route                         0.000004  6.784153
+    <- SiteHtml#redirect_to                             0.000002  6.784155
+    <-- iroute.load_per_vue                             0.000061  6.784216
+    --> iroute.method_call                              0.000002  6.784218
+    <-- iroute.method_call                              0.000102  6.784320
+  <- SiteHtml#execute_route                             0.000002  6.784322
+  -> Page#preload                                       0.000016  6.784338
+  <- Page#preload                                       0.227964  7.012302
+  -> Page#prebuild_body                                 0.000016  7.012318
+    -> Page#body                                        0.000005  7.012323
+    <- Page#body                                        0.003035  7.015358
+  <- Page#prebuild_body                                 0.000026  7.015384
+  CODE HTML FINAL BUILT                                 0.000112  7.015496
+<- SiteHtml#output                                      0.000003  7.015499

@@ -28,11 +28,11 @@ class << self
   def inner_form premier
     mess_destinataire =
       if frigo.owner?
-        frigo.current_discussion.interlocuteur_designation
+        frigo.current_discussion.user_pseudo
       else
         frigo.owner.pseudo
       end
-    mess_destinataire = "#{premier ? 'Premier message' : 'Nouveau message'} pour #{mess_destinataire}"
+    mess_destinataire = "#{premier ? 'Premier message' : 'Réponse ou nouveau message'} pour #{mess_destinataire}"
     (
       'save_message_frigo'.in_hidden(name:'operation') +
       app.checkform_hidden_field('form_new_message') +

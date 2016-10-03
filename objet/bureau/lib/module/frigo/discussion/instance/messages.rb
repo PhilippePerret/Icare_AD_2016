@@ -82,6 +82,7 @@ class Discussion
           'votre'
         ]
       end
+    lien_mot = 'un petit mot pour vous'.in_a(href: message.url)
     site.send_mail(
       to:       tomail,
       from:     site.mail,
@@ -89,8 +90,7 @@ class Discussion
       formated: true,
       message:  <<-HTML
 <p>Bonjour #{pseudo},</p>
-<p>Un message pour vous informer que #{autre} vient de laisser un message sur #{votre} bureau de l'atelier Icare.</p>
-<p>Vous pouvez le lire à l'adresse : #{message.url}</p>
+<p>Un message pour vous informer que #{autre} vient de laisser #{lien_mot} sur #{votre} bureau de l'atelier Icare.</p>
 <p>Bien à vous,</p>
       HTML
     )

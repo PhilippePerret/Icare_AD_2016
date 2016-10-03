@@ -10,10 +10,8 @@
     #
     # ---------------------------------------------------------------------
   %>
-<p class='small'>Sur ce “frigo”, les icariens ou les visiteurs quelconques <sup>(*)</sup> peuvent vous laisser des messages personnels.</p>
-<p class='small'>
-  <sup>(*)</sup> Vous pouvez définir dans les préférences de <%= lien.profil('votre profil') %> qui peut vous laisser des messages.
-</p>
+<p class='small'>Sur ce “frigo”, les icariens ou les visiteurs quelconques peuvent vous laisser des messages personnels. Vous pouvez définir dans les préférences de <%= lien.profil('votre profil') %> qui peut vous laisser des messages.</p>
+<p>Notez que ces échanges sont <strong>strictement confidentiels</strong> et ne peuvent être suivis que par l'interlocuteur avec lequel vous êtes en discussion.</p>
   <%
   # ---------------------------------------------------------------------
   #
@@ -38,7 +36,6 @@
     %>
     <%= frigo.current_discussion.display %>
   <% else
-    debug "-> pas de discussion courante"
       # Quand le visiteur courant n'a pas de discussion avec le propriétaire
       # du frigo
       # Si le propriétaire laisse la possibilité à un quidam de lui

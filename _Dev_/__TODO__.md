@@ -13,13 +13,8 @@
 
 ## À FAIRE RAPIDEMENT
 
-* FRIGO : Bien préciser que la conversation est confidentielle (sauf indication contraire explicite de l'auteur)
-* FRIGO : le mail envoyé répète "message", mettre plutôt "petit mot"
-* FRIGO : supprimer l'affichage en dur de l'adresse du message
-* FRIGO : Marion trouve le placeholder à "Nouveau message POUR Marion" au lieu de "Nouveau message POUR <son interlocuteur>"
-* FRIGO : 
-* FRIGO Ajouter la date au message
 * FRIGO Pouvoir n'afficher que la discussion avec un interlocuteur
+* FRIGO Pouvoir détruire une discussion (seulement quand on est le propriétaire - confirmation nécessaire)
 * FRIGO Pour l'inscription du quidam, faire un lien vers l'aide
 * Pouvoir régler les préférences d'une discussion
 * Lors d'une première inscription, passer le paiement à 7 jours après l'inscription (et documenter l'aide)
