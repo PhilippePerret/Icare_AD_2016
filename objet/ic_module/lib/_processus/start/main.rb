@@ -23,7 +23,7 @@ def time_next_paiement
     Time.now.to_i
   else
     # Si c'est le premier module de l'user
-    Time.now.to_i + 1.month
+    Time.now.to_i + 10.days
   end
 end
 

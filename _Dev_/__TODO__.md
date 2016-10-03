@@ -13,21 +13,22 @@
 
 ## À FAIRE RAPIDEMENT
 
+* Historique de l'icarien
 * FRIGO Pouvoir n'afficher que la discussion avec un interlocuteur
 * FRIGO Pouvoir détruire une discussion (seulement quand on est le propriétaire - confirmation nécessaire)
 * FRIGO Pour l'inscription du quidam, faire un lien vers l'aide
-* Pouvoir régler les préférences d'une discussion
-* Lors d'une première inscription, passer le paiement à 7 jours après l'inscription (et documenter l'aide)
-* Frigo de l'icarien
-* Historique de l'icarien
+* FRIGO Pouvoir régler les préférences d'une discussion
 
 ## TESTS À FAIRE
 
+* Tester le Frigo
+* Tester la section "Documents" d'un icarien
 * Tester le réglage profil du contact avec le monde (préférence)
   - son réglage/définition
   - son effet sur l'affichage de la liste des icariens
 * Envoi de mail — Contact (à l'administration ou à un icarien en voyant toutes les options possibles)
 * Dépôt de message sur le frigo de l'icarien (checker suivant les préférences contact_world et contact_icarien)
+* Tester la création et la modification d'un travail-type
 
 
 ## DIVERS

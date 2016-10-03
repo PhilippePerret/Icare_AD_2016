@@ -7599,3 +7599,31 @@ Objet    = "abs_travail_type"
 Objet ID = 4
 Method   = "edit"
 Context  = nil
+
+
+=== DEBUG DU 03 10 2016 - 17:50:44 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 03 10 2016 - 17:50:48 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "dashboard"
+Context  = nil
+-- --> check_folders_offline
+-- --> check_folders_online
+-- --> build_result
+-- --> open_result
+-- Redirection -> bureau/home
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
