@@ -24,6 +24,7 @@ class << self
       'Modules d’apprentissage'.in_h3 +
       boutons_modules_apprentissage +
       boutons_edition_etapes_modules +
+      boutons_edition_travaux_types +
       'Tests divers'.in_h3 +
       bouton_test_travaux +
       'Opérations sensibles'.in_h3 +
@@ -40,6 +41,9 @@ class << self
   def boutons_edition_etapes_modules
     'Édition des étapes'.in_a(href: 'abs_etape/1/edit').in_div
     # OFFLINE ? 'Édition des étapes'.in_a(href: 'abs_etape/1/edit').in_div : ''
+  end
+  def boutons_edition_travaux_types
+    'Édition des travaux-types'.in_a(href: 'abs_travail_type/1/edit').in_div
   end
 
   def bouton_check_synchro

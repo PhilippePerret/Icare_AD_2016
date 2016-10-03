@@ -7006,3 +7006,596 @@ Objet    = "bureau"
 Objet ID = nil
 Method   = "home"
 Context  = nil
+
+
+=== DEBUG DU 03 10 2016 - 16:45:12 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 03 10 2016 - 16:45:16 ===
+
+-- 
+Objet    = "abs_travail_type"
+Objet ID = 1
+Method   = "edit"
+Context  = nil
+-- undefined method `id' for "":String
+
+(erb):15:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 03 10 2016 - 16:45:41 ===
+
+-- 
+Objet    = "abs_travail_type"
+Objet ID = 1
+Method   = "edit"
+Context  = nil
+-- undefined method `id' for nil:NilClass
+
+(erb):15:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 03 10 2016 - 16:46:31 ===
+
+-- 
+Objet    = "abs_travail_type"
+Objet ID = 1
+Method   = "edit"
+Context  = nil
+-- undefined local variable or method `champ_liens' for #<SiteHtml:0x007f8b640947b8>
+
+(erb):37:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 03 10 2016 - 16:47:21 ===
+
+-- 
+Objet    = "abs_travail_type"
+Objet ID = 1
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 03 10 2016 - 16:49:44 ===
+
+-- 
+Objet    = "abs_travail_type"
+Objet ID = 1
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 03 10 2016 - 16:50:04 ===
+
+-- 
+Objet    = "abs_travail_type"
+Objet ID = 1
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 03 10 2016 - 16:50:45 ===
+
+-- 
+Objet    = "abs_travail_type"
+Objet ID = 1
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 03 10 2016 - 16:56:48 ===
+
+-- 
+Objet    = "abs_travail_type"
+Objet ID = 1
+Method   = "edit"
+Context  = nil
+-- /Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/abs_travail_type/edit.rb:4: syntax error, unexpected ')', expecting keyword_end
+...s.select(colonnes:[:rubrique])).collect do |hwt|
+...                               ^
+
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:22:in `require_ruby'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:15:in `require_all'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:330:in `load_per_vue'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:103:in `execute_route'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 03 10 2016 - 16:57:00 ===
+
+-- 
+Objet    = "abs_travail_type"
+Objet ID = 1
+Method   = "edit"
+Context  = nil
+-- undefined method `collect' for #<String:0x007fc2358c67f8>
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/abs_travail_type/edit.rb:15:in `menu_rubriques'
+(erb):12:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 03 10 2016 - 16:57:15 ===
+
+-- 
+Objet    = "abs_travail_type"
+Objet ID = 1
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 03 10 2016 - 16:57:19 ===
+
+-- 
+Objet    = "abs_travail_type"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 03 10 2016 - 16:57:27 ===
+
+-- 
+Objet    = "abs_travail_type"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 03 10 2016 - 16:58:11 ===
+
+-- 
+Objet    = "abs_travail_type"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 03 10 2016 - 16:58:49 ===
+
+-- 
+Objet    = "abs_travail_type"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 03 10 2016 - 16:59:57 ===
+
+-- 
+Objet    = "abs_travail_type"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 03 10 2016 - 17:00:03 ===
+
+-- 
+Objet    = "abs_travail_type"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 03 10 2016 - 17:02:08 ===
+
+-- 
+Objet    = "abs_travail_type"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 03 10 2016 - 17:03:39 ===
+
+-- 
+Objet    = "abs_travail_type"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 03 10 2016 - 17:03:59 ===
+
+-- 
+Objet    = "abs_travail_type"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 03 10 2016 - 17:04:04 ===
+
+-- 
+Objet    = "abs_travail_type"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 03 10 2016 - 17:04:08 ===
+
+-- 
+Objet    = "abs_travail_type"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 03 10 2016 - 17:04:12 ===
+
+-- 
+Objet    = "abs_travail_type"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 03 10 2016 - 17:05:07 ===
+
+-- 
+Objet    = "abs_travail_type"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 03 10 2016 - 17:05:17 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 03 10 2016 - 17:05:22 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "dashboard"
+Context  = nil
+-- --> check_folders_offline
+-- --> check_folders_online
+-- --> build_result
+-- --> open_result
+-- Redirection -> bureau/home
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 03 10 2016 - 17:13:54 ===
+
+-- 
+Objet    = "abs_travail_type"
+Objet ID = 1
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 03 10 2016 - 17:13:58 ===
+
+-- 
+Objet    = "abs_travail_type"
+Objet ID = 1
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 03 10 2016 - 17:15:05 ===
+
+-- 
+Objet    = "abs_travail_type"
+Objet ID = 1
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 03 10 2016 - 17:28:49 ===
+
+-- 
+Objet    = "abs_travail_type"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 03 10 2016 - 17:28:53 ===
+
+-- 
+Objet    = "abs_travail_type"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 03 10 2016 - 17:29:11 ===
+
+-- 
+Objet    = "abs_travail_type"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 03 10 2016 - 17:29:26 ===
+
+-- 
+Objet    = "abs_travail_type"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 03 10 2016 - 17:29:35 ===
+
+-- 
+Objet    = "abs_travail_type"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 03 10 2016 - 17:31:29 ===
+
+-- 
+Objet    = "abs_travail_type"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 03 10 2016 - 17:31:45 ===
+
+-- 
+Objet    = "abs_travail_type"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 03 10 2016 - 17:31:52 ===
+
+-- 
+Objet    = "abs_travail_type"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 03 10 2016 - 17:32:11 ===
+
+-- 
+Objet    = "abs_travail_type"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 03 10 2016 - 17:34:18 ===
+
+-- 
+Objet    = "abs_travail_type"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 03 10 2016 - 17:34:25 ===
+
+-- 
+Objet    = "abs_travail_type"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 03 10 2016 - 17:34:29 ===
+
+-- 
+Objet    = "abs_travail_type"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 03 10 2016 - 17:38:28 ===
+
+-- 
+Objet    = "abs_travail_type"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 03 10 2016 - 17:39:33 ===
+
+-- 
+Objet    = "abs_travail_type"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 03 10 2016 - 17:40:54 ===
+
+-- 
+Objet    = "abs_travail_type"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 03 10 2016 - 17:41:11 ===
+
+-- 
+Objet    = "abs_travail_type"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 03 10 2016 - 17:41:49 ===
+
+-- 
+Objet    = "abs_travail_type"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 03 10 2016 - 17:41:55 ===
+
+-- 
+Objet    = "abs_travail_type"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 03 10 2016 - 17:46:00 ===
+
+-- 
+Objet    = "abs_travail_type"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 03 10 2016 - 17:46:03 ===
+
+-- 
+Objet    = "abs_travail_type"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 03 10 2016 - 17:46:28 ===
+
+-- 
+Objet    = "abs_travail_type"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 03 10 2016 - 17:47:05 ===
+
+-- 
+Objet    = "abs_travail_type"
+Objet ID = 4
+Method   = "edit"
+Context  = nil
+-- Il faut définir la rubrique du travail-type.
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/abs_travail_type/edit.rb:35:in `data_ok?'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/abs_travail_type/edit.rb:9:in `save'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/abs_travail_type/edit.rb:113:in `<top (required)>'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:22:in `require_ruby'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:15:in `require_all'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:330:in `load_per_vue'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:103:in `execute_route'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 03 10 2016 - 17:47:48 ===
+
+-- 
+Objet    = "abs_travail_type"
+Objet ID = 4
+Method   = "edit"
+Context  = nil
+-- Il faut définir la rubrique du travail-type.
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/abs_travail_type/edit.rb:35:in `data_ok?'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/abs_travail_type/edit.rb:9:in `save'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/abs_travail_type/edit.rb:113:in `<top (required)>'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:22:in `require_ruby'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:15:in `require_all'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:330:in `load_per_vue'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:103:in `execute_route'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 03 10 2016 - 17:47:59 ===
+
+-- 
+Objet    = "abs_travail_type"
+Objet ID = 4
+Method   = "edit"
+Context  = nil
