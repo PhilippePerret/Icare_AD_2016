@@ -61,8 +61,9 @@ def menu_rubriques options = nil
   end
 
   options ||= Hash.new
+  selected = param(:wtype).nil? ? nil : param(:wtype)[:rubrique]
   options.merge!(
-    selected: param(:wtype_rubrique),
+    selected: selected,
     name:     'wtype[rubrique]',
     id:       'wtype_rubrique',
     class:    'inline'
@@ -71,9 +72,9 @@ def menu_rubriques options = nil
     in_select(options)
 end
 def menu_travaux_types
-  if param(:wtype_rubrique)
+  if param(:wtype) && param(:wtype)[:rubrique]
     req = {
-      where:{rubrique: param(:wtype_rubrique)},
+      where:{rubrique: param(:wtype)[:rubrique]},
       colonnes: [:short_name]
     }
     ([['', 'Éditer le travail-type…']] +
