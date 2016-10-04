@@ -43,6 +43,11 @@ class Frigo
     @discussions ||= Discussions.new(self.owner)
   end
 
+  # ---------------------------------------------------------------------
+  #
+  #   DISCUSSIONS COMME UN ENSEMBLE
+  #
+  # ---------------------------------------------------------------------
   class Discussions
 
     # Propriétaire des discussions
@@ -60,6 +65,22 @@ class Frigo
       end.join.in_div(class: 'discussions')
     end
 
+    def table_des_matieres
+      (
+        'Interlocuteurs'.in_h4 +
+        list.collect do |dis|
+          (
+            (
+              'masquer'.in_a(id: "btn_toggle_discussion-#{dis.id}", onclick: "$.proxy(Frigo,'toggle_mask',#{dis.id})()")
+            ).in_div(class: 'fright') +
+            dis.user_pseudo.in_span(id: "pseudo-#{dis.id}", class: 'pseudo')
+          ).in_div
+        end.join.in_div(id: 'interlocuteurs')
+      ).in_div(id: 'div_interlocuteurs')
+    end
+
+    # Note : on ne prend que les discussions qui ont des messages
+    #
     def list
       @list ||= begin
         drequest = {
@@ -67,8 +88,9 @@ class Frigo
           colonnes: []
         }
         dbtable_frigo_discussions.select(drequest).collect do |hdis|
+          dbtable_frigo_messages.count(where:{discussion_id: hdis[:id]}) > 0 || next
           Frigo::Discussion.new(hdis[:id])
-        end
+        end.compact
       end
     end
 

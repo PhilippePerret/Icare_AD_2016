@@ -35,6 +35,8 @@ class << self
     mess_destinataire = "#{premier ? 'Premier message' : 'Réponse ou nouveau message'} pour #{mess_destinataire}"
     (
       'save_message_frigo'.in_hidden(name:'operation') +
+      # Pour savoir si les discussions sont affichées ou masquées
+      (param(:masked_discussions)||'').in_hidden(name: 'masked_discussions') +
       app.checkform_hidden_field('form_new_message') +
       frigo.current_discussion.id.in_hidden(name: 'frigo_discussion_id', id: 'frigo_discussion_id') +
       param(:qmail).in_hidden(name:'qmail', id: 'frigo_mail') +

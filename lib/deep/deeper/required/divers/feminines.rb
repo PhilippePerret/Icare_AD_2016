@@ -96,5 +96,9 @@ module ModuleFeminines
     @f_rice ||= (feminine? ? 'trice' : 'teur')
   end
 
+  def f_egve # bref/brève
+    @f_rice ||= (feminine? ? 'ève' : 'ef')
+  end
+
 end
 include ModuleFeminines

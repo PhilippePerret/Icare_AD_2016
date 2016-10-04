@@ -10,12 +10,27 @@
     #
     # ---------------------------------------------------------------------
   %>
-<p class='small'>Sur ce “frigo”, les icariens ou les visiteurs quelconques peuvent vous laisser des messages personnels. Vous pouvez définir dans les préférences de <%= lien.profil('votre profil') %> qui peut vous laisser des messages.</p>
-<p>Notez que ces échanges sont <strong>strictement confidentiels</strong> et ne peuvent être suivis que par l'interlocuteur avec lequel vous êtes en discussion.</p>
   <%
   # ---------------------------------------------------------------------
   #
-  #   DISCUSSION DE L'ICARIEN PROPRIÉTAIRE DU FRIGO
+  #   TABLE DES MATIÈRES DYNAMIQUE DES DISCUSSIONS
+  #
+  # ---------------------------------------------------------------------
+  %>
+  <%= frigo.discussions.table_des_matieres %>
+  <%
+  # ---------------------------------------------------------------------
+  #
+  #   EXPLICATION CONFIDENTIALITÉ
+  #
+  # ---------------------------------------------------------------------
+  %>
+  <p class='small'>Sur ce “frigo”, les icariens ou les visiteurs quelconques peuvent vous laisser des messages personnels. Vous pouvez définir dans les préférences de <%= lien.profil('votre profil') %> qui peut vous laisser des messages.</p>
+  <p>Notez que ces échanges sont <strong>strictement confidentiels</strong> et ne peuvent être suivis que par l'interlocuteur avec lequel vous êtes en discussion.</p>
+  <%
+  # ---------------------------------------------------------------------
+  #
+  #   TOUTES LES DISCUSSIONS DE L'ICARIEN PROPRIÉTAIRE DU FRIGO
   #
   # ---------------------------------------------------------------------
   %>

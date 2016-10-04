@@ -15,10 +15,8 @@
 
 ## À FAIRE RAPIDEMENT
 
-* FRIGO Faire une table des matières avec les interlocuteurs
-* FRIGO Pouvoir n'afficher que la discussion avec un interlocuteur
-* FRIGO Pouvoir détruire une discussion (seulement quand on est le propriétaire - confirmation nécessaire)
 * FRIGO Pour l'inscription du quidam, faire un lien vers l'aide
+* FRIGO Pouvoir détruire une discussion (seulement quand on est le propriétaire - confirmation nécessaire)
 * FRIGO Pouvoir régler les préférences d'une discussion
 
 ## TESTS À FAIRE

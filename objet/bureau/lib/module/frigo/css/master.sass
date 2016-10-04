@@ -8,6 +8,28 @@ form#form_login_quidam
     margin      : 14px 0
     &.div_captcha
       font-size     : 0.89em
+
+// Table des matières des interlocuteurs (pour owner seulement)
+div#div_interlocuteurs
+  float       : right
+  width       : 300px
+  border      : 1px solid #777
+  padding     : 1em
+  margin      : 0 0 2em 2em
+  min-height  : 200px
+  h4
+    margin    : 0 !important
+    font-size : 17pt
+  div#interlocuteurs
+    font-size   : 13.1pt
+    width       : 100%
+    min-width   : 100%
+    span.pseudo
+      font-weight     : bold
+      &.as_masked
+        font-style      : italic !important
+        color           : #BBB !important
+
 // Liste des messages d'une discussion
 // Note : il peut y en avoir plusieurs dans la page
 ul.discussion
