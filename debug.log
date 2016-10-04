@@ -7627,3 +7627,4034 @@ Objet    = "bureau"
 Objet ID = nil
 Method   = "home"
 Context  = nil
+
+
+=== DEBUG DU 03 10 2016 - 18:21:12 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 03 10 2016 - 18:21:16 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "visit_as"
+Context  = nil
+
+
+=== DEBUG DU 03 10 2016 - 18:21:22 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "visit_as"
+Context  = nil
+
+
+=== DEBUG DU 03 10 2016 - 18:21:25 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 03 10 2016 - 18:21:33 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "historique"
+Context  = nil
+-- /Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/bureau/historique.rb:16: syntax error, unexpected ')'
+    ).in_div(class:'icmodule')
+     ^
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/bureau/historique.rb:17: syntax error, unexpected keyword_end, expecting ')'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/bureau/historique.rb:25: syntax error, unexpected keyword_end, expecting ')'
+
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:22:in `require_ruby'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:15:in `require_all'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:330:in `load_per_vue'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:103:in `execute_route'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+-- (ERREUR : /Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/bureau/historique.rb:16: syntax error, unexpected ')'
+    ).in_div(class:'icmodule')
+     ^
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/bureau/historique.rb:17: syntax error, unexpected keyword_end, expecting ')'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/bureau/historique.rb:25: syntax error, unexpected keyword_end, expecting ')')
+<div>/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'</div>
+<div>/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'</div>
+<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'</div>
+<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:22:in `require_ruby'</div>
+<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:15:in `require_all'</div>
+<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:330:in `load_per_vue'</div>
+<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:103:in `execute_route'</div>
+<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'</div>
+<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'</div>
+
+
+=== DEBUG DU 03 10 2016 - 18:21:56 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "historique"
+Context  = nil
+-- wrong number of arguments (1 for 0)
+
+(erb):17:in `initialize'
+(erb):17:in `new'
+(erb):17:in `block in result'
+(erb):16:in `each'
+(erb):16:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 03 10 2016 - 18:25:18 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "historique"
+Context  = nil
+
+
+=== DEBUG DU 03 10 2016 - 18:28:36 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "historique"
+Context  = nil
+
+
+=== DEBUG DU 03 10 2016 - 18:28:41 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "historique"
+Context  = nil
+
+
+=== DEBUG DU 03 10 2016 - 18:30:00 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "historique"
+Context  = nil
+
+
+=== DEBUG DU 03 10 2016 - 18:31:05 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "historique"
+Context  = nil
+
+
+=== DEBUG DU 03 10 2016 - 18:31:22 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "historique"
+Context  = nil
+
+
+=== DEBUG DU 03 10 2016 - 18:31:38 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "historique"
+Context  = nil
+
+
+=== DEBUG DU 03 10 2016 - 18:31:58 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "historique"
+Context  = nil
+
+
+=== DEBUG DU 03 10 2016 - 18:32:38 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "historique"
+Context  = nil
+
+
+=== DEBUG DU 03 10 2016 - 18:32:51 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "historique"
+Context  = nil
+
+
+=== DEBUG DU 03 10 2016 - 18:33:29 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "historique"
+Context  = nil
+
+
+=== DEBUG DU 03 10 2016 - 18:35:56 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "historique"
+Context  = nil
+
+
+=== DEBUG DU 03 10 2016 - 18:40:03 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "historique"
+Context  = nil
+
+
+=== DEBUG DU 03 10 2016 - 18:41:05 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "historique"
+Context  = nil
+
+
+=== DEBUG DU 03 10 2016 - 18:42:31 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "historique"
+Context  = nil
+
+
+=== DEBUG DU 03 10 2016 - 18:46:59 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "historique"
+Context  = nil
+-- undefined local variable or method `etapes' for #<IcModule:0x007fd1aa1c95c0>
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/bureau/historique.rb:28:in `listing_etapes'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/bureau/historique.rb:17:in `as_historique'
+(erb):19:in `block in result'
+(erb):16:in `each'
+(erb):16:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 03 10 2016 - 18:48:09 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "historique"
+Context  = nil
+-- undefined local variable or method `drequest' for #<IcModule:0x007f847a08fa38>
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/bureau/historique.rb:39:in `etapes'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/bureau/historique.rb:28:in `listing_etapes'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/bureau/historique.rb:17:in `as_historique'
+(erb):19:in `block in result'
+(erb):16:in `each'
+(erb):16:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 03 10 2016 - 18:49:12 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "historique"
+Context  = nil
+-- # ERREUR MYSQL : Unknown column 'created_at' in 'order clause'
+-- # REQUEST : SELECT id FROM icetapes WHERE icmodule_id = ? ORDER BY created_at;
+-- # VALEURS PRÉPARÉES : [58]
+-- /Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/request.rb:408:in `prepare'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/request.rb:408:in `prepared_statement'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/request.rb:390:in `exec'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/request.rb:79:in `select'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/mysql.rb:150:in `select'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/bureau/historique.rb:44:in `etapes'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/bureau/historique.rb:28:in `listing_etapes'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/bureau/historique.rb:17:in `as_historique'
+(erb):19:in `block in result'
+(erb):16:in `each'
+(erb):16:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+-- Unknown column 'created_at' in 'order clause'
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/request.rb:408:in `prepare'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/request.rb:408:in `prepared_statement'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/request.rb:390:in `exec'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/request.rb:79:in `select'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/mysql.rb:150:in `select'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/bureau/historique.rb:44:in `etapes'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/bureau/historique.rb:28:in `listing_etapes'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/bureau/historique.rb:17:in `as_historique'
+(erb):19:in `block in result'
+(erb):16:in `each'
+(erb):16:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 03 10 2016 - 18:50:40 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "historique"
+Context  = nil
+
+
+=== DEBUG DU 03 10 2016 - 22:39:57 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "historique"
+Context  = nil
+-- Redirection -> user/signin
+-- param(:backto) mis à "bureau/historique"
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signin"
+Context  = nil
+
+
+=== DEBUG DU 03 10 2016 - 22:40:02 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signin"
+Context  = nil
+
+
+=== DEBUG DU 03 10 2016 - 22:40:06 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "login"
+Context  = nil
+-- kroute = :bureau
+-- Redirection -> bureau/1/home
+-- 
+Objet    = "bureau"
+Objet ID = 1
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 03 10 2016 - 22:40:27 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "visit_as"
+Context  = nil
+
+
+=== DEBUG DU 03 10 2016 - 22:40:35 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "visit_as"
+Context  = nil
+
+
+=== DEBUG DU 03 10 2016 - 22:40:37 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 03 10 2016 - 22:40:41 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "historique"
+Context  = nil
+
+
+=== DEBUG DU 03 10 2016 - 22:44:48 ===
+
+-- 
+Objet    = "user"
+Objet ID = 31
+Method   = "deconnexion"
+Context  = nil
+-- Redirection -> bureau/home
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 07:50:20 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signin"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 07:50:23 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "login"
+Context  = nil
+-- kroute = :bureau
+-- Redirection -> bureau/1/home
+-- 
+Objet    = "bureau"
+Objet ID = 1
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 07:50:28 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "visit_as"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 07:50:36 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "visit_as"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 07:50:39 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 07:50:43 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "historique"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 07:52:03 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "historique"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 07:52:31 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signin"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 07:52:52 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "login"
+Context  = nil
+-- kroute = :bureau
+-- Redirection -> bureau/1/home
+-- 
+Objet    = "bureau"
+Objet ID = 1
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 07:52:59 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "visit_as"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 07:53:05 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "visit_as"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 07:53:08 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 07:53:11 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "historique"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 07:56:20 ===
+
+-- 
+Objet    = "user"
+Objet ID = 31
+Method   = "deconnexion"
+Context  = nil
+-- Redirection -> bureau/home
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 07:56:27 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 07:56:29 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 07:56:41 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {:where=>380}
+
+
+=== DEBUG DU 04 10 2016 - 07:59:27 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- k = :id
+-- typ = "Fixnum"
+-- v
+-- val = "380"
+-- k = :abs_etape_id
+-- typ = "Fixnum"
+-- v
+-- val = "19"
+-- k = :user_id
+-- typ = "Fixnum"
+-- v
+-- val = "31"
+-- k = :icmodule_id
+-- typ = "Fixnum"
+-- v
+-- val = "58"
+-- k = :numero
+-- typ = "Fixnum"
+-- v
+-- val = "75"
+-- k = :started_at
+-- typ = "Fixnum"
+-- v
+-- val = "1240264800"
+-- k = :expected_end
+-- typ = "Fixnum"
+-- v
+-- val = nil
+-- k = :expected_comments
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :ended_at
+-- typ = "Fixnum"
+-- v
+-- val = "1239487200"
+-- k = :documents
+-- typ = "String"
+-- v
+-- val = "55"
+-- k = :status
+-- typ = "Fixnum"
+-- v
+-- val = "5"
+-- k = :options
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :travail_propre
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :updated_at
+-- typ = "Fixnum"
+-- v
+-- val = "1474639175"
+-- # ERREUR MYSQL : Column 'expected_end' cannot be null
+-- # REQUEST : UPDATE icetapes SET id = ?, abs_etape_id = ?, user_id = ?, icmodule_id = ?, numero = ?, started_at = ?, expected_end = ?, expected_comments = ?, ended_at = ?, documents = ?, status = ?, options = ?, travail_propre = ?, updated_at = ? WHERE id = ?;
+-- # VALEURS PRÉPARÉES : [380, 19, 31, 58, 75, 1240264800, nil, nil, 1239487200, "55", 5, nil, nil, 1475560768, 380]
+-- /Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/statement.rb:8:in `_execute'
+/Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/statement.rb:8:in `block in execute'
+/Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/statement.rb:7:in `handle_interrupt'
+/Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/statement.rb:7:in `execute'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/request.rb:390:in `exec'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/request.rb:108:in `update'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/mysql.rb:156:in `update'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/database/lib/module/save_row/save_row.rb:42:in `insert_or_update_in'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/database/lib/module/save_row/save_row.rb:26:in `_save_row'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/database/edit.rb:28:in `<top (required)>'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:22:in `require_ruby'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:15:in `require_all'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:330:in `load_per_vue'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:103:in `execute_route'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+-- Column 'expected_end' cannot be null
+
+/Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/statement.rb:8:in `_execute'
+/Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/statement.rb:8:in `block in execute'
+/Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/statement.rb:7:in `handle_interrupt'
+/Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/statement.rb:7:in `execute'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/request.rb:390:in `exec'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/request.rb:108:in `update'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/mysql.rb:156:in `update'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/database/lib/module/save_row/save_row.rb:42:in `insert_or_update_in'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/database/lib/module/save_row/save_row.rb:26:in `_save_row'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/database/edit.rb:28:in `<top (required)>'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:22:in `require_ruby'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:15:in `require_all'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:330:in `load_per_vue'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:103:in `execute_route'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 04 10 2016 - 08:00:23 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- k = :id
+-- typ = "Fixnum"
+-- v
+-- val = "380"
+-- k = :abs_etape_id
+-- typ = "Fixnum"
+-- v
+-- val = "19"
+-- k = :user_id
+-- typ = "Fixnum"
+-- v
+-- val = "31"
+-- k = :icmodule_id
+-- typ = "Fixnum"
+-- v
+-- val = "58"
+-- k = :numero
+-- typ = "Fixnum"
+-- v
+-- val = "75"
+-- k = :started_at
+-- typ = "Fixnum"
+-- v
+-- val = "1240264800"
+-- k = :expected_end
+-- typ = "Fixnum"
+-- v
+-- val = "1239487200"
+-- k = :expected_comments
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :ended_at
+-- typ = "Fixnum"
+-- v
+-- val = "1239487200"
+-- k = :documents
+-- typ = "String"
+-- v
+-- val = "55"
+-- k = :status
+-- typ = "Fixnum"
+-- v
+-- val = "5"
+-- k = :options
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :travail_propre
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :updated_at
+-- typ = "Fixnum"
+-- v
+-- val = "1474639175"
+
+
+=== DEBUG DU 04 10 2016 - 08:00:30 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {:where=>380}
+
+
+=== DEBUG DU 04 10 2016 - 08:01:37 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- k = :id
+-- typ = "Fixnum"
+-- v
+-- val = "380"
+-- k = :abs_etape_id
+-- typ = "Fixnum"
+-- v
+-- val = "19"
+-- k = :user_id
+-- typ = "Fixnum"
+-- v
+-- val = "31"
+-- k = :icmodule_id
+-- typ = "Fixnum"
+-- v
+-- val = "58"
+-- k = :numero
+-- typ = "Fixnum"
+-- v
+-- val = "75"
+-- k = :started_at
+-- typ = "Fixnum"
+-- v
+-- val = "1239487200"
+-- k = :expected_end
+-- typ = "Fixnum"
+-- v
+-- val = "1240254800"
+-- k = :expected_comments
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :ended_at
+-- typ = "Fixnum"
+-- v
+-- val = "1240264800"
+-- k = :documents
+-- typ = "String"
+-- v
+-- val = "55"
+-- k = :status
+-- typ = "Fixnum"
+-- v
+-- val = "5"
+-- k = :options
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :travail_propre
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :updated_at
+-- typ = "Fixnum"
+-- v
+-- val = "1475560824"
+
+
+=== DEBUG DU 04 10 2016 - 08:04:44 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {:where=>391}
+
+
+=== DEBUG DU 04 10 2016 - 08:05:16 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- k = :id
+-- typ = "Fixnum"
+-- v
+-- val = "391"
+-- k = :abs_etape_id
+-- typ = "Fixnum"
+-- v
+-- val = "31"
+-- k = :user_id
+-- typ = "Fixnum"
+-- v
+-- val = "31"
+-- k = :icmodule_id
+-- typ = "Fixnum"
+-- v
+-- val = "58"
+-- k = :numero
+-- typ = "Fixnum"
+-- v
+-- val = "900"
+-- k = :started_at
+-- typ = "Fixnum"
+-- v
+-- val = "1245794400"
+-- k = :expected_end
+-- typ = "Fixnum"
+-- v
+-- val = "1248732000"
+-- k = :expected_comments
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :ended_at
+-- typ = "Fixnum"
+-- v
+-- val = "1248732000"
+-- k = :documents
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :status
+-- typ = "Fixnum"
+-- v
+-- val = "5"
+-- k = :options
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :travail_propre
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :updated_at
+-- typ = "Fixnum"
+-- v
+-- val = "1474639177"
+
+
+=== DEBUG DU 04 10 2016 - 08:05:28 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {:where=>58}
+
+
+=== DEBUG DU 04 10 2016 - 08:06:13 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- k = :id
+-- typ = "Fixnum"
+-- v
+-- val = "58"
+-- k = :user_id
+-- typ = "Fixnum"
+-- v
+-- val = "31"
+-- k = :abs_module_id
+-- typ = "Fixnum"
+-- v
+-- val = "4"
+-- k = :project_name
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :next_paiement
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :paiements
+-- typ = "String"
+-- v
+-- val = "199"
+-- k = :started_at
+-- typ = "Fixnum"
+-- v
+-- val = "1474638914"
+-- k = :ended_at
+-- typ = "String"
+-- v
+-- val = "1248732000"
+-- k = :options
+-- typ = "String"
+-- v
+-- val = "20000000"
+-- k = :pauses
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :icetapes
+-- typ = "String"
+-- v
+-- val = "378 379 380 381 382 383 384 385 386 387 388 389 390 391 392 393 394 395"
+-- k = :icetape_id
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :created_at
+-- typ = "Fixnum"
+-- v
+-- val = "1474619142"
+-- k = :updated_at
+-- typ = "Fixnum"
+-- v
+-- val = "1248732000"
+
+
+=== DEBUG DU 04 10 2016 - 08:06:46 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {:where=>381}
+
+
+=== DEBUG DU 04 10 2016 - 08:07:46 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- k = :id
+-- typ = "Fixnum"
+-- v
+-- val = "381"
+-- k = :abs_etape_id
+-- typ = "Fixnum"
+-- v
+-- val = "20"
+-- k = :user_id
+-- typ = "Fixnum"
+-- v
+-- val = "31"
+-- k = :icmodule_id
+-- typ = "Fixnum"
+-- v
+-- val = "58"
+-- k = :numero
+-- typ = "Fixnum"
+-- v
+-- val = "76"
+-- k = :started_at
+-- typ = "Fixnum"
+-- v
+-- val = "1240005600"
+-- k = :expected_end
+-- typ = "Fixnum"
+-- v
+-- val = "1240793200"
+-- k = :expected_comments
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :ended_at
+-- typ = "Fixnum"
+-- v
+-- val = "1240783200"
+-- k = :documents
+-- typ = "String"
+-- v
+-- val = "56"
+-- k = :status
+-- typ = "Fixnum"
+-- v
+-- val = "5"
+-- k = :options
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :travail_propre
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :updated_at
+-- typ = "Fixnum"
+-- v
+-- val = "1474639175"
+
+
+=== DEBUG DU 04 10 2016 - 08:08:11 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {:where=>383}
+
+
+=== DEBUG DU 04 10 2016 - 08:08:29 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- k = :id
+-- typ = "Fixnum"
+-- v
+-- val = "383"
+-- k = :abs_etape_id
+-- typ = "Fixnum"
+-- v
+-- val = "26"
+-- k = :user_id
+-- typ = "Fixnum"
+-- v
+-- val = "31"
+-- k = :icmodule_id
+-- typ = "Fixnum"
+-- v
+-- val = "58"
+-- k = :numero
+-- typ = "Fixnum"
+-- v
+-- val = "120"
+-- k = :started_at
+-- typ = "Fixnum"
+-- v
+-- val = "1242252000"
+-- k = :expected_end
+-- typ = "Fixnum"
+-- v
+-- val = "1243461600"
+-- k = :expected_comments
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :ended_at
+-- typ = "Fixnum"
+-- v
+-- val = "1243461600"
+-- k = :documents
+-- typ = "String"
+-- v
+-- val = "62"
+-- k = :status
+-- typ = "Fixnum"
+-- v
+-- val = "5"
+-- k = :options
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :travail_propre
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :updated_at
+-- typ = "Fixnum"
+-- v
+-- val = "1474639176"
+
+
+=== DEBUG DU 04 10 2016 - 08:08:58 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {:where=>384}
+
+
+=== DEBUG DU 04 10 2016 - 08:09:14 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- k = :id
+-- typ = "Fixnum"
+-- v
+-- val = "384"
+-- k = :abs_etape_id
+-- typ = "Fixnum"
+-- v
+-- val = "28"
+-- k = :user_id
+-- typ = "Fixnum"
+-- v
+-- val = "31"
+-- k = :icmodule_id
+-- typ = "Fixnum"
+-- v
+-- val = "58"
+-- k = :numero
+-- typ = "Fixnum"
+-- v
+-- val = "130"
+-- k = :started_at
+-- typ = "Fixnum"
+-- v
+-- val = "1241215200"
+-- k = :expected_end
+-- typ = "Fixnum"
+-- v
+-- val = "1243461600"
+-- k = :expected_comments
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :ended_at
+-- typ = "Fixnum"
+-- v
+-- val = "1243461600"
+-- k = :documents
+-- typ = "String"
+-- v
+-- val = "63"
+-- k = :status
+-- typ = "Fixnum"
+-- v
+-- val = "5"
+-- k = :options
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :travail_propre
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :updated_at
+-- typ = "Fixnum"
+-- v
+-- val = "1474639176"
+
+
+=== DEBUG DU 04 10 2016 - 08:09:32 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {:where=>385}
+
+
+=== DEBUG DU 04 10 2016 - 08:09:54 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- k = :id
+-- typ = "Fixnum"
+-- v
+-- val = "385"
+-- k = :abs_etape_id
+-- typ = "Fixnum"
+-- v
+-- val = "29"
+-- k = :user_id
+-- typ = "Fixnum"
+-- v
+-- val = "31"
+-- k = :icmodule_id
+-- typ = "Fixnum"
+-- v
+-- val = "58"
+-- k = :numero
+-- typ = "Fixnum"
+-- v
+-- val = "132"
+-- k = :started_at
+-- typ = "Fixnum"
+-- v
+-- val = "1245276000"
+-- k = :expected_end
+-- typ = "Fixnum"
+-- v
+-- val = "1246063600"
+-- k = :expected_comments
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :ended_at
+-- typ = "Fixnum"
+-- v
+-- val = "1246053600"
+-- k = :documents
+-- typ = "String"
+-- v
+-- val = "65"
+-- k = :status
+-- typ = "Fixnum"
+-- v
+-- val = "5"
+-- k = :options
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :travail_propre
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :updated_at
+-- typ = "Fixnum"
+-- v
+-- val = "1474639176"
+
+
+=== DEBUG DU 04 10 2016 - 08:10:32 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {:where=>378}
+
+
+=== DEBUG DU 04 10 2016 - 08:10:54 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- k = :id
+-- typ = "Fixnum"
+-- v
+-- val = "378"
+-- k = :abs_etape_id
+-- typ = "Fixnum"
+-- v
+-- val = "16"
+-- k = :user_id
+-- typ = "Fixnum"
+-- v
+-- val = "31"
+-- k = :icmodule_id
+-- typ = "Fixnum"
+-- v
+-- val = "58"
+-- k = :numero
+-- typ = "Fixnum"
+-- v
+-- val = "1"
+-- k = :started_at
+-- typ = "Fixnum"
+-- v
+-- val = "1232924400"
+-- k = :expected_end
+-- typ = "Fixnum"
+-- v
+-- val = "1235516400"
+-- k = :expected_comments
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :ended_at
+-- typ = "Fixnum"
+-- v
+-- val = "1235516400"
+-- k = :documents
+-- typ = "String"
+-- v
+-- val = "53"
+-- k = :status
+-- typ = "Fixnum"
+-- v
+-- val = "5"
+-- k = :options
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :travail_propre
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :updated_at
+-- typ = "Fixnum"
+-- v
+-- val = "1474639175"
+
+
+=== DEBUG DU 04 10 2016 - 08:11:19 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {:where=>388}
+
+
+=== DEBUG DU 04 10 2016 - 08:11:33 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- k = :id
+-- typ = "Fixnum"
+-- v
+-- val = "388"
+-- k = :abs_etape_id
+-- typ = "Fixnum"
+-- v
+-- val = "17"
+-- k = :user_id
+-- typ = "Fixnum"
+-- v
+-- val = "31"
+-- k = :icmodule_id
+-- typ = "Fixnum"
+-- v
+-- val = "58"
+-- k = :numero
+-- typ = "Fixnum"
+-- v
+-- val = "10"
+-- k = :started_at
+-- typ = "Fixnum"
+-- v
+-- val = "1236808800"
+-- k = :expected_end
+-- typ = "Fixnum"
+-- v
+-- val = "1238191200"
+-- k = :expected_comments
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :ended_at
+-- typ = "Fixnum"
+-- v
+-- val = "1238191200"
+-- k = :documents
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :status
+-- typ = "Fixnum"
+-- v
+-- val = "5"
+-- k = :options
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :travail_propre
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :updated_at
+-- typ = "Fixnum"
+-- v
+-- val = "1474639176"
+
+
+=== DEBUG DU 04 10 2016 - 08:12:09 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {:where=>379}
+
+
+=== DEBUG DU 04 10 2016 - 08:12:40 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- k = :id
+-- typ = "Fixnum"
+-- v
+-- val = "379"
+-- k = :abs_etape_id
+-- typ = "Fixnum"
+-- v
+-- val = "17"
+-- k = :user_id
+-- typ = "Fixnum"
+-- v
+-- val = "31"
+-- k = :icmodule_id
+-- typ = "Fixnum"
+-- v
+-- val = "58"
+-- k = :numero
+-- typ = "Fixnum"
+-- v
+-- val = "50"
+-- k = :started_at
+-- typ = "Fixnum"
+-- v
+-- val = "1236808800"
+-- k = :expected_end
+-- typ = "Fixnum"
+-- v
+-- val = "1238191200"
+-- k = :expected_comments
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :ended_at
+-- typ = "Fixnum"
+-- v
+-- val = "1238191200"
+-- k = :documents
+-- typ = "String"
+-- v
+-- val = "54"
+-- k = :status
+-- typ = "Fixnum"
+-- v
+-- val = "5"
+-- k = :options
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :travail_propre
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :updated_at
+-- typ = "Fixnum"
+-- v
+-- val = "1474639175"
+
+
+=== DEBUG DU 04 10 2016 - 08:13:08 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 08:13:17 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 08:24:52 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {:where=>379}
+
+
+=== DEBUG DU 04 10 2016 - 08:25:56 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {:where=>382}
+
+
+=== DEBUG DU 04 10 2016 - 08:28:59 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {:where=>378}
+
+
+=== DEBUG DU 04 10 2016 - 08:29:18 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- k = :id
+-- typ = "Fixnum"
+-- v
+-- val = "378"
+-- k = :abs_etape_id
+-- typ = "Fixnum"
+-- v
+-- val = "16"
+-- k = :user_id
+-- typ = "Fixnum"
+-- v
+-- val = "31"
+-- k = :icmodule_id
+-- typ = "Fixnum"
+-- v
+-- val = "58"
+-- k = :numero
+-- typ = "Fixnum"
+-- v
+-- val = "1"
+-- k = :started_at
+-- typ = "Fixnum"
+-- v
+-- val = "1237672800"
+-- k = :expected_end
+-- typ = "Fixnum"
+-- v
+-- val = "1238018400"
+-- k = :expected_comments
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :ended_at
+-- typ = "Fixnum"
+-- v
+-- val = "1238018400"
+-- k = :documents
+-- typ = "String"
+-- v
+-- val = "53"
+-- k = :status
+-- typ = "Fixnum"
+-- v
+-- val = "5"
+-- k = :options
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :travail_propre
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :updated_at
+-- typ = "Fixnum"
+-- v
+-- val = "1475561454"
+
+
+=== DEBUG DU 04 10 2016 - 08:29:41 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {:where=>379}
+
+
+=== DEBUG DU 04 10 2016 - 08:30:07 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- k = :id
+-- typ = "Fixnum"
+-- v
+-- val = "379"
+-- k = :abs_etape_id
+-- typ = "Fixnum"
+-- v
+-- val = "17"
+-- k = :user_id
+-- typ = "Fixnum"
+-- v
+-- val = "31"
+-- k = :icmodule_id
+-- typ = "Fixnum"
+-- v
+-- val = "58"
+-- k = :numero
+-- typ = "Fixnum"
+-- v
+-- val = "50"
+-- k = :started_at
+-- typ = "Fixnum"
+-- v
+-- val = "1238968800"
+-- k = :expected_end
+-- typ = "Fixnum"
+-- v
+-- val = "1239487200"
+-- k = :expected_comments
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :ended_at
+-- typ = "Fixnum"
+-- v
+-- val = "1239487200"
+-- k = :documents
+-- typ = "String"
+-- v
+-- val = "54"
+-- k = :status
+-- typ = "Fixnum"
+-- v
+-- val = "5"
+-- k = :options
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :travail_propre
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :updated_at
+-- typ = "Fixnum"
+-- v
+-- val = "1475561560"
+
+
+=== DEBUG DU 04 10 2016 - 08:30:32 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {:where=>380}
+
+
+=== DEBUG DU 04 10 2016 - 08:30:46 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- k = :id
+-- typ = "Fixnum"
+-- v
+-- val = "380"
+-- k = :abs_etape_id
+-- typ = "Fixnum"
+-- v
+-- val = "19"
+-- k = :user_id
+-- typ = "Fixnum"
+-- v
+-- val = "31"
+-- k = :icmodule_id
+-- typ = "Fixnum"
+-- v
+-- val = "58"
+-- k = :numero
+-- typ = "Fixnum"
+-- v
+-- val = "75"
+-- k = :started_at
+-- typ = "Fixnum"
+-- v
+-- val = "1239487200"
+-- k = :expected_end
+-- typ = "Fixnum"
+-- v
+-- val = "1240264800"
+-- k = :expected_comments
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :ended_at
+-- typ = "Fixnum"
+-- v
+-- val = "1240264800"
+-- k = :documents
+-- typ = "String"
+-- v
+-- val = "55"
+-- k = :status
+-- typ = "Fixnum"
+-- v
+-- val = "5"
+-- k = :options
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :travail_propre
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :updated_at
+-- typ = "Fixnum"
+-- v
+-- val = "1475560897"
+
+
+=== DEBUG DU 04 10 2016 - 08:31:02 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {:where=>381}
+
+
+=== DEBUG DU 04 10 2016 - 08:31:27 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- k = :id
+-- typ = "Fixnum"
+-- v
+-- val = "381"
+-- k = :abs_etape_id
+-- typ = "Fixnum"
+-- v
+-- val = "20"
+-- k = :user_id
+-- typ = "Fixnum"
+-- v
+-- val = "31"
+-- k = :icmodule_id
+-- typ = "Fixnum"
+-- v
+-- val = "58"
+-- k = :numero
+-- typ = "Fixnum"
+-- v
+-- val = "76"
+-- k = :started_at
+-- typ = "Fixnum"
+-- v
+-- val = "1240869600"
+-- k = :expected_end
+-- typ = "Fixnum"
+-- v
+-- val = "1241474400"
+-- k = :expected_comments
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :ended_at
+-- typ = "Fixnum"
+-- v
+-- val = "1241474400"
+-- k = :documents
+-- typ = "String"
+-- v
+-- val = "56"
+-- k = :status
+-- typ = "Fixnum"
+-- v
+-- val = "5"
+-- k = :options
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :travail_propre
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :updated_at
+-- typ = "Fixnum"
+-- v
+-- val = "1475561266"
+
+
+=== DEBUG DU 04 10 2016 - 08:31:55 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {:where=>382}
+
+
+=== DEBUG DU 04 10 2016 - 08:32:27 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- k = :id
+-- typ = "Fixnum"
+-- v
+-- val = "382"
+-- k = :abs_etape_id
+-- typ = "Fixnum"
+-- v
+-- val = "24"
+-- k = :user_id
+-- typ = "Fixnum"
+-- v
+-- val = "31"
+-- k = :icmodule_id
+-- typ = "Fixnum"
+-- v
+-- val = "58"
+-- k = :numero
+-- typ = "Fixnum"
+-- v
+-- val = "100"
+-- k = :started_at
+-- typ = "Fixnum"
+-- v
+-- val = "1242338400"
+-- k = :expected_end
+-- typ = "Fixnum"
+-- v
+-- val = "1243202400"
+-- k = :expected_comments
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :ended_at
+-- typ = "Fixnum"
+-- v
+-- val = "1243202400"
+-- k = :documents
+-- typ = "String"
+-- v
+-- val = "61"
+-- k = :status
+-- typ = "Fixnum"
+-- v
+-- val = "5"
+-- k = :options
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :travail_propre
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :updated_at
+-- typ = "Fixnum"
+-- v
+-- val = "1474639175"
+
+
+=== DEBUG DU 04 10 2016 - 08:32:50 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {:where=>383}
+
+
+=== DEBUG DU 04 10 2016 - 08:33:11 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- k = :id
+-- typ = "Fixnum"
+-- v
+-- val = "383"
+-- k = :abs_etape_id
+-- typ = "Fixnum"
+-- v
+-- val = "26"
+-- k = :user_id
+-- typ = "Fixnum"
+-- v
+-- val = "31"
+-- k = :icmodule_id
+-- typ = "Fixnum"
+-- v
+-- val = "58"
+-- k = :numero
+-- typ = "Fixnum"
+-- v
+-- val = "120"
+-- k = :started_at
+-- typ = "Fixnum"
+-- v
+-- val = "1244066400"
+-- k = :expected_end
+-- typ = "Fixnum"
+-- v
+-- val = "1244584800"
+-- k = :expected_comments
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :ended_at
+-- typ = "Fixnum"
+-- v
+-- val = "1244584800"
+-- k = :documents
+-- typ = "String"
+-- v
+-- val = "62"
+-- k = :status
+-- typ = "Fixnum"
+-- v
+-- val = "5"
+-- k = :options
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :travail_propre
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :updated_at
+-- typ = "Fixnum"
+-- v
+-- val = "1475561309"
+
+
+=== DEBUG DU 04 10 2016 - 08:33:31 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {:where=>384}
+
+
+=== DEBUG DU 04 10 2016 - 08:33:55 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- k = :id
+-- typ = "Fixnum"
+-- v
+-- val = "384"
+-- k = :abs_etape_id
+-- typ = "Fixnum"
+-- v
+-- val = "28"
+-- k = :user_id
+-- typ = "Fixnum"
+-- v
+-- val = "31"
+-- k = :icmodule_id
+-- typ = "Fixnum"
+-- v
+-- val = "58"
+-- k = :numero
+-- typ = "Fixnum"
+-- v
+-- val = "130"
+-- k = :started_at
+-- typ = "Fixnum"
+-- v
+-- val = "1244930400"
+-- k = :expected_end
+-- typ = "Fixnum"
+-- v
+-- val = "1245621600"
+-- k = :expected_comments
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :ended_at
+-- typ = "Fixnum"
+-- v
+-- val = "1245621600"
+-- k = :documents
+-- typ = "String"
+-- v
+-- val = "63"
+-- k = :status
+-- typ = "Fixnum"
+-- v
+-- val = "5"
+-- k = :options
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :travail_propre
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :updated_at
+-- typ = "Fixnum"
+-- v
+-- val = "1475561355"
+
+
+=== DEBUG DU 04 10 2016 - 08:34:27 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {:where=>385}
+
+
+=== DEBUG DU 04 10 2016 - 08:34:46 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- k = :id
+-- typ = "Fixnum"
+-- v
+-- val = "385"
+-- k = :abs_etape_id
+-- typ = "Fixnum"
+-- v
+-- val = "29"
+-- k = :user_id
+-- typ = "Fixnum"
+-- v
+-- val = "31"
+-- k = :icmodule_id
+-- typ = "Fixnum"
+-- v
+-- val = "58"
+-- k = :numero
+-- typ = "Fixnum"
+-- v
+-- val = "132"
+-- k = :started_at
+-- typ = "Fixnum"
+-- v
+-- val = "1246140000"
+-- k = :expected_end
+-- typ = "Fixnum"
+-- v
+-- val = "1246744800"
+-- k = :expected_comments
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :ended_at
+-- typ = "Fixnum"
+-- v
+-- val = "1246744800"
+-- k = :documents
+-- typ = "String"
+-- v
+-- val = "65"
+-- k = :status
+-- typ = "Fixnum"
+-- v
+-- val = "5"
+-- k = :options
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :travail_propre
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :updated_at
+-- typ = "Fixnum"
+-- v
+-- val = "1475561394"
+
+
+=== DEBUG DU 04 10 2016 - 08:35:21 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {:where=>386}
+
+
+=== DEBUG DU 04 10 2016 - 08:35:44 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- k = :id
+-- typ = "Fixnum"
+-- v
+-- val = "386"
+-- k = :abs_etape_id
+-- typ = "Fixnum"
+-- v
+-- val = "30"
+-- k = :user_id
+-- typ = "Fixnum"
+-- v
+-- val = "31"
+-- k = :icmodule_id
+-- typ = "Fixnum"
+-- v
+-- val = "58"
+-- k = :numero
+-- typ = "Fixnum"
+-- v
+-- val = "140"
+-- k = :started_at
+-- typ = "Fixnum"
+-- v
+-- val = "1248818400"
+-- k = :expected_end
+-- typ = "Fixnum"
+-- v
+-- val = "1249682400"
+-- k = :expected_comments
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :ended_at
+-- typ = "Fixnum"
+-- v
+-- val = "1249682400"
+-- k = :documents
+-- typ = "String"
+-- v
+-- val = "68"
+-- k = :status
+-- typ = "Fixnum"
+-- v
+-- val = "5"
+-- k = :options
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :travail_propre
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :updated_at
+-- typ = "Fixnum"
+-- v
+-- val = "1474639176"
+
+
+=== DEBUG DU 04 10 2016 - 08:36:08 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {:where=>392}
+
+
+=== DEBUG DU 04 10 2016 - 08:36:52 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {:where=>387}
+
+
+=== DEBUG DU 04 10 2016 - 08:37:17 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- k = :id
+-- typ = "Fixnum"
+-- v
+-- val = "387"
+-- k = :abs_etape_id
+-- typ = "Fixnum"
+-- v
+-- val = "31"
+-- k = :user_id
+-- typ = "Fixnum"
+-- v
+-- val = "31"
+-- k = :icmodule_id
+-- typ = "Fixnum"
+-- v
+-- val = "58"
+-- k = :numero
+-- typ = "Fixnum"
+-- v
+-- val = "990"
+-- k = :started_at
+-- typ = "Fixnum"
+-- v
+-- val = "1250892000"
+-- k = :expected_end
+-- typ = "Fixnum"
+-- v
+-- val = "1251324000"
+-- k = :expected_comments
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :ended_at
+-- typ = "Fixnum"
+-- v
+-- val = "1251324000"
+-- k = :documents
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :status
+-- typ = "Fixnum"
+-- v
+-- val = "5"
+-- k = :options
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :travail_propre
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :updated_at
+-- typ = "Fixnum"
+-- v
+-- val = "1474639176"
+
+
+=== DEBUG DU 04 10 2016 - 08:37:27 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {:where=>58}
+
+
+=== DEBUG DU 04 10 2016 - 08:37:59 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- k = :id
+-- typ = "Fixnum"
+-- v
+-- val = "58"
+-- k = :user_id
+-- typ = "Fixnum"
+-- v
+-- val = "31"
+-- k = :abs_module_id
+-- typ = "Fixnum"
+-- v
+-- val = "4"
+-- k = :project_name
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :next_paiement
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :paiements
+-- typ = "String"
+-- v
+-- val = "199"
+-- k = :started_at
+-- typ = "Fixnum"
+-- v
+-- val = "1237672800"
+-- k = :ended_at
+-- typ = "Fixnum"
+-- v
+-- val = "1251324000"
+-- k = :options
+-- typ = "String"
+-- v
+-- val = "20000000"
+-- k = :pauses
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :icetapes
+-- typ = "String"
+-- v
+-- val = "378 379 380 381 382 383 384 385 386 387 388 389 390 391 392 393 394 395"
+-- k = :icetape_id
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :created_at
+-- typ = "Fixnum"
+-- v
+-- val = "1237672800"
+-- k = :updated_at
+-- typ = "Fixnum"
+-- v
+-- val = "1475561173"
+
+
+=== DEBUG DU 04 10 2016 - 08:39:03 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- k = :id
+-- typ = "Fixnum"
+-- v
+-- val = "58"
+-- k = :user_id
+-- typ = "Fixnum"
+-- v
+-- val = "31"
+-- k = :abs_module_id
+-- typ = "Fixnum"
+-- v
+-- val = "4"
+-- k = :project_name
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :next_paiement
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :paiements
+-- typ = "String"
+-- v
+-- val = "199"
+-- k = :started_at
+-- typ = "Fixnum"
+-- v
+-- val = "1237672800"
+-- k = :ended_at
+-- typ = "Fixnum"
+-- v
+-- val = "1251324000"
+-- k = :options
+-- typ = "String"
+-- v
+-- val = "30000000"
+-- k = :pauses
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :icetapes
+-- typ = "String"
+-- v
+-- val = "378 379 380 381 382 383 384 385 386 387 388 389 390 391 392 393 394 395"
+-- k = :icetape_id
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :created_at
+-- typ = "Fixnum"
+-- v
+-- val = "1237672800"
+-- k = :updated_at
+-- typ = "Fixnum"
+-- v
+-- val = "1475561173"
+
+
+=== DEBUG DU 04 10 2016 - 08:39:10 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "historique"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 08:40:19 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {:where=>390}
+
+
+=== DEBUG DU 04 10 2016 - 08:40:29 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {:where=>390}
+
+
+=== DEBUG DU 04 10 2016 - 08:40:49 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 08:40:57 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 08:41:22 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "historique"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 08:41:31 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {:where=>389}
+
+
+=== DEBUG DU 04 10 2016 - 08:41:46 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 08:41:55 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 08:42:04 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "historique"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 08:42:29 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {:where=>391}
+
+
+=== DEBUG DU 04 10 2016 - 08:42:43 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 08:42:48 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 08:42:57 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "historique"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 08:43:07 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {:where=>392}
+
+
+=== DEBUG DU 04 10 2016 - 08:43:21 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 08:43:26 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 08:43:51 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {:where=>393}
+
+
+=== DEBUG DU 04 10 2016 - 08:44:03 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 08:44:08 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 08:44:14 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "historique"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 08:44:26 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {:where=>394}
+
+
+=== DEBUG DU 04 10 2016 - 08:44:35 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 08:44:41 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 08:44:47 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "historique"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 08:45:00 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {:where=>395}
+
+
+=== DEBUG DU 04 10 2016 - 08:45:11 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 08:45:19 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 08:45:28 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "historique"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 08:45:43 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {:where=>58}
+
+
+=== DEBUG DU 04 10 2016 - 08:45:59 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- k = :id
+-- typ = "Fixnum"
+-- v
+-- val = "58"
+-- k = :user_id
+-- typ = "Fixnum"
+-- v
+-- val = "31"
+-- k = :abs_module_id
+-- typ = "Fixnum"
+-- v
+-- val = "4"
+-- k = :project_name
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :next_paiement
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :paiements
+-- typ = "String"
+-- v
+-- val = "199"
+-- k = :started_at
+-- typ = "Fixnum"
+-- v
+-- val = "1237672800"
+-- k = :ended_at
+-- typ = "Fixnum"
+-- v
+-- val = "1251324000"
+-- k = :options
+-- typ = "String"
+-- v
+-- val = "30000000"
+-- k = :pauses
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :icetapes
+-- typ = "String"
+-- v
+-- val = "378 379 380 381 382 383 384 385 386 387 388"
+-- k = :icetape_id
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :created_at
+-- typ = "Fixnum"
+-- v
+-- val = "1237672800"
+-- k = :updated_at
+-- typ = "Fixnum"
+-- v
+-- val = "1475563144"
+
+
+=== DEBUG DU 04 10 2016 - 08:47:57 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {:where=>{:user_id=>31}}
+
+
+=== DEBUG DU 04 10 2016 - 08:48:24 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {:where=>59}
+
+
+=== DEBUG DU 04 10 2016 - 08:48:45 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- k = :id
+-- typ = "Fixnum"
+-- v
+-- val = "59"
+-- k = :user_id
+-- typ = "Fixnum"
+-- v
+-- val = "31"
+-- k = :abs_module_id
+-- typ = "Fixnum"
+-- v
+-- val = "6"
+-- k = :project_name
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :next_paiement
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :paiements
+-- typ = "String"
+-- v
+-- val = "200"
+-- k = :started_at
+-- typ = "Fixnum"
+-- v
+-- val = "1474638914"
+-- k = :ended_at
+-- typ = "String"
+-- v
+-- val = "1235775600"
+-- k = :options
+-- typ = "String"
+-- v
+-- val = "30000000"
+-- k = :pauses
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :icetapes
+-- typ = "String"
+-- v
+-- val = "396 397 398 399 400 401 402 403"
+-- k = :icetape_id
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :created_at
+-- typ = "Fixnum"
+-- v
+-- val = "1474620194"
+-- k = :updated_at
+-- typ = "Fixnum"
+-- v
+-- val = "1448983828"
+
+
+=== DEBUG DU 04 10 2016 - 08:48:50 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "historique"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 08:49:52 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- k = :id
+-- typ = "Fixnum"
+-- v
+-- val = "59"
+-- k = :user_id
+-- typ = "Fixnum"
+-- v
+-- val = "31"
+-- k = :abs_module_id
+-- typ = "Fixnum"
+-- v
+-- val = "6"
+-- k = :project_name
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :next_paiement
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :paiements
+-- typ = "String"
+-- v
+-- val = "200"
+-- k = :started_at
+-- typ = "Fixnum"
+-- v
+-- val = "1227654000"
+-- k = :ended_at
+-- typ = "String"
+-- v
+-- val = "1235775600"
+-- k = :options
+-- typ = "String"
+-- v
+-- val = "30000000"
+-- k = :pauses
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :icetapes
+-- typ = "String"
+-- v
+-- val = "396 397 398 399 400 401 402 403"
+-- k = :icetape_id
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :created_at
+-- typ = "Fixnum"
+-- v
+-- val = "1474620194"
+-- k = :updated_at
+-- typ = "Fixnum"
+-- v
+-- val = "1448983828"
+
+
+=== DEBUG DU 04 10 2016 - 08:49:56 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "historique"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 08:50:35 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {:where=>{:user_id=>31}}
+
+
+=== DEBUG DU 04 10 2016 - 08:50:47 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {:where=>60}
+
+
+=== DEBUG DU 04 10 2016 - 08:50:54 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- k = :id
+-- typ = "Fixnum"
+-- v
+-- val = "60"
+-- k = :user_id
+-- typ = "Fixnum"
+-- v
+-- val = "31"
+-- k = :abs_module_id
+-- typ = "Fixnum"
+-- v
+-- val = "9"
+-- k = :project_name
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :next_paiement
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :paiements
+-- typ = "String"
+-- v
+-- val = "201"
+-- k = :started_at
+-- typ = "Fixnum"
+-- v
+-- val = "1250200800"
+-- k = :ended_at
+-- typ = "Fixnum"
+-- v
+-- val = "1279975898"
+-- k = :options
+-- typ = "String"
+-- v
+-- val = "20000000"
+-- k = :pauses
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :icetapes
+-- typ = "String"
+-- v
+-- val = "404 405 406 407 408 409 410 411"
+-- k = :icetape_id
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :created_at
+-- typ = "Fixnum"
+-- v
+-- val = "1474621629"
+-- k = :updated_at
+-- typ = "Fixnum"
+-- v
+-- val = "1448983828"
+
+
+=== DEBUG DU 04 10 2016 - 08:50:59 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "historique"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 08:52:09 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "historique"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 08:53:14 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "historique"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 08:54:10 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {:where=>387}
+
+
+=== DEBUG DU 04 10 2016 - 08:54:19 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- k = :id
+-- typ = "Fixnum"
+-- v
+-- val = "387"
+-- k = :abs_etape_id
+-- typ = "Fixnum"
+-- v
+-- val = "31"
+-- k = :user_id
+-- typ = "Fixnum"
+-- v
+-- val = "31"
+-- k = :icmodule_id
+-- typ = "Fixnum"
+-- v
+-- val = "58"
+-- k = :numero
+-- typ = "Fixnum"
+-- v
+-- val = "990"
+-- k = :started_at
+-- typ = "Fixnum"
+-- v
+-- val = "1250892000"
+-- k = :expected_end
+-- typ = "Fixnum"
+-- v
+-- val = "1249596000"
+-- k = :expected_comments
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :ended_at
+-- typ = "Fixnum"
+-- v
+-- val = "1249596000"
+-- k = :documents
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :status
+-- typ = "Fixnum"
+-- v
+-- val = "5"
+-- k = :options
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :travail_propre
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :updated_at
+-- typ = "Fixnum"
+-- v
+-- val = "1475563037"
+
+
+=== DEBUG DU 04 10 2016 - 08:54:25 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "historique"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 08:54:37 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "historique"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 08:55:06 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- k = :id
+-- typ = "Fixnum"
+-- v
+-- val = "387"
+-- k = :abs_etape_id
+-- typ = "Fixnum"
+-- v
+-- val = "31"
+-- k = :user_id
+-- typ = "Fixnum"
+-- v
+-- val = "31"
+-- k = :icmodule_id
+-- typ = "Fixnum"
+-- v
+-- val = "58"
+-- k = :numero
+-- typ = "Fixnum"
+-- v
+-- val = "990"
+-- k = :started_at
+-- typ = "Fixnum"
+-- v
+-- val = "1250892000"
+-- k = :expected_end
+-- typ = "Fixnum"
+-- v
+-- val = "1249596000"
+-- k = :expected_comments
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :ended_at
+-- typ = "Fixnum"
+-- v
+-- val = "1249596000"
+-- k = :documents
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :status
+-- typ = "Fixnum"
+-- v
+-- val = "5"
+-- k = :options
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :travail_propre
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :updated_at
+-- typ = "Fixnum"
+-- v
+-- val = "1475563037"
+
+
+=== DEBUG DU 04 10 2016 - 08:55:15 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {:where=>387}
+
+
+=== DEBUG DU 04 10 2016 - 08:55:23 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "historique"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 08:56:16 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {:where=>58}
+
+
+=== DEBUG DU 04 10 2016 - 08:56:24 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- k = :id
+-- typ = "Fixnum"
+-- v
+-- val = "58"
+-- k = :user_id
+-- typ = "Fixnum"
+-- v
+-- val = "31"
+-- k = :abs_module_id
+-- typ = "Fixnum"
+-- v
+-- val = "4"
+-- k = :project_name
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :next_paiement
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :paiements
+-- typ = "String"
+-- v
+-- val = "199"
+-- k = :started_at
+-- typ = "Fixnum"
+-- v
+-- val = "1237672800"
+-- k = :ended_at
+-- typ = "Fixnum"
+-- v
+-- val = "1249768800"
+-- k = :options
+-- typ = "String"
+-- v
+-- val = "30000000"
+-- k = :pauses
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :icetapes
+-- typ = "String"
+-- v
+-- val = "378 379 380 381 382 383 384 385 386 387 388"
+-- k = :icetape_id
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :created_at
+-- typ = "Fixnum"
+-- v
+-- val = "1237672800"
+-- k = :updated_at
+-- typ = "Fixnum"
+-- v
+-- val = "1475563560"
+
+
+=== DEBUG DU 04 10 2016 - 08:56:28 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "historique"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 09:04:34 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "historique"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 09:08:26 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "historique"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 09:08:51 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "historique"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 09:09:29 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "historique"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 09:10:25 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "historique"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 09:10:49 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "historique"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 09:11:11 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "historique"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 09:11:47 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "historique"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 09:12:34 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "historique"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 09:16:31 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "historique"
+Context  = nil
+-- undefined method `lien_voir_intitule' for #<AbsModule::AbsEtape:0x007f96829e63d8 @id=44>
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/bureau/historique.rb:34:in `block in listing_etapes'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/bureau/historique.rb:30:in `collect'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/bureau/historique.rb:30:in `listing_etapes'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/bureau/historique.rb:19:in `as_historique'
+(erb):20:in `block in result'
+(erb):17:in `each'
+(erb):17:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 04 10 2016 - 09:16:47 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "historique"
+Context  = nil
+-- undefined method `lien_voir_intitule' for #<AbsModule::AbsEtape:0x007f872b942438 @id=44>
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/bureau/historique.rb:34:in `block in listing_etapes'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/bureau/historique.rb:30:in `collect'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/bureau/historique.rb:30:in `listing_etapes'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/bureau/historique.rb:19:in `as_historique'
+(erb):20:in `block in result'
+(erb):17:in `each'
+(erb):17:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 04 10 2016 - 09:17:48 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "historique"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 09:18:07 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "historique"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 09:18:11 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 16
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 09:18:43 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "historique"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 09:18:54 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 54
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 09:22:46 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "historique"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 09:23:16 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "historique"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 09:23:32 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "historique"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 09:24:28 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "historique"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 09:25:37 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "historique"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 09:26:58 ===
+
+-- 
+Objet    = "user"
+Objet ID = 31
+Method   = "deconnexion"
+Context  = nil
+-- Redirection -> bureau/home
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 09:27:02 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "visit_as"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 09:27:05 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "visit_as"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 09:27:07 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 09:27:10 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "historique"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 09:27:57 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "historique"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 09:28:31 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- Redirection -> user/signin
+-- param(:backto) mis à "database/edit"
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {:where=>86}
+
+
+=== DEBUG DU 04 10 2016 - 09:28:42 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- Redirection -> user/signin
+-- param(:backto) mis à "database/edit"
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- k = :id
+-- typ = "Fixnum"
+-- v
+-- val = "86"
+-- k = :user_id
+-- typ = "Fixnum"
+-- v
+-- val = "3"
+-- k = :abs_module_id
+-- typ = "Fixnum"
+-- v
+-- val = "7"
+-- k = :project_name
+-- typ = "String"
+-- v
+-- val = "Requiem"
+-- k = :next_paiement
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :paiements
+-- typ = "String"
+-- v
+-- val = "242 243"
+-- k = :started_at
+-- typ = "Fixnum"
+-- v
+-- val = "1317247200"
+-- k = :ended_at
+-- typ = "Fixnum"
+-- v
+-- val = "1324301254"
+-- k = :options
+-- typ = "String"
+-- v
+-- val = "20000000"
+-- k = :pauses
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :icetapes
+-- typ = "String"
+-- v
+-- val = "564 565 566 567 568"
+-- k = :icetape_id
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :created_at
+-- typ = "Fixnum"
+-- v
+-- val = "1317247200"
+-- k = :updated_at
+-- typ = "Fixnum"
+-- v
+-- val = "1448983829"
+
+
+=== DEBUG DU 04 10 2016 - 09:28:45 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "historique"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 09:28:57 ===
+
+-- 
+Objet    = "user"
+Objet ID = 3
+Method   = "deconnexion"
+Context  = nil
+-- Redirection -> bureau/home
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 09:29:00 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "visit_as"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 09:29:03 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "visit_as"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 09:29:10 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 09:29:13 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "historique"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 09:29:45 ===
+
+-- 
+Objet    = "user"
+Objet ID = 57
+Method   = "deconnexion"
+Context  = nil
+-- Redirection -> bureau/home
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 09:29:47 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "visit_as"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 09:29:51 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "visit_as"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 09:29:54 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 09:29:56 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "historique"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 09:30:21 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- Redirection -> user/signin
+-- param(:backto) mis à "database/edit"
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {:where=>46}
+
+
+=== DEBUG DU 04 10 2016 - 09:30:32 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- Redirection -> user/signin
+-- param(:backto) mis à "database/edit"
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- k = :id
+-- typ = "Fixnum"
+-- v
+-- val = "46"
+-- k = :user_id
+-- typ = "Fixnum"
+-- v
+-- val = "80"
+-- k = :abs_module_id
+-- typ = "Fixnum"
+-- v
+-- val = "4"
+-- k = :project_name
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :next_paiement
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :paiements
+-- typ = "String"
+-- v
+-- val = "164"
+-- k = :started_at
+-- typ = "Fixnum"
+-- v
+-- val = "1300834800"
+-- k = :ended_at
+-- typ = "Fixnum"
+-- v
+-- val = "1330872659"
+-- k = :options
+-- typ = "String"
+-- v
+-- val = "20000000"
+-- k = :pauses
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :icetapes
+-- typ = "String"
+-- v
+-- val = "324 325 326 327 328 329"
+-- k = :icetape_id
+-- typ = "String"
+-- v
+-- val = nil
+-- k = :created_at
+-- typ = "Fixnum"
+-- v
+-- val = "1300834800"
+-- k = :updated_at
+-- typ = "Fixnum"
+-- v
+-- val = "1448983828"
+
+
+=== DEBUG DU 04 10 2016 - 09:30:35 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "historique"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 09:54:34 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "historique"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 09:58:29 ===
+
+-- 
+Objet    = "user"
+Objet ID = 80
+Method   = "deconnexion"
+Context  = nil
+-- Redirection -> bureau/home
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 09:58:32 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "visit_as"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 09:58:37 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "visit_as"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 09:58:38 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 09:58:40 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "historique"
+Context  = nil

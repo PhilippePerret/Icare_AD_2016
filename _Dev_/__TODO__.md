@@ -11,9 +11,11 @@
 
 * [MERCREDI 5] Faire une annonce pour dire que les frigos ont été installés
 
+* [JEUDI 6] Faire une annonce pour l'historique de travail au sein de l'atelier (s'ils ont tous été corrigés).
+
 ## À FAIRE RAPIDEMENT
 
-* Historique de l'icarien
+* HISTORIQUES : Faire un outil pour voir tous les historiques de tous les icariens et pouvoir les corriger (comme celui de Michel)
 * FRIGO Pouvoir n'afficher que la discussion avec un interlocuteur
 * FRIGO Pouvoir détruire une discussion (seulement quand on est le propriétaire - confirmation nécessaire)
 * FRIGO Pour l'inscription du quidam, faire un lien vers l'aide
