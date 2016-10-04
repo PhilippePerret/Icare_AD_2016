@@ -8,8 +8,16 @@ class Cron
   def exec
     # Le mail d'activité ne doit être envoyé qu'une fois par
     # jour à 2 heures du matin.
-    # TODO POUR LE MOMENT, ON LE FAIT CHAQUE FOIS
-    run_processus 'mail_activites' # if deux_heures_du_matin?
+    run_processus 'mail_activites'
+
+    # Les opérations à ne lancer qu'une fois par jour, à deux
+    # heures du matin
+    deux_heures_du_matin? && begin
+
+      run_processus 'nettoyage_site'
+
+    end
+
   end
 
   def deux_heures_du_matin?
