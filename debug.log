@@ -22261,3 +22261,628 @@ Objet ID = nil
 Method   = "edit"
 Context  = nil
 -- options: {}
+
+
+=== DEBUG DU 04 10 2016 - 15:10:12 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "dashboard"
+Context  = nil
+-- --> check_folders_offline
+-- --> check_folders_online
+-- --> build_result
+-- --> open_result
+-- Redirection -> database/edit
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 17:06:35 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "statistiques"
+Context  = nil
+-- uninitialized constant SiteHtml::Site
+
+(erb):4:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 04 10 2016 - 17:06:51 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "statistiques"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 17:07:03 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "statistiques"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 17:10:55 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "statistiques"
+Context  = nil
+-- undefined method `in_span' for 71:Fixnum
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/site/lib/module/statistiques/atelier/class.rb:13:in `nombre_icariens'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/site/lib/module/statistiques/atelier/class.rb:6:in `statistiques'
+(erb):6:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 04 10 2016 - 17:11:04 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "statistiques"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 17:12:08 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "statistiques"
+Context  = nil
+-- undefined local variable or method `nb_femmes' for Atelier:Class
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/site/lib/module/statistiques/atelier/class.rb:15:in `nombre_icariens'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/site/lib/module/statistiques/atelier/class.rb:6:in `statistiques'
+(erb):6:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 04 10 2016 - 17:12:16 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "statistiques"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 17:14:26 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "statistiques"
+Context  = nil
+-- /Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/site/lib/module/statistiques/atelier/class.rb:8: syntax error, unexpected keyword_end
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/site/lib/module/statistiques/atelier/class.rb:29: syntax error, unexpected end-of-input, expecting keyword_end
+
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/require.rb:18:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/require.rb:71:in `block in require_all_in'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/require.rb:71:in `each'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/require.rb:71:in `require_all_in'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/site/statistiques.rb:2:in `<top (required)>'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:22:in `require_ruby'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:15:in `require_all'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:330:in `load_per_vue'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:103:in `execute_route'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+-- (ERREUR : /Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/site/lib/module/statistiques/atelier/class.rb:8: syntax error, unexpected keyword_end
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/site/lib/module/statistiques/atelier/class.rb:29: syntax error, unexpected end-of-input, expecting keyword_end)
+<div>/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'</div>
+<div>/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'</div>
+<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/require.rb:18:in `require'</div>
+<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/require.rb:71:in `block in require_all_in'</div>
+<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/require.rb:71:in `each'</div>
+<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/require.rb:71:in `require_all_in'</div>
+<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/site/statistiques.rb:2:in `<top (required)>'</div>
+<div>/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'</div>
+<div>/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'</div>
+<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'</div>
+<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:22:in `require_ruby'</div>
+<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:15:in `require_all'</div>
+<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:330:in `load_per_vue'</div>
+<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:103:in `execute_route'</div>
+<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'</div>
+<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'</div>
+
+
+=== DEBUG DU 04 10 2016 - 17:14:57 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "statistiques"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 17:18:46 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "statistiques"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 17:22:57 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "statistiques"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 17:24:03 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "statistiques"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 17:24:48 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "statistiques"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 17:28:58 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "statistiques"
+Context  = nil
+-- -> le fichier n'est pas à actualiser
+
+
+=== DEBUG DU 04 10 2016 - 17:35:18 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "statistiques"
+Context  = nil
+-- undefined method `sorted_by' for #<Array:0x007fabcb2050e8>
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/site/lib/module/statistiques/atelier/durees.rb:8:in `plus_longues_durees'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/site/lib/module/statistiques/atelier/class.rb:11:in `update_stats_file'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/site/statistiques.rb:16:in `statistiques'
+(erb):6:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 04 10 2016 - 17:35:29 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "statistiques"
+Context  = nil
+-- [{:started_at=>1474638913, :ended_at=>1280585873, :user_id=>29, :id=>54, :duree=>-194053040}, {:started_at=>1286541250, :ended_at=>1286461610, :user_id=>30, :id=>62, :duree=>-79640}, {:started_at=>1303853928, :ended_at=>1304752966, :user_id=>24, :id=>41, :duree=>899038}, {:started_at=>1312878859, :ended_at=>1313938197, :user_id=>24, :id=>43, :duree=>1059338}, {:started_at=>1408636349, :ended_at=>1409740779, :user_id=>5, :id=>5, :duree=>1104430}, {:started_at=>1289858927, :ended_at=>1291379188, :user_id=>42, :id=>70, :duree=>1520261}, {:started_at=>1322046161, :ended_at=>1323964361, :user_id=>42, :id=>71, :duree=>1918200}, {:started_at=>1341319152, :ended_at=>1343645891, :user_id=>54, :id=>88, :duree=>2326739}, {:started_at=>1309856757, :ended_at=>1312459032, :user_id=>24, :id=>44, :duree=>2602275}, {:started_at=>1395756822, :ended_at=>1398503841, :user_id=>15, :id=>27, :duree=>2747019}, {:started_at=>1268905496, :ended_at=>1272138162, :user_id=>57, :id=>2, :duree=>3232666}, {:started_at=>1287846945, :ended_at=>1291725732, :user_id=>58, :id=>7, :duree=>3878787}, {:started_at=>1425322400, :ended_at=>1430741012, :user_id=>18, :id=>91, :duree=>5418612}, {:started_at=>1304872395, :ended_at=>1310294469, :user_id=>24, :id=>42, :duree=>5422074}, {:started_at=>1223545984, :ended_at=>1228996947, :user_id=>43, :id=>83, :duree=>5450963}, {:started_at=>1327321483, :ended_at=>1332975600, :user_id=>63, :id=>93, :duree=>5654117}, {:started_at=>1209652222, :ended_at=>1215781263, :user_id=>38, :id=>87, :duree=>6129041}, {:started_at=>1219310231, :ended_at=>1225530480, :user_id=>43, :id=>82, :duree=>6220249}, {:started_at=>1208545514, :ended_at=>1214996579, :user_id=>35, :id=>66, :duree=>6451065}, {:started_at=>1369065487, :ended_at=>1375653600, :user_id=>59, :id=>90, :duree=>6588113}, {:started_at=>1317247200, :ended_at=>1324301254, :user_id=>3, :id=>86, :duree=>7054054}, {:started_at=>1263717721, :ended_at=>1270892958, :user_id=>12, :id=>76, :duree=>7175237}, {:started_at=>1353231613, :ended_at=>1361277321, :user_id=>62, :id=>38, :duree=>8045708}, {:started_at=>1401791905, :ended_at=>1409848021, :user_id=>5, :id=>4, :duree=>8056116}, {:started_at=>1227654000, :ended_at=>1235775600, :user_id=>31, :id=>59, :duree=>8121600}, {:started_at=>1243191169, :ended_at=>1253023865, :user_id=>53, :id=>89, :duree=>9832696}, {:started_at=>1237672800, :ended_at=>1249768800, :user_id=>31, :id=>58, :duree=>12096000}, {:started_at=>1237812132, :ended_at=>1250947114, :user_id=>52, :id=>85, :duree=>13134982}, {:started_at=>1254944466, :ended_at=>1268160859, :user_id=>40, :id=>73, :duree=>13216393}, {:started_at=>1358419357, :ended_at=>1371747962, :user_id=>16, :id=>34, :duree=>13328605}, {:started_at=>1315922192, :ended_at=>1329471478, :user_id=>20, :id=>64, :duree=>13549286}, {:started_at=>1266354953, :ended_at=>1280333074, :user_id=>42, :id=>69, :duree=>13978121}, {:started_at=>1366522035, :ended_at=>1380578400, :user_id=>61, :id=>81, :duree=>14056365}, {:started_at=>1329913653, :ended_at=>1344087379, :user_id=>42, :id=>72, :duree=>14173726}, {:started_at=>1238919474, :ended_at=>1253138400, :user_id=>41, :id=>22, :duree=>14218926}, {:started_at=>1315299051, :ended_at=>1330615752, :user_id=>32, :id=>61, :duree=>15316701}, {:started_at=>1254916934, :ended_at=>1270489048, :user_id=>64, :id=>92, :duree=>15572114}, {:started_at=>1357049178, :ended_at=>1372865747, :user_id=>21, :id=>37, :duree=>15816569}, {:started_at=>1357049198, :ended_at=>1372865767, :user_id=>21, :id=>36, :duree=>15816569}, {:started_at=>1239297172, :ended_at=>1255450459, :user_id=>6, :id=>11, :duree=>16153287}, {:started_at=>1346935858, :ended_at=>1363603423, :user_id=>60, :id=>18, :duree=>16667565}, {:started_at=>1367684948, :ended_at=>1385157600, :user_id=>65, :id=>1, :duree=>17472652}, {:started_at=>1383821517, :ended_at=>1402678855, :user_id=>25, :id=>19, :duree=>18857338}, {:started_at=>1300179082, :ended_at=>1320158801, :user_id=>8, :id=>13, :duree=>19979719}, {:started_at=>1306955286, :ended_at=>1327850249, :user_id=>49, :id=>75, :duree=>20894963}, {:started_at=>1221550294, :ended_at=>1242567580, :user_id=>52, :id=>84, :duree=>21017286}, {:started_at=>1420324077, :ended_at=>1441358049, :user_id=>70, :id=>74, :duree=>21033972}, {:started_at=>1255354998, :ended_at=>1277474312, :user_id=>41, :id=>23, :duree=>22119314}, {:started_at=>1279259437, :ended_at=>1301414920, :user_id=>51, :id=>80, :duree=>22155483}, {:started_at=>1343637000, :ended_at=>1365831843, :user_id=>39, :id=>45, :duree=>22194843}, {:started_at=>1293523129, :ended_at=>1315983955, :user_id=>22, :id=>39, :duree=>22460826}, {:started_at=>1296316580, :ended_at=>1320676112, :user_id=>44, :id=>55, :duree=>24359532}, {:started_at=>1442323956, :ended_at=>1470034036, :user_id=>75, :id=>40, :duree=>27710080}, {:started_at=>1208545514, :ended_at=>1237308430, :user_id=>35, :id=>65, :duree=>28762916}, {:started_at=>1414349021, :ended_at=>1443532687, :user_id=>19, :id=>31, :duree=>29183666}, {:started_at=>1252747746, :ended_at=>1282315572, :user_id=>14, :id=>21, :duree=>29567826}, {:started_at=>1250200800, :ended_at=>1279975898, :user_id=>31, :id=>60, :duree=>29775098}, {:started_at=>1300834800, :ended_at=>1330872659, :user_id=>80, :id=>46, :duree=>30037859}, {:started_at=>1285178605, :ended_at=>1316847924, :user_id=>41, :id=>24, :duree=>31669319}, {:started_at=>1352809303, :ended_at=>1384501204, :user_id=>26, :id=>47, :duree=>31691901}, {:started_at=>1256378747, :ended_at=>1290193557, :user_id=>36, :id=>67, :duree=>33814810}, {:started_at=>1441273592, :ended_at=>1475319172, :user_id=>72, :id=>48, :duree=>34045580}, {:started_at=>1402423625, :ended_at=>1437458250, :user_id=>15, :id=>28, :duree=>35034625}, {:started_at=>1252568671, :ended_at=>1288004492, :user_id=>56, :id=>68, :duree=>35435821}, {:started_at=>1291540900, :ended_at=>1327330990, :user_id=>66, :id=>15, :duree=>35790090}, {:started_at=>1325256293, :ended_at=>1362501676, :user_id=>5, :id=>3, :duree=>37245383}, {:started_at=>1282819279, :ended_at=>1320158600, :user_id=>28, :id=>51, :duree=>37339321}, {:started_at=>1271169607, :ended_at=>1309529821, :user_id=>13, :id=>16, :duree=>38360214}, {:started_at=>1414100695, :ended_at=>1452532974, :user_id=>46, :id=>9, :duree=>38432279}, {:started_at=>1281534766, :ended_at=>1320867663, :user_id=>55, :id=>26, :duree=>39332897}, {:started_at=>1369777560, :ended_at=>1409137076, :user_id=>10, :id=>77, :duree=>39359516}, {:started_at=>1286541250, :ended_at=>1330955728, :user_id=>30, :id=>63, :duree=>44414478}, {:started_at=>1275031150, :ended_at=>1320158654, :user_id=>34, :id=>10, :duree=>45127504}, {:started_at=>1270586536, :ended_at=>1320246166, :user_id=>33, :id=>12, :duree=>49659630}, {:started_at=>1317967708, :ended_at=>1380884065, :user_id=>41, :id=>25, :duree=>62916357}, {:started_at=>1205251586, :ended_at=>1280585873, :user_id=>29, :id=>53, :duree=>75334287}, {:started_at=>1391708633, :ended_at=>1467703555, :user_id=>9, :id=>49, :duree=>75994922}, {:started_at=>1259576660, :ended_at=>1353945422, :user_id=>16, :id=>33, :duree=>94368762}, {:started_at=>1279104215, :ended_at=>1375716970, :user_id=>7, :id=>32, :duree=>96612755}, {:started_at=>1210968216, :ended_at=>1333370437, :user_id=>11, :id=>14, :duree=>122402221}]
+-- no implicit conversion of Symbol into Integer
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/site/lib/module/statistiques/atelier/durees.rb:10:in `[]'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/site/lib/module/statistiques/atelier/durees.rb:10:in `plus_longues_durees'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/site/lib/module/statistiques/atelier/class.rb:11:in `update_stats_file'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/site/statistiques.rb:16:in `statistiques'
+(erb):6:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 04 10 2016 - 17:36:46 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "statistiques"
+Context  = nil
+-- plus_longue : {:started_at=>1474638913, :ended_at=>1280585873, :user_id=>29, :id=>54, :duree=>-194053040}
+-- plus_courte : {:started_at=>1210968216, :ended_at=>1333370437, :user_id=>11, :id=>14, :duree=>122402221}
+
+
+=== DEBUG DU 04 10 2016 - 17:37:49 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "statistiques"
+Context  = nil
+-- plus_longue : {:started_at=>1210968216, :ended_at=>1333370437, :user_id=>11, :id=>14, :duree=>122402221}
+-- plus_courte : {:started_at=>1474638913, :ended_at=>1280585873, :user_id=>29, :id=>54, :duree=>-194053040}
+-- +longue > +courte ? true
+
+
+=== DEBUG DU 04 10 2016 - 17:39:59 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signin"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 17:40:03 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "login"
+Context  = nil
+-- kroute = :bureau
+-- Redirection -> bureau/1/home
+-- 
+Objet    = "bureau"
+Objet ID = 1
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 17:40:07 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 17:40:11 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 17:40:19 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {:where=>54}
+
+
+=== DEBUG DU 04 10 2016 - 17:40:26 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {:where=>54}
+
+
+=== DEBUG DU 04 10 2016 - 17:41:09 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {:where=>{:icmodule_id=>54}}
+
+
+=== DEBUG DU 04 10 2016 - 17:41:17 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {:where=>{:icmodule_id=>54}}
+
+
+=== DEBUG DU 04 10 2016 - 17:41:26 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {:where=>1}
+
+
+=== DEBUG DU 04 10 2016 - 17:43:49 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 17:43:57 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "statistiques"
+Context  = nil
+-- plus_longue : {:started_at=>1210968216, :ended_at=>1333370437, :user_id=>11, :id=>14, :duree=>122402221}
+-- plus_courte : {:started_at=>1303853928, :ended_at=>1304752966, :user_id=>24, :id=>41, :duree=>899038}
+
+
+=== DEBUG DU 04 10 2016 - 17:46:22 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "statistiques"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 17:50:52 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "statistiques"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 17:53:21 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "statistiques"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 17:53:32 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "statistiques"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 17:55:18 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "statistiques"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 17:56:12 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "statistiques"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 18:50:19 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "statistiques"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 18:50:59 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "statistiques"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 18:51:27 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "statistiques"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 18:53:13 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "statistiques"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 18:55:23 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "statistiques"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 18:55:54 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "statistiques"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 18:56:27 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "statistiques"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 18:57:14 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "statistiques"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 19:01:22 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "statistiques"
+Context  = nil
+-- nombre_mois : 106
+
+
+=== DEBUG DU 04 10 2016 - 19:02:01 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "statistiques"
+Context  = nil
+-- nombre_mois : 106
+
+
+=== DEBUG DU 04 10 2016 - 19:03:14 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "statistiques"
+Context  = nil
+-- nombre_mois : 106
+
+
+=== DEBUG DU 04 10 2016 - 19:05:10 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "statistiques"
+Context  = nil
+-- nombre_mois : 106
+
+
+=== DEBUG DU 04 10 2016 - 19:05:28 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "statistiques"
+Context  = nil
+-- nombre_mois : 106
+
+
+=== DEBUG DU 04 10 2016 - 19:06:03 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "statistiques"
+Context  = nil
+-- nombre_mois : 106
+
+
+=== DEBUG DU 04 10 2016 - 19:07:48 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "statistiques"
+Context  = nil
+-- nombre_mois : 106

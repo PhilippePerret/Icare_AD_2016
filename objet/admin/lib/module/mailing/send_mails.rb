@@ -30,8 +30,10 @@ class << self
     begin
       send_message_to admin, (forcer = true)
       rapport << "Message envoyé en réel à Phil".in_div
-      send_message_to( User.new(2) )
-      rapport << "Message envoyé à Marion".in_div
+      ONLINE || begin
+        send_message_to( User.new(2) )
+        rapport << "Message envoyé à Marion".in_div
+      end
     rescue Exception => e
       error "Impossible d'envoyer le message à l'administrateur."
       rapport << "# IMPOSSIBLE d'envoyer le message à l'administrateur."

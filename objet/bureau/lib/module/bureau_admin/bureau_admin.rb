@@ -25,8 +25,13 @@ class << self
       boutons_modules_apprentissage +
       boutons_edition_etapes_modules +
       boutons_edition_travaux_types +
+
       'Tests divers'.in_h3 +
       bouton_test_travaux +
+
+      'Divers'.in_h3 +
+      'Statistiques'.in_a(href: 'site/statistiques').in_div +
+      
       'Opérations sensibles'.in_h3 +
       bouton_erase_user_everywhere
     ).in_div
