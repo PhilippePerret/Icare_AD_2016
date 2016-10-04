@@ -13,8 +13,8 @@ class IcModule
   def as_historique
     (
       # # Ligne avec ID
-      "[##{id}] module #{abs_module.name}".in_div(class: 'titre') +
-      # "module #{abs_module.name}".in_div(class: 'titre') +
+      # "[##{id}] module #{abs_module.name}".in_div(class: 'titre') +
+      "module #{abs_module.name}".in_div(class: 'titre') +
       dates_module.in_span(class: 'dates') +
       listing_etapes
     ).in_div(class:'icmodule')

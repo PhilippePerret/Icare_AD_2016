@@ -15,16 +15,18 @@
 #
 def get_icariens_of_type utype
   @tous_les_icariens ||= begin
-    h = {actifs: Array.new, inactifs: Array.new, en_attente: Array.new}
+    h = {actifs: Array.new, inactifs: Array.new, en_attente: Array.new, admin: Array.new}
     drequest = {colonnes: []}
     dbtable_users.select(drequest).collect do |huser|
       u = User.new(huser[:id])
       ktype =
         case true
+        when u.admin? then :admin
         when u.actif? then :actifs
         when u.recu?  then :inactifs
         else :en_attente
         end
+
       # On ajoute cet icarien/ne à la liste
       h[ktype] << u
     end
@@ -85,7 +87,13 @@ class User
 
   def date_inscription
     @date_inscription ||= begin
-      " est icarien#{f_ne} depuis le #{created_at.as_human_date}. "
+      fct =
+        if admin?
+          "administra#{f_trice}"
+        else
+          "icarien#{f_ne}"
+        end
+      " est #{fct} depuis le #{created_at.as_human_date}. "
     end
   end
 

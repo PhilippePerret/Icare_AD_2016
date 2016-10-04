@@ -15,7 +15,7 @@
 
 ## À FAIRE RAPIDEMENT
 
-* HISTORIQUES : Faire un outil pour voir tous les historiques de tous les icariens et pouvoir les corriger (comme celui de Michel)
+* FRIGO Faire une table des matières avec les interlocuteurs
 * FRIGO Pouvoir n'afficher que la discussion avec un interlocuteur
 * FRIGO Pouvoir détruire une discussion (seulement quand on est le propriétaire - confirmation nécessaire)
 * FRIGO Pour l'inscription du quidam, faire un lien vers l'aide
@@ -23,6 +23,7 @@
 
 ## TESTS À FAIRE
 
+* Tester l'historique
 * Tester le Frigo
 * Tester la section "Documents" d'un icarien
 * Tester le réglage profil du contact avec le monde (préférence)
