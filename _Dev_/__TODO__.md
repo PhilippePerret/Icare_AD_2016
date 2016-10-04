@@ -4,6 +4,9 @@
 
 ## BUGS
 
+* FRIGO Quand un visiteur se connecte à une discussion en cours, on lui signale que le captcha est mauvais même lorsque c'est un signin. On ne devrait pas utiliser le captcha
+  -> mettre le pseudo et le captcha en dessous, en précisant que c'est pour l'inscription
+  
 ## PROGRAMMÉ
 
 * [MARDI 4] Faire une annonce pour la liste des icariens

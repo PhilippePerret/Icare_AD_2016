@@ -1,6 +1,7 @@
 if(undefined==window.Frigo){window.Frigo={}}
 $.extend(window.Frigo,{
   toggle_mask:function(discussion_id){
+    if($('input[type="hidden"][name="masked_discussions"]').length==0){return}
     var div_dis = $('div#discussion-'+discussion_id);
     div_dis.toggle();
     var is_visible = div_dis.is(':visible');
@@ -17,6 +18,7 @@ $.extend(window.Frigo,{
     // Dans tous les champs hidden des formulaires
     $('input[type="hidden"][name="masked_discussions"]').val(maskeds)
   },
+
   // Méthode réglant l'interlocuteur
   set_interlocuteur:function(dis_id, visible){
     var pseudo_interloc = $('div#interlocuteurs span#pseudo-'+dis_id);
@@ -29,6 +31,7 @@ $.extend(window.Frigo,{
   // Au chargement de la page, on masque toutes les discussions qui
   // doivent l'être et on règle les boutons des interlocuteurs
   set_masked_discussions:function(){
+    if($('input[type="hidden"][name="masked_discussions"]').length==0){return}
     var maskeds = $('input[type="hidden"][name="masked_discussions"]')[0].value;
     if(maskeds != ''){
       maskeds = maskeds.split('-');

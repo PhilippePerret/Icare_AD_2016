@@ -110,7 +110,7 @@ y = rand(10) + 4
 site.captcha_value    = (x + y).to_s
 x = x.to_s.in_span(id:'xcap') # xcap sert pour les tests
 y = y.to_s.in_span(id:'ycap')
-site.captcha_question = "Combien font #{x} + #{y} ?"
+site.captcha_question = "Combien font #{x} + #{y} ?&nbsp;&nbsp;&nbsp;&nbsp;"
 # ---------------------------------------------------------------------
 #   BASES DE DONNÉES
 site.prefix_databases = 'icare'

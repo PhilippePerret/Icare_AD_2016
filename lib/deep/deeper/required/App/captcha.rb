@@ -33,12 +33,7 @@ class App
   # l'utilisateur.
   def hidden_field_captcha_value
     require 'digest/md5'
-    # debug "= CAPTCHA GÉNÉRATION = "
-    # debug "= app.session.session_id = #{app.session.session_id}"
-    # debug "= site.captcha_value = #{site.captcha_value}"
     v = Digest::MD5::hexdigest("#{app.session.session_id}#{site.captcha_value}")
-    # debug "= cachcapvalue : #{v}"
-    # debug "======================="
     "<input type='hidden' name='cachcapvalue' id='cachcapvalue' value='#{v}' />"
   end
 
@@ -55,11 +50,6 @@ class App
   def captcha_valid? captcha = nil
     captcha ||= param(:captcha)
     require 'digest/md5'
-    # debug "= CAPTCHA VÉRIFICATION ="
-    # debug "= app.session.session_id : #{app.session.session_id}"
-    # debug "= Captcha fourni : #{captcha}"
-    # debug "= param(:cachcapvalue) : #{param(:cachcapvalue)}"
-    # debug "========================"
     param(:cachcapvalue) == Digest::MD5::hexdigest("#{app.session.session_id}#{captcha}")
   end
 

@@ -46,7 +46,13 @@ class Aide
     # ---------------------------------------------------------------------
     'quaidesdocs'   => {hname: 'le Quai des docs', titre: true},
     600 => {hname: 'Qu’est-ce que le Quai des docs ?'},
-    605 => {hname: 'Cotage des documents'}
+    605 => {hname: 'Cotage des documents'},
+    # ---------------------------------------------------------------------
+
+
+    # ---------------------------------------------------------------------
+    'divers'  => {hname: 'Divers', titre: true},
+    700 => {hname: 'Inscription visiteur pour le frigo'}
   }
 
 end #/Aide

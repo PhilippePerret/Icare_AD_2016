@@ -21397,3 +21397,586 @@ Objet    = "bureau"
 Objet ID = nil
 Method   = "home"
 Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 13:19:56 ===
+
+-- 
+Objet    = "aide"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 13:20:02 ===
+
+-- 
+Objet    = "aide"
+Objet ID = 700
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 13:21:12 ===
+
+-- 
+Objet    = "aide"
+Objet ID = 700
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 13:21:47 ===
+
+-- 
+Objet    = "aide"
+Objet ID = 700
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 13:35:53 ===
+
+-- 
+Objet    = "icarien"
+Objet ID = nil
+Method   = "list"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 13:35:57 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 1
+Method   = "frigo"
+Context  = nil
+-- undefined local variable or method `owner' for Frigo:Class
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/bureau/lib/module/frigo/frigo/class/helper.rb:32:in `explication_inscription'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/bureau/lib/module/frigo/frigo/class/helper.rb:14:in `form_login_signup_quidam'
+(erb):67:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 04 10 2016 - 13:36:18 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 1
+Method   = "frigo"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 13:37:07 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 1
+Method   = "frigo"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 13:37:19 ===
+
+-- 
+Objet    = "aide"
+Objet ID = 700
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 13:37:28 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signin"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 13:40:01 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 1
+Method   = "frigo"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 13:41:07 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 1
+Method   = "frigo"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 13:41:23 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 1
+Method   = "frigo"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 13:44:37 ===
+
+-- 
+Objet    = "aide"
+Objet ID = 700
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 13:45:01 ===
+
+-- 
+Objet    = "aide"
+Objet ID = 700
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 13:45:34 ===
+
+-- 
+Objet    = "aide"
+Objet ID = 700
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 13:45:37 ===
+
+-- 
+Objet    = "aide"
+Objet ID = 700
+Method   = "route"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 13:45:45 ===
+
+-- 
+Objet    = "aide"
+Objet ID = 700
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 13:48:38 ===
+
+-- 
+Objet    = "aide"
+Objet ID = 700
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 13:49:05 ===
+
+-- 
+Objet    = "aide"
+Objet ID = 700
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 13:49:13 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 1
+Method   = "frigo"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 13:49:54 ===
+
+-- 
+Objet    = "aide"
+Objet ID = 700
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 13:49:57 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 1
+Method   = "frigo"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 13:50:40 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 1
+Method   = "frigo"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 13:53:27 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 1
+Method   = "frigo"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 13:53:32 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 1
+Method   = "frigo"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 13:55:32 ===
+
+-- 
+Objet    = "aide"
+Objet ID = 700
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 13:55:34 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 1
+Method   = "frigo"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 13:58:29 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 1
+Method   = "frigo"
+Context  = nil
+-- Le captcha n’est pas bon. Seriez-vous un robot ?…
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/bureau/lib/module/frigo/frigo/instance/operations.rb:21:in `create_of_retreive_discussion'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/bureau/frigo.rb:20:in `<top (required)>'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:22:in `require_ruby'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:15:in `require_all'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:330:in `load_per_vue'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:103:in `execute_route'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 04 10 2016 - 14:01:32 ===
+
+-- 
+Objet    = "user"
+Objet ID = 1
+Method   = "deconnexion"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 14:01:38 ===
+
+-- 
+Objet    = "icarien"
+Objet ID = nil
+Method   = "list"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 14:01:43 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 1
+Method   = "frigo"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 14:06:28 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 1
+Method   = "frigo"
+Context  = nil
+-- Impossible de vous reconnaitre avec le mail et le code secret indiqués.
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/bureau/lib/module/frigo/frigo/instance/operations.rb:25:in `create_of_retreive_discussion'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/bureau/frigo.rb:20:in `<top (required)>'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:22:in `require_ruby'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:15:in `require_all'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:330:in `load_per_vue'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:103:in `execute_route'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 04 10 2016 - 14:08:16 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 1
+Method   = "frigo"
+Context  = nil
+-- Impossible de vous reconnaitre avec le mail et le code secret indiqués.
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/bureau/lib/module/frigo/frigo/instance/operations.rb:25:in `create_of_retreive_discussion'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/bureau/frigo.rb:20:in `<top (required)>'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:22:in `require_ruby'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:15:in `require_all'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:330:in `load_per_vue'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:103:in `execute_route'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 04 10 2016 - 14:10:26 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signin"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 14:10:31 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "login"
+Context  = nil
+-- kroute = :bureau
+-- Redirection -> bureau/1/home
+-- 
+Objet    = "bureau"
+Objet ID = 1
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 14:10:37 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 14:10:40 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 14:11:12 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- # ERREUR MYSQL : Unknown column 'travail' in 'where clause'
+-- # REQUEST : SELECT * FROM icetapes WHERE travail LIKE "%un féru%";
+-- # VALEURS PRÉPARÉES : []
+-- /Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:107:in `_query'
+/Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:107:in `block in query'
+/Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:106:in `handle_interrupt'
+/Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:106:in `query'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/request.rb:388:in `exec'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/request.rb:79:in `select'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/mysql.rb:150:in `select'
+(eval):1:in `<top (required)>'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/database/edit.rb:64:in `eval'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/database/edit.rb:64:in `<top (required)>'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:22:in `require_ruby'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:15:in `require_all'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:330:in `load_per_vue'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:103:in `execute_route'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+-- Unknown column 'travail' in 'where clause'
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/database/edit.rb:64:in `eval'
+/Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:107:in `block in query'
+/Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:106:in `handle_interrupt'
+/Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:106:in `query'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/request.rb:388:in `exec'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/request.rb:79:in `select'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/mysql.rb:150:in `select'
+(eval):1:in `<top (required)>'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/database/edit.rb:64:in `eval'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/database/edit.rb:64:in `<top (required)>'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:22:in `require_ruby'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:15:in `require_all'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:330:in `load_per_vue'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:103:in `execute_route'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 04 10 2016 - 14:11:33 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 14:11:45 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 14:12:00 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {}
+
+
+=== DEBUG DU 04 10 2016 - 14:12:34 ===
+
+-- 
+Objet    = "user"
+Objet ID = 1
+Method   = "deconnexion"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 14:14:33 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 1
+Method   = "frigo"
+Context  = nil
+-- Impossible de vous reconnaitre avec le mail et le code secret indiqués.
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/bureau/lib/module/frigo/frigo/instance/operations.rb:25:in `create_of_retreive_discussion'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/bureau/frigo.rb:20:in `<top (required)>'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:22:in `require_ruby'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:15:in `require_all'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:330:in `load_per_vue'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:103:in `execute_route'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 04 10 2016 - 14:15:23 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 1
+Method   = "frigo"
+Context  = nil
+-- Impossible de vous reconnaitre avec le mail et le code secret indiqués.
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/bureau/lib/module/frigo/frigo/instance/operations.rb:25:in `create_of_retreive_discussion'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/bureau/frigo.rb:20:in `<top (required)>'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:22:in `require_ruby'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:15:in `require_all'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:330:in `load_per_vue'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:103:in `execute_route'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 04 10 2016 - 14:15:38 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 1
+Method   = "frigo"
+Context  = nil
+-- Impossible de vous reconnaitre avec le mail et le code secret indiqués.
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/bureau/lib/module/frigo/frigo/instance/operations.rb:25:in `create_of_retreive_discussion'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/bureau/frigo.rb:20:in `<top (required)>'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:22:in `require_ruby'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:15:in `require_all'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:330:in `load_per_vue'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:103:in `execute_route'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 04 10 2016 - 14:15:52 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 1
+Method   = "frigo"
+Context  = nil
+-- Impossible de vous reconnaitre avec le mail et le code secret indiqués.
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/bureau/lib/module/frigo/frigo/instance/operations.rb:25:in `create_of_retreive_discussion'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/bureau/frigo.rb:20:in `<top (required)>'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:22:in `require_ruby'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:15:in `require_all'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:330:in `load_per_vue'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:103:in `execute_route'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
