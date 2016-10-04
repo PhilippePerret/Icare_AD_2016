@@ -21980,3 +21980,284 @@ Context  = nil
 /Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:103:in `execute_route'
 /Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'
 /Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 04 10 2016 - 14:20:37 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signin"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 14:20:41 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "login"
+Context  = nil
+-- kroute = :bureau
+-- Redirection -> bureau/1/home
+-- 
+Objet    = "bureau"
+Objet ID = 1
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 14:20:51 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "mailing"
+Context  = nil
+-- param(:operation) : nil
+
+
+=== DEBUG DU 04 10 2016 - 14:20:46 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "dashboard"
+Context  = nil
+-- --> check_folders_offline
+-- --> check_folders_online
+-- --> build_result
+-- --> open_result
+-- Redirection -> bureau/1/home
+-- 
+Objet    = "bureau"
+Objet ID = 1
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 14:22:48 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "mailing"
+Context  = nil
+-- param(:operation) : nil
+
+
+=== DEBUG DU 04 10 2016 - 14:24:27 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "mailing"
+Context  = nil
+-- param(:operation) : nil
+
+
+=== DEBUG DU 04 10 2016 - 14:28:02 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "mailing"
+Context  = nil
+-- param(:operation) : "prepare_mailing"
+-- Il faut définir le sujet du message.
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/mailing/operations.rb:172:in `define_params_and_check_values_or_raise'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/mailing/operations.rb:65:in `exec_prepare_mailing'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/mailing/operations.rb:40:in `exec_operation'
+(erb):13:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+-- undefined method `+' for nil:NilClass
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/mailing/helper.rb:26:in `content'
+(erb):21:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 04 10 2016 - 14:28:11 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "mailing"
+Context  = nil
+-- param(:operation) : nil
+
+
+=== DEBUG DU 04 10 2016 - 14:28:27 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "mailing"
+Context  = nil
+-- param(:operation) : "prepare_mailing"
+
+
+=== DEBUG DU 04 10 2016 - 14:29:16 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "mailing"
+Context  = nil
+-- param(:operation) : "prepare_mailing"
+
+
+=== DEBUG DU 04 10 2016 - 14:30:32 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "mailing"
+Context  = nil
+-- param(:operation) : "prepare_mailing"
+
+
+=== DEBUG DU 04 10 2016 - 14:33:02 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "mailing"
+Context  = nil
+-- param(:operation) : "prepare_mailing"
+-- Access denied for user 'icare'@'%' to database 'icare_user'
+
+/Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:87:in `connect'
+/Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:87:in `initialize'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/mysql.rb:192:in `new'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/mysql.rb:192:in `client'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/mysql.rb:315:in `create'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/mysql.rb:310:in `create_if_needed'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/mysql.rb:58:in `get'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/mysql.rb:6:in `dbm_table'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/mailing/destinataires.rb:12:in `destinataires'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/mailing/operations.rb:86:in `exec_prepare_mailing'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/mailing/operations.rb:40:in `exec_operation'
+(erb):13:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+-- undefined method `+' for nil:NilClass
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/mailing/helper.rb:26:in `content'
+(erb):21:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 04 10 2016 - 14:33:21 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "mailing"
+Context  = nil
+-- param(:operation) : "prepare_mailing"
+
+
+=== DEBUG DU 04 10 2016 - 14:33:52 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "mailing"
+Context  = nil
+-- param(:operation) : "mailing_send"
+
+
+=== DEBUG DU 04 10 2016 - 14:35:50 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 14:35:53 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 14:35:55 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 04 10 2016 - 14:35:59 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {}
+
+
+=== DEBUG DU 04 10 2016 - 14:36:12 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {}

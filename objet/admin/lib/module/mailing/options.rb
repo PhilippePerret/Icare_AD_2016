@@ -28,7 +28,12 @@ class << self
   end
 
   def force_offline?
-    @is_force_offline = !!OPTIONS[:force_offline][:value] if @is_force_offline === nil
+    if @is_force_offline === nil
+      @is_force_offline = !!OPTIONS[:force_offline][:value]
+      if @is_force_offline
+        flash "Noter que pour le moment, les envois depuis l'OFFLINE n'utilise pas la liste des users ONLINE. Donc il vaut mieux envoyer en ONLINE."
+      end
+    end
     @is_force_offline
   end
 

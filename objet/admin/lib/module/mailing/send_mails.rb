@@ -14,7 +14,6 @@ class << self
       KEYS_DESTINATAIRES[kdestinataire.to_sym][:checked] = true
     end
 
-    debug "code_erb? = #{code_erb?.inspect}"
     rapport = Array.new
     destinataires.each do |u|
       begin
@@ -31,6 +30,8 @@ class << self
     begin
       send_message_to admin, (forcer = true)
       rapport << "Message envoyé en réel à Phil".in_div
+      send_message_to( User.new(2) )
+      rapport << "Message envoyé à Marion".in_div
     rescue Exception => e
       error "Impossible d'envoyer le message à l'administrateur."
       rapport << "# IMPOSSIBLE d'envoyer le message à l'administrateur."

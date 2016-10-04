@@ -9,7 +9,8 @@ class << self
   def destinataires
     @destinataires ||= begin
       outs = site.mails_out || Array.new
-      dbtable_users.select(where: clause_where, colonnes: [:mail]).collect do |huser|
+      table = force_offline? ? site.dbm_table(:users, 'users', online = true) : dbtable_users
+      table.select(where: clause_where, colonnes: [:mail]).collect do |huser|
         outs.include?(huser[:mail]) && next
         User.new(huser[:id])
       end.compact
