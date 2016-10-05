@@ -7,6 +7,9 @@ class << self
   # Retourne le formulaire pour laisser un message sur le frigo
   # de l'icarien
   def form_message premier = true
+    # Si c'est une discussion publique, et qu'aucun interlocuteur ou
+    # propriétaire n'est défini, on ne met pas de formulaire
+    frigo.owner? || param(:qmail) || (return '')
     init_discussion_if_needed
     (
       inner_form(premier)

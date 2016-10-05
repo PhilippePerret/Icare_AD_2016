@@ -57,7 +57,7 @@ class Frigo
       @owner = owner
     end
 
-    # Affichage de toutes les discussions du propriétaire
+    # Affichage de TOUTES les discussions du propriétaire
     def display
       list.collect do |dis|
         frigo.current_discussion = dis

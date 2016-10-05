@@ -46,8 +46,7 @@
   %>
   <% if frigo.has_discussion_with_current?
       # Quand le visiteur courant a une discussion avec le propriétaire
-      # du frigo (ce qui signifie qu'il a déjà été vérifié que le frigo
-      # pouvait être utilisé).
+      # du frigo.
     %>
     <%= frigo.current_discussion.display %>
   <% else
@@ -68,7 +67,13 @@
 
       <% end %>
 
-
   <% end %>
+
+  <%=
+    # On met enfin toutes les discussions publiques en fonction du
+    # fait que le visiteur courante est identifié ou non
+    Frigo.discussions_publiques
+  %>
+
 
 <% end %>

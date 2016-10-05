@@ -7,6 +7,24 @@
 class Frigo
 class Discussion
 
+  SHARED_HUMAN_VALUES = {
+    0 => {
+      short: 'privée',
+      owner: "privée : seuls votre interlocuteur et vous pouvez la lire.",
+      inter: "privée : seuls l’icarien de ce bureau et vous pouvez la lire."
+    },
+    1 => {
+      short: 'semi-publique',
+      owner: 'semi-publique : tous les icariens peuvent la lire.',
+      inter: 'semi-publique : tous les icariens peuvent la lire.'
+    },
+    2 => {
+      short: 'publique',
+      owner: 'publique : tout visiteur, même non icarien, peut la lire.',
+      inter: 'publique : tout visiteur, même non icarien, peut la lire.'
+    }
+  }
+
   def set_partage
     frigo.owner? || begin
       raise 'Seriez-vous en train d’essayer de forcer une discussion qui ne vous appartient pas ?…'
@@ -25,11 +43,14 @@ class Discussion
   end
 
   def shared_hvalue
-    case options[0].to_i
-    when 0  then '“privée” : seul votre interlocuteur peut la lire.'
-    when 1  then '“semi-publique” : seuls les icariens peuvent la consulter.'
-    when 2  then '“publique” : tout visiteur, même non icarien, peut la lire.'
-    end
+    keyh = options[0].to_i
+    keysoush = frigo.owner? ? :owner : :inter
+    SHARED_HUMAN_VALUES[keyh][keysoush]
+  end
+
+  def shared_short_hmark
+    keyh = options[0].to_i
+    SHARED_HUMAN_VALUES[keyh][:short]
   end
 
 end #/Discussion

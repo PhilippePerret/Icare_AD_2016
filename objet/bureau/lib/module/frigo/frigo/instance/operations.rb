@@ -13,11 +13,11 @@ class Frigo
       raise('Il faut fournir un mot de passe.')
     end
 
-    mail_existe = dbtable_frigo_discussions.count(where:{user_mail: qmail})
+    mail_existe = dbtable_frigo_discussions.count(where:{user_mail: qmail}) > 0
     # Si le pseudo et le captcha ne sont pas remplis,
     # c'est qu'il s'agit d'une identification
     pse = param(:qpseudo).nil_if_empty
-    cap = param(:captcha).nil_if_empty
+    cap = param(:cachcapvalue).nil_if_empty
     pour_identification = (pse.nil? && cap.nil?) || mail_existe
 
     if pour_identification

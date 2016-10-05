@@ -43,7 +43,7 @@ class << self
   def explication_login_signup
     <<-HTML
 <p>
-  <strong>Si vous êtes icarienne ou icarien</strong>, utilisez le #{lien.signin('formulaire normal')} d'identification vous suivre ou entamer la discussion avec #{frigo.owner.pseudo}.
+  <strong>Si vous êtes icarienne ou icarien</strong>, utilisez le #{lien.signin('formulaire normal')} d'identification pour suivre ou entamer la discussion avec #{frigo.owner.pseudo}.
 </p>
 <p>Si vous n'êtes pas icarien, <strong>indiquez ci-dessous votre mail et le mot de passe</strong> choisis pour entamer la discussion avec #{frigo.owner.pseudo}.
 </p>

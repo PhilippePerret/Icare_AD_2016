@@ -26,10 +26,21 @@ class Discussion
 
   def titre
     if frigo.owner?
-      "Discussion entre vous et #{interlocuteur_designation}"
+      "Discussion #{shared_short_hmark} entre vous et #{interlocuteur_designation}"
     else
-      "Discussion entre #{frigo.owner.pseudo} et vous"
+      "Discussion #{shared_short_hmark} entre #{frigo.owner.pseudo} et #{vous_when_not_owner}"
     end.in_h3
+  end
+
+  # Ça peut être "vous" si l'user est l'interlocuteur, mais si
+  # c'est une discussion publique/semi-publique, ça peut être
+  # autre chose
+  def vous_when_not_owner
+    if param(:qmail)
+      'vous'
+    else
+      user_pseudo
+    end
   end
 
   # Terme pour désigner l'interlocuteur, en fonction du

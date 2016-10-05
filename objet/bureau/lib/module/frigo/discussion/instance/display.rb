@@ -6,12 +6,26 @@ class Discussion
     is_displayed = param("discussion_masked_#{id}".to_sym) != '1'
     (
       self.titre +
-      self.boutons_owner +
+      boutons_owner_or_message_interloc +
       messages.collect do |imess|
         imess.as_li
       end.join.in_ul(class: 'discussion') +
       Frigo::Discussion::Message.form_message(premier = false)
     ).in_div(id: "discussion-#{id}", class: 'discussion', display: is_displayed)
+  end
+
+  def boutons_owner_or_message_interloc
+    if frigo.owner?
+      boutons_owner
+    else
+      message_partage_interlocuteur
+    end.in_div(class: 'btns_discussion')
+  end
+
+  # Lorsque c'est l'interlocuteur qui visite le fil, on lui
+  # indique l'état de partage de la discussion
+  def message_partage_interlocuteur
+    "Cette discussion est #{shared_hvalue}".in_span(class: 'italic')
   end
 
   # Les boutons du propriétaire du frigo, pour détruire les
@@ -21,7 +35,7 @@ class Discussion
     (
       menu_partage  +
       bouton_remove
-    ).in_div(class: 'btns_discussion')
+    )
   end
   def bouton_remove
     (
