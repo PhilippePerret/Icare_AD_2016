@@ -19,6 +19,8 @@
 
 * Tester l'historique
 * Tester le Frigo
+  - définition partage
+  - destruction
 * Tester la section "Documents" d'un icarien
 * Tester le réglage profil du contact avec le monde (préférence)
   - son réglage/définition

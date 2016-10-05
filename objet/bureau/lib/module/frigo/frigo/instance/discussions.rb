@@ -73,7 +73,7 @@ class Frigo
             (
               'masquer'.in_a(id: "btn_toggle_discussion-#{dis.id}", onclick: "$.proxy(Frigo,'toggle_mask',#{dis.id})()")
             ).in_div(class: 'fright') +
-            dis.user_pseudo.in_span(id: "pseudo-#{dis.id}", class: 'pseudo')
+            dis.user_pseudo.in_a(href: "bureau/#{frigo.owner_id}/frigo#discussion-#{dis.id}").in_span(id: "pseudo-#{dis.id}", class: 'pseudo')
           ).in_div
         end.join.in_div(id: 'interlocuteurs')
       ).in_div(id: 'div_interlocuteurs')

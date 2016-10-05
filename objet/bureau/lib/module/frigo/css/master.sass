@@ -25,14 +25,20 @@ div#div_interlocuteurs
     width       : 100%
     min-width   : 100%
     span.pseudo
-      font-weight     : bold
+      a
+        font-weight     : bold
       &.as_masked
         font-style      : italic !important
-        color           : #BBB !important
+        a
+          color           : #BBB !important
 
 // Liste des messages d'une discussion
 // Note : il peut y en avoir plusieurs dans la page
 div.discussion
+  border-top      : 1px solid
+  padding-top     : 1em
+  margin-top      : 2em
+  clear           : both
   div.btns_discussion
     text-align      : right
     font-size       : 0.825em
