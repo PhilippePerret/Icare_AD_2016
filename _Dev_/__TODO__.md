@@ -4,6 +4,8 @@
 
 ## BUGS
 
+* Il y a encore des inscriptions qui produisent une ligne vide dans la table
+
 ## PROGRAMMÉ
 
 * [MERCREDI 5] Faire une annonce pour dire que les frigos ont été installés

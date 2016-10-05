@@ -30,7 +30,6 @@ class << self
       bouton_test_travaux +
 
       'Divers'.in_h3 +
-      'Statistiques'.in_a(href: 'site/statistiques').in_div +
       
       'Opérations sensibles'.in_h3 +
       bouton_erase_user_everywhere

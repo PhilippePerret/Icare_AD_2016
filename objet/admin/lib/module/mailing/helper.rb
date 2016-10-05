@@ -6,7 +6,7 @@ class << self
   # Le contenu de la page, quand un mail est défini
   attr_writer :content
 
-  
+
   # Sous-titre en fonction de l'étape de conception du mailing-list
   # On peut être à la composition du message, à sa validation ou à
   # son envoi.
@@ -23,7 +23,7 @@ class << self
     if param(:operation).nil?
       ''
     else
-      @content + page.html_separator(80)
+      (@content||'[PROBLÈME EN ÉTABLISSANT LE CONTENU]') + page.html_separator(80)
     end +
     # On met toujours le formulaire en bas
     mailing_form
