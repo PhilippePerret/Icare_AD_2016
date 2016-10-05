@@ -25,7 +25,7 @@ class Discussion
         formated:   true,
         message:    <<-HTML
 <p>Bonjour #{upseudo},</p>
-<p>Je vous informe que #{frigo.owner.pseudo} vient de détruire la conversation qu'il avait avec vous sur son bureau de l'atelier Icare.</p>
+<p>Je vous informe que #{frigo.owner.pseudo} vient de détruire la conversation qu'#{frigo.owner.f_elle} avait avec vous sur son bureau de l'atelier Icare.</p>
 <p>Cordialement,</p>
         HTML
       )

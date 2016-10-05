@@ -17,7 +17,7 @@ when 'create_of_retreive_discussion'
   # seule conversation par utilisateur — même s'il est possible de
   # contourner la restriction quand on est icarien : une discussion en tant
   # qu'icarien et une autre sans être identifié)
-  frigo.create_of_retreive_discussion
+  Frigo::Discussion.create_of_retreive
 when 'remove_discussion'
   Frigo::Discussion.new(param(:discussion_id).to_i).remove
 when 'set_partage_discussion'

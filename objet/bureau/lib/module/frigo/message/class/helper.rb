@@ -9,7 +9,7 @@ class << self
   def form_message premier = true
     # Si c'est une discussion publique, et qu'aucun interlocuteur ou
     # propriétaire n'est défini, on ne met pas de formulaire
-    frigo.owner? || param(:qmail) || (return '')
+    frigo.owner? || param(:qmail) || user.identified? || (return '')
     init_discussion_if_needed
     (
       inner_form(premier)

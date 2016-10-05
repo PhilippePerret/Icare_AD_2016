@@ -90,7 +90,7 @@ class Discussion
       formated: true,
       message:  <<-HTML
 <p>Bonjour #{pseudo},</p>
-<p>Un message pour vous informer que #{autre} vient de laisser #{lien_mot} sur #{votre} bureau de l'atelier Icare.</p>
+<p>Un message pour vous informer que <strong>#{autre}</strong> vient de laisser #{lien_mot} sur #{votre} bureau de l'atelier Icare.</p>
 <p>Bien à vous,</p>
       HTML
     )
