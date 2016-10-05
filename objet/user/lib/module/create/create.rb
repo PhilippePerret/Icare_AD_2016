@@ -107,6 +107,7 @@ class User
   # ce module consacré à la création.
   # Cela renvoie l'ID, en tout cas si tout a bien fonctionné.
   def save_all_data
+    data2save_ok? || (return false)
     @id = dbtable_users.insert(data2save)
   end
 
@@ -118,6 +119,7 @@ class User
     [:mail_confirmation, :password, :password_confirmation].each do |prop|
       @duser.delete(prop)
     end
+
     @duser.merge!(
       pseudo:       real_pseudo,
       cpassword:    cpassword,
@@ -126,6 +128,28 @@ class User
       updated_at:   now
     )
     return @duser
+  end
+
+  def data2save_ok?
+    du = param(:data_identite)
+
+    du[:mail] = du[:mail].nil_if_empty
+    du[:mail] != nil || raise('Le mail ne devrait pas être nil…')
+
+    du[:pseudo] = du[:pseudo].nil_if_empty
+    du[:pseudo] != nil || raise('Le pseudo ne devrait pas être nil…')
+
+    [:patronyme, :telephone, :adresse].each do |prop|
+      du[prop] = du[prop].nil_if_empty
+    end
+
+    ['F','H'].include?(du[:sexe]) || raise('Le sexe devrait être défini…')
+
+    param(data_identite: du)
+  rescue Exception => e
+    error e
+  else
+    true
   end
 
   # Retourne le pseudo avec toujours la première
