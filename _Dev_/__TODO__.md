@@ -12,7 +12,6 @@
 
 ## À FAIRE RAPIDEMENT
 
-* CRON Détruire le fichier statistiques.html tous les jours et forcer sa reconstruction
 * FRIGO Pouvoir détruire une discussion (seulement quand on est le propriétaire - confirmation nécessaire)
 
 ## TESTS À FAIRE

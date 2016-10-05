@@ -32,32 +32,39 @@ div#div_interlocuteurs
 
 // Liste des messages d'une discussion
 // Note : il peut y en avoir plusieurs dans la page
-ul.discussion
-  list-style      : none
-  li.mess
-    width       : 60%
-    padding     : 4px 12px 1em 1em
-    border      : 1px solid #777
-    font-size   : 0.87em
-    // Pour le côté propriétaire (owner)
-    &.cotei
-      margin-left   : 0
-    // Pour le côté interlocuteur
-    &.coteo
-      margin-left   : 36%
+div.discussion
+  div.btns_discussion
+    text-align      : right
+    font-size       : 0.825em
+    form
+      display       : inline
+      margin-left   : 2em
+  ul.discussion
+    list-style      : none
+    li.mess
+      width       : 60%
+      padding     : 4px 12px 1em 1em
+      border      : 1px solid #777
+      font-size   : 0.87em
+      // Pour le côté propriétaire (owner)
+      &.cotei
+        margin-left   : 0
+      // Pour le côté interlocuteur
+      &.coteo
+        margin-left   : 36%
 
-    div.infos
-      display       : block
-      text-align    : right
-      font-size     : 0.85em
-      // Auteur du message (ou "Vous")
-      span.auteur
-        font-style    : italic
-        color         : #777
-      span.date
-        font-style    : italic
-        color         : #777
-        margin-left   : 2em
+      div.infos
+        display       : block
+        text-align    : right
+        font-size     : 0.85em
+        // Auteur du message (ou "Vous")
+        span.auteur
+          font-style    : italic
+          color         : #777
+        span.date
+          font-style    : italic
+          color         : #777
+          margin-left   : 2em
 
 // Boite pour laisser un nouveau message
 div.boite_new_message

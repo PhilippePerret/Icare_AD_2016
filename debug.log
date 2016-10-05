@@ -23144,3 +23144,379 @@ Objet    = "overview"
 Objet ID = nil
 Method   = "reussites"
 Context  = nil
+
+
+=== DEBUG DU 05 10 2016 - 09:57:06 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signin"
+Context  = nil
+
+
+=== DEBUG DU 05 10 2016 - 09:57:12 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "login"
+Context  = nil
+-- kroute = :bureau
+-- Redirection -> bureau/1/home
+-- 
+Objet    = "bureau"
+Objet ID = 1
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 05 10 2016 - 09:57:15 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 1
+Method   = "frigo"
+Context  = nil
+
+
+=== DEBUG DU 05 10 2016 - 09:58:19 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 1
+Method   = "frigo"
+Context  = nil
+
+
+=== DEBUG DU 05 10 2016 - 10:00:03 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 1
+Method   = "frigo"
+Context  = nil
+
+
+=== DEBUG DU 05 10 2016 - 10:00:21 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 1
+Method   = "frigo"
+Context  = nil
+
+
+=== DEBUG DU 05 10 2016 - 10:00:28 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 1
+Method   = "frigo"
+Context  = nil
+
+
+=== DEBUG DU 05 10 2016 - 10:00:46 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 1
+Method   = "frigo"
+Context  = nil
+
+
+=== DEBUG DU 05 10 2016 - 10:02:33 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 1
+Method   = "frigo"
+Context  = nil
+
+
+=== DEBUG DU 05 10 2016 - 10:02:58 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 1
+Method   = "frigo"
+Context  = nil
+
+
+=== DEBUG DU 05 10 2016 - 10:03:58 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 1
+Method   = "frigo"
+Context  = nil
+
+
+=== DEBUG DU 05 10 2016 - 10:04:04 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 1
+Method   = "frigo"
+Context  = nil
+
+
+=== DEBUG DU 05 10 2016 - 10:04:54 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 1
+Method   = "frigo"
+Context  = nil
+
+
+=== DEBUG DU 05 10 2016 - 10:05:33 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 1
+Method   = "frigo"
+Context  = nil
+
+
+=== DEBUG DU 05 10 2016 - 10:05:43 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 1
+Method   = "frigo"
+Context  = nil
+
+
+=== DEBUG DU 05 10 2016 - 10:05:48 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 1
+Method   = "frigo"
+Context  = nil
+
+
+=== DEBUG DU 05 10 2016 - 10:07:55 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 1
+Method   = "frigo"
+Context  = nil
+
+
+=== DEBUG DU 05 10 2016 - 10:09:01 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 1
+Method   = "frigo"
+Context  = nil
+
+
+=== DEBUG DU 05 10 2016 - 10:09:15 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 1
+Method   = "frigo"
+Context  = nil
+
+
+=== DEBUG DU 05 10 2016 - 10:10:05 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 1
+Method   = "frigo"
+Context  = nil
+
+
+=== DEBUG DU 05 10 2016 - 10:10:15 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 1
+Method   = "frigo"
+Context  = nil
+
+
+=== DEBUG DU 05 10 2016 - 10:10:30 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 1
+Method   = "frigo"
+Context  = nil
+
+
+=== DEBUG DU 05 10 2016 - 10:10:37 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 1
+Method   = "frigo"
+Context  = nil
+
+
+=== DEBUG DU 05 10 2016 - 10:10:51 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 1
+Method   = "frigo"
+Context  = nil
+
+
+=== DEBUG DU 05 10 2016 - 10:12:34 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 1
+Method   = "frigo"
+Context  = nil
+
+
+=== DEBUG DU 05 10 2016 - 10:13:12 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 1
+Method   = "frigo"
+Context  = nil
+
+
+=== DEBUG DU 05 10 2016 - 10:13:26 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 1
+Method   = "frigo"
+Context  = nil
+
+
+=== DEBUG DU 05 10 2016 - 10:23:56 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 1
+Method   = "frigo"
+Context  = nil
+
+
+=== DEBUG DU 05 10 2016 - 10:24:04 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 1
+Method   = "frigo"
+Context  = nil
+
+
+=== DEBUG DU 05 10 2016 - 10:24:41 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 1
+Method   = "frigo"
+Context  = nil
+
+
+=== DEBUG DU 05 10 2016 - 10:25:08 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 1
+Method   = "frigo"
+Context  = nil
+
+
+=== DEBUG DU 05 10 2016 - 10:25:24 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 1
+Method   = "frigo"
+Context  = nil
+
+
+=== DEBUG DU 05 10 2016 - 10:25:45 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 1
+Method   = "frigo"
+Context  = nil
+
+
+=== DEBUG DU 05 10 2016 - 10:26:05 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 1
+Method   = "frigo"
+Context  = nil
+
+
+=== DEBUG DU 05 10 2016 - 10:26:18 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 1
+Method   = "frigo"
+Context  = nil
+
+
+=== DEBUG DU 05 10 2016 - 10:26:28 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 1
+Method   = "frigo"
+Context  = nil
+
+
+=== DEBUG DU 05 10 2016 - 10:28:54 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 1
+Method   = "frigo"
+Context  = nil
+
+
+=== DEBUG DU 05 10 2016 - 10:29:18 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 1
+Method   = "frigo"
+Context  = nil
+
+
+=== DEBUG DU 05 10 2016 - 10:29:32 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 1
+Method   = "frigo"
+Context  = nil
+
+
+=== DEBUG DU 05 10 2016 - 10:29:37 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 1
+Method   = "frigo"
+Context  = nil
+
+
+=== DEBUG DU 05 10 2016 - 10:29:46 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 1
+Method   = "frigo"
+Context  = nil
