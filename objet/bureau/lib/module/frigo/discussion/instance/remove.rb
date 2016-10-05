@@ -14,10 +14,21 @@ class Discussion
     end
 
     if confirmation_removing?
-      interloc = interlocuteur_designation.freeze
+      interloc  = interlocuteur_designation.freeze
+      upseudo   = user_pseudo.freeze
       dis_id = self.id.freeze
       dbtable_frigo_discussions.delete(dis_id)
       dbtable_frigo_messages.delete(where:{discussion_id: dis_id})
+      site.send_mail(
+        to: user_mail, from: site.mail,
+        subject:    'Destruction de discussion sur un frigo',
+        formated:   true,
+        message:    <<-HTML
+<p>Bonjour #{upseudo},</p>
+<p>Je vous informe que #{frigo.owner.pseudo} vient de détruire la conversation qu'il avait avec vous sur son bureau de l'atelier Icare.</p>
+<p>Cordialement,</p>
+        HTML
+      )
       flash "Discussion avec #{interloc} détruite."
     else
       # Il faut demander confirmation

@@ -12,7 +12,6 @@
 
 ## À FAIRE RAPIDEMENT
 
-* FRIGO À la destruction de la discussion, envoyer un mail à l'interlocuteur pour l'avertir
 
 ## TESTS À FAIRE
 
