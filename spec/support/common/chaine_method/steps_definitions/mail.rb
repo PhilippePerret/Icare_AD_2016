@@ -19,6 +19,14 @@ class User
   #
   def recoit_le_mail dmail, options = nil
     options ||= Hash.new
+    puts "class dans recoit_le_mail : #{self.class}"
+    puts "self.id ans recoit le mail : #{self.id} (#{self.pseudo})"
+    self.mail != nil || begin
+      duser = dbtable_users.get(self.id)
+      duser != nil || raise("IMPOSSIBLE D’OBTENIR L’USER ##{self.id} DANS LA TABLE users.users…")
+      duser.each{|k,v|instance_variable_set("@#{k}",v)}
+    end
+    self.mail != nil || raise("AUCUN MAIL DÉFINI POUR LA RECHERCHE PAR MAIL ! IMPOSSIBLE DE TESTER LES MAILS.")
     mess_success = options.delete(:success) || "#{pseudo} a reçu le mail avec les paramètres #{dmail.inspect}"
     dmail.merge!(to: self.mail)
     MailMatcher.search_mails_with dmail

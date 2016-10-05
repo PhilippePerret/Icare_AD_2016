@@ -4,7 +4,7 @@ feature "Refus d'un candidat" do
 
     test 'L’administrateur peut refuser un candidat'
 
-    start_time = Time.now.to_i
+    start_time = Time.now.to_i - 1
 
     sim = Simulate.new
     args = { sexe: 'F', test: true }
@@ -55,15 +55,18 @@ feature "Refus d'un candidat" do
     success 'Le watcher de validation de l’inscription a été détruit.'
 
     data_mail = {
-      sent_after: start_time,
-      subject:    'Refus de candidature',
-      message:    ['Nous avons le regret de vous annoncer que votre candidature à l\'atelier Icare vient d\'être malheureusement refusée']
+      # sent_after:   start_time,
+      subject:      'Refus de candidature'#,
+      # message:      ['Nous avons le regret de vous annoncer que votre candidature à l\'atelier Icare vient d\'être malheureusement refusée']
     }
 
     # Phil ne reçoit pas le mail de refus (mis ici car ça se produisait, avant)
     Phil ne recoit pas le mail data_mail
 
     # L'user a reçu un mail de confirmation
+    puts "sim.user.mail : #{sim.user.mail}"
+    puts "sim.user.id : #{sim.user.id}"
+    sim.user= User.new(sim.user_id)
     sim.user recoit le mail data_mail
 
   end

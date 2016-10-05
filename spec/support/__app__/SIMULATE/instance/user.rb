@@ -11,8 +11,8 @@ class Simulate
   #   sim.user clique le bouton 'OK'
   #
   def user chaine = nil
-    if chaine
-      Someone.new({user_id: user_id, pseudo:@user.pseudo}, chaine).evaluate
+    if chaine != nil
+      Someone.new({user_id: user_id, pseudo: @user.pseudo, mail: @user.mail}, chaine).evaluate
     else
       @user ||= User.new(user_id)
     end

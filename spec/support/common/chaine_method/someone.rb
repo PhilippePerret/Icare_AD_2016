@@ -7,7 +7,6 @@ class Someone
   attr_reader :pseudo
   attr_reader :user_id
 
-
   def initialize pseudo_or_data, chaine
     @chaine = chaine
     case pseudo_or_data

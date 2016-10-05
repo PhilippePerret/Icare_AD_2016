@@ -97,6 +97,10 @@ class User
     # puts "ref_field : #{ref_field}"
     # puts "args      : #{args.inspect}"
     within(leform){ fill_in( ref_field, args) }
+    # Il faut toujours sortir du champ, dans le cas où c'est un
+    # textarea qui s'ouvre en grand en bloquant la page
+    # 3.times{cpage.execute_script("$('textarea').blur()")}
+    cpage.execute_script("$('textarea').blur()")
     @args = args_init
   end
 
