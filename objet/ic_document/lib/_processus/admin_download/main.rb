@@ -22,7 +22,12 @@ for_inscription? || begin
       break
     end
   end
-  all_document_received && icetape.set(status: 3)
+  all_document_received && begin
+    # Changement de statut de l'étape
+    icetape.set(status: 3)
+    # Actualisation des statistiques
+    Atelier.remove_statistiques_file
+  end
 end
 
 # Création du watcher suivant. Il s'agit du dépot de commentaire

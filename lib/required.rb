@@ -58,14 +58,15 @@ require 'json'
 
 
 # Le site
-require_folder "./lib/deep/deeper/first_required"
+require_folder './lib/deep/deeper/first_required'
 require_folder './lib/deep/deeper/required/divers'
 require_folder './lib/deep/deeper/required/Site'
-require_folder "./lib/deep/deeper/required"
+require_folder './lib/deep/deeper/required'
 site.require_gem 'superfile'
 # Requérir les librairies propres à l'application
-require_folder "./lib/app/handy"
-require_folder "./lib/app/required"
+require_folder './lib/app/handy'
+require_folder './lib/app/required'
+require_folder './objet/site/lib/required'
 site.require_config
 
 # ---------------------------------------------------------------------

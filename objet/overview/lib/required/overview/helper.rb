@@ -17,7 +17,7 @@ class << self
   end
 
   def menu_links_overview
-    [:home, :reussites, :parcours, :raisons, :temoignages
+    [:home, :reussites, :parcours, :raisons, :temoignages, :stats
     ].collect do |ovw_id|
       classecss = ovw_id == current_section ? 'selected' : nil
       link_overview(ovw_id).in_li(class: classecss)
@@ -26,11 +26,12 @@ class << self
 
   def link_overview overview_id = :home
     case overview_id
-    when :home        then "Présentation général de l'atelier"
-    when :reussites   then "Belles réussites d'icarien(ne)s"
-    when :parcours    then "Parcours fictifs de 3 icarien(ne)s"
-    when :raisons     then "10 bonnes raisons de choisir l'atelier"
-    when :temoignages then "Témoignages"
+    when :home        then 'Présentation général de l\'atelier'
+    when :reussites   then 'Belles réussites d\'icarien(ne)s'
+    when :parcours    then 'Parcours fictifs de 3 icarien(ne)s'
+    when :raisons     then '10 bonnes raisons de choisir l\'atelier'
+    when :temoignages then 'Témoignages'
+    when :stats       then 'L’atelier en chiffres'
     end.in_a(href: "overview/#{overview_id}")
   end
 end #/<< self

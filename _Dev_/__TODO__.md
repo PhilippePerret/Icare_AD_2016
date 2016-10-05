@@ -12,6 +12,7 @@
 
 ## À FAIRE RAPIDEMENT
 
+* CRON Détruire le fichier statistiques.html tous les jours et forcer sa reconstruction
 * FRIGO Pouvoir détruire une discussion (seulement quand on est le propriétaire - confirmation nécessaire)
 
 ## TESTS À FAIRE
@@ -29,13 +30,7 @@
 
 ## DIVERS
 
-* Faire une section "Statistiques" dans l'objet "icarien" pour présenter l'atelier en chiffre
-  - nombre de modules suivis
-  - nombre d'étapes effectués
-  - nombre de documents partagés/non partagés / par auteur
-  - longévité
-
-  * FRIGO Pouvoir régler les préférences d'une discussion en particulier (quelles préférences au juste ? publique ou non)
+* FRIGO Pouvoir régler les préférences d'une discussion en particulier (quelles préférences au juste ? publique ou non)
 
 * Mieux indiquer la différence entre module suivi de projet et coaching, en se servant du texte écrit à Guilhem : « Le premier se fait sur un temps déterminé (en fait, plus précisément, un certain nombre d'étapes de travail). Dans ce module, on peut très bien arriver par exemple avec un scénario déjà presque abouti. Pour le moment, il a été utilisé pour ça : préparer son entrée au CEEA, préparer son entrée en Master II de scénario, finaliser un roman, rédiger une note d'intention ou encore obtenir un script-doctoring sur plusieurs scénarios à leur version 2 ou 3. Le module "suivi de projet", a contrario, n'a pas de durée déterminée. Certains l'ont suivi pendant 4 ans ! J'y accompagne un projet des tout débuts — l'idée initiale — jusqu'au scénario ou au roman, en passant par toutes les étapes de développement. »
 

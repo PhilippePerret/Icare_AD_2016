@@ -59,6 +59,9 @@ else
   # On marque que l'user est reçu
   owner.set(options: owner.options.set_bit(16,4)) #inactif
 
+  # On détruit le fichier statistiques
+  Atelier.remove_statistiques_file
+
   # Message final de confirmation
   flash "Inscription de #{owner.pseudo} (##{owner.id}) confirmée et module “#{absmodule.name}” (##{absmodule.id}) attribué."
 end

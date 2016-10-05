@@ -22886,3 +22886,261 @@ Objet ID = nil
 Method   = "statistiques"
 Context  = nil
 -- nombre_mois : 106
+
+
+=== DEBUG DU 05 10 2016 - 08:46:13 ===
+
+-- 
+Objet    = "aide"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 05 10 2016 - 08:46:14 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "contact"
+Context  = nil
+
+
+=== DEBUG DU 05 10 2016 - 08:49:59 ===
+
+-- 
+Objet    = "aide"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 05 10 2016 - 09:36:33 ===
+
+-- 
+Objet    = "overview"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 05 10 2016 - 09:36:36 ===
+
+-- 
+Objet    = "overview"
+Objet ID = nil
+Method   = "stats"
+Context  = nil
+-- Redirection -> site/statistiques
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "statistiques"
+Context  = nil
+
+
+=== DEBUG DU 05 10 2016 - 09:38:12 ===
+
+-- 
+Objet    = "overview"
+Objet ID = nil
+Method   = "stats"
+Context  = nil
+-- Redirection -> site/statistiques
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "statistiques"
+Context  = nil
+
+
+=== DEBUG DU 05 10 2016 - 09:39:41 ===
+
+-- 
+Objet    = "overview"
+Objet ID = nil
+Method   = "stats"
+Context  = nil
+-- Redirection -> site/statistiques
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "statistiques"
+Context  = nil
+
+
+=== DEBUG DU 05 10 2016 - 09:40:00 ===
+
+-- 
+Objet    = "overview"
+Objet ID = nil
+Method   = "stats"
+Context  = nil
+-- Redirection -> site/statistiques
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "statistiques"
+Context  = nil
+
+
+=== DEBUG DU 05 10 2016 - 09:40:19 ===
+
+-- 
+Objet    = "overview"
+Objet ID = nil
+Method   = "stats"
+Context  = nil
+-- Redirection -> site/statistiques
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "statistiques"
+Context  = nil
+
+
+=== DEBUG DU 05 10 2016 - 09:41:19 ===
+
+-- 
+Objet    = "overview"
+Objet ID = nil
+Method   = "stats"
+Context  = nil
+-- Redirection -> site/statistiques
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "statistiques"
+Context  = nil
+
+
+=== DEBUG DU 05 10 2016 - 09:41:50 ===
+
+-- 
+Objet    = "overview"
+Objet ID = nil
+Method   = "stats"
+Context  = nil
+-- Redirection -> site/statistiques
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "statistiques"
+Context  = nil
+
+
+=== DEBUG DU 05 10 2016 - 09:42:29 ===
+
+-- 
+Objet    = "overview"
+Objet ID = nil
+Method   = "stats"
+Context  = nil
+-- Redirection -> site/statistiques
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "statistiques"
+Context  = nil
+
+
+=== DEBUG DU 05 10 2016 - 09:43:07 ===
+
+-- 
+Objet    = "overview"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 05 10 2016 - 09:43:12 ===
+
+-- 
+Objet    = "overview"
+Objet ID = nil
+Method   = "stats"
+Context  = nil
+-- Redirection -> site/statistiques
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "statistiques"
+Context  = nil
+
+
+=== DEBUG DU 05 10 2016 - 09:44:05 ===
+
+-- 
+Objet    = "overview"
+Objet ID = nil
+Method   = "stats"
+Context  = nil
+-- Redirection -> site/statistiques
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "statistiques"
+Context  = nil
+
+
+=== DEBUG DU 05 10 2016 - 09:44:48 ===
+
+-- 
+Objet    = "overview"
+Objet ID = nil
+Method   = "stats"
+Context  = nil
+-- Redirection -> site/statistiques
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "statistiques"
+Context  = nil
+
+
+=== DEBUG DU 05 10 2016 - 09:46:03 ===
+
+-- 
+Objet    = "overview"
+Objet ID = nil
+Method   = "stats"
+Context  = nil
+-- Redirection -> site/statistiques
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "statistiques"
+Context  = nil
+
+
+=== DEBUG DU 05 10 2016 - 09:47:10 ===
+
+-- 
+Objet    = "overview"
+Objet ID = nil
+Method   = "stats"
+Context  = nil
+-- Redirection -> site/statistiques
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "statistiques"
+Context  = nil
+
+
+=== DEBUG DU 05 10 2016 - 09:47:19 ===
+
+-- 
+Objet    = "overview"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 05 10 2016 - 09:47:33 ===
+
+-- 
+Objet    = "overview"
+Objet ID = nil
+Method   = "reussites"
+Context  = nil

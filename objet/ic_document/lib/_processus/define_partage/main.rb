@@ -27,7 +27,12 @@ if all_documents_traited
   icetape.set(status: 7)
   site.require_objet 'actualite'
   SiteHtml::Actualite.create(user_id: owner.id, message: "<strong>#{owner.pseudo}</strong> définit le partage de ses documents de l'étape #{numero_etape} de son module “#{module_name}”.")
+
+  # Actualisation des statistiques
+  Atelier.remove_statistiques_file
+
   flash "Merci d'avoir défini le partage de tous vos documents de l'étape #{numero_etape}."
+
 else
   # Quand tous les documents ne sont pas traités
   no_mail_admin

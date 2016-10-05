@@ -19,7 +19,7 @@ class << self
   end
 
   def uptodate?
-    stats_file.exist? && false #vérifier, plus tard
+    stats_file.exist?
   end
 
   def stats_file

@@ -30,6 +30,10 @@ begin
     processus:  'send_work'
   )
 
+  # On détruit le fichier statistiques
+  Atelier.remove_statistiques_file
+
+
   flash "Changement d'étape opéré pour #{owner.pseudo} (#{owner.id})" +
      "<br>---------------------------------------------------------" +
     "<br>Ancienne : #{absetape.numero} : #{absetape.titre}" +

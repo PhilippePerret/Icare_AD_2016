@@ -116,6 +116,9 @@ SiteHtml::Actualite.create(
   message: "<strong>#{owner.pseudo}</strong> démarre son module d’apprentissage “#{abs_module.name}”. Bon courage à #{owner.femme? ? 'elle' : 'lui'} !",
 )
 
+# On détruit le fichier statistiques
+Atelier.remove_statistiques_file
+
 # On enregistre toutes les nouvelles données
 icmodule.set(new_data_icmodule)
 owner   .set(new_data_user)
