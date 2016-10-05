@@ -13,6 +13,7 @@
 ## À FAIRE RAPIDEMENT
 
 * FRIGO Pouvoir détruire une discussion (seulement quand on est le propriétaire - confirmation nécessaire)
+* FRIGO Pouvoir rejoindre une discussion en cliquant sur l'interlocuteur dans le menu des interlocuteurs
 
 ## TESTS À FAIRE
 

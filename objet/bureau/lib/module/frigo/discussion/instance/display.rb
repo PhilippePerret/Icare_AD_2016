@@ -37,7 +37,8 @@ class Discussion
       'Cette discussion est&nbsp;'.in_span +
       [
         ['0', 'confidentielle'],
-        ['1', 'lisible par tous']
+        ['1', 'lisible par les icariens'],
+        ['2', 'lisible par n’importe qui']
       ].in_select(
         name:       'discussion_partage',
         onchange:   'this.form.submit()',
