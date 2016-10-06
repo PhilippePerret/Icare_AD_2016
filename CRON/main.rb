@@ -1,6 +1,14 @@
 #!/usr/bin/env ruby
 # encoding: UTF-8
 
+=begin
+
+  Les actions du cron-job sont définies dans le fichier :
+
+    ./CRON/lib/cron/instance/actions.rb
+    
+=end
+
 def log_fatal_error
   @log_fatal_error ||= begin
     rf = File.join(FOLDER_CRON, 'cron_fatal_error.log')

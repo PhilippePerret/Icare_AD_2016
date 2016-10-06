@@ -1,66 +1,32 @@
-=== BENCHMARK DU 6 octobre 2016 à 08:38 ===
-=== Index start : 1475735926.074338 (2016-10-06 08:38:46 +0200)
+=== BENCHMARK DU 6 octobre 2016 à 11:34 ===
+=== Index start : 1475746499.285884 (2016-10-06 11:34:59 +0200)
 
 -> site/config.rb                                       0.000000  0.000000
-<- site/config.rb                                       0.000135  0.000135
--> execute_preambule                                    0.015853  0.015988
-  -> User#do_after_load                                 0.007646  0.023634
-  <- User#do_after_load                                 0.000014  0.023648
-<- execute_preambule                                    0.000004  0.023652
--> required.rb                                         -0.166348 -0.142696
-<- required.rb                                          0.166353  0.023657
--> SiteHtml#output                                      0.000053  0.023710
-  -> SiteHtml#execute_route                             0.000004  0.023714
-      | Objet    = "watcher"                                            - 
-      | Objet ID = 10                                                   - 
-      | Method   = "run"                                                - 
-      | Context  = nil                                  0.000087  0.023801
-    --> user.set_last_connexion                         0.000103  0.023904
-    <-- user.set_last_connexion                         0.002836  0.026740
-    --> iroute.load_required                            0.000038  0.026778
-    <-- iroute.load_required                            0.003604  0.030382
-    --> iroute.load_per_vue                             0.000012  0.030394
-    -> watcher/run.rb (watcher #10)                     0.000265  0.030659
-      -> Watcher#_run                                   0.002449  0.033108
-        -> checkform_on_submit                          0.000015  0.033123
-        <- checkform_on_submit                          0.004667  0.037790
-        -> user processus : valider_inscription         0.003853  0.041643
-          -> Watcher#send_mail_watcher_to_user          0.000108  0.041751
-          <- Watcher#send_mail_watcher_to_user          0.038023  0.079774
-        <- user processus :valider_inscription          0.001081  0.080855
-        -> Watcher#send_mail_watcher_to_admin           0.000020  0.080875
-        <- Watcher#send_mail_watcher_to_admin           0.000066  0.080941
-        -> Watcher#send_mail_watcher_to_user            0.000005  0.080946
-        <- Watcher#send_mail_watcher_to_user            0.000017  0.080963
-      <- Watcher#_run                                   0.000761  0.081724
-      -> SiteHtml#redirect_to                           0.000031  0.081755
-
-      | Redirection -> bureau/1/home                    0.000069  0.081824
-        -> SiteHtml#execute_route                       0.000319  0.082143
-      | Objet    = "bureau"                                             - 
-      | Objet ID = 1                                                    - 
-      | Method   = "home"                                               - 
-      | Context  = nil                                  0.000102  0.082245
-          --> user.set_last_connexion                   0.000038  0.082283
-          <-- user.set_last_connexion                   0.001342  0.083625
-          --> iroute.load_required                      0.000029  0.083654
-          <-- iroute.load_required                      0.000955  0.084609
-          --> iroute.load_per_vue                       0.000012  0.084621
-          <-- iroute.load_per_vue                       0.000652  0.085273
-          --> iroute.method_call                        0.000008  0.085281
-          <-- iroute.method_call                        0.000187  0.085468
-        <- SiteHtml#execute_route                       0.000004  0.085472
-      <- SiteHtml#redirect_to                           0.000002  0.085474
-    <- watcher/run.rb (watcher #10)                     0.000009  0.085483
-    <-- iroute.load_per_vue                             0.000064  0.085547
-    --> iroute.method_call                              0.000003  0.085550
-    <-- iroute.method_call                              0.000202  0.085752
-  <- SiteHtml#execute_route                             0.000002  0.085754
-  -> Page#preload                                       0.000017  0.085771
-  <- Page#preload                                       0.102588  0.188359
-  -> Page#prebuild_body                                 0.000013  0.188372
-    -> Page#body                                        0.000004  0.188376
-    <- Page#body                                        0.000237  0.188613
-  <- Page#prebuild_body                                 0.000012  0.188625
-  CODE HTML FINAL BUILT                                 0.000089  0.188714
-<- SiteHtml#output                                      0.000002  0.188716
+<- site/config.rb                                       0.000275  0.000275
+-> execute_preambule                                    0.016858  0.017133
+  -> User#do_after_load                                 0.004156  0.021289
+  <- User#do_after_load                                 0.000019  0.021308
+<- execute_preambule                                    0.000006  0.021314
+-> required.rb                                         -0.195789 -0.174475
+<- required.rb                                          0.195795  0.021320
+-> SiteHtml#output                                      0.000045  0.021365
+  -> SiteHtml#execute_route                             0.000007  0.021372
+      | Objet    = "user"                                               - 
+      | Objet ID = nil                                                  - 
+      | Method   = "signup"                                             - 
+      | Context  = nil                                  0.000119  0.021491
+    --> iroute.load_required                            0.000128  0.021619
+    <-- iroute.load_required                            0.001441  0.023060
+    --> iroute.load_per_vue                             0.000014  0.023074
+    <-- iroute.load_per_vue                             0.009949  0.033023
+    --> iroute.method_call                              0.000014  0.033037
+    <-- iroute.method_call                              0.000182  0.033219
+  <- SiteHtml#execute_route                             0.000004  0.033223
+  -> Page#preload                                       0.000012  0.033235
+  <- Page#preload                                       0.017345  0.050580
+  -> Page#prebuild_body                                 0.000020  0.050600
+    -> Page#body                                        0.000005  0.050605
+    <- Page#body                                        0.000380  0.050985
+  <- Page#prebuild_body                                 0.000022  0.051007
+  CODE HTML FINAL BUILT                                 0.000222  0.051229
+<- SiteHtml#output                                      0.000005  0.051234

@@ -16,6 +16,8 @@ class Cron
 
       run_processus 'nettoyage_site'
 
+      run_processus 'echeances'
+
     end
 
   end

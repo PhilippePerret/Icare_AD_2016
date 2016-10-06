@@ -87,7 +87,8 @@ CREATE TABLE icetapes
 
     #  OPTIONS
     # ---------
-    # Options à définir, inutilisés encore pour le moment.
+    # Options. cf. le fichier :
+    # ./objet/ic_etape/lib/required/instance/options.rb
     options VARCHAR(8),
 
     # TRAVAIL_PROPRE

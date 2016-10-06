@@ -13,6 +13,7 @@ class << self
       'WATCHERS'.in_a(href: 'watcher/edit').in_div +
 
       'Gestion Icariens'.in_h3 +
+      'Aperçu général'.in_a(href: 'admin/overview').in_div +
       'Opérations ICARIEN/S…'.in_a(href: 'admin/users').in_div +
       'Mailing list'.in_a(href: 'admin/mailing').in_div +
       'Visiter le site comme…'.in_a(href: 'admin/visit_as').in_div +
@@ -30,7 +31,7 @@ class << self
       bouton_test_travaux +
 
       'Divers'.in_h3 +
-      
+
       'Opérations sensibles'.in_h3 +
       bouton_erase_user_everywhere
     ).in_div

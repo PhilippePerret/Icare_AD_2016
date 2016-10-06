@@ -1,6 +1,58 @@
 
 
-=== DEBUG DU 06 10 2016 - 08:38:33 ===
+=== DEBUG DU 06 10 2016 - 08:41:58 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 06 10 2016 - 08:42:01 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 06 10 2016 - 08:42:06 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 06 10 2016 - 08:42:12 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 06 10 2016 - 08:42:13 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+-- kroute = :home
+-- Redirection -> site/home
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 06 10 2016 - 08:42:17 ===
 
 -- 
 Objet    = "user"
@@ -9,7 +61,7 @@ Method   = "signin"
 Context  = nil
 
 
-=== DEBUG DU 06 10 2016 - 08:38:34 ===
+=== DEBUG DU 06 10 2016 - 08:42:17 ===
 
 -- 
 Objet    = "user"
@@ -25,48 +77,370 @@ Method   = "home"
 Context  = nil
 
 
-=== DEBUG DU 06 10 2016 - 08:38:38 ===
+=== DEBUG DU 06 10 2016 - 08:45:55 ===
 
 -- 
-Objet    = "watcher"
-Objet ID = 10
-Method   = "run"
+Objet    = "user"
+Objet ID = nil
+Method   = "signin"
 Context  = nil
--- Choix ambigu : il faut choisir le module à attribuer ou écrire le motif de refus !
 
-/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/watcher/lib/module/running/main.rb:36:in `instance_eval'
-/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/watcher/lib/module/running/main.rb:36:in `instance_eval'
-/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/watcher/lib/module/running/main.rb:36:in `execute_main_file'
-/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/watcher/lib/module/running/main.rb:17:in `_run'
-/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/watcher/lib/required/instance/actions.rb:16:in `run'
-/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/watcher/run.rb:13:in `<top (required)>'
-/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
-/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
-/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'
-/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:22:in `require_ruby'
-/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:15:in `require_all'
-/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:330:in `load_per_vue'
-/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:103:in `execute_route'
-/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'
+
+=== DEBUG DU 06 10 2016 - 08:46:05 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "login"
+Context  = nil
+-- kroute = :bureau
+-- Redirection -> bureau/1/home
+-- 
+Objet    = "bureau"
+Objet ID = 1
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 06 10 2016 - 08:46:08 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "overview"
+Context  = nil
+
+
+=== DEBUG DU 06 10 2016 - 08:46:30 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "overview"
+Context  = nil
+
+
+=== DEBUG DU 06 10 2016 - 08:46:56 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "taches"
+Context  = nil
+
+
+=== DEBUG DU 06 10 2016 - 08:48:48 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "overview"
+Context  = nil
+
+
+=== DEBUG DU 06 10 2016 - 08:48:55 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "overview"
+Context  = nil
+
+
+=== DEBUG DU 06 10 2016 - 08:53:52 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "overview"
+Context  = nil
+-- # ERREUR MYSQL : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '== "2"' at line 1
+-- # REQUEST : SELECT id FROM users WHERE SUBSTRING(options,17,1) == "2";
+-- # VALEURS PRÉPARÉES : []
+-- /Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:107:in `_query'
+/Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:107:in `block in query'
+/Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:106:in `handle_interrupt'
+/Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:106:in `query'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/request.rb:388:in `exec'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/request.rb:79:in `select'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/mysql.rb:150:in `select'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:16:in `display'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
 /Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
--- Redirection -> bureau/1/home
+-- You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '== "2"' at line 1
+
+/Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:107:in `_query'
+/Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:107:in `block in query'
+/Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:106:in `handle_interrupt'
+/Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:106:in `query'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/request.rb:388:in `exec'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/request.rb:79:in `select'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/mysql.rb:150:in `select'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:16:in `display'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 06 10 2016 - 08:54:01 ===
+
 -- 
-Objet    = "bureau"
-Objet ID = 1
-Method   = "home"
+Objet    = "admin"
+Objet ID = nil
+Method   = "overview"
 Context  = nil
 
 
-=== DEBUG DU 06 10 2016 - 08:38:46 ===
+=== DEBUG DU 06 10 2016 - 08:57:31 ===
 
 -- 
-Objet    = "watcher"
-Objet ID = 10
-Method   = "run"
+Objet    = "admin"
+Objet ID = nil
+Method   = "overview"
 Context  = nil
--- Redirection -> bureau/1/home
+
+
+=== DEBUG DU 06 10 2016 - 08:59:14 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "overview"
+Context  = nil
+
+
+=== DEBUG DU 06 10 2016 - 09:00:22 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "overview"
+Context  = nil
+
+
+=== DEBUG DU 06 10 2016 - 09:01:09 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "overview"
+Context  = nil
+
+
+=== DEBUG DU 06 10 2016 - 09:02:23 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "overview"
+Context  = nil
+
+
+=== DEBUG DU 06 10 2016 - 09:02:25 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "overview"
+Context  = nil
+
+
+=== DEBUG DU 06 10 2016 - 09:04:29 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "overview"
+Context  = nil
+
+
+=== DEBUG DU 06 10 2016 - 09:06:22 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "overview"
+Context  = nil
+
+
+=== DEBUG DU 06 10 2016 - 09:07:30 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "overview"
+Context  = nil
+
+
+=== DEBUG DU 06 10 2016 - 09:07:47 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "overview"
+Context  = nil
+
+
+=== DEBUG DU 06 10 2016 - 09:08:31 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "overview"
+Context  = nil
+
+
+=== DEBUG DU 06 10 2016 - 09:11:15 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "overview"
+Context  = nil
+
+
+=== DEBUG DU 06 10 2016 - 09:12:57 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "overview"
+Context  = nil
+
+
+=== DEBUG DU 06 10 2016 - 09:13:09 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "overview"
+Context  = nil
+
+
+=== DEBUG DU 06 10 2016 - 09:14:33 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "overview"
+Context  = nil
+
+
+=== DEBUG DU 06 10 2016 - 09:18:38 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "overview"
+Context  = nil
+
+
+=== DEBUG DU 06 10 2016 - 09:19:46 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "overview"
+Context  = nil
+
+
+=== DEBUG DU 06 10 2016 - 09:20:45 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "overview"
+Context  = nil
+
+
+=== DEBUG DU 06 10 2016 - 09:21:23 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "overview"
+Context  = nil
+
+
+=== DEBUG DU 06 10 2016 - 09:22:59 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "overview"
+Context  = nil
+
+
+=== DEBUG DU 06 10 2016 - 09:24:30 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "overview"
+Context  = nil
+
+
+=== DEBUG DU 06 10 2016 - 09:31:04 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "overview"
+Context  = nil
+
+
+=== DEBUG DU 06 10 2016 - 11:34:44 ===
+
 -- 
 Objet    = "bureau"
-Objet ID = 1
+Objet ID = nil
 Method   = "home"
+Context  = nil
+-- Redirection -> user/signin
+-- param(:backto) mis à "bureau/home"
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signin"
+Context  = nil
+
+
+=== DEBUG DU 06 10 2016 - 11:34:50 ===
+
+-- 
+Objet    = "abs_module"
+Objet ID = nil
+Method   = "list"
+Context  = nil
+
+
+=== DEBUG DU 06 10 2016 - 11:34:59 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
 Context  = nil

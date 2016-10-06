@@ -59,8 +59,19 @@ class User
     options[realbit].to_i == 1
   end
 
+  # BIT 24 (25e)
   def bit_reality
     options[24].to_i
+  end
+
+  # BIT 25 (26e)
+  # Bit d'avertissement d'échéance de paiement dépassée
+  # C'est un nombre de 0 à 9 pour savoir quel mail a été envoyé
+  # suite à une échéance de paiment dépassé
+  # 1: simple avertissement jusqu'à 9: menace de rejet
+  # Note : les mails sont gérés par le CRON
+  def bit_echeance_paiement
+    options[25].to_i
   end
 
 

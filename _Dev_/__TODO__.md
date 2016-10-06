@@ -12,7 +12,10 @@
 
 ## À FAIRE RAPIDEMENT
 
-* Voir le problème avec Someone (tests)
+* CRON : Système d'avertissement en cas de paiement dépassé
+  - au paiement : remettre le bit 25 des options à 0 (if any)
+* CRON : Système d'avertissement en cas d'échéance dépassé
+  - au changement d'étape : remettre le bit 26 des options à 0
 * État des lieux pour voir en un panneau où en sont les icariens.
 
 ## TESTS À FAIRE
