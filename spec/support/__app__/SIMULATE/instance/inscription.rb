@@ -62,7 +62,6 @@ class Simulate
       #     Fabrication de l'user dans la table
       # ---------------------------------------------------------------------
       @user_id = dbtable_users.insert(duser)
-      puts "ID de l'user fabriqué par simulation inscription : #{@user_id}"
       @user = User.new(@user_id)
       _action "L'user #{@user.pseudo} (##{@user.id}) s'inscrit (avec succès)."
 

@@ -8,12 +8,12 @@
 
 ## PROGRAMMÉ
 
-* [MERCREDI 5] Faire une annonce pour dire que les frigos ont été installés
-
 * [JEUDI 6] Faire une annonce pour l'historique de travail au sein de l'atelier (s'ils ont tous été corrigés).
 
 ## À FAIRE RAPIDEMENT
 
+* Voir le problème avec Someone (tests)
+* État des lieux pour voir en un panneau où en sont les icariens.
 
 ## TESTS À FAIRE
 

@@ -17,6 +17,11 @@ feature "Refus d'un candidat" do
 
     # On récupère ici le mail pour savoir
     umail = sim.user.mail
+    # On récupère l'instance user, en activant son mail et son
+    # pseudo, pour tester la fin, quand l'user aura été détruit dans la
+    # base de données
+    u = User.new(newu_id)
+    u.mail; u.pseudo; u.sexe;
 
     # L'administrateur rejoint son bureau
     identify_phil
@@ -55,19 +60,19 @@ feature "Refus d'un candidat" do
     success 'Le watcher de validation de l’inscription a été détruit.'
 
     data_mail = {
-      # sent_after:   start_time,
-      subject:      'Refus de candidature'#,
-      # message:      ['Nous avons le regret de vous annoncer que votre candidature à l\'atelier Icare vient d\'être malheureusement refusée']
+      sent_after:   start_time,
+      subject:      'Refus de candidature',
+      message:      ['Nous avons le regret de vous annoncer que votre candidature à l\'atelier Icare vient d\'être malheureusement refusée']
     }
 
     # Phil ne reçoit pas le mail de refus (mis ici car ça se produisait, avant)
     Phil ne recoit pas le mail data_mail
 
     # L'user a reçu un mail de confirmation
-    puts "sim.user.mail : #{sim.user.mail}"
-    puts "sim.user.id : #{sim.user.id}"
-    sim.user= User.new(sim.user_id)
-    sim.user recoit le mail data_mail
+    # Note : comme il a été détruit, on ne peut plus l'interroger par
+    # le biais des chaines littéraires. Il faut passer par le test
+    # traditionnel
+    u.recoit_le_mail(data_mail)
 
   end
 

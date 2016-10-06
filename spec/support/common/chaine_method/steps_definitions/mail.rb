@@ -19,8 +19,6 @@ class User
   #
   def recoit_le_mail dmail, options = nil
     options ||= Hash.new
-    puts "class dans recoit_le_mail : #{self.class}"
-    puts "self.id ans recoit le mail : #{self.id} (#{self.pseudo})"
     self.mail != nil || begin
       duser = dbtable_users.get(self.id)
       duser != nil || raise("IMPOSSIBLE D’OBTENIR L’USER ##{self.id} DANS LA TABLE users.users…")

@@ -129,7 +129,6 @@ class User
       container = dans_arr.join(' ')
       scroll_to container
       nombre = page.all("#{dans} option").count
-      # puts "#{nombre} options dans le menu #{dans}."
       if nombre > 0
         page.all("#{dans} option").each do |node|
           # puts "node.text: #{node.text.inspect} / node.value: #{node.value.inspect} / val_menu : #{val_menu.inspect}"

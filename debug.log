@@ -1,6 +1,6 @@
 
 
-=== DEBUG DU 05 10 2016 - 19:35:54 ===
+=== DEBUG DU 06 10 2016 - 08:38:33 ===
 
 -- 
 Objet    = "user"
@@ -9,7 +9,7 @@ Method   = "signin"
 Context  = nil
 
 
-=== DEBUG DU 05 10 2016 - 19:35:55 ===
+=== DEBUG DU 06 10 2016 - 08:38:34 ===
 
 -- 
 Objet    = "user"
@@ -25,7 +25,7 @@ Method   = "home"
 Context  = nil
 
 
-=== DEBUG DU 05 10 2016 - 19:35:59 ===
+=== DEBUG DU 06 10 2016 - 08:38:38 ===
 
 -- 
 Objet    = "watcher"
@@ -57,7 +57,7 @@ Method   = "home"
 Context  = nil
 
 
-=== DEBUG DU 05 10 2016 - 19:36:07 ===
+=== DEBUG DU 06 10 2016 - 08:38:46 ===
 
 -- 
 Objet    = "watcher"
