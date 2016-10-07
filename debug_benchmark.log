@@ -1,0 +1,62 @@
+=== BENCHMARK DU 7 octobre 2016 à 11:08 ===
+=== Index start : 1475831327.600018 (2016-10-07 11:08:47 +0200)
+
+-> site/config.rb                                       0.000000  0.000000
+<- site/config.rb                                       0.000259  0.000259
+-> execute_preambule                                    0.019717  0.019976
+  -> User#do_after_load                                 0.007614  0.027590
+  <- User#do_after_load                                 0.000014  0.027604
+<- execute_preambule                                    0.000004  0.027608
+-> required.rb                                         -0.197856 -0.170248
+<- required.rb                                          0.197860  0.027612
+-> SiteHtml#output                                      0.000050  0.027662
+  -> SiteHtml#execute_route                             0.000005  0.027667
+      | Objet    = "admin"                                              - 
+      | Objet ID = nil                                                  - 
+      | Method   = "dashboard"                                          - 
+      | Context  = nil                                  0.000110  0.027777
+    --> user.set_last_connexion                         0.000103  0.027880
+    <-- user.set_last_connexion                         0.001804  0.029684
+    --> iroute.load_required                            0.000025  0.029709
+    <-- iroute.load_required                            0.002215  0.031924
+    --> iroute.load_per_vue                             0.000014  0.031938
+
+      | --> check_folders_offline                       0.026127  0.058065
+
+      | --> check_folders_online                        0.291777  0.349842
+
+      | --> build_result                                5.167767  5.517609
+
+      | --> open_result                                 0.046407  5.564016
+    -> Synchro#open_result                              0.000018  5.564034
+    <- Synchro#open_result                              0.283574  5.847608
+    -> SiteHtml#redirect_to                             0.000269  5.847877
+
+      | Redirection -> bureau/home                      0.000044  5.847921
+      -> SiteHtml#execute_route                         0.000159  5.848080
+      | Objet    = "bureau"                                             - 
+      | Objet ID = nil                                                  - 
+      | Method   = "home"                                               - 
+      | Context  = nil                                  0.000062  5.848142
+        --> user.set_last_connexion                     0.000026  5.848168
+        <-- user.set_last_connexion                     0.001532  5.849700
+        --> iroute.load_required                        0.000026  5.849726
+        <-- iroute.load_required                        0.000888  5.850614
+        --> iroute.load_per_vue                         0.000012  5.850626
+        <-- iroute.load_per_vue                         0.000795  5.851421
+        --> iroute.method_call                          0.000008  5.851429
+        <-- iroute.method_call                          0.000179  5.851608
+      <- SiteHtml#execute_route                         0.000003  5.851611
+    <- SiteHtml#redirect_to                             0.000004  5.851615
+    <-- iroute.load_per_vue                             0.000083  5.851698
+    --> iroute.method_call                              0.000002  5.851700
+    <-- iroute.method_call                              0.000110  5.851810
+  <- SiteHtml#execute_route                             0.000002  5.851812
+  -> Page#preload                                       0.000014  5.851826
+  <- Page#preload                                       0.094027  5.945853
+  -> Page#prebuild_body                                 0.000020  5.945873
+    -> Page#body                                        0.000009  5.945882
+    <- Page#body                                        0.000641  5.946523
+  <- Page#prebuild_body                                 0.000030  5.946553
+  CODE HTML FINAL BUILT                                 0.000152  5.946705
+<- SiteHtml#output                                      0.000006  5.946711

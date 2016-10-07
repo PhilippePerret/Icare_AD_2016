@@ -1,0 +1,65 @@
+
+
+=== DEBUG DU 07 10 2016 - 11:07:50 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 07 10 2016 - 11:07:56 ===
+
+-- 
+Objet    = "abs_module"
+Objet ID = nil
+Method   = "list"
+Context  = nil
+
+
+=== DEBUG DU 07 10 2016 - 11:07:59 ===
+
+-- 
+Objet    = "abs_module"
+Objet ID = nil
+Method   = "command"
+Context  = nil
+-- user pour le watcher de command.rb : Phil (#1)
+
+
+=== DEBUG DU 07 10 2016 - 11:08:19 ===
+
+-- 
+Objet    = "user"
+Objet ID = 1
+Method   = "profil"
+Context  = nil
+
+
+=== DEBUG DU 07 10 2016 - 11:08:43 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 07 10 2016 - 11:08:47 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "dashboard"
+Context  = nil
+-- --> check_folders_offline
+-- --> check_folders_online
+-- --> build_result
+-- --> open_result
+-- Redirection -> bureau/home
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil

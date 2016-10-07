@@ -10,10 +10,10 @@ class User
   # True si c'est un vrai icarien, c'est-à-dire s'il
   # a déjà procédé à un paiement. C'est le bit 'reality' qui
   # consigne cette valeur
-  def real_icarien? ; bit_reality == 1 end
+  def real_icarien? ; bit_reality == 1 || admin? end
   # True si l'icarien est à l'essai, c'est-à-dire qu'il
   # n'a jamais procédé au moindre paiement.
-  def alessai? ; bit_reality == 0 end
+  def alessai? ; bit_reality == 0 && !admin? end
   alias :essai? :alessai?
 
   # Retourne true si l'user est inscrit, reçu ou non

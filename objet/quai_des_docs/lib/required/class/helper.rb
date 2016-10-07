@@ -46,7 +46,7 @@ Merci pour les auteures et auteurs, comme vous, qui ont produit ce travail relev
     nb_reste = 5 - nb
     s = nb > 1 ? 's' : ''
     (
-      'En tant que simple icarien à l’essai, vous n’êtes en mesure que de charger 5 documents du Quai des docs.'+
+      "En tant que simple icarien#{user.f_ne} à l’essai, vous n’êtes en mesure que de charger 5 documents du Quai des docs. " +
       "Vous êtes actuellement à #{nb} document#{s} téléchargé#{s}, il vous en reste donc <strong>#{nb_reste}</strong> à télécharger."
     ).in_div(id: 'warning_alessai', class: 'small italic red')
   end

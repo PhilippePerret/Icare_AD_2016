@@ -46,9 +46,9 @@ class User
   # Index d'options : 0
   # Bit administrateur
   # 0:Simple user - 1:Administrateur - 2:Super - 4:Grand Manitou
-  def admin?    ; get_option(:admin) & 1 > 0 end
-  def super?    ; get_option(:admin) & 2 > 0 end
-  def manitou?  ; get_option(:admin) & 4 > 0 end
+  def admin?    ; get_option(:admin) & 1 > 0  end
+  def super?    ; get_option(:admin) & 2 > 0  end
+  def manitou?  ; get_option(:admin) & 4 > 0  end
   def phil?     ; manitou? && id == 1         end
   def set_admin bit_admin
     raise_unless_admin # seul un administrateur peut faire ça
