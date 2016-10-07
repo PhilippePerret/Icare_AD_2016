@@ -28,3 +28,58 @@ div.users_overview
     div.startendetape
       vertical-align      : middle
       margin              : 0.5em 0
+
+// ---------------------------------------------------------------------
+//  CALENDRIER
+// ---------------------------------------------------------------------
+$cal_width : 1800px
+div.cal
+  min-width     : $cal_width
+  width         : $cal_width
+  max-width     : $cal_width
+  border        : 1px dashed red
+  line-height   : 1.2em
+  div.calmonth
+    font-size   : 10.4pt
+    font-weight : bold
+    height      : 1em
+    line-height : 1.2em
+  div.calrow
+    div.calday
+      display       : inline-block
+      position      : relative
+      width         : 40px
+      height        : 24px
+      border        : 1px solid black
+      font-size     : 11pt
+      text-align    : center
+      // Pour la marque du jour
+      span.markday
+        position      : absolute
+        right         : 3px
+        top           : 0
+      &.current
+        background-color    : darkblue
+        color               : white
+        font-weight         : bold
+      // Les marques de début, travail, commentaire, paiement
+      span.calmark
+        position        : absolute
+        top             : -4px
+        left            : 0
+        border-radius   : 1em
+        width           : 22px
+        max-width       : 22px
+        height          : 22px
+        max-height      : 22px
+        font-size       : 10.3pt
+        color           : white
+        line-height     : 1.7em
+        &.start
+          background-color    : green
+        &.work
+          background-color    : purple
+        &.comments
+          background-color    : red
+        &.paiement
+          background-color    : blue

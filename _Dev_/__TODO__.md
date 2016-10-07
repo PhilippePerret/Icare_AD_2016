@@ -7,10 +7,10 @@
 
 ## PROGRAMMÉ
 
-* [JEUDI 6] Faire une annonce pour l'historique de travail au sein de l'atelier (s'ils ont tous été corrigés).
 
 ## À FAIRE RAPIDEMENT
 
+* Ajouter la marque de paiement
 * Le watcher 'cote_et_commentaire' (ic_document)
 * CRON : Tester envoi mail échéances
 

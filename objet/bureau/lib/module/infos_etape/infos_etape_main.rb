@@ -97,7 +97,12 @@ class << self
     ).in_form(action: "ic_etape/#{icetp.id}/set", id: 'form_echeance')
   end
   def menu_jours_echeance
-    echoue = icetp.expected_end
+    echoue =
+      if icetp.expected_end > NOW
+        icetp.expected_end
+      else
+        NOW
+      end
     last_day = echoue + 30.days
     ijour = 0
     options = Array.new

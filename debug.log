@@ -63,3 +63,4009 @@ Objet    = "bureau"
 Objet ID = nil
 Method   = "home"
 Context  = nil
+
+
+=== DEBUG DU 07 10 2016 - 12:12:17 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "overview"
+Context  = nil
+-- Redirection -> user/signin
+-- param(:backto) mis à "admin/overview"
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signin"
+Context  = nil
+
+
+=== DEBUG DU 07 10 2016 - 12:12:23 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "login"
+Context  = nil
+-- Redirection -> admin/overview
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "overview"
+Context  = nil
+-- undefined method `in_span' for nil:NilClass
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/user/helper.rb:44:in `div_module_etape'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/user/helper.rb:17:in `overview'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:18:in `block in display'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:17:in `collect'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:17:in `display'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 07 10 2016 - 12:12:50 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "login"
+Context  = nil
+-- Redirection -> admin/overview
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "overview"
+Context  = nil
+
+
+=== DEBUG DU 07 10 2016 - 12:13:28 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "login"
+Context  = nil
+-- Redirection -> admin/overview
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "overview"
+Context  = nil
+
+
+=== DEBUG DU 07 10 2016 - 21:39:10 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "login"
+Context  = nil
+-- Redirection -> admin/overview
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "overview"
+Context  = nil
+
+
+=== DEBUG DU 07 10 2016 - 21:39:16 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 07 10 2016 - 21:39:20 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "overview"
+Context  = nil
+
+
+=== DEBUG DU 07 10 2016 - 21:40:04 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "overview"
+Context  = nil
+
+
+=== DEBUG DU 07 10 2016 - 21:41:26 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "overview"
+Context  = nil
+
+
+=== DEBUG DU 07 10 2016 - 21:41:47 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "overview"
+Context  = nil
+
+
+=== DEBUG DU 07 10 2016 - 21:42:51 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "overview"
+Context  = nil
+
+
+=== DEBUG DU 07 10 2016 - 21:43:25 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "overview"
+Context  = nil
+
+
+=== DEBUG DU 07 10 2016 - 21:44:41 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "overview"
+Context  = nil
+
+
+=== DEBUG DU 07 10 2016 - 21:46:23 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "overview"
+Context  = nil
+
+
+=== DEBUG DU 07 10 2016 - 21:47:11 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "overview"
+Context  = nil
+-- uninitialized constant Class::MOIS_LONG
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:34:in `block in display_grid'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:28:in `times'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:28:in `display_grid'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:16:in `display'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 07 10 2016 - 21:47:19 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "overview"
+Context  = nil
+
+
+=== DEBUG DU 07 10 2016 - 21:48:14 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "overview"
+Context  = nil
+
+
+=== DEBUG DU 07 10 2016 - 21:48:30 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "overview"
+Context  = nil
+
+
+=== DEBUG DU 07 10 2016 - 21:49:14 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "overview"
+Context  = nil
+
+
+=== DEBUG DU 07 10 2016 - 21:49:56 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "overview"
+Context  = nil
+
+
+=== DEBUG DU 07 10 2016 - 21:52:58 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "overview"
+Context  = nil
+-- uninitialized constant Class::Thime
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:27:in `display_grid'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:16:in `display'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 07 10 2016 - 21:53:30 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "overview"
+Context  = nil
+
+
+=== DEBUG DU 07 10 2016 - 21:53:57 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "overview"
+Context  = nil
+
+
+=== DEBUG DU 07 10 2016 - 21:54:27 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "overview"
+Context  = nil
+
+
+=== DEBUG DU 07 10 2016 - 21:54:55 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "overview"
+Context  = nil
+
+
+=== DEBUG DU 07 10 2016 - 21:55:02 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "overview"
+Context  = nil
+
+
+=== DEBUG DU 07 10 2016 - 21:57:03 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "overview"
+Context  = nil
+
+
+=== DEBUG DU 07 10 2016 - 22:10:16 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "overview"
+Context  = nil
+-- key : 20150308
+-- key : 20151001
+-- key : 20120304
+-- key : 20150917
+-- key : 20150615
+-- key : 20151130
+-- key : 20160218
+-- key : 20150312
+-- undefined method `status' for nil:NilClass
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:25:in `block in display'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:22:in `each'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:22:in `display'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 07 10 2016 - 22:11:05 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "overview"
+Context  = nil
+-- key : 20150308
+-- key : 20151001
+-- key : 20120304
+-- key : 20150917
+-- key : 20150615
+-- key : 20151130
+-- key : 20160218
+-- key : 20150312
+-- undefined local variable or method ` next' for Admin::Overview:Class
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:25:in `block in display'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:22:in `each'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:22:in `display'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 07 10 2016 - 22:12:29 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "overview"
+Context  = nil
+-- key : 20150308
+-- key : 20151001
+-- key : 20120304
+-- key : 20150917
+-- key : 20150615
+-- key : 20151130
+-- key : 20160218
+-- key : 20150312
+-- undefined method ` next' for Admin::Overview:Class
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:25:in `block in display'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:22:in `each'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:22:in `display'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 07 10 2016 - 22:13:23 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "overview"
+Context  = nil
+-- key : 20150308
+-- key : 20151001
+-- key : 20120304
+-- key : 20150917
+-- key : 20150615
+-- key : 20151130
+-- key : 20160218
+-- key : 20150312
+-- undefined local variable or method ` next' for Admin::Overview:Class
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:25:in `block in display'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:22:in `each'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:22:in `display'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 07 10 2016 - 22:13:55 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "overview"
+Context  = nil
+-- key : 20150308
+-- key : 20151001
+-- key : 20120304
+-- key : 20150917
+-- key : 20150615
+-- key : 20151130
+-- key : 20160218
+-- key : 20150312
+-- undefined local variable or method ` next' for Admin::Overview:Class
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:25:in `block in display'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:22:in `each'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:22:in `display'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 07 10 2016 - 22:14:08 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "overview"
+Context  = nil
+-- key : 20150308
+-- key : 20151001
+-- key : 20120304
+-- key : 20150917
+-- key : 20150615
+-- key : 20151130
+-- key : 20160218
+-- key : 20150312
+-- key : 20160918
+-- key : 20160829
+-- key : 20160918
+
+
+=== DEBUG DU 07 10 2016 - 22:15:39 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "overview"
+Context  = nil
+-- key : 20150308
+-- key : 20151001
+-- key : 20120304
+-- key : 20150917
+-- key : 20150615
+-- key : 20151130
+-- key : 20160218
+-- key : 20150312
+-- key : 20160918
+-- key : 20160829
+-- key : 20160918
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : "E"
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+
+
+=== DEBUG DU 07 10 2016 - 22:24:54 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "overview"
+Context  = nil
+-- can't convert nil into an exact number
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:42:in `at'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:42:in `block in display'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:22:in `each'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:22:in `display'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 07 10 2016 - 22:26:53 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "overview"
+Context  = nil
+-- # expected_comments NON DÉFINI (pour Trauma_Cranien #4)
+-- # expected_comments NON DÉFINI (pour Scheherazade #46)
+-- # expected_comments NON DÉFINI (pour Karine #75)
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : "D, D"
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : "C"
+-- content : ""
+-- content : ""
+-- content : "C"
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : "C"
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+
+
+=== DEBUG DU 07 10 2016 - 22:28:35 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "overview"
+Context  = nil
+-- # expected_comments NON DÉFINI (pour Trauma_Cranien #4)
+-- # expected_comments NON DÉFINI (pour Scheherazade #46)
+-- # expected_comments NON DÉFINI (pour Karine #75)
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : "D, D"
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : "C"
+-- content : ""
+-- content : ""
+-- content : "C"
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : "C"
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- undefined local variable or method `drequest' for Admin::Overview:Class
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:115:in `overview_textuel'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:56:in `display'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 07 10 2016 - 22:28:50 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "overview"
+Context  = nil
+-- # expected_comments NON DÉFINI (pour Trauma_Cranien #4)
+-- # expected_comments NON DÉFINI (pour Scheherazade #46)
+-- # expected_comments NON DÉFINI (pour Karine #75)
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : "D, D"
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : "C"
+-- content : ""
+-- content : ""
+-- content : "C"
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : "C"
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- undefined method `in_span' for nil:NilClass
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/user/helper.rb:44:in `div_module_etape'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/user/helper.rb:17:in `overview'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:116:in `block in overview_textuel'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:115:in `collect'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:115:in `overview_textuel'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:56:in `display'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 07 10 2016 - 22:30:48 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "overview"
+Context  = nil
+-- # expected_comments NON DÉFINI (pour Trauma_Cranien #4)
+-- # expected_comments NON DÉFINI (pour Scheherazade #46)
+-- # expected_comments NON DÉFINI (pour Karine #75)
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : "D, D"
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : "C"
+-- content : ""
+-- content : ""
+-- content : "C"
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : "C"
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- undefined method `in_span' for nil:NilClass
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/user/helper.rb:44:in `div_module_etape'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/user/helper.rb:17:in `overview'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:117:in `block in overview_textuel'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:115:in `collect'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:115:in `overview_textuel'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:56:in `display'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 07 10 2016 - 22:31:03 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "overview"
+Context  = nil
+-- # expected_comments NON DÉFINI (pour Trauma_Cranien #4)
+-- # expected_comments NON DÉFINI (pour Scheherazade #46)
+-- # expected_comments NON DÉFINI (pour Karine #75)
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : "D, D"
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : "C"
+-- content : ""
+-- content : ""
+-- content : "C"
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : "C"
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- undefined method `in_span' for nil:NilClass
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/user/helper.rb:44:in `div_module_etape'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/user/helper.rb:17:in `overview'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:117:in `block in overview_textuel'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:115:in `collect'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:115:in `overview_textuel'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:56:in `display'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 07 10 2016 - 22:33:14 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "overview"
+Context  = nil
+-- # expected_comments NON DÉFINI (pour Trauma_Cranien #4)
+-- # expected_comments NON DÉFINI (pour Scheherazade #46)
+-- # expected_comments NON DÉFINI (pour Karine #75)
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : "D, D"
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : "C"
+-- content : ""
+-- content : ""
+-- content : "C"
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : "W"
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- undefined method `in_span' for nil:NilClass
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/user/helper.rb:44:in `div_module_etape'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/user/helper.rb:17:in `overview'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:116:in `block in overview_textuel'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:114:in `collect'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:114:in `overview_textuel'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:55:in `display'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 07 10 2016 - 22:38:03 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "overview"
+Context  = nil
+-- # expected_comments NON DÉFINI (pour Trauma_Cranien #4)
+-- # expected_comments NON DÉFINI (pour Scheherazade #46)
+-- # expected_comments NON DÉFINI (pour Karine #75)
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : "<span class=\"calmark\">D</span>, <span class=\"calmark\">D</span>"
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : "<span class=\"calmark\">C</span>"
+-- content : ""
+-- content : ""
+-- content : "<span class=\"calmark\">C</span>"
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : "<span class=\"calmark\">W</span>"
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- undefined method `in_span' for nil:NilClass
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/user/helper.rb:44:in `div_module_etape'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/user/helper.rb:17:in `overview'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:116:in `block in overview_textuel'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:114:in `collect'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:114:in `overview_textuel'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:55:in `display'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 07 10 2016 - 22:38:11 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "overview"
+Context  = nil
+-- # expected_comments NON DÉFINI (pour Trauma_Cranien #4)
+-- # expected_comments NON DÉFINI (pour Scheherazade #46)
+-- # expected_comments NON DÉFINI (pour Karine #75)
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : "<span class=\"calmark\">D</span>, <span class=\"calmark\">D</span>"
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : "<span class=\"calmark\">C</span>"
+-- content : ""
+-- content : ""
+-- content : "<span class=\"calmark\">C</span>"
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : "<span class=\"calmark\">W</span>"
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- undefined method `in_span' for nil:NilClass
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/user/helper.rb:44:in `div_module_etape'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/user/helper.rb:17:in `overview'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:116:in `block in overview_textuel'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:114:in `collect'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:114:in `overview_textuel'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:55:in `display'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 07 10 2016 - 22:38:42 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "overview"
+Context  = nil
+-- # expected_comments NON DÉFINI (pour Trauma_Cranien #4)
+-- # expected_comments NON DÉFINI (pour Scheherazade #46)
+-- # expected_comments NON DÉFINI (pour Karine #75)
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : "<span class=\"calmark start\">D</span>, <span class=\"calmark start\">D</span>"
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : "<span class=\"calmark comments\">C</span>"
+-- content : ""
+-- content : ""
+-- content : "<span class=\"calmark comments\">C</span>"
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : "<span class=\"calmark work\">W</span>"
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- undefined method `in_span' for nil:NilClass
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/user/helper.rb:44:in `div_module_etape'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/user/helper.rb:17:in `overview'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:117:in `block in overview_textuel'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:115:in `collect'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:115:in `overview_textuel'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:55:in `display'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 07 10 2016 - 22:40:16 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "overview"
+Context  = nil
+-- # expected_comments NON DÉFINI (pour Trauma_Cranien #4)
+-- # expected_comments NON DÉFINI (pour Scheherazade #46)
+-- # expected_comments NON DÉFINI (pour Karine #75)
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : "<span class=\"calmark start\">D</span>, <span class=\"calmark start\">D</span>"
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : "<span class=\"calmark comments\">C</span>"
+-- content : ""
+-- content : ""
+-- content : "<span class=\"calmark comments\">C</span>"
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : "<span class=\"calmark work\">W</span>"
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- undefined method `in_span' for nil:NilClass
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/user/helper.rb:44:in `div_module_etape'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/user/helper.rb:17:in `overview'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:117:in `block in overview_textuel'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:115:in `collect'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:115:in `overview_textuel'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:55:in `display'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 07 10 2016 - 22:40:34 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "overview"
+Context  = nil
+-- # expected_comments NON DÉFINI (pour Trauma_Cranien #4)
+-- # expected_comments NON DÉFINI (pour Scheherazade #46)
+-- # expected_comments NON DÉFINI (pour Karine #75)
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : "<span class=\"calmark start\">D</span>, <span class=\"calmark start\">D</span>"
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : "<span class=\"calmark comments\">C</span>"
+-- content : ""
+-- content : ""
+-- content : "<span class=\"calmark comments\">C</span>"
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : "<span class=\"calmark work\">W</span>"
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- undefined method `in_span' for nil:NilClass
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/user/helper.rb:44:in `div_module_etape'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/user/helper.rb:17:in `overview'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:117:in `block in overview_textuel'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:115:in `collect'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:115:in `overview_textuel'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:55:in `display'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 07 10 2016 - 22:42:11 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "overview"
+Context  = nil
+-- # expected_comments NON DÉFINI (pour Trauma_Cranien #4)
+-- # expected_comments NON DÉFINI (pour Scheherazade #46)
+-- # expected_comments NON DÉFINI (pour Karine #75)
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : "<span class=\"calmark start\">D</span>, <span class=\"calmark start\">D</span>"
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : "<span class=\"calmark comments\">C</span>"
+-- content : ""
+-- content : ""
+-- content : "<span class=\"calmark comments\">C</span>"
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : "<span class=\"calmark work\">W</span>"
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- undefined method `in_span' for nil:NilClass
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/user/helper.rb:44:in `div_module_etape'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/user/helper.rb:17:in `overview'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:117:in `block in overview_textuel'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:115:in `collect'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:115:in `overview_textuel'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:55:in `display'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 07 10 2016 - 22:45:34 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "overview"
+Context  = nil
+-- # expected_comments NON DÉFINI (pour Trauma_Cranien #4)
+-- # expected_comments NON DÉFINI (pour Scheherazade #46)
+-- # expected_comments NON DÉFINI (pour Karine #75)
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : "3, 26"
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : "15"
+-- content : ""
+-- content : ""
+-- content : "15"
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : "15"
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- undefined method `in_span' for nil:NilClass
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/user/helper.rb:44:in `div_module_etape'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/user/helper.rb:17:in `overview'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:129:in `block in overview_textuel'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:127:in `collect'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:127:in `overview_textuel'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:55:in `display'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 07 10 2016 - 22:46:06 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "overview"
+Context  = nil
+-- # expected_comments NON DÉFINI (pour Trauma_Cranien #4)
+-- # expected_comments NON DÉFINI (pour Scheherazade #46)
+-- # expected_comments NON DÉFINI (pour Karine #75)
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : "<span class=\"calmark start\" style=\"top:-20px;\">D</span>, <span class=\"calmark start\" style=\"top:3px;\">D</span>"
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : "<span class=\"calmark comments\" style=\"top:-8px;\">C</span>"
+-- content : ""
+-- content : ""
+-- content : "<span class=\"calmark comments\" style=\"top:-8px;\">C</span>"
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : "<span class=\"calmark work\" style=\"top:-8px;\">W</span>"
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- undefined method `in_span' for nil:NilClass
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/user/helper.rb:44:in `div_module_etape'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/user/helper.rb:17:in `overview'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:131:in `block in overview_textuel'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:129:in `collect'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:129:in `overview_textuel'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:55:in `display'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 07 10 2016 - 22:47:18 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "overview"
+Context  = nil
+-- # expected_comments NON DÉFINI (pour Trauma_Cranien #4)
+-- # expected_comments NON DÉFINI (pour Scheherazade #46)
+-- # expected_comments NON DÉFINI (pour Karine #75)
+-- content : ""
+-- undefined method `in_span' for 7:Fixnum
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:119:in `block in display_grid'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:74:in `times'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:74:in `display_grid'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:53:in `display'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 07 10 2016 - 22:47:34 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "overview"
+Context  = nil
+-- # expected_comments NON DÉFINI (pour Trauma_Cranien #4)
+-- # expected_comments NON DÉFINI (pour Scheherazade #46)
+-- # expected_comments NON DÉFINI (pour Karine #75)
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : "<span class=\"calmark start\" style=\"top:-20px;\">D</span>, <span class=\"calmark start\" style=\"top:3px;\">D</span>"
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : "<span class=\"calmark comments\" style=\"top:-8px;\">C</span>"
+-- content : ""
+-- content : ""
+-- content : "<span class=\"calmark comments\" style=\"top:-8px;\">C</span>"
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : "<span class=\"calmark work\" style=\"top:-8px;\">W</span>"
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- undefined method `in_span' for nil:NilClass
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/user/helper.rb:44:in `div_module_etape'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/user/helper.rb:17:in `overview'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:131:in `block in overview_textuel'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:129:in `collect'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:129:in `overview_textuel'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:55:in `display'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 07 10 2016 - 22:48:44 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "overview"
+Context  = nil
+-- # expected_comments NON DÉFINI (pour Trauma_Cranien #4)
+-- # expected_comments NON DÉFINI (pour Scheherazade #46)
+-- # expected_comments NON DÉFINI (pour Karine #75)
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : "<span class=\"calmark start\" style=\"top:-20px;\">D</span>, <span class=\"calmark start\" style=\"top:3px;\">D</span>"
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : "<span class=\"calmark comments\" style=\"top:-8px;\">C</span>"
+-- content : ""
+-- content : ""
+-- content : "<span class=\"calmark comments\" style=\"top:-8px;\">C</span>"
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : "<span class=\"calmark work\" style=\"top:-8px;\">W</span>"
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- undefined method `in_span' for nil:NilClass
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/user/helper.rb:44:in `div_module_etape'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/user/helper.rb:17:in `overview'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:131:in `block in overview_textuel'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:129:in `collect'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:129:in `overview_textuel'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:55:in `display'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 07 10 2016 - 22:49:07 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "overview"
+Context  = nil
+-- # expected_comments NON DÉFINI (pour Trauma_Cranien #4)
+-- # expected_comments NON DÉFINI (pour Scheherazade #46)
+-- # expected_comments NON DÉFINI (pour Karine #75)
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : "<span class=\"calmark start\" style=\"top:-20px;\">D</span>, <span class=\"calmark start\" style=\"top:3px;\">D</span>"
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : "<span class=\"calmark comments\" style=\"top:-8px;\">C</span>"
+-- content : ""
+-- content : ""
+-- content : "<span class=\"calmark comments\" style=\"top:-8px;\">C</span>"
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : "<span class=\"calmark work\" style=\"top:-8px;\">W</span>"
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- undefined method `in_span' for nil:NilClass
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/user/helper.rb:44:in `div_module_etape'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/user/helper.rb:17:in `overview'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:131:in `block in overview_textuel'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:129:in `collect'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:129:in `overview_textuel'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:55:in `display'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 07 10 2016 - 22:49:48 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "overview"
+Context  = nil
+-- # expected_comments NON DÉFINI (pour Trauma_Cranien #4)
+-- # expected_comments NON DÉFINI (pour Scheherazade #46)
+-- # expected_comments NON DÉFINI (pour Karine #75)
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : "<span class=\"calmark start\" style=\"top:-20px;\">D</span>, <span class=\"calmark start\" style=\"top:3px;\">D</span>"
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : "<span class=\"calmark comments\" style=\"top:-8px;\">C</span>"
+-- content : ""
+-- content : ""
+-- content : "<span class=\"calmark comments\" style=\"top:-8px;\">C</span>"
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : "<span class=\"calmark work\" style=\"top:-8px;\">W</span>"
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- undefined method `in_span' for nil:NilClass
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/user/helper.rb:44:in `div_module_etape'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/user/helper.rb:17:in `overview'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:131:in `block in overview_textuel'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:129:in `collect'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:129:in `overview_textuel'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:55:in `display'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 07 10 2016 - 22:50:32 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "overview"
+Context  = nil
+-- # expected_comments NON DÉFINI (pour Trauma_Cranien #4)
+-- # expected_comments NON DÉFINI (pour Scheherazade #46)
+-- # expected_comments NON DÉFINI (pour Karine #75)
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : "<span class=\"calmark start\" style=\"top:-20px;\">D</span>, <span class=\"calmark start\" style=\"top:3px;\">D</span>"
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : "<span class=\"calmark comments\" style=\"top:-8px;\">C</span>"
+-- content : ""
+-- content : ""
+-- content : "<span class=\"calmark comments\" style=\"top:-8px;\">C</span>"
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : "<span class=\"calmark work\" style=\"top:-8px;\">W</span>"
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- undefined method `in_span' for nil:NilClass
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/user/helper.rb:44:in `div_module_etape'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/user/helper.rb:17:in `overview'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:131:in `block in overview_textuel'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:129:in `collect'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:129:in `overview_textuel'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:55:in `display'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 07 10 2016 - 22:52:03 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 07 10 2016 - 22:52:07 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 07 10 2016 - 22:52:16 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 07 10 2016 - 22:52:20 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "overview"
+Context  = nil
+-- # expected_comments NON DÉFINI (pour Scheherazade #46)
+-- # expected_comments NON DÉFINI (pour Karine #75)
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : "<span class=\"calmark start\" style=\"top:-20px;\">D</span>, <span class=\"calmark start\" style=\"top:3px;\">D</span>"
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : "<span class=\"calmark comments\" style=\"top:-8px;\">C</span>"
+-- content : ""
+-- content : ""
+-- content : "<span class=\"calmark comments\" style=\"top:-8px;\">C</span>"
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : "<span class=\"calmark work\" style=\"top:-8px;\">W</span>"
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- undefined method `in_span' for nil:NilClass
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/user/helper.rb:44:in `div_module_etape'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/user/helper.rb:17:in `overview'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:131:in `block in overview_textuel'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:129:in `collect'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:129:in `overview_textuel'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:55:in `display'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 07 10 2016 - 22:52:30 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 07 10 2016 - 22:52:34 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "overview"
+Context  = nil
+-- # expected_comments NON DÉFINI (pour Scheherazade #46)
+-- # expected_comments NON DÉFINI (pour Karine #75)
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : "<span class=\"calmark start\" style=\"top:-20px;\">D</span>, <span class=\"calmark start\" style=\"top:3px;\">D</span>"
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : "<span class=\"calmark comments\" style=\"top:-8px;\">C</span>"
+-- content : ""
+-- content : ""
+-- content : "<span class=\"calmark comments\" style=\"top:-8px;\">C</span>"
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : "<span class=\"calmark work\" style=\"top:-8px;\">W</span>"
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- undefined method `in_span' for nil:NilClass
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/user/helper.rb:44:in `div_module_etape'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/user/helper.rb:17:in `overview'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:131:in `block in overview_textuel'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:129:in `collect'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:129:in `overview_textuel'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:55:in `display'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 07 10 2016 - 22:52:45 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 07 10 2016 - 22:52:47 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "overview"
+Context  = nil
+-- # expected_comments NON DÉFINI (pour Scheherazade #46)
+-- # expected_comments NON DÉFINI (pour Karine #75)
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : "<span class=\"calmark start\" style=\"top:-20px;\">D</span>, <span class=\"calmark start\" style=\"top:3px;\">D</span>"
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : "<span class=\"calmark comments\" style=\"top:-8px;\">C</span>"
+-- content : ""
+-- content : ""
+-- content : "<span class=\"calmark comments\" style=\"top:-8px;\">C</span>"
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : "<span class=\"calmark work\" style=\"top:-8px;\">W</span>"
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- undefined method `in_span' for nil:NilClass
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/user/helper.rb:44:in `div_module_etape'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/user/helper.rb:17:in `overview'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:131:in `block in overview_textuel'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:129:in `collect'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:129:in `overview_textuel'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:55:in `display'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 07 10 2016 - 22:53:10 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 07 10 2016 - 22:53:12 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "overview"
+Context  = nil
+-- # expected_comments NON DÉFINI (pour Scheherazade #46)
+-- # expected_comments NON DÉFINI (pour Karine #75)
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : "<span class=\"calmark start\" style=\"top:-20px;\">D</span>, <span class=\"calmark start\" style=\"top:3px;\">D</span>"
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : "<span class=\"calmark comments\" style=\"top:-8px;\">C</span>"
+-- content : ""
+-- content : ""
+-- content : "<span class=\"calmark comments\" style=\"top:-8px;\">C</span>"
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : "<span class=\"calmark work\" style=\"top:-8px;\">W</span>"
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- undefined method `in_span' for nil:NilClass
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/user/helper.rb:44:in `div_module_etape'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/user/helper.rb:17:in `overview'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:131:in `block in overview_textuel'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:129:in `collect'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:129:in `overview_textuel'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:55:in `display'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 07 10 2016 - 22:53:24 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 07 10 2016 - 22:53:27 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "overview"
+Context  = nil
+-- # expected_comments NON DÉFINI (pour Karine #75)
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : "<span class=\"calmark start\" style=\"top:-20px;\">D</span>, <span class=\"calmark start\" style=\"top:3px;\">D</span>"
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : "<span class=\"calmark comments\" style=\"top:-8px;\">C</span>"
+-- content : ""
+-- content : ""
+-- content : "<span class=\"calmark comments\" style=\"top:-8px;\">C</span>"
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : "<span class=\"calmark work\" style=\"top:-8px;\">W</span>"
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- undefined method `in_span' for nil:NilClass
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/user/helper.rb:44:in `div_module_etape'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/user/helper.rb:17:in `overview'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:131:in `block in overview_textuel'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:129:in `collect'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:129:in `overview_textuel'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:55:in `display'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 07 10 2016 - 22:53:45 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 07 10 2016 - 22:53:48 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "visit_as"
+Context  = nil
+
+
+=== DEBUG DU 07 10 2016 - 22:53:54 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "visit_as"
+Context  = nil
+
+
+=== DEBUG DU 07 10 2016 - 22:53:55 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+-- user.icetape.abs_etape.numero : 86
+
+
+=== DEBUG DU 07 10 2016 - 22:54:23 ===
+
+-- 
+Objet    = "ic_etape"
+Objet ID = 528
+Method   = "set"
+Context  = nil
+-- Redirection -> bureau/home
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+-- user.icetape.abs_etape.numero : 86
+
+
+=== DEBUG DU 07 10 2016 - 22:58:06 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+-- user.icetape.abs_etape.numero : 86
+
+
+=== DEBUG DU 07 10 2016 - 22:58:17 ===
+
+-- 
+Objet    = "ic_etape"
+Objet ID = 528
+Method   = "set"
+Context  = nil
+-- Redirection -> bureau/home
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+-- user.icetape.abs_etape.numero : 86
+
+
+=== DEBUG DU 07 10 2016 - 22:58:49 ===
+
+-- 
+Objet    = "user"
+Objet ID = 48
+Method   = "deconnexion"
+Context  = nil
+-- Redirection -> bureau/home
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 07 10 2016 - 22:58:55 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "overview"
+Context  = nil
+-- # expected_comments NON DÉFINI (pour Karine #75)
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : "<span class=\"calmark start\" style=\"top:-20px;\">D</span>, <span class=\"calmark start\" style=\"top:3px;\">D</span>"
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : "<span class=\"calmark comments\" style=\"top:-8px;\">C</span>"
+-- content : ""
+-- content : ""
+-- content : "<span class=\"calmark comments\" style=\"top:-8px;\">C</span>"
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : "<span class=\"calmark work\" style=\"top:-8px;\">W</span>"
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : "<span class=\"calmark work\" style=\"top:-8px;\">W</span>"
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- content : ""
+-- undefined method `in_span' for nil:NilClass
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/user/helper.rb:44:in `div_module_etape'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/user/helper.rb:17:in `overview'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:131:in `block in overview_textuel'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:129:in `collect'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:129:in `overview_textuel'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:55:in `display'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
