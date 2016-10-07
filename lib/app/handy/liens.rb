@@ -39,3 +39,10 @@ def link_narration titre = "la collection Narration", options = nil
   lien.narration titre, options
 end
 alias :lien_narration :link_narration
+
+def url_boa route = nil
+  url = 'http://www.laboiteaoutilsdelauteur.fr'
+  route.nil? || url += "/#{route}"
+  return url
+end
+alias :route_boa :url_boa

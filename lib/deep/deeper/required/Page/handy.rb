@@ -1,3 +1,4 @@
+# encoding: UTF-8
 
 def enable_comments
   Page::Comments.set_comments_on

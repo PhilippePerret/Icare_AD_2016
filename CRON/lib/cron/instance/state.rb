@@ -2,7 +2,7 @@
 class Cron
 
   def mode_test?
-    false
+    app.test?
   end
 
 end #/Cron

@@ -38,11 +38,16 @@ icmodule.set(
   next_paiement:  date_next_paiement
   )
 
+
+# Les nouvelles données pour l'owner
+data_owner = Hash.new
+data_owner.merge!(options: owner.options)
+
 # Si c'était un icarien à l'essai, il faut le mettre à vrai
 # Noter que cette méthode arrive après la formation du message qui s'affiche
 # suite au paiement (cf. ./objet/ic_paiement/lib/module/on_paiement_ok/helper.rb)
 if owner.alessai?
-  owner.set(options: owner.options.set_bit(24,1))
+  data_owner[:options] = data_owner[:options].set_bit(24,1)
   # ANNONCER ce(tte) nouvel(le) icarcien(ne)
   site.require_objet 'actualite'
   message = "<strong>#{owner.pseudo}</strong> devient un#{owner.f_e} <em>vrai#{owner.f_e}</em> icarien#{owner.f_ne}."
@@ -52,6 +57,9 @@ if owner.alessai?
   )
 end
 
+# Il faut toujours remettre le bit d'échéance de paiement de l'user
+# à zéro
+data_owner[:options] = data_owner[:options].set_bit(25,0)
 
-
-# Ensuite, un mail sera envoyé à l'administration et à l'icarien(ne)
+# Enregistrer les nouvelles données pour l'icarien/ne
+owner.set(data_owner)

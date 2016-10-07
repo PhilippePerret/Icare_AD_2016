@@ -1,3 +1,4 @@
+# encoding: UTF-8
 
 # Les principales méthodes pour les watchers pour les objets
 # Par exemple, la méthode :

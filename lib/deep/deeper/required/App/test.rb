@@ -1,7 +1,7 @@
 # encoding: UTF-8
 class App
 
-  def mode_test?
+  def test?
     @is_mode_test = path_mode_test_file.exist?
   end
 

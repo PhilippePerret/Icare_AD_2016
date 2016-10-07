@@ -116,19 +116,31 @@ class String
 
   def formate_balises_mots
     str = self
-    str.gsub!(/MOT\[([0-9]+)\|(.*?)\]/){ lien.mot($1.to_i, $2.to_s) }
+    str.gsub!(/MOT\[([0-9]+)\|(.*?)\]/){
+      mot_id = $1.freeze
+      mot_mot = $2.freeze
+      mot_mot.in_a(href: route_boa("scenodico/#{mot_id}/show"), target: :new)
+    }
     str
   end
 
   def formate_balises_citations
     str = self
-    str.gsub!(/CITATION\[([0-9]+)\|(.*?)\]/){ lien.citation($1.to_i, $2.to_s) }
+    str.gsub!(/CITATION\[([0-9]+)\|(.*?)\]/){
+      cit_id = $1.freeze
+      cit_titre = $2.freeze
+      cit_titre.in_a(href: route_boa("citation/#{cit_id}/show"), target: :new)
+    }
     str
   end
 
   def formate_balises_films
     str = self
-    str.gsub!(/FILM\[(.*?)(?:\|(.*?))?\]/){ lien.film($1.to_s, {titre: $2}) }
+    str.gsub!(/FILM\[(.*?)(?:\|(.*?))?\]/){
+      film_id = $1.freeze
+      film_titre = $2.freeze
+      film_titre.in_a(href: route_boa("filmodico/#{film_id}/show"), target: :new)
+    }
     str
   end
 

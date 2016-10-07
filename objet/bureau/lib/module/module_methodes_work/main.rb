@@ -11,6 +11,7 @@ module MethodesTravail
 
   # {String} Le travail de l'étape, formaté
   def travail_formated
+    w = w.formate_balises_propres
     w = ERB.new(travail).result(self.bind)
     w = w.kramdown(owner: nil, output_format: :html) rescue nil
     return w

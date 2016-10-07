@@ -1,4 +1,5 @@
-# encoding: utf-8
+# encoding: UTF-8
+
 =begin
 
 Pour les méthodes d'helper du widget des tâches

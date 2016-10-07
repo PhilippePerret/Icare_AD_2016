@@ -43,11 +43,11 @@ class << self
       # Les mails sont définis dans le dossier :
       # ./objet/ic_etape/lib/mail
       u.send_mail(
-        subject:    "Dépassement d'échéance de paiement",
+        subject:    'Dépassement d\'échéance de paiement',
         formated:   true,
         message:    lire_mail_warning(level_warn, u)
       )
-      
+
       # On modifie le niveau du dernier avertissement
       u.set(options: u.options.set_bit(25, level_warn))
 
@@ -57,7 +57,7 @@ class << self
   #/traite
 
   def lire_mail_warning level_warn, u
-    pmail = (site..folder_objet+"user/lib/mail/depassement_paiement_#{level_warn}.erb")
+    pmail = (site.folder_objet+"ic_paiement/lib/mail/depassement_paiement_#{level_warn}.erb")
     pmail.deserb(u.bind)
   end
 

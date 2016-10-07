@@ -11,15 +11,16 @@ class << self
     }
     dbtable_users.select(drequest).each do |huser|
       u = User.new(huser[:id])
+      puts "Traitement de #{u.pseudo}"
       nombre_jours = (NOW - u.icetape.expected_end) / 1.day
-      nombre_jours < 4 || next
+      nombre_jours > 4 || next
       # L'échéance est dépassée de plus de quatre jours
       # ----------------------------------------------
       # On n'envoie un mail que tous les quatres jours de retard
       nombre_jours % 4 == 0 || next
 
       # On prend le niveau du dernier avertissement
-      opts = u.icetape.options
+      opts = u.icetape.options || ''
       level_warn = opts[0].to_i + 1
       level_warn < 6 || begin
         # Échéance non modifiée après trop d'avertissements
@@ -43,7 +44,7 @@ class << self
       # Les mails sont définis dans le dossier :
       # ./objet/ic_etape/lib/mail
       u.send_mail(
-        subject:    "Échéance de travail dépassée",
+        subject:    'Échéance de travail d’étape dépassée',
         formated:   true,
         message:    lire_mail_warning(level_warn, u)
       )

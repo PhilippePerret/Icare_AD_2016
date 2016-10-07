@@ -4,13 +4,8 @@ raise_unless_identified
 
 
 def se_rendre_sur_boa route = nil
-  dlink = {href: url_boa(route), target: :new, class: 'small'}
+  dlink = {href: route_boa(route), target: :new, class: 'small'}
   "<dd class='right'>#{'→ S’y rendre'.in_a(dlink)}</dd>"
-end
-def url_boa route = nil
-  url = 'http://www.laboiteaoutilsdelauteur.fr'
-  route.nil? || url += "/#{route}"
-  return url
 end
 %>
 <%= Bureau.titre_h1('Outils')%>

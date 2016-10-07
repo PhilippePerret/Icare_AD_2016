@@ -1,3 +1,4 @@
+# encoding: UTF-8
 class IcPaiement
 
   # Code HTML de la facture, pour l'affichage sur le site et
@@ -5,7 +6,7 @@ class IcPaiement
   def facture_html
     poss      = "Atelier Icare (www.atelier-icare.net)"
     now_hum   = Time.now.strftime("%d %m %Y")
-    objetname = "Module d'apprentissage"
+    objetname = 'Module d\'apprentissage'
     tarifh    = "#{abs_module.tarif}.00 €"
     client    = "#{owner.patronyme} (N°#{owner.id})"
     (
@@ -18,6 +19,7 @@ class IcPaiement
       ('Montant TTC'.in_td  + tarifh.in_td          ).in_tr
     ).in_table(
       id: 'facture', border:0, cellspacing: 5, cellpadding: 5,
-      style: 'background-color:#EFEFFF')
+      style: 'background-color:#EFEFFF'
+      )
   end
 end #/IcPaiement

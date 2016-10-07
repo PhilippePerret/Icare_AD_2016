@@ -1,3 +1,5 @@
+# encoding: UTF-8
+
 Dir["./lib/deep/deeper/module/ranking/lib/**/*.rb"].each{|m| require m}
 
 feature "Page ranking" do

@@ -1,3 +1,5 @@
+# encoding: UTF-8
+
 class Atelier
 class Overview
 class Temoignages

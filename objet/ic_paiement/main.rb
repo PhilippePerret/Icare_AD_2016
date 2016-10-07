@@ -143,7 +143,7 @@ end #/<<self
     # La valeur retournée est true si on est en mode test
     def sandbox?
       if @operation_in_the_sandbox === nil
-        @operation_in_the_sandbox = app.mode_test?
+        @operation_in_the_sandbox = app.test?
       end
       @operation_in_the_sandbox
     end

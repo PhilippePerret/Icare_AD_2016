@@ -3,6 +3,9 @@ class Cron
 class Message
 class << self
 
+  # Pour récupérer le contenu du log, pour les tests
+  attr_reader :logs
+
   # Pour consigner un message
   def log str, options = nil
     @logs ||= Array.new

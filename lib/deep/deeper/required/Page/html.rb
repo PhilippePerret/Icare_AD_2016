@@ -1,4 +1,4 @@
-# encoding: utf-8
+# encoding: UTF-8
 
 SNIPPETS_VERSION = '1.3'
 PATH_MODULE_JS_SNIPPETS = File.join('.', 'lib', 'deep', 'deeper', 'js', 'optional', "Snippets_#{SNIPPETS_VERSION}.js")

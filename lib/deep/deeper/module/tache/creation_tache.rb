@@ -1,4 +1,4 @@
-# encoding: utf-8
+# encoding: UTF-8
 =begin
 
 Ce module permet d'insérer dans la page, lorsque l'on est administrateur,
