@@ -87,6 +87,6 @@ def Phil chaine
   @Phil.evaluate
 end
 def Benoit chaine
-  @Benoit = Someone.new({user_id: 2, pseudo: 'Benoit'}, chaine)
+  @Benoit = Someone.new({user_id: 50, pseudo: 'Benoit'}, chaine)
   @Benoit.evaluate
 end

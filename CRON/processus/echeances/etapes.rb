@@ -11,7 +11,6 @@ class << self
     }
     dbtable_users.select(drequest).each do |huser|
       u = User.new(huser[:id])
-      puts "Traitement de #{u.pseudo}"
       nombre_jours = (NOW - u.icetape.expected_end) / 1.day
       nombre_jours > 4 || next
       # L'échéance est dépassée de plus de quatre jours

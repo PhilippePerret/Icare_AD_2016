@@ -44,17 +44,17 @@ feature "Un mail est envoyé lorsqu'une échéance de travail est dépassée" do
     benoit.set_actif(next_paiement: nil)
     expect(benoit.options[16].to_i).to eq 2
     hbenoit = dbtable_users.get(benoit.id)
-    puts hbenoit.pretty_inspect
-    puts "Bit 16 : #{hbenoit[:options][16].to_i}"
+    expect(hbenoit[:options][16].to_i).to eq 2
+
     # On met son échéance d'étape à il y a 5 jours
-    benoit.icetape.set(expected_end: Time.now.to_i - 6.days)
+    benoit.icetape.set(expected_end: NOW - 8.days)
 
     # === TEST ===
     cron.run_processus 'echeances'
 
     expect(Cron::Message.logs).not_to eq nil
     success 'Des messages logs ont été produits par le cron-job'
-    puts Cron::Message.logs.pretty_inspect
+    # puts Cron::Message.logs.pretty_inspect
 
     # === VÉRIFICATION ===
     data_mail = {

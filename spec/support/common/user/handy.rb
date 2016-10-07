@@ -100,7 +100,21 @@ def phil
 end
 
 def benoit
-  u = User.new(2)
+  u = User.new(50)
+  u.exist? || begin
+    # Il faut recréer Benoit
+    require 'digest/md5'
+    require './data/secret/data_benoit'
+    data_benoit = DATA_BENOIT
+    password = data_benoit.delete(:password)
+    data_benoit.merge!(
+      options:      data_benoit.delete(:default_options),
+      cpassword:    Digest::MD5.hexdigest("#{DATA_BENOIT[:password]}#{DATA_BENOIT[:mail]}#{DATA_BENOIT[:salt]}"),
+      updated_at:   NOW,
+      created_at:   NOW
+    )
+    dbtable_users.insert(data_benoit)
+  end
   expect(u).to be_instance_of(User)
   return u
 end

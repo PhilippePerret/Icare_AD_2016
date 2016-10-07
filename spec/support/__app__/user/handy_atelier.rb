@@ -2,6 +2,11 @@ class User
 
   def reset_all
 
+    # Si l'user n'existe pas, il faut le créer
+    if self.id.nil? || dbtable_users.get(self.id).nil?
+      return
+    end
+
     req = {where: {user_id: self.id}}
     # Détruire tous les watchers
     dbtable_watchers.delete(req)
@@ -25,7 +30,6 @@ class User
       options: options.set_bit(16, 4),
       icmodule_id: nil
       )
-
   end
 
   # Méthode pour mettre un user en icarien actif
