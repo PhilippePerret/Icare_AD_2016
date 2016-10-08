@@ -84,39 +84,15 @@ CREATE TABLE icdocuments
 
     # COTE_ORIGINAL
     # -------------
-    # La cote attribuée pour l'original
+    # La cote attribuée pour l'original. C'est un calcul qui est
+    # fait en fonction de toutes les lectures (cf. la table lectures)
     cote_original DECIMAL(2,1),
 
     # COTE_COMMENTS
     # -------------
-    # La cote attribuée pour le commentaire
+    # La cote attribuée pour le commentaire. C'est un calcul qui est
+    # fait en fonction de toutes les lectures (cf. la table lectures)
     cote_comments DECIMAL(2,1),
-
-    # COTES_ORIGINAL
-    # --------------
-    # Liste des cotes attribuées (liste-string séparateur espace)
-    cotes_original BLOB,
-
-    # COTES_COMMENTS
-    # --------------
-    # Liste des cotes attribuées (liste-string séparateur espace)
-    cotes_comments BLOB,
-
-    # READERS_ORIGINAL
-    # ----------------
-    # OBSOLETE
-    # Liste des identifiants des lecteurs (user) du document
-    # original.
-    # Liste stringifiée par JSON
-    readers_original BLOB,
-
-    # READERS_COMMENTS
-    # ----------------
-    # OBSOLETE
-    # Liste des identifiants des lecteurs (user) du document
-    # commenté.
-    # Liste stringifiée par JSON
-    readers_comments BLOB,
 
     # CREATED_AT
     # ----------
