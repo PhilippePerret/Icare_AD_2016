@@ -3,6 +3,9 @@ raise_unless_admin
 
 site.require_objet 'abs_module'
 
+# Pour les snippets
+OFFLINE || page.add_javascript(PATH_MODULE_JS_SNIPPETS)
+
 # Étape courante
 # --------------
 # Si l'étape a un identifiant nil, c'est qu'un module a été

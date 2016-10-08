@@ -10,6 +10,8 @@
 
 ## À FAIRE RAPIDEMENT
 
+* Corrections de Marion sur les étapes
+* Pouvoir synchroniser les étapes de travail locales avec les distantes
 
 ## TESTS À FAIRE
 
@@ -25,12 +27,9 @@
 * Dépôt de message sur le frigo de l'icarien (checker suivant les préférences contact_world et contact_icarien)
 * Tester la création et la modification d'un travail-type
 
-
 ## DIVERS
 
 * CRON Plutôt que de tester l'heure, enregistrer la date de dernière opération et la tester toutes les heures. Cela permettra de ne pas attendre le lendemain pour reprendre une opération qui aura échoué
-
-* FRIGO Pouvoir régler les préférences d'une discussion en particulier (quelles préférences au juste ? publique ou non)
 
 * Mieux indiquer la différence entre module suivi de projet et coaching, en se servant du texte écrit à Guilhem : « Le premier se fait sur un temps déterminé (en fait, plus précisément, un certain nombre d'étapes de travail). Dans ce module, on peut très bien arriver par exemple avec un scénario déjà presque abouti. Pour le moment, il a été utilisé pour ça : préparer son entrée au CEEA, préparer son entrée en Master II de scénario, finaliser un roman, rédiger une note d'intention ou encore obtenir un script-doctoring sur plusieurs scénarios à leur version 2 ou 3. Le module "suivi de projet", a contrario, n'a pas de durée déterminée. Certains l'ont suivi pendant 4 ans ! J'y accompagne un projet des tout débuts — l'idée initiale — jusqu'au scénario ou au roman, en passant par toutes les étapes de développement. »
 

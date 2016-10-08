@@ -18,5 +18,5 @@ Mais en ONLINE, il faut forcer ce comportement en ajoutant :
     $(document).ready(function(){
       if(ONLINE){UI.prepare_champs_easy_edit(tous=true)}
     });
-    // Noter que OFFLINE n'est défini qu'après le chargement
+    // Noter que ONLINE n'est défini qu'après le chargement
     // complet de la page
