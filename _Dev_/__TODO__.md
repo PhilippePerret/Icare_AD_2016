@@ -10,11 +10,6 @@
 
 ## À FAIRE RAPIDEMENT
 
-* CALENDRIER
-  - mettre les paiements en retard en rouge
-  - mettre les travaux en retard en rouge
-  - mettre les commentaires en retard en rouge
-
 * Le watcher 'cote_et_commentaire' (ic_document)
 * Gérer le "compter comme étape ”réelle”" (mettre le bon ID). Est-ce que c'est vraiment important (utiliser pour le moment les options, un bit pour compter toutes les étapes, sauf dans un module suivi de projet — noter qu'on peut enregistrer une nombre de 0 à 35 sur un seul bit d'option)
 

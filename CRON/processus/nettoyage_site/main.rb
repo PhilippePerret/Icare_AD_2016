@@ -23,6 +23,7 @@ class Nettoyage
         log "# Erreur au cours du nettoyage de #{key} : #{e.message}"
         log e.backtrace.join("<br>")
       end
+    end
   end
 
   def mois_precedent
