@@ -1,224 +1,62 @@
-=== BENCHMARK DU 7 octobre 2016 à 22:58 ===
-=== Index start : 1475873935.502461 (2016-10-07 22:58:55 +0200)
+=== BENCHMARK DU 8 octobre 2016 à 12:06 ===
+=== Index start : 1475921155.9408078 (2016-10-08 12:05:55 +0200)
 
 -> site/config.rb                                       0.000000  0.000000
-<- site/config.rb                                       0.000124  0.000124
--> execute_preambule                                    0.017624  0.017748
-  -> User#do_after_load                                 0.007639  0.025387
-  <- User#do_after_load                                 0.000012  0.025399
-<- execute_preambule                                    0.000003  0.025402
--> required.rb                                         -0.219190 -0.193788
-<- required.rb                                          0.219193  0.025405
--> SiteHtml#output                                      0.000038  0.025443
-  -> SiteHtml#execute_route                             0.000004  0.025447
+<- site/config.rb                                       0.000214  0.000214
+-> execute_preambule                                    0.016634  0.016848
+  -> User#do_after_load                                 0.007266  0.024114
+  <- User#do_after_load                                 0.000011  0.024125
+<- execute_preambule                                    0.000003  0.024128
+-> required.rb                                         -0.201434 -0.177306
+<- required.rb                                          0.201438  0.024132
+-> SiteHtml#output                                      0.000036  0.024168
+  -> SiteHtml#execute_route                             0.000003  0.024171
       | Objet    = "admin"                                              - 
       | Objet ID = nil                                                  - 
-      | Method   = "overview"                                           - 
-      | Context  = nil                                  0.000089  0.025536
-    --> user.set_last_connexion                         0.000091  0.025627
-    <-- user.set_last_connexion                         0.002090  0.027717
-    --> iroute.load_required                            0.000022  0.027739
-    <-- iroute.load_required                            0.002219  0.029958
-    --> iroute.load_per_vue                             0.000013  0.029971
-    <-- iroute.load_per_vue                             0.022710  0.052681
-    --> iroute.method_call                              0.000020  0.052701
-    <-- iroute.method_call                              0.000285  0.052986
-  <- SiteHtml#execute_route                             0.000006  0.052992
-  -> Page#preload                                       0.000016  0.053008
-
-      | # expected_comments NON DÉFINI (pour Karine #75)  0.031152  0.084160
-
-      | content : ""                                    0.005750  0.089910
-
-      | content : ""                                    0.000054  0.089964
-
-      | content : ""                                    0.000020  0.089984
-
-      | content : ""                                    0.000018  0.090002
-
-      | content : ""                                    0.000016  0.090018
-
-      | content : ""                                    0.000015  0.090033
-
-      | content : ""                                    0.000016  0.090049
-
-      | content : ""                                    0.000016  0.090065
-
-      | content : ""                                    0.000021  0.090086
-
-      | content : ""                                    0.000019  0.090105
-
-      | content : ""                                    0.000019  0.090124
-
-      | content : "<span class=\"calmark start\" style=\"top:-20px;\">D</span>, <span class=\"calmark start\" style=\"top:3px;\">D</span>"  0.000051  0.090175
-
-      | content : ""                                    0.000020  0.090195
-
-      | content : ""                                    0.000015  0.090210
-
-      | content : ""                                    0.000017  0.090227
-
-      | content : ""                                    0.000017  0.090244
-
-      | content : "<span class=\"calmark comments\" style=\"top:-8px;\">C</span>"  0.000044  0.090288
-
-      | content : ""                                    0.000026  0.090314
-
-      | content : ""                                    0.000022  0.090336
-
-      | content : "<span class=\"calmark comments\" style=\"top:-8px;\">C</span>"  0.000041  0.090377
-
-      | content : ""                                    0.000026  0.090403
-
-      | content : ""                                    0.000020  0.090423
-
-      | content : ""                                    0.000022  0.090445
-
-      | content : ""                                    0.000025  0.090470
-
-      | content : ""                                    0.000028  0.090498
-
-      | content : ""                                    0.000038  0.090536
-
-      | content : ""                                    0.000023  0.090559
-
-      | content : ""                                    0.000024  0.090583
-
-      | content : ""                                    0.000021  0.090604
-
-      | content : ""                                    0.000017  0.090621
-
-      | content : ""                                    0.000015  0.090636
-
-      | content : "<span class=\"calmark work\" style=\"top:-8px;\">W</span>"  0.000031  0.090667
-
-      | content : ""                                    0.000017  0.090684
-
-      | content : ""                                    0.000017  0.090701
-
-      | content : ""                                    0.000015  0.090716
-
-      | content : ""                                    0.000016  0.090732
-
-      | content : ""                                    0.000016  0.090748
-
-      | content : ""                                    0.000016  0.090764
-
-      | content : ""                                    0.000016  0.090780
-
-      | content : ""                                    0.000015  0.090795
-
-      | content : "<span class=\"calmark work\" style=\"top:-8px;\">W</span>"  0.000033  0.090828
-
-      | content : ""                                    0.000018  0.090846
-
-      | content : ""                                    0.000016  0.090862
-
-      | content : ""                                    0.000016  0.090878
-
-      | content : ""                                    0.000016  0.090894
-
-      | content : ""                                    0.000015  0.090909
-
-      | content : ""                                    0.000018  0.090927
-
-      | content : ""                                    0.000041  0.090968
-
-      | content : ""                                    0.000019  0.090987
-
-      | content : ""                                    0.000018  0.091005
-
-      | content : ""                                    0.000016  0.091021
-
-      | content : ""                                    0.000019  0.091040
-
-      | content : ""                                    0.000016  0.091056
-
-      | content : ""                                    0.000018  0.091074
-
-      | content : ""                                    0.000015  0.091089
-
-      | content : ""                                    0.000023  0.091112
-
-      | content : ""                                    0.000017  0.091129
-
-      | content : ""                                    0.000015  0.091144
-
-      | content : ""                                    0.000019  0.091163
-
-      | content : ""                                    0.000017  0.091180
-
-      | content : ""                                    0.000016  0.091196
-
-      | content : ""                                    0.000018  0.091214
-
-      | content : ""                                    0.000027  0.091241
-
-      | content : ""                                    0.000016  0.091257
-
-      | content : ""                                    0.000016  0.091273
-
-      | content : ""                                    0.000015  0.091288
-
-      | content : ""                                    0.000018  0.091306
-
-      | content : ""                                    0.000015  0.091321
-
-      | content : ""                                    0.000014  0.091335
-
-      | content : ""                                    0.000016  0.091351
-
-      | content : ""                                    0.000015  0.091366
-
-      | content : ""                                    0.000014  0.091380
-
-      | content : ""                                    0.000015  0.091395
-
-      | content : ""                                    0.000017  0.091412
-
-      | content : ""                                    0.000014  0.091426
-
-      | content : ""                                    0.000018  0.091444
-
-      | content : ""                                    0.000021  0.091465
-
-      | content : ""                                    0.000028  0.091493
-
-      | content : ""                                    0.000022  0.091515
-
-      | content : ""                                    0.000027  0.091542
-
-      | content : ""                                    0.000024  0.091566
-
-      | content : ""                                    0.000020  0.091586
-
-      | content : ""                                    0.000020  0.091606
-
-      | content : ""                                    0.000019  0.091625
-
-      | content : ""                                    0.000022  0.091647
-
-      | content : ""                                    0.000029  0.091676
-
-      | content : ""                                    0.000023  0.091699
-
-      | content : ""                                    0.000019  0.091718
-
-      | content : ""                                    0.000028  0.091746
-
-      | content : ""                                    0.000025  0.091771
-
-      | content : ""                                    0.000021  0.091792
-
-      | content : ""                                    0.000020  0.091812
-
-      | content : ""                                    0.000029  0.091841
-
-      | undefined method `in_span' for nil:NilClass     0.032859  0.124700
-  <- Page#preload                                       0.028015  0.152715
-  -> Page#prebuild_body                                 0.000012  0.152727
-    -> Page#body                                        0.000003  0.152730
-    <- Page#body                                        0.000246  0.152976
-  <- Page#prebuild_body                                 0.000013  0.152989
-  CODE HTML FINAL BUILT                                 0.000105  0.153094
-<- SiteHtml#output                                      0.000003  0.153097
+      | Method   = "dashboard"                                          - 
+      | Context  = nil                                  0.000085  0.024256
+    --> user.set_last_connexion                         0.000109  0.024365
+    <-- user.set_last_connexion                         0.002134  0.026499
+    --> iroute.load_required                            0.000021  0.026520
+    <-- iroute.load_required                            0.002303  0.028823
+    --> iroute.load_per_vue                             0.000013  0.028836
+
+      | --> check_folders_offline                       0.034368  0.063204
+
+      | --> check_folders_online                        0.294813  0.358017
+
+      | --> build_result                                5.009805  5.367822
+
+      | --> open_result                                 0.051343  5.419165
+    -> Synchro#open_result                              0.000014  5.419179
+    <- Synchro#open_result                              0.233340  5.652519
+    -> SiteHtml#redirect_to                             0.000309  5.652828
+
+      | Redirection -> bureau/home                      0.000047  5.652875
+      -> SiteHtml#execute_route                         0.000148  5.653023
+      | Objet    = "bureau"                                             - 
+      | Objet ID = nil                                                  - 
+      | Method   = "home"                                               - 
+      | Context  = nil                                  0.000070  5.653093
+        --> user.set_last_connexion                     0.000024  5.653117
+        <-- user.set_last_connexion                     0.001122  5.654239
+        --> iroute.load_required                        0.000023  5.654262
+        <-- iroute.load_required                        0.000929  5.655191
+        --> iroute.load_per_vue                         0.000012  5.655203
+        <-- iroute.load_per_vue                         0.000720  5.655923
+        --> iroute.method_call                          0.000009  5.655932
+        <-- iroute.method_call                          0.000191  5.656123
+      <- SiteHtml#execute_route                         0.000004  5.656127
+    <- SiteHtml#redirect_to                             0.000002  5.656129
+    <-- iroute.load_per_vue                             0.006144  5.662273
+    --> iroute.method_call                              0.000010  5.662283
+    <-- iroute.method_call                              0.000391  5.662674
+  <- SiteHtml#execute_route                             0.000004  5.662678
+  -> Page#preload                                       0.000020  5.662698
+  <- Page#preload                                       0.099609  5.762307
+  -> Page#prebuild_body                                 0.000021  5.762328
+    -> Page#body                                        0.000006  5.762334
+    <- Page#body                                        0.000336  5.762670
+  <- Page#prebuild_body                                 0.000018  5.762688
+  CODE HTML FINAL BUILT                                 0.000153  5.762841
+<- SiteHtml#output                                      0.000004  5.762845

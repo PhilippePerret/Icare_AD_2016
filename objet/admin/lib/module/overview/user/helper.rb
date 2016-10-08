@@ -15,22 +15,9 @@ class User
     (
       pseudo.capitalize.in_span(class: 'pseudo') +
       div_module_etape +
-      expected_paiement +
-      liens_pour_erreurs
+      expected_paiement
     ).in_div(class: 'user_overview')
 
-  end
-
-  def liens_pour_erreurs
-    @errors_overview.count > 0 || (return '')
-    @errors_overview.collect do |err|
-      case err
-      when :paiement
-        'Mail avertissement PAIEMENT'
-      when :echeance
-        'Mail avertissement ÉCHÉANCE'
-      end
-    end.join.in_div(class: 'overview_errors')
   end
 
   def absetape
