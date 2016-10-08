@@ -7330,3 +7330,31 @@ Objet ID = nil
 Method   = "edit"
 Context  = nil
 -- options: {}
+
+
+=== DEBUG DU 08 10 2016 - 13:52:31 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 08 10 2016 - 13:52:35 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "dashboard"
+Context  = nil
+-- --> check_folders_offline
+-- --> check_folders_online
+-- --> build_result
+-- --> open_result
+-- Redirection -> bureau/home
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil

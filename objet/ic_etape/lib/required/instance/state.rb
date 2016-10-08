@@ -16,5 +16,10 @@ class IcEtape
   def stated? ; status > 0 end
   def ended?  ; status > 6 end
 
+  # Renvoie true si l'étape a été considérée comme une étape réelle
+  def real?
+    bit_etape_reelle == 1
+  end
+
 end #/IcEtape
 end #/IcModule

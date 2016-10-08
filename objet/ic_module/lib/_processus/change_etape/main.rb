@@ -15,6 +15,12 @@ begin
   etapes << icetape.id
   etapes = etapes.join(' ')
 
+  # L'étape précédente doit-elle compter comme une vraie étape ?
+  # Noter qu'il s'agit de l'étape courante de l'icarien, pas l'étape
+  # qu'on va mettre en étape courante.
+  if param(:prev_etape_is_real) == 'on'
+    icetape.set(options: icetape.options.set_bit(1,1))
+  end
 
   new_icetape = IcModule::IcEtape.create_for icmodule, next_abs_etape.numero
 
@@ -30,7 +36,9 @@ begin
     processus:  'send_work'
   )
 
-  # On détruit le fichier statistiques
+
+  # On détruit le fichier statistiques, car le nombre d'étapes
+  # a forcément changé.
   Atelier.remove_statistiques_file
 
 
