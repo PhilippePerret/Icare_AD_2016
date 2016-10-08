@@ -4,6 +4,7 @@
 
 ## BUGS
 
+* Dans l'édition des étapes/travaux-types, s'assurer que les balises FILM soient bien formatées. Contrairement à BOA où elles ressemblent à FILM[Ali2001], sur l'atelier, elles doivent ressembler à FILM[256|Ali] donc FILM[<id>|<titre>]. S'assurer qu'on peut les avoir sous cette forme avec le code.
 
 ## PROGRAMMÉ
 

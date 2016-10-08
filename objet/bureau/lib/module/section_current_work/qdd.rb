@@ -17,7 +17,6 @@ class AbsEtape
         listing_documents_qdd = QuaiDesDocs.as_ul(filtre: {etape: self.id}, avertissement: true, all: true)
         if listing_documents_qdd
           # S'il y a des documents pour cette étape
-          introduction +
           listing_documents_qdd +
           ''.in_div(style:'clear:both')
         end

@@ -34,10 +34,14 @@ def dbtable_icdocuments   ; @dbticdocs  ||= sdbt_mods('icdocuments')  end
 def dbtable_minifaq       ; @dbtblmfaq  ||= sdbt_mods('mini_faq')     end
 def dbtable_lectures      ; @dbtbllect  ||= sdbt_mods('lectures_qdd') end
 
+def dbtable_temoignages   ; @dbtbltem   ||= sdbt_cold('temoignages')  end
+
+
 # ---------------------------------------------------------------------
 #   Fonctionnelles
 # ---------------------------------------------------------------------
-def sdbtbl base, name ; site.dbm_table(base, name) end
-def sdbtbl_users name ; site.dbm_table(:users, name) end
-def sdbtbl_hot name ; site.dbm_table(:hot, name) end
-def sdbt_mods name ; site.dbm_table(:modules, name)  end
+def sdbtbl base, name ; site.dbm_table(base, name)      end
+def sdbtbl_users name ; site.dbm_table(:users, name)    end
+def sdbtbl_hot name   ; site.dbm_table(:hot, name)      end
+def sdbt_mods name    ; site.dbm_table(:modules, name)  end
+def sdbt_cold name    ; site.dbm_table(:cold, name)     end
