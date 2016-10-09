@@ -98,11 +98,21 @@ class User
   end
 
   def le_module_courant
+    admin? && (return '')
     icmodule_id != nil || (return '')
+    icmodule.started_at != nil || (return '')
     date_start_module = icmodule.started_at.as_human_date
     "#{f_elle.capitalize} suit le module <strong>#{lien_module_app(icmodule.abs_module)}</strong> depuis le #{date_start_module}. "
+  rescue Exception => e
+    debug e
+    send_error_to_admin(
+      exception: e,
+      from: "liste des icariens, avec #{self.pseudo} (##{self.id})"
+    )
+    ''
   end
   def liste_autres_modules
+    admin? && (return '')
     modules = get_all_modules_of( self.id )
     modules != nil || (return '')
     autres_modules =

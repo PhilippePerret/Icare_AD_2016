@@ -4,6 +4,7 @@ class Cron
     Nettoyage.clean_up_site
   end
 class Nettoyage
+class << self
 
   # = main =
   #
@@ -78,5 +79,6 @@ class Nettoyage
     log "  - Destruction des fichier de visit_as (#{nombre_fichiers_detruits}, dans ./tmp/_adm)"
   end
 
+end #/<< self
 end #/Nettoyage
 end #/Cron

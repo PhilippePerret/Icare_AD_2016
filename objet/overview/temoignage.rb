@@ -22,7 +22,7 @@ class << self
       error 'Désolé, mais un texte de moins de 20 caractères, on ne peut pas vraiment appeler cela un témoignage… si ?'
       return
     end
-    
+
     # Tout est bon, on peut l'enregistrer
 
     # L'auteur du témoignage
@@ -32,6 +32,7 @@ class << self
     uid = site.current_route.objet_id
     u   = User.new(uid)
     hmod = dbtable_icmodules.select(where:{user_id: uid}, colonnes:[:abs_module_id], order: 'started_at DESC', limit: 1).first
+    hmod ||= Hash.new # normalement, n'arrive pas
 
     data_tem = {
       user_id:        uid,
@@ -59,7 +60,13 @@ class << self
   end
 
   # Le témoignage transmis
-  def temoignage ; @temoignage ||= param(:temoignage).nil_if_empty end
+  def temoignage
+    @temoignage ||= begin
+      tem = param(:temoignage).nil_if_empty
+      tem = tem.strip_tags.to_html if tem != nil
+      tem
+    end
+  end
 
 end #/<< self
 end #/Temoignage
@@ -73,8 +80,8 @@ begin
 
 rescue Exception => e
   debug e
-  site.send_error_to_admin(exception: e)
-  error "Un problème est survenu au cours de l'opération : #{e.error}"
+  send_error_to_admin(exception: e)
+  error "Un problème est survenu au cours de l'opération : #{e.message}"
 ensure
   redirect_to :last_page
 end
