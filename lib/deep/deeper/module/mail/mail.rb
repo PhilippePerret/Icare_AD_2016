@@ -169,7 +169,6 @@ module MailModuleMethods
 
   def signature
     return "" if @signature === false # in data
-    # get_class(:signature) != nil || set_class(:signature, (site.mail_signature ? site.mail_signature.in_span(id:'signature') : ""))
     get_class(:signature) || ''
   end
 
