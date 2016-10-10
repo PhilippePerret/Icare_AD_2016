@@ -88,7 +88,13 @@ begin
   # BARRIÈRE MAUVAIS CHECKSUM
   icdoc.checksum == data_download[:checksum] || raise('Chercheriez-vous à télécharger illégalement des documents de l’atelier Icare ?…')
 
-  need?(:original) || need?(:comments) || raise('Vous n’êtes pas autorisé à charger ces documents.')
+  need?(:original) || need?(:comments) || begin
+    if !icdoc.exist?(:original) && !icdoc.exist?(:comments)
+      raise 'Bizarrement, ce document n’existe pas ou plus sur le quai des docs…'
+    else
+      raise 'Vous n’êtes pas autorisé à charger ces documents.'
+    end
+  end
 
   # -----------------------------------------------------------------
   #   Tout est bon, on peut prépare le téléchargement des documents

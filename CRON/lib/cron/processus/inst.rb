@@ -74,7 +74,7 @@ class Cron
     end
 
     def folder
-      @folder ||= Cron.folder_processus + name
+      @folder ||= cron.folder_processus + name
     end
 
   end #/Processus

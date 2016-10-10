@@ -36,7 +36,7 @@ class IcDocument
     @qdd_prefixe_filename ||= begin
       self.icmodule.abs_module.module_id.camelize +
       "_etape_#{icetape.numero}_"   +
-      (owner.pseudo.as_normalized_id rescue 'Pseudo introuvable') +
+      (owner.pseudo.as_normalized_id rescue 'Pseudo_introuvable') +
       "_#{self.id}"
     end
   end
@@ -45,7 +45,13 @@ class IcDocument
   #   Dossiers
   # ---------------------------------------------------------------------
 
-  def qdd_folder_pdfs;  @qdd_folder_pdfs  ||= qdd_folder + "pdfs/#{icmodule.abs_module.id}" end
+  def qdd_folder_pdfs
+    @qdd_folder_pdfs  ||= begin
+      d = qdd_folder + "pdfs/#{icmodule.abs_module.id}"
+      d.exist? || d.build
+      d
+    end
+  end
   def qdd_folder      ; @qdd_folder       ||= SuperFile.new(File.expand_path('./data/qdd')) end
 
 

@@ -5,24 +5,12 @@
 
 =end
 
-# Retourn le path (SuperFile) du dossier qui contiendra le document
-# traité (noter que ce dossier dépend du module d'apprentissage)
-def folder_pdfs_qdd
-  @folder_pdfs_qdd ||= site.folder_data + "qdd/pdfs/#{icdocument.icmodule.abs_module.id}"
-end
+# On charge la librairie Quai des docs
+site.require_objet 'quai_des_docs'
 
-# Nom du document original/commentaires sur le Quai des docs
-def pdfs_qdd_name_for(which = :original)
-  short_name_module = icdocument.icmodule.abs_module.module_id.capitalize
-  num_etape = icdocument.icetape.abs_etape.numero
-  "#{short_name_module}_etape_#{num_etape}_#{owner.pseudo}_#{icdocument.id}_#{which}.pdf"
-end
-def pdfs_qdd_path_for(which = :original)
-  folder_pdfs_qdd + pdfs_qdd_name_for(which)
-end
 
 def upload_document_for which = :original
-  sfile = pdfs_qdd_path_for which
+  sfile = icdocument.qdd_path(which)
   data_upload = {change_name: false, nil_if_empty: true}
   tempfile = param(:document)[which]
   result = sfile.upload(tempfile, data_upload)
@@ -33,7 +21,6 @@ end
 # ------------------------------------------
 # C'est la première chose car on raise à la première erreur (document
 # oublié)
-folder_pdfs_qdd.exist? || folder_pdfs_qdd.build
 upload_document_for :original
 icdocument.has?(:comments) && upload_document_for(:comments)
 
@@ -45,7 +32,7 @@ owner.add_watcher(
   processus:  'define_partage'
 )
 
-#
+# Pour mettre les nouvelles données de document
 data_document = Hash.new
 
 # Marquer les documents original et commentaire déposés sur le
