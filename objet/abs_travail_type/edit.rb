@@ -1,4 +1,8 @@
 # encoding: UTF-8
+
+# Pour les snippets
+OFFLINE || page.add_javascript(PATH_MODULE_JS_SNIPPETS)
+
 class AbsModule
 class AbsEtape
 class AbsTravailType

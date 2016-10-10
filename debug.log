@@ -7610,3 +7610,12 @@ Objet    = "bureau"
 Objet ID = nil
 Method   = "home"
 Context  = nil
+
+
+=== DEBUG DU 10 10 2016 - 11:31:39 ===
+
+-- 
+Objet    = "abs_travail_type"
+Objet ID = 1
+Method   = "edit"
+Context  = nil

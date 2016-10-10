@@ -52,7 +52,9 @@ class IcDocument
       d
     end
   end
-  def qdd_folder      ; @qdd_folder       ||= SuperFile.new(File.expand_path('./data/qdd')) end
+  def qdd_folder
+    @qdd_folder ||= SuperFile.new(File.expand_path('./data/qdd'))
+  end
 
 
 end #/IcDocument

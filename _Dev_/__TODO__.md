@@ -11,6 +11,7 @@
 
 ## À FAIRE RAPIDEMENT
 
+* Faire un backup de tous les documents QDD actuels et zipper
 * Corrections de Marion sur les étapes
 * Pouvoir synchroniser les étapes de travail locales avec les distantes
 

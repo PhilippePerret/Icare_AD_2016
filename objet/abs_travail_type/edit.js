@@ -52,5 +52,6 @@ $(document).ready(function(){
   // On met en forme les liens éventuels
   AbsTravailType.onchange_liens();
 
+  if(ONLINE){UI.prepare_champs_easy_edit(tous=true)}
 
 })
