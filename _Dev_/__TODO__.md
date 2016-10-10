@@ -13,7 +13,7 @@
 
 * Faire un backup de tous les documents QDD actuels et zipper
 * Corrections de Marion sur les étapes
-* Pouvoir synchroniser les étapes de travail locales avec les distantes
+* Pouvoir synchroniser les étapes de travail locales avec les distantes (en faisant très attention — mais normalement, c'est la synchro de bases de données qui devrait être utilisé)
 
 ## TESTS À FAIRE
 

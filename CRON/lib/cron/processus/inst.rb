@@ -39,7 +39,7 @@ class Cron
     #
     def run
       folder.require
-      Cron.send("_#{name}".to_sym)
+      cron.send("_#{name}".to_sym)
       set_last_execution
     end
 

@@ -69,6 +69,8 @@ require_folder './lib/app/required'
 require_folder './objet/site/lib/required'
 site.require_config
 
+User.init # charge les librairies du dossier objet/user
+
 # ---------------------------------------------------------------------
 #   Quelques initialisations et vérification
 # ---------------------------------------------------------------------

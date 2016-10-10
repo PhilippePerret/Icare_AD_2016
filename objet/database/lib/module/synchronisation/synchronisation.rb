@@ -21,14 +21,14 @@ class << self
 
   def message_confirmation
     m = String.new
-    m << "Il faut procéder à la synchronisation #{sens_humain}"
+    m << "Synchronisation de la table <strong>#{table_designation}</strong> #{sens_humain}."
     params[:where].nil? || begin
       m << "\nLes rangées à synchroniser doivent répondre au filtre : <span class='red'>#{params[:where].inspect}</span>. "
     end
     params[:columns].nil? || begin
       m << "Seules les colonnes <span class='red'>#{params[:columns].inspect}</span> seront affectées (les autres garderont leur valeur)"
     end
-    m << 'Confirmer la synchronisation'.in_a(onclick: "$.proxy(Database,'confirm_synchronisation')()", class: 'btn').in_div(class: 'right')
+    m << 'Confirmer la synchronisation'.in_a(onclick: "$.proxy(Database,'confirm_synchronisation')()", class: 'btn').in_div(class: 'air right')
   end
 
   def params
@@ -54,18 +54,9 @@ class << self
 
   def sens_humain
     @sens_humain ||= begin
-      "de :\n\n\t\t" +
-      if params[:sens] == 'd2l'
-        "<strong>la table distante `#{table_designation}` (source)</strong>"
-      else
-        "<strong>la table locale `#{table_designation}` (source)</strong>"
-      end +
-      "\n\nvers :\n\n\t\t" +
-      if params[:sens] == 'd2l'
-        "la table locale (destination)"
-      else
-        "la table distante (destination)"
-      end + "\n"
+      from = params[:sens] == 'd2l' ? 'distant' : 'local'
+      vers = params[:sens] == 'd2l' ? 'local'   : 'distant'
+      "du <b>site #{from} vers le site #{vers}</b>. Toutes les données #{vers}es plus anciennes que les données #{from}es seront remplacées. Les données <b>#{from}es</b> ne seront pas affectées"
     end
   end
 
@@ -87,6 +78,7 @@ class << self
   #
   def proceed_synchronisation
     resultat = Array.new
+    suivi_complet = Array.new
     resultat << "=== SYNCHRONISATION #{Time.now} ==="
     resultat << "=== BASE  : #{params[:base]}"
     resultat << "=== TABLE : #{params[:table]}"
@@ -102,6 +94,7 @@ class << self
         [table_offline, table_online]
       end
 
+    # Pour construire la requête finale
     drequest = Hash.new
 
     # Récupérer les rangées en fonction des filtres éventuels
@@ -113,8 +106,12 @@ class << self
     end
 
     resultat << "drequest : #{drequest.inspect}"
+
+
+
     rows_src = table_src.select(drequest)
 
+    # Les colonnes pour chaque rangée synchronisée
     des_colonnes =
       if params[:columns].nil?
         ""
@@ -123,25 +120,76 @@ class << self
       end
 
     resultat << "\n"+ "-"*80+"\n"
+
+
     # === On procède à la synchronisation
     rows_src.each do |row_src|
-      row_id = row_src[:id]
-      resultat << "* Synchronisation#{des_colonnes} de la rangée ##{row_id}"
-      if params[:columns].nil? || table_des.count(where:{id: row_id}) == 0
-        table_des.delete(row_id)
-        table_des.insert(row_src)
-      else
-        new_data = Hash.new
-        params[:columns].each do |column|
-          new_data.merge!(column => row_src[column])
-        end
-        table_des.update(row_id, new_data)
-      end
+      begin
+        row_id = row_src[:id]
 
+        # On prend la rangée de destination pour la comparer à la
+        # rangée source. Pour
+        # Pour le moment, la rangée est à actualiser si la propriété
+        # updated_at est inférieure. On signale aussi lorsque les propriétés
+        # update_at sont différentes.
+        row_des = table_des.get(row_id)
+
+        unknown_distant_data = row_des == nil
+
+        unless unknown_distant_data
+          if row_des[:updated_at] < row_src[:updated_at]
+            resultat << "\n\n* Sync#{des_colonnes} de la rangée ##{row_id}"
+          else
+            suivi_complet << "= Rangée ##{row_id} synchronisée"
+            next
+          end
+
+          # On regarde les données à actualiser (pour ne pas tout actualiser)
+          data2update = Hash.new
+          row_src.each do |k, v|
+            v.instance_of?(String) && v = v.force_encoding('utf-8')
+            data2update.merge!(k => v) if row_des[k] != v
+          end
+        end
+
+        div_detail_id = "div_detail_#{row_id}"
+        lien_detail = 'détail'.in_a(onclick: "$('div##{div_detail_id}').toggle()")
+        balise_in = " (#{lien_detail})<div id='#{div_detail_id}' style='display:none'>"
+
+        if unknown_distant_data
+          # Création de la rangée
+          # ---------------------
+          table_des.insert(row_src)
+          resultat << "  = CREATION de la rangée de destination#{balise_in}#{row_src.inspect}</div>"
+        elsif params[:columns].nil?
+          # Modification des données divergentes
+          # ------------------------------------
+          table_des.update(row_id, data2update)
+          resultat << "  = UPDATER les données des colonnes #{data2update.keys.collect{|k| ":#{k}"}.pretty_join}#{balise_in}#{data2update.inspect}</div>"
+        else
+          # Modification des colonnes voulues
+          # ---------------------------------
+          data2update = Hash.new
+          params[:columns].each do |column|
+            row_des[column] != row_src[column] || next
+            data2update.merge!(column => row_src[column])
+          end
+          table_des.update(row_id, new_data)
+          resultat << "  = UPDATER Les colonnes #{data2update.keys.collect{|k| ":#{k}"}.pretty_join}#{balise_in}#{data2update.inspect}</div>"
+        end
+      rescue Exception => e
+        mess = "Problème avec la rangée d'ID #{row_id} : #{e.message}"
+        resultat << "### #{mess}"
+        debug mess
+        debug e
+      end
     end
+    # /fin de boucle sur chaque rangée
     resultat << "\n"+ "-"*80+"\n"
 
-    resultat.join("\n")
+    resultat.join("\n") +
+    'Suivi complet'.in_h3 +
+    suivi_complet.join("\n")
   end
 end #/<< self
 end #/Table
