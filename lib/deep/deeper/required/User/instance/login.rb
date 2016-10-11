@@ -9,7 +9,6 @@ class User
   # Méthode qui permet d'auto-identifier l'user. Cette méthode
   # est utile pour identifier automatiquement les users avant
   # de les diriger vers une page définie par args[:route]
-  # Elle est utilisée aussi avec App#curl_as_user
   #
   # +args+  {Hash} des arguments transmis à la méthode
   #     :route      La route vers laquelle rediriger l'user après
@@ -54,8 +53,7 @@ class User
   def login
     app.benchmark('-> User#login')
 
-    # Si le mail n'est pas confirmé une heure après l'inscription,
-    # on produit une erreur.
+    # Si le mail n'est pas confirmé
     if false === mail_confirmed? && created_at < Time.now.to_i - 1.hour
       error "Désolé #{pseudo}, mais vous ne pouvez pas vous reconnecter avant d’avoir" +
             ' confirmé votre adresse-mail.' +
@@ -82,8 +80,8 @@ class User
       # Une redirection est demandée
       redirect_to param(:login)[:back_to]
     elsif self.respond_to?(:redirect_after_login)
-      # Sinon, une méthode peut être définie pour traiter les
-      # préférences de redirection de l'user
+      # Sinon, une redirection est peut-être définie
+      # par défaut par les préférences ou l'application
       self.send(:redirect_after_login)
     end
     app.benchmark('<- User#login')

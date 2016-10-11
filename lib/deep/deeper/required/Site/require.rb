@@ -19,7 +19,6 @@ class SiteHtml
     end
   end
 
-
   # Requiert tout le dossier lib/required de l'objet de nom
   # +objet_name+. +objet_name+ doit être un nom contenu dans le
   # dossier `./objet`

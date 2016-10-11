@@ -3,9 +3,7 @@ class SiteHtml
 class << self
 
   def current
-    @current ||= begin
-      SiteHtml.new
-    end
+    @current ||= SiteHtml.new
   end
 
   # Pour les tests (SiteHtml.reset_current)
@@ -18,7 +16,6 @@ class << self
 end #<< self
 end #/SiteHtml
 
-# def site; @site ||= SiteHtml.instance end
 def site
   @_instance_site ||= SiteHtml.current
 end
