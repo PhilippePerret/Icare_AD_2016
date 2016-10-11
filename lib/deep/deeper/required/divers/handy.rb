@@ -16,7 +16,8 @@
 #   :url            L'url, if any.
 #   :file           Le path du fichier qui a posé problème, if any
 #   :from           La provenance de l'erreur, même si elle peut
-#                   être retrouvée dans le backtrace
+#                   être retrouvée dans backtrace
+#   :extra          Pour envoyer d'autres données
 def send_error_to_admin args
   args =
     case args
@@ -37,7 +38,8 @@ def send_error_to_admin args
   Date : #{Time.now.to_i.as_human_date(true, true, ' ', 'à')}
 </p>
 <p>
-  User : #{user.identified? ? "#{user.pseudo} (#{user.id})" : '- inconnu -'}
+  User : #{user.identified? ? "#{user.pseudo} (#{user.id})" : '- inconnu -'}<br>
+  User IP : #{user.ip}
 </p>
 <pre style="font-size:11pt">
   MESSAGE : #{message}
@@ -56,9 +58,10 @@ def send_error_to_admin args
   end
 
   site.send_mail_to_admin(
-    subject:    "ERREUR SUR #{site.name}",
-    message:    message,
+    subject:      "ERREUR SUR #{site.name}",
+    message:      message,
     # force_offline:  true, # pour les essais
-    formated:   true
+    formated:     true,
+    no_header:    true
   )
 end

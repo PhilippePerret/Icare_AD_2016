@@ -94,7 +94,7 @@ class User
   def deconnexion
     app.benchmark('-> User#deconnexion')
     app.session['pseudo'] = pseudo # Pour s'en souvenir dans le message
-    User::current= nil
+    User.current= nil
     app.session['user_id'] = nil
     set(session_id: nil)
     # Dans le cas où ce serait l'administrateur qui visite en ayant

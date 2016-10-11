@@ -168,7 +168,6 @@ class SiteHtml
       rut = 'site/home'
     end
 
-    debug "Redirection -> #{rut}"
     @nombre_redirections += 1
 
     # Traitement spécial pour les routes 'user/signin' ou
@@ -242,11 +241,6 @@ class SiteHtml
     #   remplacée par une re-direction)
     #
     # ---------------------------------------------------------------------
-
-    # À l'initialisatoin, on ne fait rien
-    def initialize
-      # debug "-> Route::initialize"
-    end
 
     # ---------------------------------------------------------------------
     #   Méthodes utilitaires
@@ -345,10 +339,10 @@ class SiteHtml
     # est 'new'
     def method_call
       method_sym != :new || return
-      if false #true
-        cname = "#{sujet.class.name}" == 'Class' ? sujet.name : sujet.class.name
-        debug "sujet.class: #{cname} / method_sym: #{method_sym.inspect}"
-      end
+      # if false #true
+      #   cname = "#{sujet.class.name}" == 'Class' ? sujet.name : sujet.class.name
+      #   debug "sujet.class: #{cname} / method_sym: #{method_sym.inspect}"
+      # end
       sujet.send(method_sym) if method_sym != nil && sujet.respond_to?(method_sym)
     end
 

@@ -26,7 +26,7 @@ class Page
     # par 'admin'
     return '' if route.split('/').first == 'admin'
 
-    # Il arrive qu'on ne puisse pas obtenir l'user suivant à
+  # Il arrive qu'on ne puisse pas obtenir l'user suivant à
     # une erreur. Donc
     mpseudo = user.pseudo.downcase rescue 'nopseudo'
     filename = route.gsub(/[\/\?\&=]/,'_') + '_by_' + mpseudo
@@ -52,7 +52,7 @@ class Page
     @page_description = value
   end
 
-  # Définit le titre à affiche dans la fenêtre et dans
+  # Définit le titre à afficher dans la fenêtre et dans
   # l'historique du navigateur
   # Pour le définir dans une section, il faut utiliser
   # page.title = "<le titre>"
@@ -117,18 +117,6 @@ OFFLINE = !ONLINE;
   # html
   def raw_css
     low_opacities = ''
-      # if user.identified?
-      #   low_opacity = 1.0 - (0.08 * (app.session['user_nombre_pages'] || 1))
-      #   low_opacity = 0.14 if low_opacity < 0.14
-      #   # On ne joue plus sur l'opacité du bandeau supérieur 'section#header'
-      #   # 'div#chapiteau_logo' se trouve maintenant dans left_margin donc
-      #   # on n'a pas besoin de le traiter non plus.
-      #   ['section#left_margin'].collect do |jid|
-      #     "#{jid}{opacity:#{low_opacity}}"
-      #   end.join("\n")
-      # else
-      #   ""
-      # end
     low_opacity = user.identified? ? "0.14" : "1"
     low_opacity_header = user.identified? ? "0.5" : "1"
     low_opacity_margin = user.identified? ? "0.14" : "1"
