@@ -76,7 +76,7 @@ class << self
       File.unlink fp
       nombre_fichiers_detruits += 1
     end
-    log "  - Destruction des fichier de visit_as (#{nombre_fichiers_detruits}, dans ./tmp/_adm)"
+    log "  - Destruction des fichiers de visit_as (#{nombre_fichiers_detruits}, dans ./tmp/_adm)"
   end
 
 end #/<< self

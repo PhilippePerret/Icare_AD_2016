@@ -55,7 +55,7 @@ class User
     send_mail(
       subject:    'Dépassement d\'échéance de paiement',
       formated:   true,
-      message:    lire_mail_warning(level_warn, u)
+      message:    lire_mail_warning(level_warn)
     )
 
     # On modifie le niveau du dernier avertissement
