@@ -27,7 +27,7 @@ class User
     nombre_jours % 4 == 0 || return
 
     # On prend le niveau du dernier avertissement
-    opts = u.icetape.options || ''
+    opts = icetape.options || ''
     level_warn = opts[0].to_i + 1
     level_warn < 6 || begin
       # Échéance non modifiée après trop d'avertissements

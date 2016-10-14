@@ -14,18 +14,16 @@
 
 # Si le module est de type suivi, il faut créer un nouveau watcher dans
 # un mois
-date_next_paiement =
-  if icmodule.abs_module.type_suivi?
-    dnext_paiement = icmodule.next_paiement + 1.month
-    owner.add_watcher(
-      objet:      'ic_module',
-      objet_id:   objet_id,
-      processus:  'paiement',
-      triggered:  dnext_paiement - 3.days
-    )
-  else
-    nil
-  end
+date_next_paiement = nil
+if icmodule.abs_module.type_suivi?
+  date_next_paiement = icmodule.next_paiement + 1.month
+  owner.add_watcher(
+    objet:      'ic_module',
+    objet_id:   objet_id,
+    processus:  'paiement',
+    triggered:  date_next_paiement - 3.days
+  )
+end
 
 # Il faut enregistrer l'ID de ce paiement dans l'ic-module
 # Note : il est mis dans param(:paie_id) par le module de paiement.

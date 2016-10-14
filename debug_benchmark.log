@@ -1,36 +1,22 @@
-=== BENCHMARK DU 10 octobre 2016 à 14:52 ===
-=== Index start : 1476103951.943758 (2016-10-10 14:52:31 +0200)
+=== BENCHMARK DU 14 octobre 2016 à 12:38 ===
+=== Index start : 1476441507.742767 (2016-10-14 12:38:27 +0200)
 
 -> site/config.rb                                       0.000000  0.000000
-<- site/config.rb                                       0.000227  0.000227
--> execute_preambule                                    0.033559  0.033786
-  -> User#do_after_load                                 0.004527  0.038313
-  <- User#do_after_load                                 0.000013  0.038326
-<- execute_preambule                                    0.000003  0.038329
--> required.rb                                         -0.293635 -0.255306
-<- required.rb                                          0.293638  0.038332
--> SiteHtml#output                                      0.000041  0.038373
-  -> SiteHtml#execute_route                             0.000003  0.038376
-      | Objet    = "user"                                               - 
-      | Objet ID = 1                                                    - 
-      | Method   = "deconnexion"                                        - 
-      | Context  = nil                                  0.000098  0.038474
-    --> user.set_last_connexion                         0.000096  0.038570
-    <-- user.set_last_connexion                         0.000048  0.038618
-    --> iroute.load_required                            0.000005  0.038623
-    <-- iroute.load_required                            0.000835  0.039458
-    --> iroute.load_per_vue                             0.000006  0.039464
-    <-- iroute.load_per_vue                             0.000849  0.040313
-    --> iroute.method_call                              0.000006  0.040319
-    -> User#deconnexion                                 0.000173  0.040492
-    <- User#deconnexion                                 0.001315  0.041807
-    <-- iroute.method_call                              0.000008  0.041815
-  <- SiteHtml#execute_route                             0.000004  0.041819
-  -> Page#preload                                       0.000011  0.041830
-  <- Page#preload                                       0.031444  0.073274
-  -> Page#prebuild_body                                 0.000028  0.073302
-    -> Page#body                                        0.000006  0.073308
-    <- Page#body                                        0.000800  0.074108
-  <- Page#prebuild_body                                 0.000028  0.074136
-  CODE HTML FINAL BUILT                                 0.000083  0.074219
-<- SiteHtml#output                                      0.000004  0.074223
+<- site/config.rb                                       0.000138  0.000138
+-> execute_preambule                                    0.022397  0.022535
+  -> User#do_after_load                                 0.000044  0.022579
+  <- User#do_after_load                                 0.000003  0.022582
+<- execute_preambule                                    0.000002  0.022584
+-> required.rb                                         -0.180868 -0.158284
+<- required.rb                                          0.180870  0.022586
+-> SiteHtml#output                                      0.000027  0.022613
+  -> SiteHtml#execute_route                             0.000003  0.022616
+  <- SiteHtml#execute_route                             0.000019  0.022635
+  -> Page#preload                                       0.000006  0.022641
+  <- Page#preload                                       0.011341  0.033982
+  -> Page#prebuild_body                                 0.000014  0.033996
+    -> Page#body                                        0.000004  0.034000
+    <- Page#body                                        0.000194  0.034194
+  <- Page#prebuild_body                                 0.000006  0.034200
+  CODE HTML FINAL BUILT                                 0.000052  0.034252
+<- SiteHtml#output                                      0.000002  0.034254

@@ -57,6 +57,7 @@ class Page
       <<-HEAD
 <meta content="text/html; charset=utf-8" http-equiv="Content-type">
 <title>#{page.title}</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="shortcut icon" href="view/img/favicon.ico?" type="image/x-icon">
 <link rel="icon" href="view/img/favicon.ico?" type="image/x-icon">
 #{self.balise_meta_description}
@@ -64,6 +65,7 @@ class Page
 #{fonts_google}
 #{self.javascript}
 #{self.css}
+<link rel="stylesheet" type="text/css" href="view/css_speciaux/mobile.css" media="screen and (max-width: 800px)" />
 #{self.raw_css}
 #{self.raw_javascript}
       HEAD

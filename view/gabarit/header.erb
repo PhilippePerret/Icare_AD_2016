@@ -2,8 +2,8 @@
 # Définition de l'entête du site
 %>
 <section id="header">
-    <%= SiteHtml::Header.sign_buttons %>
     <span id="site_title"><a href=""><%= site.logo_title %></a><%= OFFLINE ? ' OFF'.in_span(class:'tiny') : '' %></span>
+    <%= SiteHtml::Header.sign_buttons %>
 </section>
 <%
 # Insertion de la pastille indiquant les tâches à exécuter
