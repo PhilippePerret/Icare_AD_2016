@@ -1,22 +1,32 @@
-=== BENCHMARK DU 14 octobre 2016 à 12:38 ===
-=== Index start : 1476441507.742767 (2016-10-14 12:38:27 +0200)
+=== BENCHMARK DU 15 octobre 2016 à 08:37 ===
+=== Index start : 1476513428.313241 (2016-10-15 08:37:08 +0200)
 
 -> site/config.rb                                       0.000000  0.000000
-<- site/config.rb                                       0.000138  0.000138
--> execute_preambule                                    0.022397  0.022535
-  -> User#do_after_load                                 0.000044  0.022579
-  <- User#do_after_load                                 0.000003  0.022582
-<- execute_preambule                                    0.000002  0.022584
--> required.rb                                         -0.180868 -0.158284
-<- required.rb                                          0.180870  0.022586
--> SiteHtml#output                                      0.000027  0.022613
-  -> SiteHtml#execute_route                             0.000003  0.022616
-  <- SiteHtml#execute_route                             0.000019  0.022635
-  -> Page#preload                                       0.000006  0.022641
-  <- Page#preload                                       0.011341  0.033982
-  -> Page#prebuild_body                                 0.000014  0.033996
-    -> Page#body                                        0.000004  0.034000
-    <- Page#body                                        0.000194  0.034194
-  <- Page#prebuild_body                                 0.000006  0.034200
-  CODE HTML FINAL BUILT                                 0.000052  0.034252
-<- SiteHtml#output                                      0.000002  0.034254
+<- site/config.rb                                       0.000137  0.000137
+-> execute_preambule                                    0.025928  0.026065
+  -> User#do_after_load                                 0.000053  0.026118
+  <- User#do_after_load                                 0.000004  0.026122
+<- execute_preambule                                    0.000002  0.026124
+-> required.rb                                         -0.192850 -0.166726
+<- required.rb                                          0.192853  0.026127
+-> SiteHtml#output                                      0.000031  0.026158
+  -> SiteHtml#execute_route                             0.000004  0.026162
+      | Objet    = "user"                                               - 
+      | Objet ID = nil                                                  - 
+      | Method   = "signin"                                             - 
+      | Context  = nil                                  0.000074  0.026236
+    --> iroute.load_required                            0.000076  0.026312
+    <-- iroute.load_required                            0.001197  0.027509
+    --> iroute.load_per_vue                             0.000008  0.027517
+    <-- iroute.load_per_vue                             0.000178  0.027695
+    --> iroute.method_call                              0.000004  0.027699
+    <-- iroute.method_call                              0.000248  0.027947
+  <- SiteHtml#execute_route                             0.000005  0.027952
+  -> Page#preload                                       0.000009  0.027961
+  <- Page#preload                                       0.006719  0.034680
+  -> Page#prebuild_body                                 0.000017  0.034697
+    -> Page#body                                        0.000005  0.034702
+    <- Page#body                                        0.000233  0.034935
+  <- Page#prebuild_body                                 0.000011  0.034946
+  CODE HTML FINAL BUILT                                 0.000050  0.034996
+<- SiteHtml#output                                      0.000002  0.034998
