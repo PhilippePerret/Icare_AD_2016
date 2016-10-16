@@ -106,7 +106,6 @@ class << self
           hmodifs.merge!(k => v)
         end
       end
-      debug "Données modifiées : #{hmodifs.pretty_inspect}"
 
       # Modifier dans la table locale et distante
       dbtable_absetapes.update(data[:id], hmodifs)
