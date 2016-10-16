@@ -36,7 +36,8 @@ end
 # ---------------------------------------------------------------------
 #   Méthodes d'helper
 # ---------------------------------------------------------------------
-# Champ pour afficher les liens formatés
+# Champ pour afficher les liens qui seront formatés en véritable
+# lien cliquable.
 def champ_liens
   '<div id="liens_formated" class="small"></div>'
 end
@@ -94,7 +95,7 @@ class << self
     if creation?
       # Créer la données en local et en offline
       data[:id] = dbtable_absetapes.insert(data)
-      table_online.insert(data)
+      ONLINE || table_online.insert(data)
       flash "L'étape ##{data[:id]} a été créée ONLINE et OFFLINE avec succès."
       redirect_to "abs_etape/#{data[:id]}/edit"
     else
@@ -109,7 +110,7 @@ class << self
 
       # Modifier dans la table locale et distante
       dbtable_absetapes.update(data[:id], hmodifs)
-      table_online.update(data[:id], hmodifs)
+      ONLINE || table_online.update(data[:id], hmodifs)
       # Message de confirmation
       flash "L'étape ##{data[:id]} a été modifiée ONLINE et OFFLINE avec succès."
     end
