@@ -89,6 +89,7 @@ site.redirections_after_login = {
   3 => {hname: 'Dernière page consultée', route: :last_page},
 
   # - ADMINISTRATEUR -
+  7 => {hname: 'Aperçu Icariens', route: 'admin/overview', admin: true},
   8 => {hname: 'Console', route: 'admin/console', admin: true},
   9 => {hname: 'Tableau de bord', route: 'admin/dashboard', admin: true}
 }
