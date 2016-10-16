@@ -31,7 +31,7 @@ class Lien
   end
 
   def narration titre = "la collection Narration", options = nil
-    titre.in_a(href: "http://www.laboiteaoutilsdelauteur.fr/cnarration/home", target: :new)
+    titre.in_a(href: "http://www.laboiteaoutilsdelauteur.fr/livre/list?in=cnarration", target: :new)
   end
 end
 

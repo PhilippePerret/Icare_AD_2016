@@ -126,16 +126,16 @@ class << self
             # Pour régler la hauteur
             # Pour régler la mark
             mark =
-              (case type
-              when :start
-                'D'  #'<span class="etpcard"></span>'
-              when :work      then 'W'
-              when :comments  then 'C'
-              when :paiement  then 'P'
-              end +
-              mark_pseudo(owner, top_pseudo, left_pseudo, farfromnow) +
-              carte_etape(type, owner, overrun, farfromnow)
-            ).in_span(class: "calmark #{type}#{overrun && type != :start ? ' overrun' : ''}", style: "top:#{top}px;")
+              (
+                case type
+                when :start     then 'D'
+                when :work      then 'W'
+                when :comments  then 'C'
+                when :paiement  then 'P'
+                end +
+                mark_pseudo(owner, top_pseudo, left_pseudo, farfromnow) +
+                carte_etape(type, owner, overrun, farfromnow)
+              ).in_span(class: "calmark #{type}#{overrun && type != :start ? ' overrun' : ''}", style: "top:#{top}px;")
             top += 24
             mark
           end.join

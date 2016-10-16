@@ -92,7 +92,7 @@ begin
   # documents. La constitution de cette donnée, qui sera mise dans les
   # paramètres avec le même nom, est décrite dans le fichier user_notify.erb
   @send_work_error = get_send_work_error
-  debug "[main] @send_work_error : #{@send_work_error.inspect}"
+  # debug "[main] @send_work_error : #{@send_work_error.inspect}"
   # Pour savoir si une erreur de note indéfinie a été rencontrée
   @error_note_undefined = false
 
@@ -223,11 +223,25 @@ begin
       processus:  'change_etape'
     )
 
+    # La date de remise des commentaires attendus, à mettre
+    # dans l'étape, et qu'on relève dans le premier document
+    # envoyé. Au pire, en cas de soucis, on la met dans quatre
+    # jours
+    expected_comments =
+      begin
+        IcModule::IcEtape::IcDocument.new(new_icdocuments_ids.first).expected_comments
+      rescue
+        Time.now.to_i + 4.days
+      end
+
     # On renseigne la propriété @documents de l'icetape
-    # Et on change son statut.
+    # + on change son statut
+    # + on définit la date expected_comments indiquant la date de
+    #   remise des documents.
     icetape.set(
-      documents:  new_icdocuments_ids.join(' '),
-      status:     2
+      documents:          new_icdocuments_ids.join(' '),
+      expected_comments:  expected_comments,
+      status:             2
       )
     app.session['send_work_error'] = nil
 
