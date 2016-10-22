@@ -40,7 +40,7 @@ end
 def same_etape_icarien?
   @is_same_etape_icarien ||= begin
     if user.icetape
-      icdoc.icetape.id == user.icetape.id
+      icdoc.icetape.abs_etape.numero == user.icetape.abs_etape.numero
     else
       false
     end
@@ -88,11 +88,42 @@ begin
   # BARRIÈRE MAUVAIS CHECKSUM
   icdoc.checksum == data_download[:checksum] || raise('Chercheriez-vous à télécharger illégalement des documents de l’atelier Icare ?…')
 
+  # Rappel : need? renvoie true si :
+  #   - le document existe
+  #   - ET
+  #     - soit l'étape du document est la même que l'étape de l'user
+  #     - soit l'user est un administrateur
+  #
   need?(:original) || need?(:comments) || begin
+    # Un problème qui ne devrait pas arriver, normalement…
+
+    # Si l'erreur vient du fait qu'aucun des deux documents n'existe,
+    # on doit signaler une erreur spéciale et la transmettre à l'administration
     if !icdoc.exist?(:original) && !icdoc.exist?(:comments)
-      raise 'Bizarrement, ce document n’existe pas ou plus sur le quai des docs…'
+      # On prend les données du document pour les envoyer à l'administration
+      # On y ajoute les noms dans le quai des docs.
+      data_icdoc = icdoc.get_all
+      data_icdoc.merge!(
+        nom_qdd_original: icdoc.qdd_path(:original),
+        nom_qdd_comments: icdoc.qdd_path(:comments)
+      )
+      data_error = {
+        exception: "Aucun des documents Quai des docs n'existe…",
+        extra: data_icdoc.inspect
+      }
+      send_error_to_admin(data_error)
+      raise 'Bizarrement, le document original n’existe plus sur le Quai des docs… L’administration vient d’être informée du problème.'
     else
-      raise 'Vous n’êtes pas autorisé à charger ces documents.'
+#       debug <<-HTML
+# \n\n= PROBLÈME D'AUTORISATION DE DOCUMENT =
+# = icdoc.get_all : #{icdoc.get_all.pretty_inspect}
+# = icdoc.exist?(:original) retourne #{icdoc.exist?(:original).inspect}
+# = icdoc.exist?(:comments) retourne #{icdoc.exist?(:comments).inspect}
+# = same_etape_icarien? retourne #{same_etape_icarien?.inspect}
+# = user.admin? retourne #{user.admin?.inspect}
+# \n\n
+#       HTML
+      raise "Vous n’êtes pas autorisé#{user.f_e} à charger ces documents. Si vous pensez être autorisé#{user.f_e}, merci d’avertir Phil."
     end
   end
 

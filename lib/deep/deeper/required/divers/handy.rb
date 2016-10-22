@@ -56,6 +56,9 @@ def send_error_to_admin args
   if args[:url]
     message += "Erreur rencontrée avec l'URL : #{args[:url]}".in_p
   end
+  if args[:extra]
+    message += "Autres informations (extra) : #{args[:extra]}"
+  end
 
   site.send_mail_to_admin(
     subject:      "ERREUR SUR #{site.name}",
