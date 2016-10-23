@@ -15,11 +15,7 @@ class << self
   # Envoi du message à l'administrateur, mais seulement s'il y a des
   # choses à dire.
   def send_admin_report
-    if @logs == nil || @logs.count == 0
-      return
-    else
-      log "@logs contient : #{@logs.inspect}, donc je l'envoie"
-    end
+    return if @logs == nil || @logs.count == 0
     send_mail_to_admin(
       subject:    "Un rapport de fin - #{Time.now}",
       message:    self.admin_report,
