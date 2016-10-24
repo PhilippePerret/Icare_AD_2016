@@ -17,7 +17,13 @@ class << self
   end
 
   def signout_button
-    'Déconnexion'.in_a(href:"user/#{user.id}/deconnexion", class: 'btn')
+    button_name, button_style =
+      if app.visit_as?
+        ["Déconnecter #{user.pseudo}", 'border:2px solid red']
+      else
+        ['Déconnexion', nil]
+      end
+    button_name.in_a(href:"user/#{user.id}/deconnexion", class: 'btn', style: button_style)
   end
   def signin_button
     site.route?('user/signin') && (return '')

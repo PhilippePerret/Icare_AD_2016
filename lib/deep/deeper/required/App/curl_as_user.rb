@@ -6,25 +6,41 @@ class App
     _visit_as user_id, options
   end
 
+  # Retourne true si c'est une "visite de l'administrateur comme…"
+  # Quand l'administrateur prend l'identité d'un icarien pour
+  # visiter le site, sans identification nécessaire.
+  def visit_as?
+    @is_visit_as === nil && begin
+      if app.session['admin_visit_as'] != nil
+        path_adm = _adm_folder + app.session['admin_visit_as']
+        path_adm.exist? || (raise 'file')
+        dva = Marshal.load(path_adm.read)
+        app.session.session_id == dva[:session_id] || (raise 'session_id')
+        user.ip == dva[:ip] || (raise 'ip')
+        @is_visit_as = true
+      else
+        @is_visit_as = false
+      end
+    end
+  rescue Exception => e
+    debug "Donnée divergente pour `visit_as` : #{e.message}"
+    debug e
+    @is_visit_as = false
+    raise "La piraterie est une activité néfaste."
+  else
+    return @is_visit_as
+  end
+
   # Méthode appelée par le préambule pour voir si c'est une visite
   # de l'administrateur en tant qu'autre icarien.
   def check_visit_as_user
-    app.session['admin_visit_as'] != nil || return
+    visit_as? || return
     path_adm = _adm_folder + app.session['admin_visit_as']
-    path_adm.exist? || (raise 'file')
     dva = Marshal.load(path_adm.read)
-    # debug "data visit as : #{dva.inspect}"
-    app.session.session_id == dva[:session_id] || (raise 'session_id')
-    user.ip == dva[:ip] || (raise 'ip')
     user_id = dva[:user_id]
     # On s'autologin en tant que cet icarien
     u = User.new(user_id)
     u.autologin
-    # flash "L'autoconnexion en tant que #{u.pseudo} a réussi"
-
-  rescue Exception => e
-    debug e
-    raise "La piraterie est une activités nuisible."
   end
 
   def stop_visit_as
