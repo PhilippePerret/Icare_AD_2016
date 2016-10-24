@@ -19,7 +19,9 @@ class Bureau
         'Outils'     => 'bureau/outils',
         'Frigo'      => "bureau/#{user.id}/frigo"
         )
-        unless user.admin?
+        if user.admin?
+          dgs.merge!('Dashboard' => 'admin/dashboard')
+        else
           dgs.merge!('Documents' => 'bureau/documents')
         end
         if user.actif? || user.en_pause?

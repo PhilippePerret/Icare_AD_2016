@@ -223,6 +223,14 @@ begin
       processus:  'change_etape'
     )
 
+    # Une tache pour l'administrateur
+    site.dbm_table(:hot, 'taches').insert(
+      tache:      "Télécharger les documents de #{user.pseudo}",
+      echeance:   Time.now.to_i,
+      created_at: Time.now.to_i,
+      updated_at: Time.now.to_i
+    ) rescue nil
+
     # La date de remise des commentaires attendus, à mettre
     # dans l'étape, et qu'on relève dans le premier document
     # envoyé. Au pire, en cas de soucis, on la met dans quatre

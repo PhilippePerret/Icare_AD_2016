@@ -87,26 +87,32 @@ end
 # On enregistre les données modifiées du document
 icdocument.set(data_document)
 
-inscription? || begin
-  # Contrairement au téléchargement des originaux par l'administrateur,
-  # on passe le statut de l'étape à 4 dès la réception d'un commentaire,
-  # car tous les documents ne seront pas forcément commentés.
-  all_comments_received = true
-  icetape.documents.split(' ').each do |docid|
-    idoc = IcModule::IcEtape::IcDocument.new(docid.to_i)
-    opts = idoc.options
-    if opts[8].to_i == 0 && opts[13].to_i != 1
-      all_comments_received = false
-      break
-    end
+# Contrairement au téléchargement des originaux par l'administrateur,
+# on passe le statut de l'étape à 4 dès la réception d'un commentaire,
+# car tous les documents ne seront pas forcément commentés.
+all_comments_received = true
+icetape.documents.split(' ').each do |docid|
+  idoc = IcModule::IcEtape::IcDocument.new(docid.to_i)
+  opts = idoc.options
+  if opts[8].to_i == 0 && opts[13].to_i != 1
+    all_comments_received = false
+    break
   end
-  all_comments_received && begin
-    # Quand tous les commentaires ont été envoyés ou annulés
-    site.require_objet 'actualite'
-    SiteHtml::Actualite.create(
-      user_id: owner.id,
-      message: "Phil transmet ses commentaires à <strong>#{owner.pseudo}</strong>."
-    )
-    icetape.set(status: 4)
-  end
+end
+all_comments_received && begin
+  # Quand tous les commentaires ont été envoyés ou annulés
+  site.require_objet 'actualite'
+  SiteHtml::Actualite.create(
+    user_id: owner.id,
+    message: "Phil transmet ses commentaires à <strong>#{owner.pseudo}</strong>."
+  )
+  icetape.set(status: 4)
+  # Une tache pour l'administrateur
+  site.dbm_table(:hot, 'taches').insert(
+    tache:      "Déposer les documents de #{owner.pseudo} sur le quai des docs",
+    echeance:   Time.now.to_i + 4.days,
+    created_at: Time.now.to_i,
+    updated_at: Time.now.to_i
+  ) rescue nil
+
 end

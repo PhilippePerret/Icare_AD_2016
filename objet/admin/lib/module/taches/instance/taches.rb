@@ -23,6 +23,10 @@ class Taches
     end
   end
 
+  def taches_proches
+    '[taches proches]'
+  end
+
   def liste_taches_admin_courant
     @liste_taches_admin_courant || liste_des_taches_dispatched
     @liste_taches_admin_courant
