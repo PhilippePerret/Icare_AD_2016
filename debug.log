@@ -136,3 +136,12 @@ Objet    = "user"
 Objet ID = 1
 Method   = "profil"
 Context  = nil
+
+
+=== DEBUG DU 24 10 2016 - 10:20:44 ===
+
+-- 
+Objet    = "user"
+Objet ID = 1
+Method   = "deconnexion"
+Context  = nil
