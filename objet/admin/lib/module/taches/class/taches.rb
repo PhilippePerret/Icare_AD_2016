@@ -11,16 +11,21 @@ class << self
     loc_table = site.dbm_table(:hot, 'taches', online = false)
     dis_rows = dis_table.select
     loc_rows = loc_table.select
-    if dis_rows != loc_rows
-      flash "Les deux tables loc/dis sont égales."
+    # debug "ROWS DISTANTES : #{dis_rows.inspect}"
+    # debug "ROWS LOCALES : #{loc_rows.inspect}"
+    if dis_rows == loc_rows
+      # flash "Les deux tables loc/dis sont synchronisées."
     else
+      # = TABLES LOCALE/DISTANTE DÉSYNCHRONISÉES =
       dis_rows.each do |dis_row|
         loc_row = loc_rows[dis_row[:id]]
         if loc_row.nil?
           # CRÉATION EN LOCAL
+          loc_table.insert(dis_row)
           debug "Création locale de #{dis_row.inspect}"
         elsif loc_row != dis_row
           # UPDATE EN LOCAL
+          loc_table.update(dis_row.delete(:id), dis_row)
           debug "UPDATE locale de #{dis_row.inspect}"
         else
           # OK
@@ -30,8 +35,8 @@ class << self
         dis_row = dis_rows[loc_row[:id]]
         if dis_row.nil?
           # CRÉATION EN DISTANT
-          # dis_table.insert(loc_row)
-          debug "Création de #{loc_row.inspect} en distant"
+          dis_table.insert(loc_row)
+          debug "Création distante de #{loc_row.inspect}"
         end
       end
       flash "Les tables online et offline ont été synchronisées."

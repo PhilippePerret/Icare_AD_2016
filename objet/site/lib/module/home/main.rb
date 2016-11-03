@@ -18,10 +18,11 @@ class << self
 
   def presentation_phil
     (
-      conteneur_medaillon_phil +
-      presentation_texte_phil
-    ).in_div(id: 'presentation_phil') +
-    bouton_modules_dapprentissage
+      conteneur_medaillon_phil        +
+      presentation_texte_phil         +
+      bouton_modules_dapprentissage
+    ).in_div(id: 'presentation_phil')
+
   end
 
   def bouton_modules_dapprentissage

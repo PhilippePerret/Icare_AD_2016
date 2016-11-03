@@ -55,7 +55,7 @@ class User
     send_mail(
       subject:    'Dépassement d\'échéance de paiement',
       formated:   true,
-      message:    lire_mail_warning(level_warn)
+      message:    lire_mail_echeance_paiement(level_warn)
     )
 
     # On modifie le niveau du dernier avertissement
@@ -68,7 +68,7 @@ class User
   end
   # /traite_echeance_paiement
 
-  def lire_mail_warning level_warn
+  def lire_mail_echeance_paiement level_warn
     pmail = (site.folder_objet+"ic_paiement/lib/mail/depassement_paiement_#{level_warn}.erb")
     pmail.deserb(bind)
   end

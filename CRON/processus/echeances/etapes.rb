@@ -53,7 +53,7 @@ class User
     send_mail(
       subject:    'Échéance de travail d’étape dépassée',
       formated:   true,
-      message:    lire_mail_warning(level_warn)
+      message:    lire_mail_echeance_etape(level_warn)
     )
     # On modifie le niveau du dernier avertissement
     icetape.set(options: opts.set_bit(0, level_warn))
@@ -64,7 +64,7 @@ class User
   end
   #/traite_echeances
 
-  def lire_mail_warning level_warn
+  def lire_mail_echeance_etape level_warn
     pmail = (IcModule::IcEtape.folder+"lib/mail/depassement_#{level_warn}.erb")
     pmail.deserb(self.bind)
   end
