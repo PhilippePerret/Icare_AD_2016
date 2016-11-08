@@ -245,6 +245,19 @@ class Lien
     build 'admin/console', titre, options
   end
 
+  # Obtenir un lien pour l'édition du fichier de path +path+
+  # qui peut être aussi bien un chemin relatif qu'un chemin complet.
+  # Le contenu du fichier est édité par l'éditeur du site, qui doit être
+  # réservé à l'administrateur
+  def edit_text path, options = nil
+    options ||= Hash.new
+    titre = options.delete(:titre) || "Édition du contenu de `#{path}'"
+    fullpath = File.expand_path(path)
+    options.merge!(href: "site/edit_text?path=#{fullpath}")
+    options.key?(:target) || options.merge!(target: :new)
+    titre.in_a(options)
+  end
+
   # Lien pour éditer un fichier par son path, dans l'éditeur de
   # son choix, soit Textmate, soit Atom si le fichier est d'extension
   # quelconque, sauf .md

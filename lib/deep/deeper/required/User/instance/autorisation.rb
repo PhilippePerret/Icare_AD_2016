@@ -53,7 +53,6 @@ class User
         # soient corrigés
         @is_authorized ||= patch_modification_users
       end
-      debug "@is_authorized : #{@is_authorized.inspect}"
     end
     @is_authorized
   end

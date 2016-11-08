@@ -36,6 +36,7 @@ class ::String
   #               si le code vient d'un SuperFile. Dans ce cas, ce
   #               possesseur peut déterminer des méthodes supplémentaires
   #               de traitement
+  #     :folder_image   Le dossier des images
   #     :pre_code Du code markdown à ajouter avant le code
   #
   def kramdown options = nil
@@ -230,12 +231,21 @@ class SuperFile
 
     # On doit produire un code ERB
     options[:output_format] ||= :erb
-    options[:folder_image] = folder.to_s
+
+    # Le dossier contenant les images
+    # Soit une méthode existe (extension de la classe SuperFile, comme
+    # pour la collection Narration), soit on prend le dossier du fichier
+    dossier_des_images =
+      if self.respond_to?(:folder_image)
+        folder_image
+      else
+        folder.to_s
+      end
 
     options.merge!(
       owner:        self,
       # Pour trouver un dossier image, if any
-      folder_image: folder.to_s
+      folder_image: dossier_des_images
     )
 
     code = self.read.gsub(/\r\n?/, "\n").chomp

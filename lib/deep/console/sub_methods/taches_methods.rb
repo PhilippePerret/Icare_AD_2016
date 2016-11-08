@@ -195,7 +195,7 @@ class Console
             end
           # S'il y a un fichier associé à la tache
           thefile =
-            if itask.file
+            if itask.file.nil_if_empty != nil
               if File.exist? itask.file
                 # Si file est un fichier
                 nfile = File.basename(itask.file)

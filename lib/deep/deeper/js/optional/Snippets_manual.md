@@ -6,6 +6,7 @@
 * [Définir des snippets propres](#definir_des_snippets_propres)
 * [Scope des snippets](#fonction_par_scope)
   * [Définir le scope courant](#definir_le_scope_courant)
+  * [Exécuter une fonction au déclenchement du snippet](#fonctiontoplay)
 * [Exécuter une méthode au Retour Chariot](#executer_une_methode_au_return_seul)
 * [Exécuter une méthode au CMD + Retour chariot](#executer_une_methode_on_return)
 * [Méthode à appeler si touche modificatrice](#methode_a_appeler_quand_modifier)
@@ -134,6 +135,23 @@ Le texte de remplacement sera `<span id="ID" class="CLASSE">TEXTE</span>`. Donc 
     mes_snippets = {
       'span': {replace: '<span id="$1" class="$2">$0</span>'}
     }
+
+<a name='fonctiontoplay'></a>
+
+## Exécuter une fonction au déclenchement du snippet
+
+Pour déclencher une fonction quand on joue un snippet (après la tabulation), il faut définir la propriété `func` et lui donner la valeur de la fonction (sans les parenthèse).
+
+~~~js
+  window.ma_fonction_a_jouer = function(){
+    alert('Je joue la fonction.')
+  }
+
+  mes_snippets = {
+    'span': {replace:'unespan', func:ma_fonction_a_jouer}
+  }
+
+~~~
 
 <a name='fonction_par_scope'></a>
 

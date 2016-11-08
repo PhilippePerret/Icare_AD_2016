@@ -68,13 +68,13 @@ class Update
 
     # Le degré de l'importance
     if @data.key? :degre
-      @data[:options] ||= ""
-      @data[:options][0] = @data[:degre]
+      @data[:options] ||= ''
+      @data[:options][0] = @data[:degre].to_s
       @options = @data[:options]
     end
 
 
-    debug "@data après correction : #{@data.inspect}"
+    # debug "@data après correction : #{@data.inspect}"
   end
 
   # ---------------------------------------------------------------------
@@ -88,6 +88,7 @@ class Update
   def annonce     ; @annonce    ||= data[:annonce]            end
   def options     ; @options    ||= data[:options] || ''      end
   def created_at  ; @created_at ||= data[:created_at] || Time.now.to_i  end
+  def updated_at  ; @updated_at ||= data[:updated_at] end
 
   #
   # / fin des données
@@ -149,7 +150,8 @@ class Update
       route:        route,
       annonce:      annonce,
       options:      options,
-      created_at:   created_at
+      created_at:   created_at,
+      updated_at:   Time.now.to_i
     }
   end
 

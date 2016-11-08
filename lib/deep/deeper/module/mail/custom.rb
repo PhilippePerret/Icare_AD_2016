@@ -44,7 +44,7 @@ class Mail
     def style_citation
       @style_citation ||= <<-CSS
 div#citation a, div#citation a:hover, div#citation a:link, div#citation a:visited{
-  text-decoration: none; color: black;
+  text-decoration: none; color: black; font-size:13.2pt!important;
 }
 div#citation span#quote_citation{
   font-style: italic;
