@@ -24,13 +24,27 @@ class << self
     )
   end
 
+  # Écriture du rapport dans un fichier, toutes les heures
+  def write_report
+    report_file.append "\n\n--- #{Time.now} ---\n#{admin_report}"
+  rescue Exception => e
+    debug e
+  end
+
+  # SuperFile dans lequel doit être enregistré le rapport
+  def report_file
+    @report_file ||= SuperFile.new([APP_FOLDER, 'CRON', 'report.html'])
+  end
+
   # Construction du rapport administrateur
   def admin_report
-    messages_log = @logs.collect{|h| h[:content].in_div(class: h[:options][:class])}.join
-    <<-TXT
-<h2>Messages logs</h2>
-#{messages_log}
-    TXT
+    @admin_report ||= begin
+      messages_log = @logs.collect{|h| h[:content].in_div(class: h[:options][:class])}.join
+      <<-TXT
+  <h2>Messages logs</h2>
+  #{messages_log}
+      TXT
+    end
   end
 
 end #/<< self

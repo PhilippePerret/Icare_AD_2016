@@ -57,8 +57,8 @@ class Cron
     # fonction de la fréquence.
     def time_next_execution
       case frequence
-      when :once_a_day  then last_execution + 1.day
-      when :once_a_week then last_execution + 7.days
+      when :once_a_day  then last_execution + 1.day  - 10
+      when :once_a_week then last_execution + 7.days - 10
       else raise "La fréquence #{frequence} n'est pas traitée par les processus Cron."
       end
     end
@@ -68,7 +68,7 @@ class Cron
       @last_execution = nil # pour récupérer sa nouvelle valeur, au cas où
     end
 
-    # La clé pour consigner la date de dernière exécution
+    # La clé pour consigner la date de dernière exécution du processus
     def key_last_date
       @key_last_date ||= "processus_cron_#{name}".to_sym
     end
