@@ -4,6 +4,13 @@
   Ce module permet de procéder au changement d'étape après que Phil
   aie choisi l'étape.
 
+  Note :
+
+    ATTENTION : si ce module est changé, les changements doivent être
+    reportés dans le fichier
+    ./objet/admin/lib/module/operations_user/etape_change.rb qui permet
+    de forcer un changement d'étape.
+    
 =end
 
 # L'icetape précédente doit être enregistré dans la donnée
