@@ -1,0 +1,24 @@
+=== BENCHMARK DU 13 novembre 2016 à 17:41 ===
+=== Index start : 1479055277.539527 (2016-11-13 17:41:17 +0100)
+
+-> site/config.rb                                       0.000000  0.000000
+<- site/config.rb                                       0.000155  0.000155
+-> execute_preambule                                    0.026917  0.027072
+  -> User#do_after_load                                 0.003129  0.030201
+  <- User#do_after_load                                 0.000011  0.030212
+<- execute_preambule                                    0.000004  0.030216
+-> required.rb                                         -0.198867 -0.168651
+<- required.rb                                          0.198870  0.030219
+-> SiteHtml#output                                      0.000038  0.030257
+  -> SiteHtml#execute_route                             0.000004  0.030261
+    --> user.set_last_connexion                         0.000036  0.030297
+    <-- user.set_last_connexion                         0.001919  0.032216
+  <- SiteHtml#execute_route                             0.000025  0.032241
+  -> Page#preload                                       0.000014  0.032255
+  <- Page#preload                                       0.021763  0.054018
+  -> Page#prebuild_body                                 0.000020  0.054038
+    -> Page#body                                        0.000004  0.054042
+    <- Page#body                                        0.000292  0.054334
+  <- Page#prebuild_body                                 0.000008  0.054342
+  CODE HTML FINAL BUILT                                 0.000113  0.054455
+<- SiteHtml#output                                      0.000005  0.054460
