@@ -8,11 +8,13 @@ class Cron
 # pour voir si c'est bien l'heure de l'envoi.
 #
 def _mail_activites
+  REF_LOG_SUIVI.write " -> cron._mail_activites\n"
   Cron::Activites.mail_activites
   if Time.now.saturday? && Time.now.hour == Cron::Activites::MAIL_ACTIVITES_HOUR
     is_mail_hebdomadaire = true
     Cron::Activites.mail_activites
   end
+  REF_LOG_SUIVI.write " <- /cron._mail_activites\n"
 end
 
 class Activites
@@ -34,6 +36,15 @@ class << self
     self.is_mail_hebdomadaire
   end
 
+  # Cette méthode retourne true s'il y a des activités de la
+  # veille qui n'ont pas été envoyées. Cela se voit si :
+  #   1/ il existe des activités non envoyées
+  #   2/ certaines de ces activités ont une date plus vieille
+  #      d'un jour.
+  def actualites_non_envoyees?
+    dernieres_activites.count > 0
+  end
+
   # = main =
   #
   # Méthode principale qui envoie les mails d'activité à tous les
@@ -46,32 +57,45 @@ class << self
   # version du cron.
   #
   def mail_activites
+    REF_LOG_SUIVI.write "   -> Cron::Activites::mail_activites…\n"
     reset
     if mail_hebdomadaire?
+      REF_LOG_SUIVI.write "     Envoi du mail hebdomadaire nécessaire\n"
       log "<hr />"
       log '---> Envoi du mail HEBDOMADAIRE', {time: true}
+    elsif actualites_non_envoyees?
+      REF_LOG_SUIVI.write "     Il existe des mails d'activités de la veille non envoyés.\n"
+      REF_LOG_SUIVI.write "     Je poursuis l'opération pour envoyer ces actualités.\n"
     elsif Time.now.hour == MAIL_ACTIVITES_HOUR
+      REF_LOG_SUIVI.write "     Envoi des mails d'activités de la veille\n"
       log "<hr />"
       log "---> Envoi des mails d'actualite de la veille", {time: true}
     else
       # Si ça n'est pas l'heure
+      REF_LOG_SUIVI.write "     Pas l'heure d'envoi des mails d'activité\n"
+      REF_LOG_SUIVI.write "   <- /Activites::mail_activites\n"
       return
     end
 
     # S'il n'y a aucune actualité trouvée pour la veille, on peut
     # s'en retourner aussitôt
     if dernieres_activites.empty?
+      REF_LOG_SUIVI.write "     Aucune activité trouvée\n"
+      REF_LOG_SUIVI.write "   <- /Activites::mail_activites\n"
       log '= Aucune actualite trouvée.'
       return
     end
 
     if mode_test?
+      REF_LOG_SUIVI.write "     MODE TEST\n"
       log "MODE TEST --- Les mails ne seront pas vraiment envoyes"
     end
 
     log "*** ENVOI DES MESSAGES D'ACTUALITE ***", {time: true}
     destinataires.count > 0 || begin
       log "Aucun destinataire trouvé"
+      REF_LOG_SUIVI.write "     Aucun destinataire trouvé (stop now)\n"
+      REF_LOG_SUIVI.write "   <- /Activites::mail_activites\n"
       return
     end
 
@@ -80,18 +104,24 @@ class << self
     # ----------------------------
     # log "- POUR LE MOMENT, LES MAILS NE SONT ENVOYÉS QU'À PHIL"
     # cf. def destinataires ci-dessous
+    REF_LOG_SUIVI.write "     *** Boucle d'envoi des mails… "
+    nombre_mails = 0
+    nombre_destinataires = destinataires.count
     destinataires.each do |u|
       site.mails_out.include?(u.mail) && next
       resultat = send_mail_to u
       if resultat === true
         log "--- Message envoyé à #{u.pseudo} (#{u.mail})"
+        nombre_mails += 1
       else
         debug resultat
         log "--# Erreur avec #{u.pseudo} (#{u.mail}) : #{resultat.message}"
       end
     end
+    REF_LOG_SUIVI.write "OK (#{nombre_mails} mails envoyés sur #{nombre_destinataires} destinataires)\n"
 
   rescue Exception => e
+    REF_LOG_SUIVI.write "ERROR (#{e.message})"
     debug e
     mess_err = e.message + "\n\n" + e.backtrace.join("\n")
     log "### Une erreur s'est produite : #{mess_err}"

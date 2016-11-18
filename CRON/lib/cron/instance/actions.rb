@@ -5,9 +5,13 @@ class Cron
   # de l'heure.
   #
   # Rappel : le cron-job travaille toutes les heures.
+  # On peut mettre :each_time en valeur de fréquence (2e argument) lorsqu'on
+  # augmente la fréquence de lancement du cron (par exemple toutes les 5
+  # minutes) lorsque l'on fait des essais.
+  #
   def exec
 
-    run_processus 'mail_activites', :once_a_day
+    run_processus 'mail_activites', :once_an_hour
 
     run_processus 'nettoyage_site', :once_a_day
 
@@ -32,10 +36,14 @@ class Cron
   # La date de dernière exécution est enregistrée dans la table
   #
   def run_processus proc_name, frequence = :once_a_day
+    REF_LOG_SUIVI.write " -> cron.run_processus('#{proc_name}', #{frequence.inspect})…\n"
     Processus.new(proc_name).run_if_needed(frequence)
   rescue Exception => e
+    REF_LOG_SUIVI.write " ERROR : #{e.message}"
     bt = e.backtrace.join("\n")
     log "### ERREUR EN EXECUTANT LE PROCESSUS #{proc_name} : #{e.message}\n#{bt}"
+  else
+    REF_LOG_SUIVI.write " <- /cron.run_processus('#{proc_name}', #{frequence.inspect})…\n"
   end
 
   def folder_processus

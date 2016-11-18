@@ -14,6 +14,8 @@ class Cron
 
     # La fréquence d'exécution du processus
     # Valeurs possibles :
+    #   :each_time
+    #   :once_an_hour
     #   :once_a_day
     #   :once_a_week
     attr_reader :frequence
@@ -32,7 +34,14 @@ class Cron
     #
     def run_if_needed frequence
       @frequence = frequence
-      run if must_be_run?
+      REF_LOG_SUIVI.write "   -> Processus<#{name}>#run_if_needed\n"
+      if must_be_run?
+        run
+      else
+        REF_LOG_SUIVI.write "       Ce processus ne doit pas être joué\n"
+        REF_LOG_SUIVI.write "       Date de dernière exécution  : #{Time.at(last_execution)}\n"
+        REF_LOG_SUIVI.write "       Date de prochaine exécution : #{Time.at(time_next_execution)}\n"
+      end
     end
 
     # = main =
@@ -45,7 +54,7 @@ class Cron
 
     # Retourne true si le processus doit être joué
     def must_be_run?
-      last_execution.nil? || Time.now.to_i > time_next_execution
+      frequence.nil? || last_execution.nil? || Time.now.to_i > time_next_execution
     end
 
     # Retourne la date de dernière exécution
@@ -57,8 +66,10 @@ class Cron
     # fonction de la fréquence.
     def time_next_execution
       case frequence
-      when :once_a_day  then last_execution + 1.day  - 10
-      when :once_a_week then last_execution + 7.days - 10
+      when :each_time     then last_execution + 10
+      when :once_an_hour  then last_execution + 3600 - 10
+      when :once_a_day    then last_execution + 1.day  - 10
+      when :once_a_week   then last_execution + 7.days - 10
       else raise "La fréquence #{frequence} n'est pas traitée par les processus Cron."
       end
     end
