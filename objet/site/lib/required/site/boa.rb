@@ -9,7 +9,7 @@ class SiteHtml
   def get_a_citation options = nil
     options ||= Hash.new
     options[:only_online] && OFFLINE && (return nil)
-    client = client_boa('boite-a-outils_cold') # ensuite : _biblio
+    client = client_boa('boite-a-outils_biblio') # ensuite : _biblio
     candidates = client.query("SELECT id, citation, auteur FROM citations ORDER BY last_sent ASC LIMIT 10 OFFSET 11;")
     candidates = candidates.collect{|row| row}
     candidate = candidates.shuffle.shuffle.first.to_sym
