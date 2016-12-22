@@ -180,8 +180,11 @@ class << self
         whereclause << "( SUBSTRING(options,18,1) = '0' OR SUBSTRING(options,18,1) = '3' )"  # actif ou mail quotidien
       end
       whereclause = whereclause.join(' AND ')
-      dreq = {where: whereclause, colonnes: []}
-      dbtable_users.select(dreq).collect { |hu| User.new(hu[:id]) }
+      dreq = {where: whereclause, colonnes: [:mail]}
+      dbtable_users.select(dreq).collect do |hu|
+        MAILS_OUT.include?(hu[:mail]) && next
+        User.new(hu[:id])
+      end.compact
       # Pour envoyer seulement à Phil et Marion
       # [ User.new(1), User.new(2) ]
     end
