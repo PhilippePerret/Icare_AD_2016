@@ -26,10 +26,10 @@ class << self
 
   def link_overview overview_id = :home
     case overview_id
-    when :home        then 'Présentation général de l\'atelier'
-    when :reussites   then 'Belles réussites d\'icarien(ne)s'
-    when :parcours    then 'Parcours fictifs de 3 icarien(ne)s'
-    when :raisons     then '10 bonnes raisons de choisir l\'atelier'
+    when :home        then 'Présentation de l’atelier'
+    when :reussites   then 'Belles réussites d’icarien(ne)s'
+    when :parcours    then 'Parcours fictif de 3 icarien(ne)s'
+    when :raisons     then '10 bonnes raisons de choisir l’atelier'
     when :temoignages then 'Témoignages'
     when :stats       then 'L’atelier en chiffres'
     end.in_a(href: "overview/#{overview_id}")
