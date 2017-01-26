@@ -1,32 +1,32 @@
-=== BENCHMARK DU 20 janvier 2017 à 15:47 ===
-=== Index start : 1484923672.3872142 (2017-01-20 15:47:52 +0100)
+=== BENCHMARK DU 26 janvier 2017 à 17:01 ===
+=== Index start : 1485446514.088568 (2017-01-26 17:01:54 +0100)
 
 -> site/config.rb                                       0.000000  0.000000
-<- site/config.rb                                       0.000207  0.000207
--> execute_preambule                                    0.063025  0.063232
-  -> User#do_after_load                                 0.000073  0.063305
-  <- User#do_after_load                                 0.000004  0.063309
-<- execute_preambule                                    0.000002  0.063311
--> required.rb                                         -0.434295 -0.370984
-<- required.rb                                          0.434299  0.063315
--> SiteHtml#output                                      0.000027  0.063342
-  -> SiteHtml#execute_route                             0.000004  0.063346
+<- site/config.rb                                       0.000254  0.000254
+-> execute_preambule                                    0.027781  0.028035
+  -> User#do_after_load                                 0.000073  0.028108
+  <- User#do_after_load                                 0.000004  0.028112
+<- execute_preambule                                    0.000002  0.028114
+-> required.rb                                         -0.325947 -0.297833
+<- required.rb                                          0.325951  0.028118
+-> SiteHtml#output                                      0.000035  0.028153
+  -> SiteHtml#execute_route                             0.000004  0.028157
       | Objet    = "overview"                                           - 
       | Objet ID = nil                                                  - 
-      | Method   = "home"                                               - 
-      | Context  = nil                                  0.000089  0.063435
-    --> iroute.load_required                            0.000112  0.063547
-    <-- iroute.load_required                            0.002162  0.065709
-    --> iroute.load_per_vue                             0.000013  0.065722
-    <-- iroute.load_per_vue                             0.000132  0.065854
-    --> iroute.method_call                              0.000004  0.065858
-    <-- iroute.method_call                              0.000184  0.066042
-  <- SiteHtml#execute_route                             0.000003  0.066045
-  -> Page#preload                                       0.000009  0.066054
-  <- Page#preload                                       0.021531  0.087585
-  -> Page#prebuild_body                                 0.000015  0.087600
-    -> Page#body                                        0.000003  0.087603
-    <- Page#body                                        0.000583  0.088186
-  <- Page#prebuild_body                                 0.000020  0.088206
-  CODE HTML FINAL BUILT                                 0.000075  0.088281
-<- SiteHtml#output                                      0.000003  0.088284
+      | Method   = "parcours"                                           - 
+      | Context  = nil                                  0.000090  0.028247
+    --> iroute.load_required                            0.000123  0.028370
+    <-- iroute.load_required                            0.003087  0.031457
+    --> iroute.load_per_vue                             0.000021  0.031478
+    <-- iroute.load_per_vue                             0.000274  0.031752
+    --> iroute.method_call                              0.000021  0.031773
+    <-- iroute.method_call                              0.000400  0.032173
+  <- SiteHtml#execute_route                             0.000010  0.032183
+  -> Page#preload                                       0.000016  0.032199
+  <- Page#preload                                       0.022360  0.054559
+  -> Page#prebuild_body                                 0.000024  0.054583
+    -> Page#body                                        0.000007  0.054590
+    <- Page#body                                        0.000918  0.055508
+  <- Page#prebuild_body                                 0.000032  0.055540
+  CODE HTML FINAL BUILT                                 0.000277  0.055817
+<- SiteHtml#output                                      0.000006  0.055823

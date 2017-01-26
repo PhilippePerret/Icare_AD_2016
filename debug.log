@@ -971,3 +971,204 @@ Objet    = "overview"
 Objet ID = nil
 Method   = "home"
 Context  = nil
+
+
+=== DEBUG DU 26 01 2017 - 16:01:02 ===
+
+-- 
+Objet    = "overview"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 26 01 2017 - 16:01:06 ===
+
+-- 
+Objet    = "overview"
+Objet ID = nil
+Method   = "raisons"
+Context  = nil
+
+
+=== DEBUG DU 26 01 2017 - 16:01:21 ===
+
+-- 
+Objet    = "overview"
+Objet ID = nil
+Method   = "raisons"
+Context  = nil
+
+
+=== DEBUG DU 26 01 2017 - 16:11:10 ===
+
+-- 
+Objet    = "overview"
+Objet ID = nil
+Method   = "raisons"
+Context  = nil
+
+
+=== DEBUG DU 26 01 2017 - 16:17:47 ===
+
+-- 
+Objet    = "overview"
+Objet ID = nil
+Method   = "raisons"
+Context  = nil
+
+
+=== DEBUG DU 26 01 2017 - 16:20:27 ===
+
+-- 
+Objet    = "overview"
+Objet ID = nil
+Method   = "raisons"
+Context  = nil
+
+
+=== DEBUG DU 26 01 2017 - 16:26:39 ===
+
+-- 
+Objet    = "overview"
+Objet ID = nil
+Method   = "raisons"
+Context  = nil
+
+
+=== DEBUG DU 26 01 2017 - 16:26:55 ===
+
+-- 
+Objet    = "overview"
+Objet ID = nil
+Method   = "raisons"
+Context  = nil
+
+
+=== DEBUG DU 26 01 2017 - 16:34:16 ===
+
+-- 
+Objet    = "overview"
+Objet ID = nil
+Method   = "raisons"
+Context  = nil
+
+
+=== DEBUG DU 26 01 2017 - 16:35:56 ===
+
+-- 
+Objet    = "overview"
+Objet ID = nil
+Method   = "raisons"
+Context  = nil
+
+
+=== DEBUG DU 26 01 2017 - 16:40:02 ===
+
+-- 
+Objet    = "overview"
+Objet ID = nil
+Method   = "raisons"
+Context  = nil
+-- undefined method `reussites' for #<Lien:0x007fbdf1044b68>
+
+(erb):194:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 26 01 2017 - 16:40:18 ===
+
+-- 
+Objet    = "overview"
+Objet ID = nil
+Method   = "raisons"
+Context  = nil
+-- undefined method `overview' for #<Lien:0x007fdc90910a40>
+
+(erb):194:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 26 01 2017 - 16:41:31 ===
+
+-- 
+Objet    = "overview"
+Objet ID = nil
+Method   = "raisons"
+Context  = nil
+
+
+=== DEBUG DU 26 01 2017 - 16:48:49 ===
+
+-- 
+Objet    = "overview"
+Objet ID = nil
+Method   = "parcours"
+Context  = nil
+
+
+=== DEBUG DU 26 01 2017 - 16:58:06 ===
+
+-- 
+Objet    = "overview"
+Objet ID = nil
+Method   = "parcours"
+Context  = nil
+-- undefined method `download' for #<String:0x007f9e4b0be2f8>
+
+(erb):100:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 26 01 2017 - 16:58:19 ===
+
+-- 
+Objet    = "overview"
+Objet ID = nil
+Method   = "parcours"
+Context  = nil
+
+
+=== DEBUG DU 26 01 2017 - 17:01:54 ===
+
+-- 
+Objet    = "overview"
+Objet ID = nil
+Method   = "parcours"
+Context  = nil
