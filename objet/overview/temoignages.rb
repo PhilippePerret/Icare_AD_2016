@@ -9,7 +9,7 @@ class Temoignages
 
     # Construit et retourne le code HTML du listing des témoignages
     def listing
-      debug "temoignages.count : #{temoignages.count}"
+      # debug "temoignages.count : #{temoignages.count}"
       temoignages.collect do |dtem|
         (
           formate_content(dtem[:content]).in_div(class: 'content') +

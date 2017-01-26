@@ -52,7 +52,7 @@ class << self
       message: <<-HTML
       <p>Phil,</p>
       <p>Un nouveau témoignage (##{tem_id}) vient d'être déposé par #{u.pseudo} (##{uid}).</p>
-      <p>Il est à valider (pour le moment, en l'éditant par son ID ##{tem_id} et en mettant son `confirmed` à 1).</p>
+      <p>Il est à valider. Pour le moment, il faut le faire en affichant la table `cold > temoignages` et en exécutant le code `set(#{tem_id}, {confirmed: 1})`).</p>
       HTML
     )
     # Message de remerciement
