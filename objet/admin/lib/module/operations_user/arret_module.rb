@@ -16,7 +16,7 @@ class << self
       return false
     end
 
-    data_icarien = Hash.new
+    data_icarien  = Hash.new
     data_icmodule = Hash.new
 
     @suivi << '- Mise à NIL de l’icmodule_id de l’icarien.'
@@ -47,6 +47,18 @@ class << self
     icarien.icmodule.set(data_icmodule)
     # Changement des données de l'icarien
     icarien.set(data_icarien)
+
+    if long_value != nil
+      icarien.send_mail(
+        subject: 'Fin de votre module d’apprentissage',
+        message: <<-HTML
+<p>Bonjour #{icarien.pseudo},</p>
+<p>Je vous informe de l'arrêt du module d’apprentissage que vous suiviez à l’atelier Icare.</p>
+#{long_value}
+        HTML
+      )
+      @suivi << '- Mail envoyé à l’icarien avec le message fourni.'
+    end
 
     flash "Arrêt du module de #{icarien.pseudo} exécuté avec succès en #{ONLINE ? 'ONLINE' : 'OFFLINE'}."
   end
