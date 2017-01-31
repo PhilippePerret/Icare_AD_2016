@@ -31,10 +31,10 @@ class User
     bit_state > 1
   end
   def actif?
-    bit_state == 2
+    bit_state == 2 && !en_pause?
   end
   def en_pause?
-    bit_state == 3
+    icmodule != nil && icmodule.en_pause?
   end
   def inactif?
     bit_state == 4

@@ -50,6 +50,9 @@ class << self
       Bureau.require_module 'infos_etape'
       _fs_module_courant +
       _fs_etape_courante
+    elsif user.en_pause?
+      'Vous êtes en pause, vous pouvez redémarrer votre module à tout moment en cliquant sur le bouton ci-dessus.'.in_div(class: 'small italic') +
+      'Redémarrer le module'.in_a(href: "ic_module/#{user.icmodule.id}/restart", class: 'btn')
     else
       "Bienvenue dans votre bureau".in_div(class: 'big left', style:'margin: 2em 0 1.5em') +
       if user.recu?

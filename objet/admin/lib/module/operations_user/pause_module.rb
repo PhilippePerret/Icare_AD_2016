@@ -12,8 +12,18 @@ class << self
   #
   # La mise en pause consiste à mettre le premier bit des
   # options de l'icmodule à 2 (le remettre à 1 quand on redémarre)
-  # 
+  #
   def exec_pause_module
+    icarien.icmodule || begin
+      error "L'icarien#{icarien.f_ne} #{icarien.pseudo} n’a pas de module courant…"
+      return false
+    end
+
+    imodule = icarien.icmodule
+
+    imodule.start_pause
+    @suivi << '- Ajout d’une pause au module'
+    @suivi << '- Réglage du bit d’options du module'
 
     icarien.send_mail(
       subject: 'Mise en pause de votre module d’apprentissage',

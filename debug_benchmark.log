@@ -1,22 +1,38 @@
-=== BENCHMARK DU 27 janvier 2017 à 18:46 ===
-=== Index start : 1485539216.5644748 (2017-01-27 18:46:56 +0100)
+=== BENCHMARK DU 31 janvier 2017 à 16:59 ===
+=== Index start : 1485878368.990209 (2017-01-31 16:59:28 +0100)
 
 -> site/config.rb                                       0.000000  0.000000
-<- site/config.rb                                       0.000270  0.000270
--> execute_preambule                                    0.021477  0.021747
-  -> User#do_after_load                                 0.000050  0.021797
-  <- User#do_after_load                                 0.000003  0.021800
-<- execute_preambule                                    0.000002  0.021802
--> required.rb                                         -0.188664 -0.166862
-<- required.rb                                          0.188667  0.021805
--> SiteHtml#output                                      0.000036  0.021841
-  -> SiteHtml#execute_route                             0.000003  0.021844
-  <- SiteHtml#execute_route                             0.000016  0.021860
-  -> Page#preload                                       0.000006  0.021866
-  <- Page#preload                                       0.045763  0.067629
-  -> Page#prebuild_body                                 0.000024  0.067653
-    -> Page#body                                        0.000006  0.067659
-    <- Page#body                                        0.000366  0.068025
-  <- Page#prebuild_body                                 0.000010  0.068035
-  CODE HTML FINAL BUILT                                 0.000086  0.068121
-<- SiteHtml#output                                      0.000005  0.068126
+<- site/config.rb                                       0.000142  0.000142
+-> execute_preambule                                    0.022731  0.022873
+  -> User#do_after_load                                 0.000048  0.022921
+  <- User#do_after_load                                 0.000004  0.022925
+<- execute_preambule                                    0.000002  0.022927
+-> required.rb                                         -0.188009 -0.165082
+<- required.rb                                          0.188012  0.022930
+-> SiteHtml#output                                      0.000028  0.022958
+  -> SiteHtml#execute_route                             0.000003  0.022961
+      | Objet    = "ic_module"                                          - 
+      | Objet ID = 2000                                                 - 
+      | Method   = "restart"                                            - 
+      | Context  = nil                                  0.000069  0.023030
+    --> iroute.load_required                            0.000069  0.023099
+    <-- iroute.load_required                            0.001470  0.024569
+    --> iroute.load_per_vue                             0.000007  0.024576
+
+      | Ce module n’existe pas. Si vous tentez de forcer le site, vous allez être placé sur sa liste noire.  0.003152  0.027728
+    -> SiteHtml#redirect_to                             0.000033  0.027761
+      -> SiteHtml#execute_route                         0.000084  0.027845
+      <- SiteHtml#execute_route                         0.000016  0.027861
+    <- SiteHtml#redirect_to                             0.000003  0.027864
+    <-- iroute.load_per_vue                             0.000088  0.027952
+    --> iroute.method_call                              0.000003  0.027955
+    <-- iroute.method_call                              0.000017  0.027972
+  <- SiteHtml#execute_route                             0.000002  0.027974
+  -> Page#preload                                       0.000007  0.027981
+  <- Page#preload                                       0.012292  0.040273
+  -> Page#prebuild_body                                 0.000018  0.040291
+    -> Page#body                                        0.000005  0.040296
+    <- Page#body                                        0.000270  0.040566
+  <- Page#prebuild_body                                 0.000007  0.040573
+  CODE HTML FINAL BUILT                                 0.000074  0.040647
+<- SiteHtml#output                                      0.000003  0.040650
