@@ -131,9 +131,17 @@ class IcModule::IcEtape::IcDocument
 
     doc_name_displayed << " (#{arr_docs})"
 
+    info_own_documents_always_displayed =
+      if user.id == owner.id
+        sh = "le document original #{shared?(:original) ? 'est' : 'n’est pas'}  partagé, "
+        sh << "le document commenté #{shared?(:comments) ? 'est' : 'n’est pas'}  partagé"
+        "(Vos propres documents vous sont toujours montrés, qu’ils soient partagés ou non avec les autres — #{sh})".in_div(class: 'small italic air')
+      else '' end
+
     (
       '<img src="view/img/icones/document_pdf.png" class="doc_img" />' +
-      doc_name_displayed.in_span(class: 'doc_name')
+      doc_name_displayed.in_span(class: 'doc_name') +
+      info_own_documents_always_displayed
     ).in_div class: 'doc_div', title: "Télécharger le document #{doc_name_displayed} (#{arr_docs})…"
   end
 
