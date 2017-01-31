@@ -50,7 +50,7 @@ def menu_modules
 end
 def menu_modules_values
   dbtable_absmodules.select(colonnes:[:name]).collect do |hmod|
-    [hmod[:id], hmod[:name]]
+    [hmod[:id], "#{hmod[:name]} (#{hmod[:id]})"]
   end
 end
 
