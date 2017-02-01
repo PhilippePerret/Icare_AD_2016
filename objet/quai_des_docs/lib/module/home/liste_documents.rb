@@ -14,29 +14,19 @@ class << self
 
   def ul_documents_trimestre
     filtre = {
-      created_between: [start_of_trimestre.to_i, end_of_trimestre.to_i]
+      created_between: [
+        start_of_trimestre.to_i,
+        end_of_trimestre.to_i
+      ]
     }
     args = {
       infos_document: true,
-      filtre: filtre,
-      key_sorted: 'time_original ASC',
-      avertissement: (annee_courante == annee_of_time && trimestre_courant == trimestre_of_time)
+      filtre:         filtre,
+      key_sorted:     'time_original ASC',
+      avertissement:  (annee_courante == annee_of_time && trimestre_courant == trimestre_of_time)
     }
     QuaiDesDocs.as_ul(args) || 'Aucun document pour ce trimestre'.in_p(class: 'big air')
   end
-
-  # def documents_du_trimestre_courant
-  #   @documents_du_trimestre_courant ||= begin
-  #     site.require_objet 'ic_document'
-  #     condwhere = Array.new
-  #     condwhere << "( SUBSTRING(options,2,1) = '1' OR SUBSTRING(options,10,1) = '1' )"
-  #     condwhere << "created_at BETWEEN #{start_of_trimestre.to_i} AND #{end_of_trimestre.to_i}"
-  #     condwhere = condwhere.join(' AND ')
-  #     dbtable_icdocuments.select(where: condwhere, order: 'time_original ASC', colonnes:[]).collect do |hdoc|
-  #       IcModule::IcEtape::IcDocument.new(hdoc[:id])
-  #     end
-  #   end
-  # end
 
 end #/<< self
 end #/QuaiDesDocs

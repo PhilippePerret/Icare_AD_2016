@@ -67,6 +67,17 @@ class IcDocument
     @extension ||= original_name.split('.').pop
   end
 
+  # Retourne l'année et le trimestre du document
+  def time
+    @time ||= Time.at(created_at)
+  end
+  def annee
+    @annee ||= time.year
+  end
+  def trimestre
+    @trimestre ||= 1 + ((time.month - 1)/ 3)
+  end
+
 end #/IcDocument
 end #/IcEtape
 end #/IcModule

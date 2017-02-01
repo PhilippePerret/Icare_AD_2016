@@ -134,11 +134,22 @@ class << self
       avertissement_alessai_if_needed +
       avertissement_respect_auteur +
       list_documents_filtred.collect do |idoc|
-        (
-          idoc.form_download +
-          ((full_card || infos_docs) ? idoc.bloc_infos : '') +
-          (full_card ? idoc.form_cote_or_partage : '')
-        ).in_li(id: "li_doc_qdd-#{idoc.id}", class: 'li_doc_qdd')
+        # Soit le document est partagé, soit il faut indiquer
+        # qu'il ne l'est pas et peut-être même le passer.
+        if even_not_shared || idoc.shared? || user.id == idoc.owner.id
+          doc_card = (
+            idoc.form_download +
+            ((full_card || infos_docs) ? idoc.bloc_infos : '') +
+            (full_card ? idoc.form_cote_or_partage : '')
+          )
+        else
+          # Le document n'est pas partagé. Soit il faut le passer,
+          # soit il faut le mettre dans un autre style.
+          doc_card = idoc.as_card
+        end
+
+        doc_card.in_li(id: "li_doc_qdd-#{idoc.id}", class: 'li_doc_qdd')
+
       end.join.in_ul(class: 'qdd_documents')
     else
       nil

@@ -1804,3 +1804,1122 @@ Objet ID = nil
 Method   = "edit"
 Context  = nil
 -- options: {:where=>"user_id = 52"}
+
+
+=== DEBUG DU 01 02 2017 - 15:01:44 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signin"
+Context  = nil
+
+
+=== DEBUG DU 01 02 2017 - 15:01:48 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "login"
+Context  = nil
+-- kroute = "admin/overview"
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "overview"
+Context  = nil
+-- # expected_comments NON DÉFINI (pour Karine #75)
+-- undefined method `in_span' for nil:NilClass
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/user/helper.rb:31:in `div_module_etape'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/user/helper.rb:17:in `overview'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:207:in `block in overview_textuel'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:205:in `collect'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:205:in `overview_textuel'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:28:in `display'
+(erb):10:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 01 02 2017 - 15:01:50 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 01 02 2017 - 15:02:13 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "visit_as"
+Context  = nil
+
+
+=== DEBUG DU 01 02 2017 - 15:02:16 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "visit_as"
+Context  = nil
+
+
+=== DEBUG DU 01 02 2017 - 15:02:18 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 01 02 2017 - 15:02:22 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "documents"
+Context  = nil
+-- wrong number of arguments (0 for 1)
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/ic_document/lib/required/instance/state.rb:8:in `shared?'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/quai_des_docs/lib/module/listings/as_ul.rb:139:in `block in as_ul'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/quai_des_docs/lib/module/listings/as_ul.rb:136:in `collect'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/quai_des_docs/lib/module/listings/as_ul.rb:136:in `as_ul'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/bureau/documents.rb:16:in `liste_documents_quai_des_docs'
+(erb):14:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 01 02 2017 - 15:02:29 ===
+
+-- 
+Objet    = "user"
+Objet ID = 3
+Method   = "deconnexion"
+Context  = nil
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 01 02 2017 - 15:02:36 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "visit_as"
+Context  = nil
+
+
+=== DEBUG DU 01 02 2017 - 15:02:42 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "visit_as"
+Context  = nil
+
+
+=== DEBUG DU 01 02 2017 - 15:02:44 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+-- undefined method `[]' for nil:NilClass
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/ic_module/lib/required/instance/options.rb:12:in `bit1'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/ic_module/lib/required/instance/options.rb:16:in `en_pause?'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/user/lib/required/user/instance/state.rb:37:in `en_pause?'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/user/lib/required/user/instance/state.rb:34:in `actif?'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/bureau/lib/required/bureau/class.rb:27:in `data_onglets'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/divers/modules/main_objets.rb:43:in `onglets'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/divers/modules/main_objets.rb:36:in `titre_h1'
+(erb):9:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 01 02 2017 - 15:02:48 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+-- undefined method `[]' for nil:NilClass
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/ic_module/lib/required/instance/options.rb:12:in `bit1'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/ic_module/lib/required/instance/options.rb:16:in `en_pause?'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/user/lib/required/user/instance/state.rb:37:in `en_pause?'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/user/lib/required/user/instance/state.rb:34:in `actif?'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/bureau/lib/required/bureau/class.rb:27:in `data_onglets'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/divers/modules/main_objets.rb:43:in `onglets'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/divers/modules/main_objets.rb:36:in `titre_h1'
+(erb):9:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 01 02 2017 - 15:02:50 ===
+
+-- 
+Objet    = "user"
+Objet ID = 50
+Method   = "deconnexion"
+Context  = nil
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 01 02 2017 - 15:02:53 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 01 02 2017 - 15:02:56 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 01 02 2017 - 15:03:07 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 01 02 2017 - 15:03:10 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "visit_as"
+Context  = nil
+
+
+=== DEBUG DU 01 02 2017 - 15:03:16 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "visit_as"
+Context  = nil
+
+
+=== DEBUG DU 01 02 2017 - 15:03:18 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+-- user.icetape.abs_etape.numero : 30
+
+
+=== DEBUG DU 01 02 2017 - 15:03:21 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "documents"
+Context  = nil
+-- wrong number of arguments (0 for 1)
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/ic_document/lib/required/instance/state.rb:8:in `shared?'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/quai_des_docs/lib/module/listings/as_ul.rb:139:in `block in as_ul'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/quai_des_docs/lib/module/listings/as_ul.rb:136:in `collect'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/quai_des_docs/lib/module/listings/as_ul.rb:136:in `as_ul'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/bureau/documents.rb:16:in `liste_documents_quai_des_docs'
+(erb):14:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 01 02 2017 - 15:17:00 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "documents"
+Context  = nil
+
+
+=== DEBUG DU 01 02 2017 - 15:18:10 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "documents"
+Context  = nil
+
+
+=== DEBUG DU 01 02 2017 - 15:18:24 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 01 02 2017 - 15:18:28 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 01 02 2017 - 15:18:32 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 01 02 2017 - 15:21:16 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 01 02 2017 - 15:22:57 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+-- undefined method `as_card' for #<IcModule::IcEtape::IcDocument:0x007fe1ed17ded8>
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/quai_des_docs/lib/module/listings/as_ul.rb:148:in `block in as_ul'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/quai_des_docs/lib/module/listings/as_ul.rb:136:in `collect'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/quai_des_docs/lib/module/listings/as_ul.rb:136:in `as_ul'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/quai_des_docs/lib/module/home/liste_documents.rb:28:in `ul_documents_trimestre'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/quai_des_docs/lib/module/home/liste_documents.rb:12:in `listing_documents'
+(erb):7:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/quai_des_docs/lib/required/class/helper.rb:11:in `load_section'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/quai_des_docs/lib/required/class/helper.rb:18:in `liste_documents'
+(erb):8:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 01 02 2017 - 15:25:28 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 01 02 2017 - 15:30:25 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 01 02 2017 - 15:31:50 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 01 02 2017 - 15:33:08 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+-- undefined method `as_image' for "icones/documents_pdf.png":String
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/ic_document/lib/required/instance/helper.rb:16:in `as_card'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/quai_des_docs/lib/module/listings/as_ul.rb:148:in `block in as_ul'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/quai_des_docs/lib/module/listings/as_ul.rb:136:in `collect'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/quai_des_docs/lib/module/listings/as_ul.rb:136:in `as_ul'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/quai_des_docs/lib/module/home/liste_documents.rb:28:in `ul_documents_trimestre'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/quai_des_docs/lib/module/home/liste_documents.rb:12:in `listing_documents'
+(erb):7:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/quai_des_docs/lib/required/class/helper.rb:11:in `load_section'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/quai_des_docs/lib/required/class/helper.rb:18:in `liste_documents'
+(erb):8:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 01 02 2017 - 15:33:20 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 01 02 2017 - 15:34:57 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 01 02 2017 - 15:35:58 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 01 02 2017 - 15:39:15 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 01 02 2017 - 15:41:00 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 01 02 2017 - 15:41:43 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 01 02 2017 - 15:42:13 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+-- /Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/ic_document/lib/required/instance/helper.rb:30: syntax error, unexpected ')'
+    ).in_div(class: 'warning') +
+     ^
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/ic_document/lib/required/instance/helper.rb:32: syntax error, unexpected keyword_end, expecting ')'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/ic_document/lib/required/instance/helper.rb:46: syntax error, unexpected keyword_end, expecting ')'
+end #/IcDocument
+   ^
+
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/require.rb:18:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/require.rb:70:in `block in require_all_in'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/require.rb:70:in `each'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/require.rb:70:in `require_all_in'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/require.rb:31:in `require_objet'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/quai_des_docs/lib/required/class/list.rb:61:in `list'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/quai_des_docs/lib/module/listings/as_ul.rb:118:in `as_ul'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/quai_des_docs/lib/module/home/liste_documents.rb:28:in `ul_documents_trimestre'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/quai_des_docs/lib/module/home/liste_documents.rb:12:in `listing_documents'
+(erb):7:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/quai_des_docs/lib/required/class/helper.rb:11:in `load_section'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/quai_des_docs/lib/required/class/helper.rb:18:in `liste_documents'
+(erb):8:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 01 02 2017 - 15:42:34 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 01 02 2017 - 15:43:48 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 01 02 2017 - 15:45:13 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 01 02 2017 - 15:48:57 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 01 02 2017 - 15:49:01 ===
+
+-- 
+Objet    = "ic_document"
+Objet ID = 689
+Method   = "share_request"
+Context  = nil
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 01 02 2017 - 15:49:29 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 01 02 2017 - 15:49:31 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 01 02 2017 - 15:49:35 ===
+
+-- 
+Objet    = "ic_document"
+Objet ID = 688
+Method   = "share_request"
+Context  = nil
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 01 02 2017 - 15:54:25 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 01 02 2017 - 15:54:31 ===
+
+-- 
+Objet    = "ic_document"
+Objet ID = 688
+Method   = "share_request"
+Context  = nil
+-- wrong number of arguments (0 for 1)
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/ic_document/lib/required/instance/inst.rb:9:in `initialize'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/ic_document/share_request.rb:8:in `new'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/ic_document/share_request.rb:8:in `<top (required)>'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:22:in `require_ruby'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:15:in `require_all'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:324:in `load_per_vue'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:103:in `execute_route'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 01 02 2017 - 15:57:08 ===
+
+-- 
+Objet    = "ic_document"
+Objet ID = 688
+Method   = "share_request"
+Context  = nil
+
+
+=== DEBUG DU 01 02 2017 - 15:57:10 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 01 02 2017 - 15:57:13 ===
+
+-- 
+Objet    = "ic_document"
+Objet ID = 688
+Method   = "share_request"
+Context  = nil
+
+
+=== DEBUG DU 01 02 2017 - 15:57:24 ===
+
+-- 
+Objet    = "ic_document"
+Objet ID = 688
+Method   = "share_request"
+Context  = nil
+
+
+=== DEBUG DU 01 02 2017 - 15:57:50 ===
+
+-- 
+Objet    = "ic_document"
+Objet ID = 688
+Method   = "share_request"
+Context  = nil
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 01 02 2017 - 15:58:12 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 01 02 2017 - 15:58:16 ===
+
+-- 
+Objet    = "ic_document"
+Objet ID = 688
+Method   = "share_request"
+Context  = nil
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 01 02 2017 - 15:59:00 ===
+
+-- 
+Objet    = "ic_document"
+Objet ID = 688
+Method   = "share_request"
+Context  = nil
+-- undefined method `orignal_name' for #<IcModule::IcEtape::IcDocument:0x007fb85205f610>
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/ic_document/share_request.rb:9:in `<top (required)>'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:22:in `require_ruby'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:15:in `require_all'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:324:in `load_per_vue'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:103:in `execute_route'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 01 02 2017 - 15:59:09 ===
+
+-- 
+Objet    = "ic_document"
+Objet ID = 688
+Method   = "share_request"
+Context  = nil
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 01 02 2017 - 15:59:52 ===
+
+-- 
+Objet    = "ic_document"
+Objet ID = 688
+Method   = "share_request"
+Context  = nil
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 01 02 2017 - 16:34:17 ===
+
+-- 
+Objet    = "ic_document"
+Objet ID = 688
+Method   = "share_request"
+Context  = nil
+-- undefined method `pseudo' for #<IcModule::IcEtape::IcDocument:0x007f94da892378 @id=688>
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/ic_document/share_request.rb:18:in `<top (required)>'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:22:in `require_ruby'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:15:in `require_all'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:324:in `load_per_vue'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:103:in `execute_route'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 01 02 2017 - 16:35:01 ===
+
+-- 
+Objet    = "ic_document"
+Objet ID = 688
+Method   = "share_request"
+Context  = nil
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 01 02 2017 - 16:36:26 ===
+
+-- 
+Objet    = "user"
+Objet ID = 75
+Method   = "deconnexion"
+Context  = nil
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 01 02 2017 - 16:36:28 ===
+
+-- 
+Objet    = "user"
+Objet ID = 1
+Method   = "deconnexion"
+Context  = nil
+
+
+=== DEBUG DU 01 02 2017 - 16:38:07 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 01 02 2017 - 16:38:13 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signin"
+Context  = nil
+
+
+=== DEBUG DU 01 02 2017 - 16:38:17 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "login"
+Context  = nil
+-- kroute = "admin/overview"
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "overview"
+Context  = nil
+-- # expected_comments NON DÉFINI (pour Karine #75)
+-- undefined method `in_span' for nil:NilClass
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/user/helper.rb:31:in `div_module_etape'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/user/helper.rb:17:in `overview'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:207:in `block in overview_textuel'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:205:in `collect'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:205:in `overview_textuel'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:28:in `display'
+(erb):10:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 01 02 2017 - 16:38:19 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 01 02 2017 - 16:38:31 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 01 02 2017 - 16:38:33 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 01 02 2017 - 16:38:35 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 01 02 2017 - 16:38:40 ===
+
+-- 
+Objet    = "ic_document"
+Objet ID = 688
+Method   = "share_request"
+Context  = nil
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 01 02 2017 - 16:39:06 ===
+
+-- 
+Objet    = "user"
+Objet ID = 1
+Method   = "deconnexion"
+Context  = nil
+
+
+=== DEBUG DU 01 02 2017 - 16:39:15 ===
+
+-- undefined method `key?' for "1111110011111100":String
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/ic_document/lib/required/instance/actions.rb:38:in `partager'
+(eval):1:in `exec'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/module/ticket/ticket.rb:27:in `eval'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/module/ticket/ticket.rb:27:in `exec'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/module/ticket/app_extension.rb:18:in `execute_ticket'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/App/ticket.rb:19:in `check_ticket'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/preambule.rb:9:in `execute_preambule'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/required.rb:83:in `<top (required)>'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:7:in `<main>'
+
+
+=== DEBUG DU 01 02 2017 - 16:40:44 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signin"
+Context  = nil
+
+
+=== DEBUG DU 01 02 2017 - 16:40:49 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "login"
+Context  = nil
+-- kroute = "admin/overview"
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "overview"
+Context  = nil
+-- # expected_comments NON DÉFINI (pour Karine #75)
+-- undefined method `in_span' for nil:NilClass
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/user/helper.rb:31:in `div_module_etape'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/user/helper.rb:17:in `overview'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:207:in `block in overview_textuel'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:205:in `collect'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:205:in `overview_textuel'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:28:in `display'
+(erb):10:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 01 02 2017 - 16:41:10 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 01 02 2017 - 16:41:13 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 01 02 2017 - 16:41:15 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 01 02 2017 - 16:41:18 ===
+
+-- 
+Objet    = "ic_document"
+Objet ID = 689
+Method   = "share_request"
+Context  = nil
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 01 02 2017 - 16:41:33 ===
+
+-- 
+Objet    = "user"
+Objet ID = 1
+Method   = "deconnexion"
+Context  = nil
+
+
+=== DEBUG DU 01 02 2017 - 16:41:38 ===
+
+-- undefined method `base_url' for #<SiteHtml:0x007fb50b9a9030>
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/ic_document/lib/required/instance/actions.rb:39:in `partager'
+(eval):1:in `exec'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/module/ticket/ticket.rb:27:in `eval'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/module/ticket/ticket.rb:27:in `exec'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/module/ticket/app_extension.rb:18:in `execute_ticket'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/App/ticket.rb:19:in `check_ticket'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/preambule.rb:9:in `execute_preambule'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/required.rb:83:in `<top (required)>'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:7:in `<main>'

@@ -4,13 +4,16 @@
 /**
   * Tous les styles pour les formulaires de download et autre
   */
-form.download
+form.download, .like_form_download
   border            : 3px solid purple
   padding           : 8px 38px 8px 8px
   background-color  : #779
   color             : white
   font-size         : 13.7pt
 
+.like_form_download
+  padding-bottom    : 32px
+  
 div.doc_auteur
   float       : right
   font-style  : italic
@@ -25,16 +28,15 @@ form#qdd_all_documents > div
   display         : inline-block
   vertical-align  : sub
 
-form.download img.doc_img,
-form.download img.download
-  float: left
-  vertical-align  : middle
-  margin-right    : 1em
+form.download, .like_form_download
+  img.doc_img, img.download
+    float: left
+    vertical-align  : middle
+    margin-right    : 1em
+  /* Div contenant un seul document */
+  div.doc_div
+    clear: both
 
-
-/* Div contenant un seul document */
-form.download div.doc_div
-  clear: both
 
 div.doc_div img.doc_img
   width: 24px
@@ -49,7 +51,7 @@ ul.qdd_documents
     overflow  : hidden
     width     : 90%
 
-    form.download
+    form.download, .like_form_download
       width   : auto // 320px
 
   // Bloc d'infos du document (module, étape, …) dans l'affichage

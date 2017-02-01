@@ -1,0 +1,24 @@
+=== BENCHMARK DU 1 février 2017 à 16:41 ===
+=== Index start : 1485963698.900649 (2017-02-01 16:41:38 +0100)
+
+-> site/config.rb                                       0.000000  0.000000
+<- site/config.rb                                       0.000233  0.000233
+-> execute_preambule                                    0.024477  0.024710
+
+      | undefined method `base_url' for #<SiteHtml:0x007fb50b9a9030>  0.016587  0.041297
+  -> User#do_after_load                                 0.000842  0.042139
+  <- User#do_after_load                                 0.000006  0.042145
+<- execute_preambule                                    0.000003  0.042148
+-> required.rb                                         -0.215301 -0.173153
+<- required.rb                                          0.215303  0.042150
+-> SiteHtml#output                                      0.000035  0.042185
+  -> SiteHtml#execute_route                             0.000004  0.042189
+  <- SiteHtml#execute_route                             0.000018  0.042207
+  -> Page#preload                                       0.000006  0.042213
+  <- Page#preload                                       0.013058  0.055271
+  -> Page#prebuild_body                                 0.000023  0.055294
+    -> Page#body                                        0.000005  0.055299
+    <- Page#body                                        0.002399  0.057698
+  <- Page#prebuild_body                                 0.000011  0.057709
+  CODE HTML FINAL BUILT                                 0.000100  0.057809
+<- SiteHtml#output                                      0.000003  0.057812
