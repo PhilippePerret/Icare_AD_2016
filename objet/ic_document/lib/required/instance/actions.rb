@@ -26,25 +26,32 @@ class IcDocument
 
     # (Re)définir le partage du document
     new_options = self.options
+    debug "Options avant : #{self.options}"
     new_options = new_options.set_bit(4, 1)
     new_options = new_options.set_bit(12, 1)
     new_options = new_options.set_bit(1, bitoshared)
     new_options = new_options.set_bit(9, bitcshared)
     self.set(options: new_options)
+    debug "Options après : #{new_options}"
 
     # Il faut avertir le demandeur que sa requête a été
     # entendue si un icarien est à l'origine de la demande
     # de partage.
     if opts.key?(:request_user)
-      lien = "#{site.base_url}/quai_des_docs/home?an=#{annee}&tri=#{trimestre}"
+      lien = "#{site.domain_url}/quai_des_docs/home?an=#{annee}&tri=#{trimestre}"
       lien = 'le Quai des docs'.in_a(href: lien)
       requser = User.new(opts[:request_user])
       message = <<-HTML
 <p>Bonjour #{requser.pseudo},</p>
-<p>#{pseudo} a bien entendu votre demande de partage du document “#{original_name}”.</p>
+<p>#{owner.pseudo} a bien entendu votre demande de partage du document “#{original_name}”.</p>
 <p>Vous pouvez maintenant le télécharger et le lire depuis #{lien} <span class='warning'>après vous être identifié#{requser.f_e}</span>.</p>
 <p>Bonne lecture</p>
       HTML
+      requser.send_mail(
+        subject:    'Votre demande de partage a été entendue',
+        message:    message,
+        formated:   true
+      )
     end
 
     # Message final pour remercier ou dire dommage
@@ -54,7 +61,7 @@ class IcDocument
       else
         'Un grand merci à vous pour le partage de votre travail !'
       end
-    flash "Niveau de partage défini. #{ajout}"
+    flash "#{owner.pseudo}, le niveau de partage de votre document “#{original_name}” vient d'être défini. #{ajout}"
 
   rescue Exception => e
     debug e

@@ -10,8 +10,12 @@ class IcDocument
   def shared? ty = nil
     if ty.nil?
       # Il faut tester les deux documents
-      has?(:original) && acces(:original) == 1 || ( return false )
-      has?(:comments) && acces(:comments) == 1 || ( return false )
+      if has?(:original)
+        acces(:original) == 1 || ( return false )
+      end
+      if has?(:comments)
+        acces(:comments) == 1 || ( return false )
+      end
       return true
     else
       has?(ty) && acces(ty) == 1
