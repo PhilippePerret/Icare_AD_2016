@@ -8,6 +8,11 @@ raise_unless_admin
 <h2>Édition/création</h2>
 
 <%# Données générales de l'étape si c'est une édition %>
+<% if ONLINE %>
+  <p class="warning">Puisque l'édition/création se fait en ONLINE, il est impératif de demander, en local, la synchronisation distant -> locale de la table `modules > absetapes` après édition.</p>
+<% else %>
+  <p class='small italic red'>Avant toute édition en OFFLINE, il est vivement recommandé de synchroniser la table locale avec la table distante (bureau > DATABASES > choisir la table `modules > absetapes` > synchroniser distant -> locale).</p>
+<% end %>
 <form id="form_module_etape" action="abs_etape/edit" method="POST">
   <div><span class="libelle">Module</span><%= menu_modules %></div>
   <div><span class="libelle">Étape</span><%= menu_etapes_module %></div>
