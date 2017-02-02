@@ -3542,3 +3542,1160 @@ Context  = nil
 -- Partagé ? true
 -- Original partagé ? true
 -- Commentaire partagé ? false
+
+
+=== DEBUG DU 01 02 2017 - 22:56:23 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "taches"
+Context  = nil
+-- UPDATE locale de {:admin_id=>0, :tache=>"D\u00E9poser les documents de Cyrille sur le quai des docs", :description=>nil, :echeance=>1477897474, :file=>nil, :state=>0, :updated_at=>1477551874, :created_at=>1477551874}
+-- UPDATE locale de {:admin_id=>0, :tache=>"D\u00E9poser les documents de Karine sur le quai des docs", :description=>nil, :echeance=>1477904936, :file=>nil, :state=>0, :updated_at=>1477559336, :created_at=>1477559336}
+-- UPDATE locale de {:admin_id=>0, :tache=>"T\u00E9l\u00E9charger les documents de Cyrille", :description=>nil, :echeance=>1478254006, :file=>nil, :state=>0, :updated_at=>1478254006, :created_at=>1478254006}
+-- UPDATE locale de {:admin_id=>0, :tache=>"Commenter les documents de Cyrille", :description=>nil, :echeance=>1478857956, :file=>nil, :state=>0, :updated_at=>1478512356, :created_at=>1478512356}
+-- UPDATE locale de {:admin_id=>0, :tache=>"D\u00E9poser les documents de Cyrille sur le quai des docs", :description=>nil, :echeance=>1478873963, :file=>nil, :state=>0, :updated_at=>1478528363, :created_at=>1478528363}
+-- UPDATE locale de {:admin_id=>0, :tache=>"T\u00E9l\u00E9charger les documents de Travis", :description=>nil, :echeance=>1478628308, :file=>nil, :state=>0, :updated_at=>1478628308, :created_at=>1478628308}
+-- UPDATE locale de {:admin_id=>0, :tache=>"Commenter les documents de Travis", :description=>nil, :echeance=>1479026734, :file=>nil, :state=>0, :updated_at=>1478681134, :created_at=>1478681134}
+-- UPDATE locale de {:admin_id=>0, :tache=>"D\u00E9poser les documents de Travis sur le quai des docs", :description=>nil, :echeance=>1479399322, :file=>nil, :state=>0, :updated_at=>1479053722, :created_at=>1479053722}
+-- UPDATE locale de {:admin_id=>0, :tache=>"T\u00E9l\u00E9charger les documents de Antonin", :description=>nil, :echeance=>1479310596, :file=>nil, :state=>0, :updated_at=>1479310596, :created_at=>1479310596}
+-- # ERREUR MYSQL : Duplicate entry '13' for key 'PRIMARY'
+-- # REQUEST : INSERT INTO taches (id, admin_id, tache, description, echeance, file, state, updated_at, created_at) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ? );
+-- # VALEURS PRÉPARÉES : [13, 0, "Commenter les documents de Antonin", nil, 1479662064, nil, 0, 1479316464, 1479316464]
+-- /Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/statement.rb:8:in `_execute'
+/Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/statement.rb:8:in `block in execute'
+/Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/statement.rb:7:in `handle_interrupt'
+/Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/statement.rb:7:in `execute'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/request.rb:390:in `exec'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/request.rb:64:in `insert'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/mysql.rb:147:in `insert'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/taches/class/taches.rb:24:in `block in test_synchro'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/taches/class/taches.rb:20:in `each'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/taches/class/taches.rb:20:in `test_synchro'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/taches.rb:8:in `<top (required)>'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:22:in `require_ruby'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:15:in `require_all'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:324:in `load_per_vue'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:103:in `execute_route'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+-- Duplicate entry '13' for key 'PRIMARY'
+
+/Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/statement.rb:8:in `_execute'
+/Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/statement.rb:8:in `block in execute'
+/Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/statement.rb:7:in `handle_interrupt'
+/Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/statement.rb:7:in `execute'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/request.rb:390:in `exec'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/request.rb:64:in `insert'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/mysql.rb:147:in `insert'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/taches/class/taches.rb:24:in `block in test_synchro'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/taches/class/taches.rb:20:in `each'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/taches/class/taches.rb:20:in `test_synchro'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/taches.rb:8:in `<top (required)>'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:22:in `require_ruby'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:15:in `require_all'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:324:in `load_per_vue'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:103:in `execute_route'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 01 02 2017 - 22:56:34 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "taches"
+Context  = nil
+-- UPDATE locale de {:admin_id=>0, :tache=>"D\u00E9poser les documents de Cyrille sur le quai des docs", :description=>nil, :echeance=>1477897474, :file=>nil, :state=>0, :updated_at=>1477551874, :created_at=>1477551874}
+-- UPDATE locale de {:admin_id=>0, :tache=>"D\u00E9poser les documents de Karine sur le quai des docs", :description=>nil, :echeance=>1477904936, :file=>nil, :state=>0, :updated_at=>1477559336, :created_at=>1477559336}
+-- UPDATE locale de {:admin_id=>0, :tache=>"T\u00E9l\u00E9charger les documents de Cyrille", :description=>nil, :echeance=>1478254006, :file=>nil, :state=>0, :updated_at=>1478254006, :created_at=>1478254006}
+-- UPDATE locale de {:admin_id=>0, :tache=>"Commenter les documents de Cyrille", :description=>nil, :echeance=>1478857956, :file=>nil, :state=>0, :updated_at=>1478512356, :created_at=>1478512356}
+-- UPDATE locale de {:admin_id=>0, :tache=>"D\u00E9poser les documents de Cyrille sur le quai des docs", :description=>nil, :echeance=>1478873963, :file=>nil, :state=>0, :updated_at=>1478528363, :created_at=>1478528363}
+-- UPDATE locale de {:admin_id=>0, :tache=>"T\u00E9l\u00E9charger les documents de Travis", :description=>nil, :echeance=>1478628308, :file=>nil, :state=>0, :updated_at=>1478628308, :created_at=>1478628308}
+-- UPDATE locale de {:admin_id=>0, :tache=>"Commenter les documents de Travis", :description=>nil, :echeance=>1479026734, :file=>nil, :state=>0, :updated_at=>1478681134, :created_at=>1478681134}
+-- UPDATE locale de {:admin_id=>0, :tache=>"D\u00E9poser les documents de Travis sur le quai des docs", :description=>nil, :echeance=>1479399322, :file=>nil, :state=>0, :updated_at=>1479053722, :created_at=>1479053722}
+-- UPDATE locale de {:admin_id=>0, :tache=>"T\u00E9l\u00E9charger les documents de Antonin", :description=>nil, :echeance=>1479310596, :file=>nil, :state=>0, :updated_at=>1479310596, :created_at=>1479310596}
+-- # ERREUR MYSQL : Duplicate entry '13' for key 'PRIMARY'
+-- # REQUEST : INSERT INTO taches (id, admin_id, tache, description, echeance, file, state, updated_at, created_at) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ? );
+-- # VALEURS PRÉPARÉES : [13, 0, "Commenter les documents de Antonin", nil, 1479662064, nil, 0, 1479316464, 1479316464]
+-- /Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/statement.rb:8:in `_execute'
+/Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/statement.rb:8:in `block in execute'
+/Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/statement.rb:7:in `handle_interrupt'
+/Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/statement.rb:7:in `execute'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/request.rb:390:in `exec'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/request.rb:64:in `insert'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/mysql.rb:147:in `insert'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/taches/class/taches.rb:24:in `block in test_synchro'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/taches/class/taches.rb:20:in `each'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/taches/class/taches.rb:20:in `test_synchro'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/taches.rb:8:in `<top (required)>'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:22:in `require_ruby'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:15:in `require_all'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:324:in `load_per_vue'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:103:in `execute_route'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+-- Duplicate entry '13' for key 'PRIMARY'
+
+/Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/statement.rb:8:in `_execute'
+/Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/statement.rb:8:in `block in execute'
+/Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/statement.rb:7:in `handle_interrupt'
+/Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/statement.rb:7:in `execute'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/request.rb:390:in `exec'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/request.rb:64:in `insert'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/mysql.rb:147:in `insert'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/taches/class/taches.rb:24:in `block in test_synchro'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/taches/class/taches.rb:20:in `each'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/taches/class/taches.rb:20:in `test_synchro'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/taches.rb:8:in `<top (required)>'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:22:in `require_ruby'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:15:in `require_all'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:324:in `load_per_vue'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:103:in `execute_route'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 01 02 2017 - 22:57:22 ===
+
+-- 
+Objet    = "user"
+Objet ID = 1
+Method   = "deconnexion"
+Context  = nil
+
+
+=== DEBUG DU 02 02 2017 - 16:17:47 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signin"
+Context  = nil
+
+
+=== DEBUG DU 02 02 2017 - 16:17:52 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "login"
+Context  = nil
+-- kroute = "admin/overview"
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "overview"
+Context  = nil
+-- # expected_comments NON DÉFINI (pour Karine #75)
+-- undefined method `in_span' for nil:NilClass
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/user/helper.rb:31:in `div_module_etape'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/user/helper.rb:17:in `overview'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:207:in `block in overview_textuel'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:205:in `collect'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:205:in `overview_textuel'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:28:in `display'
+(erb):10:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 02 02 2017 - 16:17:54 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 02 02 2017 - 16:17:59 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 1
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 02 02 2017 - 16:18:04 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 02 02 2017 - 16:31:17 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 192
+Method   = "edit"
+Context  = nil
+-- données initiales : {
+:titre => "Aper\u00E7u du dossier et charte graphique"
+:numero => 200
+:id => nil
+:module_id => 12
+:objectif => "D\u00E9finir le contenu, l'organisation et la charte graphique du dossier"
+:travail => "<p>Au cours de cette \u00E9tape, il va s'agir de d\u00E9finir le plus pr\u00E9cis\u00E9ment possible deux choses\u00A0:</p>\n<ul>\n  <li>le contenu exact du dossier, c'est-\u00E0-dire ce qu'il va contenir comme information et son organisation, c'est-\u00E0-dire l'ordre dans lequel ces informations apparaitront\u00A0;</li>\n  <li>La charte graphique, c'est-\u00E0-dire l'aspect visuel du dossier, de fa\u00E7on g\u00E9n\u00E9rale.</li>\n</ul>\n<h3>Contenu et organisation du dossier</h3>\n<p>Le mieux est de pr\u00E9parer un document vierge, d\u00E8s \u00E0 pr\u00E9sent, en utilisant les sauts de pages pour s\u00E9parer les parties.</p>\n<h3>Charte graphique du dossier</h3>\n<p>Pour d\u00E9finir la charte graphique, on va devoir\u00A0:</p>\n<ul>\n  <li>choisir une fonte (gratuite ou achet\u00E9e) \u2014\u00A0c'est-\u00E0-dire une police de caract\u00E8re\u00A0\u2014 qui correspond au genre, au ton, au style de la s\u00E9rie,</li>\n  <li>choisir 3 couleurs principales (sans compter le noir qui sera utilis\u00E9 pour le texte normal)\u00A0: </li>\n  <ul>\n  <li>une couleur \u2014\u00A0et peut-\u00EAtre une fonte sp\u00E9ciale\u00A0\u2014 pour les titres des grandes parties (\u201CLe concept\u201D, \u201CLes personnages\u201D, etc.),</li>\n    <li>une couleur \u2014 et peut-\u00EAtre une fonte sp\u00E9ciale \u2014 pour les titres des chapitres dans ces grandes parties,</li>\n    <li>une couleur pour mettre des mots importants en exergue.</li>\n</ul>\n  <li>choisir des photos pour habiller l'int\u00E9rieur du dossier. En choisir pour le moment au moins trois par page, pour avoir le choix (au final, une seule sera peut-\u00EAtre n\u00E9cessaire pour chaque page),</li>\n  <li>choisir la couverture du dossier, en s'appuyant sur les \u00E9l\u00E9ments pr\u00E9c\u00E9dents. Cette couverture devrait \u00EAtre une synth\u00E8se de la charte graphique choisie.</li>\n</ul>\n<p>Bien entendu, ces choix doivent se faire avec un minimum de go\u00FBt. Dans le doute, choisir la simplicit\u00E9, en jouant simplement sur la taille d'une m\u00EAme police de caract\u00E8re, et peut-\u00EAtre une seule couleur. Trois couleurs, en tout cas, ne sont pas absolument obligatoire.</p>"
+:methode => nil
+:duree => 7
+:duree_max => 28
+:liens => nil
+:updated_at => "2 f\u00E9vrier 2017 - 16:31 (real: 1486049477)"
+:created_at => "2 f\u00E9vrier 2017 - 16:31 (real: 1486049477)"
+}
+-- # ERREUR MYSQL : Duplicate entry '213' for key 'PRIMARY'
+-- # REQUEST : INSERT INTO absetapes (titre, numero, id, module_id, objectif, travail, methode, duree, duree_max, liens, updated_at, created_at) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? );
+-- # VALEURS PRÉPARÉES : ["Aper\u00E7u du dossier et charte graphique", 200, 213, 12, "D\u00E9finir le contenu, l'organisation et la charte graphique du dossier", "<p>Au cours de cette \u00E9tape, il va s'agir de d\u00E9finir le plus pr\u00E9cis\u00E9ment possible deux choses\u00A0:</p>\n<ul>\n  <li>le contenu exact du dossier, c'est-\u00E0-dire ce qu'il va contenir comme information et son organisation, c'est-\u00E0-dire l'ordre dans lequel ces informations apparaitront\u00A0;</li>\n  <li>La charte graphique, c'est-\u00E0-dire l'aspect visuel du dossier, de fa\u00E7on g\u00E9n\u00E9rale.</li>\n</ul>\n<h3>Contenu et organisation du dossier</h3>\n<p>Le mieux est de pr\u00E9parer un document vierge, d\u00E8s \u00E0 pr\u00E9sent, en utilisant les sauts de pages pour s\u00E9parer les parties.</p>\n<h3>Charte graphique du dossier</h3>\n<p>Pour d\u00E9finir la charte graphique, on va devoir\u00A0:</p>\n<ul>\n  <li>choisir une fonte (gratuite ou achet\u00E9e) \u2014\u00A0c'est-\u00E0-dire une police de caract\u00E8re\u00A0\u2014 qui correspond au genre, au ton, au style de la s\u00E9rie,</li>\n  <li>choisir 3 couleurs principales (sans compter le noir qui sera utilis\u00E9 pour le texte normal)\u00A0: </li>\n  <ul>\n  <li>une couleur \u2014\u00A0et peut-\u00EAtre une fonte sp\u00E9ciale\u00A0\u2014 pour les titres des grandes parties (\u201CLe concept\u201D, \u201CLes personnages\u201D, etc.),</li>\n    <li>une couleur \u2014 et peut-\u00EAtre une fonte sp\u00E9ciale \u2014 pour les titres des chapitres dans ces grandes parties,</li>\n    <li>une couleur pour mettre des mots importants en exergue.</li>\n</ul>\n  <li>choisir des photos pour habiller l'int\u00E9rieur du dossier. En choisir pour le moment au moins trois par page, pour avoir le choix (au final, une seule sera peut-\u00EAtre n\u00E9cessaire pour chaque page),</li>\n  <li>choisir la couverture du dossier, en s'appuyant sur les \u00E9l\u00E9ments pr\u00E9c\u00E9dents. Cette couverture devrait \u00EAtre une synth\u00E8se de la charte graphique choisie.</li>\n</ul>\n<p>Bien entendu, ces choix doivent se faire avec un minimum de go\u00FBt. Dans le doute, choisir la simplicit\u00E9, en jouant simplement sur la taille d'une m\u00EAme police de caract\u00E8re, et peut-\u00EAtre une seule couleur. Trois couleurs, en tout cas, ne sont pas absolument obligatoire.</p>", nil, 7, 28, nil, 1486049477, 1486049477]
+-- /Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/statement.rb:8:in `_execute'
+/Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/statement.rb:8:in `block in execute'
+/Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/statement.rb:7:in `handle_interrupt'
+/Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/statement.rb:7:in `execute'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/request.rb:390:in `exec'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/request.rb:64:in `insert'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/mysql.rb:147:in `insert'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/abs_etape/edit.rb:98:in `save'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/abs_etape/edit.rb:159:in `<top (required)>'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:22:in `require_ruby'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:15:in `require_all'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:324:in `load_per_vue'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:103:in `execute_route'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+-- Duplicate entry '213' for key 'PRIMARY'
+
+/Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/statement.rb:8:in `_execute'
+/Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/statement.rb:8:in `block in execute'
+/Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/statement.rb:7:in `handle_interrupt'
+/Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/statement.rb:7:in `execute'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/request.rb:390:in `exec'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/request.rb:64:in `insert'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/mysql.rb:147:in `insert'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/abs_etape/edit.rb:98:in `save'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/abs_etape/edit.rb:159:in `<top (required)>'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:22:in `require_ruby'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:15:in `require_all'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:324:in `load_per_vue'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:103:in `execute_route'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 02 02 2017 - 16:31:24 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 02 02 2017 - 16:31:28 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 1
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 02 02 2017 - 16:31:32 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 02 02 2017 - 16:31:36 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 213
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 02 02 2017 - 16:31:51 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 213
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 02 02 2017 - 16:36:36 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 213
+Method   = "edit"
+Context  = nil
+-- données initiales : {
+:titre => "Aper\u00E7u du dossier et charte graphique"
+:numero => 200
+:id => 213
+:module_id => 12
+:objectif => "D\u00E9finir le contenu, l'organisation et la charte graphique du dossier"
+:travail => "<p>Au cours de cette \u00E9tape, il va s'agir de d\u00E9finir le plus pr\u00E9cis\u00E9ment possible trois choses\u00A0:</p>\n<ul>\n  <li><b>le contenu du dossier</b>, c'est-\u00E0-dire les informations qu'il devra contenir (ces informations correspondent aux \u201Cgrandes sections\u201D dont il sera question plus bas (le \u201Cconcept\u201D est une grande section, la pr\u00E9sentation des personnages est une grande section, etc.),</li>\n <li><b>l'organisation du dossier</b>, c'est-\u00E0-dire l'ordre dans lequel ces informations apparaitront\u00A0;</li>\n  <li><b>la charte graphique</b>, c'est-\u00E0-dire l'aspect visuel du dossier, de fa\u00E7on g\u00E9n\u00E9rale.</li>\n</ul>\n<h3>Contenu et organisation du dossier</h3>\n<p>Le mieux est de pr\u00E9parer un document vierge, d\u00E8s \u00E0 pr\u00E9sent, en utilisant les sauts de pages pour s\u00E9parer les parties.</p>\n<h3>Charte graphique du dossier</h3>\n<p>Pour d\u00E9finir la charte graphique, on va devoir\u00A0:</p>\n<ul>\n  <li>choisir une fonte (gratuite ou achet\u00E9e) \u2014\u00A0c'est-\u00E0-dire une police de caract\u00E8re\u00A0\u2014 qui correspond au genre, au ton, au style de la s\u00E9rie,</li>\n  <li>choisir 3 couleurs principales (sans compter le noir qui sera utilis\u00E9 pour le texte normal)\u00A0: </li>\n  <ul>\n  <li>une couleur \u2014\u00A0et peut-\u00EAtre une fonte sp\u00E9ciale\u00A0\u2014 pour les titres des grandes parties (\u201CLe concept\u201D, \u201CLes personnages\u201D, etc.),</li>\n    <li>une couleur \u2014 et peut-\u00EAtre une fonte sp\u00E9ciale \u2014 pour les titres des chapitres dans ces grandes parties,</li>\n    <li>une couleur pour mettre des mots importants en exergue.</li>\n</ul>\n  <li>choisir des photos pour habiller l'int\u00E9rieur du dossier. En choisir pour le moment au moins trois par page, pour avoir le choix (au final, une seule sera peut-\u00EAtre n\u00E9cessaire pour chaque page),</li>\n  <li>Commencer \u00E0 construire la couverture du dossier, en s'appuyant sur les \u00E9l\u00E9ments pr\u00E9c\u00E9dents. Cette couverture devrait \u00EAtre une synth\u00E8se de la charte graphique choisie.</li>\n</ul>\n<p>Bien entendu, ces choix doivent se faire avec un minimum de go\u00FBt. Dans le doute, choisir la simplicit\u00E9, en jouant simplement sur la taille d'une m\u00EAme police de caract\u00E8re, et peut-\u00EAtre une seule couleur. Trois couleurs, en tout cas, ne sont pas absolument obligatoire.</p>"
+:methode => nil
+:duree => 7
+:duree_max => 28
+:liens => nil
+:updated_at => "2 f\u00E9vrier 2017 - 16:36 (real: 1486049796)"
+}
+
+
+=== DEBUG DU 02 02 2017 - 16:37:01 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 213
+Method   = "edit"
+Context  = nil
+-- données initiales : {
+:titre => "Aper\u00E7u du dossier et charte graphique"
+:numero => 200
+:id => 213
+:module_id => 12
+:objectif => "D\u00E9finir le contenu, l'organisation et la charte graphique du dossier"
+:travail => "<p>Au cours de cette \u00E9tape, il va s'agir de d\u00E9finir le plus pr\u00E9cis\u00E9ment possible trois choses\u00A0:</p>\n<ul>\n  <li><b>le contenu du dossier</b>, c'est-\u00E0-dire les informations qu'il devra contenir (ces informations correspondent aux \u201Cgrandes sections\u201D dont il sera question plus bas (le \u201Cconcept\u201D est une grande section, la pr\u00E9sentation des personnages est une grande section, etc.),</li>\n <li><b>l'organisation du dossier</b>, c'est-\u00E0-dire l'ordre dans lequel ces informations apparaitront\u00A0;</li>\n  <li><b>la charte graphique</b>, c'est-\u00E0-dire l'aspect visuel du dossier, de fa\u00E7on g\u00E9n\u00E9rale.</li>\n</ul>\n<h3>Contenu et organisation du dossier</h3>\n<p>Le mieux est de pr\u00E9parer un document vierge, d\u00E8s \u00E0 pr\u00E9sent, en utilisant les sauts de pages pour s\u00E9parer les parties.</p>\n<h3>Charte graphique du dossier</h3>\n<p>Pour d\u00E9finir la charte graphique, on va devoir\u00A0:</p>\n<ul>\n  <li>choisir une fonte (gratuite ou achet\u00E9e) \u2014\u00A0c'est-\u00E0-dire une police de caract\u00E8re\u00A0\u2014 qui correspond au genre, au ton, au style de la s\u00E9rie,</li>\n  <li>choisir 3 couleurs principales (sans compter le noir qui sera utilis\u00E9 pour le texte normal)\u00A0: </li>\n  <ul>\n  <li>une couleur \u2014\u00A0et peut-\u00EAtre une fonte sp\u00E9ciale\u00A0\u2014 pour les titres des grandes sections (\u201CLe concept\u201D, \u201CLes personnages\u201D, etc.),</li>\n    <li>une couleur \u2014 et peut-\u00EAtre une fonte sp\u00E9ciale \u2014 pour les titres des chapitres dans ces grandes sections,</li>\n    <li>une couleur pour mettre des mots importants en exergue.</li>\n</ul>\n  <li>choisir des photos pour habiller l'int\u00E9rieur du dossier. En choisir pour le moment au moins trois par page, pour avoir le choix (au final, une seule sera peut-\u00EAtre n\u00E9cessaire pour chaque page),</li>\n  <li>Commencer \u00E0 construire la couverture du dossier, en s'appuyant sur les \u00E9l\u00E9ments pr\u00E9c\u00E9dents. Cette couverture devrait \u00EAtre une synth\u00E8se de la charte graphique choisie.</li>\n</ul>\n<p>Bien entendu, ces choix doivent se faire avec un minimum de go\u00FBt. Dans le doute, choisir la simplicit\u00E9, en jouant simplement sur la taille d'une m\u00EAme police de caract\u00E8re, et peut-\u00EAtre une seule couleur. Trois couleurs, en tout cas, ne sont pas absolument obligatoire.</p>"
+:methode => nil
+:duree => 7
+:duree_max => 28
+:liens => nil
+:updated_at => "2 f\u00E9vrier 2017 - 16:37 (real: 1486049822)"
+}
+
+
+=== DEBUG DU 02 02 2017 - 16:46:37 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 213
+Method   = "edit"
+Context  = nil
+-- données initiales : {
+:titre => "Aper\u00E7u du dossier et charte graphique"
+:numero => 200
+:id => 213
+:module_id => 12
+:objectif => "D\u00E9finir le contenu, l'organisation et la charte graphique du dossier"
+:travail => "<p>Au cours de cette \u00E9tape, il va s'agir de d\u00E9finir le plus pr\u00E9cis\u00E9ment possible trois choses\u00A0:</p>\n<ul>\n  <li><b>le contenu du dossier</b>, c'est-\u00E0-dire les informations qu'il devra contenir (ces informations correspondent aux \u201Cgrandes sections\u201D dont il sera question plus bas \u2014\u00A0le \u201Cconcept\u201D, la pr\u00E9sentation des personnages \u2014\u00A0mais il peut contenir aussi, par exemple, les photos des com\u00E9diens, des aphorismes, etc.),</li>\n <li><b>l'organisation du dossier</b>, c'est-\u00E0-dire l'ordre dans lequel ces informations apparaitront,</li>\n  <li><b>la charte graphique</b>, c'est-\u00E0-dire l'impact visuel du dossier.</li>\n</ul>\n<h3>Contenu du dossier</h3>\n<p>Le plus simple est de pr\u00E9parer simplement la liste des informations \u00E0 faire apparaitre.</p>\n<p>Cette liste, qui d\u00E9pend des destinataires des projets, peut ressembler \u00E0 (bien noter que l'ordre n'est pas forc\u00E9ment pr\u00E9sent\u00E9 ici)\u00A0:</p>\n<div class=\"document\">\n- Donn\u00E9es techniques pour la s\u00E9rie (cible, dur\u00E9e, grille)\n- Pr\u00E9sentation g\u00E9n\u00E9rale du concept (quelques lignes)\n- Pr\u00E9sentation d\u00E9taill\u00E9e du concept (2 pages)\n- Pr\u00E9sentation des personnages\n- Arche de la saison 1\n- Note d'intention\n- Photos des acteurs\n</div>\n<h3>Organisation du dossier</h3>\n<p>Le mieux, pour commencer \u00E0 d\u00E9finir l'organisation du dossier, est de pr\u00E9parer un document vierge, d\u00E8s \u00E0 pr\u00E9sent, en utilisant les sauts de pages pour s\u00E9parer les grandes sections, en indiquant que leur titre.</p>\n<p>Ce document peut ressembler \u00E0\u00A0:</p>\n<div class=\"document\">\n<em>(Page de couverture)</em>\n[saut de page]\n<em>(Accroche pour pr\u00E9senter le concept)</em>\n[saut de page]\n<h3>Le concept</h3>\n[saut de page]\n<h3>Les personnages</h3>\n[saut de page]\n<h3>Arche des \u00E9pisodes de la saison 1</h3>\n[saut de page]\netc.\n</div>\n<h3>Charte graphique du dossier</h3>\n<p>Pour d\u00E9finir la charte graphique, on va devoir\u00A0:</p>\n<ul>\n  <li>choisir une fonte (gratuite ou achet\u00E9e) \u2014\u00A0c'est-\u00E0-dire une police de caract\u00E8re\u00A0\u2014 qui correspond au genre, au ton, au style de la s\u00E9rie,</li>\n  <li>choisir 3 couleurs principales (sans compter le noir qui sera utilis\u00E9 pour le texte normal)\u00A0: </li>\n  <ul>\n  <li>une couleur \u2014\u00A0et peut-\u00EAtre une fonte sp\u00E9ciale\u00A0\u2014 pour les titres des grandes sections (\u201CLe concept\u201D, \u201CLes personnages\u201D, etc.),</li>\n    <li>une couleur \u2014 et peut-\u00EAtre une fonte sp\u00E9ciale \u2014 pour les titres des chapitres dans ces grandes sections,</li>\n    <li>une couleur pour mettre des mots importants en exergue.</li>\n</ul>\n  <li>choisir des photos pour habiller l'int\u00E9rieur du dossier. En choisir pour le moment au moins trois par page, pour avoir le choix (au final, une seule sera peut-\u00EAtre n\u00E9cessaire pour chaque page),</li>\n  <li>Commencer \u00E0 construire la couverture du dossier, en s'appuyant sur les \u00E9l\u00E9ments pr\u00E9c\u00E9dents. Cette couverture devrait \u00EAtre une synth\u00E8se de la charte graphique choisie.</li>\n</ul>\n<p>Bien entendu, ces choix doivent se faire avec un minimum de go\u00FBt. Dans le doute, choisir la simplicit\u00E9, en jouant simplement sur la taille d'une m\u00EAme police de caract\u00E8re, et peut-\u00EAtre une seule couleur. Trois couleurs, en tout cas, ne sont pas absolument obligatoire.</p>"
+:methode => nil
+:duree => 7
+:duree_max => 28
+:liens => nil
+:updated_at => "2 f\u00E9vrier 2017 - 16:46 (real: 1486050397)"
+}
+
+
+=== DEBUG DU 02 02 2017 - 16:46:40 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 213
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 02 02 2017 - 16:47:12 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 213
+Method   = "edit"
+Context  = nil
+-- données initiales : {
+:titre => "Aper\u00E7u du dossier et charte graphique"
+:numero => 200
+:id => 213
+:module_id => 12
+:objectif => "D\u00E9finir le contenu, l'organisation et la charte graphique du dossier"
+:travail => "<p>Au cours de cette \u00E9tape, il va s'agir de d\u00E9finir le plus pr\u00E9cis\u00E9ment possible trois choses\u00A0:</p>\n<ul>\n  <li><b>le contenu du dossier</b>, c'est-\u00E0-dire les informations qu'il devra contenir (ces informations correspondent aux \u201Cgrandes sections\u201D dont il sera question plus bas \u2014\u00A0le \u201Cconcept\u201D, la pr\u00E9sentation des personnages \u2014\u00A0mais il peut contenir aussi, par exemple, les photos des com\u00E9diens, des aphorismes, etc.),</li>\n <li><b>l'organisation du dossier</b>, c'est-\u00E0-dire l'ordre dans lequel ces informations apparaitront,</li>\n  <li><b>la charte graphique</b>, c'est-\u00E0-dire l'impact visuel du dossier.</li>\n</ul>\n<h3>Contenu du dossier</h3>\n<p>Le plus simple est de pr\u00E9parer simplement la liste des informations \u00E0 faire apparaitre.</p>\n<p>Cette liste, qui d\u00E9pend des destinataires des projets, peut ressembler \u00E0 (bien noter que l'ordre n'est pas forc\u00E9ment pr\u00E9sent\u00E9 ici)\u00A0:</p>\n<section class=\"document\">\n- Donn\u00E9es techniques pour la s\u00E9rie (cible, dur\u00E9e, grille)\n- Pr\u00E9sentation g\u00E9n\u00E9rale du concept (quelques lignes)\n- Pr\u00E9sentation d\u00E9taill\u00E9e du concept (2 pages)\n- Pr\u00E9sentation des personnages\n- Arche de la saison 1\n- Note d'intention\n- Photos des acteurs\n</section>\n<h3>Organisation du dossier</h3>\n<p>Le mieux, pour commencer \u00E0 d\u00E9finir l'organisation du dossier, est de pr\u00E9parer un document vierge, d\u00E8s \u00E0 pr\u00E9sent, en utilisant les sauts de pages pour s\u00E9parer les grandes sections, en indiquant que leur titre.</p>\n<p>Ce document peut ressembler \u00E0\u00A0:</p>\n<div class=\"document\">\n<em>(Page de couverture)</em>\n[saut de page]\n<em>(Accroche pour pr\u00E9senter le concept)</em>\n[saut de page]\n<h3>Le concept</h3>\n[saut de page]\n<h3>Les personnages</h3>\n[saut de page]\n<h3>Arche des \u00E9pisodes de la saison 1</h3>\n[saut de page]\netc.\n</div>\n<h3>Charte graphique du dossier</h3>\n<p>Pour d\u00E9finir la charte graphique, on va devoir\u00A0:</p>\n<ul>\n  <li>choisir une fonte (gratuite ou achet\u00E9e) \u2014\u00A0c'est-\u00E0-dire une police de caract\u00E8re\u00A0\u2014 qui correspond au genre, au ton, au style de la s\u00E9rie,</li>\n  <li>choisir 3 couleurs principales (sans compter le noir qui sera utilis\u00E9 pour le texte normal)\u00A0: </li>\n  <ul>\n  <li>une couleur \u2014\u00A0et peut-\u00EAtre une fonte sp\u00E9ciale\u00A0\u2014 pour les titres des grandes sections (\u201CLe concept\u201D, \u201CLes personnages\u201D, etc.),</li>\n    <li>une couleur \u2014 et peut-\u00EAtre une fonte sp\u00E9ciale \u2014 pour les titres des chapitres dans ces grandes sections,</li>\n    <li>une couleur pour mettre des mots importants en exergue.</li>\n</ul>\n  <li>choisir des photos pour habiller l'int\u00E9rieur du dossier. En choisir pour le moment au moins trois par page, pour avoir le choix (au final, une seule sera peut-\u00EAtre n\u00E9cessaire pour chaque page),</li>\n  <li>Commencer \u00E0 construire la couverture du dossier, en s'appuyant sur les \u00E9l\u00E9ments pr\u00E9c\u00E9dents. Cette couverture devrait \u00EAtre une synth\u00E8se de la charte graphique choisie.</li>\n</ul>\n<p>Bien entendu, ces choix doivent se faire avec un minimum de go\u00FBt. Dans le doute, choisir la simplicit\u00E9, en jouant simplement sur la taille d'une m\u00EAme police de caract\u00E8re, et peut-\u00EAtre une seule couleur. Trois couleurs, en tout cas, ne sont pas absolument obligatoire.</p>"
+:methode => nil
+:duree => 7
+:duree_max => 28
+:liens => nil
+:updated_at => "2 f\u00E9vrier 2017 - 16:47 (real: 1486050433)"
+}
+
+
+=== DEBUG DU 02 02 2017 - 16:47:20 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 213
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 02 02 2017 - 16:47:55 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 213
+Method   = "edit"
+Context  = nil
+-- données initiales : {
+:titre => "Aper\u00E7u du dossier et charte graphique"
+:numero => 200
+:id => 213
+:module_id => 12
+:objectif => "D\u00E9finir le contenu, l'organisation et la charte graphique du dossier"
+:travail => "<p>Au cours de cette \u00E9tape, il va s'agir de d\u00E9finir le plus pr\u00E9cis\u00E9ment possible trois choses\u00A0:</p>\n<ul>\n  <li><b>le contenu du dossier</b>, c'est-\u00E0-dire les informations qu'il devra contenir (ces informations correspondent aux \u201Cgrandes sections\u201D dont il sera question plus bas \u2014\u00A0le \u201Cconcept\u201D, la pr\u00E9sentation des personnages \u2014\u00A0mais il peut contenir aussi, par exemple, les photos des com\u00E9diens, des aphorismes, etc.),</li>\n <li><b>l'organisation du dossier</b>, c'est-\u00E0-dire l'ordre dans lequel ces informations apparaitront,</li>\n  <li><b>la charte graphique</b>, c'est-\u00E0-dire l'impact visuel du dossier.</li>\n</ul>\n<h3>Contenu du dossier</h3>\n<p>Le plus simple est de pr\u00E9parer simplement la liste des informations \u00E0 faire apparaitre.</p>\n<p>Cette liste, qui d\u00E9pend des destinataires des projets, peut ressembler \u00E0 (bien noter que l'ordre n'est pas forc\u00E9ment pr\u00E9sent\u00E9 ici)\u00A0:</p>\n<section class=\"document\">\n- Donn\u00E9es techniques pour la s\u00E9rie (cible, dur\u00E9e, grille)\n- Pr\u00E9sentation g\u00E9n\u00E9rale du concept (quelques lignes)\n- Pr\u00E9sentation d\u00E9taill\u00E9e du concept (2 pages)\n- Pr\u00E9sentation des personnages\n- Arche de la saison 1\n- Note d'intention\n- Photos des acteurs\n</section>\n<h3>Organisation du dossier</h3>\n<p>Le mieux, pour commencer \u00E0 d\u00E9finir l'organisation du dossier, est de pr\u00E9parer un document vierge, d\u00E8s \u00E0 pr\u00E9sent, en utilisant les sauts de pages pour s\u00E9parer les grandes sections, en indiquant que leur titre.</p>\n<p>Ce document peut ressembler \u00E0\u00A0:</p>\n<section class=\"document\">\n<em>(Page de couverture)</em>\n[saut de page]\n<em>(Accroche pour pr\u00E9senter le concept)</em>\n[saut de page]\n<h3>Le concept</h3>\n[saut de page]\n<h3>Les personnages</h3>\n\\[saut de page]\n<h3>Arche des \u00E9pisodes de la saison 1</h3>\n\\[saut de page]\netc.\n</section>\n<h3>Charte graphique du dossier</h3>\n<p>Pour d\u00E9finir la charte graphique, on va devoir\u00A0:</p>\n<ul>\n  <li>choisir une fonte (gratuite ou achet\u00E9e) \u2014\u00A0c'est-\u00E0-dire une police de caract\u00E8re\u00A0\u2014 qui correspond au genre, au ton, au style de la s\u00E9rie,</li>\n  <li>choisir 3 couleurs principales (sans compter le noir qui sera utilis\u00E9 pour le texte normal)\u00A0: </li>\n  <ul>\n  <li>une couleur \u2014\u00A0et peut-\u00EAtre une fonte sp\u00E9ciale\u00A0\u2014 pour les titres des grandes sections (\u201CLe concept\u201D, \u201CLes personnages\u201D, etc.),</li>\n    <li>une couleur \u2014 et peut-\u00EAtre une fonte sp\u00E9ciale \u2014 pour les titres des chapitres dans ces grandes sections,</li>\n    <li>une couleur pour mettre des mots importants en exergue.</li>\n</ul>\n  <li>choisir des photos pour habiller l'int\u00E9rieur du dossier. En choisir pour le moment au moins trois par page, pour avoir le choix (au final, une seule sera peut-\u00EAtre n\u00E9cessaire pour chaque page),</li>\n  <li>Commencer \u00E0 construire la couverture du dossier, en s'appuyant sur les \u00E9l\u00E9ments pr\u00E9c\u00E9dents. Cette couverture devrait \u00EAtre une synth\u00E8se de la charte graphique choisie.</li>\n</ul>\n<p>Bien entendu, ces choix doivent se faire avec un minimum de go\u00FBt. Dans le doute, choisir la simplicit\u00E9, en jouant simplement sur la taille d'une m\u00EAme police de caract\u00E8re, et peut-\u00EAtre une seule couleur. Trois couleurs, en tout cas, ne sont pas absolument obligatoire.</p>"
+:methode => nil
+:duree => 7
+:duree_max => 28
+:liens => nil
+:updated_at => "2 f\u00E9vrier 2017 - 16:47 (real: 1486050475)"
+}
+
+
+=== DEBUG DU 02 02 2017 - 16:47:57 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 213
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 02 02 2017 - 16:49:46 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 213
+Method   = "edit"
+Context  = nil
+-- données initiales : {
+:titre => "Aper\u00E7u du dossier et charte graphique"
+:numero => 200
+:id => 213
+:module_id => 12
+:objectif => "D\u00E9finir le contenu, l'organisation et la charte graphique du dossier"
+:travail => "<p>Au cours de cette \u00E9tape, il va s'agir de d\u00E9finir le plus pr\u00E9cis\u00E9ment possible trois choses\u00A0:</p>\n<ul>\n  <li><b>le contenu du dossier</b>, c'est-\u00E0-dire les informations qu'il devra contenir (ces informations correspondent aux \u201Cgrandes sections\u201D dont il sera question plus bas \u2014\u00A0le \u201Cconcept\u201D, la pr\u00E9sentation des personnages \u2014\u00A0mais il peut contenir aussi, par exemple, les photos des com\u00E9diens, des aphorismes, etc.),</li>\n <li><b>l'organisation du dossier</b>, c'est-\u00E0-dire l'ordre dans lequel ces informations apparaitront,</li>\n  <li><b>la charte graphique</b>, c'est-\u00E0-dire l'impact visuel du dossier.</li>\n</ul>\n<h3>Contenu du dossier</h3>\n<p>Le plus simple est de pr\u00E9parer simplement la liste des informations \u00E0 faire apparaitre.</p>\n<p>Cette liste, qui d\u00E9pend des destinataires des projets, peut ressembler \u00E0 (bien noter que l'ordre n'est pas forc\u00E9ment pr\u00E9sent\u00E9 ici)\u00A0:</p>\n<section class=\"document\">\n- Donn\u00E9es techniques pour la s\u00E9rie (cible, dur\u00E9e, grille)<br>\n- Pr\u00E9sentation g\u00E9n\u00E9rale du concept (quelques lignes)<br>\n- Pr\u00E9sentation d\u00E9taill\u00E9e du concept (2 pages)<br>\n- Pr\u00E9sentation des personnages<br>\n- Arche de la saison 1<br>\n- Note d'intention<br>\n- Photos des acteurs<br>\n</section>\n<h3>Organisation du dossier</h3>\n<p>Le mieux, pour commencer \u00E0 d\u00E9finir l'organisation du dossier, est de pr\u00E9parer un document vierge, d\u00E8s \u00E0 pr\u00E9sent, en utilisant les sauts de pages pour s\u00E9parer les grandes sections, en indiquant que leur titre.</p>\n<p>Ce document peut ressembler \u00E0\u00A0:</p>\n<section class=\"document\">\n<em>(Page de couverture)</em><br>\n&#91;saut de page]\n<em>(Accroche pour pr\u00E9senter le concept)</em><br>\n&#91;saut de page]\n<h3>Le concept</h3><br>\n&#91;saut de page]\n<h3>Les personnages</h3><br>\n&#91;saut de page]\n<h3>Arche des \u00E9pisodes de la saison 1</h3><br>\n&#91;saut de page]\netc.\n</section>\n<h3>Charte graphique du dossier</h3>\n<p>Pour d\u00E9finir la charte graphique, on va devoir\u00A0:</p>\n<ul>\n  <li>choisir une fonte (gratuite ou achet\u00E9e) \u2014\u00A0c'est-\u00E0-dire une police de caract\u00E8re\u00A0\u2014 qui correspond au genre, au ton, au style de la s\u00E9rie,</li>\n  <li>choisir 3 couleurs principales (sans compter le noir qui sera utilis\u00E9 pour le texte normal)\u00A0: </li>\n  <ul>\n  <li>une couleur \u2014\u00A0et peut-\u00EAtre une fonte sp\u00E9ciale\u00A0\u2014 pour les titres des grandes sections (\u201CLe concept\u201D, \u201CLes personnages\u201D, etc.),</li>\n    <li>une couleur \u2014 et peut-\u00EAtre une fonte sp\u00E9ciale \u2014 pour les titres des chapitres dans ces grandes sections,</li>\n    <li>une couleur pour mettre des mots importants en exergue.</li>\n</ul>\n  <li>choisir des photos pour habiller l'int\u00E9rieur du dossier. En choisir pour le moment au moins trois par page, pour avoir le choix (au final, une seule sera peut-\u00EAtre n\u00E9cessaire pour chaque page),</li>\n  <li>Commencer \u00E0 construire la couverture du dossier, en s'appuyant sur les \u00E9l\u00E9ments pr\u00E9c\u00E9dents. Cette couverture devrait \u00EAtre une synth\u00E8se de la charte graphique choisie.</li>\n</ul>\n<p>Bien entendu, ces choix doivent se faire avec un minimum de go\u00FBt. Dans le doute, choisir la simplicit\u00E9, en jouant simplement sur la taille d'une m\u00EAme police de caract\u00E8re, et peut-\u00EAtre une seule couleur. Trois couleurs, en tout cas, ne sont pas absolument obligatoire.</p>"
+:methode => nil
+:duree => 7
+:duree_max => 28
+:liens => nil
+:updated_at => "2 f\u00E9vrier 2017 - 16:49 (real: 1486050586)"
+}
+
+
+=== DEBUG DU 02 02 2017 - 16:49:51 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 213
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 02 02 2017 - 16:51:12 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 213
+Method   = "edit"
+Context  = nil
+-- données initiales : {
+:titre => "Aper\u00E7u du dossier et charte graphique"
+:numero => 200
+:id => 213
+:module_id => 12
+:objectif => "D\u00E9finir le contenu, l'organisation et la charte graphique du dossier"
+:travail => "<p>Au cours de cette \u00E9tape, il va s'agir de d\u00E9finir le plus pr\u00E9cis\u00E9ment possible trois choses\u00A0:</p>\n<ul>\n  <li><b>le contenu du dossier</b>, c'est-\u00E0-dire les informations qu'il devra contenir (ces informations correspondent aux \u201Cgrandes sections\u201D dont il sera question plus bas \u2014\u00A0le \u201Cconcept\u201D, la pr\u00E9sentation des personnages \u2014\u00A0mais il peut contenir aussi, par exemple, les photos des com\u00E9diens, des aphorismes, etc.),</li>\n <li><b>l'organisation du dossier</b>, c'est-\u00E0-dire l'ordre dans lequel ces informations apparaitront,</li>\n  <li><b>la charte graphique</b>, c'est-\u00E0-dire l'impact visuel du dossier.</li>\n</ul>\n<h3>Contenu du dossier</h3>\n<p>Le plus simple est de pr\u00E9parer simplement la liste des informations \u00E0 faire apparaitre.</p>\n<p>Cette liste, qui d\u00E9pend des destinataires des projets, peut ressembler \u00E0 (bien noter que l'ordre n'est pas forc\u00E9ment pr\u00E9sent\u00E9 ici)\u00A0:</p>\n<section class=\"document\">\n- Donn\u00E9es techniques pour la s\u00E9rie (cible, dur\u00E9e, grille)<br>\n- Pr\u00E9sentation g\u00E9n\u00E9rale du concept (quelques lignes)<br>\n- Pr\u00E9sentation d\u00E9taill\u00E9e du concept (2 pages)<br>\n- Pr\u00E9sentation des personnages<br>\n- Arche de la saison 1<br>\n- Note d'intention<br>\n- Photos des acteurs<br>\n</section>\n<h3>Organisation du dossier</h3>\n<p>Le mieux, pour commencer \u00E0 d\u00E9finir l'organisation du dossier, est de pr\u00E9parer un document vierge, d\u00E8s \u00E0 pr\u00E9sent, en utilisant les sauts de pages pour s\u00E9parer les grandes sections, en indiquant que leur titre.</p>\n<p>Ce document peut ressembler \u00E0\u00A0:</p>\n<section class=\"document\">\n<em>(Page de couverture)</em><br>\n/saut de page/<br><br>\n<em>(Accroche pour pr\u00E9senter le concept)</em><br>\n/saut de page/\n<h1>Le concept</h1><br>\n/saut de page/\n<h1>Les personnages</h1><br>\n/saut de page/\n<h1>Arche des \u00E9pisodes de la saison 1</h1><br>\n/saut de page/\netc.\n</section>\n<h3>Charte graphique du dossier</h3>\n<p>Pour d\u00E9finir la charte graphique, on va devoir\u00A0:</p>\n<ul>\n  <li>choisir une fonte (gratuite ou achet\u00E9e) \u2014\u00A0c'est-\u00E0-dire une police de caract\u00E8re\u00A0\u2014 qui correspond au genre, au ton, au style de la s\u00E9rie,</li>\n  <li>choisir 3 couleurs principales (sans compter le noir qui sera utilis\u00E9 pour le texte normal)\u00A0: </li>\n  <ul>\n  <li>une couleur \u2014\u00A0et peut-\u00EAtre une fonte sp\u00E9ciale\u00A0\u2014 pour les titres des grandes sections (\u201CLe concept\u201D, \u201CLes personnages\u201D, etc.),</li>\n    <li>une couleur \u2014 et peut-\u00EAtre une fonte sp\u00E9ciale \u2014 pour les titres des chapitres dans ces grandes sections,</li>\n    <li>une couleur pour mettre des mots importants en exergue.</li>\n</ul>\n  <li>choisir des photos pour habiller l'int\u00E9rieur du dossier. En choisir pour le moment au moins trois par page, pour avoir le choix (au final, une seule sera peut-\u00EAtre n\u00E9cessaire pour chaque page),</li>\n  <li>Commencer \u00E0 construire la couverture du dossier, en s'appuyant sur les \u00E9l\u00E9ments pr\u00E9c\u00E9dents. Cette couverture devrait \u00EAtre une synth\u00E8se de la charte graphique choisie.</li>\n</ul>\n<p>Bien entendu, ces choix doivent se faire avec un minimum de go\u00FBt. Dans le doute, choisir la simplicit\u00E9, en jouant simplement sur la taille d'une m\u00EAme police de caract\u00E8re, et peut-\u00EAtre une seule couleur. Trois couleurs, en tout cas, ne sont pas absolument obligatoire.</p>"
+:methode => nil
+:duree => 7
+:duree_max => 28
+:liens => nil
+:updated_at => "2 f\u00E9vrier 2017 - 16:51 (real: 1486050672)"
+}
+
+
+=== DEBUG DU 02 02 2017 - 16:51:16 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 213
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 02 02 2017 - 16:52:38 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 213
+Method   = "edit"
+Context  = nil
+-- données initiales : {
+:titre => "Aper\u00E7u du dossier et charte graphique"
+:numero => 200
+:id => 213
+:module_id => 12
+:objectif => "D\u00E9finir le contenu, l'organisation et la charte graphique du dossier"
+:travail => "<p>Au cours de cette \u00E9tape, il va s'agir de d\u00E9finir le plus pr\u00E9cis\u00E9ment possible trois choses\u00A0:</p>\n<ul>\n  <li><b>le contenu du dossier</b>, c'est-\u00E0-dire les informations qu'il devra contenir (ces informations correspondent aux \u201Cgrandes sections\u201D dont il sera question plus bas \u2014\u00A0le \u201Cconcept\u201D, la pr\u00E9sentation des personnages \u2014\u00A0mais il peut contenir aussi, par exemple, les photos des com\u00E9diens, des aphorismes, etc.),</li>\n <li><b>l'organisation du dossier</b>, c'est-\u00E0-dire l'ordre dans lequel ces informations apparaitront,</li>\n  <li><b>la charte graphique</b>, c'est-\u00E0-dire l'impact visuel du dossier.</li>\n</ul>\n<h3>Contenu du dossier</h3>\n<p>Le plus simple est de pr\u00E9parer simplement la liste des informations \u00E0 faire apparaitre.</p>\n<p>Cette liste, qui d\u00E9pend des destinataires du dossier, peut ressembler \u00E0 (bien noter que l'ordre n'est pas forc\u00E9ment pr\u00E9sent\u00E9 ici)\u00A0:</p>\n<section class=\"document\">\n- Donn\u00E9es techniques pour la s\u00E9rie (cible, dur\u00E9e, grille)<br>\n- Pr\u00E9sentation g\u00E9n\u00E9rale du concept (quelques lignes)<br>\n- Pr\u00E9sentation d\u00E9taill\u00E9e du concept (2 pages)<br>\n- Pr\u00E9sentation des personnages<br>\n- Arche de la saison 1<br>\n- Note d'intention<br>\n- Photos des acteurs<br>\n</section>\n<h3>Organisation du dossier</h3>\n<p>Le mieux, pour commencer \u00E0 d\u00E9finir l'organisation du dossier, est de pr\u00E9parer un document vierge, d\u00E8s \u00E0 pr\u00E9sent, en utilisant les sauts de pages pour s\u00E9parer les grandes sections, en indiquant que leur titre.</p>\n<p>Ce document peut ressembler \u00E0\u00A0:</p>\n<section class=\"document\">\n<em>(Page de couverture)</em><br>\n/saut de page/<br><br>\n<em>(Accroche pour pr\u00E9senter le concept)</em><br>\n/saut de page/\n<h1>Le concept</h1><br>\n/saut de page/\n<h1>Les personnages</h1><br>\n/saut de page/\n<h1>Arche des \u00E9pisodes de la saison 1</h1><br>\n/saut de page/\netc.\n</section>\n<h3>Charte graphique du dossier</h3>\n<p>Pour d\u00E9finir la charte graphique, on va devoir\u00A0:</p>\n<ul>\n  <li>choisir une fonte (gratuite ou achet\u00E9e) \u2014\u00A0c'est-\u00E0-dire une police de caract\u00E8re\u00A0\u2014 qui correspond au genre, au ton, au style de la s\u00E9rie,</li>\n  <li>choisir 3 couleurs principales (sans compter le noir qui sera utilis\u00E9 pour le texte normal)\u00A0: </li>\n  <ul>\n  <li>une couleur \u2014\u00A0et peut-\u00EAtre une fonte sp\u00E9ciale\u00A0\u2014 pour les titres des grandes sections (\u201CLe concept\u201D, \u201CLes personnages\u201D, etc.),</li>\n    <li>une couleur \u2014 et peut-\u00EAtre une fonte sp\u00E9ciale \u2014 pour les titres des chapitres dans ces grandes sections,</li>\n    <li>une couleur pour mettre des mots importants en exergue.</li>\n</ul>\n  <li>choisir des photos pour habiller l'int\u00E9rieur du dossier. En choisir pour le moment au moins trois par page, pour avoir le choix (au final, une seule sera peut-\u00EAtre n\u00E9cessaire pour chaque page),</li>\n  <li>Commencer \u00E0 construire la couverture du dossier, en s'appuyant sur les \u00E9l\u00E9ments pr\u00E9c\u00E9dents. Cette couverture devrait \u00EAtre une synth\u00E8se de la charte graphique choisie.</li>\n</ul>\n<p>Bien entendu, ces choix doivent se faire avec un minimum de go\u00FBt. Dans le doute, choisir la simplicit\u00E9, en jouant simplement sur la taille d'une m\u00EAme police de caract\u00E8re, et peut-\u00EAtre une seule couleur. Trois couleurs, en tout cas, ne sont pas absolument obligatoire.</p>"
+:methode => nil
+:duree => 7
+:duree_max => 28
+:liens => nil
+:updated_at => "2 f\u00E9vrier 2017 - 16:52 (real: 1486050758)"
+}
+
+
+=== DEBUG DU 02 02 2017 - 16:53:22 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 213
+Method   = "edit"
+Context  = nil
+-- données initiales : {
+:titre => "Aper\u00E7u du dossier et charte graphique"
+:numero => 200
+:id => 213
+:module_id => 12
+:objectif => "D\u00E9finir le contenu, l'organisation et la charte graphique du dossier"
+:travail => "<p>Au cours de cette \u00E9tape, il va s'agir de d\u00E9finir le plus pr\u00E9cis\u00E9ment possible trois choses\u00A0:</p>\n<ul>\n  <li><b>le contenu du dossier</b>, c'est-\u00E0-dire les informations qu'il devra contenir (ces informations correspondent aux \u201Cgrandes sections\u201D dont il sera question plus bas \u2014\u00A0le \u201Cconcept\u201D, la pr\u00E9sentation des personnages \u2014\u00A0mais il peut contenir aussi, par exemple, les photos des com\u00E9diens, des aphorismes, etc.),</li>\n <li><b>l'organisation du dossier</b>, c'est-\u00E0-dire l'ordre dans lequel ces informations apparaitront,</li>\n  <li><b>la charte graphique</b>, c'est-\u00E0-dire l'impact visuel du dossier.</li>\n</ul>\n<h3>Contenu du dossier</h3>\n<p>Le plus simple est de pr\u00E9parer simplement la liste des informations \u00E0 faire apparaitre.</p>\n<p>Cette liste, qui d\u00E9pend des destinataires du dossier, peut ressembler \u00E0 (bien noter que l'ordre n'est pas forc\u00E9ment pr\u00E9sent\u00E9 ici)\u00A0:</p>\n<section class=\"document\">\n- Donn\u00E9es techniques pour la s\u00E9rie (cible, dur\u00E9e, grille)<br>\n- Pr\u00E9sentation g\u00E9n\u00E9rale du concept (quelques lignes)<br>\n- Pr\u00E9sentation d\u00E9taill\u00E9e du concept (2 pages)<br>\n- Pr\u00E9sentation des personnages<br>\n- Arches de la saison 1<br>\n- Note d'intention<br>\n- Photos des acteurs<br>\n</section>\n<h3>Organisation du dossier</h3>\n<p>Le mieux, pour commencer \u00E0 d\u00E9finir l'organisation du dossier, est de pr\u00E9parer un document vierge, d\u00E8s \u00E0 pr\u00E9sent, en utilisant les sauts de pages pour s\u00E9parer les grandes sections, en indiquant que leur titre.</p>\n<p>Ce document peut ressembler \u00E0\u00A0:</p>\n<section class=\"document\">\n<em>(Page de couverture)</em><br>\n/saut de page/<br><br>\n<em>(Accroche pour pr\u00E9senter le concept)</em><br>\n/saut de page/\n<h1>Le concept</h1><br>\n/saut de page/\n<h1>Les personnages</h1><br>\n/saut de page/\n<h1>Arche des \u00E9pisodes de la saison 1</h1><br>\n/saut de page/\netc.\n</section>\n<h3>Charte graphique du dossier</h3>\n<p>Pour d\u00E9finir la charte graphique, on va devoir\u00A0:</p>\n<ul>\n  <li>choisir une fonte (gratuite ou achet\u00E9e) \u2014\u00A0c'est-\u00E0-dire une police de caract\u00E8re\u00A0\u2014 qui correspond au genre, au ton, au style de la s\u00E9rie,</li>\n  <li>choisir 3 couleurs principales (sans compter le noir qui sera utilis\u00E9 pour le texte normal)\u00A0: </li>\n  <ul>\n  <li>une couleur \u2014\u00A0et peut-\u00EAtre une fonte sp\u00E9ciale\u00A0\u2014 pour les titres des grandes sections (\u201CLe concept\u201D, \u201CLes personnages\u201D, etc.),</li>\n    <li>une couleur \u2014 et peut-\u00EAtre une fonte sp\u00E9ciale \u2014 pour les titres des chapitres dans ces grandes sections,</li>\n    <li>une couleur pour mettre des mots importants en exergue.</li>\n</ul>\n  <li>choisir des photos pour habiller l'int\u00E9rieur du dossier. En choisir pour le moment au moins trois par page, pour avoir le choix (au final, une seule sera peut-\u00EAtre n\u00E9cessaire pour chaque page),</li>\n  <li>Commencer \u00E0 construire la couverture du dossier, en s'appuyant sur les \u00E9l\u00E9ments pr\u00E9c\u00E9dents. Cette couverture devrait \u00EAtre une synth\u00E8se de la charte graphique choisie.</li>\n</ul>\n<p>Bien entendu, ces choix doivent se faire avec un minimum de go\u00FBt. Dans le doute, choisir la simplicit\u00E9, en jouant simplement sur la taille d'une m\u00EAme police de caract\u00E8re, et peut-\u00EAtre une seule couleur. Trois couleurs, en tout cas, ne sont pas absolument obligatoire.</p>"
+:methode => nil
+:duree => 7
+:duree_max => 28
+:liens => nil
+:updated_at => "2 f\u00E9vrier 2017 - 16:53 (real: 1486050802)"
+}
+
+
+=== DEBUG DU 02 02 2017 - 16:54:02 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 213
+Method   = "edit"
+Context  = nil
+-- données initiales : {
+:titre => "Aper\u00E7u du dossier et charte graphique"
+:numero => 200
+:id => 213
+:module_id => 12
+:objectif => "D\u00E9finir le contenu, l'organisation et la charte graphique du dossier"
+:travail => "<p>Au cours de cette \u00E9tape, il va s'agir de d\u00E9finir le plus pr\u00E9cis\u00E9ment possible trois choses\u00A0:</p>\n<ul>\n  <li><b>le contenu du dossier</b>, c'est-\u00E0-dire les informations qu'il devra contenir (ces informations correspondent aux \u201Cgrandes sections\u201D dont il sera question plus bas \u2014\u00A0le \u201Cconcept\u201D, la pr\u00E9sentation des personnages \u2014\u00A0mais il peut contenir aussi, par exemple, les photos des com\u00E9diens, des aphorismes, etc.),</li>\n <li><b>l'organisation du dossier</b>, c'est-\u00E0-dire l'ordre dans lequel ces informations apparaitront,</li>\n  <li><b>la charte graphique</b>, c'est-\u00E0-dire l'impact visuel du dossier.</li>\n</ul>\n<h3>Contenu du dossier</h3>\n<p>Le plus simple est de pr\u00E9parer simplement la liste des informations \u00E0 faire apparaitre.</p>\n<p>Cette liste, qui d\u00E9pend des destinataires du dossier, peut ressembler \u00E0 (bien noter que l'ordre n'est pas forc\u00E9ment pr\u00E9sent\u00E9 ici)\u00A0:</p>\n<section class=\"document\">\n- Donn\u00E9es techniques pour la s\u00E9rie (cible, dur\u00E9e, grille)<br>\n- Pr\u00E9sentation g\u00E9n\u00E9rale du concept (quelques lignes)<br>\n- Pr\u00E9sentation d\u00E9taill\u00E9e du concept (2 pages)<br>\n- Pr\u00E9sentation des personnages<br>\n- Arches de la saison 1<br>\n- Note d'intention<br>\n- Photos des acteurs<br>\n</section>\n<h3>Organisation du dossier</h3>\n<p>Le mieux, pour commencer \u00E0 d\u00E9finir l'organisation du dossier, est de pr\u00E9parer un document vierge, d\u00E8s \u00E0 pr\u00E9sent, en utilisant les sauts de pages pour s\u00E9parer les grandes sections, en indiquant seulement soit leur titre soit leur contenu.</p>\n<p>Ce document peut ressembler \u00E0\u00A0:</p>\n<section class=\"document\">\n<em>(Page de couverture)</em><br>\n/saut de page/<br><br>\n<em>(Accroche pour pr\u00E9senter le concept)</em><br>\n/saut de page/\n<h1>Le concept</h1><br>\n/saut de page/\n<h1>Les personnages</h1><br>\n/saut de page/\n<h1>Arche des \u00E9pisodes de la saison 1</h1><br>\n/saut de page/\netc.\n</section>\n<h3>Charte graphique du dossier</h3>\n<p>Pour d\u00E9finir la charte graphique, on va devoir\u00A0:</p>\n<ul>\n  <li>choisir une fonte (gratuite ou achet\u00E9e) \u2014\u00A0c'est-\u00E0-dire une police de caract\u00E8re\u00A0\u2014 qui correspond au genre, au ton, au style de la s\u00E9rie,</li>\n  <li>choisir 3 couleurs principales (sans compter le noir qui sera utilis\u00E9 pour le texte normal)\u00A0: </li>\n  <ul>\n  <li>une couleur \u2014\u00A0et peut-\u00EAtre une fonte sp\u00E9ciale\u00A0\u2014 pour les titres des grandes sections (\u201CLe concept\u201D, \u201CLes personnages\u201D, etc.),</li>\n    <li>une couleur \u2014 et peut-\u00EAtre une fonte sp\u00E9ciale \u2014 pour les titres des chapitres dans ces grandes sections,</li>\n    <li>une couleur pour mettre des mots importants en exergue.</li>\n</ul>\n  <li>choisir des photos pour habiller l'int\u00E9rieur du dossier. En choisir pour le moment au moins trois par page, pour avoir le choix (au final, une seule sera peut-\u00EAtre n\u00E9cessaire pour chaque page),</li>\n  <li>Commencer \u00E0 construire la couverture du dossier, en s'appuyant sur les \u00E9l\u00E9ments pr\u00E9c\u00E9dents. Cette couverture devrait \u00EAtre une synth\u00E8se de la charte graphique choisie.</li>\n</ul>\n<p>Bien entendu, ces choix doivent se faire avec un minimum de go\u00FBt. Dans le doute, choisir la simplicit\u00E9, en jouant simplement sur la taille d'une m\u00EAme police de caract\u00E8re, et peut-\u00EAtre une seule couleur. Trois couleurs, en tout cas, ne sont pas absolument obligatoire.</p>"
+:methode => nil
+:duree => 7
+:duree_max => 28
+:liens => nil
+:updated_at => "2 f\u00E9vrier 2017 - 16:54 (real: 1486050842)"
+}
+
+
+=== DEBUG DU 02 02 2017 - 16:54:04 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 213
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 02 02 2017 - 16:54:58 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 213
+Method   = "edit"
+Context  = nil
+-- données initiales : {
+:titre => "Aper\u00E7u du dossier et charte graphique"
+:numero => 200
+:id => 213
+:module_id => 12
+:objectif => "D\u00E9finir le contenu, l'organisation et la charte graphique du dossier"
+:travail => "<p>Au cours de cette \u00E9tape, il va s'agir de d\u00E9finir le plus pr\u00E9cis\u00E9ment possible trois choses\u00A0:</p>\n<ul>\n  <li><b>le contenu du dossier</b>, c'est-\u00E0-dire les informations qu'il devra contenir (ces informations correspondent aux \u201Cgrandes sections\u201D dont il sera question plus bas \u2014\u00A0le \u201Cconcept\u201D, la pr\u00E9sentation des personnages \u2014\u00A0mais il peut contenir aussi, par exemple, les photos des com\u00E9diens, des aphorismes, etc.),</li>\n <li><b>l'organisation du dossier</b>, c'est-\u00E0-dire l'ordre dans lequel ces informations apparaitront,</li>\n  <li><b>la charte graphique</b>, c'est-\u00E0-dire l'impact visuel du dossier.</li>\n</ul>\n<h3>Contenu du dossier</h3>\n<p>Le plus simple est de pr\u00E9parer simplement la liste des informations \u00E0 faire apparaitre.</p>\n<p>Cette liste, qui d\u00E9pend des destinataires du dossier, peut ressembler \u00E0 (bien noter que l'ordre n'est pas forc\u00E9ment pr\u00E9sent\u00E9 ici)\u00A0:</p>\n<section class=\"document\">\n- Donn\u00E9es techniques pour la s\u00E9rie (cible, dur\u00E9e, grille)<br>\n- Pr\u00E9sentation g\u00E9n\u00E9rale du concept (quelques lignes)<br>\n- Pr\u00E9sentation d\u00E9taill\u00E9e du concept (2 pages)<br>\n- Pr\u00E9sentation des personnages<br>\n- Arches de la saison 1<br>\n- Note d'intention<br>\n- Photos des acteurs<br>\n</section>\n<h3>Organisation du dossier</h3>\n<p>Le mieux, pour commencer \u00E0 d\u00E9finir l'organisation du dossier, est de pr\u00E9parer un document vierge, d\u00E8s \u00E0 pr\u00E9sent, en utilisant les sauts de pages pour s\u00E9parer les grandes sections, en indiquant seulement soit leur titre soit leur contenu.</p>\n<p>Ce document peut ressembler \u00E0\u00A0:</p>\n<section class=\"document\">\n<em>(Page de couverture)</em><br>\n/saut de page/<br><br>\n<em>(Accroche pour pr\u00E9senter le concept)</em><br>\n/saut de page/\n<h2>Le concept</h2><br>\n/saut de page/\n<h1>Les personnages</h1><br>\n/saut de page/\n<h1>Arche des \u00E9pisodes de la saison 1</h1><br>\n/saut de page/\netc.\n</section>\n<h3>Charte graphique du dossier</h3>\n<p>Pour d\u00E9finir la charte graphique, on va devoir\u00A0:</p>\n<ul>\n  <li>choisir une fonte (gratuite ou achet\u00E9e) \u2014\u00A0c'est-\u00E0-dire une police de caract\u00E8re\u00A0\u2014 qui correspond au genre, au ton, au style de la s\u00E9rie,</li>\n  <li>choisir 3 couleurs principales (sans compter le noir qui sera utilis\u00E9 pour le texte normal)\u00A0: </li>\n  <ul>\n  <li>une couleur \u2014\u00A0et peut-\u00EAtre une fonte sp\u00E9ciale\u00A0\u2014 pour les titres des grandes sections (\u201CLe concept\u201D, \u201CLes personnages\u201D, etc.),</li>\n    <li>une couleur \u2014 et peut-\u00EAtre une fonte sp\u00E9ciale \u2014 pour les titres des chapitres dans ces grandes sections,</li>\n    <li>une couleur pour mettre des mots importants en exergue.</li>\n</ul>\n  <li>choisir des photos pour habiller l'int\u00E9rieur du dossier. En choisir pour le moment au moins trois par page, pour avoir le choix (au final, une seule sera peut-\u00EAtre n\u00E9cessaire pour chaque page),</li>\n  <li>Commencer \u00E0 construire la couverture du dossier, en s'appuyant sur les \u00E9l\u00E9ments pr\u00E9c\u00E9dents. Cette couverture devrait \u00EAtre une synth\u00E8se de la charte graphique choisie.</li>\n</ul>\n<p>Bien entendu, ces choix doivent se faire avec un minimum de go\u00FBt. Dans le doute, choisir la simplicit\u00E9, en jouant simplement sur la taille d'une m\u00EAme police de caract\u00E8re, et peut-\u00EAtre une seule couleur. Trois couleurs, en tout cas, ne sont pas absolument obligatoire.</p>"
+:methode => nil
+:duree => 7
+:duree_max => 28
+:liens => nil
+:updated_at => "2 f\u00E9vrier 2017 - 16:54 (real: 1486050898)"
+}
+
+
+=== DEBUG DU 02 02 2017 - 16:55:01 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 213
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 02 02 2017 - 16:55:25 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 213
+Method   = "edit"
+Context  = nil
+-- données initiales : {
+:titre => "Aper\u00E7u du dossier et charte graphique"
+:numero => 200
+:id => 213
+:module_id => 12
+:objectif => "D\u00E9finir le contenu, l'organisation et la charte graphique du dossier"
+:travail => "<p>Au cours de cette \u00E9tape, il va s'agir de d\u00E9finir le plus pr\u00E9cis\u00E9ment possible trois choses\u00A0:</p>\n<ul>\n  <li><b>le contenu du dossier</b>, c'est-\u00E0-dire les informations qu'il devra contenir (ces informations correspondent aux \u201Cgrandes sections\u201D dont il sera question plus bas \u2014\u00A0le \u201Cconcept\u201D, la pr\u00E9sentation des personnages \u2014\u00A0mais il peut contenir aussi, par exemple, les photos des com\u00E9diens, des aphorismes, etc.),</li>\n <li><b>l'organisation du dossier</b>, c'est-\u00E0-dire l'ordre dans lequel ces informations apparaitront,</li>\n  <li><b>la charte graphique</b>, c'est-\u00E0-dire l'impact visuel du dossier.</li>\n</ul>\n<h3>Contenu du dossier</h3>\n<p>Le plus simple est de pr\u00E9parer simplement la liste des informations \u00E0 faire apparaitre.</p>\n<p>Cette liste, qui d\u00E9pend des destinataires du dossier, peut ressembler \u00E0 (bien noter que l'ordre n'est pas forc\u00E9ment pr\u00E9sent\u00E9 ici)\u00A0:</p>\n<section class=\"document\">\n- Donn\u00E9es techniques pour la s\u00E9rie (cible, dur\u00E9e, grille)<br>\n- Pr\u00E9sentation g\u00E9n\u00E9rale du concept (quelques lignes)<br>\n- Pr\u00E9sentation d\u00E9taill\u00E9e du concept (2 pages)<br>\n- Pr\u00E9sentation des personnages<br>\n- Arches de la saison 1<br>\n- Note d'intention<br>\n- Photos des acteurs<br>\n</section>\n<h3>Organisation du dossier</h3>\n<p>Le mieux, pour commencer \u00E0 d\u00E9finir l'organisation du dossier, est de pr\u00E9parer un document vierge, d\u00E8s \u00E0 pr\u00E9sent, en utilisant les sauts de pages pour s\u00E9parer les grandes sections, en indiquant seulement soit leur titre soit leur contenu.</p>\n<p>Ce document peut ressembler \u00E0\u00A0:</p>\n<section class=\"document\">\n<em>(Page de couverture)</em><br>\n/saut de page/<br><br>\n<em>(Accroche pour pr\u00E9senter le concept)</em><br>\n/saut de page/\n<h2>Le concept</h2><br>\n/saut de page/\n<h2>Les personnages</h2><br>\n/saut de page/\n<h2>Arche des \u00E9pisodes de la saison 1</h2><br>\n/saut de page/\netc.\n</section>\n<h3>Charte graphique du dossier</h3>\n<p>Pour d\u00E9finir la charte graphique, on va devoir\u00A0:</p>\n<ul>\n  <li>choisir une fonte (gratuite ou achet\u00E9e) \u2014\u00A0c'est-\u00E0-dire une police de caract\u00E8re\u00A0\u2014 qui correspond au genre, au ton, au style de la s\u00E9rie,</li>\n  <li>choisir 3 couleurs principales (sans compter le noir qui sera utilis\u00E9 pour le texte normal)\u00A0: </li>\n  <ul>\n  <li>une couleur \u2014\u00A0et peut-\u00EAtre une fonte sp\u00E9ciale\u00A0\u2014 pour les titres des grandes sections (\u201CLe concept\u201D, \u201CLes personnages\u201D, etc.),</li>\n    <li>une couleur \u2014 et peut-\u00EAtre une fonte sp\u00E9ciale \u2014 pour les titres des chapitres dans ces grandes sections,</li>\n    <li>une couleur pour mettre des mots importants en exergue.</li>\n</ul>\n  <li>choisir des photos pour habiller l'int\u00E9rieur du dossier. En choisir pour le moment au moins trois par page, pour avoir le choix (au final, une seule sera peut-\u00EAtre n\u00E9cessaire pour chaque page),</li>\n  <li>Commencer \u00E0 construire la couverture du dossier, en s'appuyant sur les \u00E9l\u00E9ments pr\u00E9c\u00E9dents. Cette couverture devrait \u00EAtre une synth\u00E8se de la charte graphique choisie.</li>\n</ul>\n<p>Bien entendu, ces choix doivent se faire avec un minimum de go\u00FBt. Dans le doute, choisir la simplicit\u00E9, en jouant simplement sur la taille d'une m\u00EAme police de caract\u00E8re, et peut-\u00EAtre une seule couleur. Trois couleurs, en tout cas, ne sont pas absolument obligatoire.</p>"
+:methode => nil
+:duree => 7
+:duree_max => 28
+:liens => nil
+:updated_at => "2 f\u00E9vrier 2017 - 16:55 (real: 1486050925)"
+}
+
+
+=== DEBUG DU 02 02 2017 - 16:55:28 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 213
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 02 02 2017 - 17:00:52 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 213
+Method   = "edit"
+Context  = nil
+-- données initiales : {
+:titre => "Aper\u00E7u du dossier et charte graphique"
+:numero => 200
+:id => 213
+:module_id => 12
+:objectif => "D\u00E9finir le contenu, l'organisation et la charte graphique du dossier"
+:travail => "<p>Au cours de cette \u00E9tape, il va s'agir de d\u00E9finir le plus pr\u00E9cis\u00E9ment possible trois choses\u00A0:</p>\n<ul>\n  <li><b>le contenu du dossier</b>, c'est-\u00E0-dire les informations qu'il devra contenir (ces informations correspondent aux \u201Cgrandes sections\u201D dont il sera question plus bas \u2014\u00A0le \u201Cconcept\u201D, la pr\u00E9sentation des personnages \u2014\u00A0mais il peut contenir aussi, par exemple, les photos des com\u00E9diens, des aphorismes, etc.),</li>\n <li><b>l'organisation du dossier</b>, c'est-\u00E0-dire l'ordre dans lequel ces informations apparaitront,</li>\n  <li><b>la charte graphique</b>, c'est-\u00E0-dire l'impact visuel du dossier.</li>\n</ul>\n<h3>Contenu du dossier</h3>\n<p>Le plus simple est de pr\u00E9parer simplement la liste des informations \u00E0 faire apparaitre.</p>\n<p>Cette liste, qui d\u00E9pend des destinataires du dossier, peut ressembler \u00E0 (bien noter que l'ordre n'est pas forc\u00E9ment pr\u00E9sent\u00E9 ici)\u00A0:</p>\n<section class=\"document\">\n- Donn\u00E9es techniques pour la s\u00E9rie (cible, dur\u00E9e, grille)<br>\n- Pr\u00E9sentation g\u00E9n\u00E9rale du concept (quelques lignes)<br>\n- Pr\u00E9sentation d\u00E9taill\u00E9e du concept (2 pages)<br>\n- Pr\u00E9sentation des personnages<br>\n- Arches de la saison 1<br>\n- Note d'intention<br>\n- Photos des acteurs<br>\n</section>\n<h3>Organisation du dossier</h3>\n<p>Le mieux, pour commencer \u00E0 d\u00E9finir l'organisation du dossier, est de pr\u00E9parer un document vierge, d\u00E8s \u00E0 pr\u00E9sent, en utilisant les sauts de pages pour s\u00E9parer les grandes sections, en indiquant seulement soit leur titre soit leur contenu.</p>\n<p>Ce document peut ressembler \u00E0\u00A0:</p>\n<section class=\"document\">\n<em>(Page de couverture)</em><br>\n/saut de page/<br><br>\n<em>(Accroche pour pr\u00E9senter le concept)</em><br>\n/saut de page/\n<h2>Le concept</h2><br>\n/saut de page/\n<h2>Les personnages</h2><br>\n/saut de page/\n<h2>Arche des \u00E9pisodes de la saison 1</h2><br>\n/saut de page/\netc.\n</section>\n<h3>Charte graphique du dossier</h3>\n<p>Pour d\u00E9finir la charte graphique, on va devoir\u00A0:</p>\n<ul>\n  <li>choisir une fonte (gratuite ou achet\u00E9e) \u2014\u00A0c'est-\u00E0-dire une police de caract\u00E8re\u00A0\u2014 qui correspond au genre, au ton, au style de la s\u00E9rie,</li>\n  <li>choisir 3 couleurs principales (sans compter le noir qui sera utilis\u00E9 pour le texte normal)\u00A0: </li>\n  <ul>\n  <li>une couleur \u2014\u00A0et peut-\u00EAtre une fonte sp\u00E9ciale\u00A0\u2014 pour les titres des grandes sections (\u201CLe concept\u201D, \u201CLes personnages\u201D, etc.),</li>\n    <li>une couleur \u2014 et peut-\u00EAtre une fonte sp\u00E9ciale \u2014 pour les titres des chapitres dans ces grandes sections,</li>\n    <li>une couleur pour mettre des mots importants en exergue.</li>\n</ul>\n  <li>choisir des photos pour habiller l'int\u00E9rieur du dossier. En choisir pour le moment au moins trois par page, pour avoir le choix (au final, une seule sera peut-\u00EAtre n\u00E9cessaire pour chaque page),</li>\n  <li>Commencer \u00E0 construire la couverture du dossier, en s'appuyant sur les \u00E9l\u00E9ments pr\u00E9c\u00E9dents. Cette couverture devrait \u00EAtre une synth\u00E8se de la charte graphique choisie.</li>\n</ul>\n<p>Bien entendu, ces choix doivent se faire avec un minimum de go\u00FBt. Dans le doute, choisir la simplicit\u00E9, en jouant simplement sur la taille d'une m\u00EAme police de caract\u00E8re, et peut-\u00EAtre une seule couleur. Trois couleurs, en tout cas, ne sont pas absolument obligatoire.</p>\n<h1>Documents transmis</h1>\n<p>On prendra soin de transmettre \u00E0 Phil les documents suivants\u00A0:</p>\n<ul>\n  <li>Le contenu (liste) du dossier,</li>\n  <li>Le dossier en \u201Csauts de page\u201D, en version \u00E9ditable (.odt, .docx, etc.),</li>\n  <li>le dossier en \u201Csauts de page\u201D en version PDF (pour conserver l'apparence quel que soit l'ordinateur ou le syst\u00E8me d'exploitation),</li>\n  <li>Un document \u00E9ditable contenant les photos retenues, avec si possible indication de leur grande section de destination.</li>\n</ul>\n<p>Bon courage, <%= user.pseudo %>\u00A0!</p>"
+:methode => nil
+:duree => 7
+:duree_max => 28
+:liens => nil
+:updated_at => "2 f\u00E9vrier 2017 - 17:00 (real: 1486051252)"
+}
+
+
+=== DEBUG DU 02 02 2017 - 17:00:55 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 213
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 02 02 2017 - 17:03:11 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 213
+Method   = "edit"
+Context  = nil
+-- données initiales : {
+:titre => "Aper\u00E7u du dossier et charte graphique"
+:numero => 200
+:id => 213
+:module_id => 12
+:objectif => "D\u00E9finir le contenu, l'organisation et la charte graphique du dossier"
+:travail => "<p>Au cours de cette \u00E9tape, il va s'agir de d\u00E9finir le plus pr\u00E9cis\u00E9ment possible trois choses\u00A0:</p>\n<ul>\n  <li><b>le contenu du dossier</b>, c'est-\u00E0-dire les informations qu'il devra contenir (ces informations correspondent aux \u201Cgrandes sections\u201D dont il sera question plus bas \u2014\u00A0le \u201Cconcept\u201D, la pr\u00E9sentation des personnages \u2014\u00A0mais il peut contenir aussi, par exemple, les photos des com\u00E9diens, des aphorismes, etc.),</li>\n <li><b>l'organisation du dossier</b>, c'est-\u00E0-dire l'ordre dans lequel ces informations apparaitront,</li>\n  <li><b>la charte graphique</b>, c'est-\u00E0-dire l'impact visuel du dossier.</li>\n</ul>\n<h3>Contenu du dossier</h3>\n<p>Le plus simple est de pr\u00E9parer simplement la liste des informations \u00E0 faire apparaitre.</p>\n<p>Cette liste, qui d\u00E9pend des destinataires du dossier, peut ressembler \u00E0 (bien noter que l'ordre n'est pas forc\u00E9ment pr\u00E9sent\u00E9 ici)\u00A0:</p>\n<section class=\"document\">\n- Donn\u00E9es techniques pour la s\u00E9rie (cible, dur\u00E9e, grille)<br>\n- Pr\u00E9sentation g\u00E9n\u00E9rale du concept (quelques lignes)<br>\n- Pr\u00E9sentation d\u00E9taill\u00E9e du concept (2 pages)<br>\n- Pr\u00E9sentation des personnages<br>\n- Arches de la saison 1<br>\n- Note d'intention<br>\n- Photos des acteurs<br>\n</section>\n<h3>Organisation du dossier</h3>\n<p>Le mieux, pour commencer \u00E0 d\u00E9finir l'organisation du dossier, est de pr\u00E9parer un document vierge, d\u00E8s \u00E0 pr\u00E9sent, en utilisant les sauts de pages pour s\u00E9parer les grandes sections, en indiquant seulement soit leur titre soit leur contenu.</p>\n<p>Ce document, que j'appelle \u201CDocument en sauts de page\u201D, peut ressembler \u00E0\u00A0:</p>\n<section class=\"document\">\n<em>(Page de couverture)</em><br>\n/saut de page/<br><br>\n<em>(Accroche pour pr\u00E9senter le concept)</em><br>\n/saut de page/\n<h2>Le concept</h2><br>\n/saut de page/\n<h2>Les personnages</h2><br>\n/saut de page/\n<h2>Arche des \u00E9pisodes de la saison 1</h2><br>\n/saut de page/\netc.\n</section>\n<h3>Charte graphique du dossier</h3>\n<p>Pour d\u00E9finir la charte graphique, on va devoir\u00A0:</p>\n<ul>\n  <li>choisir une fonte (gratuite ou achet\u00E9e) \u2014\u00A0c'est-\u00E0-dire une police de caract\u00E8re\u00A0\u2014 qui correspond au genre, au ton, au style de la s\u00E9rie,</li>\n  <li>choisir 3 couleurs principales (sans compter le noir qui sera utilis\u00E9 pour le texte normal)\u00A0: </li>\n  <ul>\n  <li>une couleur \u2014\u00A0et peut-\u00EAtre une fonte sp\u00E9ciale\u00A0\u2014 pour les titres des grandes sections (\u201CLe concept\u201D, \u201CLes personnages\u201D, etc.),</li>\n    <li>une couleur \u2014 et peut-\u00EAtre une fonte sp\u00E9ciale \u2014 pour les titres des chapitres dans ces grandes sections,</li>\n    <li>une couleur pour mettre des mots importants en exergue.</li>\n</ul>\n  <li>choisir des photos pour habiller l'int\u00E9rieur du dossier. En choisir pour le moment au moins trois par page, pour avoir le choix (au final, une seule sera peut-\u00EAtre n\u00E9cessaire pour chaque page),</li>\n  <li>Commencer \u00E0 construire la couverture du dossier, en s'appuyant sur les \u00E9l\u00E9ments pr\u00E9c\u00E9dents. Cette couverture devrait \u00EAtre une synth\u00E8se de la charte graphique choisie.</li>\n</ul>\n<p>Bien entendu, ces choix doivent se faire avec un minimum de go\u00FBt. Dans le doute, choisir la simplicit\u00E9, en jouant simplement sur la taille d'une m\u00EAme police de caract\u00E8re, et peut-\u00EAtre une seule couleur. Trois couleurs, en tout cas, ne sont pas absolument obligatoire.</p>\n<h1>Documents transmis</h1>\n<p>On prendra soin de transmettre \u00E0 Phil les documents suivants\u00A0:</p>\n<ul>\n  <li>Le contenu (liste) du dossier,</li>\n  <li>Le dossier en \u201Csauts de page\u201D, en version \u00E9ditable (.odt, .docx, etc.),</li>\n  <li>le dossier en \u201Csauts de page\u201D en version PDF, pour conserver l'apparence quels que soient l'ordinateur et le syst\u00E8me d'exploitation (il faudra prendre l'habitude de toujours joindre le dossier dans ces deux formats, \u00E9ditable et PDF),</li>\n  <li>Un document \u00E9ditable contenant les photos retenues, avec si possible indication de leur grande section de destination.</li>\n</ul>\n<p>Bon courage, <%= user.pseudo %>\u00A0!</p>"
+:methode => nil
+:duree => 7
+:duree_max => 28
+:liens => nil
+:updated_at => "2 f\u00E9vrier 2017 - 17:03 (real: 1486051391)"
+}
+
+
+=== DEBUG DU 02 02 2017 - 17:03:15 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 213
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 02 02 2017 - 17:04:32 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 02 02 2017 - 17:04:37 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "dashboard"
+Context  = nil
+-- --> check_folders_offline
+-- --> check_folders_online
+-- --> build_result
+-- --> open_result
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 02 02 2017 - 17:11:50 ===
+
+-- 
+Objet    = "abs_module"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 02 02 2017 - 17:11:58 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 02 02 2017 - 17:12:03 ===
+
+-- 
+Objet    = "user"
+Objet ID = 1
+Method   = "deconnexion"
+Context  = nil
+
+
+=== DEBUG DU 02 02 2017 - 17:12:06 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signin"
+Context  = nil
+
+
+=== DEBUG DU 02 02 2017 - 17:12:10 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "login"
+Context  = nil
+-- kroute = "admin/overview"
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "overview"
+Context  = nil
+-- # expected_comments NON DÉFINI (pour Karine #75)
+-- undefined method `in_span' for nil:NilClass
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/user/helper.rb:31:in `div_module_etape'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/user/helper.rb:17:in `overview'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:207:in `block in overview_textuel'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:205:in `collect'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:205:in `overview_textuel'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:28:in `display'
+(erb):10:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 02 02 2017 - 17:12:13 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 02 02 2017 - 17:12:18 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "dashboard"
+Context  = nil
+
+
+=== DEBUG DU 02 02 2017 - 17:12:23 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 02 02 2017 - 17:12:48 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 02 02 2017 - 17:12:50 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 02 02 2017 - 17:12:53 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 02 02 2017 - 17:13:06 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {}
+
+
+=== DEBUG DU 02 02 2017 - 17:13:23 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 02 02 2017 - 17:13:31 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 1
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 02 02 2017 - 17:13:37 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 02 02 2017 - 17:13:40 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 213
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 02 02 2017 - 17:13:47 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 213
+Method   = "edit"
+Context  = nil
+-- données initiales : {
+:titre => "Contenu du dossier et charte graphique"
+:numero => 200
+:id => 213
+:module_id => 12
+:objectif => "D\u00E9finir le contenu, l'organisation et la charte graphique du dossier"
+:travail => "<p>Au cours de cette \u00E9tape, il va s'agir de d\u00E9finir le plus pr\u00E9cis\u00E9ment possible trois choses\u00A0:</p>\n<ul>\n  <li><b>le contenu du dossier</b>, c'est-\u00E0-dire les informations qu'il devra contenir (ces informations correspondent aux \u201Cgrandes sections\u201D dont il sera question plus bas \u2014\u00A0le \u201Cconcept\u201D, la pr\u00E9sentation des personnages \u2014\u00A0mais il peut contenir aussi, par exemple, les photos des com\u00E9diens, des aphorismes, etc.),</li>\n <li><b>l'organisation du dossier</b>, c'est-\u00E0-dire l'ordre dans lequel ces informations apparaitront,</li>\n  <li><b>la charte graphique</b>, c'est-\u00E0-dire l'impact visuel du dossier.</li>\n</ul>\n<h3>Contenu du dossier</h3>\n<p>Le plus simple est de pr\u00E9parer simplement la liste des informations \u00E0 faire apparaitre.</p>\n<p>Cette liste, qui d\u00E9pend des destinataires du dossier, peut ressembler \u00E0 (bien noter que l'ordre n'est pas forc\u00E9ment pr\u00E9sent\u00E9 ici)\u00A0:</p>\n<section class=\"document\">\n- Donn\u00E9es techniques pour la s\u00E9rie (cible, dur\u00E9e, grille)<br>\n- Pr\u00E9sentation g\u00E9n\u00E9rale du concept (quelques lignes)<br>\n- Pr\u00E9sentation d\u00E9taill\u00E9e du concept (2 pages)<br>\n- Pr\u00E9sentation des personnages<br>\n- Arches de la saison 1<br>\n- Note d'intention<br>\n- Photos des acteurs<br>\n</section>\n<h3>Organisation du dossier</h3>\n<p>Le mieux, pour commencer \u00E0 d\u00E9finir l'organisation du dossier, est de pr\u00E9parer un document vierge, d\u00E8s \u00E0 pr\u00E9sent, en utilisant les sauts de pages pour s\u00E9parer les grandes sections, en indiquant seulement soit leur titre soit leur contenu.</p>\n<p>Ce document, que j'appelle \u201CDocument en sauts de page\u201D, peut ressembler \u00E0\u00A0:</p>\n<section class=\"document\">\n<em>(Page de couverture)</em><br>\n/saut de page/<br><br>\n<em>(Accroche pour pr\u00E9senter le concept)</em><br>\n/saut de page/\n<h2>Le concept</h2><br>\n/saut de page/\n<h2>Les personnages</h2><br>\n/saut de page/\n<h2>Arche des \u00E9pisodes de la saison 1</h2><br>\n/saut de page/\netc.\n</section>\n<h3>Charte graphique du dossier</h3>\n<p>Pour d\u00E9finir la charte graphique, on va devoir\u00A0:</p>\n<ul>\n  <li>choisir une fonte (gratuite ou achet\u00E9e) \u2014\u00A0c'est-\u00E0-dire une police de caract\u00E8re\u00A0\u2014 qui correspond au genre, au ton, au style de la s\u00E9rie,</li>\n  <li>choisir 3 couleurs principales (sans compter le noir qui sera utilis\u00E9 pour le texte normal)\u00A0: </li>\n  <ul>\n  <li>une couleur \u2014\u00A0et peut-\u00EAtre une fonte sp\u00E9ciale\u00A0\u2014 pour les titres des grandes sections (\u201CLe concept\u201D, \u201CLes personnages\u201D, etc.),</li>\n    <li>une couleur \u2014 et peut-\u00EAtre une fonte sp\u00E9ciale \u2014 pour les titres des chapitres dans ces grandes sections,</li>\n    <li>une couleur pour mettre des mots importants en exergue.</li>\n</ul>\n  <li>choisir des photos pour habiller l'int\u00E9rieur du dossier. En choisir pour le moment au moins trois par page, pour avoir le choix (au final, une seule sera peut-\u00EAtre n\u00E9cessaire pour chaque page),</li>\n  <li>Commencer \u00E0 construire la couverture du dossier, en s'appuyant sur les \u00E9l\u00E9ments pr\u00E9c\u00E9dents. Cette couverture devrait \u00EAtre une synth\u00E8se de la charte graphique choisie.</li>\n</ul>\n<p>Bien entendu, ces choix doivent se faire avec un minimum de go\u00FBt. Dans le doute, choisir la simplicit\u00E9, en jouant simplement sur la taille d'une m\u00EAme police de caract\u00E8re, et peut-\u00EAtre une seule couleur. Trois couleurs, en tout cas, ne sont pas absolument obligatoire.</p>\n<h1>Documents transmis</h1>\n<p>On prendra soin de transmettre \u00E0 Phil les documents suivants\u00A0:</p>\n<ul>\n  <li>Le contenu (liste) du dossier,</li>\n  <li>Le dossier en \u201Csauts de page\u201D, en version \u00E9ditable (.odt, .docx, etc.),</li>\n  <li>le dossier en \u201Csauts de page\u201D en version PDF, pour conserver l'apparence quels que soient l'ordinateur et le syst\u00E8me d'exploitation (il faudra prendre l'habitude de toujours joindre le dossier dans ces deux formats, \u00E9ditable et PDF),</li>\n  <li>Un document \u00E9ditable contenant les photos retenues, avec si possible indication de leur grande section de destination.</li>\n</ul>\n<p>Bon courage, <%= user.pseudo %>\u00A0!</p>"
+:methode => nil
+:duree => 7
+:duree_max => 28
+:liens => nil
+:updated_at => "2 f\u00E9vrier 2017 - 17:13 (real: 1486052027)"
+}
+
+
+=== DEBUG DU 02 02 2017 - 17:13:55 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {}
+
+
+=== DEBUG DU 02 02 2017 - 17:15:36 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 213
+Method   = "edit"
+Context  = nil
+-- données initiales : {
+:titre => "Contenu du dossier et charte graphique"
+:numero => 200
+:id => 217
+:module_id => 12
+:objectif => "D\u00E9finir le contenu, l'organisation et la charte graphique du dossier"
+:travail => "<p>Au cours de cette \u00E9tape, il va s'agir de d\u00E9finir le plus pr\u00E9cis\u00E9ment possible trois choses\u00A0:</p>\n<ul>\n  <li><b>le contenu du dossier</b>, c'est-\u00E0-dire les informations qu'il devra contenir (ces informations correspondent aux \u201Cgrandes sections\u201D dont il sera question plus bas \u2014\u00A0le \u201Cconcept\u201D, la pr\u00E9sentation des personnages \u2014\u00A0mais il peut contenir aussi, par exemple, les photos des com\u00E9diens, des aphorismes, etc.),</li>\n <li><b>l'organisation du dossier</b>, c'est-\u00E0-dire l'ordre dans lequel ces informations apparaitront,</li>\n  <li><b>la charte graphique</b>, c'est-\u00E0-dire l'impact visuel du dossier.</li>\n</ul>\n<h3>Contenu du dossier</h3>\n<p>Le plus simple est de pr\u00E9parer simplement la liste des informations \u00E0 faire apparaitre.</p>\n<p>Cette liste, qui d\u00E9pend des destinataires du dossier, peut ressembler \u00E0 (bien noter que l'ordre n'est pas forc\u00E9ment pr\u00E9sent\u00E9 ici)\u00A0:</p>\n<section class=\"document\">\n- Donn\u00E9es techniques pour la s\u00E9rie (cible, dur\u00E9e, grille)<br>\n- Pr\u00E9sentation g\u00E9n\u00E9rale du concept (quelques lignes)<br>\n- Pr\u00E9sentation d\u00E9taill\u00E9e du concept (2 pages)<br>\n- Pr\u00E9sentation des personnages<br>\n- Arches de la saison 1<br>\n- Note d'intention<br>\n- Photos des acteurs<br>\n</section>\n<h3>Organisation du dossier</h3>\n<p>Le mieux, pour commencer \u00E0 d\u00E9finir l'organisation du dossier, est de pr\u00E9parer un document vierge, d\u00E8s \u00E0 pr\u00E9sent, en utilisant les sauts de pages pour s\u00E9parer les grandes sections, en indiquant seulement soit leur titre soit leur contenu.</p>\n<p>Ce document, que j'appelle \u201CDocument en sauts de page\u201D, peut ressembler \u00E0\u00A0:</p>\n<section class=\"document\">\n<em>(Page de couverture)</em><br>\n/saut de page/<br><br>\n<em>(Accroche pour pr\u00E9senter le concept)</em><br>\n/saut de page/\n<h2>Le concept</h2><br>\n/saut de page/\n<h2>Les personnages</h2><br>\n/saut de page/\n<h2>Arche des \u00E9pisodes de la saison 1</h2><br>\n/saut de page/\netc.\n</section>\n<h3>Charte graphique du dossier</h3>\n<p>Pour d\u00E9finir la charte graphique, on va devoir\u00A0:</p>\n<ul>\n  <li>choisir une fonte (gratuite ou achet\u00E9e) \u2014\u00A0c'est-\u00E0-dire une police de caract\u00E8re\u00A0\u2014 qui correspond au genre, au ton, au style de la s\u00E9rie,</li>\n  <li>choisir 3 couleurs principales (sans compter le noir qui sera utilis\u00E9 pour le texte normal)\u00A0: </li>\n  <ul>\n  <li>une couleur \u2014\u00A0et peut-\u00EAtre une fonte sp\u00E9ciale\u00A0\u2014 pour les titres des grandes sections (\u201CLe concept\u201D, \u201CLes personnages\u201D, etc.),</li>\n    <li>une couleur \u2014 et peut-\u00EAtre une fonte sp\u00E9ciale \u2014 pour les titres des chapitres dans ces grandes sections,</li>\n    <li>une couleur pour mettre des mots importants en exergue.</li>\n</ul>\n  <li>choisir des photos pour habiller l'int\u00E9rieur du dossier. En choisir pour le moment au moins trois par page, pour avoir le choix (au final, une seule sera peut-\u00EAtre n\u00E9cessaire pour chaque page),</li>\n  <li>Commencer \u00E0 construire la couverture du dossier, en s'appuyant sur les \u00E9l\u00E9ments pr\u00E9c\u00E9dents. Cette couverture devrait \u00EAtre une synth\u00E8se de la charte graphique choisie.</li>\n</ul>\n<p>Bien entendu, ces choix doivent se faire avec un minimum de go\u00FBt. Dans le doute, choisir la simplicit\u00E9, en jouant simplement sur la taille d'une m\u00EAme police de caract\u00E8re, et peut-\u00EAtre une seule couleur. Trois couleurs, en tout cas, ne sont pas absolument obligatoire.</p>\n<h1>Documents transmis</h1>\n<p>On prendra soin de transmettre \u00E0 Phil les documents suivants\u00A0:</p>\n<ul>\n  <li>Le contenu (liste) du dossier,</li>\n  <li>Le dossier en \u201Csauts de page\u201D, en version \u00E9ditable (.odt, .docx, etc.),</li>\n  <li>le dossier en \u201Csauts de page\u201D en version PDF, pour conserver l'apparence quels que soient l'ordinateur et le syst\u00E8me d'exploitation (il faudra prendre l'habitude de toujours joindre le dossier dans ces deux formats, \u00E9ditable et PDF),</li>\n  <li>Un document \u00E9ditable contenant les photos retenues, avec si possible indication de leur grande section de destination.</li>\n</ul>\n<p>Bon courage, <%= user.pseudo %>\u00A0!</p>"
+:methode => nil
+:duree => 7
+:duree_max => 28
+:liens => nil
+:updated_at => "2 f\u00E9vrier 2017 - 17:15 (real: 1486052136)"
+}
+-- undefined method `[]' for nil:NilClass
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/abs_etape/edit.rb:105:in `block in save'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/abs_etape/edit.rb:104:in `each'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/abs_etape/edit.rb:104:in `save'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/abs_etape/edit.rb:159:in `<top (required)>'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:22:in `require_ruby'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:15:in `require_all'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:324:in `load_per_vue'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:103:in `execute_route'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 02 02 2017 - 17:15:43 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 02 02 2017 - 17:15:48 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 1
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 02 02 2017 - 17:15:52 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 02 02 2017 - 17:15:55 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 213
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 02 02 2017 - 17:24:38 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 02 02 2017 - 17:24:50 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 02 02 2017 - 17:26:18 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 02 02 2017 - 17:26:22 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 02 02 2017 - 17:26:29 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 213
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 02 02 2017 - 17:26:37 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 02 02 2017 - 17:26:42 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 217
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 02 02 2017 - 17:30:23 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 02 02 2017 - 17:30:27 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 1
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 02 02 2017 - 17:32:51 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 1
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 02 02 2017 - 18:24:20 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 02 02 2017 - 18:24:24 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 02 02 2017 - 18:24:26 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 02 02 2017 - 18:24:33 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 02 02 2017 - 18:24:37 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
