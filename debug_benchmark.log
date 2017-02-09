@@ -1,0 +1,32 @@
+=== BENCHMARK DU 6 février 2017 à 10:05 ===
+=== Index start : 1486371930.999802 (2017-02-06 10:05:30 +0100)
+
+-> site/config.rb                                       0.000000  0.000000
+<- site/config.rb                                       0.000159  0.000159
+-> execute_preambule                                    0.025952  0.026111
+  -> User#do_after_load                                 0.000063  0.026174
+  <- User#do_after_load                                 0.000003  0.026177
+<- execute_preambule                                    0.000002  0.026179
+-> required.rb                                         -0.200364 -0.174185
+<- required.rb                                          0.200367  0.026182
+-> SiteHtml#output                                      0.000030  0.026212
+  -> SiteHtml#execute_route                             0.000004  0.026216
+      | Objet    = "overview"                                           - 
+      | Objet ID = nil                                                  - 
+      | Method   = "raisons"                                            - 
+      | Context  = nil                                  0.000113  0.026329
+    --> iroute.load_required                            0.000164  0.026493
+    <-- iroute.load_required                            0.001356  0.027849
+    --> iroute.load_per_vue                             0.000011  0.027860
+    <-- iroute.load_per_vue                             0.000125  0.027985
+    --> iroute.method_call                              0.000004  0.027989
+    <-- iroute.method_call                              0.000166  0.028155
+  <- SiteHtml#execute_route                             0.000004  0.028159
+  -> Page#preload                                       0.000009  0.028168
+  <- Page#preload                                       0.010158  0.038326
+  -> Page#prebuild_body                                 0.000018  0.038344
+    -> Page#body                                        0.000005  0.038349
+    <- Page#body                                        0.000257  0.038606
+  <- Page#prebuild_body                                 0.000014  0.038620
+  CODE HTML FINAL BUILT                                 0.000135  0.038755
+<- SiteHtml#output                                      0.000004  0.038759

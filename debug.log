@@ -4699,3 +4699,21 @@ Objet    = "database"
 Objet ID = nil
 Method   = "edit"
 Context  = nil
+
+
+=== DEBUG DU 06 02 2017 - 10:05:27 ===
+
+-- 
+Objet    = "overview"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 06 02 2017 - 10:05:31 ===
+
+-- 
+Objet    = "overview"
+Objet ID = nil
+Method   = "raisons"
+Context  = nil
