@@ -2,6 +2,8 @@
 # Mailing list administration
 #
 raise_unless_admin
+OFFLINE || page.add_javascript(PATH_MODULE_JS_SNIPPETS)
+Admin.require_module 'mailing'
 %>
 <%= Admin::Mailing.titre_h1(Admin::Mailing.sous_titre) %>
 

@@ -12,9 +12,8 @@
 * [Définition de l'objet édité ou du hash de données](#definitiondunobjet)
 
 
-<a name='protectiondesformulaires'></a>
 
-## Protection des formulaires
+## Protection des formulaires {#protectiondesformulaires}
 
 Deux méthodes de `app` permettent de protéger les formulaires contre les rechargements de page.
 
@@ -63,7 +62,7 @@ Puis à la soumission du formulaire, traiter la validité du captcha grâce à l
 
   app.captcha_valid?[ <captcha>]
   # => True si le captcha est valide
-  
+
 ~~~
 
 Si `&lt;captcha>` n'est pas fourni, il est pris dans `param :captcha`.
@@ -103,9 +102,12 @@ Cela chargera des méthodes pratique qui permettront de définir facilement les 
 
 Si aucun préfixe n'est défini (cf. [Définir un préfix pour NAME et ID](#definirunprefixpourlesnameetid)) alors `NAME` et `ID` vaudront `propriété`.
 
-<a name='methodesdechamp'></a>
 
-## Méthodes de construction des champs
+## Méthodes de construction des champs {#methodesdechamp}
+
+### Bouton de soumission {#submit_button}
+
+    form.submit_button('<bouton name>')
 
 ### Construction d'une description
 
@@ -134,7 +136,7 @@ Produira :
 
 ### Construction d'un champ hidden
 
-    form.field_hidden(nil, '<prop>', nil)
+    form.field_hidden(nil, '<prop>', <value | nil>)
 
 ### Construction d'un textarea
 

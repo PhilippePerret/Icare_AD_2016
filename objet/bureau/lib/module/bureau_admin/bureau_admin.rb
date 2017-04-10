@@ -17,6 +17,7 @@ class << self
       'Opérations ICARIEN/S…'.in_a(href: 'admin/users').in_div +
       'Mailing list'.in_a(href: 'admin/mailing').in_div +
       'Visiter le site comme…'.in_a(href: 'admin/visit_as').in_div +
+      'Paiements'.in_a(href: 'admin/paiements').in_div +
       'Listing des icariens'.in_a(href: 'icarien/list').in_div +
 
       'Actualisations'.in_h3 +

@@ -15,4 +15,7 @@ class IcModule
   def started?      ; bit1 == 1 end
   def en_pause?     ; bit1 == 2 end
 
+  def type_suivi?
+    @is_module_suivi ||= abs_module.type_suivi?
+  end
 end #/Icmodule

@@ -22,6 +22,9 @@ class << self
   #   :no_annonce               Si true, on n'annonce pas le document dans les
   #                             activités.
   #
+  # La méthode peut être appelée par un watcher normal ou par
+  # la procédure d'injection d'un document.
+  #
   def create icetape, document_name, options = nil
     options ||= Hash.new
     owner     = icetape.owner
@@ -58,10 +61,15 @@ class << self
     # debug "\n\ndata_icdocument : #{data_icdocument.pretty_inspect}"
     new_doc_id = dbtable_icdocuments.insert(data_icdocument)
 
-    documents_etape = (icetape.documents||'').split(' ')
-    documents_etape << new_doc_id
-    documents_etape = documents_etape.join(' ')
+    # Ajout de l'identifiant du document aux documents de
+    # l'étape (il peut y en avoir ou ne pas y en avoir)
+    documents_etape = "#{icetape.documents} #{new_doc_id}".strip
 
+    # Avec l'outil d'injection de document envoyé par
+    # mail, on doit passer directement au watcher permettant
+    # d'uploader les commentaires (:watcher_upload_comments).
+    # Sinon, c'est le cas normal où on doit me permettre de
+    # télécharger les documents (:watcher_admin_download)
     if options[:watcher_upload_comments]
       owner.add_watcher(
         objet:      'ic_document',
@@ -78,22 +86,33 @@ class << self
       statut_etape = 2
     end
 
-    # On change les données de l'étape
+    # On change les données de l'étape en ajoutant ce
+    # nouveau document et en changeant le statut de
+    # l'étape concernée.
     icetape.set(
       documents: documents_etape,
       status:   statut_etape
     )
 
     # Annonce sauf si contre-indication
+    # On raccourci le nom du document si nécessaire
     if !options[:no_annonce]
       site.require_objet 'actualite'
       SiteHtml::Actualite.create(
         user_id: owner.id,
-        message: "<strong>#{owner.pseudo}</strong> envoie un document pour l’#{icetape.designation}."
+        message: "<strong>#{owner.pseudo}</strong> envoie le document « #{bonne_longueur_nom(document_name)} » pour l’#{icetape.designation}."
         )
     end
 
     return new_doc_id
+  end
+
+  # Retourne le nom du document mais avec son affixe réduit
+  # pour le message d'actualité de l'accueil.
+  def bonne_longueur_nom docname
+    docname.length > 24 || ( return docname )
+    ext = File.extname(docname)
+    "#{File.basename(docname,ext)[0..19]}…#{ext}"
   end
 
 end #/<< self

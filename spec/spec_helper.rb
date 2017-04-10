@@ -41,6 +41,9 @@ $data_tables = {
 
 # require 'capybara/rspec'
 # Pour les tests avec have_tag etc.
+# Ne pas oublier de mettre :
+#   config.include RSpecHtmlMatchers
+# … dans la configuration
 require 'rspec-html-matchers'
 
 
