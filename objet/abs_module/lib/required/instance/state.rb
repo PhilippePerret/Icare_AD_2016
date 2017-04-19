@@ -13,4 +13,5 @@ class AbsModule
   # Juste pour le calcul de jours avant le retour sur les documents
   def suivi_lent?; id == 7 end
 
+  # Note : la méthode exist? existe par les méthodes MySQL
 end #/AbsModule

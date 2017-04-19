@@ -54,6 +54,7 @@ class Page
       else
         ""
       end
+      link_cssreset = OFFLINE ? '' : '<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.18.1/build/cssreset/cssreset-min.css">'
       <<-HEAD
 <meta content="text/html; charset=utf-8" http-equiv="Content-type">
 <title>#{page.title}</title>
@@ -64,6 +65,7 @@ class Page
 <base href="#{site.base}" />
 #{fonts_google}
 #{self.javascript}
+#{link_cssreset}
 #{self.css}
 <link rel="stylesheet" type="text/css" href="view/css_speciaux/mobile.css" media="screen and (max-width: 800px)" />
 #{self.raw_css}

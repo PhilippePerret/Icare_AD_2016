@@ -7119,3 +7119,4864 @@ Context  = nil
 -- Durée couverte : 31622400
 -- Quinze ans     : 473040000
 -- Nombre de mois ajoutés par quinze ans : 0
+
+
+=== DEBUG DU 18 04 2017 - 15:51:53 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signin"
+Context  = nil
+
+
+=== DEBUG DU 18 04 2017 - 15:51:56 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "login"
+Context  = nil
+-- kroute = "admin/overview"
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "overview"
+Context  = nil
+-- # expected_comments NON DÉFINI (pour Karine #75)
+-- undefined method `in_span' for nil:NilClass
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/user/helper.rb:31:in `div_module_etape'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/user/helper.rb:17:in `overview'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:207:in `block in overview_textuel'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:205:in `collect'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:205:in `overview_textuel'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:28:in `display'
+(erb):12:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 18 04 2017 - 15:51:58 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 18 04 2017 - 15:52:01 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 18 04 2017 - 15:52:05 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 18 04 2017 - 15:53:19 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 18 04 2017 - 15:55:00 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 18 04 2017 - 15:55:54 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 18 04 2017 - 15:56:29 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 18 04 2017 - 16:08:53 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 18 04 2017 - 16:09:45 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 18 04 2017 - 16:10:19 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 18 04 2017 - 16:15:37 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 18 04 2017 - 16:19:23 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- doption[1].to_s mis dans in_option : "Benoa (#50)"
+-- doption[1].to_s mis dans in_option : "Emmabad (#13)"
+-- doption[1].to_s mis dans in_option : "Jena (#83)"
+-- doption[1].to_s mis dans in_option : "Karine (#75)"
+-- doption[1].to_s mis dans in_option : "Simulombula (#48)"
+-- doption[1].to_s mis dans in_option : "Travis (#81)"
+-- doption[1].to_s mis dans in_option : "Triskell (#16)"
+-- doption[1].to_s mis dans in_option : "Tous"
+-- doption[1].to_s mis dans in_option : "actifs"
+-- doption[1].to_s mis dans in_option : "Inactifs"
+-- doption[1].to_s mis dans in_option : "En pause"
+-- doption[1].to_s mis dans in_option : "En attente"
+-- doption[1].to_s mis dans in_option : "D\u00E9truits"
+-- doption[1].to_s mis dans in_option : "Choisir l\u2019op\u00E9ration\u2026"
+-- doption[1].to_s mis dans in_option : "Jours gratuits"
+-- doption[1].to_s mis dans in_option : "Travail propre"
+-- doption[1].to_s mis dans in_option : "Document envoy\u00E9 par mail"
+-- doption[1].to_s mis dans in_option : "Changement d\u2019\u00E9tape"
+-- doption[1].to_s mis dans in_option : "Ex\u00E9cution code sur donn\u00E9es"
+-- doption[1].to_s mis dans in_option : "Mise en pause du module d\u2019apprentissage"
+-- doption[1].to_s mis dans in_option : "Reprise du module d\u2019apprentissage apr\u00E8s pause"
+-- doption[1].to_s mis dans in_option : "Arr\u00EAt d\u2019un module d\u2019apprentissage"
+-- doption[1].to_s mis dans in_option : "Changement de module"
+-- doption[1].to_s mis dans in_option : "D\u00E9finir le titre du projet"
+
+
+=== DEBUG DU 18 04 2017 - 16:20:00 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- doption[1].to_s mis dans in_option : "Benoa (#50)"
+-- -> in_option (Benoa (#50))
+-- doption[1].to_s mis dans in_option : "Emmabad (#13)"
+-- -> in_option (Emmabad (#13))
+-- doption[1].to_s mis dans in_option : "Jena (#83)"
+-- -> in_option (Jena (#83))
+-- doption[1].to_s mis dans in_option : "Karine (#75)"
+-- -> in_option (Karine (#75))
+-- doption[1].to_s mis dans in_option : "Simulombula (#48)"
+-- -> in_option (Simulombula (#48))
+-- doption[1].to_s mis dans in_option : "Travis (#81)"
+-- -> in_option (Travis (#81))
+-- doption[1].to_s mis dans in_option : "Triskell (#16)"
+-- -> in_option (Triskell (#16))
+-- doption[1].to_s mis dans in_option : "Tous"
+-- -> in_option (Tous)
+-- doption[1].to_s mis dans in_option : "actifs"
+-- -> in_option (actifs)
+-- doption[1].to_s mis dans in_option : "Inactifs"
+-- -> in_option (Inactifs)
+-- doption[1].to_s mis dans in_option : "En pause"
+-- -> in_option (En pause)
+-- doption[1].to_s mis dans in_option : "En attente"
+-- -> in_option (En attente)
+-- doption[1].to_s mis dans in_option : "D\u00E9truits"
+-- -> in_option (Détruits)
+-- doption[1].to_s mis dans in_option : "Choisir l\u2019op\u00E9ration\u2026"
+-- -> in_option (Choisir l’opération…)
+-- doption[1].to_s mis dans in_option : "Jours gratuits"
+-- -> in_option (Jours gratuits)
+-- doption[1].to_s mis dans in_option : "Travail propre"
+-- -> in_option (Travail propre)
+-- doption[1].to_s mis dans in_option : "Document envoy\u00E9 par mail"
+-- -> in_option (Document envoyé par mail)
+-- doption[1].to_s mis dans in_option : "Changement d\u2019\u00E9tape"
+-- -> in_option (Changement d’étape)
+-- doption[1].to_s mis dans in_option : "Ex\u00E9cution code sur donn\u00E9es"
+-- -> in_option (Exécution code sur données)
+-- doption[1].to_s mis dans in_option : "Mise en pause du module d\u2019apprentissage"
+-- -> in_option (Mise en pause du module d’apprentissage)
+-- doption[1].to_s mis dans in_option : "Reprise du module d\u2019apprentissage apr\u00E8s pause"
+-- -> in_option (Reprise du module d’apprentissage après pause)
+-- doption[1].to_s mis dans in_option : "Arr\u00EAt d\u2019un module d\u2019apprentissage"
+-- -> in_option (Arrêt d’un module d’apprentissage)
+-- doption[1].to_s mis dans in_option : "Changement de module"
+-- -> in_option (Changement de module)
+-- doption[1].to_s mis dans in_option : "D\u00E9finir le titre du projet"
+-- -> in_option (Définir le titre du projet)
+
+
+=== DEBUG DU 18 04 2017 - 16:20:43 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- doption[1].to_s mis dans in_option : "Benoa (#50)"
+-- -> in_option (Benoa (#50))
+--    res = &lt;option value="50">&lt;span class='inopt'>Benoa (#50)&lt;/span>&lt;/option>
+-- doption[1].to_s mis dans in_option : "Emmabad (#13)"
+-- -> in_option (Emmabad (#13))
+--    res = &lt;option value="13">&lt;span class='inopt'>Emmabad (#13)&lt;/span>&lt;/option>
+-- doption[1].to_s mis dans in_option : "Jena (#83)"
+-- -> in_option (Jena (#83))
+--    res = &lt;option value="83">&lt;span class='inopt'>Jena (#83)&lt;/span>&lt;/option>
+-- doption[1].to_s mis dans in_option : "Karine (#75)"
+-- -> in_option (Karine (#75))
+--    res = &lt;option value="75">&lt;span class='inopt'>Karine (#75)&lt;/span>&lt;/option>
+-- doption[1].to_s mis dans in_option : "Simulombula (#48)"
+-- -> in_option (Simulombula (#48))
+--    res = &lt;option value="48">&lt;span class='inopt'>Simulombula (#48)&lt;/span>&lt;/option>
+-- doption[1].to_s mis dans in_option : "Travis (#81)"
+-- -> in_option (Travis (#81))
+--    res = &lt;option value="81">&lt;span class='inopt'>Travis (#81)&lt;/span>&lt;/option>
+-- doption[1].to_s mis dans in_option : "Triskell (#16)"
+-- -> in_option (Triskell (#16))
+--    res = &lt;option value="16">&lt;span class='inopt'>Triskell (#16)&lt;/span>&lt;/option>
+-- doption[1].to_s mis dans in_option : "Tous"
+-- -> in_option (Tous)
+--    res = &lt;option value="all">&lt;span class='inopt'>Tous&lt;/span>&lt;/option>
+-- doption[1].to_s mis dans in_option : "actifs"
+-- -> in_option (actifs)
+--    res = &lt;option value="actif" selected="SELECTED">&lt;span class='inopt'>actifs&lt;/span>&lt;/option>
+-- doption[1].to_s mis dans in_option : "Inactifs"
+-- -> in_option (Inactifs)
+--    res = &lt;option value="inactif">&lt;span class='inopt'>Inactifs&lt;/span>&lt;/option>
+-- doption[1].to_s mis dans in_option : "En pause"
+-- -> in_option (En pause)
+--    res = &lt;option value="en_pause">&lt;span class='inopt'>En pause&lt;/span>&lt;/option>
+-- doption[1].to_s mis dans in_option : "En attente"
+-- -> in_option (En attente)
+--    res = &lt;option value="en_atttente">&lt;span class='inopt'>En attente&lt;/span>&lt;/option>
+-- doption[1].to_s mis dans in_option : "D\u00E9truits"
+-- -> in_option (Détruits)
+--    res = &lt;option value="detruit">&lt;span class='inopt'>Détruits&lt;/span>&lt;/option>
+-- doption[1].to_s mis dans in_option : "Choisir l\u2019op\u00E9ration\u2026"
+-- -> in_option (Choisir l’opération…)
+--    res = &lt;option value="">&lt;span class='inopt'>Choisir l’opération…&lt;/span>&lt;/option>
+-- doption[1].to_s mis dans in_option : "Jours gratuits"
+-- -> in_option (Jours gratuits)
+--    res = &lt;option value="free_days">&lt;span class='inopt'>Jours gratuits&lt;/span>&lt;/option>
+-- doption[1].to_s mis dans in_option : "Travail propre"
+-- -> in_option (Travail propre)
+--    res = &lt;option value="travail_propre">&lt;span class='inopt'>Travail propre&lt;/span>&lt;/option>
+-- doption[1].to_s mis dans in_option : "Document envoy\u00E9 par mail"
+-- -> in_option (Document envoyé par mail)
+--    res = &lt;option value="inject_document">&lt;span class='inopt'>Document envoyé par mail&lt;/span>&lt;/option>
+-- doption[1].to_s mis dans in_option : "Changement d\u2019\u00E9tape"
+-- -> in_option (Changement d’étape)
+--    res = &lt;option value="etape_change">&lt;span class='inopt'>Changement d’étape&lt;/span>&lt;/option>
+-- doption[1].to_s mis dans in_option : "Ex\u00E9cution code sur donn\u00E9es"
+-- -> in_option (Exécution code sur données)
+--    res = &lt;option value="code_sur_table">&lt;span class='inopt'>Exécution code sur données&lt;/span>&lt;/option>
+-- doption[1].to_s mis dans in_option : "Mise en pause du module d\u2019apprentissage"
+-- -> in_option (Mise en pause du module d’apprentissage)
+--    res = &lt;option value="pause_module">&lt;span class='inopt'>Mise en pause du module d’apprentissage&lt;/span>&lt;/option>
+-- doption[1].to_s mis dans in_option : "Reprise du module d\u2019apprentissage apr\u00E8s pause"
+-- -> in_option (Reprise du module d’apprentissage après pause)
+--    res = &lt;option value="restart_module">&lt;span class='inopt'>Reprise du module d’apprentissage après pause&lt;/span>&lt;/option>
+-- doption[1].to_s mis dans in_option : "Arr\u00EAt d\u2019un module d\u2019apprentissage"
+-- -> in_option (Arrêt d’un module d’apprentissage)
+--    res = &lt;option value="arret_module">&lt;span class='inopt'>Arrêt d’un module d’apprentissage&lt;/span>&lt;/option>
+-- doption[1].to_s mis dans in_option : "Changement de module"
+-- -> in_option (Changement de module)
+--    res = &lt;option value="change_module">&lt;span class='inopt'>Changement de module&lt;/span>&lt;/option>
+-- doption[1].to_s mis dans in_option : "D\u00E9finir le titre du projet"
+-- -> in_option (Définir le titre du projet)
+--    res = &lt;option value="titre_projet">&lt;span class='inopt'>Définir le titre du projet&lt;/span>&lt;/option>
+
+
+=== DEBUG DU 18 04 2017 - 16:22:02 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- doption[1].to_s mis dans in_option : "Benoa (#50)"
+-- -> in_option (Benoa (#50))
+--    res = &lt;option value="50">&lt;div class='inopt'>Benoa (#50)&lt;/div>&lt;/option>
+-- doption[1].to_s mis dans in_option : "Emmabad (#13)"
+-- -> in_option (Emmabad (#13))
+--    res = &lt;option value="13">&lt;div class='inopt'>Emmabad (#13)&lt;/div>&lt;/option>
+-- doption[1].to_s mis dans in_option : "Jena (#83)"
+-- -> in_option (Jena (#83))
+--    res = &lt;option value="83">&lt;div class='inopt'>Jena (#83)&lt;/div>&lt;/option>
+-- doption[1].to_s mis dans in_option : "Karine (#75)"
+-- -> in_option (Karine (#75))
+--    res = &lt;option value="75">&lt;div class='inopt'>Karine (#75)&lt;/div>&lt;/option>
+-- doption[1].to_s mis dans in_option : "Simulombula (#48)"
+-- -> in_option (Simulombula (#48))
+--    res = &lt;option value="48">&lt;div class='inopt'>Simulombula (#48)&lt;/div>&lt;/option>
+-- doption[1].to_s mis dans in_option : "Travis (#81)"
+-- -> in_option (Travis (#81))
+--    res = &lt;option value="81">&lt;div class='inopt'>Travis (#81)&lt;/div>&lt;/option>
+-- doption[1].to_s mis dans in_option : "Triskell (#16)"
+-- -> in_option (Triskell (#16))
+--    res = &lt;option value="16">&lt;div class='inopt'>Triskell (#16)&lt;/div>&lt;/option>
+-- doption[1].to_s mis dans in_option : "Tous"
+-- -> in_option (Tous)
+--    res = &lt;option value="all">&lt;div class='inopt'>Tous&lt;/div>&lt;/option>
+-- doption[1].to_s mis dans in_option : "actifs"
+-- -> in_option (actifs)
+--    res = &lt;option value="actif" selected="SELECTED">&lt;div class='inopt'>actifs&lt;/div>&lt;/option>
+-- doption[1].to_s mis dans in_option : "Inactifs"
+-- -> in_option (Inactifs)
+--    res = &lt;option value="inactif">&lt;div class='inopt'>Inactifs&lt;/div>&lt;/option>
+-- doption[1].to_s mis dans in_option : "En pause"
+-- -> in_option (En pause)
+--    res = &lt;option value="en_pause">&lt;div class='inopt'>En pause&lt;/div>&lt;/option>
+-- doption[1].to_s mis dans in_option : "En attente"
+-- -> in_option (En attente)
+--    res = &lt;option value="en_atttente">&lt;div class='inopt'>En attente&lt;/div>&lt;/option>
+-- doption[1].to_s mis dans in_option : "D\u00E9truits"
+-- -> in_option (Détruits)
+--    res = &lt;option value="detruit">&lt;div class='inopt'>Détruits&lt;/div>&lt;/option>
+-- doption[1].to_s mis dans in_option : "Choisir l\u2019op\u00E9ration\u2026"
+-- -> in_option (Choisir l’opération…)
+--    res = &lt;option value="">&lt;div class='inopt'>Choisir l’opération…&lt;/div>&lt;/option>
+-- doption[1].to_s mis dans in_option : "Jours gratuits"
+-- -> in_option (Jours gratuits)
+--    res = &lt;option value="free_days">&lt;div class='inopt'>Jours gratuits&lt;/div>&lt;/option>
+-- doption[1].to_s mis dans in_option : "Travail propre"
+-- -> in_option (Travail propre)
+--    res = &lt;option value="travail_propre">&lt;div class='inopt'>Travail propre&lt;/div>&lt;/option>
+-- doption[1].to_s mis dans in_option : "Document envoy\u00E9 par mail"
+-- -> in_option (Document envoyé par mail)
+--    res = &lt;option value="inject_document">&lt;div class='inopt'>Document envoyé par mail&lt;/div>&lt;/option>
+-- doption[1].to_s mis dans in_option : "Changement d\u2019\u00E9tape"
+-- -> in_option (Changement d’étape)
+--    res = &lt;option value="etape_change">&lt;div class='inopt'>Changement d’étape&lt;/div>&lt;/option>
+-- doption[1].to_s mis dans in_option : "Ex\u00E9cution code sur donn\u00E9es"
+-- -> in_option (Exécution code sur données)
+--    res = &lt;option value="code_sur_table">&lt;div class='inopt'>Exécution code sur données&lt;/div>&lt;/option>
+-- doption[1].to_s mis dans in_option : "Mise en pause du module d\u2019apprentissage"
+-- -> in_option (Mise en pause du module d’apprentissage)
+--    res = &lt;option value="pause_module">&lt;div class='inopt'>Mise en pause du module d’apprentissage&lt;/div>&lt;/option>
+-- doption[1].to_s mis dans in_option : "Reprise du module d\u2019apprentissage apr\u00E8s pause"
+-- -> in_option (Reprise du module d’apprentissage après pause)
+--    res = &lt;option value="restart_module">&lt;div class='inopt'>Reprise du module d’apprentissage après pause&lt;/div>&lt;/option>
+-- doption[1].to_s mis dans in_option : "Arr\u00EAt d\u2019un module d\u2019apprentissage"
+-- -> in_option (Arrêt d’un module d’apprentissage)
+--    res = &lt;option value="arret_module">&lt;div class='inopt'>Arrêt d’un module d’apprentissage&lt;/div>&lt;/option>
+-- doption[1].to_s mis dans in_option : "Changement de module"
+-- -> in_option (Changement de module)
+--    res = &lt;option value="change_module">&lt;div class='inopt'>Changement de module&lt;/div>&lt;/option>
+-- doption[1].to_s mis dans in_option : "D\u00E9finir le titre du projet"
+-- -> in_option (Définir le titre du projet)
+--    res = &lt;option value="titre_projet">&lt;div class='inopt'>Définir le titre du projet&lt;/div>&lt;/option>
+
+
+=== DEBUG DU 18 04 2017 - 16:22:54 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- doption[1].to_s mis dans in_option : "Benoa (#50)"
+-- -> in_option (Benoa (#50))
+--    res = &lt;option style="font-size:1.5em;" value="50">&lt;div class='inopt'>Benoa (#50)&lt;/div>&lt;/option>
+-- doption[1].to_s mis dans in_option : "Emmabad (#13)"
+-- -> in_option (Emmabad (#13))
+--    res = &lt;option style="font-size:1.5em;" value="13">&lt;div class='inopt'>Emmabad (#13)&lt;/div>&lt;/option>
+-- doption[1].to_s mis dans in_option : "Jena (#83)"
+-- -> in_option (Jena (#83))
+--    res = &lt;option style="font-size:1.5em;" value="83">&lt;div class='inopt'>Jena (#83)&lt;/div>&lt;/option>
+-- doption[1].to_s mis dans in_option : "Karine (#75)"
+-- -> in_option (Karine (#75))
+--    res = &lt;option style="font-size:1.5em;" value="75">&lt;div class='inopt'>Karine (#75)&lt;/div>&lt;/option>
+-- doption[1].to_s mis dans in_option : "Simulombula (#48)"
+-- -> in_option (Simulombula (#48))
+--    res = &lt;option style="font-size:1.5em;" value="48">&lt;div class='inopt'>Simulombula (#48)&lt;/div>&lt;/option>
+-- doption[1].to_s mis dans in_option : "Travis (#81)"
+-- -> in_option (Travis (#81))
+--    res = &lt;option style="font-size:1.5em;" value="81">&lt;div class='inopt'>Travis (#81)&lt;/div>&lt;/option>
+-- doption[1].to_s mis dans in_option : "Triskell (#16)"
+-- -> in_option (Triskell (#16))
+--    res = &lt;option style="font-size:1.5em;" value="16">&lt;div class='inopt'>Triskell (#16)&lt;/div>&lt;/option>
+-- doption[1].to_s mis dans in_option : "Tous"
+-- -> in_option (Tous)
+--    res = &lt;option style="font-size:1.5em;" value="all">&lt;div class='inopt'>Tous&lt;/div>&lt;/option>
+-- doption[1].to_s mis dans in_option : "actifs"
+-- -> in_option (actifs)
+--    res = &lt;option style="font-size:1.5em;" value="actif" selected="SELECTED">&lt;div class='inopt'>actifs&lt;/div>&lt;/option>
+-- doption[1].to_s mis dans in_option : "Inactifs"
+-- -> in_option (Inactifs)
+--    res = &lt;option style="font-size:1.5em;" value="inactif">&lt;div class='inopt'>Inactifs&lt;/div>&lt;/option>
+-- doption[1].to_s mis dans in_option : "En pause"
+-- -> in_option (En pause)
+--    res = &lt;option style="font-size:1.5em;" value="en_pause">&lt;div class='inopt'>En pause&lt;/div>&lt;/option>
+-- doption[1].to_s mis dans in_option : "En attente"
+-- -> in_option (En attente)
+--    res = &lt;option style="font-size:1.5em;" value="en_atttente">&lt;div class='inopt'>En attente&lt;/div>&lt;/option>
+-- doption[1].to_s mis dans in_option : "D\u00E9truits"
+-- -> in_option (Détruits)
+--    res = &lt;option style="font-size:1.5em;" value="detruit">&lt;div class='inopt'>Détruits&lt;/div>&lt;/option>
+-- doption[1].to_s mis dans in_option : "Choisir l\u2019op\u00E9ration\u2026"
+-- -> in_option (Choisir l’opération…)
+--    res = &lt;option style="font-size:1.5em;" value="">&lt;div class='inopt'>Choisir l’opération…&lt;/div>&lt;/option>
+-- doption[1].to_s mis dans in_option : "Jours gratuits"
+-- -> in_option (Jours gratuits)
+--    res = &lt;option style="font-size:1.5em;" value="free_days">&lt;div class='inopt'>Jours gratuits&lt;/div>&lt;/option>
+-- doption[1].to_s mis dans in_option : "Travail propre"
+-- -> in_option (Travail propre)
+--    res = &lt;option style="font-size:1.5em;" value="travail_propre">&lt;div class='inopt'>Travail propre&lt;/div>&lt;/option>
+-- doption[1].to_s mis dans in_option : "Document envoy\u00E9 par mail"
+-- -> in_option (Document envoyé par mail)
+--    res = &lt;option style="font-size:1.5em;" value="inject_document">&lt;div class='inopt'>Document envoyé par mail&lt;/div>&lt;/option>
+-- doption[1].to_s mis dans in_option : "Changement d\u2019\u00E9tape"
+-- -> in_option (Changement d’étape)
+--    res = &lt;option style="font-size:1.5em;" value="etape_change">&lt;div class='inopt'>Changement d’étape&lt;/div>&lt;/option>
+-- doption[1].to_s mis dans in_option : "Ex\u00E9cution code sur donn\u00E9es"
+-- -> in_option (Exécution code sur données)
+--    res = &lt;option style="font-size:1.5em;" value="code_sur_table">&lt;div class='inopt'>Exécution code sur données&lt;/div>&lt;/option>
+-- doption[1].to_s mis dans in_option : "Mise en pause du module d\u2019apprentissage"
+-- -> in_option (Mise en pause du module d’apprentissage)
+--    res = &lt;option style="font-size:1.5em;" value="pause_module">&lt;div class='inopt'>Mise en pause du module d’apprentissage&lt;/div>&lt;/option>
+-- doption[1].to_s mis dans in_option : "Reprise du module d\u2019apprentissage apr\u00E8s pause"
+-- -> in_option (Reprise du module d’apprentissage après pause)
+--    res = &lt;option style="font-size:1.5em;" value="restart_module">&lt;div class='inopt'>Reprise du module d’apprentissage après pause&lt;/div>&lt;/option>
+-- doption[1].to_s mis dans in_option : "Arr\u00EAt d\u2019un module d\u2019apprentissage"
+-- -> in_option (Arrêt d’un module d’apprentissage)
+--    res = &lt;option style="font-size:1.5em;" value="arret_module">&lt;div class='inopt'>Arrêt d’un module d’apprentissage&lt;/div>&lt;/option>
+-- doption[1].to_s mis dans in_option : "Changement de module"
+-- -> in_option (Changement de module)
+--    res = &lt;option style="font-size:1.5em;" value="change_module">&lt;div class='inopt'>Changement de module&lt;/div>&lt;/option>
+-- doption[1].to_s mis dans in_option : "D\u00E9finir le titre du projet"
+-- -> in_option (Définir le titre du projet)
+--    res = &lt;option style="font-size:1.5em;" value="titre_projet">&lt;div class='inopt'>Définir le titre du projet&lt;/div>&lt;/option>
+
+
+=== DEBUG DU 18 04 2017 - 16:24:11 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- doption[1].to_s mis dans in_option : "Benoa (#50)"
+-- -> in_option (Benoa (#50))
+--    res = &lt;span class="inopt">&lt;option value="50">Benoa (#50)&lt;/option>&lt;/div>
+-- doption[1].to_s mis dans in_option : "Emmabad (#13)"
+-- -> in_option (Emmabad (#13))
+--    res = &lt;span class="inopt">&lt;option value="13">Emmabad (#13)&lt;/option>&lt;/div>
+-- doption[1].to_s mis dans in_option : "Jena (#83)"
+-- -> in_option (Jena (#83))
+--    res = &lt;span class="inopt">&lt;option value="83">Jena (#83)&lt;/option>&lt;/div>
+-- doption[1].to_s mis dans in_option : "Karine (#75)"
+-- -> in_option (Karine (#75))
+--    res = &lt;span class="inopt">&lt;option value="75">Karine (#75)&lt;/option>&lt;/div>
+-- doption[1].to_s mis dans in_option : "Simulombula (#48)"
+-- -> in_option (Simulombula (#48))
+--    res = &lt;span class="inopt">&lt;option value="48">Simulombula (#48)&lt;/option>&lt;/div>
+-- doption[1].to_s mis dans in_option : "Travis (#81)"
+-- -> in_option (Travis (#81))
+--    res = &lt;span class="inopt">&lt;option value="81">Travis (#81)&lt;/option>&lt;/div>
+-- doption[1].to_s mis dans in_option : "Triskell (#16)"
+-- -> in_option (Triskell (#16))
+--    res = &lt;span class="inopt">&lt;option value="16">Triskell (#16)&lt;/option>&lt;/div>
+-- doption[1].to_s mis dans in_option : "Tous"
+-- -> in_option (Tous)
+--    res = &lt;span class="inopt">&lt;option value="all">Tous&lt;/option>&lt;/div>
+-- doption[1].to_s mis dans in_option : "actifs"
+-- -> in_option (actifs)
+--    res = &lt;span class="inopt">&lt;option value="actif" selected="SELECTED">actifs&lt;/option>&lt;/div>
+-- doption[1].to_s mis dans in_option : "Inactifs"
+-- -> in_option (Inactifs)
+--    res = &lt;span class="inopt">&lt;option value="inactif">Inactifs&lt;/option>&lt;/div>
+-- doption[1].to_s mis dans in_option : "En pause"
+-- -> in_option (En pause)
+--    res = &lt;span class="inopt">&lt;option value="en_pause">En pause&lt;/option>&lt;/div>
+-- doption[1].to_s mis dans in_option : "En attente"
+-- -> in_option (En attente)
+--    res = &lt;span class="inopt">&lt;option value="en_atttente">En attente&lt;/option>&lt;/div>
+-- doption[1].to_s mis dans in_option : "D\u00E9truits"
+-- -> in_option (Détruits)
+--    res = &lt;span class="inopt">&lt;option value="detruit">Détruits&lt;/option>&lt;/div>
+-- doption[1].to_s mis dans in_option : "Choisir l\u2019op\u00E9ration\u2026"
+-- -> in_option (Choisir l’opération…)
+--    res = &lt;span class="inopt">&lt;option value="">Choisir l’opération…&lt;/option>&lt;/div>
+-- doption[1].to_s mis dans in_option : "Jours gratuits"
+-- -> in_option (Jours gratuits)
+--    res = &lt;span class="inopt">&lt;option value="free_days">Jours gratuits&lt;/option>&lt;/div>
+-- doption[1].to_s mis dans in_option : "Travail propre"
+-- -> in_option (Travail propre)
+--    res = &lt;span class="inopt">&lt;option value="travail_propre">Travail propre&lt;/option>&lt;/div>
+-- doption[1].to_s mis dans in_option : "Document envoy\u00E9 par mail"
+-- -> in_option (Document envoyé par mail)
+--    res = &lt;span class="inopt">&lt;option value="inject_document">Document envoyé par mail&lt;/option>&lt;/div>
+-- doption[1].to_s mis dans in_option : "Changement d\u2019\u00E9tape"
+-- -> in_option (Changement d’étape)
+--    res = &lt;span class="inopt">&lt;option value="etape_change">Changement d’étape&lt;/option>&lt;/div>
+-- doption[1].to_s mis dans in_option : "Ex\u00E9cution code sur donn\u00E9es"
+-- -> in_option (Exécution code sur données)
+--    res = &lt;span class="inopt">&lt;option value="code_sur_table">Exécution code sur données&lt;/option>&lt;/div>
+-- doption[1].to_s mis dans in_option : "Mise en pause du module d\u2019apprentissage"
+-- -> in_option (Mise en pause du module d’apprentissage)
+--    res = &lt;span class="inopt">&lt;option value="pause_module">Mise en pause du module d’apprentissage&lt;/option>&lt;/div>
+-- doption[1].to_s mis dans in_option : "Reprise du module d\u2019apprentissage apr\u00E8s pause"
+-- -> in_option (Reprise du module d’apprentissage après pause)
+--    res = &lt;span class="inopt">&lt;option value="restart_module">Reprise du module d’apprentissage après pause&lt;/option>&lt;/div>
+-- doption[1].to_s mis dans in_option : "Arr\u00EAt d\u2019un module d\u2019apprentissage"
+-- -> in_option (Arrêt d’un module d’apprentissage)
+--    res = &lt;span class="inopt">&lt;option value="arret_module">Arrêt d’un module d’apprentissage&lt;/option>&lt;/div>
+-- doption[1].to_s mis dans in_option : "Changement de module"
+-- -> in_option (Changement de module)
+--    res = &lt;span class="inopt">&lt;option value="change_module">Changement de module&lt;/option>&lt;/div>
+-- doption[1].to_s mis dans in_option : "D\u00E9finir le titre du projet"
+-- -> in_option (Définir le titre du projet)
+--    res = &lt;span class="inopt">&lt;option value="titre_projet">Définir le titre du projet&lt;/option>&lt;/div>
+
+
+=== DEBUG DU 18 04 2017 - 16:25:44 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- doption[1].to_s mis dans in_option : "Benoa (#50)"
+-- -> in_option (Benoa (#50))
+-- doption[1].to_s mis dans in_option : "Emmabad (#13)"
+-- -> in_option (Emmabad (#13))
+-- doption[1].to_s mis dans in_option : "Jena (#83)"
+-- -> in_option (Jena (#83))
+-- doption[1].to_s mis dans in_option : "Karine (#75)"
+-- -> in_option (Karine (#75))
+-- doption[1].to_s mis dans in_option : "Simulombula (#48)"
+-- -> in_option (Simulombula (#48))
+-- doption[1].to_s mis dans in_option : "Travis (#81)"
+-- -> in_option (Travis (#81))
+-- doption[1].to_s mis dans in_option : "Triskell (#16)"
+-- -> in_option (Triskell (#16))
+-- doption[1].to_s mis dans in_option : "Tous"
+-- -> in_option (Tous)
+-- doption[1].to_s mis dans in_option : "actifs"
+-- -> in_option (actifs)
+-- doption[1].to_s mis dans in_option : "Inactifs"
+-- -> in_option (Inactifs)
+-- doption[1].to_s mis dans in_option : "En pause"
+-- -> in_option (En pause)
+-- doption[1].to_s mis dans in_option : "En attente"
+-- -> in_option (En attente)
+-- doption[1].to_s mis dans in_option : "D\u00E9truits"
+-- -> in_option (Détruits)
+-- doption[1].to_s mis dans in_option : "Choisir l\u2019op\u00E9ration\u2026"
+-- -> in_option (Choisir l’opération…)
+-- doption[1].to_s mis dans in_option : "Jours gratuits"
+-- -> in_option (Jours gratuits)
+-- doption[1].to_s mis dans in_option : "Travail propre"
+-- -> in_option (Travail propre)
+-- doption[1].to_s mis dans in_option : "Document envoy\u00E9 par mail"
+-- -> in_option (Document envoyé par mail)
+-- doption[1].to_s mis dans in_option : "Changement d\u2019\u00E9tape"
+-- -> in_option (Changement d’étape)
+-- doption[1].to_s mis dans in_option : "Ex\u00E9cution code sur donn\u00E9es"
+-- -> in_option (Exécution code sur données)
+-- doption[1].to_s mis dans in_option : "Mise en pause du module d\u2019apprentissage"
+-- -> in_option (Mise en pause du module d’apprentissage)
+-- doption[1].to_s mis dans in_option : "Reprise du module d\u2019apprentissage apr\u00E8s pause"
+-- -> in_option (Reprise du module d’apprentissage après pause)
+-- doption[1].to_s mis dans in_option : "Arr\u00EAt d\u2019un module d\u2019apprentissage"
+-- -> in_option (Arrêt d’un module d’apprentissage)
+-- doption[1].to_s mis dans in_option : "Changement de module"
+-- -> in_option (Changement de module)
+-- doption[1].to_s mis dans in_option : "D\u00E9finir le titre du projet"
+-- -> in_option (Définir le titre du projet)
+
+
+=== DEBUG DU 18 04 2017 - 16:35:13 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 18 04 2017 - 16:35:31 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- undefined method `<<' for nil:NilClass
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/extensions/String_html.rb:214:in `in_my_option'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/extensions/Array_html.rb:30:in `block in in_my_select'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/extensions/Array_html.rb:25:in `collect'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/extensions/Array_html.rb:25:in `in_my_select'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/users.rb:87:in `menu_type_icarien'
+(erb):39:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 18 04 2017 - 16:35:52 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 18 04 2017 - 16:36:50 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 18 04 2017 - 16:37:49 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 18 04 2017 - 16:38:22 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 18 04 2017 - 16:39:05 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 18 04 2017 - 16:40:09 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 18 04 2017 - 16:40:44 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 18 04 2017 - 16:41:10 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 18 04 2017 - 16:41:41 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 18 04 2017 - 16:42:00 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 18 04 2017 - 16:42:23 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 18 04 2017 - 16:43:01 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 18 04 2017 - 16:43:24 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 18 04 2017 - 16:43:54 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 18 04 2017 - 16:44:22 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 18 04 2017 - 16:46:21 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 18 04 2017 - 16:51:57 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 18 04 2017 - 16:54:13 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 18 04 2017 - 16:55:24 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 18 04 2017 - 16:57:16 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 18 04 2017 - 17:02:08 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 18 04 2017 - 17:02:12 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 18 04 2017 - 17:02:17 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 18 04 2017 - 17:02:21 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 18 04 2017 - 17:02:30 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 18 04 2017 - 17:04:37 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 18 04 2017 - 17:05:59 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 18 04 2017 - 17:06:26 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 18 04 2017 - 17:08:47 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 18 04 2017 - 17:09:22 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 18 04 2017 - 17:10:57 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 18 04 2017 - 17:11:53 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 18 04 2017 - 17:12:29 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 18 04 2017 - 17:13:14 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 18 04 2017 - 17:13:47 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 18 04 2017 - 17:14:08 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 18 04 2017 - 17:14:11 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 18 04 2017 - 17:15:02 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 18 04 2017 - 17:15:07 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 18 04 2017 - 17:15:14 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 18 04 2017 - 17:16:07 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 18 04 2017 - 17:16:30 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 18 04 2017 - 17:16:59 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 18 04 2017 - 17:17:06 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 18 04 2017 - 17:18:04 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 18 04 2017 - 17:19:32 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 18 04 2017 - 17:19:52 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 18 04 2017 - 17:23:17 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 18 04 2017 - 17:23:39 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 18 04 2017 - 17:24:33 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 18 04 2017 - 17:25:16 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 18 04 2017 - 17:25:20 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 18 04 2017 - 17:28:03 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 18 04 2017 - 17:28:08 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 18 04 2017 - 17:28:11 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 18 04 2017 - 17:29:48 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 18 04 2017 - 17:29:54 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 18 04 2017 - 17:34:31 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- undefined method `in_my_select' for #<Hash:0x007fa4da0d4608>
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/users.rb:92:in `menu_operations'
+(erb):40:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 18 04 2017 - 17:35:19 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- Je ne sais pas comment traiter une donnée de class NilClass dans `field_select` (attendu : un Hash, un Array ou un String).
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/optional/Page/form_tools.rb:354:in `field_select'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/optional/Page/form_tools.rb:327:in `field'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/optional/Page/form_tools.rb:308:in `span_value'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/optional/Page/form_tools.rb:261:in `form_row'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/optional/Page/form_tools.rb:88:in `field_select'
+(erb):40:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 18 04 2017 - 17:40:29 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 18 04 2017 - 20:42:06 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- param(:backto) mis à "admin/users"
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signin"
+Context  = nil
+
+
+=== DEBUG DU 18 04 2017 - 20:49:06 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- param(:backto) mis à "admin/users"
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signin"
+Context  = nil
+
+
+=== DEBUG DU 18 04 2017 - 20:49:10 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "login"
+Context  = nil
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 18 04 2017 - 20:50:19 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "login"
+Context  = nil
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 18 04 2017 - 20:52:35 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "login"
+Context  = nil
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 18 04 2017 - 20:52:57 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "login"
+Context  = nil
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 18 04 2017 - 20:59:38 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "login"
+Context  = nil
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 18 04 2017 - 21:03:10 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "login"
+Context  = nil
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- -> in_my_select attrs = {:id=>"opuser_user_id", :name=>"opuser[user_id]"}
+-- -> in_my_select attrs = {:name=>"opuser[type_icarien]", :id=>"opuser_type_icarien", :onchange=>"$.proxy(Dashboard,'onchoose_type_icarien')()"}
+-- -> in_my_select attrs = {:id=>"opuser_ope", :name=>"opuser[ope]", :onchange=>"$.proxy(Dashboard,'on_choose_operation')()", :size=>"long"}
+
+
+=== DEBUG DU 18 04 2017 - 21:04:52 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "login"
+Context  = nil
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- -> in_my_select attrs = {:id=>"opuser_user_id", :name=>"opuser[user_id]"}
+-- size : medium
+-- -> in_my_select attrs = {:name=>"opuser[type_icarien]", :id=>"opuser_type_icarien", :onchange=>"$.proxy(Dashboard,'onchoose_type_icarien')()"}
+-- size : medium
+-- -> in_my_select attrs = {:id=>"opuser_ope", :name=>"opuser[ope]", :onchange=>"$.proxy(Dashboard,'on_choose_operation')()", :size=>"long"}
+-- size : long
+
+
+=== DEBUG DU 18 04 2017 - 21:05:48 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "login"
+Context  = nil
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 07:12:59 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signin"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 07:13:13 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "login"
+Context  = nil
+-- kroute = "admin/overview"
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "overview"
+Context  = nil
+-- # expected_comments NON DÉFINI (pour Karine #75)
+-- undefined method `in_span' for nil:NilClass
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/user/helper.rb:31:in `div_module_etape'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/user/helper.rb:17:in `overview'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:207:in `block in overview_textuel'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:205:in `collect'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:205:in `overview_textuel'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:28:in `display'
+(erb):12:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 19 04 2017 - 07:13:18 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 07:13:23 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 07:15:27 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 07:15:40 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 07:15:57 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 07:19:49 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 07:20:31 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 07:21:22 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 07:21:52 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 07:22:15 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 07:23:33 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 07:25:18 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 07:27:35 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 07:28:15 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 07:28:47 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 07:29:13 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 07:33:28 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 07:34:05 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 07:36:36 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 07:39:08 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 08:11:09 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 08:13:55 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 08:19:12 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- Nouveau module désiré : 9
+-- Nouvelle étape : 200
+
+
+=== DEBUG DU 19 04 2017 - 08:25:46 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 08:25:55 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 08:26:07 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- uninitialized constant Class::Site
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/operations_user/change_module.rb:16:in `exec_change_module'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/users/users.rb:109:in `execute_operation'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/users/users.rb:120:in `<top (required)>'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/require.rb:18:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/require.rb:70:in `block in require_all_in'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/require.rb:70:in `each'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/require.rb:70:in `require_all_in'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/divers/modules/main_objets.rb:63:in `require_module'
+(erb):6:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 19 04 2017 - 08:26:21 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 08:27:35 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 08:38:14 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signin"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 08:38:18 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "login"
+Context  = nil
+-- kroute = "admin/overview"
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "overview"
+Context  = nil
+-- # expected_comments NON DÉFINI (pour Karine #75)
+-- undefined method `in_span' for nil:NilClass
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/user/helper.rb:31:in `div_module_etape'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/user/helper.rb:17:in `overview'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:207:in `block in overview_textuel'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:205:in `collect'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:205:in `overview_textuel'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:28:in `display'
+(erb):12:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 19 04 2017 - 08:38:20 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 08:38:28 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 08:38:30 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 08:38:34 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {}
+
+
+=== DEBUG DU 19 04 2017 - 08:49:22 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 08:49:40 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 08:49:58 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 08:50:18 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 08:51:19 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 08:51:22 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 08:51:25 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 08:51:31 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {}
+
+
+=== DEBUG DU 19 04 2017 - 08:51:40 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 08:51:45 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {}
+
+
+=== DEBUG DU 19 04 2017 - 08:52:35 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 08:53:36 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {:where=>"user_id = 58"}
+
+
+=== DEBUG DU 19 04 2017 - 08:53:45 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 08:55:52 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 08:59:15 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 08:59:29 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 09:00:35 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 09:02:05 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 09:02:44 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 09:04:23 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 09:05:03 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 09:08:43 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 09:09:00 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 09:14:03 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 09:16:05 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 09:17:08 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 09:17:25 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 09:19:34 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 09:21:16 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 09:25:59 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 09:30:19 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 09:30:52 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- Selected mis à 
+
+
+=== DEBUG DU 19 04 2017 - 09:32:01 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- Selected mis à ""
+
+
+=== DEBUG DU 19 04 2017 - 09:32:17 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- attrs : {:id=>"opuser_user_id", :name=>"opuser[user_id]", :selected=>"58"}
+-- attrs : {:name=>"opuser[type_icarien]", :id=>"opuser_type_icarien", :onchange=>"$.proxy(Dashboard,'onchoose_type_icarien')()", :selected=>"all"}
+-- attrs : {:id=>"opuser_ope", :name=>"opuser[ope]", :onchange=>"$.proxy(Dashboard,'on_choose_operation')()", :selected=>"", :size=>"long"}
+-- Selected mis à ""
+
+
+=== DEBUG DU 19 04 2017 - 09:33:09 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- attrs : {:id=>"opuser_user_id", :name=>"opuser[user_id]", :selected=>"58"}
+-- doption : [3, "Alilouya (#3)"]
+-- doption : [57, "Astryd (#57)"]
+-- doption : [80, "Azilis (#80)"]
+-- doption : [50, "Benoa (#50)"]
+-- doption : [58, "Benoit (#58)"]
+-- doption : [5, "Bezbizbouz (#5)"]
+-- doption : [59, "Bonnie (#59)"]
+-- doption : [6, "Certhlalorn (#6)"]
+-- doption : [7, "Clochette (#7)"]
+-- doption : [8, "Coccinelle (#8)"]
+-- doption : [72, "Cruche (#72)"]
+-- doption : [9, "Cyrille (#9)"]
+-- doption : [10, "Dalhia (#10)"]
+-- doption : [11, "Deso (#11)"]
+-- doption : [12, "Dilma77 (#12)"]
+-- doption : [13, "Emmabad (#13)"]
+-- doption : [60, "Fabmontag (#60)"]
+-- doption : [74, "Fifi-dalla (#74)"]
+-- doption : [14, "Foufou (#14)"]
+-- doption : [61, "Funkyfab (#61)"]
+-- doption : [15, "Guillaume (#15)"]
+-- doption : [18, "Hesse59 (#18)"]
+-- doption : [19, "Hieldjo (#19)"]
+-- doption : [20, "Izenath (#20)"]
+-- doption : [21, "Jeanmike (#21)"]
+-- doption : [83, "Jena (#83)"]
+-- doption : [62, "Joeamani (#62)"]
+-- doption : [75, "Karine (#75)"]
+-- doption : [22, "Kenzo133 (#22)"]
+-- doption : [24, "Kwistina (#24)"]
+-- doption : [63, "Laflamme (#63)"]
+-- doption : [25, "Leila (#25)"]
+-- doption : [26, "Lorene (#26)"]
+-- doption : [27, "Loustik2050 (#27)"]
+-- doption : [28, "Madem (#28)"]
+-- doption : [29, "Marc (#29)"]
+-- doption : [2, "Marion (#2)"]
+-- doption : [73, "Matthieu_gaillard (#73)"]
+-- doption : [30, "Matthymoth (#30)"]
+-- doption : [31, "Michel (#31)"]
+-- doption : [32, "Minos (#32)"]
+-- doption : [33, "Muse98 (#33)"]
+-- doption : [34, "Naja (#34)"]
+-- doption : [64, "Neige109 (#64)"]
+-- doption : [35, "Nepita (#35)"]
+-- doption : [36, "Nicolas7564 (#36)"]
+-- doption : [65, "Papillon (#65)"]
+-- doption : [1, "Phil (#1)"]
+-- doption : [86, "Philou (#86)"]
+-- doption : [38, "Pitrechevalier (#38)"]
+-- doption : [39, "Plume (#39)"]
+-- doption : [40, "Polymnie (#40)"]
+-- doption : [42, "Psyneaste (#42)"]
+-- doption : [66, "Ptachka (#66)"]
+-- doption : [43, "Redstone (#43)"]
+-- doption : [44, "Rogo (#44)"]
+-- doption : [41, "Samuel (#41)"]
+-- doption : [46, "Scheherazade (#46)"]
+-- doption : [68, "Simon_d (#68)"]
+-- doption : [48, "Simulombula (#48)"]
+-- doption : [49, "Solaris (#49)"]
+-- doption : [51, "Suzelit (#51)"]
+-- doption : [52, "Tippex (#52)"]
+-- doption : [4, "Trauma_cranien (#4)"]
+-- doption : [81, "Travis (#81)"]
+-- doption : [16, "Triskell (#16)"]
+-- doption : [70, "Un_testeur (#70)"]
+-- doption : [53, "Weremarc2 (#53)"]
+-- doption : [54, "Wilika (#54)"]
+-- doption : [55, "Ysabelle (#55)"]
+-- doption : [56, "Zorgla (#56)"]
+-- attrs : {:name=>"opuser[type_icarien]", :id=>"opuser_type_icarien", :onchange=>"$.proxy(Dashboard,'onchoose_type_icarien')()", :selected=>"all"}
+-- doption : ["all", "Tous"]
+-- doption : ["actif", "actifs"]
+-- doption : ["inactif", "Inactifs"]
+-- doption : ["en_pause", "En pause"]
+-- doption : ["en_atttente", "En attente"]
+-- doption : ["detruit", "D\u00E9truits"]
+-- attrs : {:id=>"opuser_ope", :name=>"opuser[ope]", :onchange=>"$.proxy(Dashboard,'on_choose_operation')()", :selected=>"", :size=>"long"}
+-- doption : ["", "Choisir l\u2019op\u00E9ration\u2026"]
+-- Selected mis à ""
+-- doption : ["free_days", "Jours gratuits"]
+-- doption : ["travail_propre", "Travail propre"]
+-- doption : ["inject_document", "Document envoy\u00E9 par mail"]
+-- doption : ["etape_change", "Changement d\u2019\u00E9tape"]
+-- doption : ["code_sur_table", "Ex\u00E9cution code sur donn\u00E9es"]
+-- doption : ["pause_module", "Mise en pause du module d\u2019apprentissage"]
+-- doption : ["restart_module", "Reprise du module d\u2019apprentissage apr\u00E8s pause"]
+-- doption : ["arret_module", "Arr\u00EAt d\u2019un module d\u2019apprentissage"]
+-- doption : ["change_module", "Changement de module"]
+-- doption : ["titre_projet", "D\u00E9finir le titre du projet"]
+
+
+=== DEBUG DU 19 04 2017 - 09:34:25 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- attrs : {:id=>"opuser_user_id", :name=>"opuser[user_id]", :selected=>"58"}
+-- doption : [3, "Alilouya (#3)"]
+-- doption : [57, "Astryd (#57)"]
+-- doption : [80, "Azilis (#80)"]
+-- doption : [50, "Benoa (#50)"]
+-- doption : [58, "Benoit (#58)"]
+-- doption : [5, "Bezbizbouz (#5)"]
+-- doption : [59, "Bonnie (#59)"]
+-- doption : [6, "Certhlalorn (#6)"]
+-- doption : [7, "Clochette (#7)"]
+-- doption : [8, "Coccinelle (#8)"]
+-- doption : [72, "Cruche (#72)"]
+-- doption : [9, "Cyrille (#9)"]
+-- doption : [10, "Dalhia (#10)"]
+-- doption : [11, "Deso (#11)"]
+-- doption : [12, "Dilma77 (#12)"]
+-- doption : [13, "Emmabad (#13)"]
+-- doption : [60, "Fabmontag (#60)"]
+-- doption : [74, "Fifi-dalla (#74)"]
+-- doption : [14, "Foufou (#14)"]
+-- doption : [61, "Funkyfab (#61)"]
+-- doption : [15, "Guillaume (#15)"]
+-- doption : [18, "Hesse59 (#18)"]
+-- doption : [19, "Hieldjo (#19)"]
+-- doption : [20, "Izenath (#20)"]
+-- doption : [21, "Jeanmike (#21)"]
+-- doption : [83, "Jena (#83)"]
+-- doption : [62, "Joeamani (#62)"]
+-- doption : [75, "Karine (#75)"]
+-- doption : [22, "Kenzo133 (#22)"]
+-- doption : [24, "Kwistina (#24)"]
+-- doption : [63, "Laflamme (#63)"]
+-- doption : [25, "Leila (#25)"]
+-- doption : [26, "Lorene (#26)"]
+-- doption : [27, "Loustik2050 (#27)"]
+-- doption : [28, "Madem (#28)"]
+-- doption : [29, "Marc (#29)"]
+-- doption : [2, "Marion (#2)"]
+-- doption : [73, "Matthieu_gaillard (#73)"]
+-- doption : [30, "Matthymoth (#30)"]
+-- doption : [31, "Michel (#31)"]
+-- doption : [32, "Minos (#32)"]
+-- doption : [33, "Muse98 (#33)"]
+-- doption : [34, "Naja (#34)"]
+-- doption : [64, "Neige109 (#64)"]
+-- doption : [35, "Nepita (#35)"]
+-- doption : [36, "Nicolas7564 (#36)"]
+-- doption : [65, "Papillon (#65)"]
+-- doption : [1, "Phil (#1)"]
+-- doption : [86, "Philou (#86)"]
+-- doption : [38, "Pitrechevalier (#38)"]
+-- doption : [39, "Plume (#39)"]
+-- doption : [40, "Polymnie (#40)"]
+-- doption : [42, "Psyneaste (#42)"]
+-- doption : [66, "Ptachka (#66)"]
+-- doption : [43, "Redstone (#43)"]
+-- doption : [44, "Rogo (#44)"]
+-- doption : [41, "Samuel (#41)"]
+-- doption : [46, "Scheherazade (#46)"]
+-- doption : [68, "Simon_d (#68)"]
+-- doption : [48, "Simulombula (#48)"]
+-- doption : [49, "Solaris (#49)"]
+-- doption : [51, "Suzelit (#51)"]
+-- doption : [52, "Tippex (#52)"]
+-- doption : [4, "Trauma_cranien (#4)"]
+-- doption : [81, "Travis (#81)"]
+-- doption : [16, "Triskell (#16)"]
+-- doption : [70, "Un_testeur (#70)"]
+-- doption : [53, "Weremarc2 (#53)"]
+-- doption : [54, "Wilika (#54)"]
+-- doption : [55, "Ysabelle (#55)"]
+-- doption : [56, "Zorgla (#56)"]
+-- attrs : {:name=>"opuser[type_icarien]", :id=>"opuser_type_icarien", :onchange=>"$.proxy(Dashboard,'onchoose_type_icarien')()", :selected=>"all"}
+-- doption : ["all", "Tous"]
+-- doption : ["actif", "actifs"]
+-- doption : ["inactif", "Inactifs"]
+-- doption : ["en_pause", "En pause"]
+-- doption : ["en_atttente", "En attente"]
+-- doption : ["detruit", "D\u00E9truits"]
+-- attrs : {:id=>"opuser_ope", :name=>"opuser[ope]", :onchange=>"$.proxy(Dashboard,'on_choose_operation')()", :selected=>"", :size=>"long"}
+-- doption : ["", "Choisir l\u2019op\u00E9ration\u2026"]
+-- Selected mis à ""
+-- doption : ["free_days", "Jours gratuits"]
+-- doption : ["travail_propre", "Travail propre"]
+-- doption : ["inject_document", "Document envoy\u00E9 par mail"]
+-- doption : ["etape_change", "Changement d\u2019\u00E9tape"]
+-- doption : ["code_sur_table", "Ex\u00E9cution code sur donn\u00E9es"]
+-- doption : ["pause_module", "Mise en pause du module d\u2019apprentissage"]
+-- doption : ["restart_module", "Reprise du module d\u2019apprentissage apr\u00E8s pause"]
+-- doption : ["arret_module", "Arr\u00EAt d\u2019un module d\u2019apprentissage"]
+-- doption : ["change_module", "Changement de module"]
+-- doption : ["titre_projet", "D\u00E9finir le titre du projet"]
+
+
+=== DEBUG DU 19 04 2017 - 09:35:51 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- attrs : {:id=>"opuser_user_id", :name=>"opuser[user_id]", :selected=>"58"}
+-- attrs : {:name=>"opuser[type_icarien]", :id=>"opuser_type_icarien", :onchange=>"$.proxy(Dashboard,'onchoose_type_icarien')()", :selected=>"all"}
+-- attrs : {:id=>"opuser_ope", :name=>"opuser[ope]", :onchange=>"$.proxy(Dashboard,'on_choose_operation')()", :selected=>"", :size=>"long"}
+
+
+=== DEBUG DU 19 04 2017 - 09:36:21 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- attrs : {:id=>"opuser_user_id", :name=>"opuser[user_id]", :selected=>"58"}
+-- attrs : {:name=>"opuser[type_icarien]", :id=>"opuser_type_icarien", :onchange=>"$.proxy(Dashboard,'onchoose_type_icarien')()", :selected=>"all"}
+-- attrs : {:id=>"opuser_ope", :name=>"opuser[ope]", :onchange=>"$.proxy(Dashboard,'on_choose_operation')()", :selected=>"", :size=>"long"}
+
+
+=== DEBUG DU 19 04 2017 - 09:37:01 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- attrs : {:id=>"opuser_user_id", :name=>"opuser[user_id]", :selected=>"58"}
+-- attrs : {:name=>"opuser[type_icarien]", :id=>"opuser_type_icarien", :onchange=>"$.proxy(Dashboard,'onchoose_type_icarien')()", :selected=>"all"}
+-- attrs : {:id=>"opuser_ope", :name=>"opuser[ope]", :onchange=>"$.proxy(Dashboard,'on_choose_operation')()", :selected=>"", :size=>"long"}
+
+
+=== DEBUG DU 19 04 2017 - 09:37:52 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- attrs : {:id=>"opuser_user_id", :name=>"opuser[user_id]", :selected=>"58"}
+-- attrs : {:name=>"opuser[type_icarien]", :id=>"opuser_type_icarien", :onchange=>"$.proxy(Dashboard,'onchoose_type_icarien')()", :selected=>"all"}
+-- attrs : {:id=>"opuser_ope", :name=>"opuser[ope]", :onchange=>"$.proxy(Dashboard,'on_choose_operation')()", :selected=>"", :size=>"long"}
+
+
+=== DEBUG DU 19 04 2017 - 09:38:01 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- attrs : {:id=>"opuser_user_id", :name=>"opuser[user_id]", :selected=>"35"}
+-- attrs : {:name=>"opuser[type_icarien]", :id=>"opuser_type_icarien", :onchange=>"$.proxy(Dashboard,'onchoose_type_icarien')()", :selected=>"all"}
+-- attrs : {:id=>"opuser_ope", :name=>"opuser[ope]", :onchange=>"$.proxy(Dashboard,'on_choose_operation')()", :selected=>"", :size=>"long"}
+
+
+=== DEBUG DU 19 04 2017 - 09:38:03 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- attrs : {:id=>"opuser_user_id", :name=>"opuser[user_id]", :selected=>"35"}
+-- attrs : {:name=>"opuser[type_icarien]", :id=>"opuser_type_icarien", :onchange=>"$.proxy(Dashboard,'onchoose_type_icarien')()", :selected=>"all"}
+-- attrs : {:id=>"opuser_ope", :name=>"opuser[ope]", :onchange=>"$.proxy(Dashboard,'on_choose_operation')()", :selected=>"", :size=>"long"}
+
+
+=== DEBUG DU 19 04 2017 - 09:38:05 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- attrs : {:id=>"opuser_user_id", :name=>"opuser[user_id]", :selected=>"35"}
+-- attrs : {:name=>"opuser[type_icarien]", :id=>"opuser_type_icarien", :onchange=>"$.proxy(Dashboard,'onchoose_type_icarien')()", :selected=>"all"}
+-- attrs : {:id=>"opuser_ope", :name=>"opuser[ope]", :onchange=>"$.proxy(Dashboard,'on_choose_operation')()", :selected=>"", :size=>"long"}
+
+
+=== DEBUG DU 19 04 2017 - 09:38:08 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- attrs : {:id=>"opuser_user_id", :name=>"opuser[user_id]", :selected=>"35"}
+-- attrs : {:name=>"opuser[type_icarien]", :id=>"opuser_type_icarien", :onchange=>"$.proxy(Dashboard,'onchoose_type_icarien')()", :selected=>"all"}
+-- attrs : {:id=>"opuser_ope", :name=>"opuser[ope]", :onchange=>"$.proxy(Dashboard,'on_choose_operation')()", :selected=>"", :size=>"long"}
+
+
+=== DEBUG DU 19 04 2017 - 09:41:44 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- attrs : {:id=>"opuser_user_id", :name=>"opuser[user_id]", :selected=>"35"}
+-- attrs : {:name=>"opuser[type_icarien]", :id=>"opuser_type_icarien", :onchange=>"$.proxy(Dashboard,'onchoose_type_icarien')()", :selected=>"all"}
+-- attrs : {:id=>"opuser_ope", :name=>"opuser[ope]", :onchange=>"$.proxy(Dashboard,'on_choose_operation')()", :selected=>"", :size=>"long"}
+
+
+=== DEBUG DU 19 04 2017 - 09:43:11 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- attrs : {:id=>"opuser_user_id", :name=>"opuser[user_id]", :selected=>"35"}
+-- attrs : {:name=>"opuser[type_icarien]", :id=>"opuser_type_icarien", :onchange=>"$.proxy(Dashboard,'onchoose_type_icarien')()", :selected=>"all"}
+-- attrs : {:id=>"opuser_ope", :name=>"opuser[ope]", :onchange=>"$.proxy(Dashboard,'on_choose_operation')()", :selected=>"", :size=>"long"}
+
+
+=== DEBUG DU 19 04 2017 - 09:43:14 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- attrs : {:id=>"opuser_user_id", :name=>"opuser[user_id]", :selected=>"35"}
+-- attrs : {:name=>"opuser[type_icarien]", :id=>"opuser_type_icarien", :onchange=>"$.proxy(Dashboard,'onchoose_type_icarien')()", :selected=>"en_pause"}
+-- attrs : {:id=>"opuser_ope", :name=>"opuser[ope]", :onchange=>"$.proxy(Dashboard,'on_choose_operation')()", :selected=>"", :size=>"long"}
+
+
+=== DEBUG DU 19 04 2017 - 09:43:19 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- attrs : {:id=>"opuser_user_id", :name=>"opuser[user_id]", :selected=>"35"}
+-- attrs : {:name=>"opuser[type_icarien]", :id=>"opuser_type_icarien", :onchange=>"$.proxy(Dashboard,'onchoose_type_icarien')()", :selected=>"all"}
+-- attrs : {:id=>"opuser_ope", :name=>"opuser[ope]", :onchange=>"$.proxy(Dashboard,'on_choose_operation')()", :selected=>"", :size=>"long"}
+
+
+=== DEBUG DU 19 04 2017 - 09:43:23 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- attrs : {:id=>"opuser_user_id", :name=>"opuser[user_id]", :selected=>"35"}
+-- attrs : {:name=>"opuser[type_icarien]", :id=>"opuser_type_icarien", :onchange=>"$.proxy(Dashboard,'onchoose_type_icarien')()", :selected=>"all"}
+-- attrs : {:id=>"opuser_ope", :name=>"opuser[ope]", :onchange=>"$.proxy(Dashboard,'on_choose_operation')()", :selected=>"", :size=>"long"}
+
+
+=== DEBUG DU 19 04 2017 - 09:43:26 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- attrs : {:id=>"opuser_user_id", :name=>"opuser[user_id]", :selected=>"35"}
+-- attrs : {:name=>"opuser[type_icarien]", :id=>"opuser_type_icarien", :onchange=>"$.proxy(Dashboard,'onchoose_type_icarien')()", :selected=>"actif"}
+-- attrs : {:id=>"opuser_ope", :name=>"opuser[ope]", :onchange=>"$.proxy(Dashboard,'on_choose_operation')()", :selected=>"", :size=>"long"}
+
+
+=== DEBUG DU 19 04 2017 - 09:43:34 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- attrs : {:id=>"opuser_user_id", :name=>"opuser[user_id]", :selected=>"35"}
+-- attrs : {:name=>"opuser[type_icarien]", :id=>"opuser_type_icarien", :onchange=>"$.proxy(Dashboard,'onchoose_type_icarien')()", :selected=>"inactif"}
+-- attrs : {:id=>"opuser_ope", :name=>"opuser[ope]", :onchange=>"$.proxy(Dashboard,'on_choose_operation')()", :selected=>"", :size=>"long"}
+
+
+=== DEBUG DU 19 04 2017 - 09:43:52 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- attrs : {:id=>"opuser_user_id", :name=>"opuser[user_id]", :selected=>"58"}
+-- attrs : {:name=>"opuser[type_icarien]", :id=>"opuser_type_icarien", :onchange=>"$.proxy(Dashboard,'onchoose_type_icarien')()", :selected=>"inactif"}
+-- attrs : {:id=>"opuser_ope", :name=>"opuser[ope]", :onchange=>"$.proxy(Dashboard,'on_choose_operation')()", :selected=>"change_module", :size=>"long"}
+
+
+=== DEBUG DU 19 04 2017 - 09:44:11 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- attrs : {:id=>"opuser_user_id", :name=>"opuser[user_id]", :selected=>"58"}
+-- attrs : {:name=>"opuser[type_icarien]", :id=>"opuser_type_icarien", :onchange=>"$.proxy(Dashboard,'onchoose_type_icarien')()", :selected=>"inactif"}
+-- attrs : {:id=>"opuser_ope", :name=>"opuser[ope]", :onchange=>"$.proxy(Dashboard,'on_choose_operation')()", :selected=>"restart_module", :size=>"long"}
+
+
+=== DEBUG DU 19 04 2017 - 09:44:18 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- attrs : {:id=>"opuser_user_id", :name=>"opuser[user_id]", :selected=>"58"}
+-- attrs : {:name=>"opuser[type_icarien]", :id=>"opuser_type_icarien", :onchange=>"$.proxy(Dashboard,'onchoose_type_icarien')()", :selected=>"actif"}
+-- attrs : {:id=>"opuser_ope", :name=>"opuser[ope]", :onchange=>"$.proxy(Dashboard,'on_choose_operation')()", :selected=>"", :size=>"long"}
+
+
+=== DEBUG DU 19 04 2017 - 09:44:35 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- attrs : {:id=>"opuser_user_id", :name=>"opuser[user_id]", :selected=>"58"}
+-- attrs : {:name=>"opuser[type_icarien]", :id=>"opuser_type_icarien", :onchange=>"$.proxy(Dashboard,'onchoose_type_icarien')()", :selected=>"actif"}
+-- attrs : {:id=>"opuser_ope", :name=>"opuser[ope]", :onchange=>"$.proxy(Dashboard,'on_choose_operation')()", :selected=>"change_module", :size=>"long"}
+
+
+=== DEBUG DU 19 04 2017 - 09:45:10 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- attrs : {:id=>"opuser_user_id", :name=>"opuser[user_id]", :selected=>"58"}
+-- attrs : {:name=>"opuser[type_icarien]", :id=>"opuser_type_icarien", :onchange=>"$.proxy(Dashboard,'onchoose_type_icarien')()", :selected=>"actif"}
+-- attrs : {:id=>"opuser_ope", :name=>"opuser[ope]", :onchange=>"$.proxy(Dashboard,'on_choose_operation')()", :selected=>"change_module", :size=>"long"}
+
+
+=== DEBUG DU 19 04 2017 - 09:45:16 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- attrs : {:id=>"opuser_user_id", :name=>"opuser[user_id]", :selected=>"58"}
+-- attrs : {:name=>"opuser[type_icarien]", :id=>"opuser_type_icarien", :onchange=>"$.proxy(Dashboard,'onchoose_type_icarien')()", :selected=>"actif"}
+-- attrs : {:id=>"opuser_ope", :name=>"opuser[ope]", :onchange=>"$.proxy(Dashboard,'on_choose_operation')()", :selected=>"change_module", :size=>"long"}
+
+
+=== DEBUG DU 19 04 2017 - 09:45:23 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- attrs : {:id=>"opuser_user_id", :name=>"opuser[user_id]", :selected=>"58"}
+-- attrs : {:name=>"opuser[type_icarien]", :id=>"opuser_type_icarien", :onchange=>"$.proxy(Dashboard,'onchoose_type_icarien')()", :selected=>"inactif"}
+-- attrs : {:id=>"opuser_ope", :name=>"opuser[ope]", :onchange=>"$.proxy(Dashboard,'on_choose_operation')()", :selected=>"", :size=>"long"}
+
+
+=== DEBUG DU 19 04 2017 - 09:45:26 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- attrs : {:id=>"opuser_user_id", :name=>"opuser[user_id]", :selected=>"58"}
+-- attrs : {:name=>"opuser[type_icarien]", :id=>"opuser_type_icarien", :onchange=>"$.proxy(Dashboard,'onchoose_type_icarien')()", :selected=>"actif"}
+-- attrs : {:id=>"opuser_ope", :name=>"opuser[ope]", :onchange=>"$.proxy(Dashboard,'on_choose_operation')()", :selected=>"", :size=>"long"}
+
+
+=== DEBUG DU 19 04 2017 - 09:45:34 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- attrs : {:id=>"opuser_user_id", :name=>"opuser[user_id]", :selected=>"58"}
+-- attrs : {:name=>"opuser[type_icarien]", :id=>"opuser_type_icarien", :onchange=>"$.proxy(Dashboard,'onchoose_type_icarien')()", :selected=>"actif"}
+-- attrs : {:id=>"opuser_ope", :name=>"opuser[ope]", :onchange=>"$.proxy(Dashboard,'on_choose_operation')()", :selected=>"change_module", :size=>"long"}
+
+
+=== DEBUG DU 19 04 2017 - 09:46:02 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- attrs : {:id=>"opuser_user_id", :name=>"opuser[user_id]", :selected=>"58"}
+-- attrs : {:name=>"opuser[type_icarien]", :id=>"opuser_type_icarien", :onchange=>"$.proxy(Dashboard,'onchoose_type_icarien')()", :selected=>"actif"}
+-- attrs : {:id=>"opuser_ope", :name=>"opuser[ope]", :onchange=>"$.proxy(Dashboard,'on_choose_operation')()", :selected=>"change_module", :size=>"long"}
+
+
+=== DEBUG DU 19 04 2017 - 09:46:08 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- attrs : {:id=>"opuser_user_id", :name=>"opuser[user_id]", :selected=>"58"}
+-- attrs : {:name=>"opuser[type_icarien]", :id=>"opuser_type_icarien", :onchange=>"$.proxy(Dashboard,'onchoose_type_icarien')()", :selected=>"actif"}
+-- attrs : {:id=>"opuser_ope", :name=>"opuser[ope]", :onchange=>"$.proxy(Dashboard,'on_choose_operation')()", :selected=>"change_module", :size=>"long"}
+
+
+=== DEBUG DU 19 04 2017 - 09:46:28 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- attrs : {:id=>"opuser_user_id", :name=>"opuser[user_id]", :selected=>"58"}
+-- attrs : {:name=>"opuser[type_icarien]", :id=>"opuser_type_icarien", :onchange=>"$.proxy(Dashboard,'onchoose_type_icarien')()", :selected=>"inactif"}
+-- attrs : {:id=>"opuser_ope", :name=>"opuser[ope]", :onchange=>"$.proxy(Dashboard,'on_choose_operation')()", :selected=>"", :size=>"long"}
+
+
+=== DEBUG DU 19 04 2017 - 09:47:54 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- attrs : {:id=>"opuser_user_id", :name=>"opuser[user_id]", :selected=>"58"}
+-- attrs : {:name=>"opuser[type_icarien]", :id=>"opuser_type_icarien", :onchange=>"$.proxy(Dashboard,'onchoose_type_icarien')()", :selected=>"inactif"}
+-- attrs : {:id=>"opuser_ope", :name=>"opuser[ope]", :onchange=>"$.proxy(Dashboard,'on_choose_operation')()", :selected=>"", :size=>"long"}
+
+
+=== DEBUG DU 19 04 2017 - 09:47:59 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- attrs : {:id=>"opuser_user_id", :name=>"opuser[user_id]", :selected=>"3"}
+-- attrs : {:name=>"opuser[type_icarien]", :id=>"opuser_type_icarien", :onchange=>"$.proxy(Dashboard,'onchoose_type_icarien')()", :selected=>"actif"}
+-- attrs : {:id=>"opuser_ope", :name=>"opuser[ope]", :onchange=>"$.proxy(Dashboard,'on_choose_operation')()", :selected=>"", :size=>"long"}
+
+
+=== DEBUG DU 19 04 2017 - 09:48:07 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- attrs : {:id=>"opuser_user_id", :name=>"opuser[user_id]", :selected=>"3"}
+-- attrs : {:name=>"opuser[type_icarien]", :id=>"opuser_type_icarien", :onchange=>"$.proxy(Dashboard,'onchoose_type_icarien')()", :selected=>"inactif"}
+-- attrs : {:id=>"opuser_ope", :name=>"opuser[ope]", :onchange=>"$.proxy(Dashboard,'on_choose_operation')()", :selected=>"", :size=>"long"}
+
+
+=== DEBUG DU 19 04 2017 - 09:48:17 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- attrs : {:id=>"opuser_user_id", :name=>"opuser[user_id]", :selected=>"3"}
+-- attrs : {:name=>"opuser[type_icarien]", :id=>"opuser_type_icarien", :onchange=>"$.proxy(Dashboard,'onchoose_type_icarien')()", :selected=>"all"}
+-- attrs : {:id=>"opuser_ope", :name=>"opuser[ope]", :onchange=>"$.proxy(Dashboard,'on_choose_operation')()", :selected=>"", :size=>"long"}
+
+
+=== DEBUG DU 19 04 2017 - 09:48:41 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- attrs : {:id=>"opuser_user_id", :name=>"opuser[user_id]", :selected=>"3"}
+-- attrs : {:name=>"opuser[type_icarien]", :id=>"opuser_type_icarien", :onchange=>"$.proxy(Dashboard,'onchoose_type_icarien')()", :selected=>"all"}
+-- attrs : {:id=>"opuser_ope", :name=>"opuser[ope]", :onchange=>"$.proxy(Dashboard,'on_choose_operation')()", :selected=>"", :size=>"long"}
+
+
+=== DEBUG DU 19 04 2017 - 09:48:47 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- attrs : {:id=>"opuser_user_id", :name=>"opuser[user_id]", :selected=>""}
+-- attrs : {:name=>"opuser[type_icarien]", :id=>"opuser_type_icarien", :onchange=>"$.proxy(Dashboard,'onchoose_type_icarien')()", :selected=>"actif"}
+-- attrs : {:id=>"opuser_ope", :name=>"opuser[ope]", :onchange=>"$.proxy(Dashboard,'on_choose_operation')()", :selected=>"", :size=>"long"}
+
+
+=== DEBUG DU 19 04 2017 - 09:48:55 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- attrs : {:id=>"opuser_user_id", :name=>"opuser[user_id]", :selected=>""}
+-- attrs : {:name=>"opuser[type_icarien]", :id=>"opuser_type_icarien", :onchange=>"$.proxy(Dashboard,'onchoose_type_icarien')()", :selected=>"inactif"}
+-- attrs : {:id=>"opuser_ope", :name=>"opuser[ope]", :onchange=>"$.proxy(Dashboard,'on_choose_operation')()", :selected=>"", :size=>"long"}
+
+
+=== DEBUG DU 19 04 2017 - 09:49:06 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- attrs : {:id=>"opuser_user_id", :name=>"opuser[user_id]", :selected=>""}
+-- attrs : {:name=>"opuser[type_icarien]", :id=>"opuser_type_icarien", :onchange=>"$.proxy(Dashboard,'onchoose_type_icarien')()", :selected=>"actif"}
+-- attrs : {:id=>"opuser_ope", :name=>"opuser[ope]", :onchange=>"$.proxy(Dashboard,'on_choose_operation')()", :selected=>"", :size=>"long"}
+
+
+=== DEBUG DU 19 04 2017 - 09:49:20 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- attrs : {:id=>"opuser_user_id", :name=>"opuser[user_id]", :selected=>"50"}
+-- attrs : {:name=>"opuser[type_icarien]", :id=>"opuser_type_icarien", :onchange=>"$.proxy(Dashboard,'onchoose_type_icarien')()", :selected=>"actif"}
+-- attrs : {:id=>"opuser_ope", :name=>"opuser[ope]", :onchange=>"$.proxy(Dashboard,'on_choose_operation')()", :selected=>"change_module", :size=>"long"}
+
+
+=== DEBUG DU 19 04 2017 - 09:49:36 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- attrs : {:id=>"opuser_user_id", :name=>"opuser[user_id]", :selected=>"50"}
+-- attrs : {:name=>"opuser[type_icarien]", :id=>"opuser_type_icarien", :onchange=>"$.proxy(Dashboard,'onchoose_type_icarien')()", :selected=>"actif"}
+-- attrs : {:id=>"opuser_ope", :name=>"opuser[ope]", :onchange=>"$.proxy(Dashboard,'on_choose_operation')()", :selected=>"change_module", :size=>"long"}
+
+
+=== DEBUG DU 19 04 2017 - 09:49:53 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- attrs : {:id=>"opuser_user_id", :name=>"opuser[user_id]", :selected=>"50"}
+-- attrs : {:name=>"opuser[type_icarien]", :id=>"opuser_type_icarien", :onchange=>"$.proxy(Dashboard,'onchoose_type_icarien')()", :selected=>"actif"}
+-- attrs : {:id=>"opuser_ope", :name=>"opuser[ope]", :onchange=>"$.proxy(Dashboard,'on_choose_operation')()", :selected=>"change_module", :size=>"long"}
+
+
+=== DEBUG DU 19 04 2017 - 09:50:00 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- attrs : {:id=>"opuser_user_id", :name=>"opuser[user_id]", :selected=>"50"}
+-- attrs : {:name=>"opuser[type_icarien]", :id=>"opuser_type_icarien", :onchange=>"$.proxy(Dashboard,'onchoose_type_icarien')()", :selected=>"actif"}
+-- attrs : {:id=>"opuser_ope", :name=>"opuser[ope]", :onchange=>"$.proxy(Dashboard,'on_choose_operation')()", :selected=>"change_module", :size=>"long"}
+
+
+=== DEBUG DU 19 04 2017 - 09:51:52 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- attrs : {:id=>"opuser_user_id", :name=>"opuser[user_id]", :selected=>"50"}
+-- attrs : {:name=>"opuser[type_icarien]", :id=>"opuser_type_icarien", :onchange=>"$.proxy(Dashboard,'onchoose_type_icarien')()", :selected=>"actif"}
+-- attrs : {:id=>"opuser_ope", :name=>"opuser[ope]", :onchange=>"$.proxy(Dashboard,'on_choose_operation')()", :selected=>"change_module", :size=>"long"}
+
+
+=== DEBUG DU 19 04 2017 - 09:51:55 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- attrs : {:id=>"opuser_user_id", :name=>"opuser[user_id]", :selected=>""}
+-- attrs : {:name=>"opuser[type_icarien]", :id=>"opuser_type_icarien", :onchange=>"$.proxy(Dashboard,'onchoose_type_icarien')()", :selected=>"inactif"}
+-- attrs : {:id=>"opuser_ope", :name=>"opuser[ope]", :onchange=>"$.proxy(Dashboard,'on_choose_operation')()", :selected=>"", :size=>"long"}
+
+
+=== DEBUG DU 19 04 2017 - 09:52:05 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- attrs : {:id=>"opuser_user_id", :name=>"opuser[user_id]", :selected=>"3"}
+-- attrs : {:name=>"opuser[type_icarien]", :id=>"opuser_type_icarien", :onchange=>"$.proxy(Dashboard,'onchoose_type_icarien')()", :selected=>"inactif"}
+-- attrs : {:id=>"opuser_ope", :name=>"opuser[ope]", :onchange=>"$.proxy(Dashboard,'on_choose_operation')()", :selected=>"change_module", :size=>"long"}
+
+
+=== DEBUG DU 19 04 2017 - 09:52:21 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- attrs : {:id=>"opuser_user_id", :name=>"opuser[user_id]", :selected=>"3"}
+-- attrs : {:name=>"opuser[type_icarien]", :id=>"opuser_type_icarien", :onchange=>"$.proxy(Dashboard,'onchoose_type_icarien')()", :selected=>"inactif"}
+-- attrs : {:id=>"opuser_ope", :name=>"opuser[ope]", :onchange=>"$.proxy(Dashboard,'on_choose_operation')()", :selected=>"change_module", :size=>"long"}
+
+
+=== DEBUG DU 19 04 2017 - 09:52:28 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- attrs : {:id=>"opuser_user_id", :name=>"opuser[user_id]", :selected=>"57"}
+-- attrs : {:name=>"opuser[type_icarien]", :id=>"opuser_type_icarien", :onchange=>"$.proxy(Dashboard,'onchoose_type_icarien')()", :selected=>"inactif"}
+-- attrs : {:id=>"opuser_ope", :name=>"opuser[ope]", :onchange=>"$.proxy(Dashboard,'on_choose_operation')()", :selected=>"change_module", :size=>"long"}
+
+
+=== DEBUG DU 19 04 2017 - 09:53:33 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- attrs : {:id=>"opuser_user_id", :name=>"opuser[user_id]", :selected=>""}
+-- attrs : {:name=>"opuser[type_icarien]", :id=>"opuser_type_icarien", :onchange=>"$.proxy(Dashboard,'onchoose_type_icarien')()", :selected=>"actif"}
+-- attrs : {:id=>"opuser_ope", :name=>"opuser[ope]", :onchange=>"$.proxy(Dashboard,'on_choose_operation')()", :selected=>"", :size=>"long"}
+
+
+=== DEBUG DU 19 04 2017 - 09:53:54 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- attrs : {:id=>"opuser_user_id", :name=>"opuser[user_id]", :selected=>"50"}
+-- attrs : {:name=>"opuser[type_icarien]", :id=>"opuser_type_icarien", :onchange=>"$.proxy(Dashboard,'onchoose_type_icarien')()", :selected=>"actif"}
+-- attrs : {:id=>"opuser_ope", :name=>"opuser[ope]", :onchange=>"$.proxy(Dashboard,'on_choose_operation')()", :selected=>"change_module", :size=>"long"}
+
+
+=== DEBUG DU 19 04 2017 - 09:53:58 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- attrs : {:id=>"opuser_user_id", :name=>"opuser[user_id]", :selected=>"50"}
+-- attrs : {:name=>"opuser[type_icarien]", :id=>"opuser_type_icarien", :onchange=>"$.proxy(Dashboard,'onchoose_type_icarien')()", :selected=>"actif"}
+-- attrs : {:id=>"opuser_ope", :name=>"opuser[ope]", :onchange=>"$.proxy(Dashboard,'on_choose_operation')()", :selected=>"change_module", :size=>"long"}
+
+
+=== DEBUG DU 19 04 2017 - 09:54:00 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- attrs : {:id=>"opuser_user_id", :name=>"opuser[user_id]", :selected=>"50"}
+-- attrs : {:name=>"opuser[type_icarien]", :id=>"opuser_type_icarien", :onchange=>"$.proxy(Dashboard,'onchoose_type_icarien')()", :selected=>"actif"}
+-- attrs : {:id=>"opuser_ope", :name=>"opuser[ope]", :onchange=>"$.proxy(Dashboard,'on_choose_operation')()", :selected=>"change_module", :size=>"long"}
+
+
+=== DEBUG DU 19 04 2017 - 09:59:18 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- attrs : {:id=>"opuser_user_id", :name=>"opuser[user_id]", :selected=>"50"}
+-- attrs : {:name=>"opuser[type_icarien]", :id=>"opuser_type_icarien", :onchange=>"$.proxy(Dashboard,'onchoose_type_icarien')()", :selected=>"actif"}
+-- attrs : {:id=>"opuser_ope", :name=>"opuser[ope]", :onchange=>"$.proxy(Dashboard,'on_choose_operation')()", :selected=>"change_module", :size=>"long"}
+
+
+=== DEBUG DU 19 04 2017 - 10:00:31 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- attrs : {:id=>"opuser_user_id", :name=>"opuser[user_id]", :selected=>"50"}
+-- attrs : {:name=>"opuser[type_icarien]", :id=>"opuser_type_icarien", :onchange=>"$.proxy(Dashboard,'onchoose_type_icarien')()", :selected=>"actif"}
+-- attrs : {:id=>"opuser_ope", :name=>"opuser[ope]", :onchange=>"$.proxy(Dashboard,'on_choose_operation')()", :selected=>"change_module", :size=>"long"}
+
+
+=== DEBUG DU 19 04 2017 - 10:01:23 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- attrs : {:id=>"opuser_user_id", :name=>"opuser[user_id]", :selected=>"50"}
+-- attrs : {:name=>"opuser[type_icarien]", :id=>"opuser_type_icarien", :onchange=>"$.proxy(Dashboard,'onchoose_type_icarien')()", :selected=>"actif"}
+-- attrs : {:id=>"opuser_ope", :name=>"opuser[ope]", :onchange=>"$.proxy(Dashboard,'on_choose_operation')()", :selected=>"change_module", :size=>"long"}
+
+
+=== DEBUG DU 19 04 2017 - 10:01:48 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {:where=>"user_id = 50"}
+
+
+=== DEBUG DU 19 04 2017 - 10:01:51 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {:where=>"user_id = 50"}
+
+
+=== DEBUG DU 19 04 2017 - 10:02:05 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 10:02:08 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {}
+
+
+=== DEBUG DU 19 04 2017 - 10:02:26 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 10:02:29 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {}
+
+
+=== DEBUG DU 19 04 2017 - 10:02:44 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {:where=>"user_id IN (50,58)"}
+
+
+=== DEBUG DU 19 04 2017 - 10:02:59 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- attrs : {:id=>"opuser_user_id", :name=>"opuser[user_id]", :selected=>""}
+-- attrs : {:name=>"opuser[type_icarien]", :id=>"opuser_type_icarien", :onchange=>"$.proxy(Dashboard,'onchoose_type_icarien')()", :selected=>"all"}
+-- attrs : {:id=>"opuser_ope", :name=>"opuser[ope]", :onchange=>"$.proxy(Dashboard,'on_choose_operation')()", :selected=>"", :size=>"long"}
+
+
+=== DEBUG DU 19 04 2017 - 10:03:14 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- attrs : {:id=>"opuser_user_id", :name=>"opuser[user_id]", :selected=>"58"}
+-- attrs : {:name=>"opuser[type_icarien]", :id=>"opuser_type_icarien", :onchange=>"$.proxy(Dashboard,'onchoose_type_icarien')()", :selected=>"all"}
+-- attrs : {:id=>"opuser_ope", :name=>"opuser[ope]", :onchange=>"$.proxy(Dashboard,'on_choose_operation')()", :selected=>"change_module", :size=>"long"}
+
+
+=== DEBUG DU 19 04 2017 - 10:03:30 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 10:03:33 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {}
+
+
+=== DEBUG DU 19 04 2017 - 10:03:55 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {:where=>"id IN (50,58)"}
+
+
+=== DEBUG DU 19 04 2017 - 10:07:12 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- param(:backto) mis à "database/edit"
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {}
+
+
+=== DEBUG DU 19 04 2017 - 10:07:21 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- param(:backto) mis à "database/edit"
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {:where=>"user_id = 50"}
+
+
+=== DEBUG DU 19 04 2017 - 10:07:44 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- param(:backto) mis à "database/edit"
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 10:07:55 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- param(:backto) mis à "database/edit"
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 10:08:14 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- param(:backto) mis à "database/edit"
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 10:08:16 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- param(:backto) mis à "database/edit"
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 10:08:25 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- param(:backto) mis à "database/edit"
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 10:08:28 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- param(:backto) mis à "database/edit"
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- Problème avec la rangée d'ID 95 : undefined method `<' for nil:NilClass
+-- undefined method `<' for nil:NilClass
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/database/lib/module/synchronisation/synchronisation.rb:140:in `block in proceed_synchronisation'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/database/lib/module/synchronisation/synchronisation.rb:126:in `each'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/database/lib/module/synchronisation/synchronisation.rb:126:in `proceed_synchronisation'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/database/lib/module/synchronisation/synchronisation.rb:15:in `_synchronize'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/database/edit.rb:32:in `<top (required)>'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:22:in `require_ruby'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:15:in `require_all'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:324:in `load_per_vue'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:103:in `execute_route'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+-- Problème avec la rangée d'ID 97 : undefined method `<' for nil:NilClass
+-- undefined method `<' for nil:NilClass
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/database/lib/module/synchronisation/synchronisation.rb:140:in `block in proceed_synchronisation'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/database/lib/module/synchronisation/synchronisation.rb:126:in `each'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/database/lib/module/synchronisation/synchronisation.rb:126:in `proceed_synchronisation'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/database/lib/module/synchronisation/synchronisation.rb:15:in `_synchronize'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/database/edit.rb:32:in `<top (required)>'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:22:in `require_ruby'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:15:in `require_all'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:324:in `load_per_vue'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:103:in `execute_route'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 19 04 2017 - 10:08:35 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- param(:backto) mis à "database/edit"
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 10:08:38 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- param(:backto) mis à "database/edit"
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 10:08:46 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- param(:backto) mis à "database/edit"
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 10:08:50 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- param(:backto) mis à "database/edit"
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 10:08:52 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- param(:backto) mis à "database/edit"
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- # ERREUR MYSQL : Duplicate entry 'BenoA' for key 'pseudo'
+-- # REQUEST : INSERT INTO users (id, pseudo, patronyme, mail, cpassword, salt, session_id, ip, options, sexe, naissance, adresse, telephone, icmodule_id, date_sortie, updated_at, created_at) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? );
+-- # VALEURS PRÉPARÉES : [84, "BenoA", "Benoit Ackerman", "benoit.ackerman@yahoo.fr", "6ffdedc77855596f3edbc6d2c5b4b932", "", nil, nil, "001000000000000040000008", "H", 1984, nil, nil, nil, nil, 1475230519, 1474793936]
+-- /Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/statement.rb:8:in `_execute'
+/Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/statement.rb:8:in `block in execute'
+/Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/statement.rb:7:in `handle_interrupt'
+/Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/statement.rb:7:in `execute'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/request.rb:390:in `exec'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/request.rb:64:in `insert'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/mysql.rb:147:in `insert'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/database/lib/module/synchronisation/synchronisation.rb:162:in `block in proceed_synchronisation'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/database/lib/module/synchronisation/synchronisation.rb:126:in `each'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/database/lib/module/synchronisation/synchronisation.rb:126:in `proceed_synchronisation'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/database/lib/module/synchronisation/synchronisation.rb:15:in `_synchronize'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/database/edit.rb:32:in `<top (required)>'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:22:in `require_ruby'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:15:in `require_all'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:324:in `load_per_vue'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:103:in `execute_route'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+-- Problème avec la rangée d'ID 84 : Duplicate entry 'BenoA' for key 'pseudo'
+-- Duplicate entry 'BenoA' for key 'pseudo'
+
+/Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/statement.rb:8:in `_execute'
+/Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/statement.rb:8:in `block in execute'
+/Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/statement.rb:7:in `handle_interrupt'
+/Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/statement.rb:7:in `execute'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/request.rb:390:in `exec'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/request.rb:64:in `insert'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/mysql.rb:147:in `insert'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/database/lib/module/synchronisation/synchronisation.rb:162:in `block in proceed_synchronisation'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/database/lib/module/synchronisation/synchronisation.rb:126:in `each'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/database/lib/module/synchronisation/synchronisation.rb:126:in `proceed_synchronisation'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/database/lib/module/synchronisation/synchronisation.rb:15:in `_synchronize'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/database/edit.rb:32:in `<top (required)>'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:22:in `require_ruby'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:15:in `require_all'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:324:in `load_per_vue'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:103:in `execute_route'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 19 04 2017 - 10:08:58 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- param(:backto) mis à "database/edit"
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 10:09:00 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- param(:backto) mis à "database/edit"
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 10:09:16 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- param(:backto) mis à "database/edit"
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 10:09:28 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- param(:backto) mis à "database/edit"
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 10:09:29 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- param(:backto) mis à "database/edit"
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 10:09:33 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- param(:backto) mis à "database/edit"
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 10:09:37 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- param(:backto) mis à "database/edit"
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 10:09:44 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- param(:backto) mis à "database/edit"
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 10:09:46 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- param(:backto) mis à "database/edit"
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 10:09:57 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- param(:backto) mis à "database/edit"
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 10:09:59 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- param(:backto) mis à "database/edit"
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- Le schéma de la table (./database/definition_tables_mysql/base_hot/table_users.rb) est introuvable…
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/mysql.rb:281:in `schema_path'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/mysql.rb:299:in `code_creation_schema'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/mysql.rb:315:in `create'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/mysql.rb:310:in `create_if_needed'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/mysql.rb:58:in `get'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/mysql.rb:6:in `dbm_table'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/database/lib/module/synchronisation/synchronisation.rb:87:in `proceed_synchronisation'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/database/lib/module/synchronisation/synchronisation.rb:15:in `_synchronize'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/database/edit.rb:32:in `<top (required)>'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:22:in `require_ruby'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:15:in `require_all'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:324:in `load_per_vue'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:103:in `execute_route'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 19 04 2017 - 10:10:21 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- param(:backto) mis à "database/edit"
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 10:10:25 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- param(:backto) mis à "database/edit"
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 10:10:26 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- param(:backto) mis à "database/edit"
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 10:10:29 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- param(:backto) mis à "database/edit"
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 10:10:32 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- param(:backto) mis à "database/edit"
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- Problème avec la rangée d'ID 1 : comparison of Fixnum with nil failed
+-- comparison of Fixnum with nil failed
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/database/lib/module/synchronisation/synchronisation.rb:140:in `<'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/database/lib/module/synchronisation/synchronisation.rb:140:in `block in proceed_synchronisation'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/database/lib/module/synchronisation/synchronisation.rb:126:in `each'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/database/lib/module/synchronisation/synchronisation.rb:126:in `proceed_synchronisation'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/database/lib/module/synchronisation/synchronisation.rb:15:in `_synchronize'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/database/edit.rb:32:in `<top (required)>'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:22:in `require_ruby'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:15:in `require_all'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:324:in `load_per_vue'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:103:in `execute_route'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+-- Problème avec la rangée d'ID 6 : comparison of Fixnum with nil failed
+-- comparison of Fixnum with nil failed
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/database/lib/module/synchronisation/synchronisation.rb:140:in `<'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/database/lib/module/synchronisation/synchronisation.rb:140:in `block in proceed_synchronisation'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/database/lib/module/synchronisation/synchronisation.rb:126:in `each'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/database/lib/module/synchronisation/synchronisation.rb:126:in `proceed_synchronisation'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/database/lib/module/synchronisation/synchronisation.rb:15:in `_synchronize'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/database/edit.rb:32:in `<top (required)>'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:22:in `require_ruby'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:15:in `require_all'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:324:in `load_per_vue'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:103:in `execute_route'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 19 04 2017 - 10:10:46 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- attrs : {:id=>"opuser_user_id", :name=>"opuser[user_id]", :selected=>""}
+-- attrs : {:name=>"opuser[type_icarien]", :id=>"opuser_type_icarien", :onchange=>"$.proxy(Dashboard,'onchoose_type_icarien')()", :selected=>"actif"}
+-- attrs : {:id=>"opuser_ope", :name=>"opuser[ope]", :onchange=>"$.proxy(Dashboard,'on_choose_operation')()", :selected=>"", :size=>"long"}
+
+
+=== DEBUG DU 19 04 2017 - 10:11:04 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- attrs : {:id=>"opuser_user_id", :name=>"opuser[user_id]", :selected=>"50"}
+-- attrs : {:name=>"opuser[type_icarien]", :id=>"opuser_type_icarien", :onchange=>"$.proxy(Dashboard,'onchoose_type_icarien')()", :selected=>"actif"}
+-- attrs : {:id=>"opuser_ope", :name=>"opuser[ope]", :onchange=>"$.proxy(Dashboard,'on_choose_operation')()", :selected=>"change_module", :size=>"long"}
+
+
+=== DEBUG DU 19 04 2017 - 10:11:12 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- attrs : {:id=>"opuser_user_id", :name=>"opuser[user_id]", :selected=>"9"}
+-- attrs : {:name=>"opuser[type_icarien]", :id=>"opuser_type_icarien", :onchange=>"$.proxy(Dashboard,'onchoose_type_icarien')()", :selected=>"actif"}
+-- attrs : {:id=>"opuser_ope", :name=>"opuser[ope]", :onchange=>"$.proxy(Dashboard,'on_choose_operation')()", :selected=>"change_module", :size=>"long"}
+
+
+=== DEBUG DU 19 04 2017 - 10:11:19 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- attrs : {:id=>"opuser_user_id", :name=>"opuser[user_id]", :selected=>"9"}
+-- attrs : {:name=>"opuser[type_icarien]", :id=>"opuser_type_icarien", :onchange=>"$.proxy(Dashboard,'onchoose_type_icarien')()", :selected=>"actif"}
+-- attrs : {:id=>"opuser_ope", :name=>"opuser[ope]", :onchange=>"$.proxy(Dashboard,'on_choose_operation')()", :selected=>"change_module", :size=>"long"}
+
+
+=== DEBUG DU 19 04 2017 - 10:16:52 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- param(:backto) mis à "database/edit"
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {}
+
+
+=== DEBUG DU 19 04 2017 - 10:16:57 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- param(:backto) mis à "database/edit"
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {}
+
+
+=== DEBUG DU 19 04 2017 - 11:35:21 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+-- param(:backto) mis à "bureau/home"
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signin"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 11:35:23 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "login"
+Context  = nil
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 11:36:12 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "overview"
+Context  = nil
+-- # expected_comments NON DÉFINI (pour Loustik2050 #27)
+-- undefined method `in_span' for nil:NilClass
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/user/helper.rb:31:in `div_module_etape'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/user/helper.rb:17:in `overview'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:207:in `block in overview_textuel'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:205:in `collect'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:205:in `overview_textuel'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:28:in `display'
+(erb):12:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 19 04 2017 - 11:37:00 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 11:37:06 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 1
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 11:37:11 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 11:38:43 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- /Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/operations_user/change_module.rb:119: syntax error, unexpected tIDENTIFIER, expecting ')'
+        options:        new_icmodule.options.set_bit(0, 1)
+               ^
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/operations_user/change_module.rb:120: syntax error, unexpected ':', expecting keyword_end
+        next_paiement:  time_next_paiement,
+                      ^
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/operations_user/change_module.rb:122: syntax error, unexpected ')', expecting keyword_end
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/operations_user/change_module.rb:202: syntax error, unexpected end-of-input, expecting keyword_end
+
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/require.rb:18:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/require.rb:70:in `block in require_all_in'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/require.rb:70:in `each'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/require.rb:70:in `require_all_in'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/divers/modules/main_objets.rb:63:in `require_module'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/users/users.rb:107:in `execute_operation'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/users/users.rb:121:in `<top (required)>'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/require.rb:18:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/require.rb:70:in `block in require_all_in'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/require.rb:70:in `each'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/require.rb:70:in `require_all_in'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/divers/modules/main_objets.rb:63:in `require_module'
+(erb):6:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 19 04 2017 - 11:39:09 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- Requête where : "objet = \"ic_module\" AND processus = \"paiement\" AND objet_id = 96 AND user_id = 9"
+-- undefined method `type_suiv?' for nil:NilClass
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/operations_user/change_module.rb:154:in `new_icmodule_for_icarien'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/operations_user/change_module.rb:59:in `exec_change_module'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/users/users.rb:110:in `execute_operation'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/users/users.rb:121:in `<top (required)>'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/require.rb:18:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/require.rb:70:in `block in require_all_in'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/require.rb:70:in `each'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/require.rb:70:in `require_all_in'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/divers/modules/main_objets.rb:63:in `require_module'
+(erb):6:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 19 04 2017 - 11:40:47 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- Requête where : "objet = \"ic_module\" AND processus = \"paiement\" AND objet_id = 96 AND user_id = 9"
+-- attrs : {:id=>"opuser_user_id", :name=>"opuser[user_id]", :selected=>"9"}
+-- attrs : {:name=>"opuser[type_icarien]", :id=>"opuser_type_icarien", :onchange=>"$.proxy(Dashboard,'onchoose_type_icarien')()", :selected=>"actif"}
+-- attrs : {:id=>"opuser_ope", :name=>"opuser[ope]", :onchange=>"$.proxy(Dashboard,'on_choose_operation')()", :selected=>"change_module", :size=>"long"}
+
+
+=== DEBUG DU 19 04 2017 - 11:41:47 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- Requête where : "objet = \"ic_module\" AND processus = \"paiement\" AND objet_id = 96 AND user_id = 9"
+-- attrs : {:id=>"opuser_user_id", :name=>"opuser[user_id]", :selected=>"9"}
+-- attrs : {:name=>"opuser[type_icarien]", :id=>"opuser_type_icarien", :onchange=>"$.proxy(Dashboard,'onchoose_type_icarien')()", :selected=>"actif"}
+-- attrs : {:id=>"opuser_ope", :name=>"opuser[ope]", :onchange=>"$.proxy(Dashboard,'on_choose_operation')()", :selected=>"change_module", :size=>"long"}
+
+
+=== DEBUG DU 19 04 2017 - 11:43:52 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- uninitialized constant IcModule::IcEtape
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/operations_user/change_module.rb:108:in `new_icmodule_for_icarien'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/operations_user/change_module.rb:58:in `exec_change_module'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/users/users.rb:110:in `execute_operation'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/users/users.rb:121:in `<top (required)>'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/require.rb:18:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/require.rb:70:in `block in require_all_in'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/require.rb:70:in `each'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/require.rb:70:in `require_all_in'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/divers/modules/main_objets.rb:63:in `require_module'
+(erb):6:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 19 04 2017 - 11:45:05 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- attrs : {:id=>"opuser_user_id", :name=>"opuser[user_id]", :selected=>"9"}
+-- attrs : {:name=>"opuser[type_icarien]", :id=>"opuser_type_icarien", :onchange=>"$.proxy(Dashboard,'onchoose_type_icarien')()", :selected=>"actif"}
+-- attrs : {:id=>"opuser_ope", :name=>"opuser[ope]", :onchange=>"$.proxy(Dashboard,'on_choose_operation')()", :selected=>"change_module", :size=>"long"}
+
+
+=== DEBUG DU 19 04 2017 - 11:45:13 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 11:45:15 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 11:45:17 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 11:45:20 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 11:45:23 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 11:45:27 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 11:45:32 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 11:45:35 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 11:45:42 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 11:45:45 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- Problème avec la rangée d'ID 95 : undefined method `<' for nil:NilClass
+-- undefined method `<' for nil:NilClass
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/database/lib/module/synchronisation/synchronisation.rb:140:in `block in proceed_synchronisation'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/database/lib/module/synchronisation/synchronisation.rb:126:in `each'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/database/lib/module/synchronisation/synchronisation.rb:126:in `proceed_synchronisation'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/database/lib/module/synchronisation/synchronisation.rb:15:in `_synchronize'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/database/edit.rb:32:in `<top (required)>'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:22:in `require_ruby'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:15:in `require_all'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:324:in `load_per_vue'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:103:in `execute_route'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+-- Problème avec la rangée d'ID 97 : undefined method `<' for nil:NilClass
+-- undefined method `<' for nil:NilClass
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/database/lib/module/synchronisation/synchronisation.rb:140:in `block in proceed_synchronisation'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/database/lib/module/synchronisation/synchronisation.rb:126:in `each'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/database/lib/module/synchronisation/synchronisation.rb:126:in `proceed_synchronisation'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/database/lib/module/synchronisation/synchronisation.rb:15:in `_synchronize'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/database/edit.rb:32:in `<top (required)>'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:22:in `require_ruby'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:15:in `require_all'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:324:in `load_per_vue'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:103:in `execute_route'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 19 04 2017 - 11:45:55 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- attrs : {:id=>"opuser_user_id", :name=>"opuser[user_id]", :selected=>"9"}
+-- attrs : {:name=>"opuser[type_icarien]", :id=>"opuser_type_icarien", :onchange=>"$.proxy(Dashboard,'onchoose_type_icarien')()", :selected=>"actif"}
+-- attrs : {:id=>"opuser_ope", :name=>"opuser[ope]", :onchange=>"$.proxy(Dashboard,'on_choose_operation')()", :selected=>"change_module", :size=>"long"}
+
+
+=== DEBUG DU 19 04 2017 - 11:46:05 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 11:46:07 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {}
+
+
+=== DEBUG DU 19 04 2017 - 11:46:58 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 11:47:02 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 11:47:23 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 11:47:28 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 11:47:30 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 11:47:48 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 11:47:52 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 11:51:51 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {}
+
+
+=== DEBUG DU 19 04 2017 - 11:52:09 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 11:54:15 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- (eval):1: syntax error, unexpected end-of-input, expecting ')'
+...60, :created_at => 1391703976 }
+...                               ^
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/database/edit.rb:64:in `eval'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/database/edit.rb:64:in `<top (required)>'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:22:in `require_ruby'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:15:in `require_all'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:324:in `load_per_vue'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:103:in `execute_route'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 19 04 2017 - 11:55:05 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 11:55:09 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {}
+
+
+=== DEBUG DU 19 04 2017 - 11:55:32 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- # ERREUR MYSQL : Out of range value for column 'created_at' at row 1
+-- # REQUEST : INSERT INTO watchers (objet, objet_id, processus, user_id, created_at, updated_at) VALUES ( ?, ?, ?, ?, ?, ? );
+-- # VALEURS PRÉPARÉES : ["ic_etape", 662, "send_work", 9, 2017-04-19 11:55:32 +0200, 2017-04-19 11:55:32 +0200]
+-- /Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/statement.rb:8:in `_execute'
+/Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/statement.rb:8:in `block in execute'
+/Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/statement.rb:7:in `handle_interrupt'
+/Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/statement.rb:7:in `execute'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/request.rb:390:in `exec'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/request.rb:64:in `insert'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/mysql.rb:147:in `insert'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/User/instance/watchers.rb:39:in `add_watcher'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/operations_user/change_module.rb:131:in `new_icmodule_for_icarien'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/operations_user/change_module.rb:60:in `exec_change_module'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/users/users.rb:110:in `execute_operation'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/users/users.rb:121:in `<top (required)>'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/require.rb:18:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/require.rb:70:in `block in require_all_in'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/require.rb:70:in `each'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/require.rb:70:in `require_all_in'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/divers/modules/main_objets.rb:63:in `require_module'
+(erb):6:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+-- Out of range value for column 'created_at' at row 1
+
+/Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/statement.rb:8:in `_execute'
+/Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/statement.rb:8:in `block in execute'
+/Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/statement.rb:7:in `handle_interrupt'
+/Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/statement.rb:7:in `execute'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/request.rb:390:in `exec'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/request.rb:64:in `insert'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/mysql.rb:147:in `insert'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/User/instance/watchers.rb:39:in `add_watcher'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/operations_user/change_module.rb:131:in `new_icmodule_for_icarien'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/operations_user/change_module.rb:60:in `exec_change_module'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/users/users.rb:110:in `execute_operation'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/users/users.rb:121:in `<top (required)>'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/require.rb:18:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/require.rb:70:in `block in require_all_in'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/require.rb:70:in `each'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/require.rb:70:in `require_all_in'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/divers/modules/main_objets.rb:63:in `require_module'
+(erb):6:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 19 04 2017 - 11:56:46 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- attrs : {:id=>"opuser_user_id", :name=>"opuser[user_id]", :selected=>"9"}
+-- attrs : {:name=>"opuser[type_icarien]", :id=>"opuser_type_icarien", :onchange=>"$.proxy(Dashboard,'onchoose_type_icarien')()", :selected=>"actif"}
+-- attrs : {:id=>"opuser_ope", :name=>"opuser[ope]", :onchange=>"$.proxy(Dashboard,'on_choose_operation')()", :selected=>"change_module", :size=>"long"}
+
+
+=== DEBUG DU 19 04 2017 - 11:57:35 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 11:57:48 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- # ERREUR MYSQL : Data truncated for column 'updated_at' at row 1
+-- # REQUEST : INSERT INTO users (id, pseudo, patronyme, mail, cpassword, salt, session_id, ip, options, sexe, naissance, adresse, telephone, icmodule_id, date_sortie, updated_at, created_at) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? );
+-- # VALEURS PRÉPARÉES : [9, "Cyrille", nil, "mailcyrille@free.fr", "50bf2453cd0e2111a9ddb1d2204ab9b8", "", nil, nil, "00100000000000002000000810100000", "H", 1979, nil, nil, 96, nil, "17 avril 2017 - 10:29 (real: 1492417760)", "6 f\u00E9vrier 2014 - 17:26 (real: 1391703976)"]
+-- /Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/statement.rb:8:in `_execute'
+/Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/statement.rb:8:in `block in execute'
+/Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/statement.rb:7:in `handle_interrupt'
+/Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/statement.rb:7:in `execute'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/request.rb:390:in `exec'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/request.rb:64:in `insert'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/mysql.rb:147:in `insert'
+(eval):1:in `<top (required)>'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/database/edit.rb:64:in `eval'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/database/edit.rb:64:in `<top (required)>'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:22:in `require_ruby'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:15:in `require_all'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:324:in `load_per_vue'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:103:in `execute_route'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+-- Data truncated for column 'updated_at' at row 1
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/database/edit.rb:64:in `eval'
+/Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/statement.rb:8:in `block in execute'
+/Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/statement.rb:7:in `handle_interrupt'
+/Library/Ruby/Gems/2.0.0/gems/mysql2-0.4.4/lib/mysql2/statement.rb:7:in `execute'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/request.rb:390:in `exec'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/request.rb:64:in `insert'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/mysql.rb:147:in `insert'
+(eval):1:in `<top (required)>'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/database/edit.rb:64:in `eval'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/database/edit.rb:64:in `<top (required)>'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:22:in `require_ruby'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:15:in `require_all'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:324:in `load_per_vue'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:103:in `execute_route'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 19 04 2017 - 11:58:19 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 11:58:24 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- Requête where : "objet = \"ic_etape\" AND objet_id = 663 AND processus = \"send_work\" AND user_id = 9 AND created_at = 1492595904 AND updated_at = 1492595904"
+-- Requête where : "objet = \"ic_module\" AND processus = \"paiement\" AND objet_id = 108 AND user_id = 9"
+-- attrs : {:id=>"opuser_user_id", :name=>"opuser[user_id]", :selected=>"9"}
+-- attrs : {:name=>"opuser[type_icarien]", :id=>"opuser_type_icarien", :onchange=>"$.proxy(Dashboard,'onchoose_type_icarien')()", :selected=>"actif"}
+-- attrs : {:id=>"opuser_ope", :name=>"opuser[ope]", :onchange=>"$.proxy(Dashboard,'on_choose_operation')()", :selected=>"change_module", :size=>"long"}
+
+
+=== DEBUG DU 19 04 2017 - 12:04:08 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 12:04:12 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 12:04:14 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 12:04:27 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 12:04:30 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 12:04:38 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 12:04:41 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- Problème avec la rangée d'ID 95 : undefined method `<' for nil:NilClass
+-- undefined method `<' for nil:NilClass
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/database/lib/module/synchronisation/synchronisation.rb:140:in `block in proceed_synchronisation'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/database/lib/module/synchronisation/synchronisation.rb:126:in `each'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/database/lib/module/synchronisation/synchronisation.rb:126:in `proceed_synchronisation'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/database/lib/module/synchronisation/synchronisation.rb:15:in `_synchronize'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/database/edit.rb:32:in `<top (required)>'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:22:in `require_ruby'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:15:in `require_all'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:324:in `load_per_vue'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:103:in `execute_route'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+-- Problème avec la rangée d'ID 97 : undefined method `<' for nil:NilClass
+-- undefined method `<' for nil:NilClass
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/database/lib/module/synchronisation/synchronisation.rb:140:in `block in proceed_synchronisation'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/database/lib/module/synchronisation/synchronisation.rb:126:in `each'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/database/lib/module/synchronisation/synchronisation.rb:126:in `proceed_synchronisation'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/database/lib/module/synchronisation/synchronisation.rb:15:in `_synchronize'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/database/edit.rb:32:in `<top (required)>'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:22:in `require_ruby'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:15:in `require_all'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:324:in `load_per_vue'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:103:in `execute_route'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 19 04 2017 - 12:04:59 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {}
+
+
+=== DEBUG DU 19 04 2017 - 12:06:46 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 12:06:48 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+-- options: {}
+
+
+=== DEBUG DU 19 04 2017 - 12:07:10 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 12:07:14 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 12:08:06 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 12:08:10 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- attrs : {:id=>"opuser_user_id", :name=>"opuser[user_id]", :selected=>nil}
+-- attrs : {:name=>"opuser[type_icarien]", :id=>"opuser_type_icarien", :onchange=>"$.proxy(Dashboard,'onchoose_type_icarien')()", :selected=>"all"}
+-- attrs : {:id=>"opuser_ope", :name=>"opuser[ope]", :onchange=>"$.proxy(Dashboard,'on_choose_operation')()", :selected=>nil, :size=>"long"}
+
+
+=== DEBUG DU 19 04 2017 - 12:08:13 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- attrs : {:id=>"opuser_user_id", :name=>"opuser[user_id]", :selected=>""}
+-- attrs : {:name=>"opuser[type_icarien]", :id=>"opuser_type_icarien", :onchange=>"$.proxy(Dashboard,'onchoose_type_icarien')()", :selected=>"actif"}
+-- attrs : {:id=>"opuser_ope", :name=>"opuser[ope]", :onchange=>"$.proxy(Dashboard,'on_choose_operation')()", :selected=>"", :size=>"long"}
+
+
+=== DEBUG DU 19 04 2017 - 12:07:16 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 12:08:37 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 12:08:39 ===
+
+-- 
+Objet    = "database"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 12:08:50 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- attrs : {:id=>"opuser_user_id", :name=>"opuser[user_id]", :selected=>"9"}
+-- attrs : {:name=>"opuser[type_icarien]", :id=>"opuser_type_icarien", :onchange=>"$.proxy(Dashboard,'onchoose_type_icarien')()", :selected=>"actif"}
+-- attrs : {:id=>"opuser_ope", :name=>"opuser[ope]", :onchange=>"$.proxy(Dashboard,'on_choose_operation')()", :selected=>"change_module", :size=>"long"}
+
+
+=== DEBUG DU 19 04 2017 - 12:09:09 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 12:09:14 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "dashboard"
+Context  = nil
+-- --> check_folders_offline
+-- --> check_folders_online
+-- --> build_result
+-- --> open_result
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 12:31:32 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 12:31:35 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- attrs : {:id=>"opuser_user_id", :name=>"opuser[user_id]", :selected=>nil}
+-- attrs : {:name=>"opuser[type_icarien]", :id=>"opuser_type_icarien", :onchange=>"$.proxy(Dashboard,'onchoose_type_icarien')()", :selected=>"all"}
+-- attrs : {:id=>"opuser_ope", :name=>"opuser[ope]", :onchange=>"$.proxy(Dashboard,'on_choose_operation')()", :selected=>nil, :size=>"long"}
+
+
+=== DEBUG DU 19 04 2017 - 12:32:32 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- undefined local variable or method `aid' for Admin::Users:Class
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/operations_user/add_actualite.rb:12:in `exec_add_actualite'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/users/users.rb:111:in `execute_operation'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/users/users.rb:122:in `<top (required)>'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/require.rb:18:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/require.rb:70:in `block in require_all_in'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/require.rb:70:in `each'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/require.rb:70:in `require_all_in'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/divers/modules/main_objets.rb:63:in `require_module'
+(erb):3:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+-- attrs : {:id=>"opuser_user_id", :name=>"opuser[user_id]", :selected=>"93"}
+-- attrs : {:name=>"opuser[type_icarien]", :id=>"opuser_type_icarien", :onchange=>"$.proxy(Dashboard,'onchoose_type_icarien')()", :selected=>"all"}
+-- attrs : {:id=>"opuser_ope", :name=>"opuser[ope]", :onchange=>"$.proxy(Dashboard,'on_choose_operation')()", :selected=>"add_actualite", :size=>"long"}
+
+
+=== DEBUG DU 19 04 2017 - 12:33:44 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- (eval):1: syntax error, unexpected tIDENTIFIER, expecting end-of-input
+...st un #{icarien.femme? ? 'femme' : 'homme'}.
+...                               ^
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/operations_user/add_actualite.rb:10:in `eval'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/operations_user/add_actualite.rb:10:in `exec_add_actualite'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/users/users.rb:111:in `execute_operation'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/users/users.rb:122:in `<top (required)>'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/require.rb:18:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/require.rb:70:in `block in require_all_in'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/require.rb:70:in `each'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/require.rb:70:in `require_all_in'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/divers/modules/main_objets.rb:63:in `require_module'
+(erb):3:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+-- attrs : {:id=>"opuser_user_id", :name=>"opuser[user_id]", :selected=>"93"}
+-- attrs : {:name=>"opuser[type_icarien]", :id=>"opuser_type_icarien", :onchange=>"$.proxy(Dashboard,'onchoose_type_icarien')()", :selected=>"all"}
+-- attrs : {:id=>"opuser_ope", :name=>"opuser[ope]", :onchange=>"$.proxy(Dashboard,'on_choose_operation')()", :selected=>"add_actualite", :size=>"long"}
+
+
+=== DEBUG DU 19 04 2017 - 12:34:24 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- (eval):1: unterminated string meets end of file
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/operations_user/add_actualite.rb:10:in `eval'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/operations_user/add_actualite.rb:10:in `exec_add_actualite'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/users/users.rb:111:in `execute_operation'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/users/users.rb:122:in `<top (required)>'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/require.rb:18:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/require.rb:70:in `block in require_all_in'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/require.rb:70:in `each'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/require.rb:70:in `require_all_in'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/divers/modules/main_objets.rb:63:in `require_module'
+(erb):3:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+-- attrs : {:id=>"opuser_user_id", :name=>"opuser[user_id]", :selected=>"93"}
+-- attrs : {:name=>"opuser[type_icarien]", :id=>"opuser_type_icarien", :onchange=>"$.proxy(Dashboard,'onchoose_type_icarien')()", :selected=>"all"}
+-- attrs : {:id=>"opuser_ope", :name=>"opuser[ope]", :onchange=>"$.proxy(Dashboard,'on_choose_operation')()", :selected=>"add_actualite", :size=>"long"}
+
+
+=== DEBUG DU 19 04 2017 - 12:34:51 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- attrs : {:id=>"opuser_user_id", :name=>"opuser[user_id]", :selected=>"93"}
+-- attrs : {:name=>"opuser[type_icarien]", :id=>"opuser_type_icarien", :onchange=>"$.proxy(Dashboard,'onchoose_type_icarien')()", :selected=>"all"}
+-- attrs : {:id=>"opuser_ope", :name=>"opuser[ope]", :onchange=>"$.proxy(Dashboard,'on_choose_operation')()", :selected=>"add_actualite", :size=>"long"}
+
+
+=== DEBUG DU 19 04 2017 - 12:36:33 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- attrs : {:id=>"opuser_user_id", :name=>"opuser[user_id]", :selected=>"93"}
+-- attrs : {:name=>"opuser[type_icarien]", :id=>"opuser_type_icarien", :onchange=>"$.proxy(Dashboard,'onchoose_type_icarien')()", :selected=>"all"}
+-- attrs : {:id=>"opuser_ope", :name=>"opuser[ope]", :onchange=>"$.proxy(Dashboard,'on_choose_operation')()", :selected=>"add_actualite", :size=>"long"}
+
+
+=== DEBUG DU 19 04 2017 - 12:37:21 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- attrs : {:id=>"opuser_user_id", :name=>"opuser[user_id]", :selected=>"93"}
+-- attrs : {:name=>"opuser[type_icarien]", :id=>"opuser_type_icarien", :onchange=>"$.proxy(Dashboard,'onchoose_type_icarien')()", :selected=>"all"}
+-- attrs : {:id=>"opuser_ope", :name=>"opuser[ope]", :onchange=>"$.proxy(Dashboard,'on_choose_operation')()", :selected=>"add_actualite", :size=>"long"}
+
+
+=== DEBUG DU 19 04 2017 - 12:38:00 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "users"
+Context  = nil
+-- attrs : {:id=>"opuser_user_id", :name=>"opuser[user_id]", :selected=>"93"}
+-- attrs : {:name=>"opuser[type_icarien]", :id=>"opuser_type_icarien", :onchange=>"$.proxy(Dashboard,'onchoose_type_icarien')()", :selected=>"all"}
+-- attrs : {:id=>"opuser_ope", :name=>"opuser[ope]", :onchange=>"$.proxy(Dashboard,'on_choose_operation')()", :selected=>"add_actualite", :size=>"long"}
+
+
+=== DEBUG DU 19 04 2017 - 12:42:46 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 19 04 2017 - 12:42:51 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "dashboard"
+Context  = nil
+-- --> check_folders_offline
+-- --> check_folders_online
+-- --> build_result
+-- --> open_result
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil

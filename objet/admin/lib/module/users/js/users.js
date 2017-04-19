@@ -3,7 +3,8 @@ $.extend(window.Dashboard,{
 
   // note : DATA_OPERATIONS est défini en ruby
   on_choose_operation: function(){
-    var ope     = $('select#opuser_ope').val();
+    var ope = $('input#opuser_ope').val();
+    // alert('Opération choisie : ' + ope);
     var data_op = DATA_OPERATIONS[ope] ;
 
     // Champ pour une valeur courte
@@ -24,11 +25,12 @@ $.extend(window.Dashboard,{
 
   onchoose_type_icarien:function(){
     this.reset_menu_operation();
+    $('input#opuser_user_id').val('');
     $('form#form_operation_icarien').submit();
   },
 
   reset_menu_operation:function(){
-    $('select#opuser_ope').val('');
+    $('input#opuser_ope').val('');
   }
 })
 

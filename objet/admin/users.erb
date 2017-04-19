@@ -1,9 +1,10 @@
+<%raise_unless_admin%>
 <%
+Admin.require_module 'users'
 # Vue pour travailler sur les utilisateurs
 #
 # Voir le détail dans users.rb
 #
-raise_unless_admin
 %>
 <%
 # Les données opérations pour javascript
@@ -37,7 +38,7 @@ form.prefix = 'opuser'
 <form id="form_operation_icarien" class="dim2080" action="admin/users" method="POST">
 
   <%= form.field_raw('Icarien', '', nil, {field: "#{Admin::Users.menu} #{Admin::Users.menu_type_icarien}"}) %>
-  <%= form.field_select('Opération', 'ope', nil, {values: Admin::Users::DATA_OPERATIONS, onchange: "$.proxy(Dashboard,'on_choose_operation')()"}) %>
+  <%= form.field_raw('Opération', '', nil, {field: Admin::Users.menu_operations}) %>
 
   <%# CHAMP COURT %>
   <div id="div_short_value" style="display:<%= Admin::Users.short_value.nil? ? 'none' : ''%>;">

@@ -180,6 +180,26 @@ class String
   # Noter que pour générer de façon complexe un select, il faut
   # aller voir dans l'extension Array.
   def in_select attrs = nil;  html_balise 'select',   attrs end
+  # Pour un menu plus souple que select>option
+  def in_my_select attrs = nil
+    attrs[:class] ||= ''
+    attrs[:class] << ' myselect'
+    attrs[:class] = attrs[:class].strip
+
+    # La taille du menu peut être déterminé par :width
+    size = attrs.delete(:size) || 'normal'
+
+    # Il faut ajouter un champ hidden qui contiendra vraiment
+    # la valeur avec le nom déterminé
+    fid   = attrs[:id]   || attrs[:name]
+    fname = attrs[:name] || attrs[:id]
+    attrs[:id]    = "myselect_#{fid}"
+    attrs[:name]  = "myselect_#{fname}"
+    "<div class=\"container_myselect #{size}size\">" +
+      attrs[:selected].in_hidden(id: fid, name: fname) +
+      self.class.opened_tag('div', attrs) + self.to_s + '</div>' +
+    '</div>'
+  end
 
   # Ajouter :file => true dans +attrs+ pour une formulaire avec upload fichier
   def in_form     attrs = nil
@@ -191,10 +211,27 @@ class String
     end
     html_balise 'form', attrs
   end
-  def in_option   attrs = nil
+  def in_option attrs = nil
     attrs ||= Hash.new
     attrs[:selected] = "SELECTED" if attrs.delete(:selected) === true
     html_balise 'option',   attrs
+  end
+  def in_my_option attrs = nil
+    attrs ||= Hash.new
+    attrs[:class] ||= ''
+    if attrs.delete(:selected) === true
+      attrs[:class] << ' selected'
+    end
+    # html_balise 'myoption',   attrs
+    attrs[:class] << ' myoption'
+    attrs[:class] = attrs[:class].strip
+
+    # Quand on clique sur ces div, ils doivent déclencher
+    # la méthode onChangeMySelect()
+    # attrs[:onclick] ||= ''
+    # attrs[:onclick].prepend('onChangeMySelect(this);')
+
+    self.class.opened_tag('div', attrs) + self.to_s + '</div>'
   end
   def in_input    attrs = nil
     attrs ||= Hash.new

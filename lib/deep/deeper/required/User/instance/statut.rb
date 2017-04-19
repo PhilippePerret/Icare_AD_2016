@@ -29,10 +29,12 @@ class User
   def femme?
     identified? && sexe == 'F'
   end
+  alias :fille? :femme?
   # Return true si le visiteur est un homme
   def homme?
     !identified? || sexe == 'H'
   end
+  alias :garcon? :homme?
 
   def identified?
     (@id != nil) || moteur_recherche?

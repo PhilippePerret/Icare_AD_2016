@@ -28,7 +28,8 @@ class << self
   # Noter qu'il n'est pas encore mis dans les données de l'user, donc
   # que ça n'est pas encore son module courant.
   def create_for owner, abs_module_id
-    icmodule_id = table.insert(data_new_module(owner, abs_module_id))
+    icmodule = IcModule.create_icmodule_for(owner, abs_module_id)
+    icmodule_id = icmodule.id
     # === Watcher de démarrage de module d'apprentissage ===
     owner.add_watcher(
       objet:      'ic_module',
@@ -42,17 +43,6 @@ class << self
     return new(icmodule_id)
   end
 
-  # Retourne le Hash des données pour le nouveau module
-  def data_new_module owner, abs_module_id
-    {
-      user_id:        owner.id,
-      abs_module_id:  abs_module_id,
-      next_paiement:  nil,
-      options:        '0',
-      created_at:     Time.now.to_i,
-      updated_at:     Time.now.to_i
-    }
-  end
 
 end #/<< self
 end #/IcModule

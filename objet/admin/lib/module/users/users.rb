@@ -20,8 +20,9 @@ class Admin
 class Users
 
   DATA_OPERATIONS = {
-    ''          => {hname: 'Choisir l’opération…', short_value: nil, long_value: nil},
-    'free_days' => {hname: 'Jours gratuits', short_value: "Nombre de jours gratuits", long_value: "Raison éventuelle du don de jours gratuits (format ERB)."},
+    ''                => {hname: 'Choisir l’opération…', short_value: nil, long_value: nil},
+    'add_actualite'   => {hname: 'Ajouter actualité', long_value: "Message d'actualité à attribuer à l'icarien sélectionné. Le message sera évalué, donc on peut utiliser des `\#{icarien.pseudo}` à l'intérieur (code ruby évalué comme dans un String normal)."},
+    'free_days'       => {hname: 'Jours gratuits', short_value: "Nombre de jours gratuits", long_value: "Raison éventuelle du don de jours gratuits (format ERB)."},
     'travail_propre'  => {hname: 'Travail propre', short_value: nil, long_value: "Description du travail propre (format ERB).<br>Laisser vide et cliquez sur “Exécuter” pour charger le travail qui peut déjà exister."},
     'inject_document' => {hname: 'Document envoyé par mail', medium_value: 'Nom du fichier'},
     'etape_change'    => {hname: 'Changement d’étape', short_value: 'Numéro de l’étape', long_value: nil},
@@ -29,6 +30,7 @@ class Users
     'pause_module'    => {hname: 'Mise en pause du module d’apprentissage'},
     'restart_module'  => {hname: 'Reprise du module d’apprentissage après pause'},
     'arret_module'    => {hname: 'Arrêt d’un module d’apprentissage', long_value: 'Si un texte (en HTML) est écrit ci-dessous, il sera considéré comme le supplément d’un mail à envoyer à l’icarien du module l’informant de l’arrêt/la fin de son module. Dans le cas contraire, le module sera simplement arrêté.'},
+    'change_module'   => {hname: 'Changement de module', short_value: 'ID du nouveau module absolu d’apprentissage (on peut le trouver avec l’outils Bureau > Édition des étapes, c’est le nombre entre parenthèses après le nom du module)', medium_value: 'Numéro de la nouvelle étape dans le nouveau module (on peut l’obtenir avec l’outil Burea > Édition des étapes)'},
     'titre_projet'    => {hname: 'Définir le titre du projet', short_value: 'ID du IcModule si ça n’est pas le courant', medium_value: 'Titre du projet (ou rien pour le supprimer)'}
   }
 class << self
@@ -68,12 +70,13 @@ class << self
   # Icarien visé par l'opération
   def icarien ; @icarien ||= User.new(user_id) end
   def user_id ; @user_id ||= param_opuser[:user_id].to_i end
+  alias :icarien_id :user_id
 
   # ---------------------------------------------------------------------
 
   # Un menu pour choisir un user
   def menu
-    User.values_select(type_icarien => true).in_select(id: 'opuser_user_id', name: 'opuser[user_id]', selected: param_opuser[:user_id])
+    User.values_select(type_icarien => true).in_my_select(id: 'opuser_user_id', name: 'opuser[user_id]', selected: param_opuser[:user_id])
   end
   def menu_type_icarien
     [
@@ -83,7 +86,19 @@ class << self
       ['en_pause',    'En pause'],
       ['en_atttente', 'En attente'],
       ['detruit',     'Détruits']
-    ].in_select(name:'opuser[type_icarien]', id: 'opuser_type_icarien', onchange: "$.proxy(Dashboard,'onchoose_type_icarien')()", selected: type_icarien.to_s)
+    ].in_my_select(name:'opuser[type_icarien]', id: 'opuser_type_icarien', onchange: "$.proxy(Dashboard,'onchoose_type_icarien')()", selected: type_icarien.to_s)
+  end
+
+  # Retourne le menu des opérations possibles
+  def menu_operations
+    Admin::Users::DATA_OPERATIONS
+    .collect{|ope_id, hope| [ ope_id, hope[:hname] ]}
+    .in_my_select(
+      id: 'opuser_ope', name: 'opuser[ope]',
+      onchange: "$.proxy(Dashboard,'on_choose_operation')()",
+      selected: param_opuser[:ope],
+      size: 'long'
+      )
   end
 
   def execute_operation
