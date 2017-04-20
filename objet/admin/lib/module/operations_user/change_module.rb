@@ -19,6 +19,9 @@ class << self
   def new_absetape
     @new_absetape ||= new_absmodule.etape_by_numero(new_etape_numero)
   end
+  def old_icetape
+    @old_icetape ||= icarien.icetape
+  end
 
   def old_absmodule_id
     @old_absmodule_id ||= icarien.icmodule.abs_module_id
@@ -37,6 +40,11 @@ class << self
     site.require_objet 'abs_etape'
     site.require_objet 'ic_module'
     site.require_objet 'ic_etape'
+    # Pour définir toutes les valeurs courantes
+    old_absmodule
+    old_icmodule
+    old_icetape
+
     # Vérifier que les valeurs soient bonnes
     right_values? || return
     if simulation
@@ -48,14 +56,6 @@ class << self
     @suivi << "À l'étape #{new_absetape.numero}, “#{new_absetape.titre}”"
     @suivi << "du module ##{new_absmodule.id} (#{new_absmodule.titre})"
     @suivi << "/REQUÊTE"
-    # Dans tous les cas, le changement de module
-    # correspond à l'arrêt du module précédent
-    if simulation
-      @suivi << "[Simulation] Arrêt de l'ic-module ##{old_icmodule.id}"
-    else
-      old_icmodule.stop
-      @suivi << "Arrêt du module ##{old_icmodule.id} de #{icarien.pseudo}"
-    end
     # On crée un nouvel icmodule pour l'icarien avec le
     # module choisi
     new_icmodule_for_icarien
@@ -69,6 +69,39 @@ class << self
       message: "<strong>#{icarien.pseudo}</strong> passe au module d'apprentissage “#{new_absmodule.titre}”."
     )
     @suivi << "Nouvelle actualité ##{aid.inspect} créée avec succès pour #{icarien.pseudo}."
+
+    # Si tout s'est bien passé jusqu'à présent, on peut
+    # faire les suppression requises
+
+    # Arrêter la dernière étape
+    mess = "Arrêt de l'ancienne étape #{old_icetape.id} (#{old_icetape.titre}) - son statut est mis à 7"
+    if simulation
+      mess "[Simulation] #{mess}"
+    else
+      old_icetape.set(status: 7)
+    end
+    @suivi << mess
+
+    # Supprimer les watchers concernant l'étape
+    mess = "Suppression des watcher de l'ancienne étape"
+    if simulation
+      mess "[Simulation]"
+    else
+      wdata = {objet: 'ic_etape', objet_id: old_icetape.id}
+      icarien.remove_watcher(wdata)
+    end
+    @suivi << mess
+
+    # Stopper le précédent module
+    # Dans tous les cas, le changement de module
+    # correspond à l'arrêt du module précédent
+    mess =  "Arrêt du module ##{old_icmodule.id} de #{icarien.pseudo}"
+    if simulation
+      mess = "[Simulation] #{mess}"
+    else
+      old_icmodule.stop
+    end
+    @suivi << mess
 
     @suivi << "=== OPÉRATION EXÉCUTÉE AVEC SUCCÈS ==="
   end
