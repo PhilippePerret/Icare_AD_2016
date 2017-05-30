@@ -12,7 +12,7 @@ begin
   user.admin? || imodule.user_id == user.id || raise('Vous n’êtes pas autorisé à redémarrer ce module. Si vous insistez, vous allez être banni de l’atelier.')
 
   # Changement du bit du module
-  imodule.set(options: imodule.options.set_option(1,1))
+  imodule.set(options: imodule.options.set_bit(1,1))
 
   # Enregistrer la fin de pause.
   # Note : on se sert de la dernière pause enregistrées
