@@ -12,4 +12,4 @@ Dir["./**/*.sass"].each do |src_path|
     data_compilation = { line_comments: false, style: :compressed }
     Sass.compile_file src_path, css_path, data_compilation
   end
-end
+en  d

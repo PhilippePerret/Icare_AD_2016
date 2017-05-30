@@ -52,9 +52,8 @@ class IcModule::IcEtape
     args ||= Hash.new
     estimation = args[:estimate] || args[:estimation]
 
-    # On ne crée le watcher que si une note d'estimation a été
-    # produite (pourquoi ?…)
-    estimation > 0 && args.merge!(watcher_admin_download: true)
+    # On ne crée le watcher
+    args.merge!(watcher_admin_download: true)
 
     site.require_objet 'ic_document'
     IcModule::IcEtape::IcDocument.require_module 'create'
@@ -62,7 +61,6 @@ class IcModule::IcEtape
 
     return new_doc_id
   end
-
 
 end#/IcModule::IcEtape
 
@@ -125,7 +123,7 @@ begin
     estimation  = dtempfile[:estimation].to_i
 
     # Cas d'un document dont il ne faut que préciser la note d'estimation
-    # mais qui a déjà été enregistré au cours précédé.
+    # mais qui a déjà été enregistré au cours précédant.
     @send_work_error.empty? || begin
       data_icdoc = @send_work_error[idocument]
       if data_icdoc && data_icdoc[:note_undefined]
@@ -135,7 +133,6 @@ begin
         if estimation > 0
           icdoc_id = dtempfile[:icdocument_id].to_i
           dbtable_icdocuments.update(icdoc_id, {cote_original: (estimation.to_f/10)})
-          icetape.add_watcher_for_document( icdoc_id )
           @send_work_error[idocument].merge!(note_undefined: false, ok: true)
         else
           @error_note_undefined = true
