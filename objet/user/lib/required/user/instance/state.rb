@@ -2,9 +2,10 @@
 class User
 
   # Les trois états dans lequel peut être l'icarien :
-  #   actif?
-  #   inactif?
-  #   pause?
+  #               bit_state (bit 16)
+  #   actif?        2
+  #   inactif?      4
+  #   pause?        8
   #
 
   # True si c'est un vrai icarien, c'est-à-dire s'il
@@ -34,7 +35,7 @@ class User
     bit_state == 2 && !en_pause?
   end
   def en_pause?
-    icmodule != nil && icmodule.en_pause?
+    bit_state == 8 || (icmodule != nil && icmodule.en_pause?)
   end
   def inactif?
     bit_state == 4

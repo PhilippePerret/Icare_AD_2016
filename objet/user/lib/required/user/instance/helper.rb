@@ -22,7 +22,7 @@ class User
     when inactif?     then 'inactif'
     when en_pause?    then 'en pause'
     when en_attente?  then 'en attente'
-    else                    'aucun'
+    else                   'indéfini'
     end
   end
 

@@ -31,11 +31,4 @@ class Bureau
       return dgs
     end
   end #/<< self
-
-end
-
-class User
-  def owner?
-    site.current_route.objet_id.nil? || user.id == site.current_route.objet_id
-  end
 end
