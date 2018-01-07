@@ -43,17 +43,42 @@ end
 # On essaie ça : si on est ONLINE, on met tous les dossier GEMS
 # de ../.gems/gems en path par défaut, ainsi, tous les gems
 # seront accessibles
-if ONLINE
-  Dir["../.gems/gems/*"].each do |fpath|
-    $LOAD_PATH << "#{fpath}/lib"
-  end
-end
+# if ONLINE
+#   Dir["../.gems/gems/*"].each do |fpath|
+#     $LOAD_PATH << "#{fpath}/lib"
+#   end
+# end
 
 
 
 # On peut maintenant requérir tous les gems
+=begin
+raise <<-EOC
+<pre><code>
+RUBY_VERSION : #{RUBY_VERSION}
+$> ruby --version
+# => #{`ruby --version`}
+$> which -a ruby
+# => #{`which -a ruby`}
+</code></pre>
+EOC
+=end
+def raise_with_ruby mess
+  raise <<-EOC
+  <pre><code>
+  ERROR : #{mess}
+
+  #{`gem env`}
+  </code></pre>
+  EOC
+end
+require 'rubygems'
 require 'singleton'
-require 'mysql2'
+begin
+  require 'mysql2'
+rescue Exception => e
+  raise_with_ruby "Erreur avec require mysql2 : #{e.message}"
+end
 require 'json'
 
 

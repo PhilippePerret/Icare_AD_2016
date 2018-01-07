@@ -12,8 +12,40 @@ def next_abs_etape
     AbsModule::AbsEtape.new(next_abs_etape_id)
   end
 end
+# L'ID absolu de la prochaine étant. Soit pris dans le menu, soit dans le
+# champ pour le spécifier explicitement.
 def next_abs_etape_id
-  @next_etape_id ||= param(:next_etape).to_i
+  @next_etape_id ||= begin
+    if numero_next_etape_explicite != nil
+      abs_etape_id_next_etape_explicite
+    else
+      param(:next_etape).to_i
+    end
+  end
+end
+
+# Dans le cas où une étape a été précisée explicitement
+def abs_etape_id_next_etape_explicite
+  @aeinee ||= begin
+    drequest = {
+      where:      "module_id = #{absmodule.id} AND numero = #{numero_next_etape_explicite}",
+      colonnes:   []
+    }
+    dbtable_absetapes.select(drequest).first[:id]
+  end
+end
+
+# Si le numéro d'étape a été précisé explicitement, cette  méthode-
+# propriété renvoie le numéro de l'étape (ATTENTION : PAS L'ID ABSOLU)
+def numero_next_etape_explicite
+  @numero_nee ||= begin
+    nnee = param(:next_etape_explicite).nil_if_empty
+    if nnee.nil?
+      nil
+    else
+      nnee.to_i
+    end
+  end
 end
 
 

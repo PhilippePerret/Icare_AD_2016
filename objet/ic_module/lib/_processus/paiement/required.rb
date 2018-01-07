@@ -52,13 +52,38 @@ def icpaiement
   end
 end
 
-# La différence en jour entre le jour courant et le paiement.
+# La différence en jours entre le jour courant et le paiement.
 # Si cette différence est POSITIVE, on est AVANT le paiement
 # Si cette différence est NÉGATIVE, on est APRÈS le paiement
 # Si cette différence est ZÉRO, c'est le jour du paiment.
 def diff_jours
   @diff_jours ||= begin
-    (time_next_paiement - Time.now.to_i) / 1.day
+    if time_next_paiement.nil?
+      # Un problème se pose ici : le watcher de paiement ne fait
+      # référence à aucun paiement.
+      # Pour le mmoment, en attendant de voir où se pose le problème,
+      # je renvoie une valeur absurde pour traiter derrière.
+      # On avertit l'administration
+      begin
+        mail_message = <<-HTML
+<p>Phil, il semble y avoir un problème de watcher de paiement non supprimé :</p>
+<pre>
+  Icarien    : #{owner.pseudo} (##{owner.id})
+  Icmodule   : ##{icmodule.id}
+  Icpaiement : ##{icpaiement.id} (#{icpaiement.montant.inspect} €)
+</pre>
+        HTML
+        send_mail_to_admin(
+          subject:  'Problème de watcher de paiement',
+          message:  mail_message,
+          formated: true
+          )
+      rescue Exception => e
+      end
+      10000
+    else
+      (time_next_paiement - Time.now.to_i) / 1.day
+    end
   end
 end
 
@@ -72,12 +97,13 @@ end
 def paiement_state
   @paiement_state ||= begin
     case true
-    when diff_jours > 0   then :proche
-    when diff_jours == 0  then :justnow
-    when diff_jours > -5  then :requis
-    when diff_jours > -14 then :urgent
-    when diff_jours > -31 then :grave
-    when diff_jours < -30 then :redhib
+    when diff_jours > 9999  then :lointain
+    when diff_jours > 0     then :proche
+    when diff_jours == 0    then :justnow
+    when diff_jours > -5    then :requis
+    when diff_jours > -14   then :urgent
+    when diff_jours > -31   then :grave
+    when diff_jours < -30   then :redhib
     end
   end
 end
@@ -87,6 +113,8 @@ end
 def message_by_state
   @message_by_state ||= begin
     case paiement_state
+    when :lointain
+      "#{owner.pseudo}, vous n’avez aucun paiement en cours."
     when :proche
       "#{owner.pseudo}, le paiement de “#{votre_module_name}” doit être effectué dans #{nb_jours_h}."
     when :justnow

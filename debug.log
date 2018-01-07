@@ -12451,3 +12451,355 @@ Objet    = "user"
 Objet ID = nil
 Method   = "signin"
 Context  = nil
+
+
+=== DEBUG DU 13 09 2017 - 10:48:12 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signin"
+Context  = nil
+
+
+=== DEBUG DU 13 09 2017 - 10:48:16 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "login"
+Context  = nil
+-- kroute = "admin/overview"
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "overview"
+Context  = nil
+-- # expected_comments NON DÉFINI (pour Loustik2050 #27)
+-- undefined method `in_span' for nil:NilClass
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/user/helper.rb:31:in `div_module_etape'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/user/helper.rb:17:in `overview'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:207:in `block in overview_textuel'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:205:in `collect'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:205:in `overview_textuel'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:28:in `display'
+(erb):12:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 13 09 2017 - 10:48:18 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+-- (eval):38: syntax error, unexpected keyword_end, expecting end-of-input
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/watcher/lib/required/instance/inst.rb:19:in `instance_eval'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/watcher/lib/required/instance/inst.rb:19:in `require_objet_watcher_and_required_file'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/watcher/lib/required/instance/helper.rb:12:in `as_li'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/watcher/lib/module/include/methodes_watchers.rb:137:in `block in as_ul'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/watcher/lib/module/include/methodes_watchers.rb:133:in `collect'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/watcher/lib/module/include/methodes_watchers.rb:133:in `as_ul'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/bureau/home.rb:41:in `section_notifications'
+(erb):20:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/erb.rb:849:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 13 09 2017 - 10:49:44 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 13 09 2017 - 10:50:04 ===
+
+-- 
+Objet    = "watcher"
+Objet ID = 419
+Method   = "run"
+Context  = nil
+-- next_abs_etape.id = 208
+-- next_abs_etape.numero = 80
+-- 
+
+(eval):24:in `execute_main_file'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/watcher/lib/module/running/main.rb:36:in `instance_eval'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/watcher/lib/module/running/main.rb:36:in `execute_main_file'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/watcher/lib/module/running/main.rb:17:in `_run'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/watcher/lib/required/instance/actions.rb:16:in `run'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/watcher/run.rb:13:in `<top (required)>'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:22:in `require_ruby'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:15:in `require_all'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:324:in `load_per_vue'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:103:in `execute_route'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 13 09 2017 - 10:50:20 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 1
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 13 09 2017 - 10:50:24 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = nil
+Method   = "edit"
+Context  = nil
+
+
+=== DEBUG DU 30 12 2017 - 15:39:27 ===
+
+-- uninitialized constant SiteHtml::DBM_TABLE::Mysql2
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/mysql.rb:192:in `client'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/mysql.rb:315:in `create'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/mysql.rb:310:in `create_if_needed'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/mysql.rb:58:in `get'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/mysql.rb:6:in `dbm_table'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/User/class/database.rb:9:in `table'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/User/instance/database.rb:11:in `table_users'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/first_required/my_sql/Methodes_MySQL.rb:112:in `get'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/User/instance/data.rb:37:in `options'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/user/lib/required/user/instance/options_2.rb:101:in `get_option'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/user/lib/required/user/instance/options_2.rb:49:in `admin?'
+(erb):13:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:50:in `header'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:23:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+-- uninitialized constant SiteHtml::DBM_TABLE::Mysql2
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/mysql.rb:192:in `client'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/mysql.rb:315:in `create'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/mysql.rb:310:in `create_if_needed'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/mysql.rb:58:in `get'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/mysql.rb:6:in `dbm_table'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/app/required/handy_db.rb:45:in `sdbtbl_hot'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/app/required/handy_db.rb:22:in `dbtable_actualites'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/site/lib/module/home/last_activites.rb:16:in `bloc_dernieres_activites'
+(erb):10:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:144:in `view'
+(erb):9:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:101:in `home'
+(erb):5:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+-- uninitialized constant SiteHtml::DBM_TABLE::Mysql2
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/mysql.rb:192:in `client'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/mysql.rb:315:in `create'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/mysql.rb:310:in `create_if_needed'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/mysql.rb:58:in `get'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/mysql.rb:6:in `dbm_table'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/User/class/database.rb:9:in `table'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/User/instance/database.rb:11:in `table_users'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/first_required/my_sql/Methodes_MySQL.rb:112:in `get'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/User/instance/data.rb:33:in `mail'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mail.rb:38:in `send_mail_to_admin'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/divers/handy.rb:63:in `send_error_to_admin'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:118:in `rescue in deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:112:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:144:in `view'
+(erb):9:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:101:in `home'
+(erb):5:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 30 12 2017 - 16:12:23 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signin"
+Context  = nil
+
+
+=== DEBUG DU 30 12 2017 - 16:12:38 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "login"
+Context  = nil
+-- kroute = "admin/overview"
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "overview"
+Context  = nil
+-- # expected_comments NON DÉFINI (pour Loustik2050 #27)
+-- undefined method `in_span' for nil:NilClass
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/user/helper.rb:31:in `div_module_etape'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/user/helper.rb:17:in `overview'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:207:in `block in overview_textuel'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:205:in `collect'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:205:in `overview_textuel'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:28:in `display'
+(erb):12:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
+(erb):5:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 30 12 2017 - 16:12:42 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 30 12 2017 - 16:12:45 ===
+
+-- 
+Objet    = "admin"
+Objet ID = nil
+Method   = "taches"
+Context  = nil
+-- UPDATE locale de {:admin_id=>0, :tache=>"D\u00E9poser les documents de Cyrille sur le quai des docs", :description=>nil, :echeance=>1477897474, :file=>nil, :state=>0, :updated_at=>1477551874, :created_at=>1477551874}
+-- UPDATE locale de {:admin_id=>0, :tache=>"D\u00E9poser les documents de Karine sur le quai des docs", :description=>nil, :echeance=>1477904936, :file=>nil, :state=>0, :updated_at=>1477559336, :created_at=>1477559336}
+-- UPDATE locale de {:admin_id=>0, :tache=>"T\u00E9l\u00E9charger les documents de Cyrille", :description=>nil, :echeance=>1478254006, :file=>nil, :state=>0, :updated_at=>1478254006, :created_at=>1478254006}
+-- UPDATE locale de {:admin_id=>0, :tache=>"Commenter les documents de Cyrille", :description=>nil, :echeance=>1478857956, :file=>nil, :state=>0, :updated_at=>1478512356, :created_at=>1478512356}
+-- UPDATE locale de {:admin_id=>0, :tache=>"D\u00E9poser les documents de Cyrille sur le quai des docs", :description=>nil, :echeance=>1478873963, :file=>nil, :state=>0, :updated_at=>1478528363, :created_at=>1478528363}
+-- UPDATE locale de {:admin_id=>0, :tache=>"T\u00E9l\u00E9charger les documents de Travis", :description=>nil, :echeance=>1478628308, :file=>nil, :state=>0, :updated_at=>1478628308, :created_at=>1478628308}
+-- UPDATE locale de {:admin_id=>0, :tache=>"Commenter les documents de Travis", :description=>nil, :echeance=>1479026734, :file=>nil, :state=>0, :updated_at=>1478681134, :created_at=>1478681134}
+-- UPDATE locale de {:admin_id=>0, :tache=>"D\u00E9poser les documents de Travis sur le quai des docs", :description=>nil, :echeance=>1479399322, :file=>nil, :state=>0, :updated_at=>1479053722, :created_at=>1479053722}
+-- UPDATE locale de {:admin_id=>0, :tache=>"T\u00E9l\u00E9charger les documents de Antonin", :description=>nil, :echeance=>1479310596, :file=>nil, :state=>0, :updated_at=>1479310596, :created_at=>1479310596}
+-- # ERREUR MYSQL : Duplicate entry '13' for key 'PRIMARY'
+-- # REQUEST : INSERT INTO taches (id, admin_id, tache, description, echeance, file, state, updated_at, created_at) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ? );
+-- # VALEURS PRÉPARÉES : [13, 0, "Commenter les documents de Antonin", nil, 1479662064, nil, 0, 1479316464, 1479316464]
+-- /Library/Ruby/Gems/2.3.0/gems/mysql2-0.4.10/lib/mysql2/statement.rb:8:in `_execute'
+/Library/Ruby/Gems/2.3.0/gems/mysql2-0.4.10/lib/mysql2/statement.rb:8:in `block in execute'
+/Library/Ruby/Gems/2.3.0/gems/mysql2-0.4.10/lib/mysql2/statement.rb:7:in `handle_interrupt'
+/Library/Ruby/Gems/2.3.0/gems/mysql2-0.4.10/lib/mysql2/statement.rb:7:in `execute'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/request.rb:390:in `exec'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/request.rb:64:in `insert'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/mysql.rb:147:in `insert'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/taches/class/taches.rb:24:in `block in test_synchro'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/taches/class/taches.rb:20:in `each'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/taches/class/taches.rb:20:in `test_synchro'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/taches.rb:8:in `<top (required)>'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:22:in `require_ruby'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:15:in `require_all'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:324:in `load_per_vue'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:103:in `execute_route'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+-- Duplicate entry '13' for key 'PRIMARY'
+
+/Library/Ruby/Gems/2.3.0/gems/mysql2-0.4.10/lib/mysql2/statement.rb:8:in `_execute'
+/Library/Ruby/Gems/2.3.0/gems/mysql2-0.4.10/lib/mysql2/statement.rb:8:in `block in execute'
+/Library/Ruby/Gems/2.3.0/gems/mysql2-0.4.10/lib/mysql2/statement.rb:7:in `handle_interrupt'
+/Library/Ruby/Gems/2.3.0/gems/mysql2-0.4.10/lib/mysql2/statement.rb:7:in `execute'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/request.rb:390:in `exec'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/request.rb:64:in `insert'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/mysql/mysql.rb:147:in `insert'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/taches/class/taches.rb:24:in `block in test_synchro'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/taches/class/taches.rb:20:in `each'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/taches/class/taches.rb:20:in `test_synchro'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/taches.rb:8:in `<top (required)>'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:22:in `require_ruby'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:15:in `require_all'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:324:in `load_per_vue'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:103:in `execute_route'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 30 12 2017 - 16:12:56 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil

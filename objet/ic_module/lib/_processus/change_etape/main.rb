@@ -10,7 +10,7 @@
     reportés dans le fichier
     ./objet/admin/lib/module/operations_user/etape_change.rb qui permet
     de forcer un changement d'étape.
-    
+
 =end
 
 # L'icetape précédente doit être enregistré dans la donnée
@@ -29,7 +29,7 @@ begin
     icetape.set(options: icetape.options.set_bit(1,1))
   end
 
-  new_icetape = IcModule::IcEtape.create_for icmodule, next_abs_etape.numero
+  new_icetape = IcModule::IcEtape.create_for(icmodule, next_abs_etape.numero)
 
   icmodule.set(
     icetapes:     etapes,

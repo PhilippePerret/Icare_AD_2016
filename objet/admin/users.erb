@@ -52,7 +52,7 @@ form.prefix = 'opuser'
 
   <%# CHAMP LONG %>
   <div id="div_long_value" style="display:<%= Admin::Users.long_value.nil? ? 'none' : ''%>;">
-    <%= form.field_textarea('&nbsp;', 'long_value', param(:long_value), {text_before: ''.in_div(id: 'long_value_explication', class: 'libelle')}) %>
+    <%= form.field_textarea('&nbsp;', 'long_value', param(:long_value), {text_before: ''.in_div(id: 'long_value_explication', class: 'libelle', style:'z-index:1000')}) %>
   </div>
 
   <%= 'Exécuter'.in_submit(class:'btn').in_div(class: 'buttons') %>

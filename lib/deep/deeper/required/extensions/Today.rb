@@ -25,7 +25,7 @@ Facilités pour le jour courant
     {Time} La fin du jour courant, sous forme d'instance de date
 
 =end
-class Today
+class Today < Time
 class << self
 
   def as_date

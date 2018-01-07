@@ -52,7 +52,7 @@ site.domain_url   = "http://#{site.distant_host}"
 # On peut affiner cette description par page en ajoutant la définition :
 # page.description = "<description précise de la page>"
 site.description = <<-TEXT
-Atelier d'écriture (film, roman, BD, jeux) animé par le scénario, romancier et pédagogue Philippe Perret.
+Atelier d'écriture (film, roman, BD, jeux) animé par le scénariste, romancier et pédagogue Philippe Perret.
 TEXT
 
 # Les mots-clés du site

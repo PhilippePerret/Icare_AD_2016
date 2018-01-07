@@ -35,7 +35,7 @@ backto =
   %>
 <form id="form_user_login" action="user/login" method="POST">
   <div class="content"><%# ça définit le style %>
-    <input type="text" id="login_mail" name="login[mail]" placeholder="Votre mail" value="" />
+    <input tabindex="1" type="text" id="login_mail" name="login[mail]" placeholder="Votre mail" value="" />
     <input type="password" id="login_password" name="login[password]" placeholder="Votre code secret" value="" />
     <input type="hidden" name="login[back_to]" value="<%= backto %>">
     <div class='submit'>

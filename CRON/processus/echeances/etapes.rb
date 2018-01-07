@@ -5,6 +5,7 @@ class << self
   #
   # Traitement des échéances de paiement
   def traite
+    # On prend les users actifs et on les traite
     drequest = {
       where: 'SUBSTRING(options,17,1) = "2"', # actifs
       colonnes: []
@@ -19,6 +20,10 @@ end #/EcheanceEtape
 class User
 
   def traite_echeances_etapes
+    # Si l'user a rendu son travail et qu'il est en attente de retour de
+    # commentaires, il ne peut pas avoir d'échéance en retard
+    icetape.status < 2  || return
+
     nombre_jours = (NOW - icetape.expected_end) / 1.day
     nombre_jours > 4 || return
     # L'échéance est dépassée de plus de quatre jours
