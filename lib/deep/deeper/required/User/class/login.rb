@@ -23,9 +23,12 @@ class User
         umail = login_data[:mail]
         upass = login_data[:password]
         res = table_users.select(where: {mail: umail}, colonnes: [:salt, :cpassword, :mail]).first
+        # debug "data user #{umail} dans table : #{res.inspect}"
         res != nil || (return false)
         expected = res[:cpassword]
         compared = Digest::MD5.hexdigest("#{upass}#{umail}#{res[:salt]}")
+        # debug "expected: #{expected}"
+        # debug "compared: #{compared}"
         ok = expected == compared
         ok && User.new( res[:id] ).login
         return ok

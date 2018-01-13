@@ -39,6 +39,8 @@ class User
   #   Instance User
   # ---------------------------------------------------------------------
 
+  attr_reader :cpassword, :random_salt
+
   # Création de l'user et envoi des mails d'annonce
   def create
     app.benchmark('-> User#create')
@@ -115,6 +117,16 @@ class User
   def data2save
     now = Time.now.to_i
     @duser = param(:data_identite)
+
+    # On calcule le sel et le mot de passe crypté
+    calc_random_salt
+    calc_cpassword @duser[:password], @duser[:mail], random_salt
+
+    # debug "Mot de passe crypté calculé avec :"
+    # debug "PWD: #{@duser[:password].inspect}"
+    # debug "MEL: #{@duser[:mail].inspect}"
+    # debug "SEL: #{random_salt.inspect}"
+
     # Les propriétés à supprimer
     [:mail_confirmation, :password, :password_confirmation].each do |prop|
       @duser.delete(prop)
@@ -127,6 +139,7 @@ class User
       created_at:   now,
       updated_at:   now
     )
+
     return @duser
   end
 
@@ -159,18 +172,17 @@ class User
     pse[0].upcase + pse[1..-1]
   end
 
+
   # Retourne le mot de passe crypté
-  def cpassword
-    @cpassword ||= begin
-      require 'digest/md5'
-      Digest::MD5.hexdigest("#{@password}#{@mail}#{random_salt}")
-    end
+  def calc_cpassword pwd, mel, salt
+    require 'digest/md5'
+    @cpassword = Digest::MD5.hexdigest("#{pwd}#{mel}#{salt}")
   end
 
   # Retourne un nouveau sel pour le mot de passe crypté
   # C'est un mot de 10 lettres minuscules choisies au hasard
-  def random_salt
-    @random_salt ||= 10.times.collect{ |itime| (rand(26) + 97).chr }.join('')
+  def calc_random_salt
+    @random_salt = 10.times.collect{ |itime| (rand(26) + 97).chr }.join('')
   end
 
 end

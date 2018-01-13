@@ -35,7 +35,7 @@ class User
     app.benchmark('-> User#proceed_login')
     app.session['user_id'] = id
     # On met l'utilisateur en utilisateur courant
-    User::current= self
+    User.current= self
     # reset_user_current
     # Variable session permettant de savoir combien de pages a
     # déjà visité l'utilisateur (pour baisser l'opacité des

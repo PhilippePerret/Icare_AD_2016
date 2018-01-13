@@ -1,34 +1,48 @@
-=== BENCHMARK DU 30 décembre 2017 à 16:12 ===
-=== Index start : 1514646776.3102841 (2017-12-30 16:12:56 +0100)
+=== BENCHMARK DU 13 janvier 2018 à 13:41 ===
+=== Index start : 1515847267.825266 (2018-01-13 13:41:07 +0100)
 
 -> site/config.rb                                       0.000000  0.000000
-<- site/config.rb                                       0.000107  0.000107
--> execute_preambule                                    0.013970  0.014077
-  -> User#do_after_load                                 0.003055  0.017132
-  <- User#do_after_load                                 0.000005  0.017137
-<- execute_preambule                                    0.000003  0.017140
--> required.rb                                         -0.217848 -0.200708
-<- required.rb                                          0.217850  0.017142
--> SiteHtml#output                                      0.000032  0.017174
-  -> SiteHtml#execute_route                             0.000002  0.017176
-      | Objet    = "bureau"                                             - 
+<- site/config.rb                                       0.000088  0.000088
+-> execute_preambule                                    0.013334  0.013422
+  -> User#do_after_load                                 0.000060  0.013482
+  <- User#do_after_load                                 0.000003  0.013485
+<- execute_preambule                                    0.000002  0.013487
+-> required.rb                                         -0.197423 -0.183936
+<- required.rb                                          0.197426  0.013490
+-> SiteHtml#output                                      0.000029  0.013519
+  -> SiteHtml#execute_route                             0.000003  0.013522
+      | Objet    = "user"                                               - 
       | Objet ID = nil                                                  - 
-      | Method   = "home"                                               - 
-      | Context  = nil                                  0.000076  0.017252
-    --> user.set_last_connexion                         0.000086  0.017338
-    <-- user.set_last_connexion                         0.002073  0.019411
-    --> iroute.load_required                            0.000016  0.019427
-    <-- iroute.load_required                            0.001544  0.020971
-    --> iroute.load_per_vue                             0.000004  0.020975
-    <-- iroute.load_per_vue                             0.000743  0.021718
-    --> iroute.method_call                              0.000004  0.021722
-    <-- iroute.method_call                              0.000129  0.021851
-  <- SiteHtml#execute_route                             0.000007  0.021858
-  -> Page#preload                                       0.000006  0.021864
-  <- Page#preload                                       0.373577  0.395441
-  -> Page#prebuild_body                                 0.000010  0.395451
-    -> Page#body                                        0.000002  0.395453
-    <- Page#body                                        0.000540  0.395993
-  <- Page#prebuild_body                                 0.000011  0.396004
-  CODE HTML FINAL BUILT                                 0.000123  0.396127
-<- SiteHtml#output                                      0.000002  0.396129
+      | Method   = "login"                                              - 
+      | Context  = nil                                  0.000055  0.013577
+    --> iroute.load_required                            0.000081  0.013658
+    <-- iroute.load_required                            0.001916  0.015574
+    --> iroute.load_per_vue                             0.000003  0.015577
+    <-- iroute.load_per_vue                             0.001292  0.016869
+    --> iroute.method_call                              0.000009  0.016878
+    -> SiteHtml#redirect_to                             0.003170  0.020048
+
+      | param(:backto) mis à "user/login"               0.000065  0.020113
+      -> SiteHtml#execute_route                         0.000080  0.020193
+      | Objet    = "user"                                               - 
+      | Objet ID = nil                                                  - 
+      | Method   = "signin"                                             - 
+      | Context  = nil                                  0.000037  0.020230
+        --> iroute.load_required                        0.000010  0.020240
+        <-- iroute.load_required                        0.001406  0.021646
+        --> iroute.load_per_vue                         0.000003  0.021649
+        <-- iroute.load_per_vue                         0.000129  0.021778
+        --> iroute.method_call                          0.000002  0.021780
+        <-- iroute.method_call                          0.000146  0.021926
+      <- SiteHtml#execute_route                         0.000002  0.021928
+    <- SiteHtml#redirect_to                             0.000008  0.021936
+    <-- iroute.method_call                              0.000002  0.021938
+  <- SiteHtml#execute_route                             0.000002  0.021940
+  -> Page#preload                                       0.000007  0.021947
+  <- Page#preload                                       0.039117  0.061064
+  -> Page#prebuild_body                                 0.000012  0.061076
+    -> Page#body                                        0.000004  0.061080
+    <- Page#body                                        0.000834  0.061914
+  <- Page#prebuild_body                                 0.000018  0.061932
+  CODE HTML FINAL BUILT                                 0.000118  0.062050
+<- SiteHtml#output                                      0.000003  0.062053

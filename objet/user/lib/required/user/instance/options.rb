@@ -6,6 +6,27 @@
 
   C'est ici qu'on définit ces options propres à l'application.
 
+  Exemple de réglage forcé des options
+  ------------------------------------
+
+  options = '0'*26
+  options[0]  = '0' # > 0 si administrateur
+  options[1]  = '0' # Grade de l'user
+  options[2]  = '1' # 0 si le mail n'a pas été confirmé
+  options[3]  = '1' # 1 si a été détruit
+  options[4]  = '9' # Type de contact (voir aussi ci-dessous)
+                    # 9 => aucun mail
+  options[16] = '4' # État de l'icarien
+                    # 4 => inactif
+                    # Si 1, pas reçu, si 2 actif, 8 en pause
+  options[17] = '1' # jamais de mails
+  options[18] = '0' # Direction après identification
+  options[19] = '8' # Type de contact pour les autres icariens
+  options[20] = '0' # pour cacher l'header
+  options[21] = '1' # pour partager son historique
+  options[22] = '1' # Notifier si reçoit message
+  options[23] = '8' # Type de contact pour le reste du monde
+
 =end
 class User
 
