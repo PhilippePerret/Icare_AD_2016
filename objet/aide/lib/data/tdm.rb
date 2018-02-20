@@ -34,6 +34,7 @@ class Aide
     # ---------------------------------------------------------------------
     'documents'     => {hname: 'Les documents de travail', titre: true},
     31  => {hname: 'Code couleur pour les commentaires'},
+    37  => {hname: 'Abréviations dans les commentaires'},
     32  => {hname: 'Nommage de ses documents de travail'},
     33  => {hname: 'Rédaction des documents de travail'},
     35  => {hname: 'Ajout de documents'},

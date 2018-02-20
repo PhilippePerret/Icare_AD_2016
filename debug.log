@@ -227,3 +227,12 @@ Objet    = "user"
 Objet ID = nil
 Method   = "signin"
 Context  = nil
+
+
+=== DEBUG DU 17 01 2018 - 10:25:44 ===
+
+-- 
+Objet    = "abs_module"
+Objet ID = nil
+Method   = "list"
+Context  = nil

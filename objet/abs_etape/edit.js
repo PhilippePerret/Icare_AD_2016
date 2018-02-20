@@ -28,7 +28,7 @@ $.extend(window.AbsEtape,{
       for(var i=0,len=liens.length;i<len;++i){
         var dlien = liens[i].split('::');
         if (dlien[1] == 'collection'){
-          href  = 'www.laboiteaoutilsdelauteur.fr/narration/'+dlien[0]+'/show';
+          href  = 'www.scenariopole.fr/narration/page/'+dlien[0];
           titre = dlien[2] || ('Page narration #' + dlien[0]);
         }else{
           href = dlien[0];

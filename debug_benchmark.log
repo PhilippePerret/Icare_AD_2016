@@ -1,48 +1,22 @@
-=== BENCHMARK DU 13 janvier 2018 à 13:41 ===
-=== Index start : 1515847267.825266 (2018-01-13 13:41:07 +0100)
+=== BENCHMARK DU 19 février 2018 à 06:55 ===
+=== Index start : 1519012541.626967 (2018-02-19 06:55:41 +0300)
 
 -> site/config.rb                                       0.000000  0.000000
-<- site/config.rb                                       0.000088  0.000088
--> execute_preambule                                    0.013334  0.013422
-  -> User#do_after_load                                 0.000060  0.013482
-  <- User#do_after_load                                 0.000003  0.013485
-<- execute_preambule                                    0.000002  0.013487
--> required.rb                                         -0.197423 -0.183936
-<- required.rb                                          0.197426  0.013490
--> SiteHtml#output                                      0.000029  0.013519
-  -> SiteHtml#execute_route                             0.000003  0.013522
-      | Objet    = "user"                                               - 
-      | Objet ID = nil                                                  - 
-      | Method   = "login"                                              - 
-      | Context  = nil                                  0.000055  0.013577
-    --> iroute.load_required                            0.000081  0.013658
-    <-- iroute.load_required                            0.001916  0.015574
-    --> iroute.load_per_vue                             0.000003  0.015577
-    <-- iroute.load_per_vue                             0.001292  0.016869
-    --> iroute.method_call                              0.000009  0.016878
-    -> SiteHtml#redirect_to                             0.003170  0.020048
-
-      | param(:backto) mis à "user/login"               0.000065  0.020113
-      -> SiteHtml#execute_route                         0.000080  0.020193
-      | Objet    = "user"                                               - 
-      | Objet ID = nil                                                  - 
-      | Method   = "signin"                                             - 
-      | Context  = nil                                  0.000037  0.020230
-        --> iroute.load_required                        0.000010  0.020240
-        <-- iroute.load_required                        0.001406  0.021646
-        --> iroute.load_per_vue                         0.000003  0.021649
-        <-- iroute.load_per_vue                         0.000129  0.021778
-        --> iroute.method_call                          0.000002  0.021780
-        <-- iroute.method_call                          0.000146  0.021926
-      <- SiteHtml#execute_route                         0.000002  0.021928
-    <- SiteHtml#redirect_to                             0.000008  0.021936
-    <-- iroute.method_call                              0.000002  0.021938
-  <- SiteHtml#execute_route                             0.000002  0.021940
-  -> Page#preload                                       0.000007  0.021947
-  <- Page#preload                                       0.039117  0.061064
-  -> Page#prebuild_body                                 0.000012  0.061076
-    -> Page#body                                        0.000004  0.061080
-    <- Page#body                                        0.000834  0.061914
-  <- Page#prebuild_body                                 0.000018  0.061932
-  CODE HTML FINAL BUILT                                 0.000118  0.062050
-<- SiteHtml#output                                      0.000003  0.062053
+<- site/config.rb                                       0.000148  0.000148
+-> execute_preambule                                    0.048930  0.049078
+  -> User#do_after_load                                 0.000082  0.049160
+  <- User#do_after_load                                 0.000003  0.049163
+<- execute_preambule                                    0.000003  0.049166
+-> required.rb                                         -0.302682 -0.253516
+<- required.rb                                          0.302686  0.049170
+-> SiteHtml#output                                      0.000045  0.049215
+  -> SiteHtml#execute_route                             0.000005  0.049220
+  <- SiteHtml#execute_route                             0.000059  0.049279
+  -> Page#preload                                       0.000015  0.049294
+  <- Page#preload                                       0.022244  0.071538
+  -> Page#prebuild_body                                 0.000010  0.071548
+    -> Page#body                                        0.000002  0.071550
+    <- Page#body                                        0.000357  0.071907
+  <- Page#prebuild_body                                 0.000006  0.071913
+  CODE HTML FINAL BUILT                                 0.000113  0.072026
+<- SiteHtml#output                                      0.000003  0.072029

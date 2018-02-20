@@ -46,11 +46,11 @@ module MethodesTravail
 
         case type
         when 'livre'
-          href = "http://www.laboiteaoutilsdelauteur.fr/narration/#{page}/show"
+          href = "http://www.scenariopole.fr/narration/page/#{page}"
           [titre, href]
         when 'collection'
           # cf. N0001
-           href = "http://www.laboiteaoutilsdelauteur.fr/narration/#{page}/show"
+           href = "http://www.scenariopole.fr/narration/page/#{page}"
            if user.actif?
              #  TODO CORRIGER
              href += "?fromicare=1&cpicare=#{user.cpassword}&micare=#{user.mail}&idicare=#{user.id}&picare=#{user.pseudo}"

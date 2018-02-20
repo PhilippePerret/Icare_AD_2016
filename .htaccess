@@ -48,7 +48,8 @@ RewriteRule ^qdd$ quai_des_docs/home  [QSA]           # Quai des docs
 RewriteRule ^citations?$ http://www.laboiteaoutilsdelauteur.fr/citation/1/show [QSA] # citations
 RewriteRule ^(films?|filmodico)$ http://www.laboiteaoutilsdelauteur.fr/filmodico/list [QSA] # filmodico
 RewriteRule ^(dictionnaire|scenodico)$ http://www.laboiteaoutilsdelauteur.fr/scenodico/list [QSA] # scenodico
-RewriteRule ^narration$ http://www.laboiteaoutilsdelauteur.fr/cnarration/home [QSA]     # narration
+
+RewriteRule ^narration$ http://www.scenariopole.fr/narration/home [QSA]     # narration
 RewriteRule ^analyses?$ http://www.laboiteaoutilsdelauteur.fr/analyse/home [QSA]        # analyses
 
 # === FONCTIONNEMENT NORMAL RESTFULL ===
