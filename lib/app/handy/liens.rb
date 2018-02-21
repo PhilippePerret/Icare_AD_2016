@@ -46,3 +46,9 @@ def url_boa route = nil
   return url
 end
 alias :route_boa :url_boa
+
+def url_scenariopole route = nil
+  url = 'http://www.scenariopole.fr'
+  route.nil? || url += "/#{route}"
+  return url
+end

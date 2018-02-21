@@ -16,8 +16,8 @@ class << self
       reponse: "À toute personne voulant écrire, apprentie ou non, complète débutante ou non. L'apprentissage ou l'accompagnement sont adaptés au niveau de chacun."
     },
     {
-      question: 'Qu’est-ce qui distingue le plus l’atelier Icare des autres formations en ligne ?',
-      reponse: "Ça n’est pas une épicerie… Ça n’est pas un journaliste qui l’anime mais un véritable auteur, scénariste et pédagogue."
+      question: 'Qu’est-ce qui distingue l’atelier Icare des autres formations en ligne ?',
+      reponse: "Ça n’est pas une épicerie… Ça n’est pas un journaliste qui l’anime mais un véritable auteur édité à compte d’éditeur, scénariste professionnel et pédagogue passionné et créatif."
     },
     {
       question: 'Est-ce que l’atelier permet de devenir scénariste ?',

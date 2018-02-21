@@ -7,6 +7,10 @@ def se_rendre_sur_boa route = nil
   dlink = {href: route_boa(route), target: :new, class: 'small'}
   "<dd class='right'>#{'→ S’y rendre'.in_a(dlink)}</dd>"
 end
+def se_rendre_sur_scenariopole route = nil
+  dlink = {href: url_scenariopole(route), target: :new, class: 'small'}
+  "<dd class='right'>#{'→ S’y rendre'.in_a(dlink)}</dd>"
+end
 %>
 <%= Bureau.titre_h1('Outils')%>
 <dl>
@@ -17,10 +21,10 @@ end
   <dd>Si vous êtes icarien<%= user.f_ne %> en activité (en cours de module) vous bénéficiez d'un accès complet et gratuit au site.</dd>
   <%= se_rendre_sur_boa %>
 
-  <dt><%= 'Collection Narration'.in_a(href: url_boa('cnarration/home'), target: :new) %></dt>
+  <dt><%= 'Collection Narration'.in_a(href: url_scenariopole('narration'), target: :new) %></dt>
   <dd>Les cours de Phil, rassemblés en 10 ouvrages en cours de publication.</dd>
   <dd>Si vous êtes icarien<%= user.f_ne %> en activité (en cours de module) vous bénéficiez d'un accès complet et gratuit à la collection.</dd>
-  <%= se_rendre_sur_boa('cnarration/home') %>
+  <%= se_rendre_sur_scenariopole('narration') %>
 
   <dt><%= 'Le Scénodico'.in_a(href: url_boa('scenodico/list'), target: :new)%></dt>
   <dd>Le Scénodico est un dictionnaire des termes scénaristiques et plus généralement des termes et des concepts d'écriture.</dd>
