@@ -1,22 +1,32 @@
-=== BENCHMARK DU 19 février 2018 à 06:55 ===
-=== Index start : 1519012541.626967 (2018-02-19 06:55:41 +0300)
+=== BENCHMARK DU 22 février 2018 à 07:51 ===
+=== Index start : 1519275060.2753868 (2018-02-22 07:51:00 +0300)
 
 -> site/config.rb                                       0.000000  0.000000
-<- site/config.rb                                       0.000148  0.000148
--> execute_preambule                                    0.048930  0.049078
-  -> User#do_after_load                                 0.000082  0.049160
-  <- User#do_after_load                                 0.000003  0.049163
-<- execute_preambule                                    0.000003  0.049166
--> required.rb                                         -0.302682 -0.253516
-<- required.rb                                          0.302686  0.049170
--> SiteHtml#output                                      0.000045  0.049215
-  -> SiteHtml#execute_route                             0.000005  0.049220
-  <- SiteHtml#execute_route                             0.000059  0.049279
-  -> Page#preload                                       0.000015  0.049294
-  <- Page#preload                                       0.022244  0.071538
-  -> Page#prebuild_body                                 0.000010  0.071548
-    -> Page#body                                        0.000002  0.071550
-    <- Page#body                                        0.000357  0.071907
-  <- Page#prebuild_body                                 0.000006  0.071913
-  CODE HTML FINAL BUILT                                 0.000113  0.072026
-<- SiteHtml#output                                      0.000003  0.072029
+<- site/config.rb                                       0.000121  0.000121
+-> execute_preambule                                    0.018752  0.018873
+  -> User#do_after_load                                 0.000054  0.018927
+  <- User#do_after_load                                 0.000003  0.018930
+<- execute_preambule                                    0.000001  0.018931
+-> required.rb                                         -0.321758 -0.302827
+<- required.rb                                          0.321761  0.018934
+-> SiteHtml#output                                      0.000037  0.018971
+  -> SiteHtml#execute_route                             0.000003  0.018974
+      | Objet    = "aide"                                               - 
+      | Objet ID = 80                                                   - 
+      | Method   = "show"                                               - 
+      | Context  = nil                                  0.000077  0.019051
+    --> iroute.load_required                            0.000080  0.019131
+    <-- iroute.load_required                            0.005375  0.024506
+    --> iroute.load_per_vue                             0.000010  0.024516
+    <-- iroute.load_per_vue                             0.000262  0.024778
+    --> iroute.method_call                              0.000003  0.024781
+    <-- iroute.method_call                              0.000729  0.025510
+  <- SiteHtml#execute_route                             0.000007  0.025517
+  -> Page#preload                                       0.000013  0.025530
+  <- Page#preload                                       0.035141  0.060671
+  -> Page#prebuild_body                                 0.000015  0.060686
+    -> Page#body                                        0.000005  0.060691
+    <- Page#body                                        0.001472  0.062163
+  <- Page#prebuild_body                                 0.000024  0.062187
+  CODE HTML FINAL BUILT                                 0.000158  0.062345
+<- SiteHtml#output                                      0.000003  0.062348

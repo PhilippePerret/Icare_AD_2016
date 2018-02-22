@@ -53,7 +53,8 @@ class Aide
 
     # ---------------------------------------------------------------------
     'divers'  => {hname: 'Divers', titre: true},
-    700 => {hname: 'Inscription visiteur pour le frigo'}
+    700 => {hname: 'Inscription visiteur pour le frigo'},
+    80  => {hname: 'Paiement du module ou de l’échéance'}
   }
 
 end #/Aide
