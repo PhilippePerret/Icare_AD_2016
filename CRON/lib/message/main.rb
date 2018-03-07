@@ -26,6 +26,7 @@ class << self
 
   # Écriture du rapport dans un fichier, toutes les heures
   def write_report
+    return if @logs == nil || @logs.count == 0
     report_file.append "\n\n--- #{Time.now} ---\n#{admin_report}"
   rescue Exception => e
     debug e

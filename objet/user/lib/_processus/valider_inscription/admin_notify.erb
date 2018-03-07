@@ -3,15 +3,33 @@
 # à un candidat, ce qui valide son inscription.
 #
 # Le formulaire permet aussi de refuser cette candidature.
+#
+# Février 2018
+#   Modification de la notification pour pouvoir choisir n'importe quel
+#   module, pas seulement ceux choisi par le candidat.
+#   Les modules choisis par le candidat sont marqués d'une coche.
+
 
 site.require_objet 'abs_module'
-liste_modules = data_modules.collect { |mid| AbsModule.new(mid) }
+
+# Pour ajouter une propriété qui indique si le module est choisi
+class ::AbsModule
+  attr_accessor :is_chosen
+end
+
+
+# liste_modules = data_modules.collect { |mid| AbsModule.new(mid) }
+
+AbsModule.list.each do |mod|
+  mod.is_chosen = data_modules.include?(mod.id)
+end
 
 menu_modules =
   (
     'Choisir le module…'.in_option(value: '') +
-    liste_modules.collect do |mod|
-      mod.name.in_option(value: mod.id)
+    AbsModule.list.collect do |mod|
+      delimi = mod.is_chosen ? '***' : ''
+      "#{delimi} #{mod.name} #{delimi}".in_option(value: mod.id)
     end.join +
     'Aucun (refus)'.in_option(value: '')
   ).in_select(id: "module_choisi-#{self.id}", name: 'module_choisi', onchange: "check_module_choisi(#{self.id}, this.value)")
@@ -31,6 +49,7 @@ lien_charger_documents = 'Download présentation'.in_a(href: "admin/operation?op
   form do
     "Attribuer à <strong>#{owner.pseudo}</strong> (##{owner.id}) le module :".in_div +
     menu_modules.in_div(class:'right') +
+    '<div class="small">(les modules choisis par le candidat sont entre « *** »)</div>' +
     "<div id=\"#{id_div_refus}\" style='display:none'>" +
       "Ou refuser l'inscription au motif de :".in_div +
       ("".in_textarea(id: 'motif_refus', name: 'refus[motif]')).in_div(id: 'div_motif_refus') +

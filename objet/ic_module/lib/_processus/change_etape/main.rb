@@ -43,22 +43,24 @@ begin
     processus:  'send_work'
   )
 
+  
+  # On détruit le fichier statistiques, car le nombre d'étapes
+  # a forcément changé.
+  Atelier.remove_statistiques_file
+
+
   begin
     # Actualité
     # ---------
     site.require_objet 'actualite'
     SiteHtml::Actualite.create(
       user_id: owner.id,
+      status:  2,
       message: "<strong>#{owner.pseudo}</strong> passe à l'étape #{next_abs_etape.numero} de son module d’apprentissage “#{abs_module.name}”. Bon courage à #{owner.femme? ? 'elle' : 'lui'} !"
     )
   rescue Exception => e
-    debug(e) rescue nil
+    debug e
   end
-
-
-  # On détruit le fichier statistiques, car le nombre d'étapes
-  # a forcément changé.
-  Atelier.remove_statistiques_file
 
 
   flash "Changement d'étape opéré pour #{owner.pseudo} (#{owner.id})" +

@@ -21,7 +21,7 @@ class AbsModule
     titre.in_a(href: href, class: 'btn_command')
   end
   def module_name_formated
-    "Module #{name}".in_span(class: 'name')
+    "Module “#{name}”".in_span(class: 'name')
   end
   def duree_formated
     if nombre_jours.nil?

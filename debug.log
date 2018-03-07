@@ -1,6 +1,75 @@
 
 
-=== DEBUG DU 13 01 2018 - 13:37:58 ===
+=== DEBUG DU 04 03 2018 - 07:29:53 ===
+
+-- 
+Objet    = "aide"
+Objet ID = 201
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 08:00:07 ===
+
+-- undefined method `collect' for nil:NilClass
+
+/home/icare/www/CRON/lib/message/main.rb:42:in `admin_report'
+/home/icare/www/CRON/lib/message/main.rb:29:in `write_report'
+/home/icare/www/CRON/lib/cron/instance/actions.rb:29:in `stop'
+/home/icare/www/CRON/main.rb:53:in `block in <main>'
+/home/icare/www/CRON/main.rb:41:in `chdir'
+/home/icare/www/CRON/main.rb:41:in `<main>'
+
+
+=== DEBUG DU 04 03 2018 - 08:07:15 ===
+
+-- 
+Objet    = "aide"
+Objet ID = 410
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 08:34:50 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 09:00:08 ===
+
+-- undefined method `collect' for nil:NilClass
+
+/home/icare/www/CRON/lib/message/main.rb:42:in `admin_report'
+/home/icare/www/CRON/lib/message/main.rb:29:in `write_report'
+/home/icare/www/CRON/lib/cron/instance/actions.rb:29:in `stop'
+/home/icare/www/CRON/main.rb:53:in `block in <main>'
+/home/icare/www/CRON/main.rb:41:in `chdir'
+/home/icare/www/CRON/main.rb:41:in `<main>'
+
+
+=== DEBUG DU 04 03 2018 - 09:15:52 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 09:44:41 ===
+
+-- 
+Objet    = "aide"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 09:53:44 ===
 
 -- 
 Objet    = "user"
@@ -9,7 +78,7 @@ Method   = "signin"
 Context  = nil
 
 
-=== DEBUG DU 13 01 2018 - 13:38:14 ===
+=== DEBUG DU 04 03 2018 - 09:53:52 ===
 
 -- 
 Objet    = "user"
@@ -22,32 +91,9 @@ Objet    = "admin"
 Objet ID = nil
 Method   = "overview"
 Context  = nil
--- # expected_comments NON DÉFINI (pour Loustik2050 #27)
--- undefined method `in_span' for nil:NilClass
-
-/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/user/helper.rb:31:in `div_module_etape'
-/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/user/helper.rb:17:in `overview'
-/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:207:in `block in overview_textuel'
-/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:205:in `collect'
-/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:205:in `overview_textuel'
-/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/admin/lib/module/overview/overview/class/display.rb:28:in `display'
-(erb):12:in `result'
-/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `eval'
-/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `result'
-/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
-/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
-/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
-(erb):5:in `result'
-/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `eval'
-/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `result'
-/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
-/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
-/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
-/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
-/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
 
 
-=== DEBUG DU 13 01 2018 - 13:38:23 ===
+=== DEBUG DU 04 03 2018 - 09:54:27 ===
 
 -- 
 Objet    = "bureau"
@@ -56,7 +102,96 @@ Method   = "home"
 Context  = nil
 
 
-=== DEBUG DU 13 01 2018 - 13:38:25 ===
+=== DEBUG DU 04 03 2018 - 09:55:08 ===
+
+-- 
+Objet    = "watcher"
+Objet ID = 879
+Method   = "run"
+Context  = nil
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 09:55:27 ===
+
+-- 
+Objet    = "watcher"
+Objet ID = 876
+Method   = "run"
+Context  = nil
+-- Impossible d'obtenir les données de l'étape absolue de numero nil pour l'abs_module #7 (icmodule.abs_module.name)
+
+/home/icare/www/objet/ic_etape/lib/module/create/main.rb:29:in `data_icetape_for'
+/home/icare/www/objet/ic_etape/lib/module/create/main.rb:19:in `_create_for'
+/home/icare/www/objet/ic_etape/lib/required/class/action.rb:9:in `create_for'
+(eval):32:in `execute_main_file'
+/home/icare/www/objet/watcher/lib/module/running/main.rb:36:in `instance_eval'
+/home/icare/www/objet/watcher/lib/module/running/main.rb:36:in `execute_main_file'
+/home/icare/www/objet/watcher/lib/module/running/main.rb:17:in `_run'
+/home/icare/www/objet/watcher/lib/required/instance/actions.rb:16:in `run'
+/home/icare/www/objet/watcher/run.rb:13:in `<top (required)>'
+/usr/alwaysdata/ruby/2.4.0/lib/ruby/2.4.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/usr/alwaysdata/ruby/2.4.0/lib/ruby/2.4.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/home/icare/www/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'
+/home/icare/www/lib/deep/deeper/required/Vue/inst_methods.rb:22:in `require_ruby'
+/home/icare/www/lib/deep/deeper/required/Vue/inst_methods.rb:15:in `require_all'
+/home/icare/www/lib/deep/deeper/required/Site/route.rb:324:in `load_per_vue'
+/home/icare/www/lib/deep/deeper/required/Site/route.rb:103:in `execute_route'
+/home/icare/www/lib/deep/deeper/required/Site/output.rb:34:in `output'
+/home/icare/www/index.rb:8:in `<main>'
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 09:55:37 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 09:55:41 ===
+
+-- 
+Objet    = "watcher"
+Objet ID = 876
+Method   = "run"
+Context  = nil
+-- undefined local variable or method `abs_module' for #<SiteHtml::Watcher:0x00564fb4d9a760>
+Did you mean?  absmodule
+
+(eval):52:in `execute_main_file'
+/home/icare/www/objet/watcher/lib/module/running/main.rb:36:in `instance_eval'
+/home/icare/www/objet/watcher/lib/module/running/main.rb:36:in `execute_main_file'
+/home/icare/www/objet/watcher/lib/module/running/main.rb:17:in `_run'
+/home/icare/www/objet/watcher/lib/required/instance/actions.rb:16:in `run'
+/home/icare/www/objet/watcher/run.rb:13:in `<top (required)>'
+/usr/alwaysdata/ruby/2.4.0/lib/ruby/2.4.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/usr/alwaysdata/ruby/2.4.0/lib/ruby/2.4.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/home/icare/www/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'
+/home/icare/www/lib/deep/deeper/required/Vue/inst_methods.rb:22:in `require_ruby'
+/home/icare/www/lib/deep/deeper/required/Vue/inst_methods.rb:15:in `require_all'
+/home/icare/www/lib/deep/deeper/required/Site/route.rb:324:in `load_per_vue'
+/home/icare/www/lib/deep/deeper/required/Site/route.rb:103:in `execute_route'
+/home/icare/www/lib/deep/deeper/required/Site/output.rb:34:in `output'
+/home/icare/www/index.rb:8:in `<main>'
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 09:56:21 ===
 
 -- 
 Objet    = "user"
@@ -65,156 +200,28 @@ Method   = "deconnexion"
 Context  = nil
 
 
-=== DEBUG DU 13 01 2018 - 13:38:27 ===
+=== DEBUG DU 04 03 2018 - 10:00:07 ===
+
+-- undefined method `collect' for nil:NilClass
+
+/home/icare/www/CRON/lib/message/main.rb:42:in `admin_report'
+/home/icare/www/CRON/lib/message/main.rb:29:in `write_report'
+/home/icare/www/CRON/lib/cron/instance/actions.rb:29:in `stop'
+/home/icare/www/CRON/main.rb:53:in `block in <main>'
+/home/icare/www/CRON/main.rb:41:in `chdir'
+/home/icare/www/CRON/main.rb:41:in `<main>'
+
+
+=== DEBUG DU 04 03 2018 - 10:09:46 ===
 
 -- 
-Objet    = "user"
-Objet ID = nil
-Method   = "signin"
-Context  = nil
-
-
-=== DEBUG DU 13 01 2018 - 13:38:41 ===
-
--- 
-Objet    = "user"
-Objet ID = nil
-Method   = "login"
-Context  = nil
--- kroute = :home
--- 
-Objet    = "site"
+Objet    = "overview"
 Objet ID = nil
 Method   = "home"
 Context  = nil
 
 
-=== DEBUG DU 13 01 2018 - 13:38:45 ===
-
--- 
-Objet    = "user"
-Objet ID = 100
-Method   = "profil"
-Context  = nil
-
-
-=== DEBUG DU 13 01 2018 - 13:38:49 ===
-
--- 
-Objet    = "user"
-Objet ID = 100
-Method   = "destroy"
-Context  = nil
-
-
-=== DEBUG DU 13 01 2018 - 13:38:59 ===
-
--- 
-Objet    = "user"
-Objet ID = 100
-Method   = "destroy"
-Context  = nil
-
-
-=== DEBUG DU 13 01 2018 - 13:39:06 ===
-
--- 
-Objet    = "user"
-Objet ID = nil
-Method   = "signin"
-Context  = nil
-
-
-=== DEBUG DU 13 01 2018 - 13:39:19 ===
-
--- 
-Objet    = "user"
-Objet ID = nil
-Method   = "login"
-Context  = nil
--- kroute = :home
--- 
-Objet    = "site"
-Objet ID = nil
-Method   = "home"
-Context  = nil
-
-
-=== DEBUG DU 13 01 2018 - 13:39:30 ===
-
--- 
-Objet    = "user"
-Objet ID = 100
-Method   = "profil"
-Context  = nil
-
-
-=== DEBUG DU 13 01 2018 - 13:40:30 ===
-
--- 
-Objet    = "user"
-Objet ID = 100
-Method   = "destroy"
-Context  = nil
--- /Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/user/destroy.rb:80: syntax error, unexpected ':', expecting ')'
-      user.set(:cpassword: 'x'*32)
-                          ^
-/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/user/destroy.rb:80: syntax error, unexpected ')', expecting keyword_end
-/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/user/destroy.rb:110: syntax error, unexpected end-of-input, expecting keyword_end
-
-/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require'
-/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require'
-/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'
-/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:22:in `require_ruby'
-/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:15:in `require_all'
-/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:324:in `load_per_vue'
-/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:103:in `execute_route'
-/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'
-/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
--- (ERREUR : /Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/user/destroy.rb:80: syntax error, unexpected ':', expecting ')'
-      user.set(:cpassword: 'x'*32)
-                          ^
-/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/user/destroy.rb:80: syntax error, unexpected ')', expecting keyword_end
-/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/user/destroy.rb:110: syntax error, unexpected end-of-input, expecting keyword_end)
-<div>/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require'</div>
-<div>/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require'</div>
-<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/actions.rb:78:in `require'</div>
-<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:22:in `require_ruby'</div>
-<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst_methods.rb:15:in `require_all'</div>
-<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:324:in `load_per_vue'</div>
-<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/route.rb:103:in `execute_route'</div>
-<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:34:in `output'</div>
-<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'</div>
-
-
-=== DEBUG DU 13 01 2018 - 13:40:46 ===
-
--- 
-Objet    = "user"
-Objet ID = 100
-Method   = "destroy"
-Context  = nil
-
-
-=== DEBUG DU 13 01 2018 - 13:40:49 ===
-
--- 
-Objet    = "user"
-Objet ID = 100
-Method   = "destroy"
-Context  = nil
-
-
-=== DEBUG DU 13 01 2018 - 13:40:53 ===
-
--- 
-Objet    = "user"
-Objet ID = nil
-Method   = "signin"
-Context  = nil
-
-
-=== DEBUG DU 13 01 2018 - 13:41:07 ===
+=== DEBUG DU 04 03 2018 - 10:11:18 ===
 
 -- 
 Objet    = "user"
@@ -229,16 +236,350 @@ Method   = "signin"
 Context  = nil
 
 
-=== DEBUG DU 17 01 2018 - 10:25:44 ===
+=== DEBUG DU 04 03 2018 - 10:11:35 ===
 
 -- 
-Objet    = "abs_module"
+Objet    = "user"
 Objet ID = nil
-Method   = "list"
+Method   = "login"
+Context  = nil
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "login"
+Context  = nil
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "login"
+Context  = nil
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "login"
+Context  = nil
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "login"
+Context  = nil
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "login"
+Context  = nil
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "login"
+Context  = nil
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "login"
+Context  = nil
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "login"
+Context  = nil
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "login"
+Context  = nil
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "login"
+Context  = nil
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "home"
 Context  = nil
 
 
-=== DEBUG DU 22 02 2018 - 07:40:46 ===
+=== DEBUG DU 04 03 2018 - 10:11:45 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+-- [user_notify] @send_work_error : {}
+-- [user_notify] @send_work_error : {}
+-- user.icetape.abs_etape.numero : 5
+
+
+=== DEBUG DU 04 03 2018 - 10:12:29 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+-- [user_notify] @send_work_error : {}
+-- [user_notify] @send_work_error : {}
+-- user.icetape.abs_etape.numero : 5
+
+
+=== DEBUG DU 04 03 2018 - 10:12:44 ===
+
+-- 
+Objet    = "user"
+Objet ID = 102
+Method   = "profil"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 10:12:54 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+-- [user_notify] @send_work_error : {}
+-- [user_notify] @send_work_error : {}
+-- user.icetape.abs_etape.numero : 5
+
+
+=== DEBUG DU 04 03 2018 - 10:13:18 ===
+
+-- 
+Objet    = "watcher"
+Objet ID = 857
+Method   = "run"
+Context  = nil
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+-- [user_notify] @send_work_error : {}
+-- [user_notify] @send_work_error : {}
+-- user.icetape.abs_etape.numero : 5
+
+
+=== DEBUG DU 04 03 2018 - 10:13:20 ===
+
+-- 
+Objet    = "watcher"
+Objet ID = 858
+Method   = "run"
+Context  = nil
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+-- [user_notify] @send_work_error : {}
+-- [user_notify] @send_work_error : {}
+-- user.icetape.abs_etape.numero : 5
+
+
+=== DEBUG DU 04 03 2018 - 10:13:34 ===
+
+-- 
+Objet    = "watcher"
+Objet ID = 893
+Method   = "run"
+Context  = nil
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+-- [user_notify] @send_work_error : {}
+-- [user_notify] @send_work_error : {}
+-- user.icetape.abs_etape.numero : 5
+
+
+=== DEBUG DU 04 03 2018 - 10:35:14 ===
+
+-- 
+Objet    = "overview"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 10:39:59 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signin"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 10:40:08 ===
+
+-- 
+Objet    = "overview"
+Objet ID = nil
+Method   = "raisons"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 10:40:14 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "login"
+Context  = nil
+-- kroute = :home
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 10:40:26 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+-- [user_notify] @send_work_error : {}
+-- [user_notify] @send_work_error : {}
+-- user.icetape.abs_etape.numero : 1
+
+
+=== DEBUG DU 04 03 2018 - 10:40:33 ===
+
+-- 
+Objet    = "ic_paiement"
+Objet ID = nil
+Method   = "main"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 10:40:58 ===
+
+-- 
+Objet    = "ic_paiement"
+Objet ID = nil
+Method   = "main"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 10:43:07 ===
+
+-- 
+Objet    = "ic_paiement"
+Objet ID = nil
+Method   = "main"
+Context  = nil
+-- param(:paie_id) =  319
+
+
+=== DEBUG DU 04 03 2018 - 10:43:17 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+-- [user_notify] @send_work_error : {}
+-- [user_notify] @send_work_error : {}
+-- user.icetape.abs_etape.numero : 1
+
+
+=== DEBUG DU 04 03 2018 - 10:43:29 ===
+
+-- 
+Objet    = "ic_etape"
+Objet ID = 708
+Method   = "set"
+Context  = nil
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+-- [user_notify] @send_work_error : {}
+-- [user_notify] @send_work_error : {}
+-- user.icetape.abs_etape.numero : 1
+
+
+=== DEBUG DU 04 03 2018 - 10:43:36 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+-- [user_notify] @send_work_error : {}
+-- [user_notify] @send_work_error : {}
+-- user.icetape.abs_etape.numero : 1
+
+
+=== DEBUG DU 04 03 2018 - 10:43:38 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+-- [user_notify] @send_work_error : {}
+-- [user_notify] @send_work_error : {}
+-- user.icetape.abs_etape.numero : 1
+
+
+=== DEBUG DU 04 03 2018 - 10:43:40 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "historique"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 10:43:46 ===
+
+-- 
+Objet    = "abs_etape"
+Objet ID = 16
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 10:44:03 ===
+
+-- 
+Objet    = "user"
+Objet ID = 104
+Method   = "deconnexion"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 10:49:08 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "outils"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 11:00:08 ===
+
+-- undefined method `collect' for nil:NilClass
+
+/home/icare/www/CRON/lib/message/main.rb:42:in `admin_report'
+/home/icare/www/CRON/lib/message/main.rb:29:in `write_report'
+/home/icare/www/CRON/lib/cron/instance/actions.rb:29:in `stop'
+/home/icare/www/CRON/main.rb:53:in `block in <main>'
+/home/icare/www/CRON/main.rb:41:in `chdir'
+/home/icare/www/CRON/main.rb:41:in `<main>'
+
+
+=== DEBUG DU 04 03 2018 - 11:14:53 ===
 
 -- 
 Objet    = "aide"
@@ -247,67 +588,1914 @@ Method   = "home"
 Context  = nil
 
 
-=== DEBUG DU 22 02 2018 - 07:40:50 ===
+=== DEBUG DU 04 03 2018 - 11:49:13 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 12:00:07 ===
+
+-- undefined method `collect' for nil:NilClass
+
+/home/icare/www/CRON/lib/message/main.rb:42:in `admin_report'
+/home/icare/www/CRON/lib/message/main.rb:29:in `write_report'
+/home/icare/www/CRON/lib/cron/instance/actions.rb:29:in `stop'
+/home/icare/www/CRON/main.rb:53:in `block in <main>'
+/home/icare/www/CRON/main.rb:41:in `chdir'
+/home/icare/www/CRON/main.rb:41:in `<main>'
+
+
+=== DEBUG DU 04 03 2018 - 12:44:24 ===
+
+-- 
+Objet    = "aide"
+Objet ID = 605
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 13:00:07 ===
+
+-- undefined method `collect' for nil:NilClass
+
+/home/icare/www/CRON/lib/message/main.rb:42:in `admin_report'
+/home/icare/www/CRON/lib/message/main.rb:29:in `write_report'
+/home/icare/www/CRON/lib/cron/instance/actions.rb:29:in `stop'
+/home/icare/www/CRON/main.rb:53:in `block in <main>'
+/home/icare/www/CRON/main.rb:41:in `chdir'
+/home/icare/www/CRON/main.rb:41:in `<main>'
+
+
+=== DEBUG DU 04 03 2018 - 13:07:56 ===
+
+-- 
+Objet    = "overview"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 13:08:01 ===
+
+-- 
+Objet    = "overview"
+Objet ID = nil
+Method   = "reussites"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 13:08:02 ===
+
+-- 
+Objet    = "overview"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 13:08:02 ===
+
+-- 
+Objet    = "overview"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 13:08:02 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 95
+Method   = "frigo"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 13:08:03 ===
+
+-- 
+Objet    = "aide"
+Objet ID = 33
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 13:08:04 ===
+
+-- 
+Objet    = "icarien"
+Objet ID = nil
+Method   = "list"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 13:08:05 ===
+
+-- 
+Objet    = "overview"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 13:08:05 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 41
+Method   = "frigo"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 13:08:05 ===
+
+-- 
+Objet    = "aide"
+Objet ID = 31
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 13:08:06 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 13:49:10 ===
+
+-- 
+Objet    = "overview"
+Objet ID = nil
+Method   = "reussites"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 13:49:49 ===
+
+-- 
+Objet    = "abs_module"
+Objet ID = nil
+Method   = "list"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 14:00:06 ===
+
+-- undefined method `collect' for nil:NilClass
+
+/home/icare/www/CRON/lib/message/main.rb:42:in `admin_report'
+/home/icare/www/CRON/lib/message/main.rb:29:in `write_report'
+/home/icare/www/CRON/lib/cron/instance/actions.rb:29:in `stop'
+/home/icare/www/CRON/main.rb:53:in `block in <main>'
+/home/icare/www/CRON/main.rb:41:in `chdir'
+/home/icare/www/CRON/main.rb:41:in `<main>'
+
+
+=== DEBUG DU 04 03 2018 - 14:29:14 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "contact"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 15:00:08 ===
+
+-- undefined method `collect' for nil:NilClass
+
+/home/icare/www/CRON/lib/message/main.rb:42:in `admin_report'
+/home/icare/www/CRON/lib/message/main.rb:29:in `write_report'
+/home/icare/www/CRON/lib/cron/instance/actions.rb:29:in `stop'
+/home/icare/www/CRON/main.rb:53:in `block in <main>'
+/home/icare/www/CRON/main.rb:41:in `chdir'
+/home/icare/www/CRON/main.rb:41:in `<main>'
+
+
+=== DEBUG DU 04 03 2018 - 15:14:05 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 15:42:53 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "contact"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 15:51:31 ===
+
+-- 
+Objet    = "overview"
+Objet ID = nil
+Method   = "raisons"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 15:56:40 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 98
+Method   = "frigo"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 16:00:08 ===
+
+-- undefined method `collect' for nil:NilClass
+
+/home/icare/www/CRON/lib/message/main.rb:42:in `admin_report'
+/home/icare/www/CRON/lib/message/main.rb:29:in `write_report'
+/home/icare/www/CRON/lib/cron/instance/actions.rb:29:in `stop'
+/home/icare/www/CRON/main.rb:53:in `block in <main>'
+/home/icare/www/CRON/main.rb:41:in `chdir'
+/home/icare/www/CRON/main.rb:41:in `<main>'
+
+
+=== DEBUG DU 04 03 2018 - 16:31:59 ===
+
+-- 
+Objet    = "overview"
+Objet ID = nil
+Method   = "temoignages"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 16:43:02 ===
+
+-- 
+Objet    = "overview"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 17:00:06 ===
+
+-- undefined method `collect' for nil:NilClass
+
+/home/icare/www/CRON/lib/message/main.rb:42:in `admin_report'
+/home/icare/www/CRON/lib/message/main.rb:29:in `write_report'
+/home/icare/www/CRON/lib/cron/instance/actions.rb:29:in `stop'
+/home/icare/www/CRON/main.rb:53:in `block in <main>'
+/home/icare/www/CRON/main.rb:41:in `chdir'
+/home/icare/www/CRON/main.rb:41:in `<main>'
+
+
+=== DEBUG DU 04 03 2018 - 17:46:21 ===
+
+-- 
+Objet    = "overview"
+Objet ID = nil
+Method   = "raisons"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 17:47:08 ===
+
+-- 
+Objet    = "overview"
+Objet ID = nil
+Method   = "reussites"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 17:59:46 ===
+
+-- 
+Objet    = "aide"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 17:59:54 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "contact"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:00:01 ===
+
+-- 
+Objet    = "overview"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:00:07 ===
+
+-- undefined method `collect' for nil:NilClass
+
+/home/icare/www/CRON/lib/message/main.rb:42:in `admin_report'
+/home/icare/www/CRON/lib/message/main.rb:29:in `write_report'
+/home/icare/www/CRON/lib/cron/instance/actions.rb:29:in `stop'
+/home/icare/www/CRON/main.rb:53:in `block in <main>'
+/home/icare/www/CRON/main.rb:41:in `chdir'
+/home/icare/www/CRON/main.rb:41:in `<main>'
+
+
+=== DEBUG DU 04 03 2018 - 18:00:09 ===
+
+-- 
+Objet    = "overview"
+Objet ID = nil
+Method   = "reussites"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:00:16 ===
+
+-- 
+Objet    = "overview"
+Objet ID = nil
+Method   = "temoignages"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:00:23 ===
+
+-- 
+Objet    = "abs_module"
+Objet ID = nil
+Method   = "list"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:00:30 ===
+
+-- 
+Objet    = "icarien"
+Objet ID = nil
+Method   = "list"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:01:05 ===
+
+-- 
+Objet    = "abs_module"
+Objet ID = nil
+Method   = "list"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:01:12 ===
+
+-- 
+Objet    = "overview"
+Objet ID = nil
+Method   = "parcours"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:12:44 ===
+
+-- 
+Objet    = "abs_module"
+Objet ID = nil
+Method   = "list"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:12:47 ===
+
+-- 
+Objet    = "aide"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:12:52 ===
+
+-- 
+Objet    = "aide"
+Objet ID = 4
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:12:57 ===
+
+-- 
+Objet    = "aide"
+Objet ID = 1
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:13:02 ===
+
+-- 
+Objet    = "unan"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:13:07 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:13:12 ===
+
+-- 
+Objet    = "forum"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:13:17 ===
 
 -- 
 Objet    = "aide"
 Objet ID = 80
 Method   = "show"
 Context  = nil
--- undefined local variable or method `phil' for #<ERB:0x007f8f6192ef58>
-
-(erb):17:in `result'
-/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `eval'
-/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `result'
-/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
-/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/aide/lib/required/aide/instance/main.rb:20:in `output'
-(erb):8:in `result'
-/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `eval'
-/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `result'
-/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
-/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
-/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
-(erb):5:in `result'
-/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `eval'
-/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `result'
-/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
-/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
-/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
-/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
-/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
 
 
-=== DEBUG DU 22 02 2018 - 07:41:43 ===
+=== DEBUG DU 04 03 2018 - 18:13:22 ===
+
+-- 
+Objet    = "aide"
+Objet ID = 36
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:13:27 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+-- param(:backto) mis à "bureau/home"
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signin"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:13:33 ===
+
+-- 
+Objet    = "aide"
+Objet ID = 11
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:13:37 ===
+
+-- 
+Objet    = "aide"
+Objet ID = 31
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:13:42 ===
+
+-- 
+Objet    = "aide"
+Objet ID = 34
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:13:47 ===
+
+-- 
+Objet    = "aide"
+Objet ID = 37
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:13:52 ===
+
+-- 
+Objet    = "aide"
+Objet ID = 10
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:13:57 ===
+
+-- 
+Objet    = "aide"
+Objet ID = 35
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:14:02 ===
+
+-- 
+Objet    = "aide"
+Objet ID = 32
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:14:07 ===
+
+-- 
+Objet    = "aide"
+Objet ID = 33
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:14:12 ===
+
+-- 
+Objet    = "analyse"
+Objet ID = nil
+Method   = "list"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:14:17 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "contact"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:14:22 ===
+
+-- 
+Objet    = "aide"
+Objet ID = 20
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:14:28 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:14:32 ===
+
+-- 
+Objet    = "aide"
+Objet ID = 30
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:14:37 ===
+
+-- 
+Objet    = "icarien"
+Objet ID = nil
+Method   = "list"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:14:42 ===
+
+-- 
+Objet    = "aide"
+Objet ID = 201
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:14:48 ===
+
+-- 
+Objet    = "aide"
+Objet ID = 605
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:14:52 ===
+
+-- 
+Objet    = "overview"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:14:57 ===
+
+-- 
+Objet    = "aide"
+Objet ID = 200
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:15:02 ===
+
+-- 
+Objet    = "aide"
+Objet ID = 100
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:15:07 ===
+
+-- 
+Objet    = "aide"
+Objet ID = 410
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:15:12 ===
+
+-- 
+Objet    = "aide"
+Objet ID = 600
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:15:17 ===
+
+-- 
+Objet    = "aide"
+Objet ID = 700
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:15:22 ===
+
+-- 
+Objet    = "overview"
+Objet ID = nil
+Method   = "stats"
+Context  = nil
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "statistiques"
+Context  = nil
+-- nombre_mois : 123
+
+
+=== DEBUG DU 04 03 2018 - 18:15:27 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 1
+Method   = "frigo"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:15:32 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 9
+Method   = "frigo"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:15:37 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 28
+Method   = "frigo"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:15:43 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 95
+Method   = "frigo"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:15:47 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 97
+Method   = "frigo"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:15:52 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 96
+Method   = "frigo"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:15:58 ===
+
+-- 
+Objet    = "cnarration"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:16:02 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 21
+Method   = "frigo"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:16:07 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 98
+Method   = "frigo"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:16:13 ===
+
+-- 
+Objet    = "abs_module"
+Objet ID = nil
+Method   = "list"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:16:17 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 93
+Method   = "frigo"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:16:22 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 41
+Method   = "frigo"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:16:27 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 99
+Method   = "frigo"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:16:32 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 16
+Method   = "frigo"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:16:37 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 15
+Method   = "frigo"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:16:42 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 103
+Method   = "frigo"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:16:47 ===
+
+-- 
+Objet    = "overview"
+Objet ID = nil
+Method   = "raisons"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:16:53 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 104
+Method   = "frigo"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:16:57 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 100
+Method   = "frigo"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:17:02 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 102
+Method   = "frigo"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:17:07 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 101
+Method   = "frigo"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:17:13 ===
+
+-- 
+Objet    = "abs_module"
+Objet ID = 6
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:17:17 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "contact"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:17:22 ===
+
+-- 
+Objet    = "abs_module"
+Objet ID = 5
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:17:27 ===
+
+-- 
+Objet    = "abs_module"
+Objet ID = 4
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:17:32 ===
+
+-- 
+Objet    = "abs_module"
+Objet ID = 2
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:17:38 ===
+
+-- 
+Objet    = "abs_module"
+Objet ID = 1
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:17:42 ===
+
+-- 
+Objet    = "overview"
+Objet ID = nil
+Method   = "parcours"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:17:47 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "contact"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:17:52 ===
+
+-- 
+Objet    = "abs_module"
+Objet ID = 7
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:17:57 ===
+
+-- 
+Objet    = "abs_module"
+Objet ID = 8
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:18:02 ===
+
+-- 
+Objet    = "abs_module"
+Objet ID = 9
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:18:07 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "contact"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:18:12 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "contact"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:18:17 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "contact"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:18:22 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "contact"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:18:28 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "contact"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:18:32 ===
+
+-- 
+Objet    = "abs_module"
+Objet ID = 12
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:18:37 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "contact"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:18:42 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "contact"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:18:47 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "contact"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:18:52 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "contact"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:18:57 ===
+
+-- 
+Objet    = "abs_module"
+Objet ID = 13
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:19:02 ===
+
+-- 
+Objet    = "overview"
+Objet ID = nil
+Method   = "reussites"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:19:07 ===
+
+-- 
+Objet    = "abs_module"
+Objet ID = 14
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:19:13 ===
+
+-- 
+Objet    = "abs_module"
+Objet ID = 10
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:19:17 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:19:22 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "contact"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:19:28 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "contact"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:19:32 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "contact"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:19:37 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "contact"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:19:42 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "contact"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:19:47 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "contact"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:19:52 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "contact"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:19:57 ===
+
+-- 
+Objet    = "overview"
+Objet ID = nil
+Method   = "temoignages"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:20:07 ===
+
+-- 
+Objet    = "quai_des_docs"
+Objet ID = nil
+Method   = "search"
+Context  = nil
+-- param(:backto) mis à "quai_des_docs/search"
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signin"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:34:03 ===
+
+-- 
+Objet    = "aide"
+Objet ID = 1
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:34:10 ===
+
+-- 
+Objet    = "aide"
+Objet ID = 4
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:34:18 ===
+
+-- 
+Objet    = "aide"
+Objet ID = 20
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:34:26 ===
+
+-- 
+Objet    = "aide"
+Objet ID = 100
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:34:34 ===
+
+-- 
+Objet    = "aide"
+Objet ID = 200
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:34:41 ===
+
+-- 
+Objet    = "aide"
+Objet ID = 201
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:34:48 ===
+
+-- 
+Objet    = "aide"
+Objet ID = 11
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:35:02 ===
+
+-- 
+Objet    = "aide"
+Objet ID = 410
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:35:09 ===
+
+-- 
+Objet    = "aide"
+Objet ID = 31
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:35:16 ===
+
+-- 
+Objet    = "aide"
+Objet ID = 37
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:35:24 ===
+
+-- 
+Objet    = "aide"
+Objet ID = 32
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:35:31 ===
+
+-- 
+Objet    = "aide"
+Objet ID = 33
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:35:39 ===
+
+-- 
+Objet    = "aide"
+Objet ID = 35
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:35:46 ===
+
+-- 
+Objet    = "aide"
+Objet ID = 30
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:35:54 ===
+
+-- 
+Objet    = "aide"
+Objet ID = 36
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:36:01 ===
+
+-- 
+Objet    = "aide"
+Objet ID = 10
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:36:09 ===
+
+-- 
+Objet    = "aide"
+Objet ID = 34
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:36:18 ===
+
+-- 
+Objet    = "aide"
+Objet ID = 600
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:36:25 ===
+
+-- 
+Objet    = "aide"
+Objet ID = 605
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:36:33 ===
+
+-- 
+Objet    = "aide"
+Objet ID = 700
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:36:40 ===
 
 -- 
 Objet    = "aide"
 Objet ID = 80
 Method   = "show"
 Context  = nil
--- undefined local variable or method `admin' for #<ERB:0x007fe641852e18>
-
-(erb):17:in `result'
-/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `eval'
-/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `result'
-/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
-/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/aide/lib/required/aide/instance/main.rb:20:in `output'
-(erb):8:in `result'
-/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `eval'
-/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `result'
-/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
-/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
-/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:114:in `content_route'
-(erb):5:in `result'
-/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `eval'
-/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `result'
-/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
-/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:73:in `content'
-/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
-/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/deep/deeper/required/Site/output.rb:35:in `output'
-/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/index.rb:8:in `<main>'
 
 
-=== DEBUG DU 22 02 2018 - 07:48:50 ===
+=== DEBUG DU 04 03 2018 - 18:36:47 ===
+
+-- 
+Objet    = "overview"
+Objet ID = nil
+Method   = "raisons"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:36:54 ===
+
+-- 
+Objet    = "overview"
+Objet ID = nil
+Method   = "stats"
+Context  = nil
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "statistiques"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:36:56 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:37:09 ===
+
+-- 
+Objet    = "abs_module"
+Objet ID = 7
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:37:16 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "contact"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:37:23 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 101
+Method   = "frigo"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:37:31 ===
+
+-- 
+Objet    = "abs_module"
+Objet ID = 5
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:37:38 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "contact"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:37:46 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 93
+Method   = "frigo"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:37:54 ===
+
+-- 
+Objet    = "abs_module"
+Objet ID = 6
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:38:01 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "contact"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:38:09 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 98
+Method   = "frigo"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:38:16 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "contact"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:38:23 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 102
+Method   = "frigo"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:38:31 ===
+
+-- 
+Objet    = "abs_module"
+Objet ID = 12
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:38:42 ===
+
+-- 
+Objet    = "abs_module"
+Objet ID = 8
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:38:50 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "contact"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:38:58 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 9
+Method   = "frigo"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:39:06 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "contact"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:39:16 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 100
+Method   = "frigo"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:39:25 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "contact"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:39:34 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 97
+Method   = "frigo"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:39:42 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "contact"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:39:50 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 103
+Method   = "frigo"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:39:58 ===
+
+-- 
+Objet    = "abs_module"
+Objet ID = 13
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:40:05 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "contact"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:40:13 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 96
+Method   = "frigo"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:40:22 ===
+
+-- 
+Objet    = "abs_module"
+Objet ID = 4
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:40:30 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "contact"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:40:37 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 104
+Method   = "frigo"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:40:45 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "contact"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:40:52 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 95
+Method   = "frigo"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:41:00 ===
+
+-- 
+Objet    = "abs_module"
+Objet ID = 10
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:41:07 ===
+
+-- 
+Objet    = "abs_module"
+Objet ID = 2
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:41:15 ===
+
+-- 
+Objet    = "abs_module"
+Objet ID = 9
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:41:23 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "contact"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:41:30 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 15
+Method   = "frigo"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:41:37 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "contact"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:41:45 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 21
+Method   = "frigo"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:41:52 ===
+
+-- 
+Objet    = "abs_module"
+Objet ID = 14
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:42:00 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "contact"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:42:07 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 28
+Method   = "frigo"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:42:14 ===
+
+-- 
+Objet    = "abs_module"
+Objet ID = 1
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:42:21 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "contact"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:42:29 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 41
+Method   = "frigo"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:42:36 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "contact"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:42:43 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 16
+Method   = "frigo"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:42:51 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "contact"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:42:59 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 99
+Method   = "frigo"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:43:06 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "contact"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 18:43:13 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 1
+Method   = "frigo"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 19:00:06 ===
+
+-- undefined method `collect' for nil:NilClass
+
+/home/icare/www/CRON/lib/message/main.rb:42:in `admin_report'
+/home/icare/www/CRON/lib/message/main.rb:29:in `write_report'
+/home/icare/www/CRON/lib/cron/instance/actions.rb:29:in `stop'
+/home/icare/www/CRON/main.rb:53:in `block in <main>'
+/home/icare/www/CRON/main.rb:41:in `chdir'
+/home/icare/www/CRON/main.rb:41:in `<main>'
+
+
+=== DEBUG DU 04 03 2018 - 19:11:25 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 20:00:08 ===
+
+-- undefined method `collect' for nil:NilClass
+
+/home/icare/www/CRON/lib/message/main.rb:42:in `admin_report'
+/home/icare/www/CRON/lib/message/main.rb:29:in `write_report'
+/home/icare/www/CRON/lib/cron/instance/actions.rb:29:in `stop'
+/home/icare/www/CRON/main.rb:53:in `block in <main>'
+/home/icare/www/CRON/main.rb:41:in `chdir'
+/home/icare/www/CRON/main.rb:41:in `<main>'
+
+
+=== DEBUG DU 04 03 2018 - 20:35:54 ===
+
+-- 
+Objet    = "overview"
+Objet ID = nil
+Method   = "raisons"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 21:00:09 ===
+
+-- undefined method `collect' for nil:NilClass
+
+/home/icare/www/CRON/lib/message/main.rb:42:in `admin_report'
+/home/icare/www/CRON/lib/message/main.rb:29:in `write_report'
+/home/icare/www/CRON/lib/cron/instance/actions.rb:29:in `stop'
+/home/icare/www/CRON/main.rb:53:in `block in <main>'
+/home/icare/www/CRON/main.rb:41:in `chdir'
+/home/icare/www/CRON/main.rb:41:in `<main>'
+
+
+=== DEBUG DU 04 03 2018 - 21:01:04 ===
 
 -- 
 Objet    = "aide"
@@ -316,10 +2504,238 @@ Method   = "show"
 Context  = nil
 
 
-=== DEBUG DU 22 02 2018 - 07:51:00 ===
+=== DEBUG DU 04 03 2018 - 21:28:41 ===
 
 -- 
 Objet    = "aide"
-Objet ID = 80
+Objet ID = 37
 Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 21:58:41 ===
+
+-- 
+Objet    = "aide"
+Objet ID = 20
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 22:00:06 ===
+
+-- undefined method `collect' for nil:NilClass
+
+/home/icare/www/CRON/lib/message/main.rb:42:in `admin_report'
+/home/icare/www/CRON/lib/message/main.rb:29:in `write_report'
+/home/icare/www/CRON/lib/cron/instance/actions.rb:29:in `stop'
+/home/icare/www/CRON/main.rb:53:in `block in <main>'
+/home/icare/www/CRON/main.rb:41:in `chdir'
+/home/icare/www/CRON/main.rb:41:in `<main>'
+
+
+=== DEBUG DU 04 03 2018 - 22:22:06 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 22:24:27 ===
+
+-- 
+Objet    = "overview"
+Objet ID = nil
+Method   = "raisons"
+Context  = nil
+
+
+=== DEBUG DU 04 03 2018 - 23:00:07 ===
+
+-- undefined method `collect' for nil:NilClass
+
+/home/icare/www/CRON/lib/message/main.rb:42:in `admin_report'
+/home/icare/www/CRON/lib/message/main.rb:29:in `write_report'
+/home/icare/www/CRON/lib/cron/instance/actions.rb:29:in `stop'
+/home/icare/www/CRON/main.rb:53:in `block in <main>'
+/home/icare/www/CRON/main.rb:41:in `chdir'
+/home/icare/www/CRON/main.rb:41:in `<main>'
+
+
+=== DEBUG DU 04 03 2018 - 23:30:28 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 05 03 2018 - 00:37:13 ===
+
+-- 
+Objet    = "overview"
+Objet ID = nil
+Method   = "raisons"
+Context  = nil
+
+
+=== DEBUG DU 05 03 2018 - 00:44:42 ===
+
+-- 
+Objet    = "aide"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 05 03 2018 - 01:00:07 ===
+
+-- undefined method `collect' for nil:NilClass
+
+/home/icare/www/CRON/lib/message/main.rb:42:in `admin_report'
+/home/icare/www/CRON/lib/message/main.rb:29:in `write_report'
+/home/icare/www/CRON/lib/cron/instance/actions.rb:29:in `stop'
+/home/icare/www/CRON/main.rb:53:in `block in <main>'
+/home/icare/www/CRON/main.rb:41:in `chdir'
+/home/icare/www/CRON/main.rb:41:in `<main>'
+
+
+=== DEBUG DU 05 03 2018 - 01:38:46 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 05 03 2018 - 02:00:07 ===
+
+-- undefined method `collect' for nil:NilClass
+
+/home/icare/www/CRON/lib/message/main.rb:42:in `admin_report'
+/home/icare/www/CRON/lib/message/main.rb:29:in `write_report'
+/home/icare/www/CRON/lib/cron/instance/actions.rb:29:in `stop'
+/home/icare/www/CRON/main.rb:53:in `block in <main>'
+/home/icare/www/CRON/main.rb:41:in `chdir'
+/home/icare/www/CRON/main.rb:41:in `<main>'
+
+
+=== DEBUG DU 05 03 2018 - 03:00:09 ===
+
+-- undefined method `collect' for nil:NilClass
+
+/home/icare/www/CRON/lib/message/main.rb:42:in `admin_report'
+/home/icare/www/CRON/lib/message/main.rb:29:in `write_report'
+/home/icare/www/CRON/lib/cron/instance/actions.rb:29:in `stop'
+/home/icare/www/CRON/main.rb:53:in `block in <main>'
+/home/icare/www/CRON/main.rb:41:in `chdir'
+/home/icare/www/CRON/main.rb:41:in `<main>'
+
+
+=== DEBUG DU 05 03 2018 - 03:22:34 ===
+
+-- 
+Objet    = "overview"
+Objet ID = nil
+Method   = "raisons"
+Context  = nil
+
+
+=== DEBUG DU 05 03 2018 - 03:44:38 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = 94
+Method   = "frigo"
+Context  = nil
+
+
+=== DEBUG DU 05 03 2018 - 03:55:00 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 05 03 2018 - 04:00:06 ===
+
+-- undefined method `collect' for nil:NilClass
+
+/home/icare/www/CRON/lib/message/main.rb:42:in `admin_report'
+/home/icare/www/CRON/lib/message/main.rb:29:in `write_report'
+/home/icare/www/CRON/lib/cron/instance/actions.rb:29:in `stop'
+/home/icare/www/CRON/main.rb:53:in `block in <main>'
+/home/icare/www/CRON/main.rb:41:in `chdir'
+/home/icare/www/CRON/main.rb:41:in `<main>'
+
+
+=== DEBUG DU 05 03 2018 - 04:38:52 ===
+
+-- 
+Objet    = "site"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 05 03 2018 - 06:00:08 ===
+
+-- undefined method `collect' for nil:NilClass
+
+/home/icare/www/CRON/lib/message/main.rb:42:in `admin_report'
+/home/icare/www/CRON/lib/message/main.rb:29:in `write_report'
+/home/icare/www/CRON/lib/cron/instance/actions.rb:29:in `stop'
+/home/icare/www/CRON/main.rb:53:in `block in <main>'
+/home/icare/www/CRON/main.rb:41:in `chdir'
+/home/icare/www/CRON/main.rb:41:in `<main>'
+
+
+=== DEBUG DU 07 03 2018 - 09:30:40 ===
+
+-- 
+Objet    = "abs_module"
+Objet ID = nil
+Method   = "list"
+Context  = nil
+
+
+=== DEBUG DU 07 03 2018 - 09:35:11 ===
+
+-- 
+Objet    = "abs_module"
+Objet ID = nil
+Method   = "list"
+Context  = nil
+
+
+=== DEBUG DU 07 03 2018 - 09:36:17 ===
+
+-- 
+Objet    = "abs_module"
+Objet ID = nil
+Method   = "list"
+Context  = nil
+
+
+=== DEBUG DU 07 03 2018 - 09:40:10 ===
+
+-- 
+Objet    = "abs_module"
+Objet ID = nil
+Method   = "list"
+Context  = nil
+
+
+=== DEBUG DU 07 03 2018 - 09:48:00 ===
+
+-- 
+Objet    = "abs_module"
+Objet ID = nil
+Method   = "list"
 Context  = nil
