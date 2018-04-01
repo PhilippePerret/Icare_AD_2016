@@ -1,6 +1,15 @@
 if(undefined==window.Signup){window.Signup={}}
 $.extend(window.Signup,{
 
+  check_cgu: function(){
+    if ($('input#user_accept_cgu')[0].checked) {
+      return true;
+    }else{
+      alert('Vous devez accepter les Conditions Générales d’Utilisation (cochez la case au-dessus du bouton).');
+      return false;
+    }
+  },
+  
   check_modules:function(){
     if($('ul#abs_modules').length){
       var un_module_is_checked = false ;

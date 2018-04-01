@@ -8,7 +8,10 @@ fieldset.fs_etape_work
 
   border-color    : #FFFFFF !important
   border          : none
-
+  
+  font-family     : Arial, Geneva !important
+  font-size       : 16.4pt !important
+  
   // Toutes les sections
   section.worksection
     // border    : 1px solid #CCC
@@ -27,11 +30,13 @@ fieldset.fs_etape_work
     margin-top    : 2em
     margin-left   : 1em
 
-  > p, > div.p, > ol, > ul
-    margin-left:    4em
+  p, div.p
+    margin-left:      4em !important
+    text-align:       justify
+    margin-top:       1em
 
   dl
-    margin-left:    2em
+    margin-left:    4em
 
     dt
       font-weight:      bold
@@ -40,13 +45,14 @@ fieldset.fs_etape_work
       margin-top:       1em
       margin-bottom:    0.5em
 
-  ol
+  ol, ul
+    margin-left:    8em
+    margin-top:     2em
+    margin-bottom:  2em
+    
+  ol, ul
     li
-      margin-top:      12px
-      margin-bottom:  12px
-
-  p, div.p
-    text-align:      justify
+      margin-top:      1em
 
   // Le titre de chaque section d'un travail
   div.titlesection

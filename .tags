@@ -1022,10 +1022,6 @@ section_etape_liens	/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/b
 section_etape_methode	/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/bureau/lib/module/section_current_work/master.rb	/^  def section_etape_methode$/;"	method	line:81	class:Bureau
 section_etape_mini_faq	/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/bureau/lib/module/section_current_work/master.rb	/^  def section_etape_mini_faq$/;"	method	line:89	class:Bureau
 section_etape_qdd	/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/bureau/lib/module/section_current_work/master.rb	/^  def section_etape_qdd$/;"	method	line:97	class:Bureau
-dl	/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/bureau/lib/module/section_current_work/master.sass	/^  dl$/;"	function	line:33
-dt	/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/bureau/lib/module/section_current_work/master.sass	/^    dt$/;"	function	line:36
-ol	/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/bureau/lib/module/section_current_work/master.sass	/^  ol$/;"	function	line:43
-li	/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/bureau/lib/module/section_current_work/master.sass	/^    li$/;"	function	line:44
 Bureau	/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/bureau/lib/module/infos_etape/infos_etape_main.rb	/^class Bureau$/;"	class	line:3
 _fs_etape_courante	/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/bureau/lib/module/infos_etape/infos_etape_main.rb	/^  def _fs_etape_courante$/;"	method	line:8	class:Bureau
 travail_etape_sent?	/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/bureau/lib/module/infos_etape/infos_etape_main.rb	/^  def travail_etape_sent?$/;"	method	line:21	class:Bureau
@@ -2828,3 +2824,6 @@ main_traitement_balise	/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/
 rappels_balises	/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/app/console/common/methodes_communes.rb	/^  def rappels_balises as$/;"	method	line:81	class:SiteHtml
 liste_built_balises	/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/app/console/common/methodes_communes.rb	/^  def liste_built_balises arr_balises, as = 'md'$/;"	method	line:94	class:SiteHtml
 execute_preambule	/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/lib/preambule.rb	/^def execute_preambule$/;"	method	line:7
+dl	/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/bureau/lib/module/section_current_work/master.sass	/^  dl$/;"	function	line:38
+dt	/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/bureau/lib/module/section_current_work/master.sass	/^    dt$/;"	function	line:41
+li	/Users/philippeperret/Sites/AlwaysData/Icare_AD_2016/objet/bureau/lib/module/section_current_work/master.sass	/^    li$/;"	function	line:54

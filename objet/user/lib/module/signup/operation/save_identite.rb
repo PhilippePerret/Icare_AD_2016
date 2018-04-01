@@ -40,11 +40,16 @@ class << self
     }
   end
 
-  # Retourne true si les données sont valides
+  # Retourne true si les données d'identité sont valides
   def data_valides?
     app.benchmark('-> User#data_valides?')
 
     form_data = param(:user)
+
+    # Les CGU doivent avoir été acceptées
+    unless form_data[:accept_cgu] == 'on'
+      raise("Vous devez accepter les Conditions Générales d'Utilisation (en cochant la case au-dessus du bouton de soumission).")
+    end
 
     # Validité du PSEUDO
     @pseudo = form_data[:pseudo].nil_if_empty
@@ -91,7 +96,7 @@ class << self
       captcha != nil || raise('Il faut fournir le captcha pour nous assurer que vous n’êtes pas un robot.')
       app.captcha_valid?(captcha) || raise('Le captcha est mauvais, seriez-vous un robot ?')
     end
-
+    
     @naissance  = form_data[:naissance].to_i
     @phone      = form_data[:telephone].nil_if_empty
     @phone.nil? || @phone.length < 11 || raise('Votre numéro de téléphone n’est pas correct…')

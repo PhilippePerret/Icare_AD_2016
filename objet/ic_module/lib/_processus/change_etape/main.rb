@@ -56,7 +56,8 @@ begin
     SiteHtml::Actualite.create(
       user_id: owner.id,
       status:  2,
-      message: "<strong>#{owner.pseudo}</strong> passe à l'étape #{next_abs_etape.numero} de son module d’apprentissage “#{abs_module.name}”. Bon courage à #{owner.femme? ? 'elle' : 'lui'} !"
+      message: "<strong>#{owner.pseudo}</strong> passe à l'étape #{next_abs_etape.numero}"+
+        " de son module d’apprentissage “#{absmodule.name}”. Bon courage à #{owner.femme? ? 'elle' : 'lui'} !"
     )
   rescue Exception => e
     debug e

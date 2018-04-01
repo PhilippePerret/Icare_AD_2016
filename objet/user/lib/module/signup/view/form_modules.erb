@@ -8,7 +8,7 @@
 def liste_modules_checkboxable selecteds = nil
   site.require_objet('abs_module')
   cbs_modules = ''
-  AbsModule.each_instance(order: 'tarif ASC') do |amod|
+  AbsModule.each_instance(sorted: true) do |amod|
     is_checked = param(:modules_checked).include?(amod.id)
     href        = "abs_module/#{amod.id}/show"
     cb_name     = "signup_modules[#{amod.id}]"
