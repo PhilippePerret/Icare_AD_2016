@@ -1,32 +1,22 @@
-=== BENCHMARK DU 1 avril 2018 à 09:48 ===
-=== Index start : 1522565307.6709042 (2018-04-01 09:48:27 +0300)
+=== BENCHMARK DU 11 avril 2018 à 01:18 ===
+=== Index start : 1523398712.48813 (2018-04-11 01:18:32 +0300)
 
 -> site/config.rb                                       0.000000  0.000000
-<- site/config.rb                                       0.000096  0.000096
--> execute_preambule                                    0.019899  0.019995
-  -> User#do_after_load                                 0.000063  0.020058
-  <- User#do_after_load                                 0.000002  0.020060
-<- execute_preambule                                    0.000002  0.020062
--> required.rb                                         -0.353135 -0.333073
-<- required.rb                                          0.353137  0.020064
--> SiteHtml#output                                      0.000044  0.020108
-  -> SiteHtml#execute_route                             0.000002  0.020110
-      | Objet    = "aide"                                               - 
-      | Objet ID = 81                                                   - 
-      | Method   = "show"                                               - 
-      | Context  = nil                                  0.000096  0.020206
-    --> iroute.load_required                            0.000131  0.020337
-    <-- iroute.load_required                            0.007094  0.027431
-    --> iroute.load_per_vue                             0.000008  0.027439
-    <-- iroute.load_per_vue                             0.000218  0.027657
-    --> iroute.method_call                              0.000003  0.027660
-    <-- iroute.method_call                              0.000745  0.028405
-  <- SiteHtml#execute_route                             0.000005  0.028410
-  -> Page#preload                                       0.000011  0.028421
-  <- Page#preload                                       0.052439  0.080860
-  -> Page#prebuild_body                                 0.000011  0.080871
-    -> Page#body                                        0.000005  0.080876
-    <- Page#body                                        0.000676  0.081552
-  <- Page#prebuild_body                                 0.000019  0.081571
-  CODE HTML FINAL BUILT                                 0.000113  0.081684
-<- SiteHtml#output                                      0.000003  0.081687
+<- site/config.rb                                       0.000084  0.000084
+-> execute_preambule                                    0.064087  0.064171
+  -> User#do_after_load                                 0.000081  0.064252
+  <- User#do_after_load                                 0.000004  0.064256
+<- execute_preambule                                    0.000003  0.064259
+-> required.rb                                         -0.241797 -0.177538
+<- required.rb                                          0.241800  0.064262
+-> SiteHtml#output                                      0.000052  0.064314
+  -> SiteHtml#execute_route                             0.000004  0.064318
+  <- SiteHtml#execute_route                             0.000024  0.064342
+  -> Page#preload                                       0.000007  0.064349
+  <- Page#preload                                       0.018149  0.082498
+  -> Page#prebuild_body                                 0.000010  0.082508
+    -> Page#body                                        0.000004  0.082512
+    <- Page#body                                        0.000403  0.082915
+  <- Page#prebuild_body                                 0.000005  0.082920
+  CODE HTML FINAL BUILT                                 0.000112  0.083032
+<- SiteHtml#output                                      0.000002  0.083034

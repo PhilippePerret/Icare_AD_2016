@@ -21,8 +21,8 @@ class Aide
 
     # ---------------------------------------------------------------------
     # Tout ce qui concerne le travail sur un module
-    'module_apprentissage' => {hname: 'Module d\'apprentissage', titre: true},
-    200 => {hname: 'Liste et tarif des modules d’apprentissage'},
+    'module_apprentissage' => {hname: 'Modules d’accompagnement et d’apprentissage', titre: true},
+    200 => {hname: 'Liste et tarif des modules d’accompagnement et d’apprentissage'},
     201 => {hname: 'Durée réelle des modules'},
     # ---------------------------------------------------------------------
 
@@ -53,6 +53,7 @@ class Aide
 
     # ---------------------------------------------------------------------
     'divers'  => {hname: 'Divers', titre: true},
+    701 => {hname: 'Grand Livre des Lois de la Narration'},
     700 => {hname: 'Inscription visiteur pour le frigo'},
     80  => {hname: 'Paiement du module ou de l’échéance'},
     81  => {hname: 'Conditions Générales d’Utilisation'}
