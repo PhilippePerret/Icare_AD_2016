@@ -7,7 +7,7 @@ class << self
   def traite
     # On prend les users actifs et on les traite
     drequest = {
-      where: 'SUBSTRING(options,17,1) = "2"', # actifs
+      where: 'SUBSTRING(options,17,1) = "2" AND SUBSTRING(options,4,1) != "1"', # actifs
       colonnes: []
     }
     dbtable_users.select(drequest).each do |huser|
