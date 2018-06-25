@@ -18,7 +18,7 @@
                     # 9 => aucun mail
   options[16] = '4' # État de l'icarien
                     # 4 => inactif
-                    # Si 1, pas reçu, si 2 actif, 8 en pause
+                    # Si 1, pas reçu, si 2 actif, 3 en pause
   options[17] = '1' # jamais de mails
   options[18] = '0' # Direction après identification
   options[19] = '8' # Type de contact pour les autres icariens

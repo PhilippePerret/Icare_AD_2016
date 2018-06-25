@@ -58,8 +58,8 @@ CREATE TABLE users
     # ATTENTION : LES OPTIONS PEUVENT ÊTRE DÉFINIES :
     #   - de 0 à 15 pour restsite dans User/instance/options.rb
     #   - de 16 à 31 pour l'application :
+    #     - dans ./objet/user/lib/required/user/instance/options.rb
     #     - dans ./objet/site/config.rb (user_options)
-    #     - dans ./lib/app/required/user/options.rb
     options VARCHAR(32) NOT NULL,
 
     # SEXE

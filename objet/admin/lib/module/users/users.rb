@@ -27,7 +27,7 @@ class Users
     'inject_document' => {hname: 'Document envoyé par mail', medium_value: 'Nom du fichier'},
     'etape_change'    => {hname: 'Changement d’étape', short_value: 'Numéro de l’étape', long_value: nil},
     'code_sur_table'  => {hname: 'Exécution code sur données', short_value: nil, medium_value: nil, long_value: "Code à exécuter <strong>sur chaque icarien de la table</strong>, sur la table #{ONLINE ? 'ONLINE' : 'OFFLINE'} puis vous êtes #{ONLINE ? 'ONLINE' : 'OFFLINE'}.<br><br><code>dbtable_users.select.each do |huser|<br>&nbsp;&nbsp;uid = huser[:id]<br>&nbsp;&nbsp;u = User.new(uid)</code>"},
-    'pause_module'    => {hname: 'Mise en pause du module d’apprentissage'},
+    'pause_module'    => {hname: 'Mise en pause du module d’apprentissage',short_value: "X pour ne pas envoyer l'email"},
     'restart_module'  => {hname: 'Reprise du module d’apprentissage après pause'},
     'arret_module'    => {hname: 'Arrêt d’un module d’apprentissage', long_value: 'Si un texte (en HTML) est écrit ci-dessous, il sera considéré comme le supplément d’un mail à envoyer à l’icarien du module l’informant de l’arrêt/la fin de son module. Dans le cas contraire, le module sera simplement arrêté.'},
     'change_module'   => {hname: 'Changement de module', short_value: 'ID du nouveau module absolu d’apprentissage (on peut le trouver avec l’outils Bureau > Édition des étapes, c’est le nombre entre parenthèses après le nom du module)', medium_value: 'Numéro de la nouvelle étape dans le nouveau module (on peut l’obtenir avec l’outil Burea > Édition des étapes)'},

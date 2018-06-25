@@ -19,6 +19,7 @@ class IcModule
     new_pause = {start: Time.now.to_i, end: nil}
     new_pauses << new_pause
     set(options: options.set_bit(1,2), pauses: new_pauses.to_json)
+    owner.set_en_pause
   end
 
   # On stoppe un module qui doit être en pause.
@@ -34,6 +35,7 @@ class IcModule
       last_pause[:end] = Time.now.to_i
       new_pauses[-1] = last_pause
       set(options: options.set_bit(1,1), pauses: new_pauses.to_json)
+      owner.unset_en_pause
     else
       error "Ce module ne semble pas être en pause…"
     end
