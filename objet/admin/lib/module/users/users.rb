@@ -31,6 +31,7 @@ class Users
     'restart_module'  => {hname: 'Reprise du module d’apprentissage après pause'},
     'arret_module'    => {hname: 'Arrêt d’un module d’apprentissage', long_value: 'Si un texte (en HTML) est écrit ci-dessous, il sera considéré comme le supplément d’un mail à envoyer à l’icarien du module l’informant de l’arrêt/la fin de son module. Dans le cas contraire, le module sera simplement arrêté.'},
     'change_module'   => {hname: 'Changement de module', short_value: 'ID du nouveau module absolu d’apprentissage (on peut le trouver avec l’outils Bureau > Édition des étapes, c’est le nombre entre parenthèses après le nom du module)', medium_value: 'Numéro de la nouvelle étape dans le nouveau module (on peut l’obtenir avec l’outil Burea > Édition des étapes)'},
+    'temoignage'      => {hname: 'Nouveau témoignage', short_value: 'ID du témoignage si c’est une modification', medium_value: nil, long_value: "Code HTML du témoignage à ajouter"},
     'titre_projet'    => {hname: 'Définir le titre du projet', short_value: 'ID du IcModule si ça n’est pas le courant', medium_value: 'Titre du projet (ou rien pour le supprimer)'}
   }
 class << self

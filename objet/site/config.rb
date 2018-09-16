@@ -43,7 +43,7 @@ site.mails_out = [
 ]
 
 # Host local
-site.local_host   = 'localhost/AlwaysData/Icare_AD_2016'
+site.local_host   = 'localhost/AlwaysData/Icare_AD_2018'
 site.distant_host = 'www.atelier-icare.net'
 site.domain_url   = "http://#{site.distant_host}"
 

@@ -33,7 +33,8 @@ backto =
   # voulu rejoindre une page qui nécessitait une identification.
   page.error_in_page
   %>
-<form id="form_user_login" action="user/login" method="POST">
+
+<form id="form_user_login" action="user/login" method="POST" class="container">
   <div class="content"><%# ça définit le style %>
     <input tabindex="1" type="text" id="login_mail" name="login[mail]" placeholder="Votre mail" value="" />
     <input type="password" id="login_password" name="login[password]" placeholder="Votre code secret" value="" />

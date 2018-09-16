@@ -161,8 +161,16 @@ class String
     self.strip == ""
   end
 
+  # La méthode deserb retourne le code self ou le code du fichier self
+  # déserbé.
   def deserb bindee = nil
-    ERB::new(self).result(bindee)
+    code =
+      if File.exist?(self)
+        File.read(self)
+      else
+        self
+      end.force_encoding('utf-8')
+    ERB.new(code).result(bindee)
   end
 
   ##

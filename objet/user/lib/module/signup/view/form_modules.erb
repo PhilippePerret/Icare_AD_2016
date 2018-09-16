@@ -13,15 +13,14 @@ def liste_modules_checkboxable selecteds = nil
     href        = "abs_module/#{amod.id}/show"
     cb_name     = "signup_modules[#{amod.id}]"
     cb_id       = "signup_modules-#{amod.id}"
-    mod_detail  = 'Détail'.in_a(href: href, class: 'small', target: :new).in_span(class: 'link')
+    mod_detail  = " (#{'Détail'.in_a(href: href, class: 'small', target: :new)})"
     mod_name    = amod.name.in_span(class: 'name')
     mod_tarif   = "#{amod.tarif} €#{amod.type_suivi? ? ' / mois' : ''}".in_span(class: 'tarif')
-    mod_libelle = "#{mod_detail}#{mod_name} #{mod_tarif}"
+    mod_libelle = "#{mod_name} #{mod_tarif} #{mod_detail}"
     mod_libelle = mod_libelle.in_checkbox(name: cb_name, id: cb_id, checked: is_checked)
-    cbs_modules << mod_libelle.in_li(class: 'absmodule', id: "absmodule-#{amod.id}")
+    cbs_modules << mod_libelle.in_div(class: 'container', id: "absmodule-#{amod.id}")
   end
   # /fin boucle sur toutes les instances modules
-  cbs_modules = cbs_modules.in_ul(id:'abs_modules')
   return cbs_modules
 end
 
@@ -36,9 +35,9 @@ form.prefix = 'signup'
   liste_modules_checkboxable +
   form.submit_button('Enregistrer et poursuivre l’inscription')
 ).in_form(
-    class: 'dim3070',
-    id:     'form_modules',
-    action: site.current_route.route,
+    class:    'container',
+    id:       'form_modules',
+    action:   site.current_route.route,
     onsubmit: "return $.proxy(Signup,'check_modules')()"
     )
 

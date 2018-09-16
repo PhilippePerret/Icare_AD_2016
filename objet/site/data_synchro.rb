@@ -107,11 +107,11 @@ end
 class Synchro
 
   def base
-    @base ||= "http://localhost/AlwaysData/Icare_AD_2016/"
+    @base ||= "http://localhost/AlwaysData/Icare_AD_2018/"
   end
 
   def app_name
-    @app_name = "Icare_AD_2016"
+    @app_name = "Icare_AD_2018"
     # @app_name = "Atelier Icare"
   end
   # Le dossier contenant les librairies javascript de

@@ -24,7 +24,7 @@ class Cron
   # à l'administrateur si c'est nécessaire.
   def stop
     # On envoie le rapport à l'administrateur
-    Cron::Message.send_admin_report
+    # Cron::Message.send_admin_report
     # On écrit le rapport dans un fichier
     Cron::Message.write_report
   end

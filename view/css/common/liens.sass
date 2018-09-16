@@ -5,42 +5,25 @@
 
 a, a:hover, a:link, a:visited
   text-decoration       : none
-  font-family           : inherit
-  color                 : #4f606f // sera modifié ci-dessous pour les flash
   font-weight           : normal
-  font-size             : inherit
 
+  &.fond
+    color               : $darkcharte !important
   &.warning
     color               : red !important
   &.strong
     font-weight : bold !important
 
-  &.btn
-    &.tiny
-      font-size           : 11.3pt !important
-      padding             : 0.9px 11px 2.9px !important
-      letter-spacing      : 1px !important
-
 // Pour les liens sous forme de gros titre avec une première lettre
 // différente comme les liens principaux sur Boite Outils Auteur
 span.first_letter_main_link
-  font-size       : 24pt
-  color           : $darkcharte // #CAFF5B
+  font-size       : large
+  color           : $darkcharte
   font-weight     : bold
-  letter-spacing  : 3.1px
 span.other_letters_main_link
-  font-size       : 20pt
+  font-size       : large
   color           : #87D54D
   font-weight     : bold
-  letter-spacing  : 3.1px
-
-a.small
-  span.first_letter_main_link
-    font-size       : 16pt
-    letter-spacing  : 7px
-  span.other_letters_main_link
-    font-size       : 12pt
-    letter-spacing  : 7px
 
 a.mainlink
   &.current
@@ -82,10 +65,11 @@ a.lkaide
 
 // Dans la section contenu, on met les liens en orange, sauf pour
 // les onglets
-section#content
+div#content
   a
     &:link, &:visited, &:hover
-      color     : #ee9405 // à peine plus foncé que orange
+      &:not(.btn) // sauf pour les boutons
+        color     : #ee9405 // à peine plus foncé que orange
   // Les liens en gras
   .bold, strong
     a

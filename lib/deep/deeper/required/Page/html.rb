@@ -12,6 +12,18 @@ class Page
   alias :delimitor :html_separator
   alias :delimiter :html_separator
 
+  # Un séparateur à ajouter seulement quand c'est un mobile
+  # qui visite le site
+  def self.mobile_separator
+    <<-EOT
+    <div class="container mobile-only">
+      <div class="col">
+        &nbsp;
+      </div>
+    </div>
+    EOT
+  end
+
   # RETURN Le code HTML à copier dans la page en bas qui donne au lecteur
   # un nom de fichier pour nommer son fichier de correction
   def helper_filename_lecteur
@@ -122,8 +134,8 @@ OFFLINE = !ONLINE;
     low_opacity_margin = user.identified? ? "0.14" : "1"
     # low_opacity_margin = user.identified? ? "0.352" : "1"
 
-    content_left_margin   = left_margin? ? '134' : '10'
-    content_padding_left  = left_margin? ? '4em' : '0'
+    content_left_margin   = '10'
+    content_padding_left  = '0'
 
     <<-CSSS
 <style type="text/css">

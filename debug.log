@@ -3115,3 +3115,2226 @@ Objet    = "aide"
 Objet ID = 81
 Method   = "show"
 Context  = nil
+
+
+=== DEBUG DU 14 09 2018 - 09:47:37 ===
+
+-- (ERREUR : undefined local variable or method `head' for #<Page:0x007fadf291f800>
+Did you mean?  header)
+<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Page/vues.rb:27:in `preload'</div>
+<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Site/output.rb:35:in `output'</div>
+<div>/Users/philippeperret/Sites/Alwaysdata/Icare_AD_2018/index.rb:8:in `<main>'</div>
+
+
+=== DEBUG DU 14 09 2018 - 09:48:03 ===
+
+-- (ERREUR : undefined local variable or method `head' for #<Page:0x007fc94e1363d8>
+Did you mean?  header)
+<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Page/vues.rb:27:in `preload'</div>
+<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Site/output.rb:35:in `output'</div>
+<div>/Users/philippeperret/Sites/Alwaysdata/Icare_AD_2018/index.rb:8:in `<main>'</div>
+
+
+=== DEBUG DU 14 09 2018 - 09:48:36 ===
+
+-- (ERREUR : undefined local variable or method `head' for #<Page:0x007ff62a8db030>
+Did you mean?  header)
+<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Page/vues.rb:27:in `preload'</div>
+<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Site/output.rb:35:in `output'</div>
+<div>/Users/philippeperret/Sites/Alwaysdata/Icare_AD_2018/index.rb:8:in `<main>'</div>
+
+
+=== DEBUG DU 14 09 2018 - 09:50:08 ===
+
+-- (ERREUR : undefined local variable or method `head' for #<Page:0x007fbf79a9e350>
+Did you mean?  header)
+<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Page/vues.rb:27:in `preload'</div>
+<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Site/output.rb:35:in `output'</div>
+<div>/Users/philippeperret/Sites/Alwaysdata/Icare_AD_2018/index.rb:8:in `<main>'</div>
+
+
+=== DEBUG DU 14 09 2018 - 09:51:26 ===
+
+-- (ERREUR : undefined local variable or method `head' for #<Page:0x007fc861b431c0>
+Did you mean?  header)
+<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Page/vues.rb:27:in `preload'</div>
+<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Site/output.rb:35:in `output'</div>
+<div>/Users/philippeperret/Sites/Alwaysdata/Icare_AD_2018/index.rb:8:in `<main>'</div>
+
+
+=== DEBUG DU 14 09 2018 - 10:22:08 ===
+
+-- (ERREUR : undefined local variable or method `left_margin' for #<Page:0x007fda23b4ba90>
+Did you mean?  left_margin?
+               no_left_margin)
+<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Page/vues.rb:26:in `preload'</div>
+<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Site/output.rb:35:in `output'</div>
+<div>/Users/philippeperret/Sites/Alwaysdata/Icare_AD_2018/index.rb:8:in `<main>'</div>
+
+
+=== DEBUG DU 14 09 2018 - 10:24:37 ===
+
+-- (ERREUR : undefined local variable or method `left_margin' for #<Page:0x007f8e2b1f7b18>
+Did you mean?  left_margin?
+               no_left_margin)
+<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Page/vues.rb:26:in `preload'</div>
+<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Site/output.rb:35:in `output'</div>
+<div>/Users/philippeperret/Sites/Alwaysdata/Icare_AD_2018/index.rb:8:in `<main>'</div>
+
+
+=== DEBUG DU 14 09 2018 - 10:24:40 ===
+
+-- (ERREUR : undefined local variable or method `left_margin' for #<Page:0x007ffe001a32d0>
+Did you mean?  left_margin?
+               no_left_margin)
+<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Page/vues.rb:26:in `preload'</div>
+<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Site/output.rb:35:in `output'</div>
+<div>/Users/philippeperret/Sites/Alwaysdata/Icare_AD_2018/index.rb:8:in `<main>'</div>
+
+
+=== DEBUG DU 14 09 2018 - 10:28:04 ===
+
+-- (ERREUR : undefined local variable or method `left_margin' for #<Page:0x007fe5bb327460>
+Did you mean?  left_margin?
+               no_left_margin)
+<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Page/vues.rb:26:in `preload'</div>
+<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Site/output.rb:35:in `output'</div>
+<div>/Users/philippeperret/Sites/Alwaysdata/Icare_AD_2018/index.rb:8:in `<main>'</div>
+
+
+=== DEBUG DU 14 09 2018 - 10:28:37 ===
+
+-- (ERREUR : undefined local variable or method `left_margin' for #<Page:0x007ff3a5bef320>
+Did you mean?  left_margin?
+               no_left_margin)
+<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Page/vues.rb:26:in `preload'</div>
+<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Site/output.rb:35:in `output'</div>
+<div>/Users/philippeperret/Sites/Alwaysdata/Icare_AD_2018/index.rb:8:in `<main>'</div>
+
+
+=== DEBUG DU 14 09 2018 - 10:32:55 ===
+
+-- (ERREUR : undefined local variable or method `left_margin' for #<Page:0x007fe3dfb43258>
+Did you mean?  left_margin?
+               no_left_margin)
+<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Page/vues.rb:26:in `preload'</div>
+<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Site/output.rb:35:in `output'</div>
+<div>/Users/philippeperret/Sites/Alwaysdata/Icare_AD_2018/index.rb:8:in `<main>'</div>
+
+
+=== DEBUG DU 14 09 2018 - 15:36:37 ===
+
+-- (ERREUR : undefined local variable or method `left_margin' for #<Page:0x007fec5e9ebcc0>
+Did you mean?  left_margin?
+               no_left_margin)
+<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Page/vues.rb:26:in `preload'</div>
+<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Site/output.rb:35:in `output'</div>
+<div>/Users/philippeperret/Sites/Alwaysdata/Icare_AD_2018/index.rb:8:in `<main>'</div>
+
+
+=== DEBUG DU 14 09 2018 - 15:37:51 ===
+
+-- (ERREUR : undefined local variable or method `left_margin' for #<Page:0x007fc9cdb0b5f0>
+Did you mean?  left_margin?
+               no_left_margin)
+<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Page/vues.rb:26:in `preload'</div>
+<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Site/output.rb:35:in `output'</div>
+<div>/Users/philippeperret/Sites/Alwaysdata/Icare_AD_2018/index.rb:8:in `<main>'</div>
+
+
+=== DEBUG DU 14 09 2018 - 15:38:22 ===
+
+-- (ERREUR : undefined local variable or method `left_margin' for #<Page:0x007f8168263b58>
+Did you mean?  left_margin?
+               no_left_margin)
+<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Page/vues.rb:26:in `preload'</div>
+<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Site/output.rb:35:in `output'</div>
+<div>/Users/philippeperret/Sites/Alwaysdata/Icare_AD_2018/index.rb:8:in `<main>'</div>
+
+
+=== DEBUG DU 14 09 2018 - 15:48:33 ===
+
+-- (ERREUR : undefined local variable or method `left_margin' for #<Page:0x007fd216078f10>
+Did you mean?  left_margin?
+               no_left_margin)
+<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Page/vues.rb:26:in `preload'</div>
+<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Site/output.rb:35:in `output'</div>
+<div>/Users/philippeperret/Sites/Alwaysdata/Icare_AD_2018/index.rb:8:in `<main>'</div>
+
+
+=== DEBUG DU 14 09 2018 - 15:49:02 ===
+
+-- (ERREUR : undefined local variable or method `left_margin' for #<Page:0x007fd429aa0f78>
+Did you mean?  left_margin?
+               no_left_margin)
+<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Page/vues.rb:26:in `preload'</div>
+<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Site/output.rb:35:in `output'</div>
+<div>/Users/philippeperret/Sites/Alwaysdata/Icare_AD_2018/index.rb:8:in `<main>'</div>
+
+
+=== DEBUG DU 14 09 2018 - 15:50:43 ===
+
+-- (ERREUR : undefined local variable or method `left_margin' for #<Page:0x007f8aa28417f8>
+Did you mean?  left_margin?
+               no_left_margin)
+<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Page/vues.rb:26:in `preload'</div>
+<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Site/output.rb:35:in `output'</div>
+<div>/Users/philippeperret/Sites/Alwaysdata/Icare_AD_2018/index.rb:8:in `<main>'</div>
+
+
+=== DEBUG DU 14 09 2018 - 15:50:50 ===
+
+-- (ERREUR : undefined local variable or method `left_margin' for #<Page:0x007f7f361be3f8>
+Did you mean?  left_margin?
+               no_left_margin)
+<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Page/vues.rb:26:in `preload'</div>
+<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Site/output.rb:35:in `output'</div>
+<div>/Users/philippeperret/Sites/Alwaysdata/Icare_AD_2018/index.rb:8:in `<main>'</div>
+
+
+=== DEBUG DU 14 09 2018 - 15:52:20 ===
+
+-- (ERREUR : undefined local variable or method `left_margin' for #<Page:0x007fd28a3c7df0>
+Did you mean?  left_margin?
+               no_left_margin)
+<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Page/vues.rb:26:in `preload'</div>
+<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Site/output.rb:35:in `output'</div>
+<div>/Users/philippeperret/Sites/Alwaysdata/Icare_AD_2018/index.rb:8:in `<main>'</div>
+
+
+=== DEBUG DU 14 09 2018 - 15:55:17 ===
+
+-- (ERREUR : undefined local variable or method `left_margin' for #<Page:0x007ff19cbff460>
+Did you mean?  left_margin?
+               no_left_margin)
+<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Page/vues.rb:26:in `preload'</div>
+<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Site/output.rb:35:in `output'</div>
+<div>/Users/philippeperret/Sites/Alwaysdata/Icare_AD_2018/index.rb:8:in `<main>'</div>
+
+
+=== DEBUG DU 14 09 2018 - 15:55:24 ===
+
+-- (ERREUR : undefined local variable or method `left_margin' for #<Page:0x007fc2c2972200>
+Did you mean?  left_margin?
+               no_left_margin)
+<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Page/vues.rb:26:in `preload'</div>
+<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Site/output.rb:35:in `output'</div>
+<div>/Users/philippeperret/Sites/Alwaysdata/Icare_AD_2018/index.rb:8:in `<main>'</div>
+
+
+=== DEBUG DU 14 09 2018 - 15:55:30 ===
+
+-- (ERREUR : undefined local variable or method `left_margin' for #<Page:0x007fb8200c9218>
+Did you mean?  left_margin?
+               no_left_margin)
+<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Page/vues.rb:26:in `preload'</div>
+<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Site/output.rb:35:in `output'</div>
+<div>/Users/philippeperret/Sites/Alwaysdata/Icare_AD_2018/index.rb:8:in `<main>'</div>
+
+
+=== DEBUG DU 14 09 2018 - 16:00:13 ===
+
+-- (ERREUR : undefined local variable or method `left_margin' for #<Page:0x007faf7d96fee0>
+Did you mean?  left_margin?
+               no_left_margin)
+<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Page/vues.rb:26:in `preload'</div>
+<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Site/output.rb:35:in `output'</div>
+<div>/Users/philippeperret/Sites/Alwaysdata/Icare_AD_2018/index.rb:8:in `<main>'</div>
+
+
+=== DEBUG DU 14 09 2018 - 16:02:29 ===
+
+-- (ERREUR : undefined local variable or method `left_margin' for #<Page:0x007fce5a36be80>
+Did you mean?  left_margin?
+               no_left_margin)
+<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Page/vues.rb:26:in `preload'</div>
+<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Site/output.rb:35:in `output'</div>
+<div>/Users/philippeperret/Sites/Alwaysdata/Icare_AD_2018/index.rb:8:in `<main>'</div>
+
+
+=== DEBUG DU 14 09 2018 - 16:03:47 ===
+
+-- (ERREUR : undefined local variable or method `left_margin' for #<Page:0x007f8be037f708>
+Did you mean?  left_margin?
+               no_left_margin)
+<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Page/vues.rb:26:in `preload'</div>
+<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Site/output.rb:35:in `output'</div>
+<div>/Users/philippeperret/Sites/Alwaysdata/Icare_AD_2018/index.rb:8:in `<main>'</div>
+
+
+=== DEBUG DU 14 09 2018 - 16:34:35 ===
+
+-- (ERREUR : undefined local variable or method `left_margin' for #<Page:0x007fcfb289b618>
+Did you mean?  left_margin?
+               no_left_margin)
+<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Page/vues.rb:26:in `preload'</div>
+<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Site/output.rb:35:in `output'</div>
+<div>/Users/philippeperret/Sites/Alwaysdata/Icare_AD_2018/index.rb:8:in `<main>'</div>
+
+
+=== DEBUG DU 14 09 2018 - 16:35:00 ===
+
+-- (ERREUR : undefined local variable or method `left_margin' for #<Page:0x007f9145b23710>
+Did you mean?  left_margin?
+               no_left_margin)
+<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Page/vues.rb:26:in `preload'</div>
+<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Site/output.rb:35:in `output'</div>
+<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/index.rb:8:in `<main>'</div>
+
+
+=== DEBUG DU 14 09 2018 - 16:35:21 ===
+
+-- (ERREUR : undefined local variable or method `left_margin' for #<Page:0x007fd73d48a668>
+Did you mean?  left_margin?
+               no_left_margin)
+<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Page/vues.rb:26:in `preload'</div>
+<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Site/output.rb:35:in `output'</div>
+<div>/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/index.rb:8:in `<main>'</div>
+
+
+=== DEBUG DU 15 09 2018 - 08:50:32 ===
+
+-- incompatible character encodings: UTF-8 and US-ASCII
+
+(erb):13:in `concat'
+(erb):13:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Page/vues.rb:134:in `view'
+(erb):9:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Page/vues.rb:91:in `home'
+(erb):5:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Page/vues.rb:72:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/Alwaysdata/Icare_AD_2018/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 15 09 2018 - 08:50:48 ===
+
+-- incompatible character encodings: UTF-8 and US-ASCII
+
+(erb):13:in `concat'
+(erb):13:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Page/vues.rb:134:in `view'
+(erb):9:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Page/vues.rb:91:in `home'
+(erb):5:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Page/vues.rb:72:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/Alwaysdata/Icare_AD_2018/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 15 09 2018 - 09:10:37 ===
+
+-- undefined method `presentation_atelier' for Home:Class
+
+(erb):10:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Page/vues.rb:134:in `view'
+(erb):9:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Page/vues.rb:91:in `home'
+(erb):5:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Page/vues.rb:72:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/Alwaysdata/Icare_AD_2018/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 15 09 2018 - 09:21:17 ===
+
+-- undefined local variable or method `bouton_modules_dapprentissage' for #<SiteHtml:0x007fe91d0c3970>
+
+(erb):17:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Page/vues.rb:134:in `view'
+(erb):9:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Page/vues.rb:91:in `home'
+(erb):5:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Page/vues.rb:72:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/Alwaysdata/Icare_AD_2018/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 15 09 2018 - 09:21:39 ===
+
+-- undefined method `separation' for Home:Class
+
+(erb):25:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Page/vues.rb:134:in `view'
+(erb):9:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Page/vues.rb:91:in `home'
+(erb):5:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Page/vues.rb:72:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/Alwaysdata/Icare_AD_2018/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 15 09 2018 - 10:12:41 ===
+
+-- undefined local variable or method `mobile_separator' for #<ERB:0x007fa4079b55c0>
+
+(erb):23:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/extensions/String.rb:173:in `deserb'
+(erb):10:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Page/vues.rb:134:in `view'
+(erb):9:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Page/vues.rb:91:in `home'
+(erb):5:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Page/vues.rb:72:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/Alwaysdata/Icare_AD_2018/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 15 09 2018 - 10:16:11 ===
+
+-- undefined local variable or method `html_separator' for #<ERB:0x007f9978172b18>
+Did you mean?  mobile_separator
+
+(erb):31:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/extensions/String.rb:173:in `deserb'
+(erb):14:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Page/vues.rb:134:in `view'
+(erb):9:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Page/vues.rb:91:in `home'
+(erb):5:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Page/vues.rb:72:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/Alwaysdata/Icare_AD_2018/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 15 09 2018 - 10:16:24 ===
+
+-- undefined local variable or method `separator' for #<ERB:0x007fe3ae116388>
+
+(erb):31:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/extensions/String.rb:173:in `deserb'
+(erb):14:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Page/vues.rb:134:in `view'
+(erb):9:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Page/vues.rb:91:in `home'
+(erb):5:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Page/vues.rb:72:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/Alwaysdata/Icare_AD_2018/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 15 09 2018 - 10:16:34 ===
+
+-- undefined local variable or method `space' for #<ERB:0x007f961d9e56c8>
+
+(erb):31:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/extensions/String.rb:173:in `deserb'
+(erb):14:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Page/vues.rb:134:in `view'
+(erb):9:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Page/vues.rb:91:in `home'
+(erb):5:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Page/vues.rb:72:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/Alwaysdata/Icare_AD_2018/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 15 09 2018 - 10:29:48 ===
+
+-- undefined local variable or method `titre' for #<SiteHtml:0x007f9f238634a8>
+Did you mean?  title
+               title=
+               @title
+
+(erb):32:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Page/output.rb:106:in `user_links'
+(erb):28:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Page/output.rb:14:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Site/output.rb:37:in `output'
+/Users/philippeperret/Sites/Alwaysdata/Icare_AD_2018/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 15 09 2018 - 14:23:12 ===
+
+-- (erb):21: syntax error, unexpected keyword_else, expecting keyword_end
+;  else ; _erbout.concat "\n      <a href=\""
+       ^
+(erb):26: syntax error, unexpected keyword_end, expecting end-of-input
+
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Page/output.rb:96:in `hotlinks'
+(erb):4:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/extensions/String.rb:173:in `deserb'
+(erb):26:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Page/output.rb:14:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Site/output.rb:37:in `output'
+/Users/philippeperret/Sites/Alwaysdata/Icare_AD_2018/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 15 09 2018 - 14:40:45 ===
+
+-- Le fichier/dossier “./view/gabarit/hotlinks.erb” est inexistant
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:38:in `read'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Page/output.rb:96:in `hotlinks'
+(erb):4:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/extensions/String.rb:173:in `deserb'
+(erb):26:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Page/output.rb:14:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Site/output.rb:37:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 15 09 2018 - 14:48:19 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signin"
+Context  = nil
+
+
+=== DEBUG DU 15 09 2018 - 14:55:13 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signin"
+Context  = nil
+
+
+=== DEBUG DU 15 09 2018 - 14:55:24 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+-- param(:backto) mis à "bureau/home"
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signin"
+Context  = nil
+
+
+=== DEBUG DU 15 09 2018 - 14:55:29 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "profil"
+Context  = nil
+-- param(:backto) mis à "user/profil"
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signin"
+Context  = nil
+
+
+=== DEBUG DU 15 09 2018 - 14:55:32 ===
+
+-- 
+Objet    = "aide"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 15 09 2018 - 14:55:41 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+-- param(:backto) mis à "bureau/home"
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signin"
+Context  = nil
+
+
+=== DEBUG DU 15 09 2018 - 14:56:16 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+-- param(:backto) mis à "bureau/home"
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signin"
+Context  = nil
+
+
+=== DEBUG DU 15 09 2018 - 15:08:03 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+-- param(:backto) mis à "bureau/home"
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signin"
+Context  = nil
+
+
+=== DEBUG DU 15 09 2018 - 15:08:20 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+-- param(:backto) mis à "bureau/home"
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signin"
+Context  = nil
+
+
+=== DEBUG DU 15 09 2018 - 15:08:41 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "login"
+Context  = nil
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 15 09 2018 - 15:11:31 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 15 09 2018 - 15:13:15 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 15 09 2018 - 15:13:21 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signout"
+Context  = nil
+
+
+=== DEBUG DU 15 09 2018 - 15:14:04 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signout"
+Context  = nil
+
+
+=== DEBUG DU 15 09 2018 - 15:14:09 ===
+
+-- 
+Objet    = "user"
+Objet ID = 1
+Method   = "deconnexion"
+Context  = nil
+
+
+=== DEBUG DU 15 09 2018 - 15:14:17 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signin"
+Context  = nil
+
+
+=== DEBUG DU 15 09 2018 - 15:14:52 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signin"
+Context  = nil
+
+
+=== DEBUG DU 15 09 2018 - 15:15:24 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signin"
+Context  = nil
+
+
+=== DEBUG DU 15 09 2018 - 15:16:38 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signin"
+Context  = nil
+
+
+=== DEBUG DU 15 09 2018 - 15:16:44 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "deconnexion"
+Context  = nil
+
+
+=== DEBUG DU 15 09 2018 - 15:18:22 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signin"
+Context  = nil
+
+
+=== DEBUG DU 15 09 2018 - 15:18:28 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signin"
+Context  = nil
+
+
+=== DEBUG DU 15 09 2018 - 15:20:01 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signin"
+Context  = nil
+
+
+=== DEBUG DU 15 09 2018 - 15:22:03 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signin"
+Context  = nil
+
+
+=== DEBUG DU 15 09 2018 - 15:23:28 ===
+
+-- 
+Objet    = "aide"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 15 09 2018 - 15:26:08 ===
+
+-- 
+Objet    = "aide"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 15 09 2018 - 15:28:08 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signin"
+Context  = nil
+
+
+=== DEBUG DU 15 09 2018 - 15:28:31 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signin"
+Context  = nil
+
+
+=== DEBUG DU 15 09 2018 - 16:03:10 ===
+
+-- undefined method `deserbn' for "./objet/site/lib/module/home/citation.erb":String
+Did you mean?  deserb
+
+(erb):24:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Page/vues.rb:134:in `view'
+(erb):9:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Page/vues.rb:91:in `home'
+(erb):5:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Page/vues.rb:72:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 15 09 2018 - 16:05:19 ===
+
+-- undefined local variable or method `hcitation' for #<ERB:0x007fa9ad9830d8>
+
+(erb):10:in `citation_avec_guillemets'
+(erb):20:in `result'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/extensions/String.rb:173:in `deserb'
+(erb):24:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Page/vues.rb:134:in `view'
+(erb):9:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Page/vues.rb:91:in `home'
+(erb):5:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Page/vues.rb:72:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 15 09 2018 - 16:10:56 ===
+
+-- 
+Objet    = "bureau"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+-- param(:backto) mis à "bureau/home"
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signin"
+Context  = nil
+
+
+=== DEBUG DU 15 09 2018 - 16:11:10 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signin"
+Context  = nil
+
+
+=== DEBUG DU 15 09 2018 - 16:12:20 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "profil"
+Context  = nil
+-- param(:backto) mis à "user/profil"
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signin"
+Context  = nil
+
+
+=== DEBUG DU 15 09 2018 - 16:14:42 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "profil"
+Context  = nil
+-- param(:backto) mis à "user/profil"
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signin"
+Context  = nil
+
+
+=== DEBUG DU 15 09 2018 - 16:15:43 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "profil"
+Context  = nil
+-- param(:backto) mis à "user/profil"
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signin"
+Context  = nil
+
+
+=== DEBUG DU 15 09 2018 - 16:16:25 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "profil"
+Context  = nil
+-- param(:backto) mis à "user/profil"
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signin"
+Context  = nil
+
+
+=== DEBUG DU 15 09 2018 - 16:17:34 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "profil"
+Context  = nil
+-- param(:backto) mis à "user/profil"
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signin"
+Context  = nil
+
+
+=== DEBUG DU 15 09 2018 - 16:19:36 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 15 09 2018 - 16:20:12 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 15 09 2018 - 16:20:28 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 15 09 2018 - 16:22:36 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 15 09 2018 - 16:24:19 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 15 09 2018 - 16:24:24 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 15 09 2018 - 16:24:32 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 15 09 2018 - 16:25:04 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 15 09 2018 - 16:25:48 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 15 09 2018 - 16:27:14 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 15 09 2018 - 16:30:43 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 15 09 2018 - 16:31:30 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 15 09 2018 - 16:31:38 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 15 09 2018 - 16:31:53 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 15 09 2018 - 16:32:25 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 15 09 2018 - 16:33:27 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 15 09 2018 - 18:03:49 ===
+
+-- 
+Objet    = "aide"
+Objet ID = 100
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 15 09 2018 - 18:04:20 ===
+
+-- 
+Objet    = "aide"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 15 09 2018 - 18:05:30 ===
+
+-- 
+Objet    = "aide"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 15 09 2018 - 18:10:50 ===
+
+-- 
+Objet    = "aide"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 15 09 2018 - 18:12:39 ===
+
+-- 
+Objet    = "aide"
+Objet ID = nil
+Method   = "home"
+Context  = nil
+
+
+=== DEBUG DU 16 09 2018 - 05:08:36 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 16 09 2018 - 05:16:55 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 16 09 2018 - 05:20:45 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 16 09 2018 - 05:22:10 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 16 09 2018 - 05:23:09 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 16 09 2018 - 05:25:20 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 16 09 2018 - 05:25:40 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 16 09 2018 - 05:25:51 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 16 09 2018 - 05:26:06 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 16 09 2018 - 05:28:10 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 16 09 2018 - 05:29:08 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 16 09 2018 - 05:29:41 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 16 09 2018 - 05:29:52 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 16 09 2018 - 05:30:07 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 16 09 2018 - 05:37:18 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 16 09 2018 - 05:37:57 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 16 09 2018 - 05:39:11 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 16 09 2018 - 05:39:34 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 16 09 2018 - 05:40:02 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 16 09 2018 - 05:40:11 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 16 09 2018 - 05:40:29 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 16 09 2018 - 05:47:23 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 16 09 2018 - 05:51:18 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 16 09 2018 - 05:51:49 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 16 09 2018 - 05:52:44 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 16 09 2018 - 05:53:47 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 16 09 2018 - 05:54:03 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 16 09 2018 - 05:55:42 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 16 09 2018 - 05:56:03 ===
+
+-- 
+Objet    = "aide"
+Objet ID = 100
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 16 09 2018 - 05:56:42 ===
+
+-- 
+Objet    = "aide"
+Objet ID = 100
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 16 09 2018 - 05:57:01 ===
+
+-- 
+Objet    = "aide"
+Objet ID = 100
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 16 09 2018 - 05:59:36 ===
+
+-- 
+Objet    = "aide"
+Objet ID = 100
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 16 09 2018 - 06:02:03 ===
+
+-- 
+Objet    = "aide"
+Objet ID = 100
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 16 09 2018 - 06:02:20 ===
+
+-- 
+Objet    = "aide"
+Objet ID = 100
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 16 09 2018 - 06:02:52 ===
+
+-- 
+Objet    = "aide"
+Objet ID = 100
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 16 09 2018 - 06:04:54 ===
+
+-- 
+Objet    = "aide"
+Objet ID = 100
+Method   = "show"
+Context  = nil
+
+
+=== DEBUG DU 16 09 2018 - 06:05:13 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 16 09 2018 - 06:05:34 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 16 09 2018 - 06:09:35 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 16 09 2018 - 06:12:36 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 16 09 2018 - 06:12:47 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 16 09 2018 - 06:16:30 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 16 09 2018 - 06:16:55 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 16 09 2018 - 06:17:19 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 16 09 2018 - 06:17:35 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 16 09 2018 - 06:17:41 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 16 09 2018 - 06:17:49 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 16 09 2018 - 06:18:03 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 16 09 2018 - 06:18:24 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 16 09 2018 - 06:19:41 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 16 09 2018 - 06:19:54 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 16 09 2018 - 06:20:44 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 16 09 2018 - 06:21:05 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 16 09 2018 - 06:22:30 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 16 09 2018 - 06:22:45 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 16 09 2018 - 06:23:20 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 16 09 2018 - 06:23:28 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 16 09 2018 - 06:23:38 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 16 09 2018 - 06:24:28 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 16 09 2018 - 06:24:36 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 16 09 2018 - 06:25:05 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 16 09 2018 - 06:25:19 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 16 09 2018 - 06:25:38 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 16 09 2018 - 06:26:50 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 16 09 2018 - 06:27:21 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 16 09 2018 - 06:27:38 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 16 09 2018 - 06:28:01 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 16 09 2018 - 06:28:45 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 16 09 2018 - 06:35:43 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 16 09 2018 - 06:37:17 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 16 09 2018 - 06:38:12 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 16 09 2018 - 06:39:00 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 16 09 2018 - 06:39:11 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 16 09 2018 - 06:39:14 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 16 09 2018 - 06:39:31 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 16 09 2018 - 06:42:02 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 16 09 2018 - 06:44:18 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 16 09 2018 - 06:45:11 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 16 09 2018 - 06:46:01 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 16 09 2018 - 06:46:18 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 16 09 2018 - 06:46:51 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 16 09 2018 - 06:48:14 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 16 09 2018 - 06:49:37 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 16 09 2018 - 06:50:29 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 16 09 2018 - 06:50:42 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 16 09 2018 - 06:50:55 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 16 09 2018 - 06:51:03 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 16 09 2018 - 06:53:03 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+-- (erb):23: syntax error, unexpected keyword_return, expecting ')'
+    onsubmit: "return $.proxy(Signup,'check_documents')()"
+                     ^
+(erb):23: syntax error, unexpected '(', expecting ')'
+    onsubmit: "return $.proxy(Signup,'check_documents')()"
+                                                        ^
+(erb):26: syntax error, unexpected $undefined, expecting ')'
+).to_s); _erbout.concat "\n"
+                          ^
+(erb):26: unterminated string meets end of file
+(erb):26: syntax error, unexpected end-of-input, expecting ')'
+; _erbout.force_encoding(__ENCODING__)
+                                      ^
+
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/objet/user/lib/module/signup/helper/helper.rb:32:in `view'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/objet/user/lib/module/signup/pages_states.rb:15:in `page_form_documents'
+(erb):37:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Page/vues.rb:104:in `content_route'
+(erb):5:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Page/vues.rb:72:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 16 09 2018 - 06:53:43 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+-- undefined method `submit_button' for "Enregistrer la candidature":String
+
+(erb):17:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/objet/user/lib/module/signup/helper/helper.rb:32:in `view'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/objet/user/lib/module/signup/pages_states.rb:15:in `page_form_documents'
+(erb):37:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Page/vues.rb:104:in `content_route'
+(erb):5:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Page/vues.rb:72:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 16 09 2018 - 06:54:05 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 16 09 2018 - 06:57:30 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 16 09 2018 - 06:59:57 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 16 09 2018 - 07:04:12 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 16 09 2018 - 07:04:16 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 16 09 2018 - 07:04:18 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 16 09 2018 - 07:05:21 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 16 09 2018 - 07:06:23 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+-- Impossible de trouver les données d’identité. Je ne peux pas créer votre candidature.
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/objet/user/lib/module/signup/operation/create_candidature.rb:40:in `all_data_valides?'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/objet/user/lib/module/signup/operation/create_candidature.rb:9:in `create_candidature'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/objet/user/lib/module/signup/traite_operation.rb:14:in `traite_operation'
+(erb):16:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Page/vues.rb:104:in `content_route'
+(erb):5:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Page/vues.rb:72:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 16 09 2018 - 07:07:03 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+-- Impossible de trouver les données d’identité. Je ne peux pas créer votre candidature.
+
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/objet/user/lib/module/signup/operation/create_candidature.rb:40:in `all_data_valides?'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/objet/user/lib/module/signup/operation/create_candidature.rb:9:in `create_candidature'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/objet/user/lib/module/signup/traite_operation.rb:14:in `traite_operation'
+(erb):16:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Vue/inst.rb:27:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Page/vues.rb:104:in `content_route'
+(erb):5:in `bind'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `eval'
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/erb.rb:864:in `result'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/gem/superfile/lib/superfile/instance/io.rb:113:in `deserb'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Page/vues.rb:72:in `content'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Page/vues.rb:25:in `preload'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/lib/deep/deeper/required/Site/output.rb:35:in `output'
+/Users/philippeperret/Sites/AlwaysData/Icare_AD_2018/index.rb:8:in `<main>'
+
+
+=== DEBUG DU 16 09 2018 - 07:07:26 ===
+
+-- 
+Objet    = "user"
+Objet ID = nil
+Method   = "signup"
+Context  = nil
+
+
+=== DEBUG DU 16 09 2018 - 07:09:29 ===
+
+-- 
+Objet    = "abs_module"
+Objet ID = nil
+Method   = "list"
+Context  = nil
+
+
+=== DEBUG DU 16 09 2018 - 07:16:05 ===
+
+-- 
+Objet    = "abs_module"
+Objet ID = nil
+Method   = "list"
+Context  = nil

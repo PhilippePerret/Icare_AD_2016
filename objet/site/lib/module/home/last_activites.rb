@@ -29,7 +29,7 @@ class << self
         SiteHtml::Actualite.listing_accueil
       end
     (
-      'Dernières activités'.in_legend +
+      'Dernières activités'.in_div(class:'titre') +
       dernieres_activites
     ).in_div(id: 'div_last_actualites')
   end

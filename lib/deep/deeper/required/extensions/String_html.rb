@@ -288,13 +288,17 @@ class String
     attrs[:class] = [attrs[:class]] if attrs[:class].class == String
     attrs[:class] << (is_radio ? 'ra' : 'cb')
 
-    span_class = attrs.delete(:class).join(' ')
+    span_class = attrs.delete(:class)
+    span_class = span_class.join(' ')
     # Code retourné
-    ("".in_input(attrs) +
-    label.
-      in_label(:for => attrs[:id], :class => label_class))
-      .in_span(id: "div-#{attrs[:id]}", class: span_class)
+    (
+      "".in_input(attrs.merge(class: 'form-check-input')) +
+      label.in_label(for: attrs[:id], class: 'form-check-label')
+    ).
+      in_div(class: 'form-check').
+      in_div(class:'form-group')
   end
+  
   def in_hidden attrs = nil
     self.in_input(attrs.merge :type => 'hidden')
   end

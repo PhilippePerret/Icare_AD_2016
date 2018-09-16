@@ -4,7 +4,7 @@
 =end
 class App
 
-  LOCAL_FULL_URL = 'http://localhost/AlwaysData/Icare_AD_2016'
+  LOCAL_FULL_URL = 'http://localhost/AlwaysData/Icare_AD_2018'
 
 class << self
 

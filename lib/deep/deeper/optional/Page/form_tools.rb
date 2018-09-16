@@ -136,10 +136,9 @@ class Page
       # Le bouton submit
       def submit_button button_name, options = nil
         options ||= Hash.new
-        (
-          (options[:libelle]||"").in_span(class:'libelle') +
-          button_name.in_submit(options.merge(class:'btn')).in_span(class:'value')
-        ).in_div(class:'row right')
+        button_name.in_submit(options.merge(class:'btn btn-primary')).
+          in_div(class:'row right center-mobile').
+          in_div(class:'container')
       end
 
 
@@ -266,6 +265,7 @@ class Page
 
       def form_row_css
         (
+          "form-group " + # bootstrp
           "row" +
           Page::FormTools.exergue_field?(property) +
           Page::FormTools.error_field?(property) +
@@ -296,7 +296,8 @@ class Page
       # -------------------------
       def span_libelle
         @span_libelle ||= begin
-          libelle.to_s.in_span( class: options[:span_libelle_class] )
+          "<label for=\"#{field_id}\">#{libelle}</label>"
+          # libelle.to_s.in_span( class: options[:span_libelle_class] )
         end
       end
 
@@ -304,22 +305,24 @@ class Page
       # valeur, c'est-à-dire le champ d'édition
       def span_value
         @span_value ||= begin
-          (
-            text_before + field + text_after
-          )
-          .in_span(class: options[:span_value_class])
+          text_before + field + text_after
+          # (
+          #   text_before + field + text_after
+          # )
+          # .in_span(class: options[:span_value_class])
         end
       end
 
       # Retourne le code HTML/Javascript permettant de sélectionner
       # certaines valeurs par javascript.
       # Cela est nécessaire pour palier le fait que les select n'affichent
-      # pas toujours la valeur sélectionnée malgré l'insertion corrected
+      # pas toujours la valeur sélectionnée malgré l'insertion correcte
       # d'un SELECTED.
       # Note : Ce code ne sert que pour le select courant.
+      # OBSOLÈTE
       def code_javascript
-        return "" if @javascripts.nil?
-        "<script type='text/javascript'>"+@javascripts.join(";\n")+"</script>"
+        return '' #if @javascripts.nil?
+        # "<script type='text/javascript'>"+@javascripts.join(";\n")+"</script>"
       end
 
       # {StringHTML} Return le champ d'édition seul
@@ -369,7 +372,15 @@ class Page
       def field_checkbox
         # Note : Pour un champ checkbox, le libellé sert de texte pour la
         # case à cocher, pas de libellé (qui est supprimé par défaut)
-        cb_label.in_checkbox( field_attrs.merge(checked: (field_value == 'on' || field_value == true)) )
+        <<~EOC
+        <div class="form-group">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="#{field_name}" id="#{field_id}" #{field_value=='on' ? ' CHECKED' : ''}>
+            <label class="form-check-label" for="#{field_id}">#{cb_label}</label>
+          </div>
+        </div>
+        EOC
+        # cb_label.in_checkbox( field_attrs.merge(checked: (field_value == 'on' || field_value == true)) )
       end
 
       def field_radio
@@ -401,6 +412,7 @@ class Page
         css = (options[:class]||"").split(' ')
         css << 'exergue' if exergue
         css << 'warning' if warning
+        css << 'form-control' # bootstrap
         css.join(' ')
       end
 

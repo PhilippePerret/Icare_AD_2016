@@ -20,11 +20,10 @@ class Page
   def preload
     return if site.ajax?
     app.benchmark('-> Page#preload')
-    header
+    # header
     footer
     content
-    left_margin
-    head
+    # head # N'existe plus
     @content = page.error_standard(fatal_error) unless fatal_error.nil?
     app.benchmark('<- Page#preload')
   rescue Exception => e
@@ -84,15 +83,6 @@ class Page
   # (JE NE COMPRENDS PAS LE MESSAGE CI-DESSUS...)
   def content= value
     @content_route = value
-  end
-
-  def left_margin
-    @left_margin ||= begin
-      Vue.new('left_margin', site.folder_custom_gabarit).output
-    rescue Exception => e
-      self.fatal_error = e
-      "[PROBLÈME DE LEFT-MARGIN : #{e.message}]"
-    end
   end
 
   # Page d'accueil (quand aucune route n'est définie ou que la

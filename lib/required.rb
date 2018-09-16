@@ -22,6 +22,7 @@ def main_safe_log_path
   @main_safe_log_path ||= "./safed.log"
 end
 
+
 # ONLY_REQUIRE est définie pour essayer de ne faire que
 # charger les modules par le Terminal, sinon on se
 # retrouve avec CGI qui attend des pairs de variable
@@ -30,6 +31,11 @@ defined?(ONLY_REQUIRE) || ONLY_REQUIRE = false
 defined?(ONLINE) || begin
   ONLINE  = ENV['HTTP_HOST'] != "localhost"
   OFFLINE = !ONLINE
+end
+
+# Pour sasser les fichiers en OFFLINE
+if OFFLINE
+  require './_Dev_/sass_all'
 end
 
 def require_folder dossier
